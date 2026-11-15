@@ -1,0 +1,8 @@
+node_modules
+.nuxt
+.output
+.firebase
+coverage
+package-lock.json
+CHANGELOG.md
+data/questions/*.json

@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules
+.nuxt
+.output
+.data
+dist
+coverage
+
+# Environment and secrets: never commit these
+.env
+.env.*
+!.env.example
+*-firebase-adminsdk-*.json
+serviceAccount*.json
+service-account*.json
+application_default_credentials.json
+*.pem
+
+# Firebase local state
+.firebase
+firebase-debug.log*
+firestore-debug.log
+ui-debug.log
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+.idea
+.vscode
