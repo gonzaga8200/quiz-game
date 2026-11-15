@@ -1,0 +1,35 @@
+[
+  {
+    "id": "cien-planeta-mas-grande",
+    "text": "¿Cuál es el planeta más grande del sistema solar?",
+    "options": ["Saturno", "Júpiter", "Neptuno", "Urano"],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Júpiter es tan grande que en su interior cabrían más de mil Tierras.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-simbolo-quimico-oro",
+    "text": "¿Cuál es el símbolo químico del oro?",
+    "options": ["Ag", "Fe", "Au", "Pt"],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Au viene del latín «aurum»; Ag, la plata, viene de «argentum».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-numero-atomico-wolframio",
+    "text": "¿Cuál es el número atómico del wolframio?",
+    "options": ["72", "73", "74", "75"],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El wolframio (W) es el elemento 74; el hafnio es el 72, el tántalo el 73 y el renio el 75.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  }
+]

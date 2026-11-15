@@ -1,0 +1,35 @@
+[
+  {
+    "id": "arte-quijote-autor",
+    "text": "¿Quién escribió «Don Quijote de la Mancha»?",
+    "options": ["Lope de Vega", "Miguel de Cervantes", "Francisco de Quevedo", "Pedro Calderón de la Barca"],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Cervantes publicó la primera parte en 1605 y la segunda en 1615.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-meninas-pintor",
+    "text": "¿Quién pintó «Las Meninas»?",
+    "options": ["Francisco de Goya", "Bartolomé Esteban Murillo", "Diego Velázquez", "José de Ribera"],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Velázquez la pintó en 1656 y hoy se conserva en el Museo del Prado.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-premio-cervantes-primera-edicion",
+    "text": "¿En qué año se concedió por primera vez el Premio Cervantes?",
+    "options": ["1974", "1975", "1976", "1977"],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "El premio se creó en 1975, pero el primero se entregó en 1976 al poeta Jorge Guillén.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  }
+]
