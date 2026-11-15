@@ -61,7 +61,40 @@ Cloud Functions). Authentication and Firestore are used from the browser.
 
 ## Assumptions
 
-_Filled in as each phase lands._
+Decisions taken where the brief left room. Change them in `core/` and the tests will tell
+you what else moves.
+
+**Game rules (`core/`)**
+
+- Skipping does not reset the combo, and a skipped question is reported as "skipped",
+  never as wrong.
+- The score never goes below 0. Penalties are recorded as the points _actually_
+  deducted, so the report breakdown always adds up to the total.
+- Each combo bonus (+2 at 3, +4 at 5, +8 at 10 in a row) is awarded once per streak, when
+  that exact length is reached. A wrong answer resets the streak, so a bonus can be earned
+  again later. There is no bonus beyond a streak of 10.
+- The timer keeps running during the ~600 ms feedback after an answer. A question answered
+  before the clock hits zero counts even if the animation runs past it. A question still
+  open when the clock hits zero is discarded.
+- Questions are drawn in uniformly random order, with options shuffled at play time. If
+  the bank runs out before the time does, the game ends early.
+- Celebration tiers (confetti emojis) are based on points per minute, so 60 s and 120 s
+  games are comparable: 150+ trophy, 90+ party, 45+ applause, 15+ thumbs up, otherwise a
+  gentle encouragement. Thresholds live in `core/celebration.ts`.
+
+**Data**
+
+- Category and difficulty values are stored exactly as written in the brief (`"Historia y
+Geografía"`, `"muy fácil"`...), accents included. Ranking board ids use ASCII slugs
+  (`60_aleatorio`, `120_dificil`).
+- Question ids are lowercase slugs chosen by whoever writes the question; the validator
+  checks they are unique across all files.
+- Unknown fields are rejected by the schema, so typos in question files fail loudly.
+
+**Tooling**
+
+- Node 24 in CI and `.nvmrc`; the code needs Node 22.12 or newer.
+- A project `.npmrc` pins the public npm registry.
 
 ## Known limitations
 
