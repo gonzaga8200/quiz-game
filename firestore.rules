@@ -1,0 +1,75 @@
+rules_version = '2';
+
+// Contrarreloj security rules.
+//
+// - Questions: anyone can read the active ones. Nobody can write from a client
+//   (questions are imported with the Admin SDK, which bypasses these rules).
+// - Rankings: one document per player per board at
+//   rankings/{duration}_{filter}/entries/{uid}. Anyone can read. A signed-in player
+//   can only write their own document, only with valid fields and ranges, and only
+//   to replace a lower score with a higher one.
+//
+// Keep the numbers below in sync with core/constants.ts (a test checks this).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /questions/{questionId} {
+      allow read: if resource.data.status == 'active';
+      allow write: if false;
+    }
+
+    match /rankings/{boardId}/entries/{uid} {
+      allow read: if true;
+      allow create: if isValidEntry(boardId, uid);
+      allow update: if isValidEntry(boardId, uid)
+        && request.resource.data.points > resource.data.points;
+      allow delete: if false;
+    }
+
+    // Anything not listed above is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function filterSlug(filter) {
+      return {
+        'Aleatorio': 'aleatorio',
+        'Fácil': 'facil',
+        'Medio': 'medio',
+        'Difícil': 'dificil'
+      }[filter];
+    }
+
+    function isValidEntry(boardId, uid) {
+      let d = request.resource.data;
+      return request.auth != null
+        && request.auth.uid == uid
+        && d.keys().hasOnly([
+          'uid', 'displayName', 'photoURL', 'points', 'correct', 'wrong', 'skipped',
+          'duration', 'difficultyFilter', 'createdAt'
+        ])
+        && d.keys().hasAll([
+          'uid', 'displayName', 'photoURL', 'points', 'correct', 'wrong', 'skipped',
+          'duration', 'difficultyFilter', 'createdAt'
+        ])
+        && d.uid == uid
+        && d.displayName is string
+        && d.displayName.size() >= 1 && d.displayName.size() <= 60
+        && (d.photoURL == null
+            || (d.photoURL is string && d.photoURL.size() <= 500
+                && d.photoURL.matches('https://.*')))
+        && d.points is int && d.points >= 0
+        && d.correct is int && d.correct >= 0
+        && d.wrong is int && d.wrong >= 0
+        && d.skipped is int && d.skipped >= 0
+        && d.duration in [60, 120]
+        && d.difficultyFilter in ['Aleatorio', 'Fácil', 'Medio', 'Difícil']
+        && boardId == string(d.duration) + '_' + filterSlug(d.difficultyFilter)
+        // At most one answered question per second.
+        && d.correct + d.wrong + d.skipped <= d.duration
+        // 17 = MAX_POINTS_PER_CORRECT in core/constants.ts
+        && d.points <= d.correct * 17
+        && d.createdAt == request.time;
+    }
+  }
+}

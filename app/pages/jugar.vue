@@ -2,11 +2,13 @@
 import type { GameReport, Question } from '~~/core'
 
 useHead({ title: 'Jugando' })
+definePageMeta({ middleware: 'auth' })
 
 const route = useRoute()
 const savedSetup = useGameSetup()
 const { load } = useQuestionBank()
 const sound = useSound()
+const submission = useScoreSubmission()
 
 // Arcade is fixed; competitive options come from the setup screen.
 const setup = computed(() => (route.query.modo === 'arcade' ? ARCADE_SETUP : savedSetup.value))
@@ -26,8 +28,14 @@ async function loadQuestions(): Promise<void> {
   }
 }
 
+// Competitive games are saved to the ranking as soon as they end.
+watch(report, (finished) => {
+  if (finished && setup.value?.mode === 'competitive') void submission.submit(finished)
+})
+
 function playAgain(): void {
   sound.unlock()
+  submission.reset()
   report.value = null
   run.value += 1
 }
@@ -55,12 +63,16 @@ onMounted(() => {
         </div>
       </div>
 
-      <ReportScreen
-        v-else-if="report"
-        :report="report"
-        @again="playAgain"
-        @menu="navigateTo('/')"
-      />
+      <ReportScreen v-else-if="report" :report="report" @again="playAgain" @menu="navigateTo('/')">
+        <template v-if="setup.mode === 'competitive'" #ranking>
+          <RankingResult
+            :state="submission.state.value"
+            :duration="setup.duration"
+            :filter="setup.filter"
+            @retry="submission.retry"
+          />
+        </template>
+      </ReportScreen>
 
       <GamePlay
         v-else

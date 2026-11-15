@@ -25,6 +25,17 @@ export default defineConfig({
         },
       },
       {
+        // Needs the Firestore emulator: run with `npm run test:rules`.
+        extends: true,
+        test: {
+          name: 'rules',
+          environment: 'node',
+          include: ['tests/rules/**/*.test.ts'],
+          testTimeout: 20_000,
+          hookTimeout: 30_000,
+        },
+      },
+      {
         extends: true,
         test: {
           name: 'app',
