@@ -4,7 +4,14 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
   {
-    ignores: ['.output/**', '.nuxt/**', 'coverage/**', '.firebase/**', 'node_modules/**'],
+    ignores: [
+      '.output/**',
+      '.nuxt/**',
+      'coverage/**',
+      '.vitest/**',
+      '.firebase/**',
+      'node_modules/**',
+    ],
   },
   {
     // core/ is shared with future mobile apps: no framework, platform or backend imports.

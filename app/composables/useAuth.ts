@@ -1,4 +1,4 @@
-import { authErrorMessage } from '~/utils/auth-errors'
+import { authErrorMessage, errorCode } from '~/utils/auth-errors'
 
 export interface AuthUser {
   readonly uid: string
@@ -16,6 +16,7 @@ export function useAuth() {
   const ready = useState<boolean>('auth-ready', () => false)
   const error = useState<string | null>('auth-error', () => null)
   const { configured, load } = useFirebase()
+  const analytics = useAnalytics()
 
   /** Resolves once Firebase has reported the initial sign-in state. */
   function whenReady(): Promise<void> {
@@ -32,10 +33,14 @@ export function useAuth() {
 
   async function signIn(): Promise<void> {
     error.value = null
+    // Events carry no personal data: only the sign-in method and Firebase's error code.
+    analytics.track('login_click', { method: 'google' })
     try {
       const { lib, services } = await load()
       await lib.signInWithGoogle(services.auth)
+      analytics.track('login_success', { method: 'google' })
     } catch (cause) {
+      analytics.track('login_error', { method: 'google', error_code: errorCode(cause) })
       error.value = authErrorMessage(cause)
     }
   }
