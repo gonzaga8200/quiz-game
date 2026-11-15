@@ -78,6 +78,23 @@ See [`.env.example`](.env.example). All `NUXT_PUBLIC_*` values are inlined into 
 build and are **public identifiers, not secrets**. Never commit a real `.env`, a service
 account key or Application Default Credentials.
 
+## Analytics and cookie consent
+
+- Google Analytics 4 via `NUXT_PUBLIC_GA_ID` (empty or invalid = analytics off). Events:
+  `page_view` on every route change, `login_click`, `login_success`, `login_error` (with
+  Firebase's error code only; no personal data).
+- **Consent Mode v2, everything denied by default.** The Google tag script is not requested at
+  all until the player presses _Aceptar_. _Rechazar_ (or withdrawing later) stops measuring,
+  denies storage again and deletes the GA cookies. Advertising signals stay denied forever.
+- The banner offers _Aceptar_ and _Rechazar_ with identical size and style, links to the policy
+  page (`/cookies`) and does not block the page. The choice is stored in `localStorage` with a
+  version and date and asked again after 24 months. It can be changed any time from the footer
+  link _Configurar cookies_ or from the policy page.
+- Google sign-in does not depend on the choice: Firebase Auth's browser storage is strictly
+  necessary for a service the player asked for, and the banner and policy say so.
+- The policy page is a good-faith template written for this app. Before a public launch, fill in
+  your real identity and contact in `app/content/legal.ts` and have it reviewed.
+
 ## Architecture
 
 ```

@@ -1,14 +1,16 @@
+/** The Firebase error code (`auth/...`), or `unknown`. Safe to send to analytics. */
+export function errorCode(error: unknown): string {
+  return typeof error === 'object' && error !== null && 'code' in error
+    ? String((error as { code: unknown }).code)
+    : 'unknown'
+}
+
 /**
  * Turns a Firebase Auth error into a message for the player, or null when nothing
  * should be shown (they simply closed the window).
  */
 export function authErrorMessage(error: unknown): string | null {
-  const code =
-    typeof error === 'object' && error !== null && 'code' in error
-      ? String((error as { code: unknown }).code)
-      : ''
-
-  switch (code) {
+  switch (errorCode(error)) {
     case 'auth/popup-closed-by-user':
     case 'auth/cancelled-popup-request':
       return null

@@ -5,6 +5,7 @@ node_modules
 .data
 dist
 coverage
+.vitest
 
 # Environment and secrets: never commit these
 .env
