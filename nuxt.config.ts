@@ -56,6 +56,13 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gaId: '', // NUXT_PUBLIC_GA_ID
+      firebase: {
+        apiKey: '', // NUXT_PUBLIC_FIREBASE_API_KEY
+        authDomain: '', // NUXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+        projectId: '', // NUXT_PUBLIC_FIREBASE_PROJECT_ID
+        appId: '', // NUXT_PUBLIC_FIREBASE_APP_ID
+      },
+      useEmulators: false, // NUXT_PUBLIC_USE_EMULATORS
     },
   },
 

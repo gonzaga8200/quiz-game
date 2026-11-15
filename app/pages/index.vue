@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { user } = useAuth()
+const { user, ready, available, error, signIn, signOut } = useAuth()
 const sound = useSound()
 </script>
 
@@ -7,7 +7,7 @@ const sound = useSound()
   <main id="main" tabindex="-1" class="menu">
     <div class="menu__bar">
       <ClientOnly>
-        <p v-if="user" class="who">
+        <div v-if="user" class="who">
           <img
             v-if="user.photoURL"
             class="who__avatar"
@@ -15,9 +15,11 @@ const sound = useSound()
             alt=""
             width="36"
             height="36"
+            referrerpolicy="no-referrer"
           />
           <span class="who__name">{{ user.displayName }}</span>
-        </p>
+          <button type="button" class="who__out" @click="signOut">Cerrar sesión</button>
+        </div>
       </ClientOnly>
       <SoundToggle class="menu__sound" />
     </div>
@@ -40,18 +42,31 @@ const sound = useSound()
       </NuxtLink>
 
       <ClientOnly>
-        <NuxtLink
-          v-if="user"
-          class="btn btn--secondary btn--large"
-          to="/competitivo"
-          @click="sound.unlock()"
-        >
-          <span>
-            Modo competitivo
-            <span class="btn__hint">60 o 120 segundos, tú eliges la dificultad</span>
-          </span>
-        </NuxtLink>
+        <template v-if="available && ready">
+          <NuxtLink
+            v-if="user"
+            class="btn btn--secondary btn--large"
+            to="/competitivo"
+            @click="sound.unlock()"
+          >
+            <span>
+              Modo competitivo
+              <span class="btn__hint">60 o 120 segundos, tú eliges la dificultad</span>
+            </span>
+          </NuxtLink>
+          <template v-else>
+            <GoogleSignInButton @click="signIn" />
+            <p class="note">
+              Entra con Google para jugar en modo competitivo y aparecer en el ranking.
+            </p>
+            <p v-if="error" class="note note--error" role="alert">{{ error }}</p>
+          </template>
+        </template>
       </ClientOnly>
+
+      <NuxtLink v-if="available" class="btn btn--secondary btn--large" to="/ranking">
+        Ranking
+      </NuxtLink>
     </nav>
   </main>
 </template>
@@ -74,13 +89,33 @@ const sound = useSound()
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin: 0 auto 0 0;
-  font-weight: 700;
+  min-width: 0;
+  margin-right: auto;
 }
 
 .who__avatar {
+  flex: none;
   border: 2px solid var(--asfalto);
   border-radius: 50%;
+}
+
+.who__name {
+  min-width: 0;
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.who__out {
+  flex: none;
+  padding: 0.5rem;
+  border: 0;
+  background: none;
+  color: var(--azul);
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .hero {
@@ -108,5 +143,15 @@ const sound = useSound()
   justify-content: flex-start;
   padding-block: 0.875rem;
   text-align: left;
+}
+
+.note {
+  font-size: 0.9375rem;
+  color: var(--asfalto-suave);
+}
+
+.note--error {
+  color: var(--fallo);
+  font-weight: 700;
 }
 </style>

@@ -3,6 +3,7 @@ import { DURATIONS } from '~~/core'
 import type { DifficultyFilter, Duration } from '~~/core'
 
 useHead({ title: 'Modo competitivo' })
+definePageMeta({ middleware: 'auth' })
 
 const setup = useGameSetup()
 const sound = useSound()

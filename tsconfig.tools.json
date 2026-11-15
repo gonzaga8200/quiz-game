@@ -7,9 +7,10 @@
   },
   "include": [
     "core/**/*.ts",
-    "tests/core/**/*.ts",
-    "tests/scripts/**/*.ts",
     "scripts/**/*.ts",
+    "tests/core/**/*.ts",
+    "tests/rules/**/*.ts",
+    "tests/scripts/**/*.ts",
     "vitest.config.ts"
   ]
 }
