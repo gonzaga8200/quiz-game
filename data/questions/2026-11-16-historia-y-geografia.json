@@ -1,0 +1,35 @@
+[
+  {
+    "id": "geo-capital-australia",
+    "text": "¿Cuál es la capital de Australia?",
+    "options": ["Sídney", "Melbourne", "Brisbane", "Canberra"],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Canberra es la capital; Sídney y Melbourne son más grandes, pero no lo son.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-caida-muro-berlin",
+    "text": "¿En qué año cayó el Muro de Berlín?",
+    "options": ["1987", "1989", "1990", "1991"],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El muro dejó de cerrar la frontera la noche del 9 de noviembre de 1989.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fin-guerra-treinta-anos",
+    "text": "¿Qué tratado puso fin a la Guerra de los Treinta Años en 1648?",
+    "options": ["Paz de Augsburgo", "Tratado de Utrecht", "Paz de los Pirineos", "Paz de Westfalia"],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "La Paz de Westfalia cerró la guerra en 1648; la de Augsburgo es de 1555.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  }
+]

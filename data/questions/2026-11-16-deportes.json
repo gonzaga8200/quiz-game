@@ -1,0 +1,35 @@
+[
+  {
+    "id": "dep-futbol-jugadores-por-equipo",
+    "text": "¿Cuántos jugadores tiene cada equipo sobre el campo en un partido de fútbol?",
+    "options": ["9", "10", "11", "12"],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Cada equipo juega con once jugadores, contando al portero.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-primer-mundial-campeon",
+    "text": "¿Qué selección ganó el primer Mundial de fútbol, celebrado en 1930?",
+    "options": ["Argentina", "Uruguay", "Brasil", "Italia"],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Uruguay, que era la anfitriona, venció a Argentina por 4-2 en la final.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-primer-quintuple-ganador-tour",
+    "text": "¿Quién fue el primer ciclista que ganó cinco veces el Tour de Francia?",
+    "options": ["Eddy Merckx", "Jacques Anquetil", "Bernard Hinault", "Miguel Induráin"],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Anquetil logró su quinto Tour en 1964; Merckx, Hinault e Induráin lo igualaron después.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  }
+]

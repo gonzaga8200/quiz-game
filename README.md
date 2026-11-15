@@ -82,6 +82,22 @@ you what else moves.
   games are comparable: 150+ trophy, 90+ party, 45+ applause, 15+ thumbs up, otherwise a
   gentle encouragement. Thresholds live in `core/celebration.ts`.
 
+**UI**
+
+- The visual idea is a cycling time trial: the clock is the only yellow thing on screen, the
+  remaining time is a dashed road that gets "ridden" (solid) as the clock runs down.
+- Keyboard: `1`-`4` or `A`-`D` answer, `P` skips. Answer buttons stay focusable after an
+  answer (they use `aria-disabled`), and results are announced through a live region. Every
+  state that uses colour also has an icon and text.
+- Sounds are synthesised with the Web Audio API (no audio files). The mute choice is kept in
+  `localStorage` (`contrarreloj.muted`), a purely functional preference.
+- With `prefers-reduced-motion`, the wrong-answer shake, the urgent pulse and the confetti
+  are turned off; colour and icons still show the result.
+- In the report, skipped questions also show the correct answer and explanation (the brief
+  only asks for wrong ones); it is useful and costs nothing.
+- Fonts (Barlow Condensed, Atkinson Hyperlegible Next) are downloaded at build time and
+  served from this site, so visitors' IP addresses are never sent to Google's font CDN.
+
 **Data**
 
 - Category and difficulty values are stored exactly as written in the brief (`"Historia y

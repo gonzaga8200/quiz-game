@@ -1,0 +1,210 @@
+/*
+ * Design tokens and base styles.
+ * Visual idea: a cycling time trial. Light cement ground, white road paint,
+ * signage blue for actions, one yellow reserved for the clock.
+ */
+
+:root {
+  /* Ground and surfaces */
+  --cemento: #d5dae0;
+  --cemento-borde: #a9b2bd;
+  --papel: #ffffff;
+
+  /* Ink */
+  --asfalto: #1d2733;
+  --asfalto-suave: #3f4b5a;
+
+  /* Actions and signature */
+  --azul: #0a4da2;
+  --azul-hover: #083b7d;
+  --amarillo: #ffd60a;
+
+  /* Feedback (always paired with an icon and text, never colour alone) */
+  --acierto: #166534;
+  --acierto-linea: #2f8f56;
+  --acierto-tinte: #dff5e6;
+  --fallo: #c62828;
+  --fallo-tinte: #fbe3e3;
+
+  /* "Pasar": light orange while free, dark orange once it costs points */
+  --pasar-claro: #ffc46b;
+  --pasar-claro-borde: #d98a1f;
+  --pasar-oscuro: #c2410c;
+  --pasar-oscuro-hover: #9a3412;
+
+  --font-display: 'Barlow Condensed', 'Arial Narrow', 'Roboto Condensed', system-ui, sans-serif;
+  --font-body:
+    'Atkinson Hyperlegible Next', 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI',
+    sans-serif;
+
+  --radius-card: 1.25rem;
+  --radius-control: 0.75rem;
+  --radius-option: 0.625rem;
+
+  --measure: 40rem;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--cemento);
+  color: var(--asfalto);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.02;
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--azul);
+}
+
+:focus-visible {
+  outline: 3px solid var(--azul);
+  outline-offset: 3px;
+}
+
+/* Headings that receive programmatic focus are not interactive: no ring. */
+[tabindex='-1']:focus {
+  outline: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-control);
+  background: var(--asfalto);
+  color: var(--papel);
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.shell {
+  width: 100%;
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding: 1rem 1rem 3rem;
+}
+
+/* Buttons shared by every screen */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3.25rem;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid transparent;
+  border-radius: var(--radius-control);
+  font-size: 1.0625rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    transform 0.1s ease;
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn--primary {
+  background: var(--azul);
+  color: var(--papel);
+}
+
+.btn--primary:hover:not(:disabled) {
+  background: var(--azul-hover);
+}
+
+.btn--secondary {
+  border-color: var(--asfalto);
+  background: var(--papel);
+  color: var(--asfalto);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background: #eef1f4;
+}
+
+.btn--large {
+  min-height: 3.75rem;
+  font-size: 1.1875rem;
+}
+
+.btn__hint {
+  display: block;
+  margin-top: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -3,6 +3,7 @@
  * Rule: nothing in `core/` may import Vue, Nuxt, Firebase or any platform API.
  */
 export * from './celebration'
+export * from './combo'
 export * from './constants'
 export * from './filters'
 export * from './game'

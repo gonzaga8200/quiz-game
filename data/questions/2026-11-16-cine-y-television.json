@@ -1,0 +1,35 @@
+[
+  {
+    "id": "cine-tiburon-director",
+    "text": "¿Quién dirigió «Tiburón» (1975)?",
+    "options": ["George Lucas", "Francis Ford Coppola", "Steven Spielberg", "Martin Scorsese"],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Spielberg dirigió «Tiburón», uno de los primeros grandes éxitos de taquilla del verano.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-todo-sobre-mi-madre-director",
+    "text": "¿Quién dirigió «Todo sobre mi madre» (1999)?",
+    "options": ["Alejandro Amenábar", "Fernando Trueba", "Carlos Saura", "Pedro Almodóvar"],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La película ganó el Óscar a la mejor película de habla no inglesa en el año 2000.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-bunuel-palma-oro-1961",
+    "text": "¿Qué película de Luis Buñuel obtuvo la Palma de Oro de Cannes en 1961?",
+    "options": ["El ángel exterminador", "Viridiana", "Belle de jour", "Tristana"],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "«Viridiana» compartió la Palma de Oro con «Una larga ausencia».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  }
+]
