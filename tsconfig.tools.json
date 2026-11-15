@@ -1,0 +1,15 @@
+{
+  "//": "Tests, Node scripts and tool configs. Same strictness as core, plus Node types.",
+  "extends": "./tsconfig.core.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "noUnusedLocals": false
+  },
+  "include": [
+    "core/**/*.ts",
+    "tests/core/**/*.ts",
+    "tests/scripts/**/*.ts",
+    "scripts/**/*.ts",
+    "vitest.config.ts"
+  ]
+}
