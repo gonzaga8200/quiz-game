@@ -4,7 +4,7 @@ A timed quiz game ("contrarreloj" is Spanish for a cycling time trial). In each 
 the player answers as many questions as possible before the clock runs out. The game UI
 and all content are in Spanish.
 
-- **Live app:** _pending first deploy_
+- **Live app:** https://contrarreloj-quiz.web.app
 - **Status:** under construction. See [Roadmap](#roadmap).
 
 ## Game modes
@@ -122,6 +122,54 @@ Credentials or a key outside the repo); nothing is ever written to the repositor
   necessary for a service the player asked for, and the banner and policy say so.
 - The policy page is a good-faith template written for this app. Before a public launch, fill in
   your real identity and contact in `app/content/legal.ts` and have it reviewed.
+
+## Deployment and releases
+
+The site is static, so Firebase Hosting serves `.output/public` (see `firebase.json` for the
+cache and security headers). Three GitHub Actions workflows do the work:
+
+| Workflow             | When                         | What                                                                           |
+| -------------------- | ---------------------------- | ------------------------------------------------------------------------------ |
+| `ci.yml`             | pull requests, pushes        | lint, format, typecheck, validate questions, unit and rules tests, build       |
+| `preview.yml`        | pull requests (same repo)    | deploys a temporary Hosting channel (7 days) and comments the URL on the PR    |
+| `release-please.yml` | pushes to `main`             | opens or updates the release PR; when it is merged, tags, releases and deploys |
+| `deploy.yml`         | release, called by the above | builds the tag and publishes it to the live channel                            |
+
+### What GitHub needs (Settings > Secrets and variables > Actions)
+
+- **Variables** (public values baked into the build): `NUXT_PUBLIC_FIREBASE_API_KEY`,
+  `NUXT_PUBLIC_FIREBASE_AUTH_DOMAIN`, `NUXT_PUBLIC_FIREBASE_PROJECT_ID`,
+  `NUXT_PUBLIC_FIREBASE_APP_ID`, and `NUXT_PUBLIC_GA_ID` once you have a Measurement ID
+  (empty means analytics off).
+- **Secret** `FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ`: a service-account key with the
+  _Firebase Hosting Admin_ role. The easy way to create it is `npx firebase init hosting:github`
+  (answer "no" when it offers to overwrite the workflows). Previews skip themselves with a
+  notice while the secret is missing; the production deploy fails loudly.
+- **Setting** Settings > Actions > General: _Allow GitHub Actions to create and approve pull
+  requests_ (release-please needs it).
+- `main` is protected: pull requests only, the `ci` check required, squash merges only.
+
+### Cutting a release
+
+1. Merge pull requests whose titles are [Conventional Commits](https://www.conventionalcommits.org)
+   (`feat: ...`, `fix: ...`; add `!` for a breaking change). While the version is below 1.0, a
+   `feat` bumps the minor number and a `fix` the patch number.
+2. release-please keeps a pull request titled `chore(main): release X.Y.Z` up to date with the
+   version bump and `CHANGELOG.md`. The workflow also runs CI on it, because pull requests
+   opened by `GITHUB_TOKEN` do not trigger workflows by themselves.
+3. Merge that pull request. release-please tags `vX.Y.Z`, publishes the GitHub Release and
+   calls `deploy.yml`, which builds that tag and publishes it to Hosting.
+
+Manual deploy, if you ever need it: `npm run build && npx firebase deploy --only hosting`.
+Security rules are deployed separately: `npx firebase deploy --only firestore`. To roll back,
+use Firebase console > Hosting > release history, or run `deploy.yml` on an older tag with
+_Run workflow_.
+
+### Preview channels and Google sign-in
+
+Each preview has its own domain (`contrarreloj-quiz--pr12-....web.app`). Firebase Auth only
+accepts sign-in on _authorized domains_, which have to be added one by one, so previews are
+meant for checking the UI and arcade mode; sign-in works on `localhost` and the live site.
 
 ## Architecture
 
