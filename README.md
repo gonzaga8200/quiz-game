@@ -155,8 +155,9 @@ cache and security headers). Three GitHub Actions workflows do the work:
    (`feat: ...`, `fix: ...`; add `!` for a breaking change). While the version is below 1.0, a
    `feat` bumps the minor number and a `fix` the patch number.
 2. release-please keeps a pull request titled `chore(main): release X.Y.Z` up to date with the
-   version bump and `CHANGELOG.md`. The workflow also runs CI on it, because pull requests
-   opened by `GITHUB_TOKEN` do not trigger workflows by themselves.
+   version bump and `CHANGELOG.md`, and dispatches CI on its branch. GitHub holds back the
+   regular pull-request runs of a bot-opened PR: open the Actions tab and press _Approve and
+   run_ on them (or, since CI already passed on that exact commit, merge with admin rights).
 3. Merge that pull request. release-please tags `vX.Y.Z`, publishes the GitHub Release and
    calls `deploy.yml`, which builds that tag and publishes it to Hosting.
 
