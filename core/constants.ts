@@ -9,6 +9,7 @@ export const CATEGORIES = [
   'Deportes',
   'Cine y televisión',
   'Ciencias',
+  'Lengua e Idiomas',
 ] as const
 export type Category = (typeof CATEGORIES)[number]
 

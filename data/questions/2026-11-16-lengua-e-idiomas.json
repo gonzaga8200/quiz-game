@@ -1,0 +1,223 @@
+[
+  {
+    "id": "leng-idioma-oficial-brasil",
+    "text": "¿Cuál es el idioma oficial de Brasil?",
+    "options": ["Portugués", "Español", "Francés", "Italiano"],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En Brasil se habla portugués, heredado de la colonización portuguesa. Es el único país de Sudamérica donde el portugués es la lengua oficial.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-gracias-ingles",
+    "text": "¿Cómo se dice «gracias» en inglés?",
+    "options": ["Please", "Sorry", "Thank you", "Goodbye"],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Thank you» significa «gracias». «Please» es «por favor», «sorry» es «lo siento» y «goodbye» es «adiós».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-lapiz",
+    "text": "¿Cuál es el plural correcto de «lápiz»?",
+    "options": ["Lápizes", "Lápices", "Lápiz", "Lápizs"],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las palabras terminadas en -z cambian la z por c ante la terminación -es: lápiz → lápices, luz → luces.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-buenos-dias-italiano",
+    "text": "¿Cómo se dice «buenos días» en italiano?",
+    "options": ["Buonanotte", "Buonasera", "Arrivederci", "Buongiorno"],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Buongiorno» es «buenos días». «Buonasera» es «buenas tardes», «buonanotte» es «buenas noches» al irse a dormir y «arrivederci» es «adiós».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escritura-ruso-cirilico",
+    "text": "¿Con qué alfabeto se escribe el ruso?",
+    "options": ["Cirílico", "Griego", "Hebreo", "Armenio"],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El ruso se escribe con el alfabeto cirílico, que también usan el búlgaro y el ucraniano. Deriva en buena parte del alfabeto griego.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palindromo-reconocer",
+    "text": "¿Cuál de estas palabras es un palíndromo, es decir, se lee igual de izquierda a derecha que de derecha a izquierda?",
+    "options": ["Recordar", "Recortar", "Reconocer", "Reservar"],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Reconocer» se lee igual al revés. «Recordar», «recortar» y «reservar» cambian al invertir sus letras.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-cooficial-paraguay-guarani",
+    "text": "¿Qué lengua indígena es oficial en Paraguay junto con el español?",
+    "options": ["Quechua", "Guaraní", "Aimara", "Mapuche"],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El guaraní es cooficial con el español en Paraguay según la Constitución de 1992. El quechua y el aimara lo son en países andinos como Bolivia.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-hablantes-nativos-mandarin",
+    "text": "¿Qué idioma tiene más hablantes nativos, es decir, que lo aprenden como lengua materna, en todo el mundo?",
+    "options": ["Español", "Inglés", "Hindi", "Mandarín"],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El chino mandarín supera los 900 millones de hablantes nativos; le siguen el español y el inglés. El inglés es el más hablado solo si se cuentan quienes lo usan como segunda lengua.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-embarrassed-falso-amigo",
+    "text": "¿Qué significa en español la palabra inglesa «embarrassed»?",
+    "options": ["Embarazada", "Avergonzado", "Cansado", "Enfadado"],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Embarrassed» significa «avergonzado». Es un falso amigo de «embarazada», que en inglés se dice «pregnant».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-esdrujula-murcielago",
+    "text": "¿Cuál de estas palabras es esdrújula, es decir, lleva el acento en la antepenúltima sílaba?",
+    "options": ["Corazón", "Almohada", "Cárcel", "Murciélago"],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Murciélago» (mur-CIÉ-la-go) es esdrújula. «Corazón» es aguda, y «almohada» y «cárcel» son llanas.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-etimologia-tomate-nahuatl",
+    "text": "¿De qué lengua procede la palabra «tomate»?",
+    "options": ["Náhuatl", "Quechua", "Taíno", "Guaraní"],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Tomate» viene del náhuatl «tomatl». Del quechua proceden «papa» y «cóndor», y del taíno, «hamaca» y «huracán».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-haber-impersonal-habra",
+    "text": "¿Qué forma verbal completa correctamente la frase «Mañana ___ varias fiestas en el pueblo»?",
+    "options": ["Habrán", "Hubo", "Hubieron", "Habrá"],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Con el sentido de «existir», «haber» es impersonal y va siempre en singular: «habrá fiestas». «Habrán» es un error muy frecuente; «hubo» y «hubieron» son pasados.",
+    "source": "https://www.rae.es/dpd/haber",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-gramatica-nebrija-1492",
+    "text": "¿En qué año se publicó la «Gramática de la lengua castellana» de Antonio de Nebrija?",
+    "options": ["1481", "1492", "1517", "1535"],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Nebrija la publicó en 1492, en Salamanca: fue la primera gramática del castellano. En 1481 había editado sus «Introductiones latinae», sobre el latín.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-origen-enye-nn",
+    "text": "¿De qué grupo de letras surgió la «ñ» como abreviatura de los copistas medievales?",
+    "options": ["gn", "ny", "nn", "ni"],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Para ahorrar espacio, los copistas escribían una sola «n» con una virgulilla encima en lugar de «nn». Así «anno» (del latín «annus») pasó a «año».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-etimologia-h-inicial-f",
+    "text": "¿Qué letra latina se convirtió en la «h» inicial de «harina», «hablar» y «hijo»?",
+    "options": ["f", "p", "s", "g"],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "La «f» inicial latina pasó a «h» en castellano: «farina» → «harina», «fabulari» → «hablar», «filius» → «hijo». Esa «h» hoy es muda.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-etimologia-robot-checo",
+    "text": "¿De qué idioma procede la palabra «robot»?",
+    "options": ["Ruso", "Checo", "Alemán", "Húngaro"],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Viene del checo «robota» (trabajo forzado) y se difundió con la obra «R.U.R.» (1920), de Karel Čapek. El ruso «rabota» comparte raíz eslava, pero la palabra no procede de él.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-mariposa-aleman",
+    "text": "¿Cómo se dice «mariposa» en alemán?",
+    "options": ["Schmetterling", "Marienkäfer", "Libelle", "Glühwürmchen"],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Schmetterling» es «mariposa». «Marienkäfer» es «mariquita», «Libelle» es «libélula» y «Glühwürmchen» es «luciérnaga».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-lenguas-oficiales-ue-2024",
+    "text": "A 1 de enero de 2024, ¿cuántas lenguas oficiales tenía la Unión Europea?",
+    "options": ["20", "23", "24", "27"],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "Eran 24, desde que el irlandés adquirió pleno estatus oficial en 2022. No coincide con los 27 Estados miembros, porque varios países comparten idioma.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tesoro-covarrubias-1611",
+    "text": "¿Quién es el autor del «Tesoro de la lengua castellana o española», publicado en 1611?",
+    "options": ["Antonio de Nebrija", "Juan de Valdés", "Gonzalo Correas", "Sebastián de Covarrubias"],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "Lo escribió Sebastián de Covarrubias. Nebrija hizo la primera gramática, Valdés el «Diálogo de la lengua» y Correas el «Vocabulario de refranes».",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-ch-ll-abecedario-2010",
+    "text": "¿En qué año dejaron de figurar la «ch» y la «ll» en el abecedario español, según la Real Academia Española?",
+    "options": ["1994", "2003", "2010", "2014"],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "La Ortografía de 2010 dejó el abecedario en 27 letras: «ch» y «ll» pasaron a ser dígrafos. En 1994 solo cambió su ordenación alfabética: dejaron de ordenarse como letras aparte.",
+    "createdAt": "2026-11-16T09:00:00Z",
+    "status": "active"
+  }
+]
