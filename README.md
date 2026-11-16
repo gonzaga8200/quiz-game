@@ -153,7 +153,8 @@ cache and security headers). Three GitHub Actions workflows do the work:
 
 1. Merge pull requests whose titles are [Conventional Commits](https://www.conventionalcommits.org)
    (`feat: ...`, `fix: ...`; add `!` for a breaking change). While the version is below 1.0, a
-   `feat` bumps the minor number and a `fix` the patch number.
+   `feat` bumps the minor number and a `fix` the patch number. Only `feat`, `fix`, `perf` and
+   breaking changes make a release; `docs`, `ci`, `chore`, `test` and `refactor` do not.
 2. release-please keeps a pull request titled `chore(main): release X.Y.Z` up to date with the
    version bump and `CHANGELOG.md`, and dispatches CI on its branch. GitHub holds back the
    regular pull-request runs of a bot-opened PR: open the Actions tab and press _Approve and

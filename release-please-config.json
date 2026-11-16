@@ -21,17 +21,18 @@
     },
     {
       "type": "refactor",
-      "section": "Refactoring"
+      "section": "Refactoring",
+      "hidden": true
     },
     {
       "type": "docs",
       "section": "Documentation",
-      "hidden": false
+      "hidden": true
     },
     {
       "type": "ci",
       "section": "CI",
-      "hidden": false
+      "hidden": true
     },
     {
       "type": "chore",
