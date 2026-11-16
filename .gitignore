@@ -24,6 +24,10 @@ firebase-debug.log*
 firestore-debug.log
 ui-debug.log
 
+# Source material for the add-questions skill (may be copyrighted): keep it local
+question-sources/*
+!question-sources/README.md
+
 # Logs and OS/editor files
 *.log
 .DS_Store
