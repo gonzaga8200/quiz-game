@@ -87,6 +87,10 @@ schema defined once in `core/schema.ts` (zod) and shared by the app, the scripts
   Code for "20 questions", "10 hard science questions", "questions from this link", or to
   validate a question or a JSON array. It writes a schema-valid file and shows a review table.
   The quality and difficulty rules live in the skill.
+- **Questions from your own material:** put images, PDFs or text files in `question-sources/`
+  and ask for a number of questions ("15 questions from `notes.pdf`"). Category and difficulty
+  are optional; without a difficulty each question gets a random one. The folder's contents are
+  git-ignored, because the material may be copyrighted.
 - `npm run questions:validate` checks the schema, repeated ids and texts (ignoring accents and
   punctuation), and flags probable duplicates and quality smells. CI runs it. Useful options:
   `-- --summary` (counts per category and difficulty) and `-- --candidate file.json` (check a
