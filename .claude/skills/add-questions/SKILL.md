@@ -32,12 +32,13 @@ Default number when none is given: 10 (say so in the summary).
 
 - `id`: lowercase slug (`a-z`, `0-9`, `-`), 3 to 80 chars, **unique across every file**.
   Prefix by category: `arte-`, `hist-` or `geo-` (Historia y Geografía), `dep-`, `cine-`,
-  `cien-`, then 2 to 5 keywords. Never change the id of an existing question.
+  `cien-`, `leng-` (Lengua e Idiomas), then 2 to 5 keywords. Never change the id of an
+  existing question.
 - `text`: 10 to 300 chars. `options`: **exactly 4**, distinct, 1 to 120 chars each.
 - `correctIndex`: 0 to 3. **Vary it** across a file; do not always use the same position
   (the game shuffles options at play time, but the data should not look biased).
 - `category` is exactly one of: `Arte y Literatura`, `Historia y Geografía`, `Deportes`,
-  `Cine y televisión`, `Ciencias`.
+  `Cine y televisión`, `Ciencias`, `Lengua e Idiomas`.
 - `difficulty` is exactly one of: `muy fácil`, `fácil`, `medio`, `difícil`, `muy difícil`
   (with accents and the space).
 - `explanation`: 1 to 2 short lines (10 to 300 chars) saying **why** the answer is right.
@@ -57,7 +58,7 @@ Default number when none is given: 10 (say so in the summary).
    dropped and why.
 5. **Write** the file `data/questions/<YYYY-MM-DD>-<category-slug>.json` (today's date; slugs:
    `arte-y-literatura`, `historia-y-geografia`, `deportes`, `cine-y-television`, `ciencias`,
-   or `mixta` when the file spans several categories). If that name exists, add a suffix such as
+   `lengua-e-idiomas`, or `mixta` when the file spans several categories). If that name exists, add a suffix such as
    `-2`. Use 2-space indented JSON, as a single array.
 6. **Validate:** `npm run questions:validate`. Fix every error. Read every warning (probable
    duplicate, mismatched option lengths, answer given away) and fix or justify it.
@@ -67,7 +68,7 @@ Default number when none is given: 10 (say so in the summary).
 
 ### A. Only a number (e.g. "crea 20 preguntas")
 
-Choose categories and difficulties yourself, **balanced**: spread evenly over the 5 categories
+Choose categories and difficulties yourself, **balanced**: spread evenly over the 6 categories
 and the 5 difficulties, and favour the cells that are emptiest in the `--summary` table.
 If only a category is given, balance difficulties; if only a difficulty is given, balance
 categories. The hard levels must still be genuinely hard (see the difficulty guide).
@@ -123,7 +124,7 @@ level must stay honest: if the material cannot support a genuinely `difícil` or
 question on a topic, use the closest level that fits and mention it in the report.
 
 **Category.** If the user gives one, use it. Otherwise infer it per question from the content
-(use the `mixta` file slug when they differ). If the material fits none of the five
+(use the `mixta` file slug when they differ). If the material fits none of the six
 categories, ask the user instead of forcing it.
 
 ### C. A single, fully specified question
@@ -165,6 +166,29 @@ content without telling the user.
 7. **The answer is not in the question.** Do not name the answer in the question text.
 8. **The explanation teaches.** One or two lines, factual, usually mentioning why the
    distractors are close but wrong.
+
+## Category notes: Lengua e Idiomas
+
+Covers the Spanish language (grammar, orthography, vocabulary, the RAE and its history),
+other languages and writing systems, translation and false friends, etymology and
+linguistics. The whole game is in Spanish, so:
+
+- **Every question, option and explanation is in Spanish**, even when it is about another
+  language. A foreign word is written as it is in that language, inside `«»`
+  (`«Schmetterling»`), and the question asks for its meaning or its translation in Spanish, or
+  the other way round.
+- **Follow the current norm** of the RAE and ASALE (Ortografía de 2010, Diccionario
+  panhispánico de dudas) for right and wrong, and say so in the explanation. Do not ask about
+  uses where educated speakers disagree, or where the answer differs between Spain and
+  Latin America, unless the question fixes the variety.
+- **Translations** must have exactly one correct option: no synonyms among the distractors
+  (check that «coche» and «carro» are not both there). Build distractors from the same
+  family (other greetings, other insects, other numbers), not from random words.
+- **Etymology**: use only origins the RAE dictionary gives without doubt. Discard disputed
+  ones (for example «chocolate», «okay»). Do not put the Latin word in the question text if
+  its first letters give the answer away.
+- **Figures** (speakers, official languages) change: fix the date or the source in the
+  question, as rule 2 says.
 
 ## Difficulty
 
