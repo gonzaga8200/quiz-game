@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/gonzaga8200/quiz-game/compare/v0.1.0...v0.1.1) (2026-11-16)
+
+
+### CI
+
+* read the release PR branch in the shell ([#9](https://github.com/gonzaga8200/quiz-game/issues/9)) ([273e65c](https://github.com/gonzaga8200/quiz-game/commit/273e65cf60179053bc05cc0d617f6d772590c3fe))
+
 ## 0.1.0 (2026-11-16)
 
 
