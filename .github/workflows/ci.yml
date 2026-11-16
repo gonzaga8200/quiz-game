@@ -38,6 +38,9 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
+      - name: Validate questions (schema and duplicates)
+        run: npm run questions:validate
+
       - name: Unit tests
         run: npm run test:coverage
 

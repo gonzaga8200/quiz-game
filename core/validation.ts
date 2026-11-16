@@ -1,0 +1,130 @@
+import type { Question } from './schema'
+
+/**
+ * Content checks that go beyond the schema: duplicates across the whole question bank
+ * and a few quality smells. Pure functions, shared by `questions:validate` (CI), the
+ * import script and the add-questions skill.
+ */
+
+export interface QuestionEntry {
+  /** Where the question came from (file name); only used in messages. */
+  readonly file: string
+  readonly question: Question
+}
+
+export interface QuestionIssue {
+  /** Errors fail validation; warnings are for a human to look at. */
+  readonly level: 'error' | 'warning'
+  readonly file: string
+  readonly id: string
+  readonly message: string
+}
+
+/** Text with accents, case, punctuation and extra spaces removed, for comparisons. */
+export function normalizeForComparison(text: string): string {
+  return text
+    .toLocaleLowerCase('es')
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+/** Share of words two texts have in common, 0 (nothing) to 1 (same words). */
+export function wordOverlap(a: string, b: string): number {
+  const wordsA = new Set(normalizeForComparison(a).split(' '))
+  const wordsB = new Set(normalizeForComparison(b).split(' '))
+  let shared = 0
+  for (const word of wordsA) if (wordsB.has(word)) shared += 1
+  // Never zero: even an empty text normalises to a set holding one empty word.
+  return shared / (wordsA.size + wordsB.size - shared)
+}
+
+/** Questions this similar to an existing one are flagged as probable duplicates. */
+export const SIMILAR_TEXT_THRESHOLD = 0.8
+
+/** Longest option more than this many times the shortest looks like a mismatched distractor. */
+export const OPTION_LENGTH_RATIO = 4
+
+function qualityWarnings(entry: QuestionEntry): QuestionIssue[] {
+  const { file, question } = entry
+  const warn = (message: string): QuestionIssue => ({
+    level: 'warning',
+    file,
+    id: question.id,
+    message,
+  })
+  const warnings: QuestionIssue[] = []
+
+  if (question.text.includes('¿') !== question.text.includes('?')) {
+    warnings.push(warn('unbalanced question marks (¿ and ? must come together)'))
+  }
+
+  const lengths = question.options.map((option) => option.length)
+  const longest = Math.max(...lengths)
+  const shortest = Math.min(...lengths)
+  if (longest > shortest * OPTION_LENGTH_RATIO && longest >= 20) {
+    warnings.push(warn('options differ a lot in length; distractors should look alike'))
+  }
+
+  const answer = normalizeForComparison(question.options[question.correctIndex] as string)
+  if (answer.length >= 4 && ` ${normalizeForComparison(question.text)} `.includes(` ${answer} `)) {
+    warnings.push(warn('the correct answer already appears in the question text'))
+  }
+
+  return warnings
+}
+
+/**
+ * Checks a set of questions as a whole.
+ * Errors: repeated ids, and questions with the same text once accents, case and
+ * punctuation are ignored. Warnings: probable duplicates and quality smells.
+ */
+export function findQuestionIssues(entries: readonly QuestionEntry[]): QuestionIssue[] {
+  const issues: QuestionIssue[] = []
+  const byId = new Map<string, QuestionEntry>()
+  const byText = new Map<string, QuestionEntry>()
+  const kept: { entry: QuestionEntry; text: string }[] = []
+
+  for (const entry of entries) {
+    const { file, question } = entry
+    const text = normalizeForComparison(question.text)
+
+    const sameId = byId.get(question.id)
+    const sameText = byText.get(text)
+    if (sameId) {
+      issues.push({
+        level: 'error',
+        file,
+        id: question.id,
+        message: `duplicate id (already used in ${sameId.file})`,
+      })
+    } else if (sameText) {
+      issues.push({
+        level: 'error',
+        file,
+        id: question.id,
+        message: `same question text as ${sameText.question.id} (${sameText.file})`,
+      })
+    } else {
+      for (const other of kept) {
+        if (wordOverlap(text, other.text) >= SIMILAR_TEXT_THRESHOLD) {
+          issues.push({
+            level: 'warning',
+            file,
+            id: question.id,
+            message: `very similar to ${other.entry.question.id} (${other.entry.file}); is it a duplicate?`,
+          })
+        }
+      }
+      byId.set(question.id, entry)
+      byText.set(text, entry)
+      kept.push({ entry, text })
+    }
+
+    issues.push(...qualityWarnings(entry))
+  }
+
+  return issues
+}

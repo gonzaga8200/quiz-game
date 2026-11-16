@@ -31,8 +31,10 @@ export default defineConfig({
           name: 'rules',
           environment: 'node',
           include: ['tests/rules/**/*.test.ts'],
-          testTimeout: 20_000,
+          testTimeout: 30_000,
           hookTimeout: 30_000,
+          // Files share one emulator database, so they must not run at the same time.
+          fileParallelism: false,
         },
       },
       {

@@ -3,7 +3,11 @@
   "extends": "./tsconfig.core.json",
   "compilerOptions": {
     "types": ["node"],
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "paths": {
+      "~~/*": ["./*"],
+      "~/*": ["./app/*"]
+    }
   },
   "include": [
     "core/**/*.ts",
