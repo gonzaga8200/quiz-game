@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0](https://github.com/gonzaga8200/quiz-game/compare/v0.1.0...v0.2.0) (2026-11-16)
+
+
+### Features
+
+* **core:** add the "Lengua e Idiomas" category with 20 questions ([#13](https://github.com/gonzaga8200/quiz-game/issues/13)) ([34c39c8](https://github.com/gonzaga8200/quiz-game/commit/34c39c8f3d66caf54fc34c317c23ca520a4a1cc2))
+* **questions:** add 40 Historia y Geografía questions on the early Middle Ages ([#15](https://github.com/gonzaga8200/quiz-game/issues/15)) ([753d0ae](https://github.com/gonzaga8200/quiz-game/commit/753d0ae583fbef5471d76bcc6ef021e21ccde187))
+
 ## 0.1.0 (2026-11-16)
 
 
