@@ -78,6 +78,34 @@ See [`.env.example`](.env.example). All `NUXT_PUBLIC_*` values are inlined into 
 build and are **public identifiers, not secrets**. Never commit a real `.env`, a service
 account key or Application Default Credentials.
 
+## Questions
+
+Questions are JSON files in `data/questions/`, named `<YYYY-MM-DD>-<category>.json`, in the
+schema defined once in `core/schema.ts` (zod) and shared by the app, the scripts and the skill.
+
+- **Add questions with the `add-questions` skill** (`.claude/skills/add-questions/`): ask Claude
+  Code for "20 questions", "10 hard science questions", "questions from this link", or to
+  validate a question or a JSON array. It writes a schema-valid file and shows a review table.
+  The quality and difficulty rules live in the skill.
+- `npm run questions:validate` checks the schema, repeated ids and texts (ignoring accents and
+  punctuation), and flags probable duplicates and quality smells. CI runs it. Useful options:
+  `-- --summary` (counts per category and difficulty) and `-- --candidate file.json` (check a
+  new file against the bank).
+- `npm run questions:import` loads the files into Firestore. It is **idempotent**: each
+  question is written to the document named after its `id`, so running it again updates in
+  place. To retire a question, set `"status": "disabled"` and import again.
+
+```bash
+gcloud auth application-default login      # sign in with the account that owns the project
+FIREBASE_PROJECT_ID=contrarreloj-quiz npm run questions:import
+```
+
+The import never guesses the project (`FIREBASE_PROJECT_ID` or `--project` is mandatory),
+asks for confirmation (or `--yes`), refuses credentials kept inside the repository and
+supports `--dry-run`. Credentials always come from the environment (Application Default
+Credentials or a key outside the repo); nothing is ever written to the repository. With
+`FIRESTORE_EMULATOR_HOST` set it writes to the local emulator and needs no credentials.
+
 ## Analytics and cookie consent
 
 - Google Analytics 4 via `NUXT_PUBLIC_GA_ID` (empty or invalid = analytics off). Events:

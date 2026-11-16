@@ -24,7 +24,9 @@
     "test:coverage": "vitest run --project core --project app --coverage",
     "test:rules": "firebase emulators:exec --only firestore --project demo-contrarreloj \"vitest run --project rules\"",
     "dev:emulators": "nuxt dev --dotenv .env.emulators",
-    "emulators": "firebase emulators:start --only auth,firestore --project demo-contrarreloj"
+    "emulators": "firebase emulators:start --only auth,firestore --project demo-contrarreloj",
+    "questions:validate": "tsx scripts/validate-questions.ts",
+    "questions:import": "tsx scripts/import-questions.ts"
   },
   "dependencies": {
     "@nuxt/fonts": "^1.2.0",
@@ -45,9 +47,11 @@
     "@vue/test-utils": "^2.6.0",
     "eslint": "^10.15.0",
     "eslint-config-prettier": "^10.1.8",
+    "firebase-admin": "^14.5.1",
     "firebase-tools": "^15.36.0",
     "happy-dom": "^21.0.4",
     "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vitest": "^5.1.0",
     "vue-tsc": "^3.3.14"
