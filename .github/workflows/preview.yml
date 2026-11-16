@@ -1,0 +1,67 @@
+name: Preview
+
+# One temporary Hosting channel per pull request (expires after 7 days), with the URL
+# posted on the PR. Pull requests from forks are skipped: they cannot read secrets.
+on:
+  pull_request:
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
+jobs:
+  preview:
+    name: preview
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Secrets cannot be tested in `if:` directly, so expose "is it set" through env.
+      - name: Check deploy credentials
+        id: creds
+        env:
+          SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ }}
+        run: |
+          if [ -n "$SERVICE_ACCOUNT" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ is not set, so no preview was deployed. See the README (Deployment)."
+          fi
+
+      - uses: actions/checkout@v7
+        if: steps.creds.outputs.present == 'true'
+
+      - uses: actions/setup-node@v7
+        if: steps.creds.outputs.present == 'true'
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+        if: steps.creds.outputs.present == 'true'
+
+      # Analytics stays off in previews so they do not pollute the real numbers.
+      - name: Build
+        if: steps.creds.outputs.present == 'true'
+        run: npm run build
+        env:
+          NUXT_PUBLIC_FIREBASE_API_KEY: ${{ vars.NUXT_PUBLIC_FIREBASE_API_KEY }}
+          NUXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${{ vars.NUXT_PUBLIC_FIREBASE_AUTH_DOMAIN }}
+          NUXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ vars.NUXT_PUBLIC_FIREBASE_PROJECT_ID }}
+          NUXT_PUBLIC_FIREBASE_APP_ID: ${{ vars.NUXT_PUBLIC_FIREBASE_APP_ID }}
+          NUXT_PUBLIC_GA_ID: ''
+
+      - name: Deploy preview channel
+        if: steps.creds.outputs.present == 'true'
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ }}
+          projectId: contrarreloj-quiz
+          expires: 7d
