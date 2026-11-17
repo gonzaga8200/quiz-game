@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/gonzaga8200/quiz-game/compare/v0.2.0...v0.3.0) (2026-11-17)
+
+
+### Features
+
+* **skill:** add publish, import and pipeline skills for questions ([#16](https://github.com/gonzaga8200/quiz-game/issues/16)) ([47df695](https://github.com/gonzaga8200/quiz-game/commit/47df695c0b439ea2a63502e203d52e419fc6af9d))
+
 ## [0.2.0](https://github.com/gonzaga8200/quiz-game/compare/v0.1.0...v0.2.0) (2026-11-16)
 
 
