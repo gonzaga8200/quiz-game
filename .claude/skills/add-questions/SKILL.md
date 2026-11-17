@@ -214,13 +214,15 @@ After writing and validating, reply with:
    human eyes.
 5. For source material: which files (and pages) were used, which were skipped and why, and
    any difficulty you lowered because the material could not support the target level.
-6. Next steps for the user: review and edit the JSON, commit it on a branch and open a PR (CI
-   runs `questions:validate`), then, with credentials, `npm run questions:import`.
+6. Next steps for the user: review and edit the JSON, then `/publish-questions` (commit, push
+   and PR; CI runs `questions:validate`) and, once the PR is merged, `/import-questions`.
+   `/question-pipeline` runs all three in order.
 
 ## Never
 
-- Never run `npm run questions:import` yourself, and never write credentials, tokens or
-  service-account keys anywhere. Importing needs the user's own Google credentials.
+- Never run `npm run questions:import` from this skill, and never write credentials, tokens or
+  service-account keys anywhere. Importing is the job of the separate `import-questions` skill,
+  which needs the user's own Google credentials and an explicit confirmation.
 - Never overwrite or renumber existing questions or files in `data/questions/`.
 - Never modify, move, delete or commit anything in `question-sources/`: it is the user's
   material, it may be copyrighted, and it is git-ignored on purpose. Never copy it into

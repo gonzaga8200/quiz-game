@@ -91,6 +91,12 @@ schema defined once in `core/schema.ts` (zod) and shared by the app, the scripts
   and ask for a number of questions ("15 questions from `notes.pdf`"). Category and difficulty
   are optional; without a difficulty each question gets a random one. The folder's contents are
   git-ignored, because the material may be copyrighted.
+- **Publish and import with skills:** `/publish-questions` commits, pushes and opens the pull
+  request (it never merges); `/import-questions` loads the merged files into Firestore after a
+  dry run and an explicit confirmation. `/question-pipeline` chains `add-questions`,
+  `publish-questions` and `import-questions`, pausing for you before the PR, until you merge it,
+  and before anything is written to Firestore. `.claude/settings.json` makes Claude Code ask for
+  approval on every `questions:import` command.
 - `npm run questions:validate` checks the schema, repeated ids and texts (ignoring accents and
   punctuation), and flags probable duplicates and quality smells. CI runs it. Useful options:
   `-- --summary` (counts per category and difficulty) and `-- --candidate file.json` (check a
