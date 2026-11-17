@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/gonzaga8200/quiz-game/compare/v0.3.0...v0.4.0) (2026-11-17)
+
+
+### Features
+
+* **questions:** add 20 Lengua e Idiomas questions on the narrative text ([#18](https://github.com/gonzaga8200/quiz-game/issues/18)) ([d5e7b0c](https://github.com/gonzaga8200/quiz-game/commit/d5e7b0c89c845a4700af29e5e87abbeb5ce756ab))
+
 ## [0.3.0](https://github.com/gonzaga8200/quiz-game/compare/v0.2.0...v0.3.0) (2026-11-17)
 
 
