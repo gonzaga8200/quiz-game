@@ -64,16 +64,16 @@ async function onKeydown(event: KeyboardEvent, index: number): Promise<void> {
   gap: 0;
   min-height: 3.5rem;
   padding: 0.375rem 0.25rem;
-  border: 2px solid var(--cemento-borde);
+  border: 2px solid var(--papel-borde);
   border-radius: var(--radius-option);
   background: var(--papel);
-  color: var(--asfalto);
+  color: var(--tinta);
   text-align: center;
   cursor: pointer;
 }
 
 .tab:hover {
-  border-color: var(--azul);
+  border-color: var(--oro-sombra);
 }
 
 .tab__time {
@@ -90,9 +90,9 @@ async function onKeydown(event: KeyboardEvent, index: number): Promise<void> {
 }
 
 .tab[aria-selected='true'] {
-  border-color: var(--azul);
-  background: var(--azul);
-  color: var(--papel);
+  border-color: var(--oro-sombra);
+  background: var(--oro);
+  color: var(--tinta);
 }
 
 @media (max-width: 22.5rem) {

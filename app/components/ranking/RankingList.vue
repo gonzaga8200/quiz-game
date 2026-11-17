@@ -70,10 +70,12 @@ function markBroken(uid: string): void {
   border: 2px solid transparent;
   border-radius: var(--radius-option);
   background: var(--papel);
+  color: var(--tinta);
 }
 
 .row--me {
-  border-color: var(--azul);
+  border-color: var(--oro);
+  box-shadow: 0 0 0 2px var(--oro-sombra);
 }
 
 /* Race number, like the bib pinned on a rider's back. */
@@ -84,14 +86,14 @@ function markBroken(uid: string): void {
   min-width: 2.75rem;
   height: 2.25rem;
   padding-inline: 0.375rem;
-  border: 2px solid var(--asfalto);
+  border: 2px solid var(--tinta);
   border-radius: 0.25rem;
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 800;
   font-size: 1.5rem;
   line-height: 1;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .avatar {
@@ -105,7 +107,7 @@ function markBroken(uid: string): void {
 .avatar--initial {
   display: grid;
   place-items: center;
-  background: var(--asfalto);
+  background: var(--tinta);
   color: var(--papel);
   font-weight: 700;
 }
@@ -127,6 +129,6 @@ function markBroken(uid: string): void {
   font-weight: 800;
   font-size: 1.75rem;
   line-height: 1;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 </style>

@@ -25,20 +25,21 @@ const { muted, toggle } = useSound()
   place-items: center;
   width: 3rem;
   height: 3rem;
-  border: 2px solid var(--asfalto);
+  border: 2px solid var(--tinta);
   border-radius: 999px;
   background: var(--papel);
-  color: var(--asfalto);
+  color: var(--tinta);
   cursor: pointer;
 }
 
 .sound-toggle:hover {
-  background: #eef1f4;
+  background: var(--papel-oscuro);
 }
 
-/* Pressed means "muted": show it with a filled ground, not only the icon. */
+/* Pressed means "muted": show it with a dark ground, not only the icon. */
 .sound-toggle[aria-pressed='true'] {
-  background: var(--asfalto);
-  color: var(--papel);
+  border-color: var(--crema-suave);
+  background: var(--nogal-alto);
+  color: var(--crema-suave);
 }
 </style>

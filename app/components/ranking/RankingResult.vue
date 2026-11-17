@@ -58,6 +58,7 @@ const boardLabel = computed(
   padding: 1rem;
   border-radius: var(--radius-card);
   background: var(--papel);
+  color: var(--tinta);
 }
 
 .result__title {
@@ -78,14 +79,14 @@ const boardLabel = computed(
   min-width: 4rem;
   height: 3.5rem;
   padding-inline: 0.5rem;
-  border: 3px solid var(--asfalto);
+  border: 3px solid var(--tinta);
   border-radius: 0.375rem;
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 800;
   font-size: 2.5rem;
   line-height: 1;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .error {

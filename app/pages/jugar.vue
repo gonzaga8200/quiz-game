@@ -93,6 +93,7 @@ onMounted(() => {
   padding: 1.25rem;
   border-radius: var(--radius-card);
   background: var(--papel);
+  color: var(--tinta);
   font-weight: 700;
 }
 
