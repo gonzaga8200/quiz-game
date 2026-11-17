@@ -194,7 +194,7 @@ const storage = [
 }
 
 .policy__meta {
-  color: var(--asfalto-suave);
+  color: var(--crema-suave);
 }
 
 .policy h2 {
@@ -212,6 +212,7 @@ const storage = [
   overflow-x: auto;
   border-radius: var(--radius-option);
   background: var(--papel);
+  color: var(--tinta);
 }
 
 .policy__table {
@@ -224,13 +225,13 @@ const storage = [
 .policy__table th,
 .policy__table td {
   padding: 0.625rem 0.75rem;
-  border-bottom: 1px solid var(--cemento);
+  border-bottom: 1px solid var(--papel-linea);
   text-align: left;
   vertical-align: top;
 }
 
 .policy__table thead th {
-  border-bottom: 3px solid var(--asfalto);
+  border-bottom: 3px solid var(--tinta);
 }
 
 .policy__table tbody th {

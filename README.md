@@ -233,7 +233,7 @@ you what else moves.
   are turned off; colour and icons still show the result.
 - In the report, skipped questions also show the correct answer and explanation (the brief
   only asks for wrong ones); it is useful and costs nothing.
-- Fonts (Barlow Condensed, Atkinson Hyperlegible Next) are downloaded at build time and
+- Fonts (Playfair Display, Atkinson Hyperlegible Next) are downloaded at build time and
   served from this site, so visitors' IP addresses are never sent to Google's font CDN.
 
 **Ranking**

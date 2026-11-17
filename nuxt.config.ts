@@ -31,9 +31,9 @@ export default defineNuxtConfig({
     defaults: { subsets: ['latin', 'latin-ext'] },
     families: [
       {
-        name: 'Barlow Condensed',
+        name: 'Playfair Display',
         provider: 'google',
-        weights: [600, 800],
+        weights: [700, 800],
         styles: ['normal', 'italic'],
       },
       {
@@ -75,7 +75,7 @@ export default defineNuxtConfig({
           name: 'description',
           content: 'Responde todas las preguntas que puedas antes de que se acabe el tiempo.',
         },
-        { name: 'theme-color', content: '#d5dae0' },
+        { name: 'theme-color', content: '#261811' },
       ],
     },
   },

@@ -1,9 +1,10 @@
 <script setup lang="ts">
+defineProps<{ wide?: boolean }>()
 const emit = defineEmits<{ 'open-cookie-settings': [] }>()
 </script>
 
 <template>
-  <footer class="footer">
+  <footer class="footer" :class="{ 'footer--wide': wide }">
     <nav aria-label="Información legal" class="footer__nav">
       <NuxtLink to="/cookies">Cookies y privacidad</NuxtLink>
       <button type="button" class="footer__link" @click="emit('open-cookie-settings')">
@@ -21,6 +22,10 @@ const emit = defineEmits<{ 'open-cookie-settings': [] }>()
   font-size: 0.9375rem;
 }
 
+.footer--wide {
+  max-width: var(--measure-wide);
+}
+
 .footer__nav {
   display: flex;
   flex-wrap: wrap;
@@ -32,7 +37,7 @@ const emit = defineEmits<{ 'open-cookie-settings': [] }>()
   padding: 0.5rem 0;
   border: 0;
   background: none;
-  color: var(--azul);
+  color: var(--oro-claro);
   font-weight: 700;
   text-decoration: underline;
   cursor: pointer;

@@ -1,49 +1,87 @@
 /*
  * Design tokens and base styles.
- * Visual idea: a cycling time trial. Light cement ground, white road paint,
- * signage blue for actions, one yellow reserved for the clock.
+ * Visual idea: a reading room at night. Dark walnut for the ground, aged parchment for
+ * the cards, brass and gold for the clock. Every category has its own bookmark colour
+ * and every answer slot (A to D) has a fixed warm colour.
  */
 
 :root {
-  /* Ground and surfaces */
-  --cemento: #d5dae0;
-  --cemento-borde: #a9b2bd;
-  --papel: #ffffff;
+  /* Ground: dark walnut */
+  --nogal: #261811;
+  --nogal-alto: #3a2619;
+  --nogal-borde: #5c3f29;
 
-  /* Ink */
-  --asfalto: #1d2733;
-  --asfalto-suave: #3f4b5a;
+  /* Surfaces: parchment */
+  --papel: #f3e6c8;
+  --papel-oscuro: #e6d3a8;
+  --papel-borde: #c9ae7c;
+  --papel-linea: #d9c497;
 
-  /* Actions and signature */
-  --azul: #0a4da2;
-  --azul-hover: #083b7d;
-  --amarillo: #ffd60a;
+  /* Ink, for text on parchment */
+  --tinta: #2a1b10;
+  --tinta-suave: #5a4430;
+
+  /* Text on the walnut ground */
+  --crema: #f3e6c8;
+  --crema-suave: #cdb791;
+
+  /* Gold: primary actions, links on the ground and the clock */
+  --oro: #d9a93f;
+  --oro-hover: #e8bc55;
+  --oro-claro: #f2cb6a;
+  --oro-sombra: #8e6a1e;
+  --enlace-papel: #7a4a12;
 
   /* Feedback (always paired with an icon and text, never colour alone) */
-  --acierto: #166534;
-  --acierto-linea: #2f8f56;
-  --acierto-tinte: #dff5e6;
-  --fallo: #c62828;
-  --fallo-tinte: #fbe3e3;
+  --acierto: #1f6a3d;
+  --acierto-linea: #3e8e57;
+  --acierto-tinte: #dce9c9;
+  --fallo: #b3342b;
+  --fallo-tinte: #f2d3c6;
+  --fallo-suelo: #f29a8a; /* red readable on the dark ground */
 
   /* "Pasar": light orange while free, dark orange once it costs points */
-  --pasar-claro: #ffc46b;
-  --pasar-claro-borde: #d98a1f;
-  --pasar-oscuro: #c2410c;
-  --pasar-oscuro-hover: #9a3412;
+  --pasar-claro: #e9b35a;
+  --pasar-claro-borde: #b8741f;
+  --pasar-oscuro: #9a410d;
+  --pasar-oscuro-hover: #7d330a;
 
-  --font-display: 'Barlow Condensed', 'Arial Narrow', 'Roboto Condensed', system-ui, sans-serif;
+  /* Answer slots: A yellow, B green, C blue, D red, all in warm tones.
+     Each one has its own text colour so the label keeps 4.5:1 contrast. */
+  --resp-a: #c89b3c;
+  --resp-a-texto: var(--tinta);
+  --resp-b: #0c5a42;
+  --resp-b-texto: var(--papel);
+  --resp-c: #46687f;
+  --resp-c-texto: var(--papel);
+  --resp-d: #a64b3b;
+  --resp-d-texto: var(--papel);
+
+  /* Category bookmarks (the notch on the question card) */
+  --cat-arte: #8e2f4a;
+  --cat-historia: #8a5530;
+  --cat-deportes: #66742a;
+  --cat-cine: #6a4380;
+  --cat-ciencias: #2a6f7b;
+  --cat-lengua: #40508f;
+
+  /* Paper and wood grain: tiny inline SVG noise, no extra request */
+  --grano-papel: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .24 0 0 0 0 .1 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grano-nogal: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .9 0 0 0 0 .7 0 0 0 0 .45 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
+  --font-display: 'Playfair Display', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
   --font-body:
     'Atkinson Hyperlegible Next', 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI',
     sans-serif;
 
-  --radius-card: 1.25rem;
-  --radius-control: 0.75rem;
-  --radius-option: 0.625rem;
+  --radius-card: 0.5rem;
+  --radius-control: 0.5rem;
+  --radius-option: 0.5rem;
 
   --measure: 40rem;
+  --measure-wide: 64rem;
 
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 *,
@@ -55,16 +93,23 @@
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  /* Also colours the overscroll area, so no darker band shows below the page. */
+  background-color: var(--nogal);
 }
 
 body {
   margin: 0;
   min-height: 100dvh;
-  background: var(--cemento);
-  color: var(--asfalto);
+  background-color: var(--nogal);
+  /* A lamp glow from above, a hint of grain and faint wood veins. */
+  background-image:
+    radial-gradient(90% 60% at 50% -8%, rgb(255 184 96 / 0.2), transparent 62%), var(--grano-nogal),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.014) 0 1px, transparent 1px 7px);
+  color: var(--crema);
   font-family: var(--font-body);
   font-size: 1.0625rem;
   line-height: 1.5;
+  font-variant-numeric: lining-nums;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -75,7 +120,8 @@ h3 {
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 800;
-  line-height: 1.02;
+  line-height: 1.08;
+  font-variant-numeric: lining-nums;
 }
 
 p {
@@ -89,17 +135,21 @@ input {
 }
 
 a {
-  color: var(--azul);
+  color: var(--oro-claro);
 }
 
+/* Two-tone ring: a dark band next to the element and a gold band outside it, so it is
+   visible on the walnut ground and on parchment alike. */
 :focus-visible {
-  outline: 3px solid var(--azul);
+  outline: 3px solid var(--oro-claro);
   outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--tinta);
 }
 
 /* Headings that receive programmatic focus are not interactive: no ring. */
 [tabindex='-1']:focus {
   outline: none;
+  box-shadow: none;
 }
 
 .sr-only {
@@ -121,8 +171,8 @@ a {
   z-index: 100;
   padding: 0.75rem 1rem;
   border-radius: var(--radius-control);
-  background: var(--asfalto);
-  color: var(--papel);
+  background: var(--oro);
+  color: var(--tinta);
   font-weight: 700;
 }
 
@@ -135,6 +185,11 @@ a {
   max-width: var(--measure);
   margin-inline: auto;
   padding: 1rem 1rem 3rem;
+}
+
+/* Home and game use the width of a desktop screen; the other pages keep a reading column. */
+.shell--wide {
+  max-width: var(--measure-wide);
 }
 
 /* Buttons shared by every screen */
@@ -168,22 +223,23 @@ a {
 }
 
 .btn--primary {
-  background: var(--azul);
-  color: var(--papel);
+  border-color: var(--oro-sombra);
+  background: var(--oro);
+  color: var(--tinta);
 }
 
 .btn--primary:hover:not(:disabled) {
-  background: var(--azul-hover);
+  background: var(--oro-hover);
 }
 
 .btn--secondary {
-  border-color: var(--asfalto);
+  border-color: var(--tinta);
   background: var(--papel);
-  color: var(--asfalto);
+  color: var(--tinta);
 }
 
 .btn--secondary:hover:not(:disabled) {
-  background: #eef1f4;
+  background: var(--papel-oscuro);
 }
 
 .btn--large {

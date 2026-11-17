@@ -24,6 +24,7 @@ function onClick(): void {
     type="button"
     class="option"
     :class="`option--${state}`"
+    :data-letter="letter"
     :aria-disabled="locked"
     :aria-keyshortcuts="shortcut"
     @click="onClick"
@@ -41,29 +42,65 @@ function onClick(): void {
 </template>
 
 <style scoped>
+/*
+ * Two independent axes: the slot (A to D) gives the button its fixed colour, and the
+ * state (idle, correct, wrong, revealed) adds a border, an icon and a dimming on top.
+ * The result never depends on hue: solid ring + tick means right, dashed ring + cross
+ * means wrong, and the buttons that do not matter fade out.
+ */
 .option {
+  --tono: var(--resp-a);
+  --tono-texto: var(--resp-a-texto);
+
   display: flex;
   align-items: center;
   gap: 0.875rem;
   width: 100%;
   min-height: 3.75rem;
-  padding: 0.625rem 0.875rem 0.625rem 0.625rem;
-  border: 2px solid var(--cemento-borde);
+  padding: 0.5rem 0.875rem 0.5rem 0.5rem;
+  border: 3px solid rgb(0 0 0 / 0.28);
   border-radius: var(--radius-option);
-  background: var(--papel);
-  color: var(--asfalto);
+  background: var(--tono);
+  color: var(--tono-texto);
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.25;
   text-align: left;
   cursor: pointer;
   transition:
-    background-color 0.15s ease,
-    border-color 0.15s ease;
+    filter 0.15s ease,
+    opacity 0.2s ease,
+    transform 0.1s ease;
 }
 
-.option:hover:not([aria-disabled='true']) {
-  border-color: var(--azul);
+.option[data-letter='A'] {
+  --tono: var(--resp-a);
+  --tono-texto: var(--resp-a-texto);
+}
+
+.option[data-letter='B'] {
+  --tono: var(--resp-b);
+  --tono-texto: var(--resp-b-texto);
+}
+
+.option[data-letter='C'] {
+  --tono: var(--resp-c);
+  --tono-texto: var(--resp-c-texto);
+}
+
+.option[data-letter='D'] {
+  --tono: var(--resp-d);
+  --tono-texto: var(--resp-d-texto);
+}
+
+@media (hover: hover) {
+  .option:hover:not([aria-disabled='true']) {
+    filter: brightness(1.12);
+  }
+}
+
+.option:active:not([aria-disabled='true']) {
+  transform: translateY(1px);
 }
 
 .option[aria-disabled='true'] {
@@ -77,8 +114,8 @@ function onClick(): void {
   place-items: center;
   width: 2.25rem;
   height: 2.25rem;
-  border-radius: 0.5rem;
-  background: var(--asfalto);
+  border-radius: 0.375rem;
+  background: var(--tinta);
   color: var(--papel);
   font-family: var(--font-display);
   font-style: italic;
@@ -92,41 +129,35 @@ function onClick(): void {
   overflow-wrap: anywhere;
 }
 
-.option--correct {
-  border-color: var(--acierto);
-  background: var(--acierto);
-  color: var(--papel);
+/* Answered: the buttons that are neither the choice nor the right answer fade out. */
+.option--idle[aria-disabled='true'] {
+  opacity: 0.5;
 }
 
-.option--correct .option__mark {
+/* Right answer (chosen, or revealed after a mistake): a solid cream border with a dark ring. */
+.option--correct,
+.option--revealed {
+  border-color: var(--papel);
+  box-shadow: 0 0 0 3px var(--tinta);
+}
+
+.option--correct .option__mark,
+.option--revealed .option__mark {
   background: var(--papel);
   color: var(--acierto);
   font-size: 1.5rem;
 }
 
+/* Wrong choice: the same ring, but dashed, plus the cross and the shake. */
 .option--wrong {
-  border-color: var(--fallo);
-  background: var(--fallo);
-  color: var(--papel);
+  border-style: dashed;
+  border-color: var(--papel);
+  box-shadow: 0 0 0 3px var(--tinta);
 }
 
 .option--wrong .option__mark {
   background: var(--papel);
   color: var(--fallo);
-  font-size: 1.5rem;
-}
-
-/* The right answer revealed after a mistake: outlined, not filled, so the wrong
-   choice stays the loudest thing on screen. */
-.option--revealed {
-  border: 4px solid var(--acierto);
-  padding: calc(0.625rem - 2px) calc(0.875rem - 2px) calc(0.625rem - 2px) calc(0.625rem - 2px);
-  background: var(--papel);
-}
-
-.option--revealed .option__mark {
-  background: var(--acierto);
-  color: var(--papel);
   font-size: 1.5rem;
 }
 

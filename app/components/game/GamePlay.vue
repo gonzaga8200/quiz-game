@@ -83,6 +83,7 @@ onBeforeUnmount(() => {
 <template>
   <div class="game">
     <GameHud
+      class="game__hud"
       :duration-ms="duration * 1000"
       :remaining-ms="remainingMs"
       :score="snapshot.score"
@@ -91,6 +92,7 @@ onBeforeUnmount(() => {
 
     <QuestionCard
       v-if="question"
+      class="game__card"
       :question="question"
       :feedback="feedback"
       @answer="session.answer"
@@ -113,9 +115,17 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+/*
+ * Phone: bar on top, the card takes the spare height (question in the middle, answers at
+ * the bottom) and "Pasar" sits under it, all within thumb reach.
+ * Desktop: the card on the left and the clock panel on the right.
+ */
 .game {
   display: grid;
+  grid-template-rows: auto 1fr auto;
   gap: 1rem;
+  /* The shell adds 1rem on top and 3rem below. */
+  min-height: calc(100dvh - 4rem);
 }
 
 .game__actions {
@@ -128,13 +138,45 @@ onBeforeUnmount(() => {
 .game__shortcuts {
   display: none;
   font-size: 0.875rem;
-  color: var(--asfalto-suave);
+  color: var(--crema-suave);
 }
 
 /* Only show keyboard hints where a keyboard is likely. */
 @media (hover: hover) and (pointer: fine) {
   .game__shortcuts {
     display: block;
+  }
+}
+
+@media (min-width: 56rem) {
+  .game {
+    grid-template-columns: minmax(0, 1fr) 17rem;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      'card hud'
+      'actions hud'
+      'shortcuts hud';
+    align-items: start;
+    column-gap: 1.5rem;
+    min-height: 0;
+  }
+
+  .game__card {
+    grid-area: card;
+  }
+
+  .game__hud {
+    grid-area: hud;
+    position: sticky;
+    top: 1rem;
+  }
+
+  .game__actions {
+    grid-area: actions;
+  }
+
+  .game__shortcuts {
+    grid-area: shortcuts;
   }
 }
 </style>

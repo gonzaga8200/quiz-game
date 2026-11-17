@@ -25,12 +25,12 @@ const sound = useSound()
     </div>
 
     <header class="hero">
+      <!-- The pocket watch is the signature of the game: the hand never stops on the cover. -->
+      <ClockFace class="hero__clock" :duration-ms="1" :remaining-ms="1" idle />
       <h1 class="wordmark">Contrarreloj</h1>
       <p class="tagline">
         Responde todas las preguntas que puedas antes de que se acabe el tiempo.
       </p>
-      <!-- The start line of a time trial: the whole road is still ahead. -->
-      <RoadTimer :duration-ms="1" :remaining-ms="1" />
     </header>
 
     <nav class="actions" aria-label="Menú principal">
@@ -72,9 +72,16 @@ const sound = useSound()
 </template>
 
 <style scoped>
+/*
+ * Phone: the watch and the title fill the top, the buttons rest at the bottom, in reach
+ * of the thumb. Desktop: watch and title on the left, the menu on the right.
+ */
 .menu {
   display: grid;
-  gap: 2rem;
+  grid-template-rows: auto 1fr auto;
+  gap: 1.5rem;
+  /* The shell adds 1rem on top and 3rem below. */
+  min-height: calc(100dvh - 4rem);
 }
 
 .menu__bar {
@@ -95,7 +102,7 @@ const sound = useSound()
 
 .who__avatar {
   flex: none;
-  border: 2px solid var(--asfalto);
+  border: 2px solid var(--oro);
   border-radius: 50%;
 }
 
@@ -112,7 +119,7 @@ const sound = useSound()
   padding: 0.5rem;
   border: 0;
   background: none;
-  color: var(--azul);
+  color: var(--oro-claro);
   font-weight: 700;
   text-decoration: underline;
   cursor: pointer;
@@ -120,18 +127,28 @@ const sound = useSound()
 
 .hero {
   display: grid;
-  gap: 1rem;
+  align-content: center;
+  justify-items: center;
+  gap: 0.875rem;
+  text-align: center;
+}
+
+.hero__clock {
+  width: min(58vw, 14rem);
 }
 
 .wordmark {
-  font-size: clamp(3.5rem, 17vw, 6rem);
-  line-height: 0.9;
+  color: var(--oro-claro);
+  font-size: clamp(2.75rem, 13vw, 5rem);
+  line-height: 1;
   letter-spacing: -0.01em;
+  text-shadow: 0 2px 0 rgb(0 0 0 / 0.5);
 }
 
 .tagline {
-  max-width: 30ch;
-  font-size: 1.1875rem;
+  max-width: 28ch;
+  color: var(--crema-suave);
+  font-size: 1.125rem;
 }
 
 .actions {
@@ -147,11 +164,43 @@ const sound = useSound()
 
 .note {
   font-size: 0.9375rem;
-  color: var(--asfalto-suave);
+  color: var(--crema-suave);
 }
 
 .note--error {
-  color: var(--fallo);
+  color: var(--fallo-suelo);
   font-weight: 700;
+}
+
+@media (min-width: 56rem) {
+  .menu {
+    grid-template-columns: 1fr minmax(0, 26rem);
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'bar bar'
+      'hero actions';
+    align-items: center;
+    column-gap: 4rem;
+  }
+
+  .menu__bar {
+    grid-area: bar;
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .actions {
+    grid-area: actions;
+  }
+
+  .hero__clock {
+    width: min(100%, 20rem);
+  }
+
+  .wordmark {
+    font-size: 4.75rem;
+  }
 }
 </style>

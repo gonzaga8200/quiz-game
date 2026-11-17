@@ -172,7 +172,7 @@ onMounted(() => {
   font-weight: 800;
   font-size: clamp(5rem, 24vw, 7.5rem);
   line-height: 0.9;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .report__unit {
@@ -183,13 +183,14 @@ onMounted(() => {
 }
 
 .report__context {
-  color: var(--asfalto-suave);
+  color: var(--crema-suave);
 }
 
 .panel {
   padding: 1rem;
   border-radius: var(--radius-card);
   background: var(--papel);
+  color: var(--tinta);
 }
 
 .panel__title {
@@ -210,7 +211,7 @@ onMounted(() => {
 
 .counts dt {
   font-size: 0.9375rem;
-  color: var(--asfalto-suave);
+  color: var(--tinta-suave);
 }
 
 .counts dd {
@@ -220,7 +221,7 @@ onMounted(() => {
   font-weight: 800;
   font-size: 2.25rem;
   line-height: 1.1;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .breakdown {
@@ -231,14 +232,14 @@ onMounted(() => {
 .breakdown th,
 .breakdown td {
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--cemento);
+  border-bottom: 1px solid var(--papel-linea);
   text-align: left;
 }
 
 .breakdown td {
   text-align: right;
   font-weight: 700;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .breakdown th {
@@ -246,14 +247,14 @@ onMounted(() => {
 }
 
 .breakdown__note {
-  color: var(--asfalto-suave);
+  color: var(--tinta-suave);
 }
 
 .breakdown tfoot th,
 .breakdown tfoot td {
   padding-top: 0.75rem;
   border-bottom: 0;
-  border-top: 3px solid var(--asfalto);
+  border-top: 3px solid var(--tinta);
   font-weight: 700;
   font-size: 1.25rem;
 }
@@ -262,6 +263,7 @@ onMounted(() => {
   padding: 1rem;
   border-radius: var(--radius-card);
   background: var(--papel);
+  color: var(--tinta);
 }
 
 .report__actions {

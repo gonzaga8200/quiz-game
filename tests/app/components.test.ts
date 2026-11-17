@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import AnswerOption from '../../app/components/game/AnswerOption.vue'
+import ClockFace from '../../app/components/game/ClockFace.vue'
 import GameHud from '../../app/components/game/GameHud.vue'
 import QuestionCard from '../../app/components/game/QuestionCard.vue'
-import RoadTimer from '../../app/components/game/RoadTimer.vue'
 import SkipButton from '../../app/components/game/SkipButton.vue'
 import type { AnswerFeedback } from '../../app/composables/useGameSession'
 import { mulberry32, toPlayable } from '../../core'
@@ -59,6 +59,14 @@ describe('AnswerOption', () => {
     expect(wrapper.find('svg').exists()).toBe(true) // tick or cross icon
   })
 
+  it.each(['A', 'B', 'C', 'D'])(
+    'exposes its slot letter %s so the stylesheet can colour it',
+    (letter) => {
+      const wrapper = mount(AnswerOption, { props: { ...props, letter } })
+      expect(wrapper.attributes('data-letter')).toBe(letter)
+    },
+  )
+
   it('has no state text and keeps the letter while idle', () => {
     const wrapper = mount(AnswerOption, { props })
     expect(wrapper.find('.sr-only').exists()).toBe(false)
@@ -74,6 +82,11 @@ describe('QuestionCard', () => {
     expect(wrapper.text()).toContain('medio')
     expect(wrapper.findAllComponents(AnswerOption)).toHaveLength(4)
     expect(wrapper.attributes('data-feedback')).toBe('none')
+  })
+
+  it('exposes the category slug so the bookmark takes its colour', () => {
+    const wrapper = mount(QuestionCard, { props: { question, feedback: null } })
+    expect(wrapper.attributes('data-category')).toBe('historia')
   })
 
   it('emits the index of the chosen option', async () => {
@@ -212,11 +225,11 @@ describe('GameHud', () => {
   })
 })
 
-describe('RoadTimer', () => {
+describe('ClockFace', () => {
   const elapsedOf = (durationMs: number, remainingMs: number) =>
-    mount(RoadTimer, { props: { durationMs, remainingMs } }).attributes('style')
+    mount(ClockFace, { props: { durationMs, remainingMs } }).attributes('style')
 
-  it('maps remaining time to how much road was ridden', () => {
+  it('maps remaining time to how much of the dial has gone round', () => {
     expect(elapsedOf(60_000, 60_000)).toContain('--elapsed: 0')
     expect(elapsedOf(60_000, 30_000)).toContain('--elapsed: 0.5')
     expect(elapsedOf(60_000, 0)).toContain('--elapsed: 1')
@@ -228,8 +241,14 @@ describe('RoadTimer', () => {
     expect(elapsedOf(0, 0)).toContain('--elapsed: 1')
   })
 
-  it('is hidden from assistive technology (the clock carries the time)', () => {
-    const wrapper = mount(RoadTimer, { props: { durationMs: 1, remainingMs: 1 } })
+  it('is hidden from assistive technology (the digital clock carries the time)', () => {
+    const wrapper = mount(ClockFace, { props: { durationMs: 1, remainingMs: 1 } })
     expect(wrapper.attributes('aria-hidden')).toBe('true')
+  })
+
+  it('sweeps on its own only on the cover (idle)', () => {
+    const props = { durationMs: 1, remainingMs: 1 }
+    expect(mount(ClockFace, { props }).classes()).not.toContain('dial--idle')
+    expect(mount(ClockFace, { props: { ...props, idle: true } }).classes()).toContain('dial--idle')
   })
 })

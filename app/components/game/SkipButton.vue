@@ -80,7 +80,7 @@ function onClick(): void {
 .skip--free {
   border-color: var(--pasar-claro-borde);
   background: var(--pasar-claro);
-  color: var(--asfalto);
+  color: var(--tinta);
 }
 
 /* Costs points: dark orange with white text. */

@@ -52,9 +52,10 @@ const RESULT_LABEL = { correct: 'Correcta', wrong: 'Incorrecta', skipped: 'Pasad
   display: grid;
   gap: 0.375rem;
   padding: 0.875rem 1rem;
-  border-left: 6px solid var(--cemento-borde);
+  border-left: 6px solid var(--papel-borde);
   border-radius: var(--radius-option);
   background: var(--papel);
+  color: var(--tinta);
 }
 
 .row--correct {
@@ -99,7 +100,7 @@ const RESULT_LABEL = { correct: 'Correcta', wrong: 'Incorrecta', skipped: 'Pasad
 
 .row__meta {
   font-size: 0.875rem;
-  color: var(--asfalto-suave);
+  color: var(--tinta-suave);
 }
 
 .row__text {
@@ -112,6 +113,6 @@ const RESULT_LABEL = { correct: 'Correcta', wrong: 'Incorrecta', skipped: 'Pasad
 
 .row__explanation {
   font-size: 0.9375rem;
-  color: var(--asfalto-suave);
+  color: var(--tinta-suave);
 }
 </style>

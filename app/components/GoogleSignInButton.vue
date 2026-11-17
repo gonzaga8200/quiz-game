@@ -34,16 +34,16 @@ const emit = defineEmits<{ click: [] }>()
   gap: 0.75rem;
   min-height: 3.25rem;
   padding: 0.75rem 1.25rem;
-  border: 2px solid var(--asfalto);
+  border: 2px solid var(--tinta);
   border-radius: var(--radius-control);
   background: var(--papel);
-  color: var(--asfalto);
+  color: var(--tinta);
   font-size: 1.0625rem;
   font-weight: 700;
   cursor: pointer;
 }
 
 .google:hover {
-  background: #eef1f4;
+  background: var(--papel-oscuro);
 }
 </style>

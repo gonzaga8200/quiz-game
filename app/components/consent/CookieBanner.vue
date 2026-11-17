@@ -38,11 +38,16 @@ const emit = defineEmits<{ accept: []; reject: [] }>()
   max-width: 38rem;
   margin-inline: auto;
   padding: 1rem;
-  border: 3px solid var(--asfalto);
+  border: 3px solid var(--tinta);
   border-radius: var(--radius-card);
   background: var(--papel);
-  box-shadow: 0 0.5rem 1.5rem rgb(29 39 51 / 0.25);
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 0.55);
+  color: var(--tinta);
   font-size: 0.9375rem;
+}
+
+.banner a {
+  color: var(--enlace-papel);
 }
 
 .banner__title {

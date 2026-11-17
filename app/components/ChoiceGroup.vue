@@ -78,16 +78,17 @@ const model = defineModel<T>({ required: true })
   gap: 0.75rem;
   min-height: 3.75rem;
   padding: 0.5rem 0.875rem;
-  border: 2px solid var(--cemento-borde);
+  border: 2px solid var(--papel-borde);
   border-radius: var(--radius-option);
   background: var(--papel);
+  color: var(--tinta);
   transition:
     background-color 0.15s ease,
     border-color 0.15s ease;
 }
 
 .choice:hover .choice__body {
-  border-color: var(--azul);
+  border-color: var(--oro-sombra);
 }
 
 .choice__check {
@@ -96,7 +97,7 @@ const model = defineModel<T>({ required: true })
   place-items: center;
   width: 1.5rem;
   height: 1.5rem;
-  border: 2px solid var(--asfalto);
+  border: 2px solid var(--tinta);
   border-radius: 50%;
   font-size: 0.9rem;
   color: var(--papel);
@@ -115,19 +116,20 @@ const model = defineModel<T>({ required: true })
 }
 
 .choice__input:checked + .choice__body {
-  border-color: var(--azul);
-  background: var(--azul);
-  color: var(--papel);
+  border-color: var(--oro-sombra);
+  background: var(--oro);
+  color: var(--tinta);
 }
 
 .choice__input:checked + .choice__body .choice__check {
-  border-color: var(--papel);
-  background: var(--papel);
-  color: var(--azul);
+  border-color: var(--tinta);
+  background: var(--tinta);
+  color: var(--oro-claro);
 }
 
 .choice__input:focus-visible + .choice__body {
-  outline: 3px solid var(--azul);
+  outline: 3px solid var(--oro-claro);
   outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--tinta);
 }
 </style>

@@ -119,5 +119,6 @@ onMounted(() => void loadBoard(board.value))
   padding: 1rem;
   border-radius: var(--radius-card);
   background: var(--papel);
+  color: var(--tinta);
 }
 </style>
