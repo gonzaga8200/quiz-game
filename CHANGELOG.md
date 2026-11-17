@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/gonzaga8200/quiz-game/compare/v0.4.0...v0.5.0) (2026-11-17)
+
+
+### Features
+
+* **ui:** redesign the game as a reading room with parchment cards and a pocket watch ([#20](https://github.com/gonzaga8200/quiz-game/issues/20)) ([e4e4ec1](https://github.com/gonzaga8200/quiz-game/commit/e4e4ec1f02698529822f8b1f37ea68a77b832448))
+
 ## [0.4.0](https://github.com/gonzaga8200/quiz-game/compare/v0.3.0...v0.4.0) (2026-11-17)
 
 
