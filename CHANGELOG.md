@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/gonzaga8200/quiz-game/compare/v0.5.0...v0.6.0) (2026-11-19)
+
+
+### Features
+
+* **ui:** shorter questions and stronger feedback on mistakes, streaks and lost points ([#22](https://github.com/gonzaga8200/quiz-game/issues/22)) ([658a527](https://github.com/gonzaga8200/quiz-game/commit/658a527c35f008ecb2cbdcd4de23b9ae2c0ae283))
+
 ## [0.5.0](https://github.com/gonzaga8200/quiz-game/compare/v0.4.0...v0.5.0) (2026-11-17)
 
 
