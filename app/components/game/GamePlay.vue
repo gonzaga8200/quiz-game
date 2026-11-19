@@ -2,7 +2,10 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import type { DifficultyFilter, Duration, GameReport, Question } from '~~/core'
 import { useGameSession } from '~/composables/useGameSession'
+import { streakFx, vibrate } from '~/utils/fx'
 import { actionForKey } from '~/utils/keyboard'
+import FxLayer from './FxLayer.vue'
+import type { LayerFx } from './FxLayer.vue'
 import GameHud from './GameHud.vue'
 import QuestionCard from './QuestionCard.vue'
 import SkipButton from './SkipButton.vue'
@@ -18,6 +21,30 @@ const emit = defineEmits<{ finished: [report: GameReport] }>()
 
 const sound = useSound()
 
+// --- Visual feedback: a red flash on mistakes, a banner on streaks, a hit on the score -----
+const fx = ref<LayerFx | null>(null)
+const hit = ref<{ id: number; amount: number } | null>(null)
+const skipMessage = ref('')
+let fxCount = 0
+let fxTimer: ReturnType<typeof setTimeout> | undefined
+let hitTimer: ReturnType<typeof setTimeout> | undefined
+let jingleTimer: ReturnType<typeof setTimeout> | undefined
+
+function showFx(next: Omit<LayerFx, 'id'>, ms: number): void {
+  fxCount += 1
+  fx.value = { ...next, id: fxCount } as LayerFx
+  clearTimeout(fxTimer)
+  fxTimer = setTimeout(() => (fx.value = null), ms)
+}
+
+/** Points just lost: the score tile in the bar flashes and shows the amount. */
+function showHit(amount: number): void {
+  fxCount += 1
+  hit.value = { id: fxCount, amount }
+  clearTimeout(hitTimer)
+  hitTimer = setTimeout(() => (hit.value = null), 1400)
+}
+
 const session = useGameSession({
   questions: props.questions,
   filter: props.filter,
@@ -25,7 +52,14 @@ const session = useGameSession({
   effects: {
     onCorrect: () => sound.play('correct'),
     onWrong: () => sound.play('wrong'),
-    onSkip: () => sound.play('skip'),
+    onSkip: (penalty) => {
+      sound.play('skip')
+      skipMessage.value =
+        penalty > 0
+          ? `Pasas la pregunta. Pierdes ${penalty} ${penalty === 1 ? 'punto' : 'puntos'}.`
+          : ''
+      if (penalty > 0) showHit(penalty)
+    },
     onFinish: (report) => {
       sound.play('end')
       emit('finished', report)
@@ -33,6 +67,27 @@ const session = useGameSession({
   },
 })
 const { snapshot, question, remainingMs, feedback } = session
+
+// The feedback is set right after the score and streak are refreshed, so reading the
+// snapshot here already gives the new streak.
+watch(feedback, (fb) => {
+  if (!fb) return
+  skipMessage.value = ''
+  if (!fb.correct) {
+    showFx({ kind: 'wrong' }, 700)
+    if (fb.penalty > 0) showHit(fb.penalty)
+    vibrate([90, 50, 90])
+    return
+  }
+  const cheer = streakFx(fb, snapshot.value.streak)
+  if (!cheer) return
+  showFx({ kind: 'streak', ...cheer }, cheer.big ? 2200 : 1500)
+  vibrate(cheer.big ? [40, 40, 40, 40, 160] : 40)
+  if (cheer.big) jingleTimer = setTimeout(() => sound.play('streak'), 180)
+})
+
+/** A combo bonus was just earned: the card gets a gold glow while the feedback shows. */
+const celebrate = computed(() => feedback.value?.correct === true && feedback.value.bonus > 0)
 
 // --- Screen reader announcements -------------------------------------------------
 const answerMessage = computed(() => {
@@ -55,7 +110,7 @@ watch(remainingMs, (now, before) => {
   }
 })
 
-const announcement = computed(() => answerMessage.value || timeMessage.value)
+const announcement = computed(() => answerMessage.value || skipMessage.value || timeMessage.value)
 
 // --- Keyboard: 1-4 / A-D answer, P skips ------------------------------------------
 function onKeydown(event: KeyboardEvent): void {
@@ -76,6 +131,9 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeydown)
+  clearTimeout(fxTimer)
+  clearTimeout(hitTimer)
+  clearTimeout(jingleTimer)
   session.dispose()
 })
 </script>
@@ -88,6 +146,7 @@ onBeforeUnmount(() => {
       :remaining-ms="remainingMs"
       :score="snapshot.score"
       :streak="snapshot.streak"
+      :hit="hit"
     />
 
     <QuestionCard
@@ -95,6 +154,7 @@ onBeforeUnmount(() => {
       class="game__card"
       :question="question"
       :feedback="feedback"
+      :data-celebrate="celebrate ? 'big' : undefined"
       @answer="session.answer"
     />
 
@@ -110,6 +170,8 @@ onBeforeUnmount(() => {
 
     <p class="game__shortcuts">Con teclado: 1 a 4 o A a D para responder, P para pasar.</p>
 
+    <FxLayer :fx="fx" />
+
     <p class="sr-only" aria-live="polite" aria-atomic="true">{{ announcement }}</p>
   </div>
 </template>
@@ -123,7 +185,7 @@ onBeforeUnmount(() => {
 .game {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  gap: 1rem;
+  gap: 0.625rem;
   /* The shell adds 1rem on top and 3rem below. */
   min-height: calc(100dvh - 4rem);
 }

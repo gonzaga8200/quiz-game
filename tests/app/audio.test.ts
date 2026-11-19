@@ -48,14 +48,17 @@ describe('synth', () => {
     expect(first?.type).toBe('triangle')
   })
 
-  it.each(['correct', 'wrong', 'skip', 'end'] as const)('knows how to play "%s"', (name) => {
-    const { context, oscillators } = fakeContext()
-    createSynth(() => context).play(name)
-    expect(oscillators).toHaveLength(SOUNDS[name].length)
-    for (const oscillator of oscillators) {
-      expect(oscillator.stop).toHaveBeenCalledOnce()
-    }
-  })
+  it.each(['correct', 'wrong', 'skip', 'streak', 'end'] as const)(
+    'knows how to play "%s"',
+    (name) => {
+      const { context, oscillators } = fakeContext()
+      createSynth(() => context).play(name)
+      expect(oscillators).toHaveLength(SOUNDS[name].length)
+      for (const oscillator of oscillators) {
+        expect(oscillator.stop).toHaveBeenCalledOnce()
+      }
+    },
+  )
 
   it('glides the pitch down for the error buzz', () => {
     const { context, oscillators } = fakeContext()

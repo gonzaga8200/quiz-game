@@ -23,7 +23,8 @@ export interface AnswerFeedback {
 export interface SessionEffects {
   onCorrect?: () => void
   onWrong?: () => void
-  onSkip?: () => void
+  /** Points the skip cost (0 while free skips remain). */
+  onSkip?: (penalty: number) => void
   onFinish?: (report: GameReport) => void
 }
 
@@ -144,7 +145,7 @@ export function useGameSession(options: SessionOptions) {
     const outcome = game.skip()
     if (outcome.kind === 'expired') return finalize()
     if (outcome.kind !== 'skipped') return
-    options.effects?.onSkip?.()
+    options.effects?.onSkip?.(outcome.penalty)
     advance()
   }
 

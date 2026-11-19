@@ -4,7 +4,7 @@
  * can be tested without a browser.
  */
 
-export type SoundName = 'correct' | 'wrong' | 'skip' | 'end'
+export type SoundName = 'correct' | 'wrong' | 'skip' | 'streak' | 'end'
 
 interface Note {
   readonly freq: number
@@ -27,6 +27,13 @@ export const SOUNDS: Readonly<Record<SoundName, readonly Note[]>> = {
   wrong: [{ freq: 196, at: 0, length: 0.3, wave: 'sawtooth', volume: 0.2, glideTo: 110 }],
   // Short soft blip.
   skip: [{ freq: 440, at: 0, length: 0.09, wave: 'sine', volume: 0.18, glideTo: 330 }],
+  // Bright, quick climb for a combo bonus.
+  streak: [
+    { freq: 783.99, at: 0, length: 0.1, wave: 'triangle', volume: 0.26 },
+    { freq: 987.77, at: 0.07, length: 0.1, wave: 'triangle', volume: 0.26 },
+    { freq: 1174.66, at: 0.14, length: 0.1, wave: 'triangle', volume: 0.26 },
+    { freq: 1567.98, at: 0.21, length: 0.3, wave: 'triangle', volume: 0.28 },
+  ],
   // Rising arpeggio for the final whistle.
   end: [
     { freq: 523.25, at: 0, length: 0.16, wave: 'triangle', volume: 0.3 },

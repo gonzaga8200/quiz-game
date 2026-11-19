@@ -2,6 +2,7 @@ import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import AnswerOption from '../../app/components/game/AnswerOption.vue'
 import ClockFace from '../../app/components/game/ClockFace.vue'
+import FxLayer from '../../app/components/game/FxLayer.vue'
 import GameHud from '../../app/components/game/GameHud.vue'
 import QuestionCard from '../../app/components/game/QuestionCard.vue'
 import SkipButton from '../../app/components/game/SkipButton.vue'
@@ -89,6 +90,22 @@ describe('QuestionCard', () => {
     expect(wrapper.attributes('data-category')).toBe('historia')
   })
 
+  it('stamps a mistake with the points it costs, and not a right answer', () => {
+    const wrong = mount(QuestionCard, {
+      props: { question, feedback: feedback({ chosenIndex: 1, correct: false, penalty: 2 }) },
+    })
+    expect(wrong.find('.card__stamp').text()).toContain('¡Fallo!')
+    expect(wrong.find('.card__stamp').text()).toContain('−2')
+
+    const free = mount(QuestionCard, {
+      props: { question, feedback: feedback({ chosenIndex: 1, correct: false, penalty: 0 }) },
+    })
+    expect(free.find('.card__stamp-points').exists()).toBe(false)
+
+    const right = mount(QuestionCard, { props: { question, feedback: feedback({}) } })
+    expect(right.find('.card__stamp').exists()).toBe(false)
+  })
+
   it('emits the index of the chosen option', async () => {
     const wrapper = mount(QuestionCard, { props: { question, feedback: null } })
     await wrapper.findAllComponents(AnswerOption)[2]!.trigger('click')
@@ -158,6 +175,41 @@ describe('QuestionCard', () => {
   })
 })
 
+describe('FxLayer', () => {
+  it('renders nothing when there is no effect', () => {
+    expect(
+      mount(FxLayer, { props: { fx: null } })
+        .find('.fx')
+        .exists(),
+    ).toBe(false)
+  })
+
+  it('flashes the screen edges on a mistake', () => {
+    const wrapper = mount(FxLayer, { props: { fx: { id: 1, kind: 'wrong' } } })
+    expect(wrapper.find('.fx__vignette').exists()).toBe(true)
+    expect(wrapper.find('.fx__banner').exists()).toBe(false)
+  })
+
+  it('shows a big banner with the bonus and confetti when a combo bonus is earned', () => {
+    const wrapper = mount(FxLayer, {
+      props: { fx: { id: 2, kind: 'streak', streak: 5, bonus: 4, big: true } },
+    })
+    expect(wrapper.find('.fx__banner--big').text()).toContain('¡Racha de 5!')
+    expect(wrapper.find('.fx__bonus').text()).toBe('+4 de bonus')
+    expect(wrapper.findAll('.fx__confetti').length).toBeGreaterThan(0)
+  })
+
+  it('shows only a small banner for a streak without bonus', () => {
+    const wrapper = mount(FxLayer, {
+      props: { fx: { id: 3, kind: 'streak', streak: 4, bonus: 0, big: false } },
+    })
+    expect(wrapper.find('.fx__banner').text()).toContain('¡Racha de 4!')
+    expect(wrapper.find('.fx__banner--big').exists()).toBe(false)
+    expect(wrapper.find('.fx__bonus').exists()).toBe(false)
+    expect(wrapper.find('.fx__confetti').exists()).toBe(false)
+  })
+})
+
 describe('SkipButton', () => {
   it('is light orange and shows the free skips left', () => {
     const wrapper = mount(SkipButton, { props: { freeLeft: 2, cost: 0, locked: false } })
@@ -198,6 +250,40 @@ describe('SkipButton', () => {
 
 describe('GameHud', () => {
   const base = { durationMs: 60_000, remainingMs: 42_000, score: 25, streak: 1 }
+
+  it('highlights lost points on the score tile and shows the amount', () => {
+    const calm = mount(GameHud, { props: base })
+    expect(calm.find('.stat__delta').exists()).toBe(false)
+
+    const hit = mount(GameHud, { props: { ...base, hit: { id: 1, amount: 2 } } })
+    expect(hit.find('.stat--hit').exists()).toBe(true)
+    expect(hit.find('.stat__delta').text()).toBe('−2')
+  })
+
+  it('shows a flame on the streak from three in a row', () => {
+    expect(
+      mount(GameHud, { props: { ...base, streak: 2 } })
+        .find('.stat--hot')
+        .exists(),
+    ).toBe(false)
+    expect(
+      mount(GameHud, { props: { ...base, streak: 3 } })
+        .find('.stat--hot')
+        .exists(),
+    ).toBe(true)
+  })
+
+  it('flashes the streak tile when a streak of two or more breaks', async () => {
+    const wrapper = mount(GameHud, { props: { ...base, streak: 4 } })
+    await wrapper.setProps({ streak: 0 })
+    expect(wrapper.find('.stat--broken').exists()).toBe(true)
+  })
+
+  it('does not flash for a streak of one that ends', async () => {
+    const wrapper = mount(GameHud, { props: { ...base, streak: 1 } })
+    await wrapper.setProps({ streak: 0 })
+    expect(wrapper.find('.stat--broken').exists()).toBe(false)
+  })
 
   it('shows the clock, the score and the streak', () => {
     const wrapper = mount(GameHud, { props: base })
