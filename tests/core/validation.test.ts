@@ -177,7 +177,7 @@ describe('findQuestionIssues: quality warnings', () => {
   })
 
   it('flags an option that is too long to fit on one or two lines', () => {
-    const others = ['a'.repeat(30), 'b'.repeat(31), 'c'.repeat(32)]
+    const others: [string, string, string] = ['a'.repeat(30), 'b'.repeat(31), 'c'.repeat(32)]
     const justRight = 'y'.repeat(MAX_OPTION_LENGTH_HINT)
     expect(warningsFor(q({ options: [justRight, ...others] }))).toEqual([])
 
