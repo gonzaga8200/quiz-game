@@ -23,7 +23,7 @@
   },
   {
     "id": "cine-bunuel-palma-oro-1961",
-    "text": "¿Qué película de Luis Buñuel obtuvo la Palma de Oro de Cannes en 1961?",
+    "text": "¿Qué película de Buñuel ganó la Palma de Oro de Cannes en 1961?",
     "options": ["El ángel exterminador", "Viridiana", "Belle de jour", "Tristana"],
     "correctIndex": 1,
     "category": "Cine y televisión",

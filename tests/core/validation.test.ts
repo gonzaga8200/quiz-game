@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
+  MAX_OPTION_LENGTH_HINT,
+  MAX_TEXT_LENGTH_HINT,
   OPTION_LENGTH_RATIO,
   SIMILAR_TEXT_THRESHOLD,
   findQuestionIssues,
@@ -96,13 +98,13 @@ describe('findQuestionIssues: duplicates', () => {
       entry(
         q({
           id: 'uno',
-          text: '¿Cuál es la capital de la República Francesa situada en Europa occidental moderna?',
+          text: '¿Cuál es la capital de la República Francesa en Europa moderna?',
         }),
       ),
       entry(
         q({
           id: 'dos',
-          text: '¿Cuál es la capital de la República Francesa situada en Europa occidental actual?',
+          text: '¿Cuál es la capital de la República Francesa en Europa actual?',
         }),
       ),
     ])
@@ -160,6 +162,28 @@ describe('findQuestionIssues: quality warnings', () => {
     })
     expect(warningsFor(giveaway)).toEqual([
       expect.stringContaining('already appears in the question'),
+    ])
+  })
+
+  it('flags a question text that would take more than two lines on a phone', () => {
+    const justRight = `¿${'x'.repeat(MAX_TEXT_LENGTH_HINT - 2)}?`
+    expect(justRight).toHaveLength(MAX_TEXT_LENGTH_HINT)
+    expect(warningsFor(q({ text: justRight }))).toEqual([])
+
+    const tooLong = `¿${'x'.repeat(MAX_TEXT_LENGTH_HINT - 1)}?`
+    expect(warningsFor(q({ text: tooLong }))).toEqual([
+      expect.stringContaining(`${MAX_TEXT_LENGTH_HINT + 1} characters`),
+    ])
+  })
+
+  it('flags an option that is too long to fit on one or two lines', () => {
+    const others = ['a'.repeat(30), 'b'.repeat(31), 'c'.repeat(32)]
+    const justRight = 'y'.repeat(MAX_OPTION_LENGTH_HINT)
+    expect(warningsFor(q({ options: [justRight, ...others] }))).toEqual([])
+
+    const tooLong = 'y'.repeat(MAX_OPTION_LENGTH_HINT + 1)
+    expect(warningsFor(q({ options: [tooLong, ...others] }))).toEqual([
+      expect.stringContaining(`${MAX_OPTION_LENGTH_HINT + 1} characters`),
     ])
   })
 

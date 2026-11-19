@@ -37,7 +37,7 @@
   },
   {
     "id": "hist-viuda-rica-mahoma-jadicha",
-    "text": "¿Cómo se llamaba la viuda rica a cuyo servicio trabajó Mahoma y con la que se casó a los 25 años?",
+    "text": "¿Cómo se llamaba la viuda rica con quien se casó Mahoma?",
     "options": ["Jadicha", "Aisha", "Hafsa", "Fátima"],
     "correctIndex": 0,
     "category": "Historia y Geografía",
@@ -49,7 +49,7 @@
   },
   {
     "id": "hist-ano-cisma-oriente",
-    "text": "¿En qué año se produjo el cisma de Oriente, que separó la Iglesia católica de la ortodoxa?",
+    "text": "¿En qué año se produjo el cisma de Oriente?",
     "options": ["1054", "1071", "1095", "1204"],
     "correctIndex": 0,
     "category": "Historia y Geografía",
@@ -61,7 +61,7 @@
   },
   {
     "id": "hist-hegira-huida-mahoma",
-    "text": "¿Cómo se llama la huida de Mahoma a Yatrib en el año 622, que marca el inicio del calendario musulmán?",
+    "text": "¿Cómo se llama la huida de Mahoma a Yatrib en el año 622?",
     "options": ["Sunna", "Yihad", "Califato", "Hégira"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -97,7 +97,7 @@
   },
   {
     "id": "hist-feudalismo-vasallaje-carolingio",
-    "text": "¿Qué sistema social, basado en lazos de vasallaje, empezó a gestarse en la época carolingia?",
+    "text": "¿Qué sistema basado en el vasallaje nació con los carolingios?",
     "options": ["Mercantilismo", "Feudalismo", "Capitalismo", "Esclavismo"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -109,7 +109,7 @@
   },
   {
     "id": "hist-escuela-palatina-aquisgran",
-    "text": "¿En qué ciudad estaba la escuela palatina, centro del renacimiento cultural carolingio?",
+    "text": "¿En qué ciudad estaba la escuela palatina carolingia?",
     "options": ["Aquisgrán", "Reims", "Roma", "París"],
     "correctIndex": 0,
     "category": "Historia y Geografía",
@@ -121,7 +121,7 @@
   },
   {
     "id": "geo-limite-oriental-califato-omeya",
-    "text": "¿Qué valle fluvial, junto con el Turkestán, marcó el límite oriental del califato omeya en su máxima expansión?",
+    "text": "¿Qué valle fluvial marcó el límite oriental del califato omeya?",
     "options": ["Valle del Ganges", "Valle del Nilo", "Valle del Indo", "Valle del Éufrates"],
     "correctIndex": 2,
     "category": "Historia y Geografía",
@@ -169,7 +169,7 @@
   },
   {
     "id": "hist-mosaicos-justiniano-teodora-ravena",
-    "text": "¿En qué edificio de Rávena se conservan los mosaicos de Justiniano y Teodora?",
+    "text": "¿En qué edificio de Rávena están los mosaicos de Teodora?",
     "options": ["Mausoleo de Gala Placidia", "San Apolinar in Classe", "San Apolinar el Nuevo", "San Vital"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -205,7 +205,7 @@
   },
   {
     "id": "hist-monte-vision-gabriel-mahoma",
-    "text": "En el año 610, Mahoma tuvo en una cueva de un monte próximo a su ciudad natal la visión del arcángel Gabriel. ¿Cómo se llama ese monte?",
+    "text": "¿En qué monte tuvo Mahoma la visión del arcángel Gabriel en 610?",
     "options": ["Monte Sinaí", "Monte Uhud", "Monte Hira", "Monte Arafat"],
     "correctIndex": 2,
     "category": "Historia y Geografía",
@@ -217,7 +217,7 @@
   },
   {
     "id": "hist-significado-califa",
-    "text": "¿Qué significa el título de califa, adoptado por los sucesores de Mahoma?",
+    "text": "¿Qué significa el título de «califa»?",
     "options": ["Primer ministro del imperio", "Gobernador de una provincia", "Sucesor del mensajero de Dios", "Juez de la comunidad"],
     "correctIndex": 2,
     "category": "Historia y Geografía",
@@ -229,7 +229,7 @@
   },
   {
     "id": "hist-edificio-oracion-musulman",
-    "text": "¿Cómo se llama el edificio donde los musulmanes se reúnen a rezar?",
+    "text": "¿Cómo se llama el edificio donde rezan los musulmanes?",
     "options": ["Pagoda", "Catedral", "Sinagoga", "Mezquita"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -241,7 +241,7 @@
   },
   {
     "id": "hist-recopilacion-leyes-corpus-iuris",
-    "text": "¿Cómo se llama la recopilación de leyes romanas que reforzó el poder del emperador bizantino?",
+    "text": "¿Qué recopilación legal reforzó el poder del emperador bizantino?",
     "options": ["Corpus Iuris Civilis", "Ley Sálica", "Código de Hammurabi", "Fuero Juzgo"],
     "correctIndex": 0,
     "category": "Historia y Geografía",
@@ -253,7 +253,7 @@
   },
   {
     "id": "hist-provincias-imperio-islamico-koras",
-    "text": "¿Cómo se llamaban las provincias en que se organizó la administración del imperio musulmán?",
+    "text": "¿Cómo se llamaban las provincias del imperio musulmán?",
     "options": ["Condados", "Koras", "Marcas", "Exarcados"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -265,7 +265,7 @@
   },
   {
     "id": "hist-mes-ayuno-musulman-ramadan",
-    "text": "¿Cómo se llama el mes en el que los musulmanes ayunan desde la salida hasta la puesta del sol?",
+    "text": "¿Cómo se llama el mes en que los musulmanes ayunan de sol a sol?",
     "options": ["Adviento", "Pascua", "Cuaresma", "Ramadán"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -277,7 +277,7 @@
   },
   {
     "id": "hist-numero-preceptos-islam",
-    "text": "¿Cuántos preceptos religiosos, considerados los pilares del islam, deben cumplir los musulmanes?",
+    "text": "¿Cuántos son los pilares del islam?",
     "options": ["Tres", "Cinco", "Siete", "Diez"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -289,7 +289,7 @@
   },
   {
     "id": "hist-profeta-predico-islam-mahoma",
-    "text": "¿Quién fue el profeta que comenzó a predicar el islam en el siglo VII?",
+    "text": "¿Quién empezó a predicar el islam en el siglo VII?",
     "options": ["Confucio", "Mahoma", "Buda", "Zoroastro"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -313,7 +313,7 @@
   },
   {
     "id": "hist-bebida-prohibida-islam",
-    "text": "¿Qué tienen prohibido beber los musulmanes según sus normas de comportamiento?",
+    "text": "¿Qué tienen prohibido beber los musulmanes?",
     "options": ["Leche", "Alcohol", "Agua", "Té"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -361,7 +361,7 @@
   },
   {
     "id": "hist-ano-batalla-poitiers",
-    "text": "¿En qué año derrotó Carlos Martel a los musulmanes en la batalla de Poitiers?",
+    "text": "¿En qué año derrotó Carlos Martel a los musulmanes en Poitiers?",
     "options": ["711", "722", "732", "756"],
     "correctIndex": 2,
     "category": "Historia y Geografía",
@@ -373,19 +373,19 @@
   },
   {
     "id": "hist-tratado-verdun-herederos",
-    "text": "¿Qué tres reyes se repartieron el territorio del imperio carolingio en el Tratado de Verdún (843)?",
-    "options": ["Carlos Martel, Pipino el Breve y Lotario", "Lotario, Pipino el Breve y Luis el Germánico", "Carlomagno, Luis el Piadoso y Carlos el Calvo", "Carlos el Calvo, Lotario y Luis el Germánico"],
+    "text": "¿Qué rey recibió la Francia occidental en el Tratado de Verdún?",
+    "options": ["Lotario", "Luis el Germánico", "Luis el Piadoso", "Carlos el Calvo"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
     "difficulty": "muy difícil",
-    "explanation": "En Verdún (843) el imperio se repartió entre Carlos el Calvo, Lotario y Luis el Germánico, tras la muerte de Carlomagno y de su hijo Luis el Piadoso.",
+    "explanation": "En Verdún (843) Carlos el Calvo recibió la Francia occidental, Luis el Germánico la oriental y Lotario la franja central. Luis el Piadoso, su padre, había muerto en 840.",
     "source": "apuntes-5.jpeg",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
   },
   {
     "id": "hist-nicho-sala-oracion-mihrab",
-    "text": "¿Cómo se llama el nicho vacío situado en el centro del muro de la sala de oración que se orienta hacia La Meca?",
+    "text": "¿Cómo se llama el nicho de la mezquita que señala hacia La Meca?",
     "options": ["Aljibe", "Mihrab", "Pórtico", "Quibla"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -397,7 +397,7 @@
   },
   {
     "id": "hist-jefe-herulo-toma-roma-476",
-    "text": "¿Qué jefe de los hérulos tomó Roma en el año 476 y puso fin al Imperio romano de Occidente?",
+    "text": "¿Qué jefe hérulo puso fin al Imperio romano de Occidente en 476?",
     "options": ["Atila", "Genserico", "Alarico", "Odoacro"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -409,7 +409,7 @@
   },
   {
     "id": "hist-impuesto-cesaba-conversion-islam",
-    "text": "En el imperio musulmán se pagaban dos impuestos. ¿Cuál dejaba de pagarse al convertirse al islam?",
+    "text": "¿Qué impuesto dejaba de pagarse al convertirse al islam?",
     "options": ["El impuesto personal", "El impuesto por las tierras", "El impuesto sobre la herencia", "El impuesto sobre el comercio"],
     "correctIndex": 0,
     "category": "Historia y Geografía",
@@ -421,7 +421,7 @@
   },
   {
     "id": "geo-region-arabia-meca-yatrib-hiyaz",
-    "text": "¿Cómo se llama la región de Arabia, transitada por caravanas, donde destacaban las ciudades comerciales de La Meca y Yatrib?",
+    "text": "¿Cómo se llama la región de Arabia donde están La Meca y Yatrib?",
     "options": ["Omán", "Néyed", "Yemen", "Hiyaz"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -433,7 +433,7 @@
   },
   {
     "id": "hist-decoracion-vegetal-ataurique",
-    "text": "¿Cómo se llama la decoración islámica de dibujos vegetales estilizados?",
+    "text": "¿Cómo se llama la decoración islámica de motivos vegetales?",
     "options": ["Mocárabes", "Lacería", "Ataurique", "Epigrafía"],
     "correctIndex": 2,
     "category": "Historia y Geografía",
@@ -445,7 +445,7 @@
   },
   {
     "id": "hist-lengua-cristiandad-latina",
-    "text": "¿Qué lengua, junto con la religión católica, caracterizaba a la cristianidad latina?",
+    "text": "¿Qué lengua, con el catolicismo, definía a la cristiandad latina?",
     "options": ["Árabe", "Hebreo", "Griego", "Latín"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
@@ -457,7 +457,7 @@
   },
   {
     "id": "hist-dia-oracion-comunitaria-viernes",
-    "text": "¿Qué día de la semana tiene lugar la oración comunitaria de los musulmanes?",
+    "text": "¿Qué día se celebra la oración comunitaria musulmana?",
     "options": ["Jueves", "Viernes", "Sábado", "Domingo"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
@@ -469,7 +469,7 @@
   },
   {
     "id": "hist-centros-estudios-islamicos-madrasas",
-    "text": "¿Cómo se llamaban los centros de estudios que construyeron los musulmanes?",
+    "text": "¿Cómo se llamaban los centros de estudios musulmanes?",
     "options": ["Mausoleos", "Madrasas", "Alcazabas", "Alminares"],
     "correctIndex": 1,
     "category": "Historia y Geografía",
