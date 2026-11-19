@@ -1,7 +1,7 @@
 [
   {
     "id": "leng-discurso-indirecto-libre-caotica",
-    "text": "En el fragmento «La situación era caótica. Estaba cansado.», el narrador deja oír los pensamientos de un personaje sin anunciarlos. ¿Qué forma del discurso emplea?",
+    "text": "¿Qué estilo es «La situación era caótica. Estaba cansado.»?",
     "options": ["Estilo indirecto libre", "Estilo directo", "Monólogo", "Estilo indirecto"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
@@ -13,7 +13,7 @@
   },
   {
     "id": "leng-narracion-espacio-marco-fisico",
-    "text": "En una narración, ¿cómo se llama el elemento que es el marco físico donde se ubican los personajes y se desarrollan las acciones?",
+    "text": "En una narración, ¿cómo se llama el marco físico de la acción?",
     "options": ["La estructura", "El argumento", "El espacio", "El tiempo"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -25,7 +25,7 @@
   },
   {
     "id": "leng-estructura-contrapunto-historias",
-    "text": "¿Cómo se llama la estructura interna en la que varias historias se entrecruzan y sus secuencias narrativas se alternan a lo largo del relato?",
+    "text": "¿Cómo se llama la estructura en que se alternan varias historias?",
     "options": ["Flash back", "In medias res", "Lineal", "Contrapunto"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -37,7 +37,7 @@
   },
   {
     "id": "leng-personaje-protagonista-centro",
-    "text": "En una narración, ¿cómo se llama el personaje que es el centro de la historia?",
+    "text": "En una narración, ¿cómo se llama el personaje central?",
     "options": ["El narrador", "El protagonista", "El figurante", "El antagonista"],
     "correctIndex": 1,
     "category": "Lengua e Idiomas",
@@ -49,7 +49,7 @@
   },
   {
     "id": "leng-narracion-espontanea-fin-de-semana",
-    "text": "Cuando le cuentas a un compañero lo que has hecho durante el fin de semana, ¿qué tipo de narración haces?",
+    "text": "¿Qué narración haces al contar tu fin de semana a un amigo?",
     "options": ["Espontánea", "Literaria", "Organizada", "Periodística"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
@@ -61,7 +61,7 @@
   },
   {
     "id": "leng-imperfecto-paseaba-perros",
-    "text": "¿Qué tiempo verbal se usa en «El mayordomo paseaba a los perros todos los días» para situar en el pasado una acción que se repite?",
+    "text": "¿Qué tiempo es «paseaba» en «El mayordomo paseaba a los perros»?",
     "options": ["Pretérito perfecto compuesto", "Pretérito imperfecto", "Pretérito perfecto simple", "Pretérito pluscuamperfecto"],
     "correctIndex": 1,
     "category": "Lengua e Idiomas",
@@ -73,7 +73,7 @@
   },
   {
     "id": "leng-fabula-transmite-moraleja",
-    "text": "¿Qué transmite una fábula, una narración breve cuyos personajes suelen ser animales?",
+    "text": "¿Qué transmite una fábula, una narración breve de animales?",
     "options": ["Una hazaña", "Una profecía", "Una moraleja", "Un enigma"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -85,7 +85,7 @@
   },
   {
     "id": "leng-narracion-cerrada-final-definitivo",
-    "text": "¿Cómo se llama la narración que tiene un final definitivo y da la historia por acabada?",
+    "text": "¿Cómo se llama la narración con un final definitivo?",
     "options": ["Lineal", "Espontánea", "Cerrada", "Abierta"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -97,7 +97,7 @@
   },
   {
     "id": "leng-narrador-externo-ausente-sentidos",
-    "text": "¿Cómo se llama el narrador externo que cuenta únicamente aquello que se puede percibir a través de los sentidos?",
+    "text": "¿Qué narrador externo cuenta solo lo que se puede ver y oír?",
     "options": ["Ausente", "Testigo", "Omnisciente", "Protagonista"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
@@ -109,7 +109,7 @@
   },
   {
     "id": "leng-monologo-habla-consigo-mismo",
-    "text": "¿Cómo se llama la forma del discurso en la que un personaje habla consigo mismo?",
+    "text": "¿Cómo se llama la forma en que un personaje habla consigo mismo?",
     "options": ["Estilo indirecto", "Diálogo", "Estilo directo", "Monólogo"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -121,7 +121,7 @@
   },
   {
     "id": "leng-estilo-indirecto-juan-cansado",
-    "text": "En la frase «Juan pensó que estaba cansado», ¿qué forma del discurso se emplea para recoger lo que piensa Juan?",
+    "text": "¿Qué estilo es «Juan pensó que estaba cansado»?",
     "options": ["Estilo indirecto libre", "Estilo directo", "Monólogo", "Estilo indirecto"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -133,7 +133,7 @@
   },
   {
     "id": "leng-in-medias-res-despues-orden-lineal",
-    "text": "En una narración con estructura «in medias res», una vez que el relato vuelve atrás y desvela los antecedentes de la historia, ¿cómo avanza a partir de ese momento?",
+    "text": "En un «in medias res», ¿cómo avanza el relato tras volver atrás?",
     "options": ["Alternando varias historias", "Con anticipaciones del futuro", "En orden lineal", "Volviendo al presente desde el pasado"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -145,7 +145,7 @@
   },
   {
     "id": "leng-nudo-momento-mayor-interes",
-    "text": "¿Cómo se llama la parte de una narración organizada en la que se desarrolla el problema, la intriga y la trama, y que es el momento de mayor interés narrativo?",
+    "text": "¿Qué parte de la narración desarrolla el problema y la intriga?",
     "options": ["El planteamiento", "El epílogo", "El nudo", "El desenlace"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -157,7 +157,7 @@
   },
   {
     "id": "leng-narrador-externo-tercera-persona",
-    "text": "¿En qué persona verbal cuenta los hechos un narrador externo, que está fuera de la historia?",
+    "text": "¿En qué persona cuenta los hechos un narrador externo?",
     "options": ["En primera persona", "En tercera persona", "En segunda persona", "En primera persona del plural"],
     "correctIndex": 1,
     "category": "Lengua e Idiomas",
@@ -169,7 +169,7 @@
   },
   {
     "id": "leng-autor-persona-real-relato",
-    "text": "En literatura, ¿cómo se llama la persona real que ha escrito un relato?",
+    "text": "¿Cómo se llama la persona real que escribe un relato?",
     "options": ["El editor", "El autor", "El protagonista", "El narrador"],
     "correctIndex": 1,
     "category": "Lengua e Idiomas",
@@ -181,7 +181,7 @@
   },
   {
     "id": "leng-flash-forward-anticipaciones",
-    "text": "¿Cómo se llama el recurso de la estructura interna en el que el narrador hace anticipaciones hacia el futuro?",
+    "text": "¿Cómo se llama el recurso que anticipa hechos del futuro?",
     "options": ["In medias res", "Contrapunto", "Flash back", "Flash forward"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -193,7 +193,7 @@
   },
   {
     "id": "leng-narrador-omnisciente-pensamientos",
-    "text": "¿Cómo se llama el narrador externo que conoce todos los detalles del relato, hasta los pensamientos y sentimientos más íntimos de los personajes?",
+    "text": "¿Qué narrador externo lo sabe todo, incluso los pensamientos?",
     "options": ["Omnisciente", "Protagonista", "Testigo", "Ausente"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
@@ -205,7 +205,7 @@
   },
   {
     "id": "leng-locucion-adverbial-por-ultimo",
-    "text": "¿Cuál de estas expresiones que indican tiempo es una locución adverbial?",
+    "text": "¿Cuál de estas expresiones de tiempo es una locución adverbial?",
     "options": ["Por último", "En aquel momento", "Durante la comida", "Durante la noche"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
@@ -217,7 +217,7 @@
   },
   {
     "id": "leng-perfecto-simple-carmen-saludo",
-    "text": "¿Qué tiempo verbal sitúa en el pasado hechos que ocurrieron una sola vez, como en «Carmen saludó a su madre desde la ventana»?",
+    "text": "¿En qué tiempo está «saludó» en «Carmen saludó a su madre»?",
     "options": ["Pretérito imperfecto", "Pretérito perfecto compuesto", "Pretérito perfecto simple", "Pretérito pluscuamperfecto"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -229,7 +229,7 @@
   },
   {
     "id": "leng-narrador-interno-tipos",
-    "text": "¿Cuáles son los dos tipos de narrador interno, el que cuenta los hechos desde dentro de la historia?",
+    "text": "¿Cuáles son los dos tipos de narrador interno?",
     "options": ["Testigo y ausente", "Omnisciente y ausente", "Protagonista y omnisciente", "Protagonista y testigo"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",

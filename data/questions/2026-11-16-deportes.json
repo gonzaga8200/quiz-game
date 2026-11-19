@@ -1,7 +1,7 @@
 [
   {
     "id": "dep-futbol-jugadores-por-equipo",
-    "text": "¿Cuántos jugadores tiene cada equipo sobre el campo en un partido de fútbol?",
+    "text": "¿Cuántos jugadores tiene un equipo de fútbol sobre el campo?",
     "options": ["9", "10", "11", "12"],
     "correctIndex": 2,
     "category": "Deportes",
@@ -12,7 +12,7 @@
   },
   {
     "id": "dep-primer-mundial-campeon",
-    "text": "¿Qué selección ganó el primer Mundial de fútbol, celebrado en 1930?",
+    "text": "¿Qué selección ganó el primer Mundial de fútbol, en 1930?",
     "options": ["Argentina", "Uruguay", "Brasil", "Italia"],
     "correctIndex": 1,
     "category": "Deportes",
@@ -23,7 +23,7 @@
   },
   {
     "id": "dep-primer-quintuple-ganador-tour",
-    "text": "¿Quién fue el primer ciclista que ganó cinco veces el Tour de Francia?",
+    "text": "¿Quién fue el primer ciclista en ganar cinco Tours de Francia?",
     "options": ["Eddy Merckx", "Jacques Anquetil", "Bernard Hinault", "Miguel Induráin"],
     "correctIndex": 1,
     "category": "Deportes",

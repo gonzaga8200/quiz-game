@@ -34,7 +34,9 @@ Default number when none is given: 10 (say so in the summary).
   Prefix by category: `arte-`, `hist-` or `geo-` (Historia y Geografía), `dep-`, `cine-`,
   `cien-`, `leng-` (Lengua e Idiomas), then 2 to 5 keywords. Never change the id of an
   existing question.
-- `text`: 10 to 300 chars. `options`: **exactly 4**, distinct, 1 to 120 chars each.
+- `text`: 10 to 300 chars by the schema, but **write it short: 65 chars at most** (see
+  quality rule 9). `options`: **exactly 4**, distinct, 1 to 120 chars by the schema, but
+  **40 chars at most** each.
 - `correctIndex`: 0 to 3. **Vary it** across a file; do not always use the same position
   (the game shuffles options at play time, but the data should not look biased).
 - `category` is exactly one of: `Arte y Literatura`, `Historia y Geografía`, `Deportes`,
@@ -166,6 +168,28 @@ content without telling the user.
 7. **The answer is not in the question.** Do not name the answer in the question text.
 8. **The explanation teaches.** One or two lines, factual, usually mentioning why the
    distractors are close but wrong.
+9. **Short and direct: it must be read in a couple of seconds on a phone.** The game is
+   played against the clock on a small screen. A long question is not read in time, and long
+   options push the answers below the fold so the player has to scroll.
+   - The question text takes **two lines at most on a phone, so 65 characters at most**
+     (the validator warns above that). Aim for 40 to 60. Not telegraphic either: it must still
+     read as a natural, complete question.
+   - **One idea per question.** No second clause explaining the context, no definition of a
+     term inside the question (not «¿Cuál de estas palabras es un palíndromo, es decir, se lee
+     igual al revés?» but «¿Cuál de estas palabras es un palíndromo?»). If the question needs
+     background to be fair, the question is the wrong one: pick another fact.
+   - Go straight to what is asked: start with the question word, cut «en el año», «que
+     marca el inicio de», «conocido como», relative clauses and appositions. Keep the
+     detail that makes the answer unique (a date, a place), drop the rest. Put the extra
+     context in the `explanation`, which is read after answering.
+   - **Options: 40 characters at most, ideally one to four words** (a name, a year, a figure,
+     a short term). If the answer is a list or a sentence, reword the question so the answer is
+     a single thing.
+   - Example. Bad (111 chars): «¿Qué valle fluvial, junto con el Turkestán, marcó el límite
+     oriental del califato omeya en su máxima expansión?». Good (62 chars): «¿Qué valle
+     fluvial marcó el límite oriental del califato omeya?».
+   - Before writing the file, count the characters of every question text and option
+     and shorten whatever goes over.
 
 ## Category notes: Lengua e Idiomas
 

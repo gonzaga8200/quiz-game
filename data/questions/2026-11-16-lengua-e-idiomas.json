@@ -56,7 +56,7 @@
   },
   {
     "id": "leng-palindromo-reconocer",
-    "text": "¿Cuál de estas palabras es un palíndromo, es decir, se lee igual de izquierda a derecha que de derecha a izquierda?",
+    "text": "¿Cuál de estas palabras es un palíndromo?",
     "options": ["Recordar", "Recortar", "Reconocer", "Reservar"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -78,7 +78,7 @@
   },
   {
     "id": "leng-hablantes-nativos-mandarin",
-    "text": "¿Qué idioma tiene más hablantes nativos, es decir, que lo aprenden como lengua materna, en todo el mundo?",
+    "text": "¿Qué idioma tiene más hablantes nativos en el mundo?",
     "options": ["Español", "Inglés", "Hindi", "Mandarín"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -100,7 +100,7 @@
   },
   {
     "id": "leng-esdrujula-murcielago",
-    "text": "¿Cuál de estas palabras es esdrújula, es decir, lleva el acento en la antepenúltima sílaba?",
+    "text": "¿Cuál de estas palabras es esdrújula?",
     "options": ["Corazón", "Almohada", "Cárcel", "Murciélago"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -122,7 +122,7 @@
   },
   {
     "id": "leng-haber-impersonal-habra",
-    "text": "¿Qué forma verbal completa correctamente la frase «Mañana ___ varias fiestas en el pueblo»?",
+    "text": "¿Qué forma completa la frase «Mañana ___ varias fiestas»?",
     "options": ["Habrán", "Hubo", "Hubieron", "Habrá"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -134,7 +134,7 @@
   },
   {
     "id": "leng-gramatica-nebrija-1492",
-    "text": "¿En qué año se publicó la «Gramática de la lengua castellana» de Antonio de Nebrija?",
+    "text": "¿En qué año publicó Nebrija su gramática del castellano?",
     "options": ["1481", "1492", "1517", "1535"],
     "correctIndex": 1,
     "category": "Lengua e Idiomas",
@@ -145,7 +145,7 @@
   },
   {
     "id": "leng-origen-enye-nn",
-    "text": "¿De qué grupo de letras surgió la «ñ» como abreviatura de los copistas medievales?",
+    "text": "¿De qué grupo de letras surgió la «ñ» en la escritura medieval?",
     "options": ["gn", "ny", "nn", "ni"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -156,7 +156,7 @@
   },
   {
     "id": "leng-etimologia-h-inicial-f",
-    "text": "¿Qué letra latina se convirtió en la «h» inicial de «harina», «hablar» y «hijo»?",
+    "text": "¿Qué letra latina dio la «h» inicial de «harina» y «hijo»?",
     "options": ["f", "p", "s", "g"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
@@ -189,7 +189,7 @@
   },
   {
     "id": "leng-lenguas-oficiales-ue-2024",
-    "text": "A 1 de enero de 2024, ¿cuántas lenguas oficiales tenía la Unión Europea?",
+    "text": "A 1 de enero de 2024, ¿cuántas lenguas oficiales tenía la UE?",
     "options": ["20", "23", "24", "27"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",
@@ -200,7 +200,7 @@
   },
   {
     "id": "leng-tesoro-covarrubias-1611",
-    "text": "¿Quién es el autor del «Tesoro de la lengua castellana o española», publicado en 1611?",
+    "text": "¿Quién escribió el «Tesoro de la lengua castellana o española»?",
     "options": ["Antonio de Nebrija", "Juan de Valdés", "Gonzalo Correas", "Sebastián de Covarrubias"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
@@ -211,7 +211,7 @@
   },
   {
     "id": "leng-ch-ll-abecedario-2010",
-    "text": "¿En qué año dejaron de figurar la «ch» y la «ll» en el abecedario español, según la Real Academia Española?",
+    "text": "¿En qué año la RAE dejó de incluir «ch» y «ll» en el abecedario?",
     "options": ["1994", "2003", "2010", "2014"],
     "correctIndex": 2,
     "category": "Lengua e Idiomas",

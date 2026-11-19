@@ -47,6 +47,14 @@ export const SIMILAR_TEXT_THRESHOLD = 0.8
 /** Longest option more than this many times the shortest looks like a mismatched distractor. */
 export const OPTION_LENGTH_RATIO = 4
 
+/**
+ * Readability limits, for a phone screen and a game played against the clock. The schema
+ * allows more on purpose; going over is only a warning, so a human decides.
+ * 65 characters is two lines of the question card on a 360 px wide phone.
+ */
+export const MAX_TEXT_LENGTH_HINT = 65
+export const MAX_OPTION_LENGTH_HINT = 40
+
 function qualityWarnings(entry: QuestionEntry): QuestionIssue[] {
   const { file, question } = entry
   const warn = (message: string): QuestionIssue => ({
@@ -59,6 +67,22 @@ function qualityWarnings(entry: QuestionEntry): QuestionIssue[] {
 
   if (question.text.includes('¿') !== question.text.includes('?')) {
     warnings.push(warn('unbalanced question marks (¿ and ? must come together)'))
+  }
+
+  if (question.text.length > MAX_TEXT_LENGTH_HINT) {
+    warnings.push(
+      warn(
+        `question text has ${question.text.length} characters; keep it to ${MAX_TEXT_LENGTH_HINT} (two lines on a phone)`,
+      ),
+    )
+  }
+  const longOption = question.options.find((option) => option.length > MAX_OPTION_LENGTH_HINT)
+  if (longOption !== undefined) {
+    warnings.push(
+      warn(
+        `an option has ${longOption.length} characters; keep options to ${MAX_OPTION_LENGTH_HINT}`,
+      ),
+    )
   }
 
   const lengths = question.options.map((option) => option.length)

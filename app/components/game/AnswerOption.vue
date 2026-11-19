@@ -54,17 +54,17 @@ function onClick(): void {
 
   display: flex;
   align-items: center;
-  gap: 0.875rem;
+  gap: 0.75rem;
   width: 100%;
-  min-height: 3.75rem;
-  padding: 0.5rem 0.875rem 0.5rem 0.5rem;
+  min-height: 3.25rem;
+  padding: 0.375rem 0.75rem 0.375rem 0.375rem;
   border: 3px solid rgb(0 0 0 / 0.28);
   border-radius: var(--radius-option);
   background: var(--tono);
   color: var(--tono-texto);
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.2;
   text-align: left;
   cursor: pointer;
   transition:
@@ -161,24 +161,19 @@ function onClick(): void {
   font-size: 1.5rem;
 }
 
+/* The whole card shakes (see QuestionCard), so the button itself only gets a quick throb. */
 @media (prefers-reduced-motion: no-preference) {
   .option--wrong {
-    animation: shake 0.42s ease-in-out;
+    animation: throb 0.5s ease-in-out;
   }
 }
 
-@keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
+@keyframes throb {
+  30% {
+    transform: scale(1.04);
   }
-  20%,
   60% {
-    transform: translateX(-7px);
-  }
-  40%,
-  80% {
-    transform: translateX(7px);
+    transform: scale(0.98);
   }
 }
 </style>

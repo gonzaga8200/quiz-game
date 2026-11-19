@@ -6,6 +6,7 @@ import type { AnswerFeedback } from '~/composables/useGameSession'
 import { categorySlug } from '~/utils/category'
 import { formatSigned } from '~/utils/format'
 import type { OptionState } from '~/types/game'
+import IconCross from '../icons/IconCross.vue'
 import AnswerOption from './AnswerOption.vue'
 
 const props = defineProps<{
@@ -86,6 +87,15 @@ watch(
       {{ question.text }}
     </h2>
 
+    <!-- A mistake gets a stamp over the question; the right answer is shown below it. -->
+    <p v-if="feedback && !feedback.correct" class="card__stamp" aria-hidden="true">
+      <IconCross />
+      <span>¡Fallo!</span>
+      <span v-if="feedback.penalty > 0" class="card__stamp-points">
+        {{ formatSigned(-feedback.penalty) }}
+      </span>
+    </p>
+
     <div class="card__orn" aria-hidden="true" />
 
     <ol class="options" aria-label="Respuestas posibles">
@@ -119,8 +129,8 @@ watch(
   position: relative;
   display: grid;
   grid-template-rows: auto 1fr auto auto auto;
-  gap: 0.875rem;
-  padding: 1.25rem 1rem 0.875rem;
+  gap: 0.625rem;
+  padding: 1rem 0.875rem 0.75rem;
   border: 2px solid var(--tinta);
   border-radius: var(--radius-card);
   background-color: var(--papel);
@@ -176,6 +186,79 @@ watch(
 .card[data-feedback='wrong'] {
   border-color: var(--fallo);
   background-color: var(--fallo-tinte);
+  box-shadow:
+    0 0 0 4px var(--fallo),
+    0 0 2.5rem rgb(214 58 46 / 0.65);
+}
+
+/* A combo bonus: a gold ring and glow around the card. */
+.card[data-celebrate='big'] {
+  box-shadow:
+    0 0 0 4px var(--oro),
+    0 0 2.75rem rgb(242 203 106 / 0.75);
+}
+
+/* The "¡Fallo!" stamp, tilted like a rubber stamp over the question. */
+.card__stamp {
+  position: absolute;
+  z-index: 2;
+  top: 38%;
+  left: 50%;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.875rem;
+  border: 3px solid var(--fallo);
+  border-radius: 0.375rem;
+  outline: 2px solid var(--fallo);
+  outline-offset: 2px;
+  background: rgb(243 230 200 / 0.94);
+  color: var(--fallo);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transform: translate(-50%, -50%) rotate(-6deg);
+}
+
+.card__stamp-points {
+  padding-left: 0.5rem;
+  border-left: 3px solid var(--fallo);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .card[data-feedback='wrong'] {
+    animation: card-shake 0.45s ease-in-out;
+  }
+
+  .card__stamp {
+    animation: stamp 0.35s cubic-bezier(0.2, 1.4, 0.4, 1) backwards;
+  }
+}
+
+@keyframes card-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  15%,
+  55% {
+    transform: translateX(-9px);
+  }
+  35%,
+  75% {
+    transform: translateX(9px);
+  }
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(-6deg) scale(2.2);
+  }
 }
 
 /* Bookmark ribbon with a notch cut into its tail. */
@@ -196,7 +279,7 @@ watch(
   flex-wrap: wrap;
   align-items: center;
   gap: 0.375rem 0.5rem;
-  min-height: 2rem;
+  min-height: 1.75rem;
   padding-left: 2.75rem;
 }
 
@@ -235,8 +318,8 @@ watch(
   font-family: var(--font-display);
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(1.375rem, 5.4vw, 1.875rem);
-  line-height: 1.3;
+  font-size: clamp(1.0625rem, 4.8vw, 1.875rem);
+  line-height: 1.25;
   text-align: center;
   text-wrap: balance;
 }
@@ -262,7 +345,7 @@ watch(
 
 .options {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.5rem;
   margin: 0;
   padding: 0.25rem;
   list-style: none;
@@ -273,7 +356,8 @@ watch(
 }
 
 .card__summary {
-  min-height: 1.5em;
+  min-height: 1.25em;
+  line-height: 1.25;
   font-weight: 700;
   text-align: center;
 }
@@ -293,7 +377,12 @@ watch(
 /* Roomy screens: the four answers form a 2 x 2 grid. */
 @media (min-width: 40rem) {
   .card {
+    gap: 0.875rem;
     padding: 1.5rem 1.75rem 1rem;
+  }
+
+  .options {
+    gap: 0.75rem;
   }
 
   .options {

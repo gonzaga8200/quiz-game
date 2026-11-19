@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { nextComboMilestone } from '~~/core'
 import { formatClock } from '~/utils/format'
+import { STREAK_CHEER_FROM } from '~/utils/fx'
+import IconFlame from '../icons/IconFlame.vue'
 import ClockFace from './ClockFace.vue'
 
 const props = defineProps<{
@@ -9,9 +11,25 @@ const props = defineProps<{
   remainingMs: number
   score: number
   streak: number
+  /** Points just lost (wrong answer or paid skip); the score tile flashes while it is set. */
+  hit?: { id: number; amount: number } | null
 }>()
 
 const URGENT_FROM_MS = 10_000
+
+// A streak that was worth something just broke: the tile flashes red for a moment.
+const broken = ref(false)
+let brokenTimer: ReturnType<typeof setTimeout> | undefined
+watch(
+  () => props.streak,
+  (now, before) => {
+    if (now >= before || before < 2) return
+    broken.value = true
+    clearTimeout(brokenTimer)
+    brokenTimer = setTimeout(() => (broken.value = false), 900)
+  },
+)
+onBeforeUnmount(() => clearTimeout(brokenTimer))
 
 const clock = computed(() => formatClock(props.remainingMs))
 const urgent = computed(() => props.remainingMs <= URGENT_FROM_MS)
@@ -39,13 +57,22 @@ const hint = computed(() => {
     </p>
 
     <dl class="stats">
-      <div class="stat">
+      <!-- Keyed by the hit, so the flash starts again on every loss. -->
+      <div :key="hit?.id ?? 0" class="stat" :class="{ 'stat--hit': hit }">
         <dt>Puntos</dt>
         <dd class="stat__value">{{ score }}</dd>
+        <span v-if="hit" class="stat__delta" aria-hidden="true">−{{ hit.amount }}</span>
       </div>
-      <div class="stat">
+      <div
+        class="stat"
+        :class="{ 'stat--hot': streak >= STREAK_CHEER_FROM, 'stat--broken': broken }"
+      >
         <dt>Racha</dt>
-        <dd class="stat__value">{{ streak }}</dd>
+        <dd class="stat__value">
+          <IconFlame v-if="streak >= STREAK_CHEER_FROM" class="stat__flame" />
+          <!-- Keyed by the number, so it pops every time the streak grows. -->
+          <span :key="streak" class="stat__number">{{ streak }}</span>
+        </dd>
       </div>
     </dl>
 
@@ -71,9 +98,9 @@ const hint = computed(() => {
     'dial clock stats'
     'hint hint hint';
   align-items: center;
-  gap: 0.125rem 0.875rem;
+  gap: 0 0.75rem;
   margin-inline: -1rem;
-  padding: 0.5rem 1rem 0.5rem;
+  padding: 0.375rem 1rem 0.375rem;
   background-color: var(--nogal-alto);
   background-image: var(--grano-nogal);
   border-bottom: 2px solid var(--oro-sombra);
@@ -81,7 +108,7 @@ const hint = computed(() => {
 
 .hud__dial {
   grid-area: dial;
-  width: 4.5rem;
+  width: 3.5rem;
 }
 
 .clock {
@@ -92,7 +119,7 @@ const hint = computed(() => {
   color: var(--oro-claro);
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(2.5rem, 12vw, 3.25rem);
+  font-size: clamp(2.25rem, 10vw, 3rem);
   line-height: 1;
   font-variant-numeric: lining-nums;
 }
@@ -132,17 +159,18 @@ const hint = computed(() => {
 .stats {
   grid-area: stats;
   display: flex;
-  gap: 1.25rem;
+  gap: 1.125rem;
   margin: 0;
 }
 
 .stat {
+  position: relative;
   text-align: right;
 }
 
 .stat dt {
-  font-size: 0.8125rem;
-  letter-spacing: 0.05em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--crema-suave);
 }
@@ -152,15 +180,126 @@ const hint = computed(() => {
   color: var(--crema);
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1.875rem;
+  font-size: 1.625rem;
   line-height: 1.1;
   font-variant-numeric: lining-nums tabular-nums;
 }
 
+.stat__value {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.stat__number {
+  display: inline-block;
+}
+
+.stat__flame {
+  color: var(--oro-claro);
+  font-size: 0.85em;
+}
+
+/* Losing points: the number turns red and jolts, and the amount floats up in a red tag. */
+.stat--hit .stat__value {
+  color: var(--fallo-suelo);
+}
+
+.stat__delta {
+  position: absolute;
+  top: -0.375rem;
+  right: -0.25rem;
+  z-index: 1;
+  padding: 0.125rem 0.5rem;
+  border: 2px solid var(--papel);
+  border-radius: 999px;
+  background: var(--fallo);
+  color: var(--papel);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.375rem;
+  line-height: 1.1;
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 0.5);
+}
+
+/* A streak of 3 or more: a flame and a gold number. */
+.stat--hot .stat__value {
+  color: var(--oro-claro);
+}
+
+.stat--broken .stat__value {
+  color: var(--fallo-suelo);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .stat--hit .stat__value {
+    animation: jolt 0.5s ease-in-out;
+  }
+
+  .stat__delta {
+    animation: delta 1.4s ease-out forwards;
+  }
+
+  .stat__number {
+    animation: pop 0.35s ease-out;
+  }
+
+  .stat--broken .stat__value {
+    animation: jolt 0.5s ease-in-out;
+  }
+}
+
+@keyframes jolt {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes delta {
+  0% {
+    opacity: 0;
+    transform: translateY(0.75rem) scale(0.5);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0) scale(1.25);
+  }
+  30% {
+    transform: translateY(0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-0.75rem) scale(1);
+  }
+}
+
 .combo-hint {
   grid-area: hint;
-  min-height: 1.5em;
-  font-size: 0.875rem;
+  min-height: 1.25em;
+  font-size: 0.8125rem;
+  line-height: 1.25;
   color: var(--crema-suave);
 }
 
@@ -171,11 +310,11 @@ const hint = computed(() => {
   }
 
   .hud__dial {
-    width: 3.5rem;
+    width: 3rem;
   }
 
   .clock {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .stats {
@@ -183,7 +322,7 @@ const hint = computed(() => {
   }
 
   .stat__value {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
   }
 }
 

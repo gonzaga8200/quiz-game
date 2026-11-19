@@ -53,8 +53,8 @@ function onClick(): void {
   align-items: center;
   justify-content: center;
   min-width: 9.5rem;
-  min-height: 3.5rem;
-  padding: 0.375rem 1rem;
+  min-height: 3rem;
+  padding: 0.25rem 1rem;
   border: 2px solid transparent;
   border-radius: var(--radius-control);
   font-weight: 700;
@@ -68,7 +68,7 @@ function onClick(): void {
 }
 
 .skip__label {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
 }
 
 .skip__badge {
