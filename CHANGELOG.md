@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.0](https://github.com/gonzaga8200/quiz-game/compare/v0.12.0...v0.13.0) (2026-11-20)
+
+
+### Features
+
+* **questions:** add 50 Cine y televisión questions on Oscar, Goya, Globos de Oro and Razzie winners ([#36](https://github.com/gonzaga8200/quiz-game/issues/36)) ([9df1837](https://github.com/gonzaga8200/quiz-game/commit/9df18377ea50b6c7a1dd3d3daa08943f74f250af))
+
 ## [0.12.0](https://github.com/gonzaga8200/quiz-game/compare/v0.11.0...v0.12.0) (2026-11-20)
 
 
