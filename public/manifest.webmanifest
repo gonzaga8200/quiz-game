@@ -1,0 +1,15 @@
+{
+  "name": "Contrarreloj",
+  "short_name": "Contrarreloj",
+  "description": "Juego de preguntas contra el tiempo: responde todas las que puedas en 60 segundos.",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#261811",
+  "theme_color": "#261811",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

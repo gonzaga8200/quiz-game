@@ -51,6 +51,9 @@ jobs:
           NUXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ vars.NUXT_PUBLIC_FIREBASE_PROJECT_ID }}
           NUXT_PUBLIC_FIREBASE_APP_ID: ${{ vars.NUXT_PUBLIC_FIREBASE_APP_ID }}
           NUXT_PUBLIC_GA_ID: ${{ vars.NUXT_PUBLIC_GA_ID }}
+          # Public origin for canonical URLs, the sitemap and social cards. Leave the variable
+          # unset to use the default (see app/content/seo.ts); set it once there is a custom domain.
+          NUXT_PUBLIC_SITE_URL: ${{ vars.NUXT_PUBLIC_SITE_URL }}
 
       - name: Deploy to the live channel
         uses: FirebaseExtended/action-hosting-deploy@v0

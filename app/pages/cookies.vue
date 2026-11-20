@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { LEGAL } from '~/content/legal'
 
-useHead({ title: 'Cookies y privacidad' })
+// A legal page: useful to people, not something to rank. Links on it are still followed.
+useHead({ title: 'Cookies y privacidad', meta: [{ name: 'robots', content: 'noindex, follow' }] })
+useSeoMeta({
+  description:
+    'Qué cookies y almacenamiento local usa Contrarreloj, qué datos se publican en el ranking y cómo cambiar tu elección.',
+})
 
 const consent = useConsent()
 

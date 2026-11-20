@@ -1,3 +1,10 @@
+import { SEO } from './app/content/seo'
+import { normalizeSiteUrl } from './app/utils/seo'
+
+// Public origin of the deployed site, used for canonical URLs, social cards and the sitemap.
+// Set NUXT_PUBLIC_SITE_URL when the game gets its own domain.
+const siteUrl = normalizeSiteUrl(process.env.NUXT_PUBLIC_SITE_URL, SEO.defaultSiteUrl)
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2026-11-01',
@@ -19,6 +26,12 @@ export default defineNuxtConfig({
     '/jugar': { ssr: false },
     '/competitivo': { ssr: false },
     '/ranking': { ssr: false },
+  },
+
+  // robots.txt and sitemap.xml are server routes rendered once at build time, so the site URL
+  // comes from the environment instead of being hard-coded in a file under public/.
+  nitro: {
+    prerender: { routes: ['/robots.txt', '/sitemap.xml'] },
   },
 
   eslint: {
@@ -55,6 +68,7 @@ export default defineNuxtConfig({
   // Firebase web config and the GA measurement id are public by design.
   runtimeConfig: {
     public: {
+      siteUrl, // NUXT_PUBLIC_SITE_URL
       gaId: '', // NUXT_PUBLIC_GA_ID
       firebase: {
         apiKey: '', // NUXT_PUBLIC_FIREBASE_API_KEY
@@ -69,13 +83,31 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'es' },
-      title: 'Contrarreloj',
+      title: SEO.title,
       meta: [
-        {
-          name: 'description',
-          content: 'Responde todas las preguntas que puedas antes de que se acabe el tiempo.',
-        },
+        { name: 'description', content: SEO.description },
         { name: 'theme-color', content: '#261811' },
+        // Social cards (WhatsApp, Telegram, X, Facebook, LinkedIn...).
+        { property: 'og:type', content: 'website' },
+        { property: 'og:site_name', content: SEO.name },
+        { property: 'og:locale', content: SEO.locale },
+        { property: 'og:title', content: SEO.title },
+        { property: 'og:description', content: SEO.description },
+        { property: 'og:image', content: `${siteUrl}${SEO.image}` },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { property: 'og:image:alt', content: SEO.imageAlt },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: SEO.title },
+        { name: 'twitter:description', content: SEO.description },
+        { name: 'twitter:image', content: `${siteUrl}${SEO.image}` },
+        { name: 'twitter:image:alt', content: SEO.imageAlt },
+      ],
+      link: [
+        { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
+        { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/manifest.webmanifest' },
       ],
     },
   },

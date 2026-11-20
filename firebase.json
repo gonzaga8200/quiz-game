@@ -37,6 +37,15 @@
         ]
       },
       {
+        "source": "/{jugar,competitivo,ranking}",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex"
+          }
+        ]
+      },
+      {
         "source": "/_nuxt/**",
         "headers": [
           {

@@ -26,8 +26,12 @@ const sound = useSound()
 
     <header class="hero">
       <!-- The pocket watch is the signature of the game: the hand never stops on the cover. -->
-      <ClockFace class="hero__clock" :duration-ms="1" :remaining-ms="1" idle />
-      <h1 class="wordmark">Contrarreloj</h1>
+      <!-- data-nosnippet keeps the dial numerals (XII, I, II...) out of search snippets. -->
+      <ClockFace class="hero__clock" data-nosnippet :duration-ms="1" :remaining-ms="1" idle />
+      <!-- The visible wordmark stays the brand; the hidden words tell search engines what it is. -->
+      <h1 class="wordmark">
+        Contrarreloj<span class="sr-only">: juego de preguntas contra el tiempo</span>
+      </h1>
       <p class="tagline">
         Responde todas las preguntas que puedas antes de que se acabe el tiempo.
       </p>
