@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/gonzaga8200/quiz-game/compare/v0.8.0...v0.9.0) (2026-11-20)
+
+
+### Features
+
+* **seo:** add crawl files, social cards, icons and a descriptive home title ([#28](https://github.com/gonzaga8200/quiz-game/issues/28)) ([0ca7164](https://github.com/gonzaga8200/quiz-game/commit/0ca71647bf9a902920064ceeec4dcf653d45ab19))
+
 ## [0.8.0](https://github.com/gonzaga8200/quiz-game/compare/v0.7.0...v0.8.0) (2026-11-20)
 
 
