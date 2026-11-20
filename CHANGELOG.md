@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/gonzaga8200/quiz-game/compare/v0.9.0...v0.10.0) (2026-11-20)
+
+
+### Features
+
+* **questions:** add 50 Ciencias questions on the human microbiome ([#30](https://github.com/gonzaga8200/quiz-game/issues/30)) ([0c050e1](https://github.com/gonzaga8200/quiz-game/commit/0c050e114a3fc30d39cdef0e34ce0494bc37bf0a))
+
 ## [0.9.0](https://github.com/gonzaga8200/quiz-game/compare/v0.8.0...v0.9.0) (2026-11-20)
 
 
