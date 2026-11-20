@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/gonzaga8200/quiz-game/compare/v0.10.0...v0.11.0) (2026-11-20)
+
+
+### Features
+
+* **seo:** add the Google Search Console verification file ([#32](https://github.com/gonzaga8200/quiz-game/issues/32)) ([8036730](https://github.com/gonzaga8200/quiz-game/commit/8036730ef2877fefcb21108757cbe62db099b077))
+
 ## [0.10.0](https://github.com/gonzaga8200/quiz-game/compare/v0.9.0...v0.10.0) (2026-11-20)
 
 
