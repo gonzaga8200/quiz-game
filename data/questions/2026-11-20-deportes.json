@@ -1,0 +1,682 @@
+[
+  {
+    "id": "dep-anillos-bandera-olimpica",
+    "text": "¿Cuántos anillos tiene la bandera olímpica?",
+    "options": [
+      "Tres",
+      "Cuatro",
+      "Cinco",
+      "Seis"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Los cinco anillos entrelazados (azul, amarillo, negro, verde y rojo) representan las «cinco partes del mundo» unidas por el movimiento olímpico.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 8",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-juegos-antiguos-grecia",
+    "text": "¿En qué país nacieron los Juegos Olímpicos antiguos?",
+    "options": [
+      "Grecia",
+      "Egipto",
+      "Turquía",
+      "Italia"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Se celebraban en Olimpia, un santuario griego del Peloponeso dedicado a Zeus, desde el 776 a. C. según la tradición.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 3",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-relevo-antorcha-lewald",
+    "text": "¿Quién ideó con Carl Diem el relevo de la antorcha olímpica?",
+    "options": [
+      "Juan Antonio Samaranch",
+      "Theodor Lewald",
+      "Pierre de Coubertin",
+      "Henri Didon"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "La idea del relevo desde Olimpia, estrenado en Berlín 1936, fue de Theodor Lewald y Carl Diem; no viene de la Grecia clásica. Coubertin recuperó los Juegos y Didon inspiró el lema.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 8",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-primeros-juegos-invierno-chamonix",
+    "text": "¿Qué ciudad acogió los primeros Juegos de Invierno, en 1924?",
+    "options": [
+      "Lake Placid",
+      "Sankt Moritz",
+      "Oslo",
+      "Chamonix"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Los primeros Juegos Olímpicos de Invierno se celebraron en Chamonix en 1924, el año en que se adoptó el lema «Más rápido, más alto, más fuerte».",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 8",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-renacimiento-juegos-coubertin",
+    "text": "¿Quién impulsó el renacimiento de los Juegos modernos?",
+    "options": [
+      "Henri Didon",
+      "Teodosio I",
+      "Theodor Lewald",
+      "Pierre de Coubertin"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El barón francés Pierre de Coubertin convocó en 1894 el congreso de París que creó el COI. Teodosio I, en cambio, prohibió los Juegos antiguos en el 393.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 6",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-distancia-maraton-42195",
+    "text": "¿Qué distancia oficial tiene la maratón?",
+    "options": [
+      "40,26 km",
+      "41,86 km",
+      "42,195 km",
+      "42,8 km"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Las 26 millas y 385 yardas (42,195 km) nacieron en Londres 1908 y se fijaron como estándar en 1921. En París 1900 fueron 40,26 km y en Atenas 1906, 41,86 km.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 7",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-sede-1908-roma-vesubio",
+    "text": "¿Qué ciudad debía organizar los Juegos de 1908 y renunció?",
+    "options": [
+      "Estocolmo",
+      "Roma",
+      "Ámsterdam",
+      "Berlín"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "La erupción del Vesubio en 1906 obligó a Italia a renunciar y la sede pasó a Londres con muy poco margen.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 7",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-maraton-1908-dorando-pietri",
+    "text": "¿Qué maratoniano fue descalificado en Londres 1908?",
+    "options": [
+      "Dorando Pietri",
+      "Emil Zátopek",
+      "Spiridon Louis",
+      "Johnny Hayes"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Pietri entró primero en el estadio, pero los jueces le ayudaron a cruzar la meta y fue descalificado tras la protesta de Hayes, que se proclamó campeón.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 7",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-oros-jesse-owens-berlin-1936",
+    "text": "¿Cuántos oros ganó Jesse Owens en Berlín 1936?",
+    "options": [
+      "Dos",
+      "Tres",
+      "Cuatro",
+      "Cinco"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Ganó los 100 m, los 200 m, el salto de longitud y el relevo 4x100 m. Carl Lewis igualó esa hazaña en Los Ángeles 1984.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 9",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-premio-juegos-antiguos-olivo",
+    "text": "¿Cuál era el premio oficial de los Juegos de Olimpia?",
+    "options": [
+      "Copa de plata",
+      "Medalla de oro",
+      "Cinturón de cuero",
+      "Corona de olivo"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El vencedor recibía una corona de olivo cortado de un árbol sagrado del santuario. Las medallas de oro, plata y bronce son un invento moderno.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 5",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-frecuencia-juegos-antiguos",
+    "text": "¿Cada cuántos años se celebraban los Juegos de Olimpia?",
+    "options": [
+      "Seis años",
+      "Cuatro años",
+      "Dos años",
+      "Un año"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Se celebraron cada cuatro años entre el 776 a. C. y el 393 d. C.; ese intervalo dio nombre a la olimpiada.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 3",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-usain-bolt-pais-jamaica",
+    "text": "¿De qué país es el velocista Usain Bolt?",
+    "options": [
+      "Jamaica",
+      "Brasil",
+      "Kenia",
+      "Estados Unidos"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Usain Bolt es jamaicano: tiene el récord mundial de los 100 m (9,58 s en Berlín 2009) y ganó ocho oros olímpicos.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-medallas-michael-phelps",
+    "text": "¿Cuántas medallas olímpicas ganó Michael Phelps?",
+    "options": [
+      "18",
+      "23",
+      "26",
+      "28"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Phelps suma 28 medallas entre 2004 y 2016: 23 de oro, tres de plata y dos de bronce. El 23 es su cifra de oros, y 18 fueron las de Larisa Latynina.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-sede-verano-2024-paris",
+    "text": "¿En qué ciudad se celebraron los Juegos de verano de 2024?",
+    "options": [
+      "Tokio",
+      "Londres",
+      "París",
+      "Los Ángeles"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "París organizó los Juegos por tercera vez, tras 1900 y 1924. Los Ángeles será sede en 2028.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 14",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-simone-biles-gimnasia",
+    "text": "¿En qué deporte destaca Simone Biles?",
+    "options": [
+      "Gimnasia",
+      "Natación",
+      "Atletismo",
+      "Remo"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Simone Biles es gimnasta: con 11 medallas, siete de ellas de oro, es la gimnasta estadounidense más laureada.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 13",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-olimpiadas-contadas-antiguas",
+    "text": "¿Cuántas olimpiadas antiguas contaron los autores clásicos?",
+    "options": [
+      "294",
+      "293",
+      "292",
+      "291"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Los autores clásicos contaron 293 olimpiadas consecutivas hasta el final del ciclo antiguo, entre el 776 a. C. y el 393 d. C.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 4",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fundacion-coi-1894",
+    "text": "¿En qué año se creó el Comité Olímpico Internacional?",
+    "options": [
+      "1892",
+      "1894",
+      "1896",
+      "1900"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El congreso de París de 1894, convocado por Coubertin, decidió renovar los Juegos y creó el COI. La primera edición moderna fue en Atenas, en 1896.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 6",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-sede-1992-barcelona",
+    "text": "¿En qué ciudad se celebraron los Juegos de 1992?",
+    "options": [
+      "Barcelona",
+      "Valencia",
+      "Madrid",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Barcelona 1992, del 25 de julio al 9 de agosto, reunió a 9.356 deportistas de 169 países y fue un salto histórico para el deporte español.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 11",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-oros-espana-barcelona-1992",
+    "text": "¿Cuántos oros ganó España en Barcelona 1992?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España logró 13 oros, frente a los cuatro de toda su historia hasta entonces, y 22 medallas en total, su récord en unos Juegos.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 11",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-cortina-ampezzo-pais",
+    "text": "¿En qué país está Cortina d'Ampezzo?",
+    "options": [
+      "Austria",
+      "Francia",
+      "Suiza",
+      "Italia"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Cortina d'Ampezzo es italiana. Con Milán fue la primera sede compartida oficialmente por dos ciudades, en los Juegos de Invierno de 2026.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 14",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-premio-actual-medalla-oro",
+    "text": "¿Qué premio reciben hoy los campeones olímpicos?",
+    "options": [
+      "Copa de plata",
+      "Corona de olivo",
+      "Trofeo de cristal",
+      "Medalla de oro"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Hoy el campeón recibe una medalla de oro. La corona de olivo era el premio de los Juegos antiguos, donde no había medallas.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 5",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jesse-owens-deporte-atletismo",
+    "text": "¿Qué deporte practicaba Jesse Owens?",
+    "options": [
+      "Atletismo",
+      "Natación",
+      "Remo",
+      "Esgrima"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Jesse Owens fue atleta: ganó cuatro oros en Berlín 1936 en velocidad, salto de longitud y relevos.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 13",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-primer-diez-comaneci-1976",
+    "text": "¿Qué gimnasta logró el primer diez olímpico, en Montreal 1976?",
+    "options": [
+      "Larisa Latynina",
+      "Nadia Comaneci",
+      "Simone Biles",
+      "Shannon Miller"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Nadia Comaneci, con 14 años, logró la primera nota perfecta de la gimnasia olímpica; el marcador ni siquiera estaba preparado para mostrar un diez.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-records-olimpicos-barcelona-1992",
+    "text": "¿Cuántos récords olímpicos se batieron en Barcelona 1992?",
+    "options": [
+      "69",
+      "71",
+      "73",
+      "75"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "En Barcelona 1992 se batieron 32 récords mundiales y 73 olímpicos.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 11",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-medallero-milano-cortina-2026",
+    "text": "¿Qué país lideró el medallero de Milano Cortina 2026?",
+    "options": [
+      "Países Bajos",
+      "Estados Unidos",
+      "Italia",
+      "Noruega"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Noruega ganó 18 oros y 41 medallas; Estados Unidos fue segundo con 12 oros y Países Bajos tercero en oros.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 14",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-longitud-estadio-olimpia",
+    "text": "¿Cuántos metros medía la carrera del estadio en Olimpia?",
+    "options": [
+      "172 m",
+      "182 m",
+      "192 m",
+      "212 m"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "La carrera de una longitud de estadio, unos 192 metros, fue la prueba principal de los primeros Juegos y dio nombre al recinto.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 4",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-owens-records-mundiales-1935",
+    "text": "¿Cuántos récords mundiales batió Owens en una tarde de 1935?",
+    "options": [
+      "Seis",
+      "Cinco",
+      "Cuatro",
+      "Tres"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "En 45 minutos batió cinco récords del mundo e igualó un sexto; su salto de longitud de 8,13 m duró 25 años.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 13",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-sede-invierno-1956-cortina",
+    "text": "¿Qué ciudad acogió los Juegos de Invierno de 1956?",
+    "options": [
+      "Cortina d'Ampezzo",
+      "Turín",
+      "Milán",
+      "Bormio"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Cortina fue elegida para 1944, pero esa edición se canceló por la Segunda Guerra Mundial; acogió finalmente los Juegos de 1956.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 14",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-medallas-eeuu-san-luis-1904",
+    "text": "¿Cuántas medallas ganó EE. UU. en San Luis 1904?",
+    "options": [
+      "219",
+      "229",
+      "239",
+      "249"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Estados Unidos acumuló 239 medallas, alrededor del 85 % de las disponibles, en una edición a la que casi no viajaron los europeos.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 7",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ian-millar-participaciones",
+    "text": "¿En cuántos Juegos participó el jinete Ian Millar?",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "8"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "El jinete canadiense Ian Millar compitió en diez Juegos, de 1972 a 2012, más que ningún otro deportista.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marchand-200-estilos-2024",
+    "text": "¿Qué marca logró Marchand en los 200 estilos de París 2024?",
+    "options": [
+      "1:53,86",
+      "1:54,06",
+      "1:54,23",
+      "1:54,60"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Léon Marchand nadó en 1:54,06 y rebajó el récord olímpico de Phelps, que era de 1:54,23.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-djokovic-oro-paris-2024",
+    "text": "¿Qué tenista logró su primer oro olímpico en París 2024?",
+    "options": [
+      "Novak Djokovic",
+      "Roger Federer",
+      "Rafael Nadal",
+      "Carlos Alcaraz"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Novak Djokovic se proclamó por fin campeón olímpico en París 2024, una de las grandes figuras de esa edición junto a Biles, Marchand y Ledecky.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 14",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-phelps-ocho-oros-pekin-2008",
+    "text": "¿Quién ganó ocho oros en Pekín 2008?",
+    "options": [
+      "Usain Bolt",
+      "Mark Spitz",
+      "Léon Marchand",
+      "Michael Phelps"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Phelps ganó el oro en las ocho pruebas que disputó en Pekín 2008, superando los siete oros de Mark Spitz en 1972.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 13",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-munich-1972-septiembre-negro",
+    "text": "¿Qué grupo atacó la Villa Olímpica de Múnich en 1972?",
+    "options": [
+      "Baader-Meinhof",
+      "Brigadas Rojas",
+      "Septiembre Negro",
+      "Panteras Negras"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Miembros de la organización terrorista Septiembre Negro invadieron la Villa Olímpica el 5 de septiembre y mataron a miembros del equipo israelí.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 9",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-primer-vencedor-corebo-776",
+    "text": "¿Quién fue el primer vencedor olímpico registrado, en 776 a. C.?",
+    "options": [
+      "Leónidas de Rodas",
+      "Milón de Crotona",
+      "Diágoras de Rodas",
+      "Corebo de Élide"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Corebo de Élide es el primer vencedor registrado, en el 776 a. C. Milón de Crotona habría ganado seis veces en lucha y Leónidas de Rodas habría sumado doce victorias.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 5",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-neron-carrera-carros-67",
+    "text": "¿En qué año participó Nerón en una carrera de carros olímpica?",
+    "options": [
+      "37 d. C.",
+      "54 d. C.",
+      "67 d. C.",
+      "80 d. C."
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Según la tradición, en el 67 d. C. Nerón participó en una carrera de carros y obtuvo una corona pese a no completar la prueba.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 5",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-bronces-italia-milano-cortina",
+    "text": "¿Cuántos bronces ganó Italia en Milano Cortina 2026?",
+    "options": [
+      "16",
+      "14",
+      "12",
+      "10"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Italia sumó 30 medallas (10 oros, seis platas y 14 bronces), el mayor número de bronces de la competición.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 14",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-bolt-100m-berlin-2009",
+    "text": "¿Qué marca logró Bolt en los 100 m del Mundial de Berlín 2009?",
+    "options": [
+      "9,58 s",
+      "9,63 s",
+      "9,69 s",
+      "9,72 s"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Bolt corrió en 9,58 s, el récord mundial. Su récord olímpico es de 9,63 s (Londres 2012) y en Pekín 2008 hizo 9,69 s.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-sede-verano-2032-brisbane",
+    "text": "¿Qué ciudad fue elegida para los Juegos de verano de 2032?",
+    "options": [
+      "Brisbane",
+      "Melbourne",
+      "Perth",
+      "Sídney"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Brisbane los acogerá del 23 de julio al 8 de agosto de 2032, la primera vez que la ciudad es sede.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 16",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-redgrave-cinco-oros-remo",
+    "text": "¿Quién ganó cinco oros olímpicos consecutivos en remo?",
+    "options": [
+      "Edoardo Mangiarotti",
+      "Mark Spitz",
+      "Ian Millar",
+      "Steve Redgrave"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El remero británico Steve Redgrave ganó cinco oros consecutivos entre 1984 y 2000.",
+    "source": "Olimpiadas_Historia_Records_Atletas.pdf, p. 12",
+    "createdAt": "2026-11-20T09:00:00Z",
+    "status": "active"
+  }
+]
