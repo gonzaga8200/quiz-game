@@ -7,3 +7,5 @@ package-lock.json
 CHANGELOG.md
 data/questions/*.json
 .vitest
+# Search Console verification file: its content must stay byte-for-byte as Google issued it
+public/google*.html/
