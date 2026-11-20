@@ -1,11 +1,23 @@
 <script setup lang="ts">
-useHead({
-  titleTemplate: (title) =>
-    title && title !== 'Contrarreloj' ? `${title} · Contrarreloj` : 'Contrarreloj',
-})
+import { SEO } from '~/content/seo'
+import { absoluteUrl, normalizeSiteUrl } from '~/utils/seo'
 
 const route = useRoute()
 const consent = useConsent()
+
+// The home page keeps the full descriptive title; every other page gets "Page · Contrarreloj".
+useHead({
+  titleTemplate: (title) => (title && title !== SEO.title ? `${title} · ${SEO.name}` : SEO.title),
+})
+
+// One canonical URL per page, always on the public origin (also on preview channels, so those
+// never compete with production). Query strings such as `?modo=arcade` are dropped.
+const siteUrl = normalizeSiteUrl(useRuntimeConfig().public.siteUrl, SEO.defaultSiteUrl)
+const canonical = computed(() => absoluteUrl(siteUrl, route.path))
+useHead({
+  link: [{ rel: 'canonical', href: canonical }],
+  meta: [{ property: 'og:url', content: canonical }],
+})
 
 // Keep the game screen clear: no banner or footer on top of the answers.
 const inGame = computed(() => route.path === '/jugar')
