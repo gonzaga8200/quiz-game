@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/gonzaga8200/quiz-game/compare/v0.7.0...v0.8.0) (2026-11-20)
+
+
+### Features
+
+* **questions:** add 30 Deportes questions on sports tournament honours ([#26](https://github.com/gonzaga8200/quiz-game/issues/26)) ([4a883a3](https://github.com/gonzaga8200/quiz-game/commit/4a883a38e8b7d74488a7628a3407fdb952bf333b))
+
 ## [0.7.0](https://github.com/gonzaga8200/quiz-game/compare/v0.6.0...v0.7.0) (2026-11-20)
 
 
