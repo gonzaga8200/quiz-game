@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/gonzaga8200/quiz-game/compare/v0.6.0...v0.7.0) (2026-11-20)
+
+
+### Features
+
+* **questions:** add 40 Deportes questions on the history of the Olympic Games ([#24](https://github.com/gonzaga8200/quiz-game/issues/24)) ([ac7e92b](https://github.com/gonzaga8200/quiz-game/commit/ac7e92bc9f1d7ff024d32f480825997eac7248ef))
+
 ## [0.6.0](https://github.com/gonzaga8200/quiz-game/compare/v0.5.0...v0.6.0) (2026-11-19)
 
 
