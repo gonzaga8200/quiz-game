@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.0](https://github.com/gonzaga8200/quiz-game/compare/v0.11.0...v0.12.0) (2026-11-20)
+
+
+### Features
+
+* **questions:** add 50 Ciencias questions on the observable universe ([#34](https://github.com/gonzaga8200/quiz-game/issues/34)) ([2488340](https://github.com/gonzaga8200/quiz-game/commit/248834071803fcd39fde6bb053f9927573c5e4c8))
+
 ## [0.11.0](https://github.com/gonzaga8200/quiz-game/compare/v0.10.0...v0.11.0) (2026-11-20)
 
 
