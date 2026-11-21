@@ -1,0 +1,3334 @@
+[
+  {
+    "id": "leng-vocales-espanol",
+    "text": "¿Cuántas vocales tiene el español?",
+    "options": [
+      "Cinco",
+      "Tres",
+      "Cuatro",
+      "Seis"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Las vocales son a, e, i, o y u. Son cinco y se pronuncian sin que el aire encuentre obstáculos en la boca, a diferencia de las consonantes.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-letra-suena-palabra-hola",
+    "text": "¿Qué letra no suena en la palabra «hola»?",
+    "options": [
+      "La o",
+      "La a",
+      "La l",
+      "La h"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En español la h es muda: se escribe, pero no representa ningún sonido. Por eso «hola» se pronuncia como si empezara por la o.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-gato",
+    "text": "¿Cuál es el plural de «gato»?",
+    "options": [
+      "Gatoes",
+      "Gates",
+      "Gatis",
+      "Gatos"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Las palabras que terminan en vocal no acentuada forman el plural añadiendo una -s. Por eso el plural de «gato» es «gatos», y no «gatoes» ni «gates».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-letra-empieza-palabra-zapato",
+    "text": "¿Con qué letra empieza la palabra «zapato»?",
+    "options": [
+      "X",
+      "C",
+      "S",
+      "Z"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Zapato» empieza por la letra z. En España suena como una zeta con la lengua entre los dientes y en América suena igual que la s, pero se escribe siempre con z.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-llama-signo",
+    "text": "¿Cómo se llama el signo «?»?",
+    "options": [
+      "Comillas",
+      "Interrogación",
+      "Exclamación",
+      "Paréntesis"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "El signo «?» es el de interrogación y sirve para cerrar las preguntas. Se escribe al final de la pregunta y hay otro signo, de apertura, que se coloca al principio.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-primera-letra-abecedario",
+    "text": "¿Cuál es la primera letra del abecedario?",
+    "options": [
+      "La c",
+      "La a",
+      "La e",
+      "La b"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "La primera letra del abecedario español es la a. Después vienen la b, la c y la d, siempre en este orden alfabético que todos aprendemos de pequeños.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-rima-casa",
+    "text": "¿Qué palabra rima con «casa»?",
+    "options": [
+      "Pino",
+      "Nube",
+      "Sapo",
+      "Masa"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Dos palabras riman cuando coinciden sus sonidos a partir de la última vocal acentuada. «Casa» y «masa» terminan igual, en -asa, y por eso riman entre sí.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-nino-come-pan-verbo",
+    "text": "En «El niño come pan», ¿cuál es el verbo?",
+    "options": [
+      "El",
+      "Niño",
+      "Come",
+      "Pan"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "El verbo es la palabra que expresa la acción. Aquí la acción es comer, y la forma «come» indica además quién la realiza y cuándo la realiza.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-contrario-grande",
+    "text": "¿Cuál es el contrario de «grande»?",
+    "options": [
+      "Ancho",
+      "Alto",
+      "Fuerte",
+      "Pequeño"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Las palabras de significado contrario se llaman antónimos. El antónimo de «grande» es «pequeño». Los contrarios de las otras opciones son «bajo», «estrecho» y «débil».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-silabas-palabra-mesa",
+    "text": "¿Cuántas sílabas tiene la palabra «mesa»?",
+    "options": [
+      "Dos",
+      "Una",
+      "Cuatro",
+      "Tres"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Mesa» se divide en me-sa, es decir, dos sílabas. Para contarlas se puede dar una palmada cada vez que se pronuncia un golpe de voz seguido, sin parar.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-color-cielo",
+    "text": "¿Cómo se escribe el color del cielo?",
+    "options": [
+      "Hazul",
+      "Asul",
+      "Azúl",
+      "Azul"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Azul» se escribe con z y sin tilde, porque es una palabra aguda terminada en -l. Las agudas solo llevan tilde cuando acaban en n, en s o en vocal.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-escribe-principio",
+    "text": "¿Qué palabra se escribe con h al principio?",
+    "options": [
+      "Oso",
+      "Isla",
+      "Uva",
+      "Huevo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Huevo» empieza por h muda, igual que «hielo» o «humo». En cambio, «uva», «oso» e «isla» empiezan directamente por una vocal, sin ninguna h delante.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-letra-va-principio-jirafa",
+    "text": "¿Qué letra va al principio de «jirafa»?",
+    "options": [
+      "J",
+      "Y",
+      "G",
+      "H"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Jirafa» se escribe con j. Aunque en otras palabras, como «girasol», el sonido inicial se escribe con g, la jirafa lleva j desde el principio de la palabra.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-lleva-letra",
+    "text": "¿Qué palabra lleva la letra «ñ»?",
+    "options": [
+      "Mariposa",
+      "Abeja",
+      "Araña",
+      "Hormiga"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "La eñe es una letra propia del español. Aparece en «araña», mientras que «abeja», «hormiga» y «mariposa» no la llevan en ninguna de sus sílabas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-femenino-perro",
+    "text": "¿Cuál es el femenino de «perro»?",
+    "options": [
+      "Perrera",
+      "Perrote",
+      "Perra",
+      "Perros"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "El femenino de «perro» es «perra»: se cambia la -o final por una -a. «Perros» es el plural, y «perrera» y «perrote» son palabras con otro significado.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-dice-cosa",
+    "text": "¿Qué palabra dice cómo es una cosa?",
+    "options": [
+      "Bonito",
+      "Mesa",
+      "Correr",
+      "Saltar"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Los adjetivos dicen cómo es algo o alguien. «Bonito» describe una cualidad. «Correr» y «saltar» son verbos, y «mesa» es el nombre de un objeto.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-ultima-letra-abecedario",
+    "text": "¿Cuál es la última letra del abecedario?",
+    "options": [
+      "La x",
+      "La w",
+      "La y",
+      "La z"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "La última letra del abecedario español es la z, que también se llama zeta. Antes que ella están la w, la x y la y, en ese orden.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-flor",
+    "text": "¿Cuál es el plural de «flor»?",
+    "options": [
+      "Flores",
+      "Flors",
+      "Florses",
+      "Floras"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Las palabras terminadas en consonante forman el plural añadiendo -es. Por eso «flor» pasa a «flores», y no a «flors». «Floras» es el plural de otra palabra: «flora».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-signo-pone-final-frase",
+    "text": "¿Qué signo se pone al final de una frase afirmativa?",
+    "options": [
+      "Coma",
+      "Tilde",
+      "Guion",
+      "Punto"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "Cuando una frase afirmativa termina, se escribe un punto final. La coma separa partes dentro de la frase, el guion une o separa palabras y la tilde es una marca sobre una vocal.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-lapiz-2",
+    "text": "¿Cuál es el plural de «lápiz»?",
+    "options": [
+      "Lápises",
+      "Lápizs",
+      "Lápices",
+      "Lápizes"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las palabras que terminan en -z cambian esa letra por c en el plural. Así, «lápiz» pasa a «lápices», que conserva la tilde porque ahora es una palabra esdrújula.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-estacion-fria",
+    "text": "¿Cómo se escribe la estación más fría?",
+    "options": [
+      "Imvierno",
+      "Invierno",
+      "Imbierno",
+      "Inbierno"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Invierno» se escribe con n delante de v, porque la regla general solo pide m antes de b y de p. Además, lleva v y no b, aunque suenen igual.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-silabas-mariposa",
+    "text": "¿Cuántas sílabas tiene «mariposa»?",
+    "options": [
+      "Dos",
+      "Cuatro",
+      "Tres",
+      "Cinco"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Mariposa» se divide en ma-ri-po-sa, es decir, cuatro sílabas. Cada sílaba tiene al menos una vocal, y aquí hay cuatro vocales separadas por consonantes.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-aguda",
+    "text": "¿Cuál de estas palabras es aguda?",
+    "options": [
+      "Árbol",
+      "Lápiz",
+      "Mesa",
+      "Canción"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Canción» lleva el golpe de voz en la última sílaba (can-CIÓN) y se escribe con tilde porque acaba en n. «Árbol», «mesa» y «lápiz» son palabras llanas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-ninos-juegan-patio-sujeto",
+    "text": "En «Los niños juegan en el patio», ¿cuál es el sujeto?",
+    "options": [
+      "Juegan",
+      "En el patio",
+      "Los niños",
+      "El patio"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El sujeto es quien realiza la acción y concuerda con el verbo. «Los niños» son quienes juegan; «en el patio» solo indica el lugar donde ocurre la acción.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-adverbio",
+    "text": "¿Qué palabra es un adverbio?",
+    "options": [
+      "Lentamente",
+      "Alentar",
+      "Lentitud",
+      "Lento"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los adverbios modifican verbos y no cambian de género ni de número. «Lentamente» explica cómo se hace algo. «Lento» es adjetivo, «lentitud» es nombre y «alentar» es verbo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tiempo-esta-verbo-cantare",
+    "text": "¿En qué tiempo está el verbo «cantaré»?",
+    "options": [
+      "Futuro",
+      "Presente",
+      "Pretérito",
+      "Condicional"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Cantaré» expresa una acción que todavía no ha ocurrido, por eso está en futuro. La terminación -é de la primera persona lo distingue de «canto», que es presente.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-agua-cae-nubes",
+    "text": "¿Cómo se escribe el agua que cae de las nubes?",
+    "options": [
+      "Lluvia",
+      "Lluvya",
+      "Yuvia",
+      "Llubia"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Lluvia» se escribe con ll al principio y con v en la segunda sílaba. Aunque en muchas zonas la ll y la y suenan igual, la ortografía las distingue.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-pez",
+    "text": "¿Cuál es el plural de «pez»?",
+    "options": [
+      "Pezes",
+      "Peces",
+      "Pezs",
+      "Pecez"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las palabras acabadas en -z cambian la z por c y añaden -es en el plural. Por eso «pez» da «peces», y no «pezes», una forma que no existe en español.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-lleva-tilde",
+    "text": "¿Cuál de estas palabras lleva tilde?",
+    "options": [
+      "Perro",
+      "Verde",
+      "Mesa",
+      "Camión"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Camión» es aguda y acaba en n, así que se escribe con tilde en la o. «Mesa», «perro» y «verde» son llanas acabadas en vocal, por lo que se escriben sin ella.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-signo-empieza-pregunta-espanol",
+    "text": "¿Con qué signo empieza una pregunta en español?",
+    "options": [
+      "¡",
+      "!",
+      "¿",
+      "?"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El español escribe las preguntas entre dos signos: uno de apertura (¿) y otro de cierre (?). El de apertura es el que se coloca al empezar la pregunta, no al terminarla.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-rapido-coche-rapido",
+    "text": "¿Qué es «rápido» en «un coche rápido»?",
+    "options": [
+      "Adverbio",
+      "Nombre",
+      "Verbo",
+      "Adjetivo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Rápido» acompaña al nombre «coche» y dice cómo es. Las palabras que cumplen esa función son adjetivos y concuerdan en género y número con el nombre al que acompañan.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-clase-palabra",
+    "text": "¿Qué clase de palabra es «y»?",
+    "options": [
+      "Verbo",
+      "Adjetivo",
+      "Conjunción",
+      "Preposición"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Y» une palabras o frases, como en «pan y queso». Las palabras que cumplen esa función se llaman conjunciones, y no cambian de forma nunca.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-preposicion",
+    "text": "¿Cuál de estas palabras es una preposición?",
+    "options": [
+      "Cantar",
+      "Con",
+      "Mesa",
+      "Rápido"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las preposiciones introducen complementos y no cambian de forma. «Con» es una preposición, igual que «de», «en» o «para». Las demás son nombre, adjetivo y verbo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-clase-palabra-ellos",
+    "text": "¿Qué clase de palabra es «ellos»?",
+    "options": [
+      "Nombre",
+      "Adjetivo",
+      "Verbo",
+      "Pronombre"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Ellos» sustituye a un nombre o a un grupo de nombres, como «los niños». Las palabras que cumplen esa función se llaman pronombres; este es un pronombre personal de tercera persona.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-muchos-ninos-patio",
+    "text": "Completa: «___ muchos niños en el patio»",
+    "options": [
+      "Hay",
+      "Hai",
+      "Ay",
+      "Ahí"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Hay» es una forma del verbo haber y sirve para decir que algo existe. «Ahí» es un adverbio de lugar y «ay» es una interjección que expresa dolor o sorpresa.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-singular-luces",
+    "text": "¿Cuál es el singular de «luces»?",
+    "options": [
+      "Lúz",
+      "Luce",
+      "Luzes",
+      "Luz"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los plurales en -ces corresponden a singulares en -z, porque la z cambia a c antes de -es. Por eso el singular de «luces» es «luz», una palabra sin tilde.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-verdura-naranja-alargada",
+    "text": "¿Cómo se escribe la verdura naranja y alargada?",
+    "options": [
+      "Sanahoria",
+      "Zanahória",
+      "Zanahoria",
+      "Zanaoria"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Zanahoria» lleva z al principio y una h entre dos vocales. Esa h no suena, pero hay que escribirla. Tampoco lleva tilde, porque es una palabra llana acabada en vocal.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-formas-verbales-indica",
+    "text": "¿Cuál de estas formas verbales indica pasado?",
+    "options": [
+      "Como",
+      "Comí",
+      "Comeré",
+      "Comería"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Comí» expresa una acción terminada en el pasado. «Comeré» es futuro, «como» es presente y «comería» es condicional, que expresa una acción posible o hipotética.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-compuesta",
+    "text": "¿Cuál de estas palabras es compuesta?",
+    "options": [
+      "Zapatería",
+      "Paraguas",
+      "Librero",
+      "Casita"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Paraguas» se forma uniendo dos palabras, «para» y «aguas», y por eso es una palabra compuesta. Las demás son derivadas: zapato con -ería, libro con -ero y casa con -ita.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-nombra-grupo",
+    "text": "¿Cuál de estas palabras nombra un grupo?",
+    "options": [
+      "Lana",
+      "Pastor",
+      "Rebaño",
+      "Oveja"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Un sustantivo colectivo designa en singular un conjunto de seres. «Rebaño» nombra un grupo de ovejas, mientras que «pastor», «lana» y «oveja» nombran una persona, un material y un animal.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-diminutivo-casa",
+    "text": "¿Cuál es el diminutivo de «casa»?",
+    "options": [
+      "Casucha",
+      "Caserío",
+      "Casona",
+      "Casita"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los diminutivos expresan tamaño pequeño o cariño y se forman con sufijos como -ita. «Casita» es el diminutivo de «casa»; «casona» es un aumentativo, y «casucha», un despectivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-aumentativo-perro",
+    "text": "¿Cuál es el aumentativo de «perro»?",
+    "options": [
+      "Perrazo",
+      "Perruno",
+      "Perrera",
+      "Perrito"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los aumentativos expresan mayor tamaño o intensidad y se forman con sufijos como -azo, -ote o -ón. «Perrazo» es aumentativo; «perrito» es diminutivo y «perruno» es un adjetivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-articulo",
+    "text": "¿Cuál es el plural del artículo «el»?",
+    "options": [
+      "Les",
+      "Elos",
+      "Las",
+      "Los"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El artículo «el» es masculino singular, y su plural es «los». «Las» es el plural del artículo femenino «la», y «les» es un pronombre, no un artículo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-infinitivo",
+    "text": "¿Cuál de estas palabras es un infinitivo?",
+    "options": [
+      "Saltado",
+      "Saltando",
+      "Salté",
+      "Saltar"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El infinitivo es la forma básica del verbo y termina en -ar, -er o -ir. «Saltando» es gerundio, «saltado» es participio y «salté» es una forma conjugada.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-participio-cantar",
+    "text": "¿Cuál es el participio de «cantar»?",
+    "options": [
+      "Cantó",
+      "Cantando",
+      "Cantar",
+      "Cantado"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El participio de los verbos en -ar termina en -ado, así que «cantar» da «cantado». «Cantando» es gerundio, «cantar» es infinitivo y «cantó» es una forma conjugada.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-gerundio-correr",
+    "text": "¿Cuál es el gerundio de «correr»?",
+    "options": [
+      "Corriendo",
+      "Corrió",
+      "Corrido",
+      "Correr"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El gerundio de los verbos en -er e -ir termina en -iendo, así que «correr» da «corriendo». «Corrido» es participio, «corrió» es una forma conjugada y «correr» es infinitivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-signo-separa-elementos-lista",
+    "text": "¿Qué signo separa los elementos de una lista?",
+    "options": [
+      "Coma",
+      "Punto",
+      "Tilde",
+      "Guion"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En una enumeración, los elementos se separan con comas, salvo los dos últimos, que suelen unirse con «y» u «o». Por ejemplo: «manzanas, peras y uvas».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-llana-lleva-tilde",
+    "text": "¿Cuál es llana y lleva tilde?",
+    "options": [
+      "Árbol",
+      "Teléfono",
+      "Mesa",
+      "Camión"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Árbol» es llana, con el golpe de voz en la penúltima sílaba, y lleva tilde porque acaba en l, una consonante distinta de n y s. «Mesa» es llana sin tilde, «camión» es aguda y «teléfono», esdrújula.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-silaba-suena-fuerte-mariposa",
+    "text": "¿Qué sílaba suena más fuerte en «mariposa»?",
+    "options": [
+      "La última",
+      "La penúltima",
+      "La antepenúltima",
+      "La primera"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En «ma-ri-PO-sa» el golpe de voz cae en la penúltima sílaba, la que va justo antes de la última. Por eso es una palabra llana y no lleva tilde, porque acaba en vocal.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-silabas-murcielago",
+    "text": "¿Cuántas sílabas tiene «murciélago»?",
+    "options": [
+      "Seis",
+      "Cuatro",
+      "Cinco",
+      "Tres"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Murciélago» se divide en mur-cié-la-go. Aunque «ie» son dos vocales, forman un diptongo y se pronuncian juntas, en una sola sílaba. Por eso la palabra tiene cuatro sílabas, no cinco.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-contiene-diptongo",
+    "text": "¿Qué palabra contiene un diptongo?",
+    "options": [
+      "Mesa",
+      "Cielo",
+      "Rata",
+      "Pelo"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Un diptongo son dos vocales que se pronuncian en la misma sílaba. En «cielo» las vocales i y e forman el diptongo «ie»: cie-lo. Las demás palabras no tienen dos vocales seguidas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tipo-oracion-vives",
+    "text": "¿Qué tipo de oración es «¿Dónde vives?»?",
+    "options": [
+      "Imperativa",
+      "Interrogativa",
+      "Enunciativa",
+      "Exclamativa"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las oraciones interrogativas preguntan algo y se escriben entre signos de interrogación. Esta frase pregunta por el lugar donde vive alguien, por eso es interrogativa.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tipo-oracion-bonito",
+    "text": "¿Qué tipo de oración es «¡Qué bonito!»?",
+    "options": [
+      "Interrogativa",
+      "Imperativa",
+      "Exclamativa",
+      "Enunciativa"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las oraciones exclamativas expresan emoción, sorpresa o admiración y se escriben entre signos de exclamación. Esta frase manifiesta admiración ante algo bonito, por eso es exclamativa.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-terminaciones-infinitivos",
+    "text": "¿Qué terminaciones tienen los infinitivos?",
+    "options": [
+      "-as, -es, -is",
+      "-ando, -iendo, -ado",
+      "-an, -en, -in",
+      "-ar, -er, -ir"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los infinitivos terminan en -ar, -er o -ir, y de ahí salen las tres conjugaciones del español. Las otras terminaciones son de formas personales, de gerundios o de participios.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-presente-cantar-yo",
+    "text": "¿Cuál es el presente de «cantar» con «yo»?",
+    "options": [
+      "Canta",
+      "Canto",
+      "Cantamos",
+      "Cantas"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Con el pronombre «yo» el presente de «cantar» es «canto»: la terminación -o es la de la primera persona del singular. Las otras formas corresponden a otras personas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-nosotros-coro-cantar",
+    "text": "Completa: «Nosotros ___ en el coro» (cantar)",
+    "options": [
+      "cantaron",
+      "cantamos",
+      "cantáis",
+      "cantan"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Con «nosotros» el presente de «cantar» es «cantamos»: la terminación -amos señala la primera persona del plural. «Cantan» y «cantaron» corresponden a «ellos».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-persona-gramatical-ellos",
+    "text": "¿Qué persona gramatical es «ellos»?",
+    "options": [
+      "Tercera del plural",
+      "Tercera del singular",
+      "Segunda del plural",
+      "Primera del plural"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Ellos» se refiere a otras personas distintas de quien habla y de quien escucha, y son varias. Por eso es la tercera persona del plural.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-vivo-sevilla-sevilla-nombre",
+    "text": "En «Vivo en Sevilla», ¿«Sevilla» es nombre...?",
+    "options": [
+      "Común",
+      "Colectivo",
+      "Abstracto",
+      "Propio"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Sevilla» designa un lugar concreto y único, por eso es un nombre propio y se escribe con mayúscula inicial. Los nombres comunes, como «ciudad», nombran a toda una clase de seres o cosas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tipo-nombre-felicidad",
+    "text": "¿Qué tipo de nombre es «felicidad»?",
+    "options": [
+      "Concreto",
+      "Colectivo",
+      "Abstracto",
+      "Propio"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Felicidad» nombra un sentimiento o una cualidad que no se puede ver ni tocar, por eso es un nombre abstracto. Los nombres concretos nombran seres u objetos perceptibles, como «niño» o «mesa».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-persona-monta-caballo",
+    "text": "¿Cómo se escribe la persona que monta a caballo?",
+    "options": [
+      "Hinete",
+      "Jinete",
+      "Ginete",
+      "Jinéte"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Jinete» se escribe con j, aunque en otras palabras el sonido [j] ante i o e se escribe con g, como en «gente». Tampoco lleva tilde, porque es una palabra llana acabada en vocal.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-lucha-entre-ejercitos",
+    "text": "¿Cómo se escribe una lucha entre ejércitos?",
+    "options": [
+      "Gerra",
+      "Güerra",
+      "Guera",
+      "Guerra"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Guerra» se escribe con gu delante de e y con rr entre vocales. La u de «gue» no se pronuncia: sirve para que la g suene suave, como en «gato». No lleva diéresis.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-alimento-leche-cuajada",
+    "text": "¿Cómo se escribe el alimento de leche cuajada?",
+    "options": [
+      "Cueso",
+      "Keso",
+      "Queso",
+      "Quezo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Queso» se escribe con qu, porque el sonido [k] delante de e o i se representa con qu: queso, quince, esquina. La u no se pronuncia en estas combinaciones.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-animal-ladra",
+    "text": "¿Cómo se escribe el animal que ladra?",
+    "options": [
+      "Pero",
+      "Pedro",
+      "Perro",
+      "Perrro"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Perro» se escribe con rr, porque entre vocales el sonido fuerte de la r se representa con doble r. «Pero» es una conjunción y «Pedro» es un nombre propio de persona.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-esta-bien",
+    "text": "¿Cuál de estas palabras está bien escrita?",
+    "options": [
+      "Campana",
+      "Camvana",
+      "Canpana",
+      "Campanna"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Delante de p y de b se escribe m, no n. Por eso «campana» lleva m antes de p. Las otras opciones cambian esa letra, duplican la n o sustituyen la p por una v.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-interjeccion",
+    "text": "¿Cuál de estas palabras es una interjección?",
+    "options": [
+      "Mesa",
+      "Corre",
+      "Bonito",
+      "¡Ay!"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las interjecciones expresan emociones o sensaciones de forma espontánea, como el dolor, la sorpresa o la alegría. Se escriben entre signos de exclamación, como en «¡Ay!».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-adjetivo-significa-raro",
+    "text": "¿Cómo se escribe el adjetivo que significa «raro»?",
+    "options": [
+      "Estraño",
+      "Extrano",
+      "Extraño",
+      "Extrañó"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Extraño» se escribe con x y con eñe. No lleva tilde, porque es una palabra llana terminada en vocal, y la ñ es la letra que lo distingue de la forma «extrano», que no existe.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-cancion",
+    "text": "¿Cuál es el plural de «canción»?",
+    "options": [
+      "Cancións",
+      "Cancions",
+      "Canciones",
+      "Canciónes"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las palabras acabadas en -n forman el plural con -es. En «canciones» el golpe de voz cae en la sílaba «cio», y es llana acabada en s, por lo que pierde la tilde.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-femenino-actor",
+    "text": "¿Cuál es el femenino de «actor»?",
+    "options": [
+      "Actoriz",
+      "Actoresa",
+      "Actriz",
+      "Actrisa"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Actor» tiene un femenino irregular: «actriz». Aquí la terminación -tor se cambia por -triz, igual que en «emperador», que da «emperatriz». No se dice «actoresa».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-voz",
+    "text": "¿Cuál es el plural de «voz»?",
+    "options": [
+      "Vozes",
+      "Voces",
+      "Vozs",
+      "Voses"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Igual que otras palabras terminadas en -z, «voz» cambia la z por c en el plural y añade -es: «voces». No se escribe «vozes», porque la z se cambia por c ante e.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-perro",
+    "text": "¿Qué es «el» en «el perro»?",
+    "options": [
+      "Artículo",
+      "Adjetivo",
+      "Verbo",
+      "Pronombre"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En «el perro», la palabra «el» acompaña al nombre y lo presenta como algo conocido. Las palabras con esa función son los artículos, que concuerdan en género y número con el nombre.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-arbol",
+    "text": "¿Cuál es el plural de «árbol»?",
+    "options": [
+      "Árboles",
+      "Árbols",
+      "Arboles",
+      "Árbolez"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Las palabras terminadas en consonante forman el plural con -es. «Árbol» da «árboles», que sigue siendo esdrújula, por lo que conserva la tilde en la primera a.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-femenino-rey",
+    "text": "¿Cuál es el femenino de «rey»?",
+    "options": [
+      "Reyna",
+      "Reina",
+      "Reya",
+      "Reyesa"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El femenino de «rey» es «reina», una forma irregular que viene del latín «regina». No se forma añadiendo -a, como en «reya», ni se escribe con y.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-escribe-dieresis",
+    "text": "¿Qué palabra se escribe con diéresis?",
+    "options": [
+      "Delfín",
+      "Jirafa",
+      "Pingüino",
+      "Gorila"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "La diéresis (¨) se escribe sobre la u de «güe» y «güi» cuando esa u se pronuncia, como en «pingüino». Las otras palabras no tienen esa combinación de letras.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-llama-acento-escrito",
+    "text": "¿Cómo se llama el acento escrito (´)?",
+    "options": [
+      "Tilde",
+      "Apóstrofo",
+      "Diéresis",
+      "Comilla"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "El acento escrito (´) se llama tilde y se coloca sobre la vocal de la sílaba tónica según unas reglas. La diéresis son dos puntos sobre la u, y el apóstrofo casi no se usa en español.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-signo-introduce-intervenciones-dialogo",
+    "text": "¿Qué signo introduce las intervenciones en un diálogo?",
+    "options": [
+      "Coma",
+      "Raya",
+      "Punto",
+      "Paréntesis"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En los diálogos se escribe una raya (—) delante de lo que dice cada personaje. No hay que confundirla con el guion, que es más corto y se usa para unir o separar palabras.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-rey",
+    "text": "¿Cuál es el plural de «rey»?",
+    "options": [
+      "Reys",
+      "Reies",
+      "Reyeses",
+      "Reyes"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los nombres acabados en -y precedida de vocal forman el plural con -es: «rey» da «reyes». Formas como «reys» o «reyeses» son incorrectas en español.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-sofa",
+    "text": "¿Cuál es el plural de «sofá»?",
+    "options": [
+      "Sofaes",
+      "Sofáes",
+      "Sofás",
+      "Sofases"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "Los nombres acabados en -á tónica forman el plural con -s: «sofá» da «sofás» y conserva la tilde. Las formas con -es, como «sofáes», no son las recomendadas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-viniste-fiesta",
+    "text": "Completa: «¿___ no viniste a la fiesta?»",
+    "options": [
+      "Porqué",
+      "Por que",
+      "Porque",
+      "Por qué"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En las preguntas directas se escribe «por qué», en dos palabras y con tilde en «qué». Se usa para preguntar por la causa; las demás formas no sirven para interrogar.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-hice-me-apetecia",
+    "text": "Completa: «Lo hice ___ me apetecía»",
+    "options": [
+      "porqué",
+      "por que",
+      "por qué",
+      "porque"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Porque» es una conjunción causal que introduce la causa de algo y se escribe en una palabra y sin tilde. «Por qué» se reserva para las preguntas y «porqué» es un sustantivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-entiendo-decision",
+    "text": "Completa: «No entiendo el ___ de su decisión»",
+    "options": [
+      "por que",
+      "porqué",
+      "por qué",
+      "porque"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Cuando equivale a «motivo» y va precedido de un artículo, se escribe «porqué», en una palabra y con tilde. Es un sustantivo y admite plural: «los porqués».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-estudias-aprobaras",
+    "text": "Completa: «___ estudias, no aprobarás»",
+    "options": [
+      "Sino",
+      "Sí no",
+      "Sin o",
+      "Si no"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Aquí «si» es una conjunción condicional y «no» es el adverbio de negación, por eso se escribe en dos palabras: «si no estudias». «Sino» se usa para contraponer algo a lo negado.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-mi-hermano-mi",
+    "text": "Completa: «No es mi hermano, ___ mi primo»",
+    "options": [
+      "sino",
+      "sin o",
+      "sinó",
+      "si no"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Sino» es una conjunción adversativa que contrapone algo a lo negado antes: no es mi hermano, sino mi primo. Se escribe en una palabra y no lleva tilde.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-dices-ahora",
+    "text": "Completa: «___ qué dices ahora»",
+    "options": [
+      "Haver",
+      "Haber",
+      "A ver",
+      "A ber"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«A ver» está formada por la preposición «a» y el verbo «ver», y se usa para expresar curiosidad o petición. «Haber» es un verbo distinto, que no encaja en esta frase.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-debes-avisado-antes",
+    "text": "Completa: «Debes ___ avisado antes»",
+    "options": [
+      "a ver",
+      "haver",
+      "haber",
+      "aver"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Después de un verbo como «deber» hace falta un infinitivo. Por eso se escribe «haber», del verbo auxiliar haber. «A ver» es una locución formada por una preposición y un verbo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-tu-puedes-venir",
+    "text": "Completa: «Tú ___ puedes venir»",
+    "options": [
+      "tan bien",
+      "tan vien",
+      "también",
+      "tambien"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«También» es un adverbio que significa «además» o «igualmente», y lleva tilde por ser una palabra aguda terminada en n. «Tan bien» son dos palabras: un adverbio de cantidad y otro de modo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-cuchillo-cortaste",
+    "text": "Completa: «¿___ cuchillo lo cortaste?»",
+    "options": [
+      "Conqué",
+      "Con que",
+      "Con qué",
+      "Conque"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Aquí se pregunta por el instrumento, así que se necesita el interrogativo «qué», con tilde, tras la preposición «con». Se escribe en dos palabras: «con qué». «Conque» es una conjunción consecutiva.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-eso-tema",
+    "text": "Completa: «Eso es un tema ___»",
+    "options": [
+      "apart",
+      "a parte",
+      "a-parte",
+      "aparte"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Aparte» es aquí un adjetivo que significa «distinto» o «separado» y se escribe en una palabra. «A parte» aparece, en cambio, cuando la preposición «a» precede al sustantivo «parte».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-me-gusta-invierno",
+    "text": "Completa: «Me gusta el invierno, ___ la nieve»",
+    "options": [
+      "sobre todo",
+      "sóbre todo",
+      "sobre-todo",
+      "sobretodo"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Sobre todo» es una locución adverbial que significa «principalmente» y se escribe en dos palabras. «Sobretodo» existe, pero es un sustantivo: una prenda de abrigo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-salimos-lluvia",
+    "text": "Completa: «Salimos ___ la lluvia»",
+    "options": [
+      "a pesar de",
+      "a pesar",
+      "apesar de",
+      "apesar"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "La locución preposicional correcta es «a pesar de», escrita en tres palabras, y expresa oposición a algo. «Apesar» no existe y «a pesar» sin «de» no puede introducir el complemento.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-invitados-llegaron-tarde",
+    "text": "Completa: «Los ___ invitados llegaron tarde»",
+    "options": [
+      "de más",
+      "demas",
+      "de mas",
+      "demás"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Demás» es un adjetivo que significa «restantes» y lleva tilde por ser aguda acabada en s. «De más» significa «en exceso», como en «sobran dos sillas de más».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-ya-he-deberes",
+    "text": "Completa: «Ya he ___ los deberes»",
+    "options": [
+      "hecho",
+      "echó",
+      "echo",
+      "hecco"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Hecho» es el participio del verbo hacer: he hecho. Se escribe con h inicial y con ch. «Echo» y «echó» son formas del verbo echar, que significa «lanzar» o «arrojar».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-imperfecto-ir-yo",
+    "text": "¿Cómo se escribe el imperfecto de «ir» con «yo»?",
+    "options": [
+      "iba",
+      "hiba",
+      "ivva",
+      "iva"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El imperfecto de los verbos en -ar y del verbo «ir» lleva siempre b: iba, ibas, iba. Nunca se escribe con v ni con h inicial, porque el verbo es «ir» y no «hir».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-ejercicio-sin-errores",
+    "text": "¿Cómo se escribe «ejercicio» sin errores?",
+    "options": [
+      "Ehercicio",
+      "Ejercicio",
+      "Ejersicio",
+      "Egercicio"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Ejercicio» se escribe con j en la segunda sílaba y con c: ejer-ci-cio. El sonido [j] se escribe j ante cualquier vocal, y g solo ante e o i en otras palabras, como «gente».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-caso-sigue-regla",
+    "text": "¿Cómo se escribe el caso que no sigue la regla?",
+    "options": [
+      "Escepción",
+      "Exepción",
+      "Excepción",
+      "Excepcion"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Excepción» se escribe con x, con c y con p, y lleva tilde porque es una palabra aguda acabada en n. Procede del latín exceptio, de ahí su grafía.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-lleva-tilde-carcel",
+    "text": "¿Por qué lleva tilde «cárcel»?",
+    "options": [
+      "Es aguda y acaba en l",
+      "Es llana y acaba en l",
+      "Es llana y acaba en s",
+      "Es esdrújula y acaba en l"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Cárcel» es una palabra llana: su golpe de voz cae en la penúltima sílaba. Las llanas llevan tilde cuando no acaban en n, s ni vocal. Esta termina en l, por eso se tilda.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-bebida-granos-tostados",
+    "text": "¿Cómo se escribe la bebida de granos tostados?",
+    "options": [
+      "Cafè",
+      "Café",
+      "Cafe",
+      "Cáfe"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Café» es una palabra aguda terminada en vocal, así que lleva tilde en la última sílaba. Sin ella, «cafe» no existe en español, y el acento grave de «cafè» no se usa en nuestra ortografía.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-preterito-ser",
+    "text": "¿Cómo se escribe el pretérito de «ser» con «él»?",
+    "options": [
+      "Fúe",
+      "Fué",
+      "Füe",
+      "Fue"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Fue» se considera monosílaba a efectos ortográficos, y los monosílabos no llevan tilde: fue, fui, dio, vio. La grafía «fué» se usaba antiguamente, pero hoy es incorrecta.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-me-tomo-caliente",
+    "text": "Completa: «Me tomo un ___ caliente»",
+    "options": [
+      "té",
+      "tè",
+      "the",
+      "te"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Té» es el sustantivo que designa la infusión y lleva tilde diacrítica para distinguirlo del pronombre personal «te», que es átono y se escribe sin ella.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-este-regalo-ti",
+    "text": "Completa: «Este regalo es para ___, no para ti»",
+    "options": [
+      "mí",
+      "mi",
+      "yo",
+      "me"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Después de una preposición como «para» se usa el pronombre tónico «mí», que lleva tilde diacrítica. El posesivo «mi» no la lleva, y «yo» y «me» no pueden ir tras «para».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-coche-esta-aqui",
+    "text": "Completa: «¿___ coche está aquí?»",
+    "options": [
+      "Tu",
+      "Tú",
+      "Tus",
+      "Tí"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Cuando «tu» acompaña a un nombre es un posesivo y se escribe sin tilde: tu coche. «Tú» con tilde es el pronombre personal de segunda persona, como en «tú vienes».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-yo-respuesta",
+    "text": "Completa: «Yo no ___ la respuesta»",
+    "options": [
+      "si",
+      "sé",
+      "sí",
+      "se"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En este caso es la forma del verbo saber para «yo», y se escribe con tilde diacrítica. «Se» sin tilde es un pronombre, como en «se fue», y «si» y «sí» son otras palabras distintas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-quiero-agua",
+    "text": "Completa: «Quiero ___ agua»",
+    "options": [
+      "mes",
+      "mas",
+      "más",
+      "mis"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Más» con tilde es un adverbio de cantidad, como en «más agua». «Mas» sin tilde es una conjunción equivalente a «pero», hoy casi desusada, que no encaja en esta frase.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-adverbio-facil",
+    "text": "¿Cómo se escribe el adverbio de «fácil»?",
+    "options": [
+      "Fácilmente",
+      "Facílmente",
+      "Facilmente",
+      "Fácilmenté"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los adverbios en -mente conservan la tilde del adjetivo base, si la tiene: «fácil» más -mente da «fácilmente». Por eso no se puede escribir «facilmente» sin tilde.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-continente-nigeria",
+    "text": "¿Cómo se escribe el continente de Nigeria?",
+    "options": [
+      "Áfrika",
+      "Africá",
+      "África",
+      "Africa"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Las mayúsculas llevan tilde cuando les corresponde según las reglas de acentuación. «África» es esdrújula y debe escribirse con tilde en la primera a, también cuando va con mayúscula.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-contiene-hiato",
+    "text": "¿Cuál de estas palabras contiene un hiato?",
+    "options": [
+      "Aire",
+      "Cuida",
+      "Baile",
+      "País"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En «país», las vocales a e í pertenecen a sílabas distintas: pa-ís. Eso es un hiato, y por eso la í se escribe con tilde. «Aire», «cuida» y «baile» tienen diptongos.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-triptongo",
+    "text": "¿Cuál de estas palabras tiene un triptongo?",
+    "options": [
+      "Estudio",
+      "Estudiáis",
+      "Cuidado",
+      "Aire"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Un triptongo son tres vocales seguidas que se pronuncian en una sílaba. En «estudiáis», las vocales i, á, i forman el triptongo: es-tu-diáis. Las otras palabras solo tienen un diptongo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-lleva-tilde-baul",
+    "text": "¿Por qué lleva tilde «baúl»?",
+    "options": [
+      "Por ser llana",
+      "Por ser monosílaba",
+      "Por ser esdrújula",
+      "Por formar un hiato"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Baúl» tiene una vocal abierta seguida de una vocal cerrada tónica, lo que forma un hiato: ba-úl. En esos casos la tilde se escribe siempre sobre la vocal cerrada, aunque la palabra sea aguda acabada en l.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-silabas-cuidado",
+    "text": "¿Cuántas sílabas tiene «cuidado»?",
+    "options": [
+      "Cinco",
+      "Cuatro",
+      "Dos",
+      "Tres"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Cuidado» se divide en cui-da-do. Las vocales u e i forman un diptongo, así que se pronuncian dentro de la misma sílaba. Por eso son tres sílabas, y no cuatro.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-silabas-pais",
+    "text": "¿Cuántas sílabas tiene «país»?",
+    "options": [
+      "Dos",
+      "Una",
+      "Cuatro",
+      "Tres"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«País» se divide en pa-ís: las vocales a e í forman un hiato y se pronuncian en sílabas distintas. Por eso tiene dos sílabas, y no una como ocurriría con un diptongo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-examen",
+    "text": "¿Cuál es el plural de «examen»?",
+    "options": [
+      "Examenes",
+      "Exámenes",
+      "Exámenez",
+      "Exámens"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El plural de «examen» es «exámenes»: para mantener el golpe de voz en la a, la palabra pasa de llana a esdrújula y necesita una tilde que antes no tenía.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-clase-palabra-libro-leo",
+    "text": "¿Qué clase de palabra es «que» en «el libro que leo»?",
+    "options": [
+      "Conjunción",
+      "Determinante",
+      "Preposición",
+      "Pronombre relativo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Aquí «que» sustituye a «libro» y une la oración subordinada con el nombre. Esa función es la de un pronombre relativo. La conjunción «que», en cambio, no sustituye a ningún elemento.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-mi-mi-casa",
+    "text": "¿Qué es «mi» en «mi casa»?",
+    "options": [
+      "Pronombre posesivo",
+      "Pronombre personal",
+      "Determinante posesivo",
+      "Artículo definido"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Mi» acompaña a un nombre y expresa pertenencia, por lo que es un determinante posesivo. Si sustituyera al nombre, como en «la mía», sería un pronombre posesivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tipo-conjuncion-pero",
+    "text": "¿Qué tipo de conjunción es «pero»?",
+    "options": [
+      "Disyuntiva",
+      "Causal",
+      "Adversativa",
+      "Copulativa"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Pero» une dos elementos que se oponen o se contraponen, como en «es barato, pero malo». Esa clase de conjunciones se llama adversativa.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-di-libro-luis-luis",
+    "text": "En «Di el libro a Luis», ¿qué es «a Luis»?",
+    "options": [
+      "Complemento directo",
+      "Complemento agente",
+      "Complemento indirecto",
+      "Complemento de régimen"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Indica quién recibe el libro y se puede sustituir por «le». Esa función es la de complemento indirecto. El directo es «el libro», que se sustituye por «lo».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-ana-medica-medica",
+    "text": "En «Ana es médica», ¿qué es «médica»?",
+    "options": [
+      "Atributo",
+      "Agente",
+      "Vocativo",
+      "Sujeto"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Con verbos copulativos como «ser», el adjetivo o el nombre que describe al sujeto es el atributo. «Médica» concuerda con «Ana» y dice cómo o qué es.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-sujeto-cantamos-mucho",
+    "text": "¿Qué sujeto tiene «Cantamos mucho»?",
+    "options": [
+      "Nosotros",
+      "Ustedes",
+      "Vosotros",
+      "Ellos"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "La terminación -amos señala la primera persona del plural, por lo que el sujeto, aunque no aparezca, es «nosotros». Se llama sujeto elíptico u omitido.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-oracion-impersonal",
+    "text": "¿Cuál es una oración impersonal?",
+    "options": [
+      "Ana tiene frío",
+      "Nosotros pasamos frío",
+      "Tú notas el frío",
+      "Hace mucho frío"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los verbos que expresan fenómenos meteorológicos forman oraciones impersonales, que carecen de sujeto: «hace mucho frío». En las demás opciones hay un sujeto claro.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-oraciones-esta-voz",
+    "text": "¿Cuál de estas oraciones está en voz pasiva?",
+    "options": [
+      "Ana ha escrito el libro",
+      "Ana escribe un libro",
+      "Ana escribió el libro",
+      "El libro fue escrito por Ana"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En la voz pasiva, el sujeto recibe la acción y el agente aparece introducido por «por». Aquí «el libro» recibe la acción de escribir, que realiza Ana.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-quiero-vengas-vengas",
+    "text": "En «Quiero que vengas», ¿qué es «que vengas»?",
+    "options": [
+      "Subordinada sustantiva",
+      "Oración principal",
+      "Subordinada adverbial",
+      "Subordinada adjetiva"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Que vengas» funciona como lo que se quiere, es decir, como complemento directo del verbo «quiero». Por eso es una subordinada sustantiva, equivalente a un nombre.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tiempo-verbal-habiamos-cantado",
+    "text": "¿Qué tiempo verbal es «habíamos cantado»?",
+    "options": [
+      "Perfecto compuesto",
+      "Futuro perfecto",
+      "Pretérito anterior",
+      "Pluscuamperfecto"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Se forma con el imperfecto de «haber» y el participio, y expresa una acción pasada anterior a otra también pasada. Ese tiempo es el pretérito pluscuamperfecto de indicativo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-modo-esta-cantes-ojala",
+    "text": "¿En qué modo está «cantes» en «Ojalá cantes»?",
+    "options": [
+      "Imperativo",
+      "Subjuntivo",
+      "Infinitivo",
+      "Indicativo"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Ojalá» expresa un deseo, y el verbo que lo sigue va en subjuntivo. «Cantes» es la segunda persona del presente de subjuntivo del verbo «cantar».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-imperativo-hacer-tu",
+    "text": "¿Cuál es el imperativo de «hacer» con «tú»?",
+    "options": [
+      "Hagas",
+      "Hacer",
+      "Hace",
+      "Haz"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El imperativo de «hacer» con «tú» es irregular: «haz». «Hace» es presente de indicativo; «hagas» es subjuntivo y se usa en negativas, como «no hagas»; «hacer» es infinitivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-imperativo-ir-tu",
+    "text": "¿Cuál es el imperativo de «ir» con «tú»?",
+    "options": [
+      "Ves",
+      "Vas",
+      "Ve",
+      "Ir"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Ve» es el imperativo de «ir» con «tú»: «ve a casa». No hay que confundirlo con «ves», del verbo ver, ni con «vas», que es presente de indicativo de «ir».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-participio-abrir",
+    "text": "¿Cuál es el participio de «abrir»?",
+    "options": [
+      "Abierto",
+      "Abriendo",
+      "Abrido",
+      "Abrió"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Abrir» tiene un participio irregular: «abierto». La forma regular «abrido» no existe, «abriendo» es gerundio y «abrió» es una forma conjugada del pretérito.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-participio-romper",
+    "text": "¿Cuál es el participio de «romper»?",
+    "options": [
+      "Rompido",
+      "Roto",
+      "Rompe",
+      "Rompiendo"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Romper» tiene un participio irregular: «roto», que se usa en «he roto» y en «está roto». «Rompido» es una forma incorrecta y «rompiendo» es gerundio.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-futuro-hacer-yo",
+    "text": "¿Cuál es el futuro de «hacer» con «yo»?",
+    "options": [
+      "Hacré",
+      "Haceré",
+      "Haré",
+      "Hago"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Hacer» es irregular en el futuro: pierde la -ce- y forma «haré». La forma regular «haceré» no existe, y «hago» es el presente de indicativo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-futuro-poner-yo",
+    "text": "¿Cuál es el futuro de «poner» con «yo»?",
+    "options": [
+      "Pondré",
+      "Ponré",
+      "Poneré",
+      "Pongo"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Poner» forma el futuro con una d epentética: «pondré». La forma regular «poneré» no existe, y «pongo» es el presente de indicativo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-condicional-poder-yo",
+    "text": "¿Cuál es el condicional de «poder» con «yo»?",
+    "options": [
+      "Pueda",
+      "Podría",
+      "Podía",
+      "Poderé"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Poder» forma el condicional con la raíz irregular «podr-»: «podría». «Poderé» sería un futuro regular que no existe, «pueda» es subjuntivo y «podía» es imperfecto.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-frases-correcta",
+    "text": "¿Cuál de estas frases es correcta?",
+    "options": [
+      "La agua fría",
+      "El agua fría",
+      "El agua frío",
+      "La agua frío"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los nombres femeninos que empiezan por a tónica, como «agua», llevan el artículo «el» en singular, pero los adjetivos siguen siendo femeninos: «el agua fría».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-paraguas",
+    "text": "¿Cuál es el plural de «el paraguas»?",
+    "options": [
+      "Los paraguas",
+      "Los paraguases",
+      "Los paragua",
+      "Las paraguas"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los nombres que acaban en -s no acentuada, con más de una sílaba, no cambian en el plural. Solo cambia el artículo: «el paraguas» pasa a «los paraguas».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-caracter",
+    "text": "¿Cuál es el plural de «carácter»?",
+    "options": [
+      "Caracteres",
+      "Caráctares",
+      "Carácteres",
+      "Caractéres"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En el plural de «carácter» el golpe de voz pasa a la sílaba «te»: ca-rac-TE-res. Por eso se escribe «caracteres», sin tilde, ya que es una palabra llana acabada en s.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-gerundio-ir",
+    "text": "¿Cuál es el gerundio de «ir»?",
+    "options": [
+      "Ido",
+      "Iendo",
+      "Yiendo",
+      "Yendo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Yendo» es el gerundio de «ir»; lleva y, como otros gerundios del español, por ejemplo «leyendo» u «oyendo». «Ido» es el participio, y «iendo» no existe.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-prefijo-deshacer",
+    "text": "¿Cuál es el prefijo de «deshacer»?",
+    "options": [
+      "Deshac-",
+      "-er",
+      "Des-",
+      "Hac-"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En «deshacer», el elemento que se añade delante de la base y expresa negación o inversión es el prefijo des-. La base verbal es «hacer», y la terminación -er es la desinencia del infinitivo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-sufijo-zapatero",
+    "text": "¿Cuál es el sufijo de «zapatero»?",
+    "options": [
+      "-ato",
+      "-ero",
+      "-pat",
+      "Zapat-"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Zapatero» se forma con la base «zapat-» y el sufijo -ero, que indica oficio o profesión. Otras palabras con ese sufijo son «librero» o «carpintero».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-abrevia-palabra-pagina",
+    "text": "¿Cómo se abrevia la palabra «página»?",
+    "options": [
+      "págs",
+      "pag",
+      "pág.",
+      "pg."
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "La abreviatura de «página» es «pág.»: conserva la tilde de la palabra completa y lleva punto final. «Págs.» es el plural y «pg.» no es una forma recomendada.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-abrevia-etcetera",
+    "text": "¿Cómo se abrevia «etcétera»?",
+    "options": [
+      "ect.",
+      "etc",
+      "etc.",
+      "e.t.c."
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "La abreviatura de «etcétera» es «etc.», con punto final. No se escribe «ect.» ni «e.t.c.», y debe llevar siempre el punto, porque es una abreviatura y no una sigla.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-frase-esta-bien-puntuada",
+    "text": "¿Qué frase está bien puntuada?",
+    "options": [
+      "Quería salir pero, llovía.",
+      "Quería, salir pero llovía.",
+      "Quería salir, pero llovía.",
+      "Quería salir pero llovía,."
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Se escribe coma antes de la conjunción adversativa «pero» cuando une dos oraciones: «Quería salir, pero llovía». Las otras opciones colocan la coma en un lugar incorrecto o junto al punto.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-oracion-bien-puntuada",
+    "text": "¿Cuál es la oración bien puntuada?",
+    "options": [
+      "Mi hermana, llegó tarde.",
+      "Mi hermana llegó tarde.",
+      "Mi, hermana llegó tarde.",
+      "Mi hermana llegó, tarde."
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "No se escribe coma entre el sujeto y el verbo cuando no hay ningún inciso. En «Mi hermana llegó tarde» la oración fluye sin pausa marcada por coma.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-lleva-bien-coma-vocativo",
+    "text": "¿Cuál lleva bien la coma del vocativo?",
+    "options": [
+      "Ven aquí, Ana.",
+      "Ven, aquí Ana.",
+      "Ven aquí Ana.",
+      "Ven aquí Ana,."
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El vocativo, es decir, la palabra con que se llama a alguien, se separa del resto con comas. Si va al final, la coma va antes: «Ven aquí, Ana».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-enumeracion-esta-bien-puntuada",
+    "text": "¿Qué enumeración está bien puntuada?",
+    "options": [
+      "Compré tres: cosas, pan, leche y huevos.",
+      "Compré tres cosas: pan, leche y huevos.",
+      "Compré: tres cosas pan, leche y huevos.",
+      "Compré tres cosas; pan, leche y huevos."
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los dos puntos se escriben después del elemento que anuncia la enumeración: «tres cosas». Después, los elementos se separan con comas y los dos últimos se unen con «y».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-comillas-recomienda-usar-primero",
+    "text": "¿Qué comillas recomienda usar primero la RAE?",
+    "options": [
+      "Las rectas (\"\")",
+      "Las simples (‘’)",
+      "Las inglesas (“”)",
+      "Las angulares («»)"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "La RAE recomienda usar en primer lugar las comillas angulares, también llamadas latinas o españolas. Las inglesas y las simples se reservan para citas dentro de otras citas.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-puntos-forman-puntos-suspensivos",
+    "text": "¿Cuántos puntos forman los puntos suspensivos?",
+    "options": [
+      "Cuatro",
+      "Tres",
+      "Dos",
+      "Cinco"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los puntos suspensivos son siempre tres seguidos (…) y indican una pausa o una omisión. No se escriben dos ni más de tres, ni se deja un espacio entre ellos.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-letras-abecedario-espanol",
+    "text": "¿Cuántas letras tiene el abecedario español?",
+    "options": [
+      "29",
+      "30",
+      "27",
+      "28"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "El abecedario español actual tiene veintisiete letras, desde la a hasta la z, con la ñ. Los grupos ch y ll dejaron de considerarse letras en la Ortografía de 2010 porque son dígrafos.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-vocales-abiertas",
+    "text": "¿Cuáles son las vocales abiertas?",
+    "options": [
+      "a, i, u",
+      "e, i, o",
+      "i, u",
+      "a, e, o"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Las vocales abiertas o fuertes son a, e y o. Las cerradas o débiles son i y u. Esta distinción sirve para distinguir diptongos de hiatos en la acentuación.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estos-verbos-irregular",
+    "text": "¿Cuál de estos verbos es irregular?",
+    "options": [
+      "Tener",
+      "Vivir",
+      "Amar",
+      "Comer"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Tener» es irregular porque cambia su raíz al conjugarse: tengo, tuve, tendré. «Amar», «comer» y «vivir» son regulares, ya que mantienen la raíz y siguen los modelos de su conjugación.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-tiempo-cantaba",
+    "text": "¿Qué tiempo es «cantaba»?",
+    "options": [
+      "Perfecto simple",
+      "Condicional",
+      "Imperfecto",
+      "Presente"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Cantaba» es el pretérito imperfecto de indicativo, un tiempo pasado que expresa acciones habituales o en desarrollo sin marcar su final. El perfecto simple sería «cantó».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estos-pronombres-atono",
+    "text": "¿Cuál de estos pronombres es átono?",
+    "options": [
+      "yo",
+      "me",
+      "conmigo",
+      "mí"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los pronombres átonos no tienen acento propio y se apoyan en el verbo: me, te, se, lo, la. «Mí», «yo» y «conmigo» son pronombres tónicos, con acento propio.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-comparativo-bueno",
+    "text": "¿Cuál es el comparativo de «bueno»?",
+    "options": [
+      "Buenísimo",
+      "Buenor",
+      "Mejor",
+      "Óptimo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Mejor» es el comparativo de superioridad de «bueno» y se usa sin «más»: mejor que. «Buenísimo» y «óptimo» son superlativos, y «buenor» no existe.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-frase-correcta",
+    "text": "¿Cuál es la frase correcta?",
+    "options": [
+      "Un buena amigo",
+      "Un buenos amigo",
+      "Un buen amigo",
+      "Un bueno amigo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Bueno» pierde la -o ante un nombre masculino singular: «buen amigo». Este cambio se llama apócope y también afecta a «malo», «primero» o «tercero».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-mi-dia-trabajo",
+    "text": "Completa: «Es mi ___ día de trabajo»",
+    "options": [
+      "primero",
+      "primera",
+      "primeros",
+      "primer"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Los ordinales «primero» y «tercero» se apocopan en «primer» y «tercer» delante de un nombre masculino singular: «primer día». «Primero» se usa solo o detrás del nombre.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-dia-volvere",
+    "text": "Completa: «___ día volveré»",
+    "options": [
+      "Algunos",
+      "Algunas",
+      "Alguno",
+      "Algún"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Alguno» pierde la -o ante un nombre masculino singular y se convierte en «algún»: «algún día». También ocurre con «ninguno», que da «ningún».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-palabra-funciona-preposicion",
+    "text": "¿Qué palabra funciona como preposición?",
+    "options": [
+      "Mediante",
+      "Mientras",
+      "Quizá",
+      "Aunque"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Mediante» es una preposición que significa «por medio de» y se usa en frases como «mediante un pago». «Mientras» y «aunque» funcionan como conjunciones y «quizá» es un adverbio.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-clase-adverbio-ayer",
+    "text": "¿Qué clase de adverbio es «ayer»?",
+    "options": [
+      "De lugar",
+      "De tiempo",
+      "De modo",
+      "De cantidad"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Ayer» indica cuándo ocurre algo, por lo que es un adverbio de tiempo. Los de lugar responden a «dónde», los de modo a «cómo» y los de cantidad a «cuánto».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-expresiones-pleonasmo",
+    "text": "¿Cuál de estas expresiones es un pleonasmo?",
+    "options": [
+      "Subir deprisa",
+      "Subir despacio",
+      "Subir arriba",
+      "Subir juntos"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "Un pleonasmo repite una idea que ya está en la palabra anterior. «Subir» ya implica ir hacia arriba, así que «subir arriba» repite lo mismo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-ya-llegado-verano",
+    "text": "Completa: «Ya ___ llegado el verano»",
+    "options": [
+      "a",
+      "há",
+      "ha",
+      "ah"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Ha» es la forma del verbo haber que se usa en los tiempos compuestos: ha llegado. «A» es una preposición y «ah» es una interjección. «Há» no existe en español.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-ojala-te-bien",
+    "text": "Completa: «Ojalá te ___ bien»",
+    "options": [
+      "vaia",
+      "vaya",
+      "valla",
+      "baya"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Vaya» es una forma del verbo ir: «ojalá te vaya bien». «Valla» es una cerca y «baya» es un tipo de fruto. «Vaia» no existe en español.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-muchos-problemas-ayer",
+    "text": "Completa: «___ muchos problemas ayer»",
+    "options": [
+      "Habían",
+      "Hubieron",
+      "Hubo",
+      "Han habido"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El verbo haber, cuando significa «existir», es impersonal y se usa solo en singular: «hubo muchos problemas». Formas como «hubieron» o «habían» son incorrectas con ese sentido.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-frase-evita-dequeismo",
+    "text": "¿Qué frase evita el dequeísmo?",
+    "options": [
+      "Pienso de que vendrá",
+      "Pienso sobre que vendrá",
+      "Pienso que vendrá",
+      "Pienso a que vendrá"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El dequeísmo es el uso incorrecto de «de» delante de «que». «Pensar» no pide la preposición «de» en este sentido, así que la forma correcta es «pienso que vendrá».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-frase-evita-queismo",
+    "text": "¿Qué frase evita el queísmo?",
+    "options": [
+      "Me alegro que vengas",
+      "Me alegro en que vengas",
+      "Me alegro por que vengas",
+      "Me alegro de que vengas"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El queísmo consiste en suprimir la preposición que exige un verbo. «Alegrarse» pide «de», por lo que lo correcto es «me alegro de que vengas». Las otras opciones omiten la preposición o usan otra.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-oracion-contiene-laismo",
+    "text": "¿Qué oración contiene laísmo?",
+    "options": [
+      "La vi en la calle",
+      "Les di un libro",
+      "Le di un libro a María",
+      "La di un libro a María"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El laísmo es usar «la» como complemento indirecto femenino. En «la di un libro a María», lo correcto es «le di un libro». En «la vi en la calle», «la» sí es complemento directo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-oracion-contiene-loismo",
+    "text": "¿Qué oración contiene loísmo?",
+    "options": [
+      "Les dije que vinieran",
+      "Lo vi en la calle",
+      "Le dije que viniera",
+      "Lo dije que viniera"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El loísmo es usar «lo» como complemento indirecto masculino. Lo correcto es «le dije que viniera». En «lo vi en la calle», «lo» sí es complemento directo y está bien empleado.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-contiene-leismo-admitido",
+    "text": "¿Cuál contiene un leísmo no admitido?",
+    "options": [
+      "El libro le leí ayer",
+      "A Pedro le vi ayer",
+      "Le escribí ayer",
+      "Le di el libro ayer"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El leísmo con complemento directo de cosa no se admite: «el libro lo leí». En cambio, se tolera el leísmo con persona masculina singular, como «a Pedro le vi».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-usa-incorrectamente-gerundio",
+    "text": "¿Cuál usa incorrectamente el gerundio?",
+    "options": [
+      "Envío cajas conteniendo libros",
+      "Estoy leyendo un libro",
+      "Llegó corriendo a casa",
+      "Entró silbando alegremente"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El gerundio no debe funcionar como adjetivo de un nombre. Por eso «cajas conteniendo libros» es incorrecto; debe decirse «cajas que contienen libros». Las demás opciones modifican al verbo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-forma-correcta",
+    "text": "¿Cuál es la forma correcta?",
+    "options": [
+      "Detrás me",
+      "Detrás mía",
+      "Detrás mío",
+      "Detrás de mí"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Con adverbios de lugar como «detrás», «delante» o «cerca», el complemento debe ir con «de» y pronombre personal: «detrás de mí». «Detrás mío» se considera incorrecto en el uso culto.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-ex-presidente",
+    "text": "¿Cómo se escribe «ex» + «presidente»?",
+    "options": [
+      "ex presidente",
+      "expresidente",
+      "exspresidente",
+      "ex-presidente"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El prefijo «ex-» se escribe unido a la palabra cuando esta es simple: «expresidente». Solo se escribe separado ante locuciones o varias palabras, como «ex alto cargo».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-sigla-ong",
+    "text": "¿Cuál es el plural de la sigla «ONG»?",
+    "options": [
+      "Las ONG",
+      "Las ONGs",
+      "Las ONGes",
+      "Las ONG's"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Las siglas se mantienen invariables en el plural y la marca de plural recae en el artículo o determinante: «las ONG». No se añade -s ni apóstrofo, como se hace en inglés.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-asi-quiso-venir",
+    "text": "Completa: «___ así, no quiso venir»",
+    "options": [
+      "Aún",
+      "Aun",
+      "Aunn",
+      "Aúm"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En «aun así», «aun» equivale a «incluso» y se escribe sin tilde porque es átono. Con tilde, «aún» significa «todavía», como en «aún no ha llegado».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estas-palabras-sobresdrujula",
+    "text": "¿Cuál de estas palabras es sobresdrújula?",
+    "options": [
+      "Cuentan",
+      "Cuéntamelo",
+      "Cuéntalo",
+      "Cuéntame"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Las palabras sobresdrújulas llevan el golpe de voz antes de la antepenúltima sílaba. En «cuén-ta-me-lo» el golpe cae en la primera sílaba, y la palabra siempre lleva tilde.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-guion-lleva-tilde",
+    "text": "¿Por qué «guion» no lleva tilde?",
+    "options": [
+      "Es monosílaba ortográfica",
+      "Es esdrújula y breve",
+      "Es aguda y acaba en n",
+      "Es llana y acaba en n"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Desde 2010, «guion» se considera monosílaba a efectos de acentuación, porque su secuencia vocálica «io» se trata como diptongo. Las monosílabas no llevan tilde, así que se escribe «guion» y no «guión».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-hiato-aunque-lleve-intermedia",
+    "text": "¿Cuál tiene hiato aunque lleve una h intermedia?",
+    "options": [
+      "Prohibir",
+      "Prohíbe",
+      "Ahijado",
+      "Desahucio"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En «prohíbe», la i es tónica y forma hiato con la o, a pesar de la h intermedia, por lo que se tilda. En «prohibir», «ahijado» y «desahucio» la vocal cerrada es átona y forma diptongo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-llama-tiempo-hube-cantado",
+    "text": "¿Cómo se llama el tiempo «hube cantado»?",
+    "options": [
+      "Pluscuamperfecto",
+      "Futuro perfecto",
+      "Pretérito anterior",
+      "Perfecto compuesto"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Hube cantado» se forma con el pretérito perfecto simple de «haber» y el participio. Se llama pretérito anterior y hoy es muy raro: aparece en textos literarios tras «apenas» o «cuando».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-forma-verbal-cantase",
+    "text": "¿Qué forma verbal es «cantase»?",
+    "options": [
+      "Condicional simple",
+      "Pretérito anterior",
+      "Imperfecto de subjuntivo",
+      "Futuro de subjuntivo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Cantase» es el imperfecto de subjuntivo en su variante en -se. Equivale a «cantara», que es la variante en -ra, y ambas se consideran igualmente correctas en la norma culta.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-pronombre-usa-voseo",
+    "text": "¿Qué pronombre se usa en el voseo?",
+    "options": [
+      "Vosotros",
+      "Ustedes",
+      "Usted",
+      "Vos"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El voseo consiste en usar «vos» en lugar de «tú» para dirigirse a una sola persona. Se da en Argentina, Uruguay y buena parte de Centroamérica, con formas como «vos cantás».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-ana-llego-cansada-cansada",
+    "text": "En «Ana llegó cansada», ¿qué es «cansada»?",
+    "options": [
+      "Agente",
+      "Predicativo",
+      "Atributo",
+      "Vocativo"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Cansada» no acompaña a un verbo copulativo, sino que añade información sobre el sujeto a la vez que «llegó» expresa la acción. Esa función se llama complemento predicativo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-frase-usa-bien-cuyo",
+    "text": "¿Qué frase usa bien «cuyo»?",
+    "options": [
+      "El autor cuyo libros leí",
+      "El autor cuyos libros leí",
+      "El autor cuya libros leí",
+      "El autor que sus libros leí"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Cuyo» concuerda en género y número con lo poseído, no con el poseedor: «cuyos libros», porque «libros» es masculino plural. No puede combinarse con «sus» en la misma construcción.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-va-llover",
+    "text": "¿Qué es «va a llover»?",
+    "options": [
+      "Perífrasis verbal",
+      "Verbo compuesto",
+      "Locución verbal",
+      "Oración pasiva"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Va a llover» une un verbo auxiliar, «ir», con un infinitivo para expresar futuro próximo. Esa combinación es una perífrasis verbal, en este caso de futuro.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-quorum-adaptado-espanol",
+    "text": "¿Cómo se escribe «quorum» adaptado al español?",
+    "options": [
+      "quórum",
+      "quorum",
+      "quórun",
+      "cuórum"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Los latinismos adaptados al español siguen las reglas de acentuación: «quórum» es llana acabada en m, así que lleva tilde. Se escribe con qu, no con c, y con m final.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-escribe-anti-virus",
+    "text": "¿Cómo se escribe «anti» + «virus»?",
+    "options": [
+      "anti virus",
+      "antivirus",
+      "antivírus",
+      "anti-virus"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Los prefijos como «anti-» se escriben soldados a la palabra base: «antivirus». No se separan ni se unen con guion, salvo ante siglas o nombres propios, como «anti-OTAN».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-ha-llegado",
+    "text": "Completa: «No ha llegado ___»",
+    "options": [
+      "aún",
+      "ahún",
+      "aúm",
+      "aun"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Aún» equivale a «todavía» y se tilda porque forma hiato: a-ún, con la u cerrada tónica. «Aun» sin tilde significa «incluso», como en «aun así».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-especimen",
+    "text": "¿Cuál es el plural de «espécimen»?",
+    "options": [
+      "Especímenez",
+      "Especímenes",
+      "Espécimens",
+      "Espécimenes"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Espécimen» es una palabra esdrújula, pero su plural cambia el golpe de voz a la sílaba «cí»: «especímenes». La tilde pasa de la primera a la segunda sílaba.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-regimen",
+    "text": "¿Cuál es el plural de «régimen»?",
+    "options": [
+      "Regímenes",
+      "Régimens",
+      "Regimenes",
+      "Régimenes"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El plural de «régimen» es «regímenes»: el golpe de voz se desplaza a la sílaba «gí», así que la tilde pasa de la e a la i. Es un caso de cambio de la sílaba tónica en el plural.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-ano-publico-gramatica-nebrija",
+    "text": "¿En qué año se publicó la Gramática de Nebrija?",
+    "options": [
+      "1474",
+      "1517",
+      "1492",
+      "1501"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Antonio de Nebrija publicó en 1492 su «Gramática de la lengua castellana», considerada la primera gramática de una lengua romance moderna. Salió el mismo año en que Colón llegó a América.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-signo-usa-teorico-practico",
+    "text": "¿Qué signo se usa en «teórico-práctico»?",
+    "options": [
+      "Raya",
+      "Guion",
+      "Barra",
+      "Paréntesis"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El guion (-) une los elementos de adjetivos compuestos con valor de oposición o suma de dos conceptos, como «teórico-práctico». La raya (—) es más larga y se usa en incisos y diálogos.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-pedro-medico-tipo-verbo",
+    "text": "En «Pedro es médico», ¿qué tipo de verbo es «es»?",
+    "options": [
+      "Copulativo",
+      "Auxiliar",
+      "Transitivo",
+      "Intransitivo"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "El verbo «ser» se llama copulativo cuando une el sujeto con un atributo, como «médico», sin añadir una acción. No es auxiliar porque no acompaña a otro verbo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-gerundio-poder",
+    "text": "¿Cuál es el gerundio de «poder»?",
+    "options": [
+      "Pudendo",
+      "Podiendo",
+      "Pudiendo",
+      "Poderendo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Poder» tiene un gerundio irregular: «pudiendo». La raíz cambia de «pod-» a «pud-» en este y en otros tiempos, como el pretérito «pude». Las demás formas no existen.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-imperativo-cantar-vosotros",
+    "text": "¿Cuál es el imperativo de «cantar» con «vosotros»?",
+    "options": [
+      "Cantáis",
+      "Cantar",
+      "Cantaréis",
+      "Cantad"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "Con «vosotros» el imperativo afirmativo se forma cambiando la -r del infinitivo por -d: «cantad». «Cantáis» es presente de indicativo y «cantar» es el infinitivo, que no debe usarse como imperativo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-llamo-andres-bello-cantaria",
+    "text": "¿Cómo llamó Andrés Bello a «cantaría»?",
+    "options": [
+      "Copretérito",
+      "Antepresente",
+      "Pospretérito",
+      "Antepretérito"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En su «Gramática» de 1847, Andrés Bello llamó pospretérito al tiempo que hoy se conoce como condicional simple: «cantaría». La denominación expresa un futuro respecto de un momento pasado.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-forma-fuere-si-fuere",
+    "text": "¿Qué forma es «fuere» en «si fuere necesario»?",
+    "options": [
+      "Condicional simple",
+      "Imperfecto de subjuntivo",
+      "Presente de subjuntivo",
+      "Futuro de subjuntivo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Fuere» pertenece al futuro de subjuntivo, un tiempo hoy casi extinguido que sobrevive en textos jurídicos y en refranes: «si fuere necesario». En la lengua corriente se sustituye por el presente de indicativo.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-di-ana-funcion",
+    "text": "En «Se lo di a Ana», ¿qué función tiene «se»?",
+    "options": [
+      "Complemento directo",
+      "Complemento indirecto",
+      "Pronombre reflexivo",
+      "Marca de pasiva refleja"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "Ante «lo», «la», «los» o «las», el pronombre «le» se transforma en «se»: «le lo di» pasa a «se lo di». Por eso «se» es complemento indirecto, y el directo es «lo».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-alquilan-pisos-funcion",
+    "text": "En «Se alquilan pisos», ¿qué función tiene «se»?",
+    "options": [
+      "Pronombre reflexivo",
+      "Marca de pasiva refleja",
+      "Complemento indirecto",
+      "Marca de impersonalidad"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "El verbo concuerda con «pisos»: «se alquilan» equivale a «son alquilados». Este «se» es marca de pasiva refleja. En una impersonal, el verbo iría en singular, como en «se vive bien».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-mis-hijos-viven-chile",
+    "text": "En «Mis hijos, que viven en Chile», la relativa es...",
+    "options": [
+      "Especificativa",
+      "Condicional",
+      "Explicativa",
+      "Concesiva"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "La relativa va entre comas y solo añade información sobre unos hijos ya identificados: es explicativa. Sin comas, delimitaría de qué hijos se habla y sería especificativa.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-procede-letra",
+    "text": "¿De dónde procede la letra «ñ»?",
+    "options": [
+      "Un derivado de ny",
+      "Una abreviatura de nn",
+      "Una variante de gn",
+      "Una variante de nh"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "La eñe nació en la Edad Media, cuando los copistas abreviaron la doble n latina escribiendo una n con una tilde encima. Esa marca acabó fusionándose con la letra.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-anfibologia",
+    "text": "¿Qué es una anfibología?",
+    "options": [
+      "Uso de palabras de otra lengua",
+      "Cambio de significado por el tono",
+      "Repetición innecesaria de una idea",
+      "Doble sentido por la construcción"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "La anfibología es el doble sentido que produce una construcción mal ordenada: «vi a Juan con el telescopio» no aclara quién lo tiene. Se resuelve reformulando la frase o con la puntuación.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-plural-sustantivo-si",
+    "text": "¿Cuál es el plural del sustantivo «sí»?",
+    "options": [
+      "Síes",
+      "Sises",
+      "Sís",
+      "Sies"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "Los sustantivos monosílabos acabados en vocal tónica, como «sí» o «no», forman el plural con -es: «los síes», «los noes». Conservan la tilde diacrítica. «Sís» no es la forma recomendada.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-estos-verbos-defectivo",
+    "text": "¿Cuál de estos verbos es defectivo?",
+    "options": [
+      "Vivir",
+      "Abolir",
+      "Comer",
+      "Cantar"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "Los verbos defectivos no se conjugan en todas las personas o tiempos. «Abolir» solo se usa en las formas cuya terminación empieza por i, como «abolimos» o «abolió». «Cantar», «comer» y «vivir» se conjugan completos.",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-completa-agua-hielo",
+    "text": "Completa: «agua ___ hielo»",
+    "options": [
+      "e",
+      "o",
+      "y",
+      "u"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "Ante palabras que empiezan por i- o hi-, «y» se convierte en «e», salvo ante «hie-» y «hia-», donde la i forma diptongo. Por eso se escribe «agua y hielo», pero «padres e hijos».",
+    "source": "gramatica_y_ortografia_de_la_lengua_espanola.json",
+    "createdAt": "2026-11-21T17:12:24Z",
+    "status": "active"
+  }
+]
