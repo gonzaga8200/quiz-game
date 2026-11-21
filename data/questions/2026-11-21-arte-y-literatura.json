@@ -1,0 +1,3385 @@
+[
+  {
+    "id": "arte-llama-caballero-mancha",
+    "text": "¿Cómo se llama el caballero de La Mancha?",
+    "options": [
+      "Don Pelayo",
+      "El Cid",
+      "Don Rodrigo",
+      "Don Quijote"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Don Quijote es el nombre que adopta el hidalgo Alonso Quijano tras enloquecer leyendo libros de caballerías. Sale a buscar aventuras junto a su escudero Sancho Panza.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-escudero-don-quijote",
+    "text": "¿Cómo se llama el escudero de Don Quijote?",
+    "options": [
+      "Lazarillo",
+      "Don Juan",
+      "Calisto",
+      "Sancho Panza"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Sancho Panza es un labrador sencillo y refranero que acompaña a Don Quijote. Su sentido común contrasta con la imaginación desbordada de su amo, y sueña con gobernar una ínsula.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-caballo-don-quijote",
+    "text": "¿Cómo se llama el caballo de Don Quijote?",
+    "options": [
+      "Platero",
+      "Bucéfalo",
+      "Babieca",
+      "Rocinante"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Rocinante es el flaco caballo de Don Quijote. Babieca era el del Cid, Bucéfalo el de Alejandro Magno y Platero es el burrito del libro de Juan Ramón Jiménez.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-creia-gigantes-don-quijote",
+    "text": "¿Qué creía gigantes Don Quijote?",
+    "options": [
+      "Los puentes del río",
+      "Los molinos de viento",
+      "Los árboles del bosque",
+      "Las casas del pueblo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "En un célebre episodio, Don Quijote ataca unos molinos de viento convencido de que son gigantes. Sancho intenta avisarle, pero las aspas lo derriban en plena embestida.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-amaba-don-quijote",
+    "text": "¿A quién amaba Don Quijote?",
+    "options": [
+      "Celestina",
+      "Dulcinea",
+      "Penélope",
+      "Melibea"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Dulcinea del Toboso es la dama a quien Don Quijote dedica sus hazañas, aunque solo existe en su imaginación. Todo caballero andante debía tener una dama a quien servir.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-idioma-escribio-cervantes",
+    "text": "¿En qué idioma escribió Cervantes?",
+    "options": [
+      "Francés",
+      "Inglés",
+      "Italiano",
+      "Español"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Cervantes escribió en castellano, por eso se llama a veces «la lengua de Cervantes». Don Quijote es el libro más importante de nuestro idioma y uno de los más traducidos del mundo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-quijote",
+    "text": "¿Qué es «El Quijote»?",
+    "options": [
+      "Un edificio",
+      "Una canción",
+      "Una novela",
+      "Un cuadro"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "El Quijote es una novela, la primera de la literatura moderna según muchos críticos. Cuenta las aventuras de un hidalgo que enloquece leyendo libros de caballerías y sale por el mundo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-region-don-quijote",
+    "text": "¿De qué región es Don Quijote?",
+    "options": [
+      "Andalucía",
+      "Galicia",
+      "Cantabria",
+      "La Mancha"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Don Quijote vive en un pueblo de La Mancha, región de la meseta central de España, cuyo nombre el narrador dice no querer recordar. Recorre sus campos en sus tres salidas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-dia-celebra-dia-libro",
+    "text": "¿Qué día se celebra el Día del Libro?",
+    "options": [
+      "23 de abril",
+      "25 de diciembre",
+      "1 de enero",
+      "31 de octubre"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "La fecha recuerda a Cervantes, que murió en abril de 1616, y a otros grandes escritores. La UNESCO la proclamó en 1995 Día Mundial del Libro y de los Derechos de Autor.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-fuenteovejuna",
+    "text": "¿Quién escribió «Fuenteovejuna»?",
+    "options": [
+      "Lope de Vega",
+      "Pedro Calderón",
+      "Luis de Góngora",
+      "Miguel de Cervantes"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Lope de Vega la escribió entre 1611 y 1618. Cuenta cómo todo un pueblo cordobés mata a su abusivo comendador y responde unido ante el juez de los Reyes Católicos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-vida-sueno",
+    "text": "¿Quién escribió «La vida es sueño»?",
+    "options": [
+      "Miguel de Cervantes",
+      "Lope de Vega",
+      "Francisco de Quevedo",
+      "Calderón de la Barca"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Calderón de la Barca la escribió hacia 1635. Su protagonista, el príncipe Segismundo, vive encerrado y duda de si lo que vive es realidad o sueño.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-lazarillo-tormes",
+    "text": "¿Quién escribió «El Lazarillo de Tormes»?",
+    "options": [
+      "Miguel de Cervantes",
+      "Francisco de Quevedo",
+      "Lope de Vega",
+      "Un autor anónimo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El Lazarillo apareció en 1554 sin firma y su autor sigue siendo desconocido. Inauguró la novela picaresca con un narrador pobre que cuenta su vida y critica a la sociedad.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-sirve-primero-lazarillo",
+    "text": "¿A quién sirve primero Lazarillo?",
+    "options": [
+      "A un ciego",
+      "A un buldero",
+      "A un escudero",
+      "A un clérigo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Su primer amo es un ciego avaro que le enseña a espabilarse y lo maltrata. Con él Lazarillo aprende que, para sobrevivir, debe usar el ingenio y la astucia.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-murio-cervantes",
+    "text": "¿En qué ciudad murió Cervantes?",
+    "options": [
+      "Valladolid",
+      "Sevilla",
+      "Madrid",
+      "Toledo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Cervantes murió en Madrid, la ciudad donde pasó sus últimos años. Fue enterrado en el convento de las Trinitarias, orden que años antes había participado en su rescate del cautiverio en Argel.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-partes-don-quijote",
+    "text": "¿Cuántas partes tiene «Don Quijote»?",
+    "options": [
+      "Tres",
+      "Cinco",
+      "Dos",
+      "Una"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "La primera parte se publicó en 1605 y la segunda, en 1615. Entre ambas apareció un falso Quijote firmado por Avellaneda, que animó a Cervantes a terminar el suyo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-parte-cuerpo-dano-cervantes",
+    "text": "¿Qué parte del cuerpo dañó Cervantes en Lepanto?",
+    "options": [
+      "La mano izquierda",
+      "El ojo izquierdo",
+      "La pierna derecha",
+      "La oreja derecha"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "En la batalla de Lepanto una herida le dejó inutilizada la mano izquierda. Por eso se le llamó «el Manco de Lepanto», aunque se enorgullecía de haber combatido allí.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-famoso-seductor-creo-tirso",
+    "text": "¿Qué famoso seductor creó Tirso de Molina?",
+    "options": [
+      "Lazarillo",
+      "Calisto",
+      "Don Quijote",
+      "Don Juan"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Tirso de Molina creó a Don Juan en «El burlador de Sevilla», que dio origen al mito del seductor castigado. Luego lo adaptaron Molière, Mozart y muchos más.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-leia-don-quijote-hasta",
+    "text": "¿Qué leía Don Quijote hasta perder el juicio?",
+    "options": [
+      "Libros de caballerías",
+      "Libros de cocina",
+      "Libros de ciencia",
+      "Libros de viajes"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Alonso Quijano devoró tantos libros de caballerías, con sus gigantes, encantamientos y duelos, que se le secó el cerebro. Decidió hacerse caballero andante para vivir esas aventuras.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-siglo-oro-era-comedia",
+    "text": "En el Siglo de Oro, ¿qué era una «comedia»?",
+    "options": [
+      "Un poema corto",
+      "Una canción popular",
+      "Una novela larga",
+      "Una obra de teatro"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Se llamaba comedia a cualquier obra de teatro en tres jornadas, fuera cómica o seria. Lope de Vega fijó el modelo de la «comedia nueva», con verso variado.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-cervantes",
+    "text": "¿En qué ciudad nació Cervantes?",
+    "options": [
+      "Esquivias",
+      "Salamanca",
+      "Alcalá de Henares",
+      "Valladolid"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cervantes nació en Alcalá de Henares en 1547, hijo de un cirujano modesto. La ciudad conserva su casa natal como museo y entrega cada año el Premio Cervantes.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-batalla-naval-combatio-cervantes",
+    "text": "¿En qué batalla naval combatió Cervantes?",
+    "options": [
+      "Salamina",
+      "Lepanto",
+      "Trafalgar",
+      "Actium"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cervantes luchó en Lepanto (1571) con la Santa Liga contra los turcos. Aunque tenía fiebre, pidió combatir en primera línea y las heridas le dejaron la mano izquierda inútil.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-estuvo-cautivo-cervantes",
+    "text": "¿En qué ciudad estuvo cautivo Cervantes?",
+    "options": [
+      "Fez",
+      "Argel",
+      "Túnez",
+      "Orán"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Capturado por corsarios en 1575, Cervantes pasó cinco años cautivo en Argel y fracasó en varios intentos de fuga. Su familia lo rescató en 1580 y esa experiencia inspiró varias obras.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-pastoril-publico-cervantes",
+    "text": "¿Qué novela pastoril publicó Cervantes en 1585?",
+    "options": [
+      "La Diana",
+      "La Galatea",
+      "La Filomena",
+      "La Arcadia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«La Galatea» (1585) fue la primera novela de Cervantes, de tema pastoril. Quedó inconclusa y él prometió seguirla, pero nunca publicó la segunda parte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-relatos-forman-novelas-ejemplares",
+    "text": "¿Cuántos relatos forman las «Novelas ejemplares»?",
+    "options": [
+      "Ocho",
+      "Veinte",
+      "Quince",
+      "Doce"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Publicadas en 1613, las «Novelas ejemplares» reúnen doce relatos breves, unos idealistas, como «La española inglesa», y otros realistas. Cervantes los llamó ejemplares por su enseñanza moral.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-conde-protegio-cervantes-vejez",
+    "text": "¿Qué conde protegió a Cervantes en su vejez?",
+    "options": [
+      "El duque de Lerma",
+      "El conde de Benavente",
+      "El conde de Lemos",
+      "El duque de Osuna"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El conde de Lemos fue su mecenas en los últimos años. Cervantes le dedicó las «Novelas ejemplares», la segunda parte del Quijote y el «Persiles».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-salio-primera-parte",
+    "text": "¿En qué año salió la primera parte del Quijote?",
+    "options": [
+      "1605",
+      "1615",
+      "1613",
+      "1585"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cervantes publicó «El ingenioso hidalgo don Quijote de la Mancha» a comienzos de 1605 en Madrid. Tuvo éxito inmediato y se reeditó en Bruselas (1607), Madrid (1608) y Milán (1610).",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-salio-segunda-parte",
+    "text": "¿En qué año salió la segunda parte del Quijote?",
+    "options": [
+      "1615",
+      "1605",
+      "1614",
+      "1617"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La segunda parte, «El ingenioso caballero don Quijote de la Mancha», apareció en 1615, diez años después de la primera. Es más compleja y en ella los personajes conocen el libro anterior.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publicaron-novelas-ejemplares",
+    "text": "¿En qué año se publicaron las «Novelas ejemplares»?",
+    "options": [
+      "1613",
+      "1617",
+      "1605",
+      "1615"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cervantes publicó la colección en Madrid en 1613, aunque algunos relatos eran anteriores, de hacia 1590. Fueron un éxito y se tradujeron pronto a otras lenguas europeas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-aparecio-falso-quijote",
+    "text": "¿En qué año apareció el falso Quijote de Avellaneda?",
+    "options": [
+      "1605",
+      "1614",
+      "1615",
+      "1616"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En 1614 apareció un segundo tomo apócrifo firmado por Alonso Fernández de Avellaneda. Cervantes respondió con la continuación auténtica en 1615, donde ridiculiza al impostor.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-insula-gobierna-sancho-panza",
+    "text": "¿Qué ínsula gobierna Sancho Panza?",
+    "options": [
+      "Formentera",
+      "Lilliput",
+      "Trapobana",
+      "Barataria"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los duques burlones nombran a Sancho gobernador de la ínsula Barataria, un pueblo de su finca. Allí demuestra un sentido común admirable al dictar sentencias antes de renunciar al cargo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-nombre-real-tenia-dulcinea",
+    "text": "¿Qué nombre real tenía Dulcinea del Toboso?",
+    "options": [
+      "Maritornes",
+      "Marcela",
+      "Aldonza Lorenzo",
+      "Teresa Panza"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Don Quijote inventó el nombre de Dulcinea para Aldonza Lorenzo, una labradora del Toboso a la que apenas conocía. Para él es la dama más hermosa y perfecta del mundo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llamaba-don-quijote-antes",
+    "text": "¿Cómo se llamaba Don Quijote antes de enloquecer?",
+    "options": [
+      "Diego Hurtado",
+      "Juan Guzmán",
+      "Pedro Pérez",
+      "Alonso Quijano"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Antes de enloquecer era Alonso Quijano, un hidalgo manchego de unos cincuenta años. Al final del libro recupera la cordura y muere renegando de los libros de caballerías.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-oficio-tenia-maese-nicolas",
+    "text": "¿Qué oficio tenía Maese Nicolás en el Quijote?",
+    "options": [
+      "Herrero",
+      "Posadero",
+      "Barbero",
+      "Pastor"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Maese Nicolás es el barbero del pueblo y amigo de Don Quijote. Junto al cura examina y quema buena parte de los libros de caballerías y luego lo acompaña en una treta para devolverlo a casa.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-titulo-sanson-carrasco",
+    "text": "¿Qué título tiene Sansón Carrasco?",
+    "options": [
+      "Catedrático",
+      "Bachiller",
+      "Doctor",
+      "Licenciado"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Sansón Carrasco es un joven bachiller por Salamanca que, en la segunda parte, se disfraza de caballero para vencer a Don Quijote y obligarlo a volver a casa.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-le-arma-caballero-ventero",
+    "text": "¿Dónde le arma caballero un ventero a Don Quijote?",
+    "options": [
+      "En una catedral",
+      "En un convento",
+      "En una ermita",
+      "En una venta"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Don Quijote toma por castillo una venta y pide al ventero que lo arme caballero. Este, divertido, le hace velar las armas en el corral y lo «arma» con un libro de cuentas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cide-hamete-benengeli",
+    "text": "¿Quién es Cide Hamete Benengeli?",
+    "options": [
+      "Un historiador ficticio",
+      "Un pintor árabe",
+      "Un caballero andante",
+      "Un rey musulmán"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cervantes finge que el Quijote lo escribió el historiador arábigo Cide Hamete Benengeli y que él solo lo tradujo. Es un recurso para jugar con la verdad y la ficción.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-salidas-hace-don-quijote",
+    "text": "¿Cuántas salidas hace Don Quijote?",
+    "options": [
+      "Cuatro",
+      "Dos",
+      "Cinco",
+      "Tres"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La primera es breve y en solitario; en la segunda se le une Sancho; la tercera ocupa toda la segunda parte y acaba con su regreso a casa y su muerte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-caballero-blanca-luna",
+    "text": "¿Quién es el Caballero de la Blanca Luna?",
+    "options": [
+      "El duque",
+      "El cura",
+      "Sansón Carrasco",
+      "El barbero"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es Sansón Carrasco disfrazado. En una playa de Barcelona vence a Don Quijote y le impone como condición volver a su aldea y no tomar armas durante un año.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-ejemplar-narra-dos",
+    "text": "¿Qué novela ejemplar narra a dos pícaros sevillanos?",
+    "options": [
+      "El celoso extremeño",
+      "Rinconete y Cortadillo",
+      "La gitanilla",
+      "La fuerza de la sangre"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Rinconete y Cortadillo» cuenta cómo dos jóvenes ladrones llegan a Sevilla y se unen a la cofradía del hampa de Monipodio. Es la novela ejemplar más cercana a la picaresca.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llaman-perros-hablan-coloquio",
+    "text": "¿Cómo se llaman los perros que hablan en el «Coloquio»?",
+    "options": [
+      "Cipión y Berganza",
+      "Rinconete y Cortadillo",
+      "Pármeno y Sempronio",
+      "Lázaro y Guzmán"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «El coloquio de los perros», Cipión y Berganza conversan una noche en un hospital de Valladolid y se cuentan sus vidas. Cervantes mezcla crítica social, sátira y fantasía.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-protagonista-gitanilla",
+    "text": "¿Cómo se llama la protagonista de «La gitanilla»?",
+    "options": [
+      "Leocadia",
+      "Preciosa",
+      "Isabela",
+      "Clemencia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Preciosa es una joven gitana de gran belleza y talento, de quien se enamora el noble Juan de Cárcamo, que se hace gitano por ella. Al final se descubre su verdadero origen.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-entremes-cervantes-usa-retablo",
+    "text": "¿Qué entremés de Cervantes usa un retablo invisible?",
+    "options": [
+      "El viejo celoso",
+      "La cueva de Salamanca",
+      "El retablo de las maravillas",
+      "La guarda cuidadosa"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En este entremés unos farsantes cobran por mostrar un retablo que solo pueden ver los cristianos viejos y los hijos legítimos. Nadie se atreve a confesar que no ve nada.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tragedia-cervantes-dramatiza-asedio",
+    "text": "¿Qué tragedia de Cervantes dramatiza un asedio romano?",
+    "options": [
+      "La gran sultana",
+      "El trato de Argel",
+      "Los baños de Argel",
+      "El cerco de Numancia"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«El cerco de Numancia» escenifica la resistencia de la ciudad celtíbera ante Roma, que prefirió morir antes que rendirse. Cervantes la escribió en su juventud y es un símbolo de patriotismo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-cervantes",
+    "text": "¿En qué año murió Cervantes?",
+    "options": [
+      "1616",
+      "1626",
+      "1615",
+      "1605"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Murió en Madrid en abril de 1616; fue enterrado en las Trinitarias el día 23. En 2015 un equipo de forenses identificó unos restos que podrían ser suyos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-capitulos-segunda-parte-quijote",
+    "text": "¿Cuántos capítulos tiene la segunda parte del Quijote?",
+    "options": [
+      "64",
+      "84",
+      "52",
+      "74"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La segunda parte, de 1615, tiene 74 capítulos, frente a los 52 de la primera, y contiene la tercera salida. Termina con la muerte de Alonso Quijano.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-trabajo-tuvo-cervantes-1594",
+    "text": "¿Qué trabajo tuvo Cervantes en 1594?",
+    "options": [
+      "Escribano real",
+      "Maestro de escuela",
+      "Capitán de galeras",
+      "Recaudador de impuestos"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En abril de 1594 fue nombrado recaudador de impuestos en el reino de Granada. El cargo le trajo problemas de cuentas y varios encarcelamientos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-idioma-tradujo-primero-quijote",
+    "text": "¿A qué idioma se tradujo primero el Quijote?",
+    "options": [
+      "Al italiano",
+      "Al francés",
+      "Al alemán",
+      "Al inglés"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La primera traducción fue al inglés, de Thomas Shelton, en 1612; la francesa llegó en 1614. La difusión europea del Quijote comenzó, pues, apenas siete años después de publicarse.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-ocho-comedias",
+    "text": "¿En qué año se publicó «Ocho comedias y ocho entremeses»?",
+    "options": [
+      "1615",
+      "1613",
+      "1605",
+      "1617"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cervantes publicó en 1615 «Ocho comedias y ocho entremeses nuevos, nunca representados», donde reunió el teatro que no consiguió estrenar, porque el público prefería las comedias de Lope.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-muere-amor-pastora-marcela",
+    "text": "¿Quién muere de amor por la pastora Marcela?",
+    "options": [
+      "Grisóstomo",
+      "Cardenio",
+      "Anselmo",
+      "Basilio"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El estudiante Grisóstomo muere de amor por la pastora Marcela, que defiende su libertad de no amar a nadie. Su discurso es uno de los pasajes más famosos de la primera parte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-lope-vega",
+    "text": "¿En qué ciudad nació Lope de Vega?",
+    "options": [
+      "Madrid",
+      "Toledo",
+      "Sevilla",
+      "Valencia"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope de Vega nació en Madrid en 1562, en una familia humilde de origen norteño. Vivió en la ciudad la mayor parte de su vida y murió allí en 1635.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-lope-vega",
+    "text": "¿En qué año murió Lope de Vega?",
+    "options": [
+      "1616",
+      "1635",
+      "1645",
+      "1625"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Murió en Madrid el 27 de agosto de 1635, a los 72 años. Dejó una producción inmensa de teatro, poesía y prosa que ningún otro autor español igualó.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-arte-nuevo",
+    "text": "¿En qué año se publicó el «Arte nuevo»?",
+    "options": [
+      "1629",
+      "1609",
+      "1619",
+      "1599"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope de Vega expuso en verso su teoría teatral en el «Arte nuevo de hacer comedias en este tiempo» (1609). Defendía una comedia libre de reglas clásicas, pensada para agradar al público.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-mata-pueblo-fuenteovejuna",
+    "text": "¿A quién mata el pueblo de Fuenteovejuna?",
+    "options": [
+      "Al cura",
+      "Al comendador",
+      "Al alcalde",
+      "Al rey"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los vecinos matan al comendador Fernán Gómez de Guzmán, que abusa de ellos y deshonra a sus mujeres. Ante el juez, todos responden lo mismo: «Fuenteovejuna lo hizo».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-heroina-fuenteovejuna",
+    "text": "¿Cómo se llama la heroína de «Fuenteovejuna»?",
+    "options": [
+      "Jacinta",
+      "Laurencia",
+      "Pascuala",
+      "Casilda"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Laurencia es la joven villana que, tras ser maltratada por el comendador, arenga a los hombres del pueblo para que se rebelen. Es uno de los grandes personajes femeninos de Lope.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-caballero-olmedo",
+    "text": "¿Quién escribió «El caballero de Olmedo»?",
+    "options": [
+      "Tirso de Molina",
+      "Cervantes",
+      "Lope de Vega",
+      "Calderón"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es una tragicomedia de Lope de Vega sobre el galán don Alonso, a quien matan por celos a la salida de Olmedo. Mezcla poesía popular, amor y un presagio de muerte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-comedia-lope-trata-condesa",
+    "text": "¿Qué comedia de Lope trata de una condesa y su secretario?",
+    "options": [
+      "La moza de cántaro",
+      "El mejor alcalde, el rey",
+      "El castigo sin venganza",
+      "El perro del hortelano"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La condesa Diana se enamora de su secretario Teodoro, pero su orgullo se lo impide y tampoco quiere que otra lo ame. De ahí el refrán que da título a la obra.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-mezclaba-tragicomedia-lope",
+    "text": "¿Qué mezclaba la tragicomedia de Lope?",
+    "options": [
+      "Lo sacro y lo profano",
+      "Lo trágico y lo cómico",
+      "Lo real y lo mágico",
+      "Lo épico y lo lírico"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope defendía mezclar lo serio y lo grotesco, como en la naturaleza, y combinar reyes y criados en la misma obra. Rompía así con la separación clásica entre tragedia y comedia.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-rechazo-lope-arte-nuevo",
+    "text": "¿Qué rechazó Lope en su «Arte nuevo»?",
+    "options": [
+      "El gusto del público",
+      "Las reglas clásicas",
+      "El verso en el teatro",
+      "La métrica variada"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope rechazó las reglas del teatro clásico, como las unidades de tiempo y lugar, y propuso seguir el gusto del público, aunque confesaba que escribía así para complacerlo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escritor-fue-amigo-lope",
+    "text": "¿Qué escritor fue amigo de Lope y rival de Góngora?",
+    "options": [
+      "Francisco de Quevedo",
+      "Tirso de Molina",
+      "Miguel de Cervantes",
+      "Baltasar Gracián"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Quevedo mantuvo amistad con Lope de Vega y una enemistad feroz con Luis de Góngora, a quien dedicó sátiras muy crueles sobre su estilo, su vida y su aspecto.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-celebra-auto-sacramental",
+    "text": "¿Qué celebra un auto sacramental?",
+    "options": [
+      "La Navidad",
+      "La Pascua",
+      "La Epifanía",
+      "La Eucaristía"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El auto sacramental es una pieza religiosa alegórica en un acto, que se representaba en la fiesta del Corpus Christi para exaltar la Eucaristía. Calderón fue su gran maestro.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llamaban-teatros-siglo-oro",
+    "text": "¿Cómo se llamaban los teatros del Siglo de Oro?",
+    "options": [
+      "Salones de ópera",
+      "Casas de juego",
+      "Corrales de comedias",
+      "Plazas de armas"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Las obras se representaban en corrales, patios rodeados de edificios, con el público de pie en el patio y las mujeres separadas en la «cazuela». En Madrid eran famosos el de la Cruz y el del Príncipe.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tratan-comedias-capa-espada",
+    "text": "¿De qué tratan las comedias de «capa y espada»?",
+    "options": [
+      "De santos y milagros",
+      "De amores y enredos urbanos",
+      "De batallas navales",
+      "De reyes y tiranos"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Se llaman así por el atuendo de los caballeros urbanos. Muestran enredos amorosos, duelos y equívocos entre jóvenes nobles de clase media, con final feliz. Lope y Calderón las cultivaron.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-apodo-tenia-lope-vega",
+    "text": "¿Qué apodo tenía Lope de Vega?",
+    "options": [
+      "Cisne de Madrid",
+      "Ruiseñor de Sevilla",
+      "Poeta de Córdoba",
+      "Fénix de los Ingenios"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Se le llamó «Fénix de los Ingenios» por su fecundidad asombrosa. Cervantes lo bautizó además «monstruo de la naturaleza», por la cantidad y facilidad con que escribía.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ordenacion-recibio-lope-vega",
+    "text": "¿Qué ordenación recibió Lope de Vega en 1614?",
+    "options": [
+      "Médico",
+      "Juez",
+      "Sacerdote",
+      "Notario"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Tras la muerte de su hijo y de su segunda esposa, Lope se ordenó sacerdote en 1614. No dejó de escribir ni de tener amoríos, y firmó muchas obras con ese título.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-expedicion-naval-participo-lope",
+    "text": "¿En qué expedición naval participó Lope en 1588?",
+    "options": [
+      "La batalla de Lepanto",
+      "La toma de Granada",
+      "La Armada Invencible",
+      "La batalla de Pavía"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope se alistó en la Armada Invencible, que Felipe II envió contra Inglaterra en 1588. Sobrevivió al desastre y regresó a España.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-monarcas-perdonan-pueblo-fuenteovejuna",
+    "text": "¿Qué monarcas perdonan al pueblo de Fuenteovejuna?",
+    "options": [
+      "Los Reyes Católicos",
+      "Felipe III y Margarita",
+      "Felipe II y Ana",
+      "Carlos I y Juana"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Isabel y Fernando escuchan el caso y, sin hallar culpables individuales, perdonan al pueblo. La obra se ambienta en 1476, durante la guerra civil castellana.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-orden-era-comendador-fuenteovejuna",
+    "text": "¿De qué orden era el comendador de Fuenteovejuna?",
+    "options": [
+      "Santiago",
+      "Alcántara",
+      "Montesa",
+      "Calatrava"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Fernán Gómez de Guzmán era comendador mayor de la Orden de Calatrava, una orden militar medieval. Su cargo le daba poder sobre la villa de Fuente Obejuna, en Córdoba.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-comedia-lope-finea-nise",
+    "text": "¿Qué comedia de Lope tiene a Finea y Nise?",
+    "options": [
+      "El villano en su rincón",
+      "La moza de cántaro",
+      "La dama boba",
+      "Los melindres de Belisa"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «La dama boba», Finea, tenida por tonta, se vuelve lista gracias al amor, mientras su hermana Nise, la sabihonda, se equivoca. Es una comedia sobre educación y amor.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-santo-canto-lope-poema",
+    "text": "¿Qué santo cantó Lope en un poema de 1599?",
+    "options": [
+      "San Jorge",
+      "San Fermín",
+      "San Isidro",
+      "San Millán"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope dedicó a San Isidro, labrador madrileño canonizado en 1622, su poema «Isidro» (1599). Al canonizarlo escribió también comedias sobre su vida.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-fue-desterrado-lope",
+    "text": "¿A qué ciudad fue desterrado Lope en 1588?",
+    "options": [
+      "Toledo",
+      "Granada",
+      "Valencia",
+      "Sevilla"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Tras un pleito por difamar a la familia de su antigua amante, Lope fue desterrado de Madrid durante ocho años y se marchó a Valencia, donde conoció a los dramaturgos locales.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-dos-temas-centran-muchas",
+    "text": "¿Qué dos temas centran muchas comedias de Lope?",
+    "options": [
+      "Guerra y paz",
+      "Amor y honra",
+      "Oro y poder",
+      "Fe y ciencia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El amor y la honra, o el valor social de la fama y la reputación, son los motores de muchas comedias de Lope: los conflictos nacen cuando uno amenaza al otro.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-soneto-me-manda",
+    "text": "¿Quién escribió «Un soneto me manda hacer Violante»?",
+    "options": [
+      "Lope de Vega",
+      "Pedro Calderón",
+      "Francisco de Quevedo",
+      "Luis de Góngora"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es de Lope, de su comedia «La niña de plata». El soneto describe cómo se compone un soneto mientras se escribe, un juego metaliterario muy admirado.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-breves-piezas-comicas-escribia",
+    "text": "¿Qué breves piezas cómicas escribía Lope de Rueda?",
+    "options": [
+      "Pasos",
+      "Autos",
+      "Loas",
+      "Jácaras"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lope de Rueda, actor y autor sevillano, escribió pasos, breves escenas cómicas en prosa de ambiente popular. Cervantes lo elogió como precursor y los pasos anticipan los entremeses.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-pieza-comica-entre",
+    "text": "¿Cómo se llama la pieza cómica entre las jornadas?",
+    "options": [
+      "Auto",
+      "Entremés",
+      "Loa",
+      "Jácara"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El entremés era una pieza breve y burlesca que se representaba entre dos jornadas de una comedia para aliviar la tensión. Cervantes escribió ocho, que recopiló en 1615.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-calderon-barca",
+    "text": "¿En qué año murió Calderón de la Barca?",
+    "options": [
+      "1635",
+      "1700",
+      "1681",
+      "1645"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calderón murió en Madrid el 25 de mayo de 1681, a los 81 años. Su muerte suele tomarse como cierre del Siglo de Oro del teatro y de la literatura española.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-nacio-calderon-barca",
+    "text": "¿En qué año nació Calderón de la Barca?",
+    "options": [
+      "1600",
+      "1621",
+      "1580",
+      "1562"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Pedro Calderón de la Barca nació en Madrid el 17 de enero de 1600, en una familia acomodada; su padre era secretario del Consejo de Hacienda.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-principe-vida-sueno",
+    "text": "¿Cómo se llama el príncipe de «La vida es sueño»?",
+    "options": [
+      "Basilio",
+      "Segismundo",
+      "Astolfo",
+      "Clotaldo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Segismundo es el príncipe que su padre, el rey Basilio, encierra en una torre desde niño. Cuando lo liberan, duda si lo que vive es verdad o sueño.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-transcurre-vida-sueno",
+    "text": "¿En qué país transcurre «La vida es sueño»?",
+    "options": [
+      "Hungría",
+      "Bohemia",
+      "Rusia",
+      "Polonia"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La acción se sitúa en Polonia, con un escenario más simbólico que realista: una corte, una torre y un monte. El reino sirve de marco al conflicto entre el rey y su hijo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hacia-ano-escribio-vida",
+    "text": "¿Hacia qué año se escribió «La vida es sueño»?",
+    "options": [
+      "1655",
+      "1605",
+      "1635",
+      "1625"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calderón la compuso hacia 1635 y se publicó en 1636. Es su obra más célebre y la gran meditación del teatro barroco sobre la realidad, la ilusión y el destino.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tema-plantea-vida-sueno",
+    "text": "¿Qué tema plantea «La vida es sueño»?",
+    "options": [
+      "Riqueza y pobreza",
+      "Honra y venganza",
+      "Amor y celos",
+      "Destino y libre albedrío"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Frente a la predicción de los astros, la obra defiende que el hombre puede vencer su destino con su voluntad y obrar bien. Es el tema central, junto a la duda entre realidad y sueño.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-alcalde-zalamea",
+    "text": "¿Quién es el alcalde de Zalamea?",
+    "options": [
+      "Pedro Mendo",
+      "Lope de Figueroa",
+      "Juan Crespo",
+      "Pedro Crespo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Pedro Crespo es un rico labrador, hombre de honor, elegido alcalde. Defiende la dignidad de los villanos frente a la arrogancia de los militares que se alojan en su casa.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-acaba-capitan-deshonra-hija",
+    "text": "¿Cómo acaba el capitán que deshonra a la hija del alcalde?",
+    "options": [
+      "Desterrado a Flandes",
+      "Ejecutado por el alcalde",
+      "Casado con ella",
+      "Perdonado por el rey"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Don Álvaro de Ataide se niega a casarse con Isabel tras violarla; entonces Pedro Crespo lo hace apresar y ejecutar por garrote. El rey aprueba la sentencia.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-rey-aparece-final-alcalde",
+    "text": "¿Qué rey aparece al final de «El alcalde de Zalamea»?",
+    "options": [
+      "Carlos V",
+      "Felipe IV",
+      "Carlos II",
+      "Felipe II"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Felipe II, de camino a Portugal, llega a Zalamea y confirma la sentencia de Crespo, nombrándole alcalde perpetuo. La obra se ambienta en 1581, durante la anexión de Portugal.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-medico-honra",
+    "text": "¿Quién escribió «El médico de su honra»?",
+    "options": [
+      "Calderón",
+      "Rojas Zorrilla",
+      "Tirso de Molina",
+      "Lope de Vega"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calderón compuso este drama de honor, donde un marido, don Gutierre, hace sangrar a su esposa por simples sospechas de infidelidad. Es una crítica inquietante del código del honor.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tipo-obra-gran-teatro",
+    "text": "¿Qué tipo de obra es «El gran teatro del mundo»?",
+    "options": [
+      "Novela picaresca",
+      "Comedia de enredo",
+      "Auto sacramental",
+      "Poema épico"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es un auto sacramental alegórico, escrito hacia 1633-1635, donde Dios reparte papeles a los hombres en el gran teatro del mundo y los juzga según cómo los han interpretado.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-autos-sacramentales-escribio-calderon",
+    "text": "¿Cuántos autos sacramentales escribió Calderón?",
+    "options": [
+      "Unos cuarenta",
+      "Casi doscientos",
+      "Más de setenta",
+      "Unos quince"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calderón compuso más de setenta autos y fue el autor oficial de los autos del Corpus en Madrid. Lope escribió unos cuarenta, pero Calderón los llevó a su cima alegórica.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-orden-fue-nombrado-caballero",
+    "text": "¿De qué orden fue nombrado caballero Calderón?",
+    "options": [
+      "Calatrava",
+      "Montesa",
+      "Santiago",
+      "Alcántara"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Felipe IV nombró a Calderón caballero de la Orden de Santiago en 1636, reconociendo su valor como autor cortesano. Años después sirvió como soldado en la guerra de Cataluña.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-reina-legendaria-protagoniza-hija",
+    "text": "¿Qué reina legendaria protagoniza «La hija del aire»?",
+    "options": [
+      "Medea",
+      "Dido",
+      "Semíramis",
+      "Cleopatra"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«La hija del aire» es un drama de Calderón en dos partes sobre Semíramis, reina de Asiria, que asciende del abandono al trono y cae por su ambición. Trata de ambición y destino.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-dama-duende",
+    "text": "¿Quién escribió «La dama duende»?",
+    "options": [
+      "Tirso de Molina",
+      "Lope de Vega",
+      "Ruiz de Alarcón",
+      "Calderón"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calderón es su autor. Es una comedia de capa y espada sobre una viuda que entra y sale de su cuarto por una alacena oculta, y todos creen que es un duende.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-apellida-don-juan-burlador",
+    "text": "¿Cómo se apellida Don Juan en «El burlador»?",
+    "options": [
+      "Tenorio",
+      "Quijano",
+      "Guzmán",
+      "Mañara"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Don Juan Tenorio es un noble sevillano que seduce a las mujeres con falsas promesas de matrimonio. Su apellido pasó a ser sinónimo de seductor, aunque Zorrilla lo popularizó en el siglo XIX.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-castiga-don-juan-burlador",
+    "text": "¿Quién castiga a Don Juan en «El burlador»?",
+    "options": [
+      "La estatua del comendador",
+      "Su criado Catalinón",
+      "El rey de Nápoles",
+      "Un fraile de Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Don Juan mata al comendador Gonzalo de Ulloa y se burla de su estatua invitándola a cenar. La estatua acepta, acude y se lo lleva al infierno.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-era-nombre-real-tirso",
+    "text": "¿Cuál era el nombre real de Tirso de Molina?",
+    "options": [
+      "Gabriel García",
+      "Gabriel Celaya",
+      "Gabriel Miró",
+      "Gabriel Téllez"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Tirso de Molina es el seudónimo de Gabriel Téllez, nacido en Madrid hacia 1579. Fue un autor muy prolífico de comedias de enredo, históricas y religiosas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-orden-religiosa-pertenecia-tirso",
+    "text": "¿A qué orden religiosa pertenecía Tirso de Molina?",
+    "options": [
+      "Los mercedarios",
+      "Los carmelitas",
+      "Los jesuitas",
+      "Los dominicos"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Gabriel Téllez ingresó en la Orden de la Merced, los mercedarios, que se dedicaban a rescatar cautivos cristianos. Fue cronista de su orden y llegó a comendador de Trujillo y Almazán.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ermitano-duda-condenado-desconfiado",
+    "text": "¿Qué ermitaño duda en «El condenado por desconfiado»?",
+    "options": [
+      "Paulo",
+      "Anareto",
+      "Pedrisco",
+      "Enrico"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Paulo, un ermitaño, duda de su salvación y acaba condenado, mientras el bandolero Enrico, que confía en Dios, se salva. La obra debate la gracia divina y la fe.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-defecto-retrata-verdad-sospechosa",
+    "text": "¿Qué defecto retrata «La verdad sospechosa»?",
+    "options": [
+      "La soberbia",
+      "La mentira",
+      "La cobardía",
+      "La avaricia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan Ruiz de Alarcón retrata a don García, un joven que miente sin parar y acaba atrapado en sus propios embustes. Corneille la imitó en «Le menteur», lo que consagró su fama.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-jornadas-solia-tener-comedia",
+    "text": "¿Cuántas jornadas solía tener una comedia?",
+    "options": [
+      "Cinco",
+      "Dos",
+      "Tres",
+      "Siete"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La comedia áurea se dividía en tres jornadas, equivalentes a actos: planteamiento, nudo y desenlace. Lope sustituyó las cinco partes de la comedia clásica por esta estructura más ágil.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cria-segismundo-torre",
+    "text": "¿Quién cría a Segismundo en la torre?",
+    "options": [
+      "Astolfo",
+      "Clotaldo",
+      "Estrella",
+      "Basilio"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Clotaldo, anciano noble y consejero, es el guardián de Segismundo y le enseña ciencias y religión. A la vez, es secretamente el padre de Rosaura, la dama disfrazada de hombre.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-religiosos-estudio-calderon",
+    "text": "¿Con qué religiosos estudió Calderón?",
+    "options": [
+      "Los benedictinos",
+      "Los jesuitas",
+      "Los dominicos",
+      "Los franciscanos"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calderón estudió con los jesuitas en Madrid y después en Alcalá y Salamanca. Su formación humanística y teológica se nota en la erudición y el rigor de sus autos sacramentales.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-mocedades-cid",
+    "text": "¿Quién escribió «Las mocedades del Cid»?",
+    "options": [
+      "Vélez de Guevara",
+      "Rojas Zorrilla",
+      "Mira de Amescua",
+      "Guillén de Castro"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El valenciano Guillén de Castro la escribió hacia 1618, y Corneille la tomó como modelo para «Le Cid». Dramatiza las juventudes de Rodrigo Díaz, dividido entre el amor a Jimena y el honor.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-francisco-quevedo",
+    "text": "¿En qué ciudad nació Francisco de Quevedo?",
+    "options": [
+      "Madrid",
+      "Córdoba",
+      "Valladolid",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Quevedo nació en Madrid en 1580, en una familia vinculada a la corte: su padre fue secretario de la reina María de Austria.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-quevedo",
+    "text": "¿En qué año murió Quevedo?",
+    "options": [
+      "1645",
+      "1627",
+      "1635",
+      "1681"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Quevedo murió el 8 de septiembre de 1645 en Villanueva de los Infantes, tras salir de prisión muy enfermo. Había pasado cuatro años encerrado en un convento de León.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-corriente-barroca-representa-quevedo",
+    "text": "¿Qué corriente barroca representa Quevedo?",
+    "options": [
+      "El conceptismo",
+      "El culteranismo",
+      "El realismo",
+      "El modernismo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Quevedo es el gran maestro del conceptismo, que busca la agudeza y los juegos de ideas y palabras con un vocabulario sencillo. Contrasta con el estilo ornamental de Góngora.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-corriente-barroca-representa-gongora",
+    "text": "¿Qué corriente barroca representa Góngora?",
+    "options": [
+      "El petrarquismo",
+      "El culteranismo",
+      "El clasicismo",
+      "El conceptismo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Góngora encabeza el culteranismo o gongorismo, un estilo de gran perfección formal, léxico culto, latinismos, metáforas y alusiones mitológicas dirigido a lectores muy cultos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-luis-gongora",
+    "text": "¿En qué ciudad nació Luis de Góngora?",
+    "options": [
+      "Sevilla",
+      "Granada",
+      "Córdoba",
+      "Toledo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Luis de Góngora nació en Córdoba en julio de 1561 en una familia noble. Estudió en Salamanca y pasó la mayor parte de su vida en su ciudad natal y en Madrid.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-luis-gongora",
+    "text": "¿En qué año murió Luis de Góngora?",
+    "options": [
+      "1627",
+      "1635",
+      "1612",
+      "1645"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Góngora murió en Córdoba el 24 de mayo de 1627, a los 65 años. Su estilo oscuro causó polémicas por el Polifemo y las Soledades, pero tuvo seguidores durante siglos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poema-gongora-narra-ciclope",
+    "text": "¿Qué poema de Góngora narra a un cíclope enamorado?",
+    "options": [
+      "Romance de Angélica y Medoro",
+      "Fábula de Hero y Leandro",
+      "Fábula de Polifemo y Galatea",
+      "Fábula de Píramo y Tisbe"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La «Fábula de Polifemo y Galatea» (1612-1613) cuenta el amor del cíclope Polifemo por la ninfa Galatea, que prefiere al pastor Acis. Es la obra maestra mitológica y culterana de Góngora.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hizo-quevedo-casa-vivia",
+    "text": "¿Qué hizo Quevedo con la casa donde vivía Góngora?",
+    "options": [
+      "La heredó de su rival",
+      "La incendió de noche",
+      "La regaló a Lope",
+      "La compró para echarlo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Según la tradición, Quevedo compró la casa madrileña de Góngora, que vivía de alquiler, para desahuciarlo. Es el último episodio de una enemistad literaria de décadas, hecha de sátiras mutuas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-picaresca-firmo-quevedo",
+    "text": "¿Qué novela picaresca firmó Quevedo?",
+    "options": [
+      "Guzmán de Alfarache",
+      "El Buscón",
+      "El Lazarillo",
+      "Marcos de Obregón"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«La vida del Buscón» es su única novela, retrato satírico de Pablos, hijo de un barbero ladrón que intenta ascender socialmente. Quevedo nunca la reconoció públicamente como suya.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-buscon",
+    "text": "¿En qué año se publicó «El Buscón»?",
+    "options": [
+      "1650",
+      "1613",
+      "1604",
+      "1626"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La obra se imprimió en Zaragoza en 1626, aunque Quevedo la había escrito mucho antes. Circuló manuscrita durante años y su autoría tardó en aceptarse del todo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-protagonista-buscon",
+    "text": "¿Cómo se llama el protagonista del «Buscón»?",
+    "options": [
+      "Don Ginés",
+      "Don Lázaro",
+      "Don Guzmán",
+      "Don Pablos"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Pablos es el pícaro hijo de un barbero y una hechicera de Segovia que fracasa en su intento de medrar. Su historia es un viaje de decadencia moral, narrado con humor negro.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-quevedo-imagina-visiones",
+    "text": "¿Qué obra de Quevedo imagina visiones del infierno?",
+    "options": [
+      "Los sueños",
+      "Política de Dios",
+      "Providencia de Dios",
+      "Marco Bruto"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los «Sueños», redactados entre 1606 y 1622, reúnen sátiras en forma de visiones del infierno y del juicio final. Quevedo critica con ingenio los vicios y oficios de su época.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-fue-encarcelado-quevedo-ultima",
+    "text": "¿Cuándo fue encarcelado Quevedo por última vez?",
+    "options": [
+      "1613",
+      "1639",
+      "1621",
+      "1645"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En 1639 fue detenido en Madrid y recluido en un convento de León, acusado de escribir una sátira contra el rey y Olivares. Salió en 1643, ya muy enfermo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-amor-constante-alla-muerte",
+    "text": "¿De quién es «Amor constante más allá de la muerte»?",
+    "options": [
+      "Luis de Góngora",
+      "Garcilaso de la Vega",
+      "Lope de Vega",
+      "Francisco de Quevedo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es un soneto de Quevedo, considerado una de las cumbres de la poesía amorosa española: afirma que el amor sobrevive a la muerte, y que el cuerpo se vuelve ceniza «enamorada».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-mientras-competir-tu",
+    "text": "¿Quién escribió «Mientras por competir con tu cabello»?",
+    "options": [
+      "Francisco de Quevedo",
+      "Garcilaso de la Vega",
+      "Luis de Góngora",
+      "Lope de Vega"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es un soneto de Góngora (1582) sobre el carpe diem: invita a gozar de la belleza antes de que el tiempo la convierta en polvo y sombra.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-soledades-llego-escribir-gongora",
+    "text": "¿Cuántas «Soledades» llegó a escribir Góngora?",
+    "options": [
+      "Una",
+      "Tres",
+      "Dos",
+      "Cuatro"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Góngora proyectó cuatro Soledades, pero solo completó la primera y dejó inconclusa la segunda. En ellas, un joven náufrago recorre un paisaje pastoril escrito en un estilo muy culto.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-oficio-tuvo-gongora-ademas",
+    "text": "¿Qué oficio tuvo Góngora además de ser poeta?",
+    "options": [
+      "Fue marino",
+      "Fue médico",
+      "Fue clérigo",
+      "Fue juez"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Góngora se ordenó sacerdote hacia 1585 y fue racionero de la catedral de Córdoba; más tarde fue capellán de honor de Felipe III en Madrid.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-retrato-luis-gongora",
+    "text": "¿Qué pintor retrató a Luis de Góngora?",
+    "options": [
+      "Velázquez",
+      "Murillo",
+      "El Greco",
+      "Goya"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Diego Velázquez retrató a Góngora en 1622, en Madrid. El cuadro muestra al poeta ya mayor, con gesto severo, y se conserva en el Museo de Bellas Artes de Boston.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-caracteriza-estilo-culterano",
+    "text": "¿Qué caracteriza el estilo culterano?",
+    "options": [
+      "Latinismos y metáforas",
+      "Frases breves y claras",
+      "Lenguaje coloquial",
+      "Juegos de ingenio"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El culteranismo recarga el lenguaje con latinismos, cultismos, hipérbatos y metáforas audaces para crear una belleza formal que solo captan lectores cultos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-caracteriza-estilo-conceptista",
+    "text": "¿Qué caracteriza el estilo conceptista?",
+    "options": [
+      "Latinismos y metáforas",
+      "Mitología culta",
+      "Hipérbaton abusivo",
+      "Juegos de palabras e ingenio"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El conceptismo busca expresar mucho con pocas palabras, mediante agudezas, dobles sentidos y juegos de palabras. Rechaza el adorno exterior y se apoya en conceptos ingeniosos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-letrilla-andeme-yo",
+    "text": "¿Quién escribió la letrilla «Ándeme yo caliente»?",
+    "options": [
+      "Lope de Vega",
+      "Pedro Calderón",
+      "Francisco de Quevedo",
+      "Luis de Góngora"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es una letrilla satírica de Góngora, de tono burlesco y estribillo popular, que ironiza sobre la vida cortesana y defiende el disfrute sencillo frente a las ambiciones.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-erase-hombre-nariz",
+    "text": "¿Quién escribió «Érase un hombre a una nariz pegado»?",
+    "options": [
+      "Francisco de Quevedo",
+      "Garcilaso de la Vega",
+      "Lope de Vega",
+      "Luis de Góngora"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es el soneto burlesco «A una nariz», de Quevedo, que exagera el tamaño de una nariz con hipérboles y metáforas. Es uno de los mejores ejemplos de poesía satírica barroca.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-dos-poetas-introdujeron-verso",
+    "text": "¿Qué dos poetas introdujeron el verso italiano en España?",
+    "options": [
+      "Herrera y Rioja",
+      "Manrique y Mena",
+      "Góngora y Lope",
+      "Boscán y Garcilaso"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan Boscán y Garcilaso de la Vega adaptaron al castellano el endecasílabo y las formas italianas, como el soneto o la égloga, tras una conversación en Granada con el embajador Navagero en 1526.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poemas-pastoriles-escribio-garcilaso",
+    "text": "¿Qué poemas pastoriles escribió Garcilaso?",
+    "options": [
+      "Romances",
+      "Églogas",
+      "Fábulas",
+      "Coplas"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Garcilaso compuso tres églogas, poemas pastoriles de diálogo entre pastores que cantan sus penas de amor. La primera y la tercera son las más celebradas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-garcilaso-vega",
+    "text": "¿En qué año murió Garcilaso de la Vega?",
+    "options": [
+      "1556",
+      "1516",
+      "1501",
+      "1536"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Garcilaso murió en 1536, a los treinta y pocos años, herido durante el asalto a una fortaleza en Le Muy, en Provenza, durante la campaña de Carlos V contra Francia.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-emperador-sirvio-garcilaso-soldado",
+    "text": "¿A qué emperador sirvió Garcilaso como soldado?",
+    "options": [
+      "Felipe II",
+      "Maximiliano",
+      "Carlos V",
+      "Fernando II"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Garcilaso fue «soldado y poeta» al servicio de Carlos V, con quien luchó en Túnez, Italia y Provenza. Esta unión de armas y letras era el ideal del cortesano renacentista.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tema-domina-tanto-rosa",
+    "text": "¿Qué tema domina «En tanto que de rosa y azucena»?",
+    "options": [
+      "El carpe diem",
+      "El ubi sunt",
+      "El beatus ille",
+      "El locus amoenus"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Este soneto de Garcilaso invita a una dama a disfrutar de su belleza antes de que el tiempo la marchite. Es el ejemplo clásico del tópico latino del carpe diem.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escuela-poetica-pertenece-fray",
+    "text": "¿A qué escuela poética pertenece Fray Luis de León?",
+    "options": [
+      "Escuela sevillana",
+      "Escuela salmantina",
+      "Escuela aragonesa",
+      "Escuela antequerana"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Fray Luis encabeza la escuela salmantina, de estilo sobrio, clásico y moral, que contrasta con el estilo más ornamentado de la escuela sevillana de Herrera.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-topico-domina-oda-vida",
+    "text": "¿Qué tópico domina la «Oda a la vida retirada»?",
+    "options": [
+      "Ubi sunt",
+      "Carpe diem",
+      "Beatus ille",
+      "Locus amoenus"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Fray Luis exalta la vida sencilla y apartada del mundo, lejos de ambiciones y riquezas, al modo del «beatus ille» de Horacio. Es una de sus odas más conocidas.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tratado-prosa-escribio-fray",
+    "text": "¿Qué tratado en prosa escribió Fray Luis sobre Cristo?",
+    "options": [
+      "De los nombres de Cristo",
+      "Camino de perfección",
+      "Libro de la vida",
+      "Subida del Monte Carmelo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«De los nombres de Cristo» es un diálogo en prosa sobre los nombres bíblicos de Jesús, como Pimpollo o Príncipe de la paz. Se considera modelo de prosa renacentista, armónica y elegante.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-fray-luis-comenta",
+    "text": "¿Qué obra de Fray Luis comenta los Proverbios de Salomón?",
+    "options": [
+      "Noche oscura del alma",
+      "La perfecta casada",
+      "Cántico espiritual",
+      "Exposición del Libro de Job"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«La perfecta casada» (1583) es un comentario moral al final del libro bíblico de los Proverbios, que describe las virtudes de la esposa ideal. Fray Luis la dedicó a una joven recién casada.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tribunal-juzgo-fray-luis",
+    "text": "¿Qué tribunal juzgó a Fray Luis de León en 1572?",
+    "options": [
+      "La Chancillería",
+      "La Inquisición",
+      "El Consejo de Castilla",
+      "La Audiencia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La Inquisición lo encarceló en Valladolid desde 1572 hasta 1576 por traducir el Cantar de los Cantares y discrepar sobre el texto bíblico. Al volver a su cátedra reanudó sus clases.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-santa-teresa",
+    "text": "¿En qué ciudad nació Santa Teresa de Jesús?",
+    "options": [
+      "Ávila",
+      "Segovia",
+      "Toledo",
+      "Salamanca"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Teresa de Cepeda y Ahumada nació en Ávila en 1515, en una familia de ascendencia conversa. Allí ingresó en el Carmelo y fundó en 1562 el convento de San José.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-localidad-murio-santa-teresa",
+    "text": "¿En qué localidad murió Santa Teresa de Jesús?",
+    "options": [
+      "Alba de Tormes",
+      "Peñaranda",
+      "Medina del Campo",
+      "Arévalo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Murió en Alba de Tormes (Salamanca) en 1582, durante uno de sus viajes de fundación. Su muerte coincidió con la reforma del calendario gregoriano, por lo que se enterró el 15 de octubre.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-orden-religiosa-reformo-santa",
+    "text": "¿Qué orden religiosa reformó Santa Teresa?",
+    "options": [
+      "Los jerónimos",
+      "Los dominicos",
+      "La Cartuja",
+      "El Carmelo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Teresa reformó la orden del Carmelo y creó las carmelitas descalzas, que vivían con mayor austeridad y oración. Fundó diecisiete conventos y colaboró con San Juan de la Cruz.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-imagen-usa-santa-teresa",
+    "text": "¿Qué imagen usa Santa Teresa en «Las moradas»?",
+    "options": [
+      "Un río de fuego",
+      "Una torre de marfil",
+      "Un castillo interior",
+      "Un jardín cerrado"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «Las moradas» o «Castillo interior» (1577), Teresa compara el alma con un castillo de cristal con siete estancias, que se atraviesan hasta la unión con Dios en la última.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-vida-santa-teresa",
+    "text": "¿Qué es el «Libro de la vida» de Santa Teresa?",
+    "options": [
+      "Un poemario",
+      "Su autobiografía",
+      "Un tratado médico",
+      "Una novela"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es la autobiografía espiritual de Teresa, escrita por orden de sus confesores. Cuenta su vocación, sus enfermedades y sus experiencias místicas con un estilo natural y sencillo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-nacio-san-juan",
+    "text": "¿En qué año nació San Juan de la Cruz?",
+    "options": [
+      "1561",
+      "1515",
+      "1542",
+      "1527"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan de Yepes Álvarez nació en 1542 en Fontiveros (Ávila), en una familia humilde. Estudió en Medina del Campo y Salamanca y se hizo carmelita.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-san-juan",
+    "text": "¿En qué año murió San Juan de la Cruz?",
+    "options": [
+      "1568",
+      "1582",
+      "1591",
+      "1601"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Murió en Úbeda (Jaén) en diciembre de 1591, enfermo y mal visto por parte de su propia orden. Su obra poética, breve pero intensa, se publicó años después de su muerte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ultima-etapa-camino-mistico",
+    "text": "¿Cuál es la última etapa del camino místico?",
+    "options": [
+      "La iluminativa",
+      "La purgativa",
+      "La unitiva",
+      "La ascética"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El camino místico pasa por la vía purgativa, la iluminativa y la unitiva, en la que el alma se une plenamente a Dios. San Juan de la Cruz lo expresa en el «Cántico espiritual».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-sevillano-fue-llamado",
+    "text": "¿Qué poeta sevillano fue llamado «el Divino»?",
+    "options": [
+      "Francisco de Rioja",
+      "Rodrigo Caro",
+      "Fernando de Herrera",
+      "Juan de Arguijo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Fernando de Herrera, llamado «el Divino» por sus coetáneos, fue el gran poeta de la escuela sevillana. Sus «Anotaciones» (1580) a Garcilaso fueron la primera edición comentada de un poeta español.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-busca-poesia-mistica",
+    "text": "¿Qué busca la poesía mística?",
+    "options": [
+      "La gloria militar",
+      "La unión con Dios",
+      "La crítica social",
+      "El placer sensual"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La mística busca la comunión plena del alma con Dios, que se expresa con imágenes del amor humano y de la naturaleza. La ascética es solo el camino previo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-humanista-valenciano-fue-amigo",
+    "text": "¿Qué humanista valenciano fue amigo de Erasmo?",
+    "options": [
+      "Juan Luis Vives",
+      "Antonio de Guevara",
+      "Juan de Valdés",
+      "Luis de Granada"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan Luis Vives, nacido en Valencia en 1493, enseñó en Lovaina y Oxford y escribió sobre educación, pedagogía y asistencia a los pobres. Fue amigo de Erasmo y Tomás Moro.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-poema-epico-araucana",
+    "text": "¿Quién escribió el poema épico «La Araucana»?",
+    "options": [
+      "Juan de Mena",
+      "Alonso de Ercilla",
+      "Garcilaso de la Vega",
+      "Luís de Camões"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Alonso de Ercilla participó como soldado en la guerra de Arauco, en Chile, y escribió ese poema en octavas reales, publicado en tres partes entre 1569 y 1589.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cronista-mestizo-escribio-comentarios",
+    "text": "¿Qué cronista mestizo escribió «Comentarios reales»?",
+    "options": [
+      "Hernán Cortés",
+      "Bartolomé de las Casas",
+      "Bernal Díaz",
+      "El Inca Garcilaso"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Inca Garcilaso de la Vega, hijo de un capitán español y una princesa inca, publicó en 1609 los «Comentarios reales», historia del Perú incaico escrita con prosa clásica y nostalgia.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-cancionero-general",
+    "text": "¿En qué año se publicó el «Cancionero general»?",
+    "options": [
+      "1499",
+      "1511",
+      "1492",
+      "1554"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Hernando del Castillo reunió en 1511 el «Cancionero general», una gran antología de poesía cortesana del siglo XV y principios del XVI. Fue el libro de poesía más influyente antes de Garcilaso.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-nacio-santa-teresa",
+    "text": "¿En qué año nació Santa Teresa de Jesús?",
+    "options": [
+      "1542",
+      "1561",
+      "1515",
+      "1527"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Teresa de Cepeda nació el 28 de marzo de 1515. Fue canonizada en 1622 y proclamada doctora de la Iglesia en 1970, la primera mujer en recibir ese título.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-lazarillo-tormes",
+    "text": "¿En qué año se publicó el «Lazarillo de Tormes»?",
+    "options": [
+      "1599",
+      "1605",
+      "1499",
+      "1554"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Se publicó en 1554 en Burgos, Alcalá de Henares y Medina del Campo, además de Amberes, sin nombre de autor. Poco después la Inquisición lo prohibió y circuló expurgado.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-genero-inaugura-lazarillo",
+    "text": "¿Qué género inaugura el «Lazarillo»?",
+    "options": [
+      "La novela picaresca",
+      "La novela caballeresca",
+      "La novela pastoril",
+      "La novela bizantina"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Lazarillo creó la novela picaresca: relato autobiográfico de un antihéroe pobre que sirve a varios amos y sobrevive con ingenio, mostrando la hipocresía de la sociedad.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-salio-primera-parte-2",
+    "text": "¿En qué año salió la primera parte del «Guzmán»?",
+    "options": [
+      "1554",
+      "1626",
+      "1599",
+      "1612"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La primera parte del «Guzmán de Alfarache» apareció en Madrid en 1599 y fue un éxito europeo. Alemán publicó la segunda en 1604, en Lisboa.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-guzman-alfarache",
+    "text": "¿Quién escribió «Guzmán de Alfarache»?",
+    "options": [
+      "Alonso de Castillo",
+      "Mateo Alemán",
+      "Francisco de Quevedo",
+      "Vicente Espinel"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Mateo Alemán, sevillano de familia conversa, escribió esta novela de tono moralizante y con largas digresiones. En ella el término «pícaro» pasó a designar un género.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-narra-historia-picaro",
+    "text": "¿Cómo narra su historia el pícaro?",
+    "options": [
+      "En verso épico",
+      "En tercera persona",
+      "En primera persona",
+      "En forma de diálogo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El relato picaresco es una falsa autobiografía: el pícaro cuenta en primera persona su ascenso y caída ante un interlocutor, lo que da subjetividad e ironía.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-picaresca-protagonista-femenina",
+    "text": "¿Qué novela picaresca tiene una protagonista femenina?",
+    "options": [
+      "La gitanilla",
+      "La Dorotea",
+      "La pícara Justina",
+      "La Celestina"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«La pícara Justina» (1605), de Francisco López de Úbeda, es la gran novela de picaresca femenina, con una protagonista burlona y parlanchina. Está escrita con un estilo recargado y juegos de palabras.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-picaresca-escribio-vicente",
+    "text": "¿Qué novela picaresca escribió Vicente Espinel?",
+    "options": [
+      "Estebanillo González",
+      "Guzmán de Alfarache",
+      "La pícara Justina",
+      "Marcos de Obregón"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Vicente Espinel, también músico y poeta, publicó en 1618 la «Vida del escudero Marcos de Obregón», novela con elementos autobiográficos y viajes que Lesage imitó en «Gil Blas».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tratados-divide-lazarillo",
+    "text": "¿En cuántos tratados se divide el «Lazarillo»?",
+    "options": [
+      "Diez",
+      "Doce",
+      "Cinco",
+      "Siete"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Lazarillo consta de un prólogo y siete tratados, cada uno ligado a un amo o episodio importante de la vida del protagonista, desde su infancia hasta su matrimonio en Toledo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-amo-lazarillo-pasa-hambre",
+    "text": "¿Qué amo de Lazarillo pasa hambre y presume de hidalgo?",
+    "options": [
+      "El escudero",
+      "El ciego",
+      "El buldero",
+      "El clérigo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El escudero es un hidalgo pobre que oculta su miseria tras una apariencia de honra. Lazarillo mendiga para ambos, en una de las críticas más finas del libro a la vanidad del honor.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-nacio-lazarillo",
+    "text": "¿Dónde nació Lazarillo?",
+    "options": [
+      "En el río Tajo",
+      "En el río Tormes",
+      "En una venta",
+      "En Sevilla"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lázaro cuenta que nació dentro de una aceña, un molino, a orillas del Tormes, en tierras de Salamanca. De ahí viene su apellido y el nombre del libro.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-significa-hoy-lazarillo",
+    "text": "¿Qué significa hoy «lazarillo»?",
+    "options": [
+      "Mendigo errante",
+      "Criado de hidalgo",
+      "Guía de un ciego",
+      "Soldado pobre"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Según la RAE, lazarillo es la persona o animal que guía a un ciego. Procede del nombre del protagonista del libro, que en su infancia sirvió de guía a su amo ciego.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tres-obras-nucleo-picaresca",
+    "text": "¿Qué tres obras son el núcleo de la picaresca?",
+    "options": [
+      "Celestina, Quijote y Buscón",
+      "Celestina, Guzmán y Justina",
+      "Lazarillo, Guzmán y Buscón",
+      "Lazarillo, Quijote y Guzmán"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Lazarillo (1554), el Guzmán de Alfarache (1599 y 1604) y el Buscón (1626) forman la tríada básica de la novela picaresca clásica, según la crítica.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-celestina",
+    "text": "¿En qué año se publicó «La Celestina»?",
+    "options": [
+      "1554",
+      "1499",
+      "1492",
+      "1508"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La obra se imprimió en Burgos en 1499, con el título de «Comedia de Calisto y Melibea». En 1502 se amplió y se tituló «Tragicomedia», con cinco actos más.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-autor-celestina",
+    "text": "¿Quién es el autor de «La Celestina»?",
+    "options": [
+      "Jorge Manrique",
+      "Juan de Mena",
+      "Fernando de Rojas",
+      "Diego de San Pedro"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Fernando de Rojas, bachiller en leyes y de origen converso, la publicó de forma anónima en 1499 y se identificó con unos versos acrósticos añadidos al texto.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-amantes-protagonizan-celestina",
+    "text": "¿Qué amantes protagonizan «La Celestina»?",
+    "options": [
+      "Pármeno y Areúsa",
+      "Pleberio y Alisa",
+      "Calisto y Melibea",
+      "Sempronio y Elicia"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Calisto, joven noble, se enamora de Melibea y contrata a la alcahueta Celestina para conquistarla. El amor lleva a los dos a la muerte en un final trágico.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-esta-escrita-celestina",
+    "text": "¿Cómo está escrita «La Celestina»?",
+    "options": [
+      "En verso épico",
+      "En forma de cartas",
+      "En diario íntimo",
+      "Casi toda en diálogo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La Celestina está escrita casi por completo en diálogo, sin narrador, aunque no se pensaba para representarla. Por eso se discute si es teatro, novela dialogada o un género intermedio.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-nebrija-gramatica",
+    "text": "¿En qué año publicó Nebrija su «Gramática castellana»?",
+    "options": [
+      "1474",
+      "1511",
+      "1499",
+      "1492"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Antonio de Nebrija publicó en 1492 la primera gramática de una lengua romance moderna. En el prólogo, según la tradición, la presentó a Isabel la Católica como compañera del Imperio.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-coplas-muerte-padre",
+    "text": "¿Quién escribió las «Coplas a la muerte de su padre»?",
+    "options": [
+      "Gómez Manrique",
+      "Marqués de Santillana",
+      "Juan de Mena",
+      "Jorge Manrique"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Jorge Manrique escribió las «Coplas» tras la muerte de su padre, don Rodrigo, maestre de Santiago, en 1476. Es una elegía sobre la fugacidad de la vida y la fama.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tema-central-coplas-manrique",
+    "text": "¿Qué tema central tienen las «Coplas» de Manrique?",
+    "options": [
+      "La igualdad ante la muerte",
+      "El amor cortés",
+      "La vida del campo",
+      "La guerra de Granada"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Manrique reflexiona sobre cómo el tiempo y la muerte igualan a todos, ricos y pobres, y sobre la fama que perdura. Recurre al tópico «ubi sunt»: ¿dónde están los que fueron?",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-coplas-componen-poema-manrique",
+    "text": "¿Cuántas coplas componen el poema de Manrique?",
+    "options": [
+      "40",
+      "60",
+      "24",
+      "100"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El poema reúne cuarenta coplas de pie quebrado, una estrofa de doce versos que se llama «manriqueña». Se divide en tres partes: vida terrenal, fama y vida eterna.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-universidad-estudio-fernando-rojas",
+    "text": "¿En qué universidad estudió Fernando de Rojas?",
+    "options": [
+      "Sevilla",
+      "Valladolid",
+      "Alcalá",
+      "Salamanca"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Rojas estudió leyes en la Universidad de Salamanca, donde también enseñaba Nebrija. En ese ambiente humanista, entre Edad Media y Renacimiento, nació «La Celestina».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-laberinto-fortuna",
+    "text": "¿Quién escribió el «Laberinto de Fortuna»?",
+    "options": [
+      "Jorge Manrique",
+      "Juan de Mena",
+      "Fernando de Rojas",
+      "Garcilaso de la Vega"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan de Mena, poeta cordobés del siglo XV, lo compuso en versos de arte mayor, una alegoría en la que un viaje celeste muestra las ruedas del destino. Se publicó hacia 1444.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-criticon",
+    "text": "¿Quién escribió «El Criticón»?",
+    "options": [
+      "Baltasar Gracián",
+      "Francisco de Quevedo",
+      "Antonio de Guevara",
+      "Mateo Alemán"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Baltasar Gracián escribió esta novela alegórica, su obra maestra, sobre la vida humana. Critilo, el hombre reflexivo, y Andrenio, hombre natural, recorren el mundo y sus engaños.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-salio-primera-parte-3",
+    "text": "¿En qué año salió la primera parte de «El Criticón»?",
+    "options": [
+      "1647",
+      "1651",
+      "1658",
+      "1637"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Gracián publicó la primera parte, sobre la niñez y juventud, en Zaragoza en 1651, bajo seudónimo. Las otras dos partes siguieron en años posteriores.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-oraculo-manual",
+    "text": "¿En qué año se publicó el «Oráculo manual»?",
+    "options": [
+      "1651",
+      "1647",
+      "1658",
+      "1637"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El «Oráculo manual y arte de prudencia» salió en Huesca en 1647. Gracián propone una colección de aforismos prácticos para triunfar con prudencia, disimulo e ingenio en la vida de corte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-baltasar-gracian",
+    "text": "¿En qué año murió Baltasar Gracián?",
+    "options": [
+      "1658",
+      "1681",
+      "1647",
+      "1651"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Gracián murió en Tarazona en diciembre de 1658, tras años de tensiones con su orden. Su fama creció siglos después gracias a admiradores de toda Europa.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-dijo-bueno-si-breve",
+    "text": "¿Quién dijo «Lo bueno, si breve, dos veces bueno»?",
+    "options": [
+      "Francisco de Quevedo",
+      "Baltasar Gracián",
+      "Lope de Vega",
+      "Miguel de Cervantes"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Es máxima de Baltasar Gracián, que cultivó un estilo muy conciso. Su lema resume el ideal conceptista de decir mucho con pocas palabras.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-filosofo-aleman-tradujo-oraculo",
+    "text": "¿Qué filósofo alemán tradujo el «Oráculo manual»?",
+    "options": [
+      "Nietzsche",
+      "Hegel",
+      "Schopenhauer",
+      "Kant"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Arthur Schopenhauer, gran admirador de Gracián, tradujo el «Oráculo manual» al alemán, lengua en la que se difundió como «Handorakel». También lo admiraron Nietzsche y Voltaire.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-menosprecio-corte-alabanza",
+    "text": "¿Quién escribió «Menosprecio de corte y alabanza de aldea»?",
+    "options": [
+      "Fray Luis de León",
+      "Fray Luis de Granada",
+      "Fray Antonio de Guevara",
+      "Fray Gabriel Téllez"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Fray Antonio de Guevara, cronista de Carlos V, publicó en 1539 este tratado que alaba la vida sencilla del campo frente a las intrigas de la corte, con gran éxito europeo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-humanista-escribio-dialogo-lengua",
+    "text": "¿Qué humanista escribió el «Diálogo de la lengua»?",
+    "options": [
+      "Juan Luis Vives",
+      "Alfonso de Valdés",
+      "Antonio de Nebrija",
+      "Juan de Valdés"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan de Valdés escribió hacia 1535 este diálogo sobre el castellano, donde defiende escribir como se habla y analiza el uso, los refranes y los autores de su tiempo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-novela-pastoril-diana",
+    "text": "¿Quién escribió la novela pastoril «La Diana»?",
+    "options": [
+      "Lope de Vega",
+      "Jorge de Montemayor",
+      "Gaspar Gil Polo",
+      "Miguel de Cervantes"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El portugués Jorge de Montemayor, escribiendo en castellano, publicó «La Diana» hacia 1559. Fundó el género pastoril en España; Gil Polo y Cervantes escribieron continuaciones o imitaciones.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-refundio-amadis-gaula-1508",
+    "text": "¿Quién refundió el «Amadís de Gaula» en 1508?",
+    "options": [
+      "Diego de San Pedro",
+      "Garci Rodríguez de Montalvo",
+      "Antonio de Guevara",
+      "Jorge de Montemayor"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Garci Rodríguez de Montalvo corrigió y amplió los tres libros antiguos del Amadís y añadió un cuarto, publicado en Zaragoza en 1508. Fue un gran libro de caballerías.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tratado-quevedo-propone-gobierno",
+    "text": "¿Qué tratado de Quevedo propone un gobierno cristiano?",
+    "options": [
+      "Política de Dios",
+      "Marco Bruto",
+      "La cuna y la sepultura",
+      "Providencia de Dios"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «Política de Dios, gobierno de Cristo», cuya primera parte salió en 1626, Quevedo toma como modelo la vida de Jesús para enseñar a los reyes y a sus validos el buen gobierno.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-persiles",
+    "text": "¿En qué año se publicó el «Persiles»?",
+    "options": [
+      "1617",
+      "1605",
+      "1626",
+      "1613"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Cervantes terminó «Los trabajos de Persiles y Sigismunda» días antes de morir. Se publicó póstumamente en 1617, un año después de su muerte, y es una novela bizantina de aventuras y viajes.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-nacio-ruiz-alarcon",
+    "text": "¿En qué país nació Ruiz de Alarcón?",
+    "options": [
+      "Portugal",
+      "México",
+      "Perú",
+      "Cuba"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Juan Ruiz de Alarcón nació en Nueva España, en el actual México, hacia 1580, y se trasladó a España. Destacó por sus comedias de carácter, como «La verdad sospechosa».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poema-cervantes-juzga-poetas",
+    "text": "¿Qué poema de Cervantes juzga a los poetas de su época?",
+    "options": [
+      "Viaje del Parnaso",
+      "La Dorotea",
+      "Las Soledades",
+      "La Galatea"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Publicado en 1614, «Viaje del Parnaso» es un poema en tercetos donde Cervantes pasa revista a los buenos y malos poetas de su tiempo, y elogia entre otros a Góngora.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-maximas-reune-oraculo-manual",
+    "text": "¿Cuántas máximas reúne el «Oráculo manual»?",
+    "options": [
+      "1000",
+      "300",
+      "500",
+      "100"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Baltasar Gracián publicó en 1647 el «Oráculo manual y arte de prudencia», formado por trescientos aforismos comentados sobre cómo desenvolverse con astucia y prudencia en la vida.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-orden-religiosa-pertenecio-baltasar",
+    "text": "¿A qué orden religiosa perteneció Baltasar Gracián?",
+    "options": [
+      "La Compañía de Jesús",
+      "Los carmelitas",
+      "Los franciscanos",
+      "Los dominicos"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Gracián fue jesuita. Publicó varias obras bajo seudónimo, como Lorenzo Gracián, porque su orden veía mal que un religioso escribiera textos profanos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-compilo-flores-poetas-ilustres",
+    "text": "¿Quién compiló «Flores de poetas ilustres» en 1605?",
+    "options": [
+      "Pedro Calderón",
+      "Pedro Soto de Rojas",
+      "Pedro de Espinosa",
+      "Pedro de Padilla"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Pedro de Espinosa reunió esta antología en 1605. Incluía dieciocho poemas de Quevedo, entonces muy joven, y ayudó a difundir la nueva poesía del cambio de siglo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-valido-felipe-iv-satirizo",
+    "text": "¿Qué valido de Felipe IV satirizó Quevedo?",
+    "options": [
+      "El duque de Lerma",
+      "El conde-duque de Olivares",
+      "El marqués de Spínola",
+      "El duque de Alba"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Quevedo fue encarcelado como presunto autor de una sátira contra el rey y su valido, el conde-duque de Olivares. Salió muy enfermo y murió poco después.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-duque-sirvio-quevedo-italia",
+    "text": "¿A qué duque sirvió Quevedo en Italia?",
+    "options": [
+      "Al duque de Osuna",
+      "Al duque de Lerma",
+      "Al duque de Alba",
+      "Al duque de Béjar"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "En 1613 Quevedo se hizo consejero del duque de Osuna, virrey de Sicilia y luego de Nápoles. Cuando Osuna cayó en desgracia, Quevedo fue puesto bajo arresto domiciliario.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-imprimio-burlador-sevilla",
+    "text": "¿En qué año se imprimió «El burlador de Sevilla»?",
+    "options": [
+      "1670",
+      "1605",
+      "1630",
+      "1650"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "La obra se imprimió por primera vez en 1630, en una colección de comedias publicada en Barcelona. Se atribuyó a Tirso de Molina, aunque hoy se discute su autoría.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-profesion-ejercio-fernando-rojas",
+    "text": "¿Qué profesión ejerció Fernando de Rojas?",
+    "options": [
+      "Médico",
+      "Marino",
+      "Notario",
+      "Abogado"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Rojas, de familia conversa, estudió leyes y ejerció como jurista en Talavera de la Reina, donde llegó a ser alcalde. Su única obra literaria conocida es «La Celestina».",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-imprimio-falso-quijote-1614",
+    "text": "¿Dónde se imprimió el falso Quijote de 1614?",
+    "options": [
+      "Madrid",
+      "Valencia",
+      "Tarragona",
+      "Zaragoza"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "El segundo tomo apócrifo, firmado por Alonso Fernández de Avellaneda, salió en Tarragona en 1614. Su identidad real sigue sin conocerse; Cervantes lo criticó en la segunda parte auténtica.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-satira-quevedo-burla-soledades",
+    "text": "¿Qué sátira de Quevedo se burla de las «Soledades»?",
+    "options": [
+      "El Parnaso español",
+      "La hora de todos",
+      "Providencia de Dios",
+      "Aguja de navegar cultos"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Escrita hacia 1625, la «Aguja de navegar cultos» incluye la receta para componer «Soledades» en un día. Es uno de los ataques más ingeniosos de Quevedo contra el gongorismo.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-seudonimo-firmo-falso-guzman",
+    "text": "¿Qué seudónimo firmó el falso «Guzmán» de 1602?",
+    "options": [
+      "Jerónimo de Alcalá Yáñez",
+      "Mateo Luján de Sayavedra",
+      "Alonso Fernández de Avellaneda",
+      "Cristóbal Suárez de Figueroa"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "En 1602 apareció una continuación apócrifa del «Guzmán de Alfarache» firmada por Mateo Luján de Sayavedra, seudónimo del valenciano Juan Martí. Alemán respondió con su propia segunda parte.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-lope-autobiografia-dialogada",
+    "text": "¿Qué obra de Lope es una autobiografía dialogada?",
+    "options": [
+      "La Circe",
+      "La Dorotea",
+      "La Filomena",
+      "La Gatomaquia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "«La Dorotea» (1632) es una acción en prosa dialogada que transforma en ficción los amores juveniles de Lope. Se estima su obra más madura y reflexiva.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-atribuyen-algunos-hoy-burlador",
+    "text": "¿A quién atribuyen algunos hoy «El burlador de Sevilla»?",
+    "options": [
+      "Luis Vélez de Guevara",
+      "Pérez de Montalbán",
+      "Andrés de Claramonte",
+      "Rojas Zorrilla"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Tradicionalmente se atribuyó a Tirso de Molina, pero varios estudiosos defienden hoy que su autor fue el dramaturgo y actor Andrés de Claramonte, y otros han propuesto a Mira de Amescua.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-aparecio-tercera-parte",
+    "text": "¿En qué año apareció la tercera parte del «Criticón»?",
+    "options": [
+      "1651",
+      "1657",
+      "1653",
+      "1648"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Gracián publicó las tres partes de esta novela alegórica en 1651, 1653 y 1657. Narra el viaje de Critilo y Andrenio por las edades de la vida.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-agudeza-arte",
+    "text": "¿En qué año se publicó «Agudeza y arte de ingenio»?",
+    "options": [
+      "1651",
+      "1646",
+      "1637",
+      "1648"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Gracián publicó este tratado de retórica barroca en 1648. Es la gran teoría del conceptismo: analiza la agudeza y el ingenio con ejemplos de poetas antiguos y modernos.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-heroe-gracian",
+    "text": "¿En qué año se publicó «El Héroe» de Gracián?",
+    "options": [
+      "1637",
+      "1651",
+      "1647",
+      "1601"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "«El Héroe» (1637) fue la primera obra impresa de Gracián. En ella describe, en veinte primores, las cualidades que debe cultivar quien aspire a destacar entre los demás.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-editor-publico-postumamente-poesia",
+    "text": "¿Qué editor publicó póstumamente la poesía de Quevedo?",
+    "options": [
+      "Vincencio de Lastanosa",
+      "González de Salas",
+      "Pérez de Montalbán",
+      "Pedro de Espinosa"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "José Antonio González de Salas editó en 1648 «El Parnaso español», la primera gran colección de la poesía de Quevedo, fallecido tres años antes.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publicaron-suenos-quevedo",
+    "text": "¿En qué año se publicaron «Los sueños» de Quevedo?",
+    "options": [
+      "1605",
+      "1617",
+      "1627",
+      "1645"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Escritos entre 1606 y 1622, los «Sueños» se imprimieron en 1627. Son visiones satíricas del infierno y del juicio final con las que Quevedo censura vicios y oficios.",
+    "source": "siglo_de_oro_de_la_literatura_espanola.json",
+    "createdAt": "2026-11-21T16:26:21Z",
+    "status": "active"
+  }
+]
