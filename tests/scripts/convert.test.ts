@@ -106,6 +106,24 @@ describe('convertQuestions', () => {
     expect(problems[3]).toContain('respuesta_correcta does not point to respuesta_texto')
   })
 
+  it('counts the questions left out, and still converts the valid ones', () => {
+    const { byCategory, problems, invalid } = convertQuestions(
+      [
+        item(),
+        // options that differ only in capitals are repeated options for the schema: two problems, one question
+        item({
+          opciones: ['Vivo en Madrid.', 'vivo en madrid.', 'Vivo en madrid.', 'vivo en Madrid.'],
+          respuesta_texto: 'Vivo en Madrid.',
+        }),
+        item({ categoria: 'Astrología' }),
+      ],
+      context,
+    )
+    expect(byCategory.get('Ciencias')).toHaveLength(1)
+    expect(invalid).toBe(2)
+    expect(problems.length).toBeGreaterThan(2)
+  })
+
   it('rejects a file that is not a list of questions', () => {
     expect(convertQuestions({}, context).problems).toHaveLength(1)
     expect(convertQuestions([], context).problems).toHaveLength(1)
