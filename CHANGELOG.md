@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.17.0](https://github.com/gonzaga8200/quiz-game/compare/v0.16.0...v0.17.0) (2026-11-21)
+
+
+### Features
+
+* **core:** never serve more than two questions in a row of the same category or difficulty in random mode ([#50](https://github.com/gonzaga8200/quiz-game/issues/50)) ([cf4187e](https://github.com/gonzaga8200/quiz-game/commit/cf4187eea1457e51aa2a70709832997f72048bcc))
+
 ## [0.16.0](https://github.com/gonzaga8200/quiz-game/compare/v0.15.0...v0.16.0) (2026-11-21)
 
 
