@@ -20,3 +20,11 @@ Everything in this folder except this file is **git-ignored**: the material may 
 and the repository is public. The skill reads the files and never changes or deletes them. The
 questions it writes go to `data/questions/`, and the `source` field only keeps the file name
 (and page), never the file itself.
+
+## Ready-made questions (JSON)
+
+If you drop a `.json` file here whose questions already have their category, difficulty and
+explanation (see `preguntas_cuerpo_humano.json` for the format), run `/question-pipeline` with
+**no arguments**: nothing is generated or rebalanced, the file is converted as it is and each
+question goes to the file of its own category. `npm run questions:convert -- --dry-run` shows
+what would be written.
