@@ -23,6 +23,10 @@ const bank = readdirSync(join(root, 'data/questions'))
     QuestionFileSchema.parse(JSON.parse(readFileSync(join(root, 'data/questions', name), 'utf8'))),
   )
 
+// Retired questions stay in the files with status "disabled": they are stored too, but the
+// app only reads the active ones.
+const activeBank = bank.filter((question) => question.status === 'active')
+
 function runImport(args: string[] = []): string {
   return execFileSync(
     'npx',
@@ -83,7 +87,7 @@ describe('questions:import against the emulator', () => {
     const snapshot = await getDocs(
       query(collection(anonymous, 'questions'), where('status', '==', 'active')),
     )
-    expect(snapshot.size).toBe(bank.length)
+    expect(snapshot.size).toBe(activeBank.length)
     for (const document of snapshot.docs) {
       expect(typeof document.data().createdAt.toDate).toBe('function')
       expect(toQuestion(document.id, document.data())).not.toBeNull()
@@ -96,7 +100,7 @@ describe('questions:import against the emulator', () => {
     const { mkdtempSync, writeFileSync } = await import('node:fs')
     const { tmpdir } = await import('node:os')
     const dir = mkdtempSync(join(tmpdir(), 'questions-'))
-    const first = bank[0]!
+    const first = activeBank[0]!
     const file = join(dir, '2026-11-16-cambio.json')
     writeFileSync(file, JSON.stringify([{ ...first, status: 'disabled' }]))
 
@@ -107,7 +111,7 @@ describe('questions:import against the emulator', () => {
     const active = await getDocs(
       query(collection(anonymous, 'questions'), where('status', '==', 'active')),
     )
-    expect(active.size).toBe(bank.length - 1) // the disabled one is no longer public
+    expect(active.size).toBe(activeBank.length - 1) // the disabled one is no longer public
   })
 
   it('refuses to run without an explicit project', () => {
