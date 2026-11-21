@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.18.0](https://github.com/gonzaga8200/quiz-game/compare/v0.17.0...v0.18.0) (2026-11-21)
+
+
+### Features
+
+* **questions:** add 196 Lengua e Idiomas questions on Spanish grammar and spelling ([#52](https://github.com/gonzaga8200/quiz-game/issues/52)) ([99f07d5](https://github.com/gonzaga8200/quiz-game/commit/99f07d5717c88f6509f2bcdaf7df8eefc1f3f98f))
+
 ## [0.17.0](https://github.com/gonzaga8200/quiz-game/compare/v0.16.0...v0.17.0) (2026-11-21)
 
 
