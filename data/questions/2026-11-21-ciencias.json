@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "cien-organo-vemos",
+    "text": "¿Con qué órgano vemos?",
+    "options": [
+      "Los ojos",
+      "Las orejas",
+      "La nariz",
+      "Las manos"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los ojos captan la luz y la envían al cerebro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-dedos-mano-normal",
+    "text": "¿Cuántos dedos tiene una mano normal?",
+    "options": [
+      "Cuatro",
+      "Tres",
+      "Seis",
+      "Cinco"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Una mano tiene cinco dedos: pulgar, índice, corazón, anular y meñique.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-oimos",
+    "text": "¿Con qué órgano oímos?",
+    "options": [
+      "Los ojos",
+      "Los codos",
+      "La boca",
+      "Los oídos"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los oídos recogen los sonidos y los transforman en señales nerviosas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-late-dentro-pecho",
+    "text": "¿Qué órgano late dentro del pecho?",
+    "options": [
+      "El pie",
+      "El cerebro",
+      "El estómago",
+      "El corazón"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El corazón está en el centro del pecho, algo inclinado a la izquierda.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organos-respiramos",
+    "text": "¿Con qué órganos respiramos?",
+    "options": [
+      "Las rodillas",
+      "Los pulmones",
+      "Los riñones",
+      "El hígado"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los pulmones toman oxígeno del aire y expulsan dióxido de carbono.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-masticamos-comida",
+    "text": "¿Dónde masticamos la comida?",
+    "options": [
+      "En la oreja",
+      "En la boca",
+      "En la nariz",
+      "En el pie"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La boca tiene los dientes, que trituran la comida.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-une-cabeza-tronco",
+    "text": "¿Qué parte une la cabeza y el tronco?",
+    "options": [
+      "La rodilla",
+      "El tobillo",
+      "El codo",
+      "El cuello"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El cuello sostiene la cabeza y la une al tronco.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ojos-tenemos-normalmente",
+    "text": "¿Cuántos ojos tenemos normalmente?",
+    "options": [
+      "Cuatro",
+      "Uno",
+      "Dos",
+      "Tres"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Tenemos dos ojos, uno a cada lado de la nariz.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-cuerpo-olemos",
+    "text": "¿Con qué parte del cuerpo olemos?",
+    "options": [
+      "La oreja",
+      "La boca",
+      "El dedo",
+      "La nariz"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La nariz detecta los olores del aire.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-doblamos-sentarnos",
+    "text": "¿Qué doblamos para sentarnos?",
+    "options": [
+      "Las rodillas",
+      "Los codos",
+      "Las orejas",
+      "Los dientes"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La rodilla es la articulación que flexiona la pierna.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-cuerpo-caminamos",
+    "text": "¿Con qué parte del cuerpo caminamos?",
+    "options": [
+      "Las piernas",
+      "Las orejas",
+      "Los ojos",
+      "Los brazos"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Las piernas nos permiten andar y correr.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-controla-todo-cuerpo",
+    "text": "¿Qué órgano controla todo el cuerpo?",
+    "options": [
+      "La uña",
+      "El pelo",
+      "El diente",
+      "El cerebro"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El cerebro recibe información y ordena lo que hace el cuerpo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-cuerpo-saboreamos",
+    "text": "¿Con qué parte del cuerpo saboreamos?",
+    "options": [
+      "El codo",
+      "La oreja",
+      "La rodilla",
+      "La lengua"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La lengua tiene papilas con receptores del gusto.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-crece-cabeza-corta",
+    "text": "¿Qué crece en la cabeza y se corta?",
+    "options": [
+      "El pelo",
+      "El talón",
+      "El hígado",
+      "La rodilla"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El pelo crece desde la piel de la cabeza y puede cortarse sin dolor.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-orejas-tenemos",
+    "text": "¿Cuántas orejas tenemos?",
+    "options": [
+      "Cinco",
+      "Una",
+      "Dos",
+      "Tres"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Tenemos dos orejas, una a cada lado de la cabeza.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-forma-nuestro-esqueleto",
+    "text": "¿Qué forma nuestro esqueleto?",
+    "options": [
+      "Los pelos",
+      "Las lágrimas",
+      "Los huesos",
+      "Las uñas"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El esqueleto es el conjunto de huesos que sostiene el cuerpo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nos-cepillamos-despues-comer",
+    "text": "¿Qué nos cepillamos después de comer?",
+    "options": [
+      "Los dientes",
+      "Los ojos",
+      "Los codos",
+      "Las rodillas"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Cepillarse los dientes elimina restos de comida y evita las caries.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cubre-todo-cuerpo-fuera",
+    "text": "¿Qué cubre todo el cuerpo por fuera?",
+    "options": [
+      "El corazón",
+      "El estómago",
+      "El hueso",
+      "La piel"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La piel es la cubierta exterior del cuerpo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-va-comida-tragar",
+    "text": "¿A dónde va la comida al tragar?",
+    "options": [
+      "Al estómago",
+      "A la oreja",
+      "A los ojos",
+      "A la nariz"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Al tragar, la comida baja por el esófago hasta el estómago.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-cuerpo-aplaudimos",
+    "text": "¿Con qué parte del cuerpo aplaudimos?",
+    "options": [
+      "Los pies",
+      "Los ojos",
+      "Las rodillas",
+      "Las manos"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Aplaudimos chocando las palmas de las manos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-bombea-sangre",
+    "text": "¿Qué órgano bombea la sangre?",
+    "options": [
+      "El estómago",
+      "El hígado",
+      "El corazón",
+      "Los pulmones"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El corazón impulsa la sangre por todo el cuerpo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-color-sangre-humana",
+    "text": "¿De qué color es la sangre humana?",
+    "options": [
+      "Amarilla",
+      "Roja",
+      "Azul",
+      "Verde"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La sangre humana es roja por la hemoglobina, que lleva hierro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sentidos-clasicos-tenemos",
+    "text": "¿Cuántos sentidos clásicos tenemos?",
+    "options": [
+      "Diez",
+      "Cinco",
+      "Tres",
+      "Siete"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Los sentidos clásicos son vista, oído, olfato, gusto y tacto.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organos-producen-orina",
+    "text": "¿Qué órganos producen la orina?",
+    "options": [
+      "Los pulmones",
+      "Los riñones",
+      "El hígado",
+      "El corazón"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Los riñones filtran la sangre y producen la orina.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-necesitamos-respirar",
+    "text": "¿Qué gas necesitamos para respirar?",
+    "options": [
+      "Helio",
+      "Neón",
+      "Hidrógeno",
+      "Oxígeno"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El oxígeno del aire es el gas que usan las células para obtener energía.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-hueso-llamado-femur",
+    "text": "¿Dónde está el hueso llamado fémur?",
+    "options": [
+      "En el brazo",
+      "En el pie",
+      "En el muslo",
+      "En la cabeza"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El fémur es el hueso del muslo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-protege-cerebro",
+    "text": "¿Qué hueso protege el cerebro?",
+    "options": [
+      "El cráneo",
+      "La tibia",
+      "La costilla",
+      "El fémur"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El cráneo rodea y protege el cerebro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-dientes-adulto-muelas-juicio",
+    "text": "¿Dientes de un adulto con muelas del juicio?",
+    "options": [
+      "32",
+      "20",
+      "28",
+      "36"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Los adultos con las cuatro muelas del juicio tienen 32 dientes.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-recibe-comida-tragar",
+    "text": "¿Qué órgano recibe la comida al tragar?",
+    "options": [
+      "El estómago",
+      "El cerebro",
+      "El corazón",
+      "Los pulmones"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El estómago recibe la comida que baja por el esófago.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-nunca-latir",
+    "text": "¿Qué músculo no para nunca de latir?",
+    "options": [
+      "El bíceps",
+      "El corazón",
+      "El glúteo",
+      "El tríceps"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El corazón es un músculo que late toda la vida sin descansar.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-huesos-adulto",
+    "text": "¿Cuántos huesos tiene un adulto?",
+    "options": [
+      "306",
+      "56",
+      "106",
+      "206"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Un adulto tiene 206 huesos, aunque un bebé nace con más.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-ojo-deja-entrar",
+    "text": "¿Qué parte del ojo deja entrar la luz?",
+    "options": [
+      "La pestaña",
+      "El párpado",
+      "La pupila",
+      "La ceja"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La pupila es el orificio del iris por donde entra la luz.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vitamina-produce-piel-sol",
+    "text": "¿Qué vitamina produce la piel con el sol?",
+    "options": [
+      "La K",
+      "La A",
+      "La C",
+      "La D"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La piel fabrica vitamina D cuando recibe luz solar ultravioleta B.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mineral-fortalece-huesos",
+    "text": "¿Qué mineral fortalece los huesos?",
+    "options": [
+      "El sodio",
+      "El cobre",
+      "El calcio",
+      "El yodo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El calcio es el mineral principal de huesos y dientes.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-grande-cuerpo",
+    "text": "¿Cuál es el órgano más grande del cuerpo?",
+    "options": [
+      "El corazón",
+      "La piel",
+      "El hígado",
+      "El cerebro"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La piel es el órgano más grande, en superficie y en peso.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tubo-lleva-aire-pulmones",
+    "text": "¿Qué tubo lleva el aire a los pulmones?",
+    "options": [
+      "La vejiga",
+      "El intestino",
+      "El esófago",
+      "La tráquea"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La tráquea conduce el aire desde la laringe hasta los bronquios.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-baja-comida-estomago",
+    "text": "¿Por dónde baja la comida al estómago?",
+    "options": [
+      "El esófago",
+      "El uréter",
+      "La vena cava",
+      "La tráquea"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El esófago es el tubo muscular que va de la faringe al estómago.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celulas-sangre-combaten-infecciones",
+    "text": "¿Qué células de la sangre combaten infecciones?",
+    "options": [
+      "Plaquetas",
+      "Glóbulos rojos",
+      "Neuronas",
+      "Glóbulos blancos"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Los glóbulos blancos (leucocitos) forman parte del sistema inmunitario.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sentido-usamos-lengua",
+    "text": "¿Qué sentido usamos con la lengua?",
+    "options": [
+      "El oído",
+      "La vista",
+      "El gusto",
+      "El olfato"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El gusto reside en las papilas gustativas de la lengua.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-rotula",
+    "text": "¿Dónde está la rótula?",
+    "options": [
+      "En el hombro",
+      "En la rodilla",
+      "En el codo",
+      "En el tobillo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La rótula es el hueso que protege la parte delantera de la rodilla.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-interno-grande",
+    "text": "¿Cuál es el órgano interno más grande?",
+    "options": [
+      "El hígado",
+      "El cerebro",
+      "Los pulmones",
+      "El bazo"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El hígado pesa alrededor de 1,5 kg, más que ningún otro órgano interno.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-baja-azucar-sangre",
+    "text": "¿Qué hormona baja el azúcar en sangre?",
+    "options": [
+      "Adrenalina",
+      "Insulina",
+      "Melatonina",
+      "Tiroxina"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La insulina hace que las células absorban glucosa y baja su nivel en sangre.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-produce-insulina",
+    "text": "¿Qué órgano produce la insulina?",
+    "options": [
+      "El bazo",
+      "El hígado",
+      "El páncreas",
+      "El timo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El páncreas fabrica insulina en los islotes de Langerhans.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cavidades-corazon",
+    "text": "¿Cuántas cavidades tiene el corazón?",
+    "options": [
+      "Cinco",
+      "Tres",
+      "Dos",
+      "Cuatro"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El corazón tiene dos aurículas y dos ventrículos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-largo-cuerpo",
+    "text": "¿Cuál es el hueso más largo del cuerpo?",
+    "options": [
+      "El fémur",
+      "El peroné",
+      "El húmero",
+      "La tibia"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El fémur es el hueso más largo y fuerte del cuerpo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-grande",
+    "text": "¿Cuál es el músculo más grande?",
+    "options": [
+      "Deltoides",
+      "Sóleo",
+      "Bíceps braquial",
+      "Glúteo mayor"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El glúteo mayor es el músculo de mayor volumen.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vitamina-previene-escorbuto",
+    "text": "¿Qué vitamina previene el escorbuto?",
+    "options": [
+      "Vitamina A",
+      "Vitamina D",
+      "Vitamina B12",
+      "Vitamina C"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La falta de vitamina C causa escorbuto, con encías sangrantes y debilidad.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-donante-universal-globulos-rojos",
+    "text": "¿Donante universal de glóbulos rojos?",
+    "options": [
+      "B negativo",
+      "AB positivo",
+      "A positivo",
+      "O negativo"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El grupo O negativo no tiene antígenos A, B ni Rh en sus glóbulos rojos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-receptor-universal-globulos-rojos",
+    "text": "¿Receptor universal de glóbulos rojos?",
+    "options": [
+      "AB positivo",
+      "A negativo",
+      "O negativo",
+      "B positivo"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "AB positivo carece de anticuerpos anti-A, anti-B y anti-Rh, y acepta cualquier grupo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-transporta-hemoglobina",
+    "text": "¿Qué transporta la hemoglobina?",
+    "options": [
+      "Oxígeno",
+      "Glucosa",
+      "Hormonas",
+      "Anticuerpos"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La hemoglobina de los glóbulos rojos lleva oxígeno de los pulmones a los tejidos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-forma-sangre-adultos",
+    "text": "¿Dónde se forma la sangre en adultos?",
+    "options": [
+      "Médula ósea",
+      "Estómago",
+      "Hígado",
+      "Riñón"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En adultos, la médula ósea roja fabrica las células de la sangre.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-almacena-bilis",
+    "text": "¿Qué órgano almacena la bilis?",
+    "options": [
+      "Páncreas",
+      "Vesícula biliar",
+      "Riñón",
+      "Bazo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La vesícula guarda la bilis que produce el hígado.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-ojo-conos-bastones",
+    "text": "¿Qué parte del ojo tiene conos y bastones?",
+    "options": [
+      "El cristalino",
+      "La retina",
+      "El iris",
+      "La córnea"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La retina contiene los fotorreceptores: conos (color) y bastones (poca luz).",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-ojo-da-color",
+    "text": "¿Qué parte del ojo da su color?",
+    "options": [
+      "La pupila",
+      "El iris",
+      "La retina",
+      "La esclerótica"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El iris contiene el pigmento que da color al ojo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-huesecillo-oido",
+    "text": "¿Cuál es un huesecillo del oído?",
+    "options": [
+      "El radio",
+      "El estribo",
+      "El cúbito",
+      "El peroné"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Martillo, yunque y estribo son los tres huesecillos del oído medio.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-oido-controla-equilibrio",
+    "text": "¿Qué parte del oído controla el equilibrio?",
+    "options": [
+      "El tímpano",
+      "El pabellón",
+      "Canales semicirculares",
+      "El martillo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los canales semicirculares detectan los giros de la cabeza.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sustancia-asocia-recompensa",
+    "text": "¿Qué sustancia se asocia a la recompensa?",
+    "options": [
+      "Hemoglobina",
+      "Tiroxina",
+      "Insulina",
+      "Dopamina"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La dopamina interviene en la motivación y el circuito de recompensa.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-regula-sueno-vigilia",
+    "text": "¿Qué hormona regula el sueño-vigilia?",
+    "options": [
+      "Insulina",
+      "Melatonina",
+      "Tiroxina",
+      "Cortisol"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La melatonina, de la glándula pineal, aumenta de noche y favorece el sueño.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-glandula-cuello-regula-metabolismo",
+    "text": "¿Qué glándula del cuello regula el metabolismo?",
+    "options": [
+      "La pineal",
+      "La tiroides",
+      "El timo",
+      "La hipófisis"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La tiroides produce hormonas que regulan el metabolismo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-esta-humero",
+    "text": "¿En qué parte está el húmero?",
+    "options": [
+      "En el brazo",
+      "En la pierna",
+      "En la pelvis",
+      "En el muslo"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El húmero es el hueso largo entre el hombro y el codo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-separa-torax-abdomen",
+    "text": "¿Qué músculo separa tórax y abdomen?",
+    "options": [
+      "El esternón",
+      "El pectoral",
+      "El psoas",
+      "El diafragma"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El diafragma es el músculo principal de la respiración y separa tórax y abdomen.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-intercambian-gases",
+    "text": "¿Dónde se intercambian los gases?",
+    "options": [
+      "En los bronquios",
+      "En la laringe",
+      "En los alvéolos",
+      "En la tráquea"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El intercambio de oxígeno y CO₂ ocurre en los alvéolos pulmonares.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-absorben-nutrientes",
+    "text": "¿Dónde se absorben más nutrientes?",
+    "options": [
+      "Estómago",
+      "Intestino delgado",
+      "Intestino grueso",
+      "Esófago"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El intestino delgado absorbe la mayor parte de los nutrientes.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-absorbe-sobre-todo-intestino",
+    "text": "¿Qué absorbe sobre todo el intestino grueso?",
+    "options": [
+      "Grasas",
+      "Azúcares",
+      "Proteínas",
+      "Agua y sales"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El intestino grueso reabsorbe agua y electrolitos y forma las heces.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-enzima-saliva-digiere-almidon",
+    "text": "¿Enzima de la saliva que digiere almidón?",
+    "options": [
+      "Lipasa",
+      "Pepsina",
+      "Amilasa",
+      "Tripsina"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La amilasa salival empieza a romper el almidón en azúcares.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-acido-contiene-jugo-gastrico",
+    "text": "¿Qué ácido contiene el jugo gástrico?",
+    "options": [
+      "Sulfúrico",
+      "Nítrico",
+      "Clorhídrico",
+      "Acético"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El ácido clorhídrico del estómago ayuda a digerir y mata microbios.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-litros-sangre-adulto-aprox",
+    "text": "¿Litros de sangre de un adulto, aprox.?",
+    "options": [
+      "Cinco",
+      "Quince",
+      "Dos",
+      "Diez"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Un adulto tiene entre 4,5 y 5,5 litros de sangre.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vitamina-ayuda-coagular-sangre",
+    "text": "¿Qué vitamina ayuda a coagular la sangre?",
+    "options": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina A",
+      "Vitamina K"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La vitamina K es necesaria para fabricar varios factores de coagulación.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-carencia-causa-anemia-frecuente",
+    "text": "¿Qué carencia causa anemia frecuente?",
+    "options": [
+      "Calcio",
+      "Yodo",
+      "Hierro",
+      "Sodio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La falta de hierro impide formar suficiente hemoglobina y causa anemia ferropénica.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-provoca-falta-yodo",
+    "text": "¿Qué provoca la falta de yodo?",
+    "options": [
+      "Escorbuto",
+      "Beriberi",
+      "Bocio",
+      "Raquitismo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Sin yodo la tiroides no fabrica sus hormonas y puede crecer, dando bocio.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-carencia-causa-raquitismo",
+    "text": "¿Qué carencia causa raquitismo?",
+    "options": [
+      "Vitamina K",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B1"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Sin vitamina D los huesos de los niños no se mineralizan bien: raquitismo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-principal-fuente-energia-cerebro",
+    "text": "¿Principal fuente de energía del cerebro?",
+    "options": [
+      "Colesterol",
+      "Glucosa",
+      "Calcio",
+      "Hierro"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El cerebro usa sobre todo glucosa como combustible.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-proteina-forma-pelo",
+    "text": "¿Qué proteína forma pelo y uñas?",
+    "options": [
+      "Queratina",
+      "Hemoglobina",
+      "Insulina",
+      "Colágeno"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La queratina es la proteína estructural del pelo y las uñas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-proteina-abundante",
+    "text": "¿Qué proteína es la más abundante?",
+    "options": [
+      "Colágeno",
+      "Queratina",
+      "Insulina",
+      "Hemoglobina"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El colágeno es la proteína más abundante, sobre todo en piel, huesos y tendones.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-pares-costillas-tenemos",
+    "text": "¿Cuántos pares de costillas tenemos?",
+    "options": [
+      "24",
+      "12",
+      "10",
+      "14"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Hay 12 pares de costillas, 24 en total.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vertebras-cervicales",
+    "text": "¿Cuántas vértebras cervicales hay?",
+    "options": [
+      "Cinco",
+      "Nueve",
+      "Siete",
+      "Doce"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Hay siete vértebras cervicales (C1 a C7).",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-forma-barbilla",
+    "text": "¿Qué hueso forma la barbilla?",
+    "options": [
+      "La mandíbula",
+      "El esternón",
+      "El maxilar",
+      "La clavícula"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La mandíbula es el hueso móvil que forma la barbilla.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-huesos-antebrazo",
+    "text": "¿Qué huesos tiene el antebrazo?",
+    "options": [
+      "Tibia y peroné",
+      "Radio y cúbito",
+      "Húmero y fémur",
+      "Escápula y clavícula"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El antebrazo tiene dos huesos: radio y cúbito.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-huesos-pierna-bajo-rodilla",
+    "text": "¿Qué huesos tiene la pierna bajo la rodilla?",
+    "options": [
+      "Húmero y radio",
+      "Fémur y rótula",
+      "Radio y cúbito",
+      "Tibia y peroné"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Bajo la rodilla están la tibia y el peroné.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-tendon-aquiles",
+    "text": "¿Dónde está el tendón de Aquiles?",
+    "options": [
+      "En el hombro",
+      "En el codo",
+      "En el talón",
+      "En la muñeca"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El tendón de Aquiles une los músculos de la pantorrilla con el talón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-pequeno",
+    "text": "¿Cuál es el hueso más pequeño?",
+    "options": [
+      "La rótula",
+      "El esternón",
+      "El hioides",
+      "El estribo"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El estribo, en el oído medio, mide unos 3 mm.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nervio-grueso-cuerpo",
+    "text": "¿Cuál es el nervio más grueso del cuerpo?",
+    "options": [
+      "El radial",
+      "El cubital",
+      "El vago",
+      "El ciático"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El nervio ciático es el más grueso y largo, con hasta 2 cm de ancho.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-pares-cromosomas-persona",
+    "text": "¿Pares de cromosomas de una persona?",
+    "options": [
+      "24",
+      "23",
+      "46",
+      "22"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Cada célula tiene 46 cromosomas, es decir, 23 pares.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-molecula-guarda-herencia",
+    "text": "¿Qué molécula guarda la herencia?",
+    "options": [
+      "ATP",
+      "Glucosa",
+      "Insulina",
+      "ADN"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El ADN contiene la información genética.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-celula-nerviosa",
+    "text": "¿Cómo se llama la célula nerviosa?",
+    "options": [
+      "Neurona",
+      "Adipocito",
+      "Osteocito",
+      "Hematíe"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La neurona es la célula especializada del sistema nervioso.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celulas-fabrican-anticuerpos",
+    "text": "¿Qué células fabrican anticuerpos?",
+    "options": [
+      "Hematíes",
+      "Plaquetas",
+      "Linfocitos B",
+      "Osteoblastos"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los linfocitos B, ya como células plasmáticas, producen anticuerpos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-maduran-linfocitos",
+    "text": "¿Dónde maduran los linfocitos T?",
+    "options": [
+      "En el bazo",
+      "En el riñón",
+      "En el timo",
+      "En el hígado"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los linfocitos T se forman en la médula ósea y maduran en el timo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-retira-globulos-rojos",
+    "text": "¿Qué órgano retira glóbulos rojos viejos?",
+    "options": [
+      "El páncreas",
+      "El timo",
+      "El bazo",
+      "La vesícula"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El bazo filtra la sangre y retira glóbulos rojos envejecidos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mayor-arteria-cuerpo",
+    "text": "¿Cuál es la mayor arteria del cuerpo?",
+    "options": [
+      "La pulmonar",
+      "La femoral",
+      "La aorta",
+      "La carótida"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La aorta sale del ventrículo izquierdo y es la arteria de mayor calibre.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vasos-devuelven-sangre-corazon",
+    "text": "¿Qué vasos devuelven sangre al corazón?",
+    "options": [
+      "Los capilares",
+      "Las arterias",
+      "Los bronquios",
+      "Las venas"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Las venas llevan la sangre de vuelta al corazón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vasos-finos",
+    "text": "¿Cuáles son los vasos más finos?",
+    "options": [
+      "Los capilares",
+      "Las arterias",
+      "Las aortas",
+      "Las venas"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los capilares tienen una pared de una célula y permiten el intercambio con los tejidos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-pulso-normal-adulto-reposo",
+    "text": "¿Pulso normal de un adulto en reposo?",
+    "options": [
+      "60-100 lpm",
+      "120-160 lpm",
+      "20-40 lpm",
+      "150-200 lpm"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El rango normal en reposo es de 60 a 100 latidos por minuto.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-temperatura-corporal-normal",
+    "text": "¿Temperatura corporal normal?",
+    "options": [
+      "34 °C",
+      "39 °C",
+      "41 °C",
+      "36,5-37 °C"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La temperatura normal ronda los 36,5-37 °C.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cuerpo-adulto-agua",
+    "text": "¿Qué % del cuerpo adulto es agua?",
+    "options": [
+      "Alrededor del 60 %",
+      "Alrededor del 35 %",
+      "Alrededor del 20 %",
+      "Alrededor del 90 %"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El agua supone alrededor del 60 % del peso de un adulto.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-produce-bilis",
+    "text": "¿Qué órgano produce la bilis?",
+    "options": [
+      "El hígado",
+      "El bazo",
+      "El riñón",
+      "El páncreas"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El hígado produce la bilis, que ayuda a digerir las grasas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-unidad-funcional-rinon",
+    "text": "¿Unidad funcional del riñón?",
+    "options": [
+      "Sarcómero",
+      "Nefrona",
+      "Alvéolo",
+      "Neurona"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La nefrona filtra la sangre y forma la orina; cada riñón tiene alrededor de un millón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-flexiona-codo",
+    "text": "¿Qué músculo flexiona el codo?",
+    "options": [
+      "Tríceps",
+      "Deltoides",
+      "Bíceps braquial",
+      "Trapecio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El bíceps braquial flexiona el codo y supina el antebrazo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-lucha-huida",
+    "text": "¿Hormona de «lucha o huida»?",
+    "options": [
+      "Insulina",
+      "Adrenalina",
+      "Oxitocina",
+      "Melatonina"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La adrenalina prepara al cuerpo para huir o enfrentarse al peligro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-favorece-parto",
+    "text": "¿Qué hormona favorece el parto?",
+    "options": [
+      "Tiroxina",
+      "Oxitocina",
+      "Insulina",
+      "Melatonina"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La oxitocina provoca contracciones uterinas durante el parto.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-produce-testosterona",
+    "text": "¿Dónde se produce la testosterona?",
+    "options": [
+      "En el hígado",
+      "En la próstata",
+      "En el riñón",
+      "En los testículos"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los testículos producen la mayor parte de la testosterona.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-semanas-embarazo-termino",
+    "text": "¿Semanas de un embarazo a término?",
+    "options": [
+      "40",
+      "50",
+      "20",
+      "30"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El embarazo a término dura unas 40 semanas desde la última regla.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-nutre-feto",
+    "text": "¿Qué órgano nutre al feto?",
+    "options": [
+      "La placenta",
+      "El ovario",
+      "La trompa",
+      "La vagina"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La placenta aporta oxígeno y nutrientes al feto y retira sus desechos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sentido-pierde-anosmia",
+    "text": "¿Qué sentido pierde quien tiene anosmia?",
+    "options": [
+      "El olfato",
+      "La vista",
+      "El gusto",
+      "El oído"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Anosmia significa perder el sentido del olfato.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ve-mal-miopia",
+    "text": "¿Qué se ve mal en la miopía?",
+    "options": [
+      "Los colores",
+      "Lo lejano",
+      "Lo nocturno",
+      "Lo cercano"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En la miopía las imágenes lejanas se enfocan delante de la retina y salen borrosas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-afecta-daltonismo",
+    "text": "¿Qué afecta el daltonismo?",
+    "options": [
+      "El olfato",
+      "El oído",
+      "La visión de colores",
+      "El equilibrio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El daltonismo es una dificultad para distinguir ciertos colores.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-cerebro-coordina-movimiento",
+    "text": "¿Qué parte del cerebro coordina el movimiento?",
+    "options": [
+      "El cerebelo",
+      "El bulbo",
+      "El tálamo",
+      "La hipófisis"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El cerebelo coordina el movimiento y el equilibrio.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-lobulo-cerebral-procesa-vision",
+    "text": "¿Qué lóbulo cerebral procesa la visión?",
+    "options": [
+      "Temporal",
+      "Parietal",
+      "Occipital",
+      "Frontal"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La corteza visual está en el lóbulo occipital, en la parte posterior.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-estructura-une-ambos-hemisferios",
+    "text": "¿Qué estructura une ambos hemisferios?",
+    "options": [
+      "Cerebelo",
+      "Hipocampo",
+      "Bulbo raquídeo",
+      "Cuerpo calloso"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El cuerpo calloso conecta los dos hemisferios cerebrales.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-registra-electrocardiograma",
+    "text": "¿Qué registra un electrocardiograma?",
+    "options": [
+      "Presión arterial",
+      "Actividad eléctrica del corazón",
+      "Glucosa",
+      "Colesterol"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El ECG registra los impulsos eléctricos que hacen latir el corazón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mide-tensiometro",
+    "text": "¿Qué mide un tensiómetro?",
+    "options": [
+      "El pulso ocular",
+      "La temperatura",
+      "La glucosa",
+      "La presión arterial"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El tensiómetro mide la presión de la sangre sobre las arterias.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-valvula-entre-auricula-ventriculo",
+    "text": "¿Válvula entre aurícula y ventrículo izquierdos?",
+    "options": [
+      "Aórtica",
+      "Tricúspide",
+      "Pulmonar",
+      "Mitral"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La válvula mitral, o bicúspide, está entre aurícula y ventrículo izquierdos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-conducto-lleva-orina-vejiga",
+    "text": "¿Qué conducto lleva la orina a la vejiga?",
+    "options": [
+      "El uréter",
+      "La uretra",
+      "El colédoco",
+      "El esófago"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los uréteres llevan la orina de cada riñón a la vejiga.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-conducto-expulsa-orina-exterior",
+    "text": "¿Qué conducto expulsa la orina al exterior?",
+    "options": [
+      "El uréter",
+      "La uretra",
+      "El colédoco",
+      "El esófago"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La uretra saca la orina de la vejiga al exterior.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-capa-externa-piel",
+    "text": "¿Capa más externa de la piel?",
+    "options": [
+      "Dermis",
+      "Hipodermis",
+      "Fascia",
+      "Epidermis"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La epidermis es la capa superficial; bajo ella está la dermis.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-pigmento-da-color-piel",
+    "text": "¿Qué pigmento da color a la piel?",
+    "options": [
+      "Hemoglobina",
+      "Queratina",
+      "Melanina",
+      "Colágeno"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La melanina, producida por los melanocitos, da el color a la piel.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-glandulas-producen-sudor",
+    "text": "¿Qué glándulas producen el sudor?",
+    "options": [
+      "Salivales",
+      "Tiroides",
+      "Sudoríparas",
+      "Sebáceas"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Las glándulas sudoríparas liberan sudor para enfriar el cuerpo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-duele-apendicitis-tipica",
+    "text": "¿Dónde duele la apendicitis típica?",
+    "options": [
+      "Abdomen superior izquierdo",
+      "Abdomen inferior izquierdo",
+      "Abdomen inferior derecho",
+      "Abdomen superior derecho"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La apendicitis suele doler en la fosa ilíaca derecha, abajo a la derecha.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-lobulos-pulmon-derecho",
+    "text": "¿Cuántos lóbulos tiene el pulmón derecho?",
+    "options": [
+      "Tres",
+      "Cinco",
+      "Cuatro",
+      "Dos"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El pulmón derecho tiene tres lóbulos; el izquierdo, dos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-horas-sueno-recomendadas-adulto",
+    "text": "¿Horas de sueño recomendadas a un adulto?",
+    "options": [
+      "7-9",
+      "5",
+      "10-12",
+      "3-4"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los adultos necesitan por lo general entre 7 y 9 horas de sueño.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-colesterol-llama-bueno",
+    "text": "¿Qué colesterol se llama «bueno»?",
+    "options": [
+      "LDL",
+      "VLDL",
+      "Triglicéridos",
+      "HDL"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El HDL transporta colesterol de los tejidos al hígado, por eso se llama bueno.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sube-diabetes",
+    "text": "¿Qué sube en la diabetes?",
+    "options": [
+      "Hierro",
+      "Sodio",
+      "Calcio",
+      "Glucosa en sangre"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En la diabetes la glucosa en sangre está elevada.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-debilita-osteoporosis",
+    "text": "¿Qué debilita la osteoporosis?",
+    "options": [
+      "Los huesos",
+      "Los riñones",
+      "Los pulmones",
+      "Los nervios"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La osteoporosis reduce la densidad ósea y aumenta el riesgo de fracturas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vitamina-ayuda-vision-nocturna",
+    "text": "¿Qué vitamina ayuda a la visión nocturna?",
+    "options": [
+      "Vitamina B12",
+      "Vitamina E",
+      "Vitamina C",
+      "Vitamina A"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La vitamina A es necesaria para la rodopsina de los bastones.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-irrigan-arterias-coronarias",
+    "text": "¿Qué irrigan las arterias coronarias?",
+    "options": [
+      "Los riñones",
+      "El corazón",
+      "El hígado",
+      "El cerebro"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Las coronarias llevan sangre al músculo del corazón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-dana-principalmente-ictus",
+    "text": "¿Qué órgano daña principalmente un ictus?",
+    "options": [
+      "El riñón",
+      "El pulmón",
+      "El hígado",
+      "El cerebro"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El ictus es una lesión del cerebro por falta de riego o por hemorragia.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ph-normal-sangre",
+    "text": "¿Cuál es el pH normal de la sangre?",
+    "options": [
+      "5,0",
+      "9,0",
+      "7,4",
+      "3,5"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El pH sanguíneo normal está entre 7,35 y 7,45.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-dientes-leche-nino",
+    "text": "¿Cuántos dientes de leche tiene un niño?",
+    "options": [
+      "20",
+      "32",
+      "28",
+      "24"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los niños tienen 20 dientes de leche.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tejido-duro-cuerpo",
+    "text": "¿Tejido más duro del cuerpo?",
+    "options": [
+      "Fémur",
+      "Esmalte dental",
+      "Cartílago",
+      "Cráneo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El esmalte es el tejido más duro, por su gran contenido en minerales.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nervio-comprime-tunel-carpiano",
+    "text": "¿Qué nervio se comprime en el túnel carpiano?",
+    "options": [
+      "Radial",
+      "Cubital",
+      "Mediano",
+      "Axilar"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El nervio mediano pasa por el túnel carpiano de la muñeca.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-estimula-leche-materna",
+    "text": "¿Qué hormona estimula la leche materna?",
+    "options": [
+      "Prolactina",
+      "Insulina",
+      "Oxitocina",
+      "Progesterona"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La prolactina de la hipófisis estimula la producción de leche.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-enzima-digiere-lactosa",
+    "text": "¿Qué enzima digiere la lactosa?",
+    "options": [
+      "Sacarasa",
+      "Lactasa",
+      "Amilasa",
+      "Maltasa"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La lactasa del intestino delgado rompe la lactosa en glucosa y galactosa.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vena-lleva-sangre-oxigenada",
+    "text": "¿Qué vena lleva sangre oxigenada?",
+    "options": [
+      "Vena cava",
+      "Vena pulmonar",
+      "Vena porta",
+      "Vena safena"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La vena pulmonar lleva sangre oxigenada de los pulmones a la aurícula izquierda.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vena-lleva-sangre-intestino",
+    "text": "¿Qué vena lleva sangre del intestino al hígado?",
+    "options": [
+      "Vena porta",
+      "Vena cava",
+      "Vena yugular",
+      "Vena renal"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La vena porta lleva sangre del intestino al hígado.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celula-osea-destruye-hueso",
+    "text": "¿Qué célula ósea destruye el hueso?",
+    "options": [
+      "Osteoclasto",
+      "Condrocito",
+      "Osteoblasto",
+      "Osteocito"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Los osteoclastos reabsorben el tejido óseo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sabor-basico",
+    "text": "¿Cuál NO es un sabor básico?",
+    "options": [
+      "Amargo",
+      "Umami",
+      "Ácido",
+      "Picante"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El picante es una sensación de dolor, no un sabor.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-pares-nervios-craneales",
+    "text": "¿Cuántos pares de nervios craneales hay?",
+    "options": [
+      "14",
+      "8",
+      "12",
+      "10"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Hay 12 pares de nervios craneales.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-glandula-llama-maestra",
+    "text": "¿Qué glándula se llama «maestra»?",
+    "options": [
+      "La tiroides",
+      "La hipófisis",
+      "La pineal",
+      "El timo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La hipófisis controla a otras glándulas mediante sus hormonas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-une-esternon-hombro",
+    "text": "¿Qué hueso une esternón y hombro?",
+    "options": [
+      "La costilla",
+      "El húmero",
+      "La clavícula",
+      "La escápula"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La clavícula conecta el esternón con el hombro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celulas-ayudan-coagular-sangre",
+    "text": "¿Qué células ayudan a coagular la sangre?",
+    "options": [
+      "Monocitos",
+      "Hematíes",
+      "Plaquetas",
+      "Linfocitos"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Las plaquetas forman el tapón inicial en una hemorragia.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-talon",
+    "text": "¿Cuál es el hueso del talón?",
+    "options": [
+      "Escafoides",
+      "Astrágalo",
+      "Calcáneo",
+      "Cuboides"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El calcáneo es el hueso más grande del pie y forma el talón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nervio-vago-par-craneal",
+    "text": "El nervio vago es el par craneal número...",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "9"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El vago es el par craneal X, y se extiende por tórax y abdomen.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nervio-abducens-par-craneal",
+    "text": "El nervio abducens es el par craneal...",
+    "options": [
+      "III",
+      "VI",
+      "VII",
+      "IV"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El abducens (VI) mueve el ojo hacia fuera.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-hipofisaria-concentra-orina",
+    "text": "¿Hormona hipofisaria que concentra la orina?",
+    "options": [
+      "Vasopresina",
+      "TSH",
+      "Prolactina",
+      "Insulina"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La vasopresina (ADH) hace que el riñón reabsorba agua y concentre la orina.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celulas-forman-mielina-cerebro",
+    "text": "¿Qué células forman mielina en el cerebro?",
+    "options": [
+      "Astrocitos",
+      "Oligodendrocitos",
+      "Células de Schwann",
+      "Microglía"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Los oligodendrocitos envuelven los axones del sistema nervioso central con mielina.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-neurotransmisor-falta-parkinson",
+    "text": "¿Qué neurotransmisor falta en el Parkinson?",
+    "options": [
+      "Histamina",
+      "GABA",
+      "Glutamato",
+      "Dopamina"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El Parkinson se debe a la pérdida de neuronas dopaminérgicas de la sustancia negra.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-principal-ion-dentro-celulas",
+    "text": "¿Principal ion dentro de las células?",
+    "options": [
+      "Calcio",
+      "Potasio",
+      "Sodio",
+      "Cloro"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El potasio es el catión principal dentro de las células.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-principal-ion-fuera-celulas",
+    "text": "¿Principal ion fuera de las células?",
+    "options": [
+      "Magnesio",
+      "Fosfato",
+      "Sodio",
+      "Potasio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El sodio es el catión principal del líquido extracelular.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-eleva-calcio-sangre",
+    "text": "¿Qué hormona eleva el calcio en sangre?",
+    "options": [
+      "Insulina",
+      "Oxitocina",
+      "Calcitonina",
+      "Paratohormona"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La paratohormona sube el calcio al liberarlo del hueso y retenerlo en el riñón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-produce-corteza-suprarrenal",
+    "text": "¿Qué hormona produce la corteza suprarrenal?",
+    "options": [
+      "Cortisol",
+      "Glucagón",
+      "Adrenalina",
+      "Insulina"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La corteza suprarrenal produce cortisol; la adrenalina viene de la médula.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celulas-pancreaticas-producen-glucagon",
+    "text": "¿Qué células pancreáticas producen glucagón?",
+    "options": [
+      "Células beta",
+      "Células épsilon",
+      "Células alfa",
+      "Células delta"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Las células alfa de los islotes pancreáticos secretan glucagón.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-estimula-acido-gastrico",
+    "text": "¿Qué hormona estimula el ácido gástrico?",
+    "options": [
+      "Colecistoquinina",
+      "Gastrina",
+      "Somatostatina",
+      "Secretina"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La gastrina, de células G del estómago, estimula la secreción de ácido.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-contrae-vesicula-biliar",
+    "text": "¿Qué hormona contrae la vesícula biliar?",
+    "options": [
+      "Secretina",
+      "Gastrina",
+      "Colecistoquinina",
+      "Insulina"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La colecistoquinina hace contraer la vesícula y liberar bilis.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-organo-produce-eritropoyetina",
+    "text": "¿Qué órgano produce más eritropoyetina?",
+    "options": [
+      "El bazo",
+      "El timo",
+      "El riñón",
+      "El hígado"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El riñón produce la mayor parte de la eritropoyetina del adulto.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hemofilia-deficit-factor",
+    "text": "La hemofilia A es un déficit del factor...",
+    "options": [
+      "IX",
+      "XII",
+      "VII",
+      "VIII"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La hemofilia A se debe a la falta del factor VIII de coagulación.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-globulo-blanco-abundante",
+    "text": "¿Glóbulo blanco más abundante?",
+    "options": [
+      "Monocito",
+      "Eosinófilo",
+      "Linfocito",
+      "Neutrófilo"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Los neutrófilos suponen entre el 50 y el 70 % de los leucocitos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-inmunoglobulina-abundante",
+    "text": "¿Qué inmunoglobulina es la más abundante?",
+    "options": [
+      "IgG",
+      "IgA",
+      "IgE",
+      "IgM"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La IgG es la inmunoglobulina más abundante en la sangre.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-inmunoglobulina-interviene-alergias",
+    "text": "¿Qué inmunoglobulina interviene en alergias?",
+    "options": [
+      "IgG",
+      "IgE",
+      "IgM",
+      "IgD"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La IgE se une a mastocitos y desencadena la reacción alérgica.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-antigeno-define-rh-positivo",
+    "text": "¿Qué antígeno define el Rh positivo?",
+    "options": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El Rh positivo significa tener el antígeno D en los glóbulos rojos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-nodulo-sinusal",
+    "text": "¿Dónde está el nódulo sinusal?",
+    "options": [
+      "Ventrículo izquierdo",
+      "Septo interventricular",
+      "Aurícula derecha",
+      "Aurícula izquierda"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El nódulo sinusal, marcapasos natural, está en la aurícula derecha.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-onda-ecg-ventricular",
+    "text": "¿Qué onda del ECG es la ventricular?",
+    "options": [
+      "Onda U",
+      "Complejo QRS",
+      "Onda P",
+      "Onda T"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El complejo QRS refleja la despolarización de los ventrículos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-arteria-nacen-coronarias",
+    "text": "¿De qué arteria nacen las coronarias?",
+    "options": [
+      "Carótida",
+      "Arteria pulmonar",
+      "Aorta",
+      "Subclavia"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Las coronarias salen de la raíz de la aorta.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-circulo-willis",
+    "text": "¿Dónde está el círculo de Willis?",
+    "options": [
+      "En el corazón",
+      "En la pelvis",
+      "En el cerebro",
+      "En el riñón"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El polígono de Willis es una red de arterias en la base del cerebro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-carpo-fractura",
+    "text": "¿Hueso del carpo que más se fractura?",
+    "options": [
+      "Piramidal",
+      "Pisiforme",
+      "Ganchoso",
+      "Escafoides"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El escafoides es el hueso del carpo que más se rompe, por caídas sobre la mano.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vertebra-atlas",
+    "text": "¿Qué vértebra es el atlas?",
+    "options": [
+      "C7",
+      "T1",
+      "C2",
+      "C1"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El atlas es la primera vértebra cervical y sostiene el cráneo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-manguito-rotador",
+    "text": "¿Músculo del manguito rotador?",
+    "options": [
+      "Pectoral mayor",
+      "Dorsal ancho",
+      "Deltoides",
+      "Supraespinoso"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El manguito rotador lo forman supraespinoso, infraespinoso, redondo menor y subescapular.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nervio-hueso-risa",
+    "text": "¿Qué nervio es el «hueso de la risa»?",
+    "options": [
+      "Cubital",
+      "Mediano",
+      "Ciático",
+      "Radial"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El «hueso de la risa» es el nervio cubital a su paso por el codo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-pequeno",
+    "text": "¿Cuál es el músculo más pequeño?",
+    "options": [
+      "Estapedio",
+      "Platisma",
+      "Sartorio",
+      "Masetero"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El estapedio, en el oído medio, es el músculo más pequeño.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-largo",
+    "text": "¿Cuál es el músculo más largo?",
+    "options": [
+      "Psoas",
+      "Gastrocnemio",
+      "Recto femoral",
+      "Sartorio"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El sartorio, del muslo, es el músculo más largo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-capas-epidermis-piel-gruesa",
+    "text": "¿Capas de la epidermis de piel gruesa?",
+    "options": [
+      "Tres",
+      "Cinco",
+      "Seis",
+      "Cuatro"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La piel gruesa tiene cinco capas: basal, espinosa, granulosa, lúcida y córnea.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-celulas-piel-presentan-antigenos",
+    "text": "¿Qué células de la piel presentan antígenos?",
+    "options": [
+      "De Langerhans",
+      "De Merkel",
+      "Queratinocitos",
+      "Melanocitos"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Las células de Langerhans captan antígenos y los presentan a linfocitos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-corpusculos-notan-presion-vibracion",
+    "text": "¿Qué corpúsculos notan presión y vibración?",
+    "options": [
+      "De Meissner",
+      "De Pacini",
+      "De Krause",
+      "De Ruffini"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Los corpúsculos de Pacini son receptores de presión profunda y vibración.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-reduce-tension-alveolar",
+    "text": "¿Qué reduce la tensión alveolar?",
+    "options": [
+      "Mucina",
+      "Surfactante",
+      "Queratina",
+      "Bilis"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El surfactante rebaja la tensión superficial y evita que los alvéolos colapsen.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cartilago-forma-nuez",
+    "text": "¿Qué cartílago forma la «nuez»?",
+    "options": [
+      "Cartílago tiroides",
+      "Aritenoides",
+      "Cartílago cricoides",
+      "Epiglotis"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El cartílago tiroides forma la prominencia laríngea, o «nuez».",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-produce-liquido-cefalorraquideo",
+    "text": "¿Qué produce el líquido cefalorraquídeo?",
+    "options": [
+      "Aracnoides",
+      "Plexos coroideos",
+      "Hipófisis",
+      "Bulbo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Los plexos coroideos de los ventrículos cerebrales producen el líquido cefalorraquídeo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-pares-nervios-espinales",
+    "text": "¿Cuántos pares de nervios espinales hay?",
+    "options": [
+      "12",
+      "33",
+      "31",
+      "24"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Hay 31 pares de nervios espinales: 8 cervicales, 12 torácicos, 5 lumbares, 5 sacros y 1 coccígeo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nucleo-regula-ritmo-circadiano",
+    "text": "¿Qué núcleo regula el ritmo circadiano?",
+    "options": [
+      "Accumbens",
+      "Rojo",
+      "Supraquiasmático",
+      "Caudado"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El núcleo supraquiasmático del hipotálamo marca el reloj de 24 horas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-zona-clave-memoria-nueva",
+    "text": "¿Qué zona es clave en la memoria nueva?",
+    "options": [
+      "Cerebelo",
+      "Tálamo",
+      "Amígdala",
+      "Hipocampo"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El hipocampo es esencial para formar recuerdos nuevos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-area-cerebral-controla-habla",
+    "text": "¿Qué área cerebral controla el habla?",
+    "options": [
+      "Área de Rolando",
+      "Área de Broca",
+      "Área de Wernicke",
+      "Área de Heschl"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El área de Broca, en el lóbulo frontal, controla la producción del habla.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vitamina-liposoluble",
+    "text": "¿Cuál es una vitamina liposoluble?",
+    "options": [
+      "Vitamina B12",
+      "Vitamina E",
+      "Vitamina B1",
+      "Vitamina C"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Las vitaminas A, D, E y K son liposolubles.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tipo-hueso-esternon",
+    "text": "¿Qué tipo de hueso es el esternón?",
+    "options": [
+      "Plano",
+      "Sesamoideo",
+      "Largo",
+      "Corto"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El esternón es un hueso plano, como el cráneo y las costillas.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tipo-articulacion-cadera",
+    "text": "¿Qué tipo de articulación es la cadera?",
+    "options": [
+      "Esférica",
+      "Bisagra",
+      "Deslizante",
+      "Pivote"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La cadera es una articulación esférica (enartrosis), de gran movilidad.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tejido-menisco",
+    "text": "¿De qué tejido es el menisco?",
+    "options": [
+      "Hueso",
+      "Fibrocartílago",
+      "Tendón",
+      "Músculo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El menisco es de fibrocartílago y amortigua la rodilla.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gasto-cardiaco-recibe-rinon",
+    "text": "¿Qué % del gasto cardíaco recibe el riñón?",
+    "options": [
+      "20-25 %",
+      "1 %",
+      "50 %",
+      "5 %"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Los riñones reciben entre el 20 y el 25 % del gasto cardíaco.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-parte-nefrona-concentra-orina",
+    "text": "¿Qué parte de la nefrona concentra la orina?",
+    "options": [
+      "Uréter",
+      "Asa de Henle",
+      "Glomérulo",
+      "Cápsula de Bowman"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El asa de Henle crea el gradiente que permite concentrar la orina.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hormona-retiene-sodio-rinon",
+    "text": "¿Qué hormona retiene sodio en el riñón?",
+    "options": [
+      "Aldosterona",
+      "Insulina",
+      "Calcitonina",
+      "Cortisol"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La aldosterona hace que el riñón reabsorba sodio y retenga agua.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-papilas-forman-lingual",
+    "text": "¿Qué papilas forman la «V» lingual?",
+    "options": [
+      "Filiformes",
+      "Foliadas",
+      "Caliciformes",
+      "Fungiformes"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Las papilas caliciformes se disponen en V en la parte posterior de la lengua.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-zona-maxima-agudeza-visual",
+    "text": "¿Zona de máxima agudeza visual?",
+    "options": [
+      "La papila óptica",
+      "La fóvea",
+      "La ora serrata",
+      "La coroides"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La fóvea, en el centro de la mácula, tiene la mayor densidad de conos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-musculo-cambia-forma-cristalino",
+    "text": "¿Qué músculo cambia la forma del cristalino?",
+    "options": [
+      "Músculo ciliar",
+      "Músculo recto",
+      "Esfínter pupilar",
+      "Músculo oblicuo"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El músculo ciliar cambia la curvatura del cristalino para enfocar.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-organo-corti",
+    "text": "¿Dónde está el órgano de Corti?",
+    "options": [
+      "En la trompa",
+      "En el tímpano",
+      "En la cóclea",
+      "En el estribo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El órgano de Corti, con las células ciliadas, está en la cóclea.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-hueso-articula-otro",
+    "text": "¿Qué hueso no se articula con otro?",
+    "options": [
+      "El esternón",
+      "El sacro",
+      "La rótula",
+      "El hioides"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El hioides, bajo la mandíbula, se sujeta solo por músculos y ligamentos.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cromosoma-esta-gen-rhd",
+    "text": "¿En qué cromosoma está el gen RHD?",
+    "options": [
+      "Cromosoma 9",
+      "Cromosoma 13",
+      "Cromosoma 1",
+      "Cromosoma 21"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El gen RHD, que codifica el antígeno D, está en el cromosoma 1.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-raices-nace-nervio-frenico",
+    "text": "¿De qué raíces nace el nervio frénico?",
+    "options": [
+      "T1-T3",
+      "C1-C2",
+      "C6-C8",
+      "C3-C5"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El nervio frénico, que mueve el diafragma, nace de C3, C4 y C5.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-principal-vasodilatador-endotelio",
+    "text": "¿Principal vasodilatador del endotelio?",
+    "options": [
+      "Endotelina",
+      "Óxido nítrico",
+      "Angiotensina II",
+      "Vasopresina"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El óxido nítrico, liberado por el endotelio, relaja la musculatura arterial.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-glia-forma-barrera-hematoencefalica",
+    "text": "¿Qué glía forma la barrera hematoencefálica?",
+    "options": [
+      "Oligodendrocitos",
+      "Astrocitos",
+      "Microglía",
+      "Células ependimarias"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "Los pies de los astrocitos rodean los capilares y forman la barrera hematoencefálica.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-arteria-irriga-nodo-sinusal",
+    "text": "¿Qué arteria irriga el nodo sinusal, a menudo?",
+    "options": [
+      "Circunfleja",
+      "Marginal izquierda",
+      "Coronaria derecha",
+      "Descendente anterior"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "En alrededor del 60 % de las personas, la coronaria derecha irriga el nodo sinusal.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cromosoma-esta-gen-cftr",
+    "text": "¿En qué cromosoma está el gen CFTR?",
+    "options": [
+      "Cromosoma 4",
+      "Cromosoma 7",
+      "Cromosoma 11",
+      "Cromosoma 17"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El gen CFTR, mutado en la fibrosis quística, está en el cromosoma 7.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-aminoacido-precursor-serotonina",
+    "text": "¿Aminoácido precursor de la serotonina?",
+    "options": [
+      "Glutamina",
+      "Fenilalanina",
+      "Tirosina",
+      "Triptófano"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El triptófano se convierte en serotonina; la tirosina, en dopamina.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-enzima-falla-fenilcetonuria",
+    "text": "¿Qué enzima falla en la fenilcetonuria?",
+    "options": [
+      "Fenilalanina hidroxilasa",
+      "Lactasa",
+      "Tirosinasa",
+      "Glucosa-6-fosfatasa"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "Sin fenilalanina hidroxilasa, la fenilalanina se acumula y daña el cerebro.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-par-craneal-inerva-oblicuo",
+    "text": "¿Qué par craneal inerva el oblicuo superior?",
+    "options": [
+      "V",
+      "IV (troclear)",
+      "VI",
+      "III"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "El IV par (troclear) inerva el oblicuo superior del ojo.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-puntuacion-maxima-escala-glasgow",
+    "text": "¿Puntuación máxima de la escala de Glasgow?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy difícil",
+    "explanation": "La escala de Glasgow va de 3 a 15, siendo 15 la conciencia normal.",
+    "source": "preguntas_cuerpo_humano.json",
+    "createdAt": "2026-11-21T14:39:35Z",
+    "status": "active"
+  }
+]
