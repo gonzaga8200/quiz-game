@@ -5,7 +5,7 @@
     "options": ["Sídney", "Melbourne", "Brisbane", "Canberra"],
     "correctIndex": 3,
     "category": "Historia y Geografía",
-    "difficulty": "fácil",
+    "difficulty": "medio",
     "explanation": "Canberra es la capital; Sídney y Melbourne son más grandes, pero no lo son.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"

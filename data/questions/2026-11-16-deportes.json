@@ -5,7 +5,7 @@
     "options": ["9", "10", "11", "12"],
     "correctIndex": 2,
     "category": "Deportes",
-    "difficulty": "muy fácil",
+    "difficulty": "fácil",
     "explanation": "Cada equipo juega con once jugadores, contando al portero.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
@@ -16,7 +16,7 @@
     "options": ["Argentina", "Uruguay", "Brasil", "Italia"],
     "correctIndex": 1,
     "category": "Deportes",
-    "difficulty": "difícil",
+    "difficulty": "medio",
     "explanation": "Uruguay, que era la anfitriona, venció a Argentina por 4-2 en la final.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
@@ -27,7 +27,7 @@
     "options": ["Eddy Merckx", "Jacques Anquetil", "Bernard Hinault", "Miguel Induráin"],
     "correctIndex": 1,
     "category": "Deportes",
-    "difficulty": "muy difícil",
+    "difficulty": "difícil",
     "explanation": "Anquetil logró su quinto Tour en 1964; Merckx, Hinault e Induráin lo igualaron después.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"

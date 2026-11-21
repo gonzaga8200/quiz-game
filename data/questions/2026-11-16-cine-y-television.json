@@ -5,7 +5,7 @@
     "options": ["George Lucas", "Francis Ford Coppola", "Steven Spielberg", "Martin Scorsese"],
     "correctIndex": 2,
     "category": "Cine y televisión",
-    "difficulty": "fácil",
+    "difficulty": "medio",
     "explanation": "Spielberg dirigió «Tiburón», uno de los primeros grandes éxitos de taquilla del verano.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"

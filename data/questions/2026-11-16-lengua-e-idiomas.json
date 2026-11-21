@@ -5,7 +5,7 @@
     "options": ["Portugués", "Español", "Francés", "Italiano"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
-    "difficulty": "muy fácil",
+    "difficulty": "fácil",
     "explanation": "En Brasil se habla portugués, heredado de la colonización portuguesa. Es el único país de Sudamérica donde el portugués es la lengua oficial.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
@@ -38,7 +38,7 @@
     "options": ["Buonanotte", "Buonasera", "Arrivederci", "Buongiorno"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
-    "difficulty": "fácil",
+    "difficulty": "medio",
     "explanation": "«Buongiorno» es «buenos días». «Buonasera» es «buenas tardes», «buonanotte» es «buenas noches» al irse a dormir y «arrivederci» es «adiós».",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
@@ -49,7 +49,7 @@
     "options": ["Cirílico", "Griego", "Hebreo", "Armenio"],
     "correctIndex": 0,
     "category": "Lengua e Idiomas",
-    "difficulty": "fácil",
+    "difficulty": "medio",
     "explanation": "El ruso se escribe con el alfabeto cirílico, que también usan el búlgaro y el ucraniano. Deriva en buena parte del alfabeto griego.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
@@ -104,7 +104,7 @@
     "options": ["Corazón", "Almohada", "Cárcel", "Murciélago"],
     "correctIndex": 3,
     "category": "Lengua e Idiomas",
-    "difficulty": "medio",
+    "difficulty": "fácil",
     "explanation": "«Murciélago» (mur-CIÉ-la-go) es esdrújula. «Corazón» es aguda, y «almohada» y «cárcel» son llanas.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
