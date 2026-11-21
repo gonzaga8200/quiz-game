@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "hist-fue-dictador-espanol-hasta",
+    "text": "¿Quién fue el dictador español hasta 1975?",
+    "options": [
+      "Francisco Franco",
+      "Felipe González",
+      "Miguel de Cervantes",
+      "Cristóbal Colón"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Franco gobernó España desde 1939 hasta su muerte en 1975.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-primer-rey-tras",
+    "text": "¿Quién fue el primer rey tras Franco?",
+    "options": [
+      "Felipe II",
+      "Carlos V",
+      "Alfonso X",
+      "Juan Carlos I"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Juan Carlos I fue proclamado rey en noviembre de 1975.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-fue-guerra-civil",
+    "text": "¿En qué país fue la Guerra Civil de 1936?",
+    "options": [
+      "Francia",
+      "Portugal",
+      "Italia",
+      "España"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Fue una guerra entre españoles que duró de 1936 a 1939.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-moneda-usaba-espana-antes",
+    "text": "¿Qué moneda usaba España antes del euro?",
+    "options": [
+      "El franco",
+      "La libra",
+      "El dólar",
+      "La peseta"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La peseta fue la moneda española hasta la llegada del euro.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-celebro-juegos-olimpicos",
+    "text": "¿Qué ciudad celebró los Juegos Olímpicos de 1992?",
+    "options": [
+      "Zaragoza",
+      "Barcelona",
+      "Valencia",
+      "Bilbao"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Barcelona fue sede de los Juegos Olímpicos de 1992.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-celebro-expo-1992",
+    "text": "¿Qué ciudad celebró la Expo de 1992?",
+    "options": [
+      "Vigo",
+      "Sevilla",
+      "Toledo",
+      "Madrid"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La Exposición Universal de 1992 se celebró en Sevilla.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-forma-gobierno-rey",
+    "text": "¿Qué forma de gobierno tiene un rey?",
+    "options": [
+      "República",
+      "Imperio",
+      "Dictadura",
+      "Monarquía"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Una monarquía está encabezada por un rey o una reina.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-hoy-rey-espana",
+    "text": "¿Quién es hoy el rey de España?",
+    "options": [
+      "Fernando VII",
+      "Felipe II",
+      "Felipe VI",
+      "Carlos III"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Felipe VI reina desde 2014, hijo de Juan Carlos I.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dictadura-manda",
+    "text": "¿En una dictadura quién manda?",
+    "options": [
+      "Los vecinos",
+      "Todos los niños",
+      "Los animales",
+      "Una sola persona"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "En una dictadura el poder lo concentra una persona o un grupo.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-colores-bandera-espana",
+    "text": "¿Qué colores tiene la bandera de España?",
+    "options": [
+      "Rojo y amarillo",
+      "Azul y blanco",
+      "Verde y blanco",
+      "Negro y rojo"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La bandera actual es roja y gualda (amarilla).",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-empezo-guerra-civil",
+    "text": "¿En qué año empezó la Guerra Civil española?",
+    "options": [
+      "1936",
+      "1939",
+      "1923",
+      "1931"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Comenzó con la sublevación militar de julio de 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-acabo-guerra-civil",
+    "text": "¿En qué año acabó la Guerra Civil española?",
+    "options": [
+      "1945",
+      "1936",
+      "1931",
+      "1939"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El último parte de guerra es del 1 de abril de 1939.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-murio-franco",
+    "text": "¿En qué año murió Franco?",
+    "options": [
+      "1981",
+      "1986",
+      "1939",
+      "1975"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Franco murió el 20 de noviembre de 1975.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-aprobo-constitucion-actual",
+    "text": "¿En qué año se aprobó la Constitución actual?",
+    "options": [
+      "1978",
+      "1992",
+      "1931",
+      "1975"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Se aprobó en referéndum el 6 de diciembre de 1978.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pintor-hizo-cuadro-guernica",
+    "text": "¿Qué pintor hizo el cuadro «Guernica»?",
+    "options": [
+      "Diego Velázquez",
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Francisco de Goya"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Picasso lo pintó en 1937 tras el bombardeo de Guernica.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-rey-salio-espana-1931",
+    "text": "¿Qué rey salió de España en 1931?",
+    "options": [
+      "Fernando VII",
+      "Carlos IV",
+      "Alfonso XIII",
+      "Juan Carlos I"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Alfonso XIII se exilió al proclamarse la Segunda República.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-colonia-perdio-espana-1898",
+    "text": "¿Qué colonia perdió España en 1898?",
+    "options": [
+      "Cuba",
+      "Perú",
+      "México",
+      "Argentina"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "En 1898 España perdió Cuba, Puerto Rico y Filipinas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mundial-futbol-jugo-espana",
+    "text": "¿Qué Mundial de fútbol se jugó en España?",
+    "options": [
+      "1990",
+      "1966",
+      "1978",
+      "1982"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "España organizó el Mundial de fútbol de 1982.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-llegaron-billetes-euros",
+    "text": "¿En qué año llegaron los billetes en euros?",
+    "options": [
+      "2002",
+      "1992",
+      "2010",
+      "1986"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los billetes y monedas en euros circulan desde el 1 de enero de 2002.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gano-elecciones-1977",
+    "text": "¿Quién ganó las elecciones de 1977?",
+    "options": [
+      "Felipe González",
+      "Santiago Carrillo",
+      "Manuel Fraga",
+      "Adolfo Suárez (UCD)"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La UCD de Adolfo Suárez ganó las primeras elecciones libres.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-perdieron-cuba-filipinas",
+    "text": "¿En qué año se perdieron Cuba y Filipinas?",
+    "options": [
+      "1914",
+      "1909",
+      "1898",
+      "1902"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Desastre del 98 puso fin al imperio colonial español.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-tratado-1898-cerro-guerra",
+    "text": "¿Qué tratado de 1898 cerró la guerra con EE. UU.?",
+    "options": [
+      "Tratado de Tordesillas",
+      "Tratado de París",
+      "Tratado de Versalles",
+      "Tratado de Utrecht"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Por el Tratado de París España cedió Puerto Rico, Guam y Filipinas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-isla-caribena-cedio-espana",
+    "text": "¿Qué isla caribeña cedió España a EE. UU. en 1898?",
+    "options": [
+      "Trinidad",
+      "Puerto Rico",
+      "Jamaica",
+      "Haití"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Cuba pasó a ser independiente y Puerto Rico quedó en manos de EE. UU.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-corriente-critico-sistema-tras",
+    "text": "¿Qué corriente criticó el sistema tras el 98?",
+    "options": [
+      "Romanticismo",
+      "Regeneracionismo",
+      "Carlismo",
+      "Surrealismo"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El regeneracionismo pedía modernizar España tras la derrota.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-escritor-generacion-98",
+    "text": "¿Qué escritor es de la generación del 98?",
+    "options": [
+      "Federico García Lorca",
+      "Gerardo Diego",
+      "Rafael Alberti",
+      "Miguel de Unamuno"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Unamuno pertenece a la generación del 98; los otros, a la del 27.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-asumio-poderes-alfonso-xiii",
+    "text": "¿Cuándo asumió sus poderes Alfonso XIII?",
+    "options": [
+      "1898",
+      "1923",
+      "1902",
+      "1914"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Alfonso XIII fue rey desde su nacimiento y gobernó por sí mismo desde 1902.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-turno-pacifico-partidos",
+    "text": "¿Cómo se llamó el turno pacífico de partidos?",
+    "options": [
+      "Turnismo",
+      "Autarquía",
+      "Regeneracionismo",
+      "Caciquismo"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Conservadores y liberales se alternaban en el poder con elecciones controladas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-nombre-recibe-falseamiento-electoral",
+    "text": "¿Qué nombre recibe el falseamiento electoral rural?",
+    "options": [
+      "Caciquismo",
+      "Mancomunidad",
+      "Autarquía",
+      "Frentismo"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Los caciques controlaban el voto local en la Restauración.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-fue-semana-tragica",
+    "text": "¿En qué ciudad fue la Semana Trágica de 1909?",
+    "options": [
+      "Barcelona",
+      "Valencia",
+      "Madrid",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue una revuelta popular en Barcelona en julio de 1909.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-provoco-semana-tragica",
+    "text": "¿Qué provocó la Semana Trágica?",
+    "options": [
+      "La pérdida de Cuba",
+      "El envío de reservistas a Marruecos",
+      "El golpe de Primo de Rivera",
+      "La llegada de la República"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La llamada a filas para la guerra de Marruecos desató la protesta.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ente-agrupo-diputaciones-catalanas",
+    "text": "¿Qué ente agrupó las diputaciones catalanas en 1914?",
+    "options": [
+      "Lliga Regionalista",
+      "Somatén",
+      "Generalitat",
+      "Mancomunidad de Cataluña"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Mancomunidad fue la primera institución de autogobierno catalán del siglo XX.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-postura-tuvo-espana-primera",
+    "text": "¿Qué postura tuvo España en la Primera Guerra Mundial?",
+    "options": [
+      "Alianza con Francia",
+      "Invasión de Portugal",
+      "Neutralidad",
+      "Alianza con Alemania"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "España permaneció neutral durante toda la guerra.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-sacudio-espana-ano-1917",
+    "text": "¿Qué sacudió a España en el año 1917?",
+    "options": [
+      "La guerra civil",
+      "La proclamación de la República",
+      "La guerra con EE. UU.",
+      "Una triple crisis militar, política y social"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Hubo juntas militares, una asamblea de parlamentarios y una huelga general.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-fue-desastre-annual",
+    "text": "¿En qué año fue el Desastre de Annual?",
+    "options": [
+      "1909",
+      "1898",
+      "1921",
+      "1931"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El ejército español sufrió una gran derrota en el Rif en julio de 1921.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ocurrio-desastre-annual",
+    "text": "¿Dónde ocurrió el Desastre de Annual?",
+    "options": [
+      "Argelia",
+      "Marruecos",
+      "Cuba",
+      "Filipinas"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ocurrió en el Protectorado español de Marruecos.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lidero-rebelion-rifena-annual",
+    "text": "¿Quién lideró la rebelión rifeña en Annual?",
+    "options": [
+      "Lyautey",
+      "Mohamed V",
+      "Hasán II",
+      "Abd el-Krim"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Abd el-Krim dirigió la resistencia rifeña contra España.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-murio-annual",
+    "text": "¿Qué general murió en Annual?",
+    "options": [
+      "Manuel Fernández Silvestre",
+      "Miguel Cabanellas",
+      "Francisco Franco",
+      "Miguel Primo de Rivera"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Silvestre mandaba la Comandancia de Melilla y murió en el desastre.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-sindicato-anarquista-nacio-1910",
+    "text": "¿Qué sindicato anarquista nació en 1910?",
+    "options": [
+      "CCOO",
+      "UGT",
+      "ELA",
+      "CNT"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Confederación Nacional del Trabajo se fundó en Barcelona en 1910.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-fundo-pce",
+    "text": "¿En qué año se fundó el PCE?",
+    "options": [
+      "1936",
+      "1931",
+      "1921",
+      "1910"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Partido Comunista de España nació en 1921.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gano-nobel-medicina-1906",
+    "text": "¿Quién ganó el Nobel de Medicina en 1906?",
+    "options": [
+      "Gregorio Marañón",
+      "Santiago Ramón y Cajal",
+      "Severo Ochoa",
+      "Carlos Jiménez Díaz"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ramón y Cajal lo recibió por sus estudios sobre la neurona.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-creo-protectorado-marruecos",
+    "text": "¿Cuándo se creó el Protectorado en Marruecos?",
+    "options": [
+      "1912",
+      "1898",
+      "1921",
+      "1936"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "España y Francia se repartieron Marruecos en 1912.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dio-golpe-estado-1923",
+    "text": "¿Quién dio el golpe de Estado de 1923?",
+    "options": [
+      "Francisco Franco",
+      "Miguel Primo de Rivera",
+      "Emilio Mola",
+      "Manuel Azaña"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Primo de Rivera se sublevó el 13 de septiembre de 1923.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-cargo-tenia-primo-rivera",
+    "text": "¿Qué cargo tenía Primo de Rivera en 1923?",
+    "options": [
+      "Jefe del Estado Mayor",
+      "Ministro de la Guerra",
+      "Capitán general de Cataluña",
+      "Presidente del Gobierno"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se sublevó siendo capitán general de Cataluña.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-rey-acepto-golpe-primo",
+    "text": "¿Qué rey aceptó el golpe de Primo de Rivera?",
+    "options": [
+      "Juan Carlos I",
+      "Carlos IV",
+      "Alfonso XII",
+      "Alfonso XIII"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Alfonso XIII encargó el Gobierno a Primo de Rivera.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-partido-creo-primo-rivera",
+    "text": "¿Qué partido creó Primo de Rivera?",
+    "options": [
+      "Unión Patriótica",
+      "UCD",
+      "CEDA",
+      "Falange"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Unión Patriótica fue el partido único de la dictadura.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-primer-gobierno-1923",
+    "text": "¿Cómo se llamó su primer gobierno, de 1923 a 1925?",
+    "options": [
+      "Junta Suprema",
+      "Consejo de Regencia",
+      "Directorio Civil",
+      "Directorio Militar"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Estaba formado por militares y se sustituyó por un Directorio Civil.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-victoria-logro-dictadura-marruecos",
+    "text": "¿Qué victoria logró la dictadura en Marruecos?",
+    "options": [
+      "Toma de Ceuta",
+      "Batalla de Annual",
+      "Batalla de Bailén",
+      "Desembarco de Alhucemas"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "España y Francia desembarcaron en Alhucemas en 1925 y acabaron con la rebelión del Rif.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudades-acogieron-exposiciones-1929",
+    "text": "¿Qué ciudades acogieron exposiciones en 1929?",
+    "options": [
+      "Granada y Toledo",
+      "Madrid y Bilbao",
+      "Valencia y Zaragoza",
+      "Barcelona y Sevilla"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Hubo una Exposición Internacional en Barcelona y otra Iberoamericana en Sevilla.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-monopolio-petrolero-creo-dictadura",
+    "text": "¿Qué monopolio petrolero creó la dictadura?",
+    "options": [
+      "CAMPSA",
+      "Telefónica",
+      "Repsol",
+      "Tabacalera"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "CAMPSA se creó en 1927 para gestionar el petróleo.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-dimitio-primo-rivera",
+    "text": "¿En qué año dimitió Primo de Rivera?",
+    "options": [
+      "1930",
+      "1925",
+      "1929",
+      "1931"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Dimitió en enero de 1930, sin apoyo del rey ni del ejército.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-apodo-tuvo-gobierno-berenguer",
+    "text": "¿Qué apodo tuvo el gobierno de Berenguer?",
+    "options": [
+      "Dictablanda",
+      "Turnismo",
+      "Directorio",
+      "Bienio negro"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Tras Primo de Rivera, el general Berenguer gobernó con una dictadura suavizada.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pacto-1930-unio-republicanos",
+    "text": "¿Qué pacto de 1930 unió a los republicanos?",
+    "options": [
+      "Pacto de la Moncloa",
+      "Pacto de San Sebastián",
+      "Pacto de Madrid",
+      "Pacto del Pardo"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En San Sebastián se acordó un frente para derribar la monarquía.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-proclamo-segunda-republica",
+    "text": "¿Cuándo se proclamó la Segunda República?",
+    "options": [
+      "6 de diciembre de 1978",
+      "14 de abril de 1931",
+      "1 de abril de 1939",
+      "18 de julio de 1936"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se proclamó tras las elecciones municipales del 12 de abril de 1931.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-elecciones-precipitaron-caida-monarquia",
+    "text": "¿Qué elecciones precipitaron la caída de la monarquía?",
+    "options": [
+      "Autonómicas de 1980",
+      "Municipales de 1931",
+      "Generales de 1936",
+      "Constituyentes de 1977"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La victoria republicana en las ciudades llevó al exilio del rey.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidio-gobierno-provisional-1931",
+    "text": "¿Quién presidió el Gobierno provisional de 1931?",
+    "options": [
+      "Francisco Largo Caballero",
+      "Niceto Alcalá-Zamora",
+      "Alejandro Lerroux",
+      "Manuel Azaña"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Alcalá-Zamora encabezó el primer gobierno republicano.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-primer-presidente-republica",
+    "text": "¿Quién fue el primer presidente de la República?",
+    "options": [
+      "Manuel Azaña",
+      "Diego Martínez Barrio",
+      "Niceto Alcalá-Zamora",
+      "Francisco Largo Caballero"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue nombrado presidente tras aprobarse la Constitución de 1931.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-aprobo-constitucion-republicana",
+    "text": "¿Cuándo se aprobó la Constitución republicana?",
+    "options": [
+      "Octubre de 1934",
+      "Febrero de 1936",
+      "Abril de 1931",
+      "Diciembre de 1931"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Las Cortes la aprobaron el 9 de diciembre de 1931.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-logro-mujer-constitucion-1931",
+    "text": "¿Qué logró la mujer en la Constitución de 1931?",
+    "options": [
+      "Servicio militar",
+      "Derecho al voto",
+      "Pensión vitalicia",
+      "Derecho a ser reina"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Constitución reconoció el sufragio femenino.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-diputada-defendio-sufragio-femenino",
+    "text": "¿Qué diputada defendió el sufragio femenino?",
+    "options": [
+      "Margarita Nelken",
+      "Clara Campoamor",
+      "Dolores Ibárruri",
+      "Victoria Kent"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Clara Campoamor fue su gran defensora en las Cortes.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-elecciones-votaron-primera-vez",
+    "text": "¿En qué elecciones votaron por primera vez las mujeres?",
+    "options": [
+      "1933",
+      "1936",
+      "1923",
+      "1931"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Votaron en las elecciones generales de noviembre de 1933.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1932-buscaba-repartir",
+    "text": "¿Qué ley de 1932 buscaba repartir tierras?",
+    "options": [
+      "Ley de Sucesión",
+      "Ley de Prensa",
+      "Ley de Amnistía",
+      "Ley de Reforma Agraria"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La reforma agraria quería ayudar a los campesinos sin tierra.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-estatuto-aprobo-1932",
+    "text": "¿Qué estatuto se aprobó en 1932?",
+    "options": [
+      "El de Galicia",
+      "El de Madrid",
+      "El de Cataluña",
+      "El de Andalucía"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Cataluña recuperó su autogobierno con un estatuto en 1932.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-sublevo-agosto-1932",
+    "text": "¿Qué general se sublevó en agosto de 1932?",
+    "options": [
+      "Emilio Mola",
+      "José Sanjurjo",
+      "Francisco Franco",
+      "Gonzalo Queipo de Llano"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue la «Sanjurjada», un golpe fallido contra la República.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-politico-presidio-bienio-reformista",
+    "text": "¿Qué político presidió el bienio reformista?",
+    "options": [
+      "Alejandro Lerroux",
+      "Indalecio Prieto",
+      "José María Gil-Robles",
+      "Manuel Azaña"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Azaña lideró el Gobierno de 1931 a 1933.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lideraba-ceda",
+    "text": "¿Quién lideraba la CEDA?",
+    "options": [
+      "Manuel Azaña",
+      "José Calvo Sotelo",
+      "José María Gil-Robles",
+      "Juan Negrín"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La CEDA, derecha católica, estaba dirigida por Gil-Robles.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fundo-falange-espanola-1933",
+    "text": "¿Quién fundó Falange Española en 1933?",
+    "options": [
+      "Ramiro Ledesma",
+      "Francisco Franco",
+      "José Antonio Primo de Rivera",
+      "Onésimo Redondo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fundó Falange en octubre de 1933, hijo del dictador.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llama-periodo-derechas-1933",
+    "text": "¿Cómo se llama el periodo de derechas de 1933 a 1935?",
+    "options": [
+      "Bienio negro",
+      "Sexenio democrático",
+      "Bienio reformista",
+      "Trienio liberal"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "También se le llama bienio radical-cedista.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-alzaron-asturias-1934",
+    "text": "¿Quiénes se alzaron en Asturias en 1934?",
+    "options": [
+      "Los pescadores",
+      "Los campesinos andaluces",
+      "Los obreros navales",
+      "Los mineros"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La revolución de octubre de 1934 fue reprimida por el ejército.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-declaro-estado-catalan-octubre",
+    "text": "¿Quién declaró el Estado catalán en octubre de 1934?",
+    "options": [
+      "Francesc Macià",
+      "Josep Tarradellas",
+      "Lluís Companys",
+      "Francesc Cambó"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Companys proclamó el Estado Catalán dentro de una República federal.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-partido-lidero-alejandro-lerroux",
+    "text": "¿Qué partido lideró Alejandro Lerroux?",
+    "options": [
+      "CEDA",
+      "ERC",
+      "Partido Radical",
+      "PSOE"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Partido Radical gobernó en el bienio de derechas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fueron-elecciones-frente-popular",
+    "text": "¿Cuándo fueron las elecciones del Frente Popular?",
+    "options": [
+      "15 de junio de 1977",
+      "14 de abril de 1931",
+      "16 de febrero de 1936",
+      "19 de noviembre de 1933"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ganó la coalición de izquierdas por estrecho margen de votos.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-coalicion-gano-febrero-1936",
+    "text": "¿Qué coalición ganó en febrero de 1936?",
+    "options": [
+      "CEDA",
+      "Frente Popular",
+      "Falange",
+      "Unión Patriótica"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La coalición agrupaba a republicanos, socialistas y comunistas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidio-republica-desde-mayo",
+    "text": "¿Quién presidió la República desde mayo de 1936?",
+    "options": [
+      "Manuel Azaña",
+      "Lluís Companys",
+      "Alejandro Lerroux",
+      "Niceto Alcalá-Zamora"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Las Cortes destituyeron a Alcalá-Zamora y eligieron a Azaña.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-color-anadio-bandera-republicana",
+    "text": "¿Qué color añadió la bandera republicana?",
+    "options": [
+      "Morado",
+      "Azul",
+      "Verde",
+      "Negro"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Era roja, amarilla y morada.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-politico-derechista-fue-asesinado",
+    "text": "¿Qué político derechista fue asesinado en julio de 1936?",
+    "options": [
+      "Niceto Alcalá-Zamora",
+      "José Calvo Sotelo",
+      "José María Gil-Robles",
+      "Alejandro Lerroux"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Su asesinato, el 13 de julio, precipitó la sublevación militar.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-empezo-golpe-1936",
+    "text": "¿Cuándo empezó el golpe de 1936?",
+    "options": [
+      "14 de abril",
+      "20 de noviembre",
+      "17-18 de julio",
+      "1 de abril"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Empezó en Melilla el 17 de julio y se extendió el 18.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-comenzo-sublevacion-17-julio",
+    "text": "¿Dónde comenzó la sublevación el 17 de julio?",
+    "options": [
+      "Melilla",
+      "Sevilla",
+      "Madrid",
+      "Barcelona"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La rebelión estalló en el Protectorado de Marruecos.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-fue-director-conspiracion",
+    "text": "¿Qué general fue «el Director» de la conspiración?",
+    "options": [
+      "José Sanjurjo",
+      "Emilio Mola",
+      "Gonzalo Queipo de Llano",
+      "José Varela"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Mola organizó el levantamiento en la península.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-murio-general-sanjurjo-1936",
+    "text": "¿Cómo murió el general Sanjurjo en 1936?",
+    "options": [
+      "Fusilado",
+      "De enfermedad",
+      "En combate en Madrid",
+      "En un accidente de avión"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Murió en Estoril, Portugal, al despegar su avioneta.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-proclamado-franco-jefe",
+    "text": "¿Dónde fue proclamado Franco jefe del Estado?",
+    "options": [
+      "Sevilla",
+      "Salamanca",
+      "Burgos",
+      "Toledo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Junta de Defensa lo designó en 1936 jefe del Gobierno y del Estado.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lema-asocio-defensa-madrid",
+    "text": "¿Qué lema se asoció a la defensa de Madrid?",
+    "options": [
+      "«Plus Ultra»",
+      "«Una, grande y libre»",
+      "«Viva la Pepa»",
+      "«¡No pasarán!»"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue el grito de resistencia de Madrid en noviembre de 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-traslado-gobierno-1936",
+    "text": "¿A qué ciudad se trasladó el Gobierno en 1936?",
+    "options": [
+      "Sevilla",
+      "Bilbao",
+      "Barcelona",
+      "Valencia"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Gobierno republicano salió de Madrid hacia Valencia en noviembre.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llegaron-1936-ayudar-republica",
+    "text": "¿Quiénes llegaron en 1936 a ayudar a la República?",
+    "options": [
+      "Los Regulares",
+      "Las Brigadas Internacionales",
+      "El CTV italiano",
+      "La Legión Cóndor"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Voluntarios de muchos países lucharon por la República.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-envio-legion-condor",
+    "text": "¿Qué país envió la Legión Cóndor?",
+    "options": [
+      "Italia",
+      "Portugal",
+      "La URSS",
+      "Alemania"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Alemania nazi apoyó a Franco con aviación.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-envio-corpo-truppe",
+    "text": "¿Qué país envió el Corpo Truppe Volontarie?",
+    "options": [
+      "Italia",
+      "Reino Unido",
+      "Francia",
+      "Alemania"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Mussolini envió tropas para apoyar a Franco.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-ayudo-republica-armas",
+    "text": "¿Qué país ayudó a la República con armas?",
+    "options": [
+      "Italia",
+      "Alemania",
+      "La Unión Soviética",
+      "Portugal"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La URSS vendió armas y envió asesores a la República.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-politica-adoptaron-francia-reino",
+    "text": "¿Qué política adoptaron Francia y Reino Unido?",
+    "options": [
+      "Intervención armada",
+      "Bloqueo a Alemania",
+      "No intervención",
+      "Alianza con Franco"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Pactaron no intervenir, lo que perjudicó a la República.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-bombardeada-guernica",
+    "text": "¿Cuándo fue bombardeada Guernica?",
+    "options": [
+      "18 de julio de 1936",
+      "28 de marzo de 1939",
+      "26 de abril de 1937",
+      "1 de abril de 1939"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La aviación alemana destruyó la localidad vasca en abril de 1937.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mostro-guernica-1937",
+    "text": "¿Dónde se mostró el Guernica en 1937?",
+    "options": [
+      "En la Bienal de Venecia",
+      "En la Expo de Londres",
+      "En la Exposición de París",
+      "En la Expo de Sevilla"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se expuso en el Pabellón español de la Exposición de París.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-1937-derroto-italianos",
+    "text": "¿Qué batalla de 1937 derrotó a los italianos?",
+    "options": [
+      "Ebro",
+      "Brunete",
+      "Teruel",
+      "Guadalajara"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En marzo de 1937 las tropas republicanas frenaron al CTV.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-aragonesa-disputo-1937",
+    "text": "¿Qué ciudad aragonesa se disputó en 1937-38?",
+    "options": [
+      "Teruel",
+      "Zaragoza",
+      "Calatayud",
+      "Huesca"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La batalla de Teruel fue una de las más duras del invierno.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-batalla-larga-guerra",
+    "text": "¿Cuál fue la batalla más larga de la guerra?",
+    "options": [
+      "Batalla del Ebro",
+      "Batalla de Brunete",
+      "Batalla de Madrid",
+      "Batalla del Jarama"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Duró de julio a noviembre de 1938.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-fue-batalla-ebro",
+    "text": "¿En qué año fue la batalla del Ebro?",
+    "options": [
+      "1936",
+      "1937",
+      "1939",
+      "1938"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La ofensiva republicana empezó en julio de 1938.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-entraron-franquistas-barcelona",
+    "text": "¿Cuándo entraron los franquistas en Barcelona?",
+    "options": [
+      "26 de enero de 1939",
+      "28 de marzo de 1939",
+      "1 de abril de 1939",
+      "17 de julio de 1936"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La caída de Barcelona precipitó el final de la guerra.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-exodo-francia-1939",
+    "text": "¿Cómo se llamó el éxodo a Francia en 1939?",
+    "options": [
+      "La Retirada",
+      "La Diáspora",
+      "El éxodo rural",
+      "La Marcha Verde"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Cientos de miles de refugiados cruzaron los Pirineos.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-entraron-franquistas-madrid",
+    "text": "¿Cuándo entraron los franquistas en Madrid?",
+    "options": [
+      "18 de julio de 1936",
+      "28 de marzo de 1939",
+      "26 de enero de 1939",
+      "1 de abril de 1939"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Madrid cayó sin resistencia pocos días antes del fin de la guerra.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dia-firmo-ultimo-parte",
+    "text": "¿Qué día se firmó el último parte de guerra?",
+    "options": [
+      "28 de marzo de 1939",
+      "20 de noviembre de 1975",
+      "1 de abril de 1939",
+      "14 de abril de 1931"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El parte de Franco dio la guerra por terminada.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dirigio-golpe-contra-negrin",
+    "text": "¿Quién dirigió el golpe contra Negrín en 1939?",
+    "options": [
+      "José Miaja",
+      "Segismundo Casado",
+      "Indalecio Prieto",
+      "Vicente Rojo"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El coronel Casado formó una junta para negociar la paz.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidio-gobierno-republicano-desde",
+    "text": "¿Quién presidió el Gobierno republicano desde 1937?",
+    "options": [
+      "Lluís Companys",
+      "Juan Negrín",
+      "Francisco Largo Caballero",
+      "Manuel Azaña"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Negrín sustituyó a Largo Caballero en mayo de 1937.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidio-gobierno-antes-negrin",
+    "text": "¿Quién presidió el Gobierno antes de Negrín?",
+    "options": [
+      "Diego Martínez Barrio",
+      "Santiago Casares Quiroga",
+      "Julián Besteiro",
+      "Francisco Largo Caballero"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Largo Caballero gobernó de septiembre de 1936 a mayo de 1937.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-vasca-cayo-junio",
+    "text": "¿Qué ciudad vasca cayó en junio de 1937?",
+    "options": [
+      "Bilbao",
+      "Vitoria",
+      "Pamplona",
+      "San Sebastián"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La toma de Bilbao fue un golpe duro para la República.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-poeta-fue-asesinado-granada",
+    "text": "¿Qué poeta fue asesinado en Granada en 1936?",
+    "options": [
+      "Federico García Lorca",
+      "Antonio Machado",
+      "Miguel Hernández",
+      "Rafael Alberti"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Lorca murió fusilado en agosto de 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-murio-antonio-machado-1939",
+    "text": "¿Dónde murió Antonio Machado en 1939?",
+    "options": [
+      "Collioure",
+      "Madrid",
+      "Soria",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Murió en Francia, poco después de cruzar la frontera.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1939-castigo-republicanos",
+    "text": "¿Qué ley de 1939 castigó a los republicanos?",
+    "options": [
+      "Ley de Prensa",
+      "Ley de Responsabilidades Políticas",
+      "Fuero del Trabajo",
+      "Ley de Sucesión"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Franco la aprobó en febrero de 1939.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-decreto-1937-creo-partido",
+    "text": "¿Qué decreto de 1937 creó el partido único?",
+    "options": [
+      "Ley Orgánica del Estado",
+      "Fuero de los Españoles",
+      "Decreto de Unificación",
+      "Ley del Movimiento"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Unió a Falange y a los carlistas en una sola organización.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-fusilado-alicante-1936",
+    "text": "¿Quién fue fusilado en Alicante en 1936?",
+    "options": [
+      "José Antonio Primo de Rivera",
+      "José Sanjurjo",
+      "José Calvo Sotelo",
+      "Lluís Companys"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El fundador de Falange fue ejecutado el 20 de noviembre de 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-primer-lehendakari",
+    "text": "¿Quién fue el primer lehendakari?",
+    "options": [
+      "Carlos Garaikoetxea",
+      "Juan José Ibarretxe",
+      "José Antonio Aguirre",
+      "Xabier Arzalluz"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Aguirre presidió el Gobierno vasco desde octubre de 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-fusilado-montjuic-1940",
+    "text": "¿Quién fue fusilado en Montjuïc en 1940?",
+    "options": [
+      "Francesc Macià",
+      "Salvador Seguí",
+      "Francesc Ferrer",
+      "Lluís Companys"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El presidente de la Generalitat fue entregado por la Gestapo.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dirigente-comunista-era-pasionaria",
+    "text": "¿Qué dirigente comunista era «La Pasionaria»?",
+    "options": [
+      "Clara Campoamor",
+      "Dolores Ibárruri",
+      "Victoria Kent",
+      "Federica Montseny"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Dolores Ibárruri fue símbolo de la resistencia republicana.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-primera-ministra-1936",
+    "text": "¿Quién fue la primera ministra, en 1936?",
+    "options": [
+      "Dolores Ibárruri",
+      "Victoria Kent",
+      "Clara Campoamor",
+      "Federica Montseny"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Federica Montseny fue ministra de Sanidad desde noviembre de 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-guerrilla-antifranquista",
+    "text": "¿Cómo se llamó la guerrilla antifranquista?",
+    "options": [
+      "Brigada",
+      "Falange",
+      "Somatén",
+      "Maquis"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El maquis combatió al franquismo desde las montañas tras la guerra.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-edificio-defendio-moscardo-toledo",
+    "text": "¿Qué edificio defendió Moscardó en Toledo en 1936?",
+    "options": [
+      "El Alcázar",
+      "La Catedral",
+      "El Escorial",
+      "La Alhambra"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El asedio del Alcázar fue un símbolo para el bando franquista.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-nombre-recibio-franco-jefe",
+    "text": "¿Qué nombre recibió Franco como jefe del Estado?",
+    "options": [
+      "Kaiser",
+      "Caudillo",
+      "Führer",
+      "Duce"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Franco se hizo llamar Caudillo de España por la gracia de Dios.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-politica-economica-siguio-espana",
+    "text": "¿Qué política económica siguió España en los años 40?",
+    "options": [
+      "Libre comercio",
+      "Keynesianismo",
+      "Neoliberalismo",
+      "Autarquía"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Intentó producir todo dentro del país y se aisló.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-documento-regulaba-alimentos-posguerra",
+    "text": "¿Qué documento regulaba los alimentos en la posguerra?",
+    "options": [
+      "El pasaporte",
+      "El DNI",
+      "La cartilla de racionamiento",
+      "El libro de familia"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El racionamiento terminó en 1952.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-mercado-negro-posguerra",
+    "text": "¿Cómo se llamó el mercado negro de posguerra?",
+    "options": [
+      "Zoco",
+      "Lonja",
+      "Estraperlo",
+      "Trueque"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El estraperlo comerciaba con productos racionados.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-division-espanola-lucho-junto",
+    "text": "¿Qué división española luchó junto a Alemania?",
+    "options": [
+      "Legión Cóndor",
+      "CTV",
+      "División Azul",
+      "Brigada Lincoln"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La División Azul combatió en el frente ruso a partir de 1941.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-reunio-franco-hendaya-1940",
+    "text": "¿Con quién se reunió Franco en Hendaya en 1940?",
+    "options": [
+      "Hitler",
+      "Stalin",
+      "Churchill",
+      "Mussolini"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Hitler y Franco se vieron en octubre de 1940, sin acuerdo para entrar en guerra.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-decidio-onu-sobre-espana",
+    "text": "¿Qué decidió la ONU sobre España en 1946?",
+    "options": [
+      "Retirar embajadores",
+      "Reconocer a Franco",
+      "Invadirla",
+      "Admitirla"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La ONU condenó al régimen franquista y recomendó retirar embajadores.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1947-declaro-espana",
+    "text": "¿Qué ley de 1947 declaró España reino?",
+    "options": [
+      "Fuero del Trabajo",
+      "Ley Orgánica",
+      "Ley de Cortes",
+      "Ley de Sucesión"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "España pasó a ser reino con Franco como jefe del Estado vitalicio.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-firmo-espana-concordato-1953",
+    "text": "¿Con quién firmó España un concordato en 1953?",
+    "options": [
+      "Con Francia",
+      "Con Alemania",
+      "Con EE. UU.",
+      "Con el Vaticano"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Concordato de 1953 dio apoyo religioso al régimen.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-instalo-bases-militares",
+    "text": "¿Qué país instaló bases militares en España en 1953?",
+    "options": [
+      "Estados Unidos",
+      "La URSS",
+      "Francia",
+      "Alemania"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Los Pactos de Madrid rompieron el aislamiento exterior.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ingreso-espana-onu",
+    "text": "¿Cuándo ingresó España en la ONU?",
+    "options": [
+      "1945",
+      "1975",
+      "1959",
+      "1955"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ingresó en diciembre de 1955, en plena Guerra Fría.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-termino-1956-marruecos",
+    "text": "¿Qué terminó en 1956 en Marruecos?",
+    "options": [
+      "La Marcha Verde",
+      "El Protectorado español",
+      "La Guerra Civil",
+      "La Guerra de Ifni"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Marruecos obtuvo la independencia y España dejó el Protectorado.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-marcha-verde-1975",
+    "text": "¿Qué fue la Marcha Verde de 1975?",
+    "options": [
+      "Peregrinación religiosa",
+      "Manifestación franquista",
+      "Huelga minera",
+      "Marcha marroquí hacia el Sáhara"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Hassan II movilizó a miles de civiles hacia el Sáhara español.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-colonia-abandono-espana-1976",
+    "text": "¿Qué colonia abandonó España en 1976?",
+    "options": [
+      "Ifni",
+      "Guinea Ecuatorial",
+      "Sáhara Occidental",
+      "Fernando Poo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "España se retiró del territorio tras los acuerdos de Madrid.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-fue-independiente-guinea",
+    "text": "¿En qué año fue independiente Guinea Ecuatorial?",
+    "options": [
+      "1968",
+      "1975",
+      "1956",
+      "1959"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Guinea Ecuatorial dejó de ser colonia española en octubre de 1968.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-plan-1959-liberalizo-economia",
+    "text": "¿Qué plan de 1959 liberalizó la economía?",
+    "options": [
+      "Plan Marshall",
+      "Plan de Estabilización",
+      "Plan E",
+      "Plan Badajoz"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Frenó la inflación y abrió la economía al exterior.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-organizacion-tenian-muchos-tecnocratas",
+    "text": "¿Qué organización tenían muchos tecnócratas de los 60?",
+    "options": [
+      "Carlismo",
+      "Falange",
+      "Opus Dei",
+      "CNT"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Varios ministros del desarrollismo estaban vinculados al Opus Dei.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-plan-quedo-excluida-espana",
+    "text": "¿De qué plan quedó excluida España?",
+    "options": [
+      "Plan Marshall",
+      "Plan Schuman",
+      "Plan Colombo",
+      "Plan Dawes"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "EE. UU. no incluyó a España en la ayuda posterior a la guerra mundial.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fenomeno-60-trajo-divisas",
+    "text": "¿Qué fenómeno de los 60 trajo divisas a España?",
+    "options": [
+      "Las exportaciones de oro",
+      "El turismo",
+      "El petróleo propio",
+      "Las colonias africanas"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El turismo y las remesas de emigrantes impulsaron el crecimiento.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ministro-impulso-ley-prensa",
+    "text": "¿Qué ministro impulsó la Ley de Prensa de 1966?",
+    "options": [
+      "Luis Carrero Blanco",
+      "Manuel Fraga",
+      "Carlos Arias Navarro",
+      "Torcuato Fernández-Miranda"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Eliminó la censura previa, aunque con muchos límites.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-designo-franco-juan-carlos",
+    "text": "¿Cuándo designó Franco a Juan Carlos su sucesor?",
+    "options": [
+      "1969",
+      "1947",
+      "1959",
+      "1975"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Las Cortes lo aprobaron en julio de 1969.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-asesinado-eta-1973",
+    "text": "¿Quién fue asesinado por ETA en 1973?",
+    "options": [
+      "Luis Carrero Blanco",
+      "Adolfo Suárez",
+      "Carlos Arias Navarro",
+      "Manuel Fraga"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Carrero Blanco era presidente del Gobierno desde junio de 1973.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-atentado-contra-carrero",
+    "text": "¿Cómo se llamó el atentado contra Carrero?",
+    "options": [
+      "Operación Lobo",
+      "Operación Cóndor",
+      "Operación Overlord",
+      "Operación Ogro"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "ETA hizo explotar su coche en Madrid el 20 de diciembre de 1973.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-juicio-1970-atrajo-atencion",
+    "text": "¿Qué juicio de 1970 atrajo la atención mundial?",
+    "options": [
+      "Proceso 1001",
+      "Caso Matesa",
+      "Proceso de Burgos",
+      "Juicio de Núremberg"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se juzgó a 16 miembros de ETA y hubo protestas internacionales.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-crisis-golpeo-economia-1973",
+    "text": "¿Qué crisis golpeó la economía en 1973?",
+    "options": [
+      "La crisis del 29",
+      "La crisis del petróleo",
+      "La crisis hipotecaria",
+      "La crisis del 98"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El encarecimiento del crudo puso fin al milagro económico.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidio-gobierno-tras-carrero",
+    "text": "¿Quién presidió el Gobierno tras Carrero Blanco?",
+    "options": [
+      "Leopoldo Calvo-Sotelo",
+      "Adolfo Suárez",
+      "Carlos Arias Navarro",
+      "Torcuato Fernández-Miranda"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Arias Navarro presidió el Gobierno de 1974 a 1976.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fueron-fusilados-septiembre-1975",
+    "text": "¿Cuántos fueron fusilados en septiembre de 1975?",
+    "options": [
+      "Veinte",
+      "Dos",
+      "Cinco",
+      "Diez"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fueron tres del FRAP y dos de ETA, las últimas ejecuciones del franquismo.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-proclamado-rey-22",
+    "text": "¿Quién fue proclamado rey el 22 de noviembre de 1975?",
+    "options": [
+      "Felipe VI",
+      "Juan de Borbón",
+      "Juan Carlos I",
+      "Alfonso XIII"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Juan Carlos I juró ante las Cortes dos días después de morir Franco.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-era-padre-juan-carlos",
+    "text": "¿Quién era el padre de Juan Carlos I?",
+    "options": [
+      "Alfonso XIII",
+      "Fernando VII",
+      "Juan de Borbón",
+      "Carlos IV"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Don Juan de Borbón era el heredero de Alfonso XIII.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-enterrado-franco-1975",
+    "text": "¿Dónde fue enterrado Franco en 1975?",
+    "options": [
+      "El Escorial",
+      "Valle de los Caídos",
+      "Cementerio de Mingorrubio",
+      "Catedral de Burgos"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue exhumado en 2019 y trasladado a Mingorrubio.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-sistema-partido-unico",
+    "text": "¿Cómo se llamó el sistema del partido único?",
+    "options": [
+      "Movimiento Nacional",
+      "CEDA",
+      "Frente Popular",
+      "UCD"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Movimiento agrupó a las fuerzas del régimen.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-nombro-presidente-adolfo-suarez",
+    "text": "¿Quién nombró presidente a Adolfo Suárez en 1976?",
+    "options": [
+      "Las Cortes",
+      "El rey Juan Carlos I",
+      "Franco",
+      "Un referéndum"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El rey lo eligió de una terna presentada por el Consejo del Reino.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1976-abrio-camino",
+    "text": "¿Qué ley de 1976 abrió el camino a elecciones libres?",
+    "options": [
+      "Ley de Amnistía",
+      "Constitución de 1978",
+      "Ley de Sucesión",
+      "Ley para la Reforma Política"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Las Cortes franquistas votaron su propia desaparición.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-impulso-ley-reforma-politica",
+    "text": "¿Quién impulsó la Ley para la Reforma Política?",
+    "options": [
+      "Santiago Carrillo",
+      "Torcuato Fernández-Miranda",
+      "Manuel Fraga",
+      "Manuel Gutiérrez Mellado"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fernández-Miranda presidía las Cortes y ayudó a diseñar el cambio.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-porcentaje-voto-si-referendum",
+    "text": "¿Qué porcentaje votó sí en el referéndum de 1976?",
+    "options": [
+      "75 %",
+      "51 %",
+      "94 %",
+      "60 %"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se aprobó con un apoyo muy mayoritario el 15 de diciembre.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-partido-legalizo-abril-1977",
+    "text": "¿Qué partido se legalizó en abril de 1977?",
+    "options": [
+      "La UCD",
+      "Alianza Popular",
+      "El PSOE",
+      "El PCE"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Santiago Carrillo volvió a la legalidad antes de las elecciones.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-atentado-golpeo-abogados-laboralistas",
+    "text": "¿Qué atentado golpeó a abogados laboralistas en 1977?",
+    "options": [
+      "La matanza de Atocha",
+      "El de la Casa Cuartel de Zaragoza",
+      "El 11-M",
+      "El atentado de Hipercor"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Un comando de extrema derecha mató a cinco personas en Madrid.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dia-fueron-primeras-elecciones",
+    "text": "¿Qué día fueron las primeras elecciones libres?",
+    "options": [
+      "6 de diciembre de 1978",
+      "28 de octubre de 1982",
+      "15 de junio de 1977",
+      "1 de marzo de 1979"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Eran las primeras elecciones libres desde 1936.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-partido-gano-elecciones-1977",
+    "text": "¿Qué partido ganó las elecciones de 1977?",
+    "options": [
+      "Alianza Popular",
+      "UCD",
+      "PCE",
+      "PSOE"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La UCD de Suárez fue la fuerza más votada.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1977-libero-presos",
+    "text": "¿Qué ley de 1977 liberó a presos políticos?",
+    "options": [
+      "Ley de Prensa",
+      "Ley de Reforma Agraria",
+      "Ley de Amnistía",
+      "Ley de Sucesión"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se aprobó en octubre de 1977.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pactos-1977-trataron-crisis",
+    "text": "¿Qué pactos de 1977 trataron la crisis económica?",
+    "options": [
+      "Pactos de Madrid",
+      "Pacto del Ebro",
+      "Pactos de la Moncloa",
+      "Pacto de San Sebastián"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Gobierno y partidos pactaron medidas contra la inflación.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-volvio-exilio-presidente-generalitat",
+    "text": "¿Quién volvió del exilio como presidente de la Generalitat?",
+    "options": [
+      "Lluís Companys",
+      "Francesc Macià",
+      "Jordi Pujol",
+      "Josep Tarradellas"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Tarradellas regresó en octubre de 1977.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ponente-constitucion-era-psoe",
+    "text": "¿Qué ponente de la Constitución era del PSOE?",
+    "options": [
+      "Jordi Solé Tura",
+      "Gabriel Cisneros",
+      "Manuel Fraga",
+      "Gregorio Peces-Barba"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Peces-Barba fue uno de los siete ponentes.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-voto-constitucion-referendum",
+    "text": "¿Cuándo se votó la Constitución en referéndum?",
+    "options": [
+      "6 de diciembre de 1978",
+      "29 de diciembre de 1978",
+      "23 de febrero de 1981",
+      "15 de junio de 1977"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Por eso el 6 de diciembre es el Día de la Constitución.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-porcentaje-apoyo-constitucion-1978",
+    "text": "¿Qué porcentaje apoyó la Constitución en 1978?",
+    "options": [
+      "66 %",
+      "88,5 %",
+      "94 %",
+      "51 %"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Votó sí un 88,54 % con una participación del 67 %.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-modelo-territorial-creo-constitucion",
+    "text": "¿Qué modelo territorial creó la Constitución?",
+    "options": [
+      "Estado centralista",
+      "República federal",
+      "Estado de las Autonomías",
+      "Confederación"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Reconoció el derecho a la autonomía de nacionalidades y regiones.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ocurrio-23-febrero-1981",
+    "text": "¿Qué ocurrió el 23 de febrero de 1981?",
+    "options": [
+      "Una moción de censura",
+      "Un atentado de ETA",
+      "Un intento de golpe de Estado",
+      "Un referéndum"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Tejero asaltó el Congreso durante la votación de investidura.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-teniente-coronel-asalto-congreso",
+    "text": "¿Qué teniente coronel asaltó el Congreso?",
+    "options": [
+      "Manuel Gutiérrez Mellado",
+      "Antonio Tejero",
+      "Jaime Milans del Bosch",
+      "Alfonso Armada"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Entró en el hemiciclo con guardias civiles armados.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-saco-tanques-valencia",
+    "text": "¿Qué general sacó los tanques en Valencia?",
+    "options": [
+      "Antonio Tejero",
+      "Alfonso Armada",
+      "Jaime Milans del Bosch",
+      "Sabino Fernández Campo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Milans del Bosch declaró el estado de excepción en Valencia.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-hizo-rey-durante-23",
+    "text": "¿Qué hizo el rey durante el 23-F?",
+    "options": [
+      "Apoyó a Tejero",
+      "Disolvió las Cortes",
+      "Pidió respetar la Constitución por televisión",
+      "Huyó de España"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Su mensaje de madrugada frenó el golpe.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-votaba-durante-23",
+    "text": "¿A quién se votaba durante el 23-F?",
+    "options": [
+      "Felipe González",
+      "Adolfo Suárez",
+      "Manuel Fraga",
+      "Leopoldo Calvo-Sotelo"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se celebraba su votación de investidura como presidente.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidente-dimitio-enero-1981",
+    "text": "¿Qué presidente dimitió en enero de 1981?",
+    "options": [
+      "Felipe González",
+      "José María Aznar",
+      "Leopoldo Calvo-Sotelo",
+      "Adolfo Suárez"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Suárez dejó el cargo por la crisis interna de la UCD.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gano-psoe-mayoria-absoluta",
+    "text": "¿Cuándo ganó el PSOE por mayoría absoluta?",
+    "options": [
+      "3 de marzo de 1996",
+      "15 de junio de 1977",
+      "1 de marzo de 1979",
+      "28 de octubre de 1982"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Felipe González llegó a la presidencia con una victoria histórica.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-ingreso-espana-otan",
+    "text": "¿En qué año ingresó España en la OTAN?",
+    "options": [
+      "1982",
+      "1986",
+      "1992",
+      "1975"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "España entró en la OTAN el 30 de mayo de 1982.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-resulto-referendum-1986-sobre",
+    "text": "¿Qué resultó del referéndum de 1986 sobre la OTAN?",
+    "options": [
+      "Ganó el sí a la permanencia",
+      "Se anuló",
+      "Ganó el no",
+      "Hubo empate"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se votó el 12 de marzo con condiciones para seguir en la Alianza.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-entro-espana-cee",
+    "text": "¿Cuándo entró España en la CEE?",
+    "options": [
+      "1 de enero de 1978",
+      "1 de enero de 2002",
+      "1 de enero de 1999",
+      "1 de enero de 1986"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue un paso decisivo para modernizar la economía.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-otro-pais-entro-cee",
+    "text": "¿Qué otro país entró en la CEE con España?",
+    "options": [
+      "Grecia",
+      "Portugal",
+      "Suecia",
+      "Austria"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ambos se integraron el 1 de enero de 1986.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-arquero-encendio-pebetero-1992",
+    "text": "¿Qué arquero encendió el pebetero en 1992?",
+    "options": [
+      "Antonio Rebollo",
+      "Fermín Cacho",
+      "Miguel Induráin",
+      "Juan Antonio Samaranch"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Lanzó una flecha encendida al pebetero de Montjuïc.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-abrio-expo-sevilla",
+    "text": "¿Cuándo abrió la Expo de Sevilla?",
+    "options": [
+      "25 de julio de 1992",
+      "20 de abril de 1992",
+      "12 de octubre de 1992",
+      "1 de enero de 1986"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Exposición Universal duró seis meses.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-tratado-1992-creo-union",
+    "text": "¿Qué tratado de 1992 creó la Unión Europea?",
+    "options": [
+      "Tratado de Lisboa",
+      "Tratado de Maastricht",
+      "Tratado de Niza",
+      "Tratado de Roma"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Se firmó el 7 de febrero de 1992.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-concejal-fue-asesinado-eta",
+    "text": "¿Qué concejal fue asesinado por ETA en 1997?",
+    "options": [
+      "Miguel Ángel Blanco",
+      "Ernest Lluch",
+      "Gregorio Ordóñez",
+      "Fernando Buesa"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Su secuestro y muerte provocaron protestas masivas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gano-elecciones-1996",
+    "text": "¿Quién ganó las elecciones de 1996?",
+    "options": [
+      "Felipe González",
+      "José María Aznar",
+      "Julio Anguita",
+      "Manuel Fraga"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El PP de Aznar ganó y puso fin a 13 años de gobierno socialista.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-adopto-euro-moneda",
+    "text": "¿En qué año se adoptó el euro como moneda contable?",
+    "options": [
+      "1992",
+      "1986",
+      "1999",
+      "2002"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El euro empezó como moneda virtual el 1 de enero de 1999.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-huelga-paralizo-pais-1988",
+    "text": "¿Qué huelga paralizó el país en 1988?",
+    "options": [
+      "La del 23 de febrero",
+      "La del 20 de noviembre",
+      "La del 14 de diciembre",
+      "La del 14 de abril"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue una huelga general convocada por UGT y CCOO.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pacto-1998-acompano-tregua",
+    "text": "¿Qué pacto de 1998 acompañó a la tregua de ETA?",
+    "options": [
+      "Pacto de Madrid",
+      "Pacto de Toledo",
+      "Pacto de Ajuria Enea",
+      "Pacto de Estella"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fue el acuerdo de Lizarra-Garazi entre partidos nacionalistas.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gano-nobel-medicina-1959",
+    "text": "¿Quién ganó el Nobel de Medicina en 1959?",
+    "options": [
+      "Francisco Grande Covián",
+      "Severo Ochoa",
+      "Santiago Ramón y Cajal",
+      "Gregorio Marañón"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ochoa lo recibió por sus estudios sobre el ARN.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-edad-fijo-constitucion-votar",
+    "text": "¿Qué edad fijó la Constitución para votar?",
+    "options": [
+      "21 años",
+      "18 años",
+      "25 años",
+      "16 años"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Constitución fijó la mayoría de edad en los 18.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gobierno-aprobo-divorcio-1981",
+    "text": "¿Qué gobierno aprobó el divorcio en 1981?",
+    "options": [
+      "El de la UCD",
+      "El de AP",
+      "El del PSOE",
+      "El del PP"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La ley se aprobó bajo la presidencia de Calvo-Sotelo.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1906-limito-critica",
+    "text": "¿Qué ley de 1906 limitó la crítica al Ejército?",
+    "options": [
+      "Ley de Jurisdicciones",
+      "Ley del Candado",
+      "Ley de Fugas",
+      "Ley de Cuotas"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Pasó a la jurisdicción militar los delitos contra el Ejército.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-murio-asesinado-1921-siendo",
+    "text": "¿Quién murió asesinado en 1921 siendo presidente?",
+    "options": [
+      "José Canalejas",
+      "Eduardo Dato",
+      "Antonio Cánovas",
+      "Antonio Maura"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Dato fue asesinado por anarquistas en Madrid en marzo de 1921.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-partido-proclamo-republica-catalana",
+    "text": "¿Qué partido proclamó la República Catalana en 1931?",
+    "options": [
+      "ERC",
+      "CNT",
+      "PSUC",
+      "Lliga Regionalista"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Francesc Macià la proclamó el 14 de abril de 1931.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-escandalo-1969-afecto-gobierno",
+    "text": "¿Qué escándalo de 1969 afectó al Gobierno de Franco?",
+    "options": [
+      "Caso Gürtel",
+      "Caso Matesa",
+      "Caso Filesa",
+      "Caso Roldán"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Matesa fue un fraude de créditos a la exportación y enfrentó a ministros.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-juicio-1973-lideres",
+    "text": "¿Cómo se llamó el juicio de 1973 a líderes de CCOO?",
+    "options": [
+      "Proceso 1001",
+      "Caso Matesa",
+      "Juicio de Grimau",
+      "Proceso de Burgos"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Se juzgó a dirigentes sindicales como Marcelino Camacho.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dirigente-comunista-fue-fusilado",
+    "text": "¿Qué dirigente comunista fue fusilado en 1963?",
+    "options": [
+      "Marcelino Camacho",
+      "Enrique Líster",
+      "Julián Grimau",
+      "Santiago Carrillo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Su ejecución causó protestas internacionales.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1938-creo-sindicalismo",
+    "text": "¿Qué ley de 1938 creó el sindicalismo vertical?",
+    "options": [
+      "Fuero de los Españoles",
+      "Fuero del Trabajo",
+      "Ley de Cortes",
+      "Ley del Movimiento"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El Fuero del Trabajo inspiró la organización sindical franquista.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-complot-1978-contra",
+    "text": "¿Cómo se llamó el complot de 1978 contra el Gobierno?",
+    "options": [
+      "Operación Galaxia",
+      "Operación Ogro",
+      "Operación Cóndor",
+      "Operación Cobra"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Tejero estuvo implicado y fue condenado a una pena leve.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ley-1982-intento-ordenar",
+    "text": "¿Qué ley de 1982 intentó ordenar las autonomías?",
+    "options": [
+      "LOGSE",
+      "LODE",
+      "LOAPA",
+      "LRU"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El Tribunal Constitucional anuló varios de sus artículos.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidio-primer-tribunal-constitucional",
+    "text": "¿Quién presidió el primer Tribunal Constitucional?",
+    "options": [
+      "Francisco Tomás y Valiente",
+      "Gregorio Peces-Barba",
+      "Luis Díez-Picazo",
+      "Manuel García-Pelayo"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "García-Pelayo presidió el TC desde 1980.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-acuerdo-1912-repartio-marruecos",
+    "text": "¿Qué acuerdo de 1912 repartió Marruecos?",
+    "options": [
+      "Tratado de Algeciras",
+      "Conferencia de Berlín",
+      "Tratado hispano-francés",
+      "Pacto de Tánger"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Estableció los protectorados francés y español.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidia-gobierno-semana-tragica",
+    "text": "¿Quién presidía el Gobierno en la Semana Trágica?",
+    "options": [
+      "José Canalejas",
+      "Segismundo Moret",
+      "Eduardo Dato",
+      "Antonio Maura"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Maura cayó tras la represión de 1909.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-fundo-fai",
+    "text": "¿En qué año se fundó la FAI?",
+    "options": [
+      "1910",
+      "1927",
+      "1931",
+      "1936"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "La Federación Anarquista Ibérica nació en Valencia en 1927.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-febrero-1937-fue",
+    "text": "¿Qué batalla de febrero de 1937 fue junto al Jarama?",
+    "options": [
+      "Batalla de Guadalajara",
+      "Batalla del Jarama",
+      "Batalla del Ebro",
+      "Batalla del Segre"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Los franquistas intentaron cortar la carretera de Valencia.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-articulo-regula-via-autonomica",
+    "text": "¿Qué artículo regula la vía autonómica rápida?",
+    "options": [
+      "El artículo 143",
+      "El artículo 149",
+      "El artículo 151",
+      "El artículo 155"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Permitía acceder a la autonomía plena con más rapidez.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-escanos-obtuvo-ucd-1977",
+    "text": "¿Cuántos escaños obtuvo la UCD en 1977?",
+    "options": [
+      "118",
+      "165",
+      "202",
+      "121"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "De 350 escaños, la UCD logró 165.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-escanos-obtuvo-psoe-1982",
+    "text": "¿Cuántos escaños obtuvo el PSOE en 1982?",
+    "options": [
+      "184",
+      "165",
+      "118",
+      "202"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Logró 202 de 350 diputados.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-aprobo-estatuto-sau",
+    "text": "¿Cuándo se aprobó el Estatuto de Sau?",
+    "options": [
+      "1979",
+      "1981",
+      "1978",
+      "1932"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El estatuto catalán se votó en referéndum en octubre de 1979.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ponentes-redactaron-constitucion",
+    "text": "¿Cuántos ponentes redactaron la Constitución?",
+    "options": [
+      "Once",
+      "Siete",
+      "Nueve",
+      "Cinco"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Fueron siete los «padres de la Constitución».",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-publico-constitucion-boe",
+    "text": "¿Cuándo se publicó la Constitución en el BOE?",
+    "options": [
+      "6 de diciembre de 1978",
+      "27 de diciembre de 1978",
+      "29 de diciembre de 1978",
+      "1 de enero de 1979"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Entró en vigor el día de su publicación en el BOE.",
+    "source": "historia_de_espana_del_siglo_xx.json",
+    "createdAt": "2026-11-21T16:01:09Z",
+    "status": "active"
+  }
+]
