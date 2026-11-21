@@ -91,6 +91,11 @@ schema defined once in `core/schema.ts` (zod) and shared by the app, the scripts
   and ask for a number of questions ("15 questions from `notes.pdf`"). Category and difficulty
   are optional; without a difficulty each question gets a random one. The folder's contents are
   git-ignored, because the material may be copyrighted.
+- **Ready-made questions:** a `.json` in `question-sources/` whose questions already carry their
+  category, difficulty and explanation (the format of the example the author uses) is converted
+  as it is, without generating or rebalancing anything, by running `/question-pipeline` with no
+  arguments. Each question goes to the file of its own category.
+  `npm run questions:convert -- --dry-run` previews it.
 - **Publish and import with skills:** `/publish-questions` commits, pushes and opens the pull
   request (it never merges); `/import-questions` loads the merged files into Firestore after a
   dry run and an explicit confirmation. `/question-pipeline` chains `add-questions`,

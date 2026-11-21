@@ -26,6 +26,7 @@
     "dev:emulators": "nuxt dev --dotenv .env.emulators",
     "emulators": "firebase emulators:start --only auth,firestore --project demo-contrarreloj",
     "questions:validate": "tsx scripts/validate-questions.ts",
+    "questions:convert": "tsx scripts/convert-questions.ts",
     "questions:import": "tsx scripts/import-questions.ts"
   },
   "dependencies": {

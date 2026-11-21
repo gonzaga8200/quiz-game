@@ -1,7 +1,7 @@
 ---
 name: add-questions
-description: Create, complete or validate quiz questions for Contrarreloj, the Spanish trivia game in this repo. Use when asked to add, write, generate, check or fix questions ("crea 20 preguntas", "add 10 hard science questions", "make questions from this article / PDF / image", "usa la carpeta question-sources", "validate this question"). Can build questions from pasted text, a link, or images and PDFs placed in question-sources/. Writes schema-valid JSON to data/questions/ and shows a review table. Does not import to Firestore.
-argument-hint: '[number] [category] [difficulty] | <text, URL or files in question-sources/> + number [+ category] [+ difficulty] | <one question> | <JSON array>'
+description: Create, complete or validate quiz questions for Contrarreloj, the Spanish trivia game in this repo. Use when asked to add, write, generate, check or fix questions ("crea 20 preguntas", "add 10 hard science questions", "make questions from this article / PDF / image", "usa la carpeta question-sources", "validate this question"). Can build questions from pasted text, a link, or images and PDFs placed in question-sources/. Can also convert a ready-made JSON of questions (with category, difficulty and explanation already set) from question-sources/ with --prepared. Writes schema-valid JSON to data/questions/ and shows a review table. Does not import to Firestore.
+argument-hint: '[number] [category] [difficulty] | <text, URL or files in question-sources/> + number [+ category] [+ difficulty] | <one question> | <JSON array> | --prepared'
 allowed-tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch, Bash(npm run questions:validate:*)
 ---
 
@@ -51,7 +51,9 @@ Default number when none is given: 10 (say so in the summary).
 
 ## Workflow
 
-1. **Classify the request** into one of the four input styles below.
+1. **Classify the request** into one of the input styles below. With `--prepared`, or when the
+   user asks to use the ready-made JSON in `question-sources/`, it is style E: follow that
+   section and skip steps 2 to 4.
 2. **Look at what already exists.** Run `npm run questions:validate -- --summary` to see the
    category × difficulty balance, and Grep `data/questions/` for the topics you plan to cover.
 3. **Draft** the questions following the input style and the quality rules.
@@ -66,7 +68,7 @@ Default number when none is given: 10 (say so in the summary).
    duplicate, mismatched option lengths, answer given away) and fix or justify it.
 7. **Report** (see "Output"). Do not import.
 
-## The four input styles
+## The input styles
 
 ### A. Only a number (e.g. "crea 20 preguntas")
 
@@ -145,6 +147,61 @@ Validate **each** question: schema, quality rules, duplicates (against the bank 
 the array) and the facts. Report every problem in a table (position, id, problem, suggested
 fix). Write only the questions that pass; list the rejected ones. Never edit a question's
 content without telling the user.
+
+### E. Ready-made JSON (`--prepared`)
+
+The user has already written the questions, with their category, difficulty and explanation, in
+a JSON file in `question-sources/` (for example `preguntas_cuerpo_humano.json`). Here nothing is
+created, calculated or reviewed for content: the job is to **convert** the file. This is the
+mode `/question-pipeline` uses when it is run without arguments.
+
+The file is a JSON array; each question looks like this (extra keys are ignored):
+
+```json
+{
+  "id": 1,
+  "categoria": "Ciencia",
+  "dificultad": "muy_facil",
+  "nivel": 1,
+  "pregunta": "¿Con qué órgano vemos?",
+  "opciones": ["Los ojos", "Las orejas", "La nariz", "Las manos"],
+  "respuesta_correcta": 0,
+  "respuesta_texto": "Los ojos",
+  "explicacion": "Los ojos captan la luz y la envían al cerebro."
+}
+```
+
+Do **not** transcribe by hand. Run the converter, which is deterministic and writes the files:
+
+1. `npm run questions:convert -- --dry-run` (every `.json` in `question-sources/`; add
+   `--input <file>` for one file). It lists the files it would write. If there is no JSON in the
+   folder it exits with an error: say so and stop, do not invent questions.
+2. If it reports problems (unknown category or difficulty, `nivel` that disagrees with the
+   difficulty, the answer index not matching `respuesta_texto`, a field that breaks the schema),
+   nothing is written. Show the problems as a table (position, source id, problem) and ask the
+   user; never fix the content yourself.
+3. `npm run questions:convert`, then `npm run questions:validate`.
+
+What the converter does, and you must not undo:
+
+- **Category:** each question goes to the file of its own `categoria`. `Ciencia` becomes
+  `Ciencias`; spelling, accents and case do not matter (`cine y television` works). One file
+  `data/questions/<YYYY-MM-DD>-<category-slug>.json` per category, with a `-2` suffix if the name
+  exists. A category that is not one of the six (or a known alias) is an error.
+- **Difficulty:** taken as it comes (`muy_facil` becomes `muy fácil`, `dificil` becomes `difícil`,
+  and so on). It is not recalculated, balanced or randomised, and the guide in
+  `difficulty-guide.md` does not apply.
+- **Explanation:** `explicacion` becomes `explanation` unchanged. It is the text the player sees
+  in the final report when they miss the question.
+- `pregunta`, `opciones` and `respuesta_correcta` pass through as they are (the `id` of the file
+  is dropped and a new slug id is generated, unique in the bank). `source` is the file name only
+  (`preguntas_cuerpo_humano.json`), `createdAt` is now and `status` is `active`.
+
+The quality rules below are **not** applied to the content. The facts, the wording, the length
+and the distractors are the author's. The validator still runs: report every error and every
+warning (probable duplicate, long text, mismatched option lengths) in the review, quoting the
+question, and leave them for the user to decide. Do not edit the converted file to silence them
+unless the user asks.
 
 ## Quality rules (all mandatory)
 
@@ -237,7 +294,9 @@ After writing and validating, reply with:
 4. **Discarded or rejected** questions with the reason, and any fact worth a second pair of
    human eyes.
 5. For source material: which files (and pages) were used, which were skipped and why, and
-   any difficulty you lowered because the material could not support the target level.
+   any difficulty you lowered because the material could not support the target level. For
+   style E: the source file, the files written, the counts per category and difficulty (as
+   they came) and every validator warning.
 6. Next steps for the user: review and edit the JSON, then `/publish-questions` (commit, push
    and PR; CI runs `questions:validate`) and, once the PR is merged, `/import-questions`.
    `/question-pipeline` runs all three in order.
@@ -251,4 +310,6 @@ After writing and validating, reply with:
 - Never modify, move, delete or commit anything in `question-sources/`: it is the user's
   material, it may be copyrighted, and it is git-ignored on purpose. Never copy it into
   `data/` or any tracked file.
-- Never include a question you could not verify, or invent a `source`.
+- Never include a question you could not verify, or invent a `source`. (Style E is the
+  exception to the first half: the author supplied those questions and you convert them as
+  they are.)
