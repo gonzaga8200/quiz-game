@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.0](https://github.com/gonzaga8200/quiz-game/compare/v0.14.0...v0.15.0) (2026-11-21)
+
+
+### Features
+
+* **questions:** add 200 Historia y Geografía questions on Spain in the 20th century ([#46](https://github.com/gonzaga8200/quiz-game/issues/46)) ([6318873](https://github.com/gonzaga8200/quiz-game/commit/6318873ef29f70c9d81257e2e4567839cb7bb279))
+
 ## [0.14.0](https://github.com/gonzaga8200/quiz-game/compare/v0.13.1...v0.14.0) (2026-11-21)
 
 
