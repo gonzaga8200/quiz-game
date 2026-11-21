@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.1](https://github.com/gonzaga8200/quiz-game/compare/v0.13.0...v0.13.1) (2026-11-21)
+
+
+### Bug fixes
+
+* **questions:** disable the 50 astronomy Ciencias questions added in [#34](https://github.com/gonzaga8200/quiz-game/issues/34) ([#38](https://github.com/gonzaga8200/quiz-game/issues/38)) ([fcc7bf6](https://github.com/gonzaga8200/quiz-game/commit/fcc7bf6565099145c524b64aee89a5a715a472a7))
+
 ## [0.13.0](https://github.com/gonzaga8200/quiz-game/compare/v0.12.0...v0.13.0) (2026-11-20)
 
 
