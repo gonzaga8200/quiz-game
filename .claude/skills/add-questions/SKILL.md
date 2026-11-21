@@ -181,7 +181,10 @@ Do **not** transcribe by hand. Run the converter, which is deterministic and wri
 2. If it reports problems (unknown category or difficulty, `nivel` that disagrees with the
    difficulty, the answer index not matching `respuesta_texto`, a field that breaks the schema),
    nothing is written. Show the problems as a table (position, source id, problem) and ask the
-   user; never fix the content yourself.
+   user; never fix the content yourself. If the user chooses to leave the failing questions out,
+   run the converter with `--skip-invalid`: it converts the valid ones and lists the skipped ones
+   (only use it after the user decided; the file then counts as converted, so those questions are
+   not retried).
 3. `npm run questions:convert`, then `npm run questions:validate`.
 
 What the converter does, and you must not undo:

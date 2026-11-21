@@ -93,8 +93,10 @@ export interface ConvertContext {
 
 export interface ConvertResult {
   readonly byCategory: ReadonlyMap<Category, Question[]>
-  /** Human-readable, one per source question that cannot be converted. Empty when all is well. */
+  /** Human-readable, one per problem found. Empty when all is well. */
   readonly problems: string[]
+  /** How many source questions could not be converted (a question may have several problems). */
+  readonly invalid: number
 }
 
 export function convertQuestions(raw: unknown, context: ConvertContext): ConvertResult {
@@ -102,18 +104,27 @@ export function convertQuestions(raw: unknown, context: ConvertContext): Convert
   const byCategory = new Map<Category, Question[]>()
 
   if (!Array.isArray(raw) || raw.length === 0) {
-    return { byCategory, problems: ['the file must be a non-empty JSON array of questions'] }
+    return {
+      byCategory,
+      problems: ['the file must be a non-empty JSON array of questions'],
+      invalid: 0,
+    }
   }
 
   const usedIds = new Set(context.takenIds)
+  const failed = new Set<number>()
 
   raw.forEach((item: unknown, position) => {
+    const fail = (message: string) => {
+      problems.push(message)
+      failed.add(position)
+    }
     const parsed = SourceQuestionSchema.safeParse(item)
     const sourceId = (item as { id?: unknown } | null)?.id
     const label = `#${position + 1}${sourceId !== undefined ? ` (id ${String(sourceId)})` : ''}`
     if (!parsed.success) {
       for (const issue of parsed.error.issues) {
-        problems.push(`${label}: ${issue.path.join('.') || '(question)'}: ${issue.message}`)
+        fail(`${label}: ${issue.path.join('.') || '(question)'}: ${issue.message}`)
       }
       return
     }
@@ -121,25 +132,23 @@ export function convertQuestions(raw: unknown, context: ConvertContext): Convert
 
     const category = CATEGORY_ALIASES.get(fold(source.categoria))
     if (!category) {
-      problems.push(`${label}: unknown category "${source.categoria}"`)
+      fail(`${label}: unknown category "${source.categoria}"`)
       return
     }
     const difficulty = DIFFICULTY_BY_FOLDED.get(fold(source.dificultad))
     if (!difficulty) {
-      problems.push(`${label}: unknown difficulty "${source.dificultad}"`)
+      fail(`${label}: unknown difficulty "${source.dificultad}"`)
       return
     }
     if (source.nivel !== undefined && DIFFICULTIES.indexOf(difficulty) + 1 !== source.nivel) {
-      problems.push(
-        `${label}: "nivel" ${source.nivel} does not match difficulty "${source.dificultad}"`,
-      )
+      fail(`${label}: "nivel" ${source.nivel} does not match difficulty "${source.dificultad}"`)
       return
     }
     if (
       source.respuesta_texto !== undefined &&
       source.opciones[source.respuesta_correcta] !== source.respuesta_texto
     ) {
-      problems.push(`${label}: respuesta_correcta does not point to respuesta_texto`)
+      fail(`${label}: respuesta_correcta does not point to respuesta_texto`)
       return
     }
 
@@ -162,14 +171,14 @@ export function convertQuestions(raw: unknown, context: ConvertContext): Convert
     })
     if (!question.success) {
       for (const issue of question.error.issues) {
-        problems.push(`${label}: ${issue.path.join('.') || '(question)'}: ${issue.message}`)
+        fail(`${label}: ${issue.path.join('.') || '(question)'}: ${issue.message}`)
       }
       return
     }
     byCategory.set(category, [...(byCategory.get(category) ?? []), question.data])
   })
 
-  return { byCategory, problems }
+  return { byCategory, problems, invalid: failed.size }
 }
 
 export interface InputSplit {

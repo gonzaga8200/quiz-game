@@ -5,6 +5,11 @@
  *   npm run questions:convert -- --input f.json      only that file (repeatable)
  *   npm run questions:convert -- --dry-run           show what would be written
  *   npm run questions:convert -- --force             convert files already converted before
+ *   npm run questions:convert -- --skip-invalid      convert the valid questions, list the rest
+ *
+ * Without --skip-invalid it is all or nothing. With it, a question that breaks the schema
+ * is left out (and listed), the others are converted, and it still fails if nothing could be
+ * converted. A skipped question is not retried: its file counts as converted.
  *
  * A file counts as already converted when a question in the bank has its name as `source`;
  * those are skipped (and listed) so running it again never duplicates questions.
@@ -28,6 +33,7 @@ const { values } = parseArgs({
     from: { type: 'string', default: 'question-sources' },
     'dry-run': { type: 'boolean', default: false },
     force: { type: 'boolean', default: false },
+    'skip-invalid': { type: 'boolean', default: false },
   },
 })
 
@@ -71,6 +77,7 @@ const takenIds = new Set(bank.map((entry) => entry.question.id))
 
 const planned = new Map<string, { category: Category; questions: Question[]; source: string }>()
 const problems: string[] = []
+let invalid = 0
 
 /** `<date>-<category>.json`, with `-2`, `-3`... if the name is taken (never overwrites). */
 function freeFileName(category: Category): string {
@@ -91,16 +98,21 @@ for (const input of split.pending) {
   }
   const result = convertQuestions(raw, { source: file, createdAt, takenIds })
   problems.push(...result.problems.map((problem) => `${file} ${problem}`))
+  invalid += result.invalid
   for (const [category, questions] of result.byCategory) {
     for (const question of questions) takenIds.add(question.id)
     planned.set(freeFileName(category), { category, questions, source: file })
   }
 }
 
-if (problems.length > 0) {
+if (problems.length > 0 && (!values['skip-invalid'] || planned.size === 0)) {
   for (const problem of problems) console.error(`error   ${problem}`)
   console.error(`\n✖ ${problems.length} problem(s): nothing was written`)
   process.exit(1)
+}
+if (problems.length > 0) {
+  for (const problem of problems) console.warn(`skipped ${problem}`)
+  console.warn(`\n⚠ ${invalid} question(s) left out (see above); the rest are converted`)
 }
 
 let total = 0
