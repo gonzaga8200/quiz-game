@@ -12,6 +12,11 @@ function hash(value: string): number {
   return h >>> 0
 }
 
+/** A fixed order for questions: by hash of the id, and by the id itself if two hashes collide. */
+function stableOrder(a: Question, b: Question): number {
+  return hash(a.id) - hash(b.id) || a.id.localeCompare(b.id)
+}
+
 /**
  * The questions a category page shows. Stable (no randomness, no dependence on input order),
  * so the page does not change between builds unless the bank changes.
@@ -34,7 +39,7 @@ export function pickShowcase(
     buckets.get(question.difficulty)?.push(question)
   }
   for (const bucket of buckets.values()) {
-    bucket.sort((a, b) => hash(a.id) - hash(b.id) || a.id.localeCompare(b.id))
+    bucket.sort(stableOrder)
   }
 
   const picked: Question[] = []
@@ -52,9 +57,7 @@ export function pickShowcase(
 
   return picked.sort(
     (a, b) =>
-      DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) ||
-      hash(a.id) - hash(b.id) ||
-      a.id.localeCompare(b.id),
+      DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || stableOrder(a, b),
   )
 }
 

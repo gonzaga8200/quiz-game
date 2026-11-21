@@ -140,6 +140,16 @@ describe('pickShowcase', () => {
     expect(b).toEqual(a)
   })
 
+  it('breaks a hash tie by id, so two colliding ids keep the same order whatever the input', () => {
+    // These two ids have the same FNV-1a hash (3611885259): only the id can tell them apart.
+    const a = makeQuestion({ id: 'dep-colision-412789', category: 'Deportes', difficulty: 'medio' })
+    const b = makeQuestion({ id: 'dep-colision-649192', category: 'Deportes', difficulty: 'medio' })
+    const forward = pickShowcase([a, b], 'Deportes', 2).map((q) => q.id)
+    const backward = pickShowcase([b, a], 'Deportes', 2).map((q) => q.id)
+    expect(forward).toEqual(['dep-colision-412789', 'dep-colision-649192'])
+    expect(backward).toEqual(forward)
+  })
+
   it('skips disabled questions', () => {
     const disabled = deportes.map((q) => ({ ...q, status: 'disabled' as const }))
     expect(pickShowcase(disabled, 'Deportes', 20)).toEqual([])
