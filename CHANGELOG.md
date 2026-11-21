@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.0](https://github.com/gonzaga8200/quiz-game/compare/v0.15.0...v0.16.0) (2026-11-21)
+
+
+### Features
+
+* **questions:** add 199 Arte y Literatura questions on the Spanish Golden Age ([#48](https://github.com/gonzaga8200/quiz-game/issues/48)) ([4e8f71a](https://github.com/gonzaga8200/quiz-game/commit/4e8f71a3ff29961b8a1982cecad2d1cb392308f4))
+
 ## [0.15.0](https://github.com/gonzaga8200/quiz-game/compare/v0.14.0...v0.15.0) (2026-11-21)
 
 
