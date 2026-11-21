@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.14.0](https://github.com/gonzaga8200/quiz-game/compare/v0.13.1...v0.14.0) (2026-11-21)
+
+
+### Features
+
+* **questions:** add 200 Ciencias questions on the human body ([#42](https://github.com/gonzaga8200/quiz-game/issues/42)) ([d2e1466](https://github.com/gonzaga8200/quiz-game/commit/d2e1466f271ad171f6e4643f8f77e631080ce41a))
+
 ## [0.13.1](https://github.com/gonzaga8200/quiz-game/compare/v0.13.0...v0.13.1) (2026-11-21)
 
 
