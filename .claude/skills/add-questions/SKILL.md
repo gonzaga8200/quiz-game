@@ -173,9 +173,11 @@ The file is a JSON array; each question looks like this (extra keys are ignored)
 
 Do **not** transcribe by hand. Run the converter, which is deterministic and writes the files:
 
-1. `npm run questions:convert -- --dry-run` (every `.json` in `question-sources/`; add
-   `--input <file>` for one file). It lists the files it would write. If there is no JSON in the
-   folder it exits with an error: say so and stop, do not invent questions.
+1. `npm run questions:convert -- --dry-run` (every **new** `.json` in `question-sources/`; add
+   `--input <file>` for one file). It lists the files it would write, and the ones it skips
+   because they were converted before. If there is no JSON in the folder, or all of them were
+   already converted, it exits with an error: say so (naming the skipped files) and stop, do not
+   invent questions.
 2. If it reports problems (unknown category or difficulty, `nivel` that disagrees with the
    difficulty, the answer index not matching `respuesta_texto`, a field that breaks the schema),
    nothing is written. Show the problems as a table (position, source id, problem) and ask the
@@ -183,6 +185,15 @@ Do **not** transcribe by hand. Run the converter, which is deterministic and wri
 3. `npm run questions:convert`, then `npm run questions:validate`.
 
 What the converter does, and you must not undo:
+
+- **Only new files.** A JSON counts as already converted when some question in the bank has
+  its file name as `source`. Those files are skipped, so the user can keep adding JSONs to the
+  folder and each run handles only the new ones, and never duplicates a question. This reads the
+  bank in `data/questions/`, so a file converted but not yet merged also counts as done (resume
+  with `/publish-questions`). `--force` converts a file again; use it only if the user asks, and
+  warn that the validator will flag the repeated questions. A JSON whose content was edited after
+  it was converted keeps its name, so it is skipped too: tell the user to rename it if the new
+  content should be converted.
 
 - **Category:** each question goes to the file of its own `categoria`. `Ciencia` becomes
   `Ciencias`; spelling, accents and case do not matter (`cine y television` works). One file

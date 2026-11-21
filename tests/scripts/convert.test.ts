@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { baseId, convertQuestions, fold } from '../../scripts/lib/convert'
+import { baseId, convertQuestions, fold, splitProcessed } from '../../scripts/lib/convert'
 
 const context = {
   source: 'preguntas.json',
@@ -120,5 +120,19 @@ describe('helpers', () => {
   it('builds short ids from the question keywords', () => {
     expect(baseId('Ciencias', '¿Cuántos huesos tiene un adulto?')).toBe('cien-huesos-adulto')
     expect(baseId('Deportes', '¿?')).toBe('dep-pregunta')
+  })
+})
+
+describe('splitProcessed', () => {
+  const inputs = ['/x/question-sources/viejo.json', '/x/question-sources/nuevo.json']
+
+  it('skips the files whose name is already the source of a question in the bank', () => {
+    const { pending, processed } = splitProcessed(inputs, new Set(['viejo.json']))
+    expect(pending).toEqual(['/x/question-sources/nuevo.json'])
+    expect(processed).toEqual(['/x/question-sources/viejo.json'])
+  })
+
+  it('keeps everything when nothing was converted yet', () => {
+    expect(splitProcessed(inputs, new Set()).pending).toEqual(inputs)
   })
 })
