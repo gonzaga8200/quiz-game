@@ -6,6 +6,7 @@ const emit = defineEmits<{ 'open-cookie-settings': [] }>()
 <template>
   <footer class="footer" :class="{ 'footer--wide': wide }">
     <nav aria-label="Información legal" class="footer__nav">
+      <NuxtLink to="/preguntas">Preguntas con respuestas</NuxtLink>
       <NuxtLink to="/cookies">Cookies y privacidad</NuxtLink>
       <button type="button" class="footer__link" @click="emit('open-cookie-settings')">
         Configurar cookies

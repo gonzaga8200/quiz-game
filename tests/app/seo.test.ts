@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest'
+import { CATEGORY_COPY, HUB_COPY } from '../../app/content/categories'
 import { SEO, SITEMAP_PATHS } from '../../app/content/seo'
-import { absoluteUrl, buildRobotsTxt, buildSitemapXml, normalizeSiteUrl } from '../../app/utils/seo'
+import { CATEGORIES } from '../../core/constants'
+import {
+  absoluteUrl,
+  breadcrumbJsonLd,
+  buildRobotsTxt,
+  buildSitemapXml,
+  normalizeSiteUrl,
+} from '../../app/utils/seo'
 
 const SITE = 'https://contrarreloj-quiz.web.app'
 
@@ -60,8 +68,11 @@ describe('buildSitemapXml', () => {
     expect(buildSitemapXml(SITE, ['/a&b'])).toContain('/a&amp;b</loc>')
   })
 
-  it('the real sitemap only has the home page', () => {
-    expect(SITEMAP_PATHS).toEqual(['/'])
+  it('the real sitemap lists the home, the question hub and one page per category', () => {
+    expect(SITEMAP_PATHS).toHaveLength(2 + CATEGORIES.length)
+    expect(SITEMAP_PATHS.slice(0, 2)).toEqual(['/', '/preguntas'])
+    expect(SITEMAP_PATHS).toContain('/preguntas/deportes')
+    expect(new Set(SITEMAP_PATHS).size).toBe(SITEMAP_PATHS.length)
   })
 })
 
@@ -75,5 +86,57 @@ describe('SEO copy', () => {
   it('puts the descriptive words next to the brand', () => {
     expect(SEO.title).toContain(SEO.name)
     expect(SEO.title.toLowerCase()).toContain('preguntas')
+  })
+})
+
+describe('category page copy', () => {
+  it.each(CATEGORIES)('%s has copy that fits the search result limits', (category) => {
+    const copy = CATEGORY_COPY[category]
+    expect(copy.title.length).toBeLessThanOrEqual(45)
+    expect(copy.description.length).toBeGreaterThanOrEqual(110)
+    expect(copy.description.length).toBeLessThanOrEqual(160)
+    expect(copy.heading.toLowerCase()).toContain('preguntas')
+    expect(copy.intro).toHaveLength(2)
+  })
+
+  it('gives every page a different title, heading and description', () => {
+    const all = [...CATEGORIES.map((c) => CATEGORY_COPY[c]), HUB_COPY]
+    for (const key of ['title', 'heading', 'description'] as const) {
+      expect(new Set(all.map((c) => c[key])).size).toBe(all.length)
+    }
+  })
+
+  it('the hub copy fits the limits too', () => {
+    expect(HUB_COPY.title.length).toBeLessThanOrEqual(45)
+    expect(HUB_COPY.description.length).toBeGreaterThanOrEqual(110)
+    expect(HUB_COPY.description.length).toBeLessThanOrEqual(160)
+  })
+})
+
+describe('breadcrumbJsonLd', () => {
+  const json = breadcrumbJsonLd(SITE, [
+    { name: 'Inicio', path: '/' },
+    { name: 'Preguntas', path: '/preguntas' },
+    { name: 'Deportes', path: '/preguntas/deportes' },
+  ])
+  const data = JSON.parse(json)
+
+  it('is a BreadcrumbList with absolute URLs in order', () => {
+    expect(data['@context']).toBe('https://schema.org')
+    expect(data['@type']).toBe('BreadcrumbList')
+    expect(data.itemListElement.map((item: { position: number }) => item.position)).toEqual([
+      1, 2, 3,
+    ])
+    expect(data.itemListElement[2]).toMatchObject({
+      '@type': 'ListItem',
+      name: 'Deportes',
+      item: `${SITE}/preguntas/deportes`,
+    })
+  })
+
+  it('cannot close the script tag it is embedded in', () => {
+    const risky = breadcrumbJsonLd(SITE, [{ name: '</script><b>', path: '/' }])
+    expect(risky).not.toContain('<')
+    expect(JSON.parse(risky).itemListElement[0].name).toBe('</script><b>')
   })
 })

@@ -1,3 +1,6 @@
+import { categoryUrlSlug } from '../../core/categories'
+import { CATEGORIES } from '../../core/constants'
+
 /**
  * Search and social-sharing copy, kept in one place so the Nuxt config, the pages and the
  * generated files (robots.txt, sitemap.xml) never drift apart.
@@ -19,9 +22,15 @@ export const SEO = {
   locale: 'es_ES',
 } as const
 
+/** Public URL of the question hub and of each category page. */
+export const QUESTIONS_PATH = '/preguntas'
+export const CATEGORY_PATHS: readonly string[] = CATEGORIES.map(
+  (category) => `${QUESTIONS_PATH}/${categoryUrlSlug(category)}`,
+)
+
 /**
- * Pages worth indexing. The game, the competitive setup and the ranking are client-rendered
- * (empty HTML for a crawler) and are marked `noindex` in firebase.json; the cookie policy is
- * `noindex` too. Add category pages here when they exist.
+ * Pages worth indexing: the home, the question hub and one page per category. The game, the
+ * competitive setup and the ranking are client-rendered (empty HTML for a crawler) and are
+ * marked `noindex` in firebase.json; the cookie policy is `noindex` too.
  */
-export const SITEMAP_PATHS: readonly string[] = ['/']
+export const SITEMAP_PATHS: readonly string[] = ['/', QUESTIONS_PATH, ...CATEGORY_PATHS]
