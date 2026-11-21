@@ -5,7 +5,7 @@
     "options": ["Lope de Vega", "Miguel de Cervantes", "Francisco de Quevedo", "Pedro Calderón de la Barca"],
     "correctIndex": 1,
     "category": "Arte y Literatura",
-    "difficulty": "muy fácil",
+    "difficulty": "fácil",
     "explanation": "Cervantes publicó la primera parte en 1605 y la segunda en 1615.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"

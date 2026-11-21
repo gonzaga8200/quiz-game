@@ -5,7 +5,7 @@
     "options": ["Saturno", "Júpiter", "Neptuno", "Urano"],
     "correctIndex": 1,
     "category": "Ciencias",
-    "difficulty": "muy fácil",
+    "difficulty": "fácil",
     "explanation": "Júpiter es tan grande que en su interior cabrían más de mil Tierras.",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
@@ -16,7 +16,7 @@
     "options": ["Ag", "Fe", "Au", "Pt"],
     "correctIndex": 2,
     "category": "Ciencias",
-    "difficulty": "fácil",
+    "difficulty": "medio",
     "explanation": "Au viene del latín «aurum»; Ag, la plata, viene de «argentum».",
     "createdAt": "2026-11-16T09:00:00Z",
     "status": "active"
