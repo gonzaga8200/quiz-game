@@ -84,16 +84,21 @@ export function spreadRuns<T>(
  * In random mode (`Aleatorio`) the order is also spread out: never more than
  * `MAX_SAME_IN_A_ROW` questions in a row of the same category or the same difficulty.
  * The other filters already narrow the difficulty, so they are left as shuffled.
+ *
+ * With a `category` only that category is served, and the spreading only looks at the
+ * difficulty (every question already shares the category).
  */
 export function buildQueue(
   questions: readonly Question[],
   filter: DifficultyFilter,
   rng: Rng,
+  category?: Category,
 ): PlayableQuestion[] {
   const allowed = new Set<Difficulty>(difficultiesFor(filter))
   const seen = new Set<string>()
   const pool = questions.filter((question) => {
     if (question.status !== 'active' || !allowed.has(question.difficulty)) return false
+    if (category !== undefined && question.category !== category) return false
     if (seen.has(question.id)) return false
     seen.add(question.id)
     return true
@@ -103,7 +108,9 @@ export function buildQueue(
     filter === 'Aleatorio'
       ? spreadRuns(
           order,
-          [(question) => question.category, (question) => question.difficulty],
+          category === undefined
+            ? [(question) => question.category, (question) => question.difficulty]
+            : [(question) => question.difficulty],
           MAX_SAME_IN_A_ROW,
         )
       : order

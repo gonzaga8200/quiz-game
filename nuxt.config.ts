@@ -1,4 +1,4 @@
-import { SEO } from './app/content/seo'
+import { CATEGORY_PATHS, QUESTIONS_PATH, SEO } from './app/content/seo'
 import { normalizeSiteUrl } from './app/utils/seo'
 
 // Public origin of the deployed site, used for canonical URLs, social cards and the sitemap.
@@ -29,9 +29,10 @@ export default defineNuxtConfig({
   },
 
   // robots.txt and sitemap.xml are server routes rendered once at build time, so the site URL
-  // comes from the environment instead of being hard-coded in a file under public/.
+  // comes from the environment instead of being hard-coded in a file under public/. The question
+  // pages are listed too, so the build always emits one page per category.
   nitro: {
-    prerender: { routes: ['/robots.txt', '/sitemap.xml'] },
+    prerender: { routes: ['/robots.txt', '/sitemap.xml', QUESTIONS_PATH, ...CATEGORY_PATHS] },
   },
 
   eslint: {

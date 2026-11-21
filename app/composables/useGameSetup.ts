@@ -1,5 +1,5 @@
 import { ARCADE_DURATION, ARCADE_FILTER } from '~~/core'
-import type { DifficultyFilter, Duration } from '~~/core'
+import type { Category, DifficultyFilter, Duration } from '~~/core'
 
 export type GameMode = 'arcade' | 'competitive'
 
@@ -7,6 +7,8 @@ export interface GameSetup {
   readonly mode: GameMode
   readonly duration: Duration
   readonly filter: DifficultyFilter
+  /** Only in arcade mode: play a single category (`?categoria=`). */
+  readonly category?: Category
 }
 
 export const ARCADE_SETUP: GameSetup = {

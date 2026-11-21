@@ -5,7 +5,7 @@ import {
   POINTS_BY_DIFFICULTY,
   WRONG_PENALTY_BY_DIFFICULTY,
 } from './constants'
-import type { DifficultyFilter, Duration } from './constants'
+import type { Category, DifficultyFilter, Duration } from './constants'
 import { buildReport } from './report'
 import type { GameReport } from './report'
 import type { Rng } from './rng'
@@ -21,6 +21,8 @@ export interface GameConfig {
   readonly questions: readonly Question[]
   readonly filter: DifficultyFilter
   readonly duration: Duration
+  /** Only serve questions of this category (arcade mode). Omitted = every category. */
+  readonly category?: Category
   /** Random source; pass `Math.random` in the app and a seeded PRNG in tests. */
   readonly rng: Rng
   /** Monotonic clock in milliseconds; pass `performance.now` in the app. */
@@ -120,7 +122,7 @@ export class Game {
   constructor(config: GameConfig) {
     this.#config = config
     this.#durationMs = config.duration * 1000
-    this.#queue = buildQueue(config.questions, config.filter, config.rng)
+    this.#queue = buildQueue(config.questions, config.filter, config.rng, config.category)
   }
 
   /** Starts the clock and shows the first question. Does nothing if already started. */

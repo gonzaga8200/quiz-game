@@ -43,3 +43,25 @@ export function buildSitemapXml(siteUrl: string, paths: readonly string[]): stri
     '',
   ].join('\n')
 }
+
+export interface Crumb {
+  readonly name: string
+  readonly path: string
+}
+
+/**
+ * schema.org BreadcrumbList as a JSON string, ready for a `<script type="application/ld+json">`.
+ * `<` is escaped so a name can never close the script tag.
+ */
+export function breadcrumbJsonLd(siteUrl: string, crumbs: readonly Crumb[]): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: crumbs.map((crumb, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: crumb.name,
+      item: absoluteUrl(siteUrl, crumb.path),
+    })),
+  }).replaceAll('<', '\\u003c')
+}

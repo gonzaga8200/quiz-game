@@ -14,6 +14,10 @@ and all content are in Spanish.
 | Arcade      | No               | No      | Fixed 60 s, random difficulty                                 |
 | Competitive | Yes (Google SSO) | Yes     | 60 s or 120 s; difficulty: Aleatorio, Fácil, Medio or Difícil |
 
+Arcade can be limited to one category with `/jugar?modo=arcade&categoria=<slug>` (for example
+`deportes`; the slugs are in `core/categories.ts`). An unknown slug is ignored. Competitive mode
+never takes a category, because the ranking boards do not tell categories apart.
+
 ## Requirements
 
 - Node.js 22.12 or newer (`.nvmrc` pins 24)
@@ -77,6 +81,19 @@ game and see the ranking without touching the real project.
 See [`.env.example`](.env.example). All `NUXT_PUBLIC_*` values are inlined into the static
 build and are **public identifiers, not secrets**. Never commit a real `.env`, a service
 account key or Application Default Credentials.
+
+## SEO and public pages
+
+The home, `/preguntas` and one page per category (`/preguntas/<slug>`) are indexable and listed
+in `sitemap.xml`. Each category page prints 20 questions with their answers, taken from
+`data/questions` at build time (never from Firestore) so the page is stable between builds.
+The intro of each page lives in `app/content/categories.ts` and describes what the bank really
+contains: update it when a batch of questions changes the mix of topics.
+
+The game, the competitive setup and the ranking are client-rendered and `noindex`
+(`firebase.json`). `robots.txt` and `sitemap.xml` are generated at build time from
+`NUXT_PUBLIC_SITE_URL` (default `https://contrarreloj-quiz.web.app`); set that variable when the
+game gets its own domain.
 
 ## Questions
 

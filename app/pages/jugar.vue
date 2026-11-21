@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { categoryFromSlug } from '~~/core'
 import type { GameReport, Question } from '~~/core'
 
 useHead({ title: 'Jugando' })
@@ -10,8 +11,14 @@ const { load } = useQuestionBank()
 const sound = useSound()
 const submission = useScoreSubmission()
 
-// Arcade is fixed; competitive options come from the setup screen.
-const setup = computed(() => (route.query.modo === 'arcade' ? ARCADE_SETUP : savedSetup.value))
+// Arcade is fixed (60 s, random difficulty) and may be limited to one category with
+// `?categoria=<slug>`; an unknown slug is ignored. Competitive options come from the setup
+// screen and never take a category, because the ranking boards do not tell categories apart.
+const setup = computed(() => {
+  if (route.query.modo !== 'arcade') return savedSetup.value
+  const category = categoryFromSlug(route.query.categoria)
+  return category ? { ...ARCADE_SETUP, category } : ARCADE_SETUP
+})
 
 const status = ref<'loading' | 'ready' | 'error'>('loading')
 const questions = shallowRef<readonly Question[]>([])
@@ -63,7 +70,13 @@ onMounted(() => {
         </div>
       </div>
 
-      <ReportScreen v-else-if="report" :report="report" @again="playAgain" @menu="navigateTo('/')">
+      <ReportScreen
+        v-else-if="report"
+        :report="report"
+        :category="setup.category"
+        @again="playAgain"
+        @menu="navigateTo('/')"
+      >
         <template v-if="setup.mode === 'competitive'" #ranking>
           <RankingResult
             :state="submission.state.value"
@@ -80,6 +93,7 @@ onMounted(() => {
         :questions="questions"
         :filter="setup.filter"
         :duration="setup.duration"
+        :category="setup.category"
         @finished="report = $event"
       />
     </template>

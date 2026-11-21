@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import type { DifficultyFilter, Duration, GameReport, Question } from '~~/core'
+import type { Category, DifficultyFilter, Duration, GameReport, Question } from '~~/core'
 import { useGameSession } from '~/composables/useGameSession'
 import { streakFx, vibrate } from '~/utils/fx'
 import { actionForKey } from '~/utils/keyboard'
@@ -15,6 +15,7 @@ const props = defineProps<{
   questions: readonly Question[]
   filter: DifficultyFilter
   duration: Duration
+  category?: Category
 }>()
 
 const emit = defineEmits<{ finished: [report: GameReport] }>()
@@ -49,6 +50,7 @@ const session = useGameSession({
   questions: props.questions,
   filter: props.filter,
   duration: props.duration,
+  category: props.category,
   effects: {
     onCorrect: () => sound.play('correct'),
     onWrong: () => sound.play('wrong'),

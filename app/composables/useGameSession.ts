@@ -1,6 +1,7 @@
 import { onScopeDispose, ref, shallowRef } from 'vue'
 import { Game } from '~~/core'
 import type {
+  Category,
   DifficultyFilter,
   Duration,
   GameReport,
@@ -32,6 +33,8 @@ export interface SessionOptions {
   questions: readonly Question[]
   filter: DifficultyFilter
   duration: Duration
+  /** Only serve questions of this category (arcade mode). */
+  category?: Category
   effects?: SessionEffects
   rng?: Rng
   /** Monotonic clock in ms. Defaults to `performance.now`. */
@@ -53,6 +56,7 @@ export function useGameSession(options: SessionOptions) {
     questions: options.questions,
     filter: options.filter,
     duration: options.duration,
+    ...(options.category ? { category: options.category } : {}),
     rng: options.rng ?? Math.random,
     now: options.now ?? (() => performance.now()),
   })

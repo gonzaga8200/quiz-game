@@ -3,7 +3,7 @@ import { effectScope } from 'vue'
 import { useGameSession } from '../../app/composables/useGameSession'
 import type { SessionOptions } from '../../app/composables/useGameSession'
 import { mulberry32 } from '../../core'
-import { makeBank } from '../core/helpers'
+import { makeBank, makeQuestion } from '../core/helpers'
 
 beforeEach(() => {
   vi.useFakeTimers()
@@ -149,6 +149,31 @@ describe('useGameSession', () => {
     skipped.session.skip()
     expect(skipped.session.report.value?.rows).toHaveLength(0)
     expect(skipped.effects.onSkip).not.toHaveBeenCalled()
+  })
+
+  it('only presents questions of the chosen category', () => {
+    const questions = [
+      ...makeBank('medio', 6).map((q) => ({ ...q, category: 'Deportes' as const })),
+      ...makeBank('fácil', 6).map((q) => ({
+        ...q,
+        id: `otra-${q.id}`,
+        category: 'Ciencias' as const,
+      })),
+    ]
+    for (let seed = 1; seed <= 5; seed++) {
+      const { session, scope } = setup({ questions, category: 'Ciencias', rng: mulberry32(seed) })
+      expect(session.question.value?.category).toBe('Ciencias')
+      scope.stop()
+    }
+  })
+
+  it('finishes right away when the chosen category has no questions', () => {
+    const { session, effects } = setup({
+      questions: [makeQuestion({ category: 'Deportes' })],
+      category: 'Ciencias',
+    })
+    expect(session.snapshot.value.status).toBe('finished')
+    expect(effects.onFinish).toHaveBeenCalledOnce()
   })
 
   it('finishes right away when no question matches', () => {

@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
-import type { CelebrationTier, GameReport } from '~~/core'
+import type { Category, CelebrationTier, GameReport } from '~~/core'
 import { fireCelebration } from '~/utils/confetti'
 import { formatSigned } from '~/utils/format'
 import ReportQuestionList from './ReportQuestionList.vue'
 
-const props = defineProps<{ report: GameReport }>()
+const props = defineProps<{ report: GameReport; category?: Category }>()
 const emit = defineEmits<{ again: []; menu: [] }>()
 
 const TITLES: Record<CelebrationTier, string> = {
@@ -53,7 +53,12 @@ onMounted(() => {
           <span class="report__unit">{{ report.points === 1 ? 'punto' : 'puntos' }}</span>
         </p>
         <p class="report__context">
-          Partida de {{ report.duration }} segundos con {{ filterLabel }}.
+          <template v-if="category"
+            >Partida de {{ report.duration }} segundos de {{ category }}.</template
+          >
+          <template v-else>
+            Partida de {{ report.duration }} segundos con {{ filterLabel }}.
+          </template>
         </p>
       </template>
     </header>
