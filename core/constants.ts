@@ -29,6 +29,12 @@ export type QuestionStatus = (typeof QUESTION_STATUSES)[number]
 
 export const OPTIONS_PER_QUESTION = 4
 
+/**
+ * Random mode never serves more than this many questions in a row of the same category,
+ * nor of the same difficulty.
+ */
+export const MAX_SAME_IN_A_ROW = 2
+
 /** Arcade mode is always 60 s with random difficulty. */
 export const ARCADE_DURATION: Duration = 60
 export const ARCADE_FILTER: DifficultyFilter = 'Aleatorio'

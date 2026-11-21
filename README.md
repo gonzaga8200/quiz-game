@@ -220,7 +220,10 @@ you what else moves.
 - The timer keeps running during the ~600 ms feedback after an answer. A question answered
   before the clock hits zero counts even if the animation runs past it. A question still
   open when the clock hits zero is discarded.
-- Questions are drawn in uniformly random order, with options shuffled at play time. If
+- Questions are drawn in random order, with options shuffled at play time. In random mode
+  (`Aleatorio`, which includes arcade) the order is also spread out: never more than two
+  questions in a row of the same category or the same difficulty (`MAX_SAME_IN_A_ROW` in
+  `core/constants.ts`). The `Fácil`, `Medio` and `Difícil` filters are only shuffled. If
   the bank runs out before the time does, the game ends early.
 - Celebration tiers (confetti emojis) are based on points per minute, so 60 s and 120 s
   games are comparable: 150+ trophy, 90+ party, 45+ applause, 15+ thumbs up, otherwise a
