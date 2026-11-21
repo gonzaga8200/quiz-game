@@ -1,9 +1,13 @@
 /**
  * Turns ready-made question files into bank files, one file per category.
  *
- *   npm run questions:convert                        every .json in question-sources/
+ *   npm run questions:convert                        every NEW .json in question-sources/
  *   npm run questions:convert -- --input f.json      only that file (repeatable)
  *   npm run questions:convert -- --dry-run           show what would be written
+ *   npm run questions:convert -- --force             convert files already converted before
+ *
+ * A file counts as already converted when a question in the bank has its name as `source`;
+ * those are skipped (and listed) so running it again never duplicates questions.
  *
  * Each source question carries its own category, difficulty and explanation; nothing is
  * calculated or rewritten. It is all or nothing: if any question cannot be converted,
@@ -14,7 +18,7 @@ import { basename, join, resolve } from 'node:path'
 import { parseArgs } from 'node:util'
 import { DIFFICULTIES } from '../core'
 import type { Category, Question } from '../core'
-import { categoryFileSlug, convertQuestions } from './lib/convert'
+import { categoryFileSlug, convertQuestions, splitProcessed } from './lib/convert'
 import { listQuestionFiles, loadQuestionFiles } from './lib/question-files'
 
 const { values } = parseArgs({
@@ -23,6 +27,7 @@ const { values } = parseArgs({
     dir: { type: 'string', default: 'data/questions' },
     from: { type: 'string', default: 'question-sources' },
     'dry-run': { type: 'boolean', default: false },
+    force: { type: 'boolean', default: false },
   },
 })
 
@@ -42,13 +47,27 @@ if (inputs.length === 0) {
   process.exit(2)
 }
 
+const bank = loadQuestionFiles(listQuestionFiles(dir)).entries
+const processedSources = new Set(
+  bank.flatMap((entry) => (entry.question.source ? [entry.question.source] : [])),
+)
+const split = values.force
+  ? { pending: inputs, processed: [] as string[] }
+  : splitProcessed(inputs, processedSources)
+
+for (const path of split.processed) console.log(`skipped  ${basename(path)} (already converted)`)
+if (split.pending.length === 0) {
+  console.error(
+    `Nothing new to convert: ${split.processed.length} file(s) already converted (use --force to convert one again).`,
+  )
+  process.exit(2)
+}
+
 const now = new Date()
 const createdAt = now.toISOString().replace(/\.\d{3}Z$/, 'Z')
 const date = createdAt.slice(0, 10)
 
-const takenIds = new Set(
-  loadQuestionFiles(listQuestionFiles(dir)).entries.map((entry) => entry.question.id),
-)
+const takenIds = new Set(bank.map((entry) => entry.question.id))
 
 const planned = new Map<string, { category: Category; questions: Question[]; source: string }>()
 const problems: string[] = []
@@ -61,7 +80,7 @@ function freeFileName(category: Category): string {
   return name
 }
 
-for (const input of inputs) {
+for (const input of split.pending) {
   const file = basename(input)
   let raw: unknown
   try {

@@ -28,3 +28,8 @@ explanation (see `preguntas_cuerpo_humano.json` for the format), run `/question-
 **no arguments**: nothing is generated or rebalanced, the file is converted as it is and each
 question goes to the file of its own category. `npm run questions:convert -- --dry-run` shows
 what would be written.
+
+You can keep adding JSON files to the folder: each run converts only the ones that were not
+converted before, and skips the rest (a file counts as converted when a question in
+`data/questions/` has its file name as `source`). To convert a file again, rename it, or run
+`npm run questions:convert -- --force`.

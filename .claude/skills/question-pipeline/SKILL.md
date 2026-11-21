@@ -21,8 +21,11 @@ Chains three skills, each one doing one job:
   questions already exist. They are in a JSON file in `question-sources/`, each one with its
   own category, difficulty and explanation. Nothing is generated and no difficulty is worked
   out: step 1 only converts that file (add-questions style E, `--prepared`) and each question
-  lands in the file of its own category. If `question-sources/` has no `.json` file, say so and
-  ask the user what they want; do not make up questions.
+  lands in the file of its own category. Only JSON files **not converted before** are processed:
+  the user keeps adding files to the folder and the ones already handled are skipped (the
+  converter tells which, by the `source` of the questions already in the bank). If there is no
+  `.json` file, or all of them were already converted, say so, naming the skipped files, and ask
+  the user what they want; do not make up questions.
 - **With arguments** (a number, a category, a difficulty, source material...): as before, step 1
   generates the questions with `add-questions`.
 

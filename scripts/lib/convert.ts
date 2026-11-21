@@ -171,3 +171,25 @@ export function convertQuestions(raw: unknown, context: ConvertContext): Convert
 
   return { byCategory, problems }
 }
+
+export interface InputSplit {
+  readonly pending: string[]
+  /** Already converted: some question in the bank has this file name as its `source`. */
+  readonly processed: string[]
+}
+
+/**
+ * Splits the input files into new ones and ones already converted. The bank itself is the
+ * record: every converted question keeps the name of its file in `source`, so there is no
+ * separate list to keep in sync (and it works the same on any machine).
+ */
+export function splitProcessed(
+  inputs: readonly string[],
+  processedSources: ReadonlySet<string>,
+): InputSplit {
+  const name = (path: string) => path.split('/').at(-1) ?? path
+  return {
+    pending: inputs.filter((path) => !processedSources.has(name(path))),
+    processed: inputs.filter((path) => processedSources.has(name(path))),
+  }
+}
