@@ -9,7 +9,7 @@
     "explanation": "Los exoplanetas o planetas extrasolares giran alrededor de estrellas distintas del Sol; el primero en torno a una estrella de tipo solar se confirmó en 1995.",
     "source": "El_universo_observable.pdf, pp. 5, 16",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-zwicky-cumulo-coma",
@@ -21,7 +21,7 @@
     "explanation": "Zwicky aplicó el teorema del virial al cúmulo de Coma: la dispersión de velocidades observada, de unos 1.000 km/s, superaba con mucho la esperada, de unos 80 km/s.",
     "source": "El_universo_observable.pdf, p. 8",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-edad-del-universo",
@@ -33,7 +33,7 @@
     "explanation": "Con los datos del satélite Planck, el universo tiene unos 13,80 mil millones de años, con una incertidumbre de unos 0,02 mil millones.",
     "source": "El_universo_observable.pdf, p. 7",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-einstein-predijo-ondas-gravitacionales",
@@ -45,7 +45,7 @@
     "explanation": "Einstein predijo en 1916 que la relatividad general admitía ondas de deformación del espacio; tuvieron que pasar casi cien años hasta observarlas directamente.",
     "source": "El_universo_observable.pdf, p. 11",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-masa-final-primera-onda-gravitacional",
@@ -57,7 +57,7 @@
     "explanation": "El agujero negro final tenía unas 62 masas solares, tras la fusión de dos agujeros negros de unas 36 y 29 masas solares.",
     "source": "El_universo_observable.pdf, p. 12",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-energia-radiada-gw150914",
@@ -69,7 +69,7 @@
     "explanation": "Unas 3,0 masas solares multiplicadas por c² se radiaron en forma de ondas gravitacionales durante la fusión.",
     "source": "El_universo_observable.pdf, p. 12",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-componente-dominante-universo",
@@ -81,7 +81,7 @@
     "explanation": "Según un cálculo a partir de los parámetros de Planck, la energía oscura supone cerca del 68 % del contenido, la materia oscura el 26 % y la ordinaria solo el 5 %.",
     "source": "El_universo_observable.pdf, p. 7",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-fecha-primeras-ondas-gravitacionales",
@@ -93,7 +93,7 @@
     "explanation": "La señal llegó el 14 de septiembre de 2015, a las 09:50:45 UTC, a los dos detectores de LIGO.",
     "source": "El_universo_observable.pdf, p. 11",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-longitud-onda-eht",
@@ -105,7 +105,7 @@
     "explanation": "El Telescopio del Horizonte de Sucesos es una red global de radiotelescopios que opera como interferómetro de base muy larga (VLBI) a una longitud de onda de 1,3 mm.",
     "source": "El_universo_observable.pdf, p. 14",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-supernova-ia-vela-patron",
@@ -117,7 +117,7 @@
     "explanation": "La luminosidad intrínseca de las supernovas de tipo Ia puede estandarizarse, de ahí que sirvan para medir distancias cosmológicas.",
     "source": "El_universo_observable.pdf, pp. 9, 28",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-ligo-primera-deteccion",
@@ -129,7 +129,7 @@
     "explanation": "Fue la primera detección directa de ondas gravitacionales, procedentes de la fusión de dos agujeros negros.",
     "source": "El_universo_observable.pdf, p. 11",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-agujero-negro-supermasivo-galaxias",
@@ -141,7 +141,7 @@
     "explanation": "Se piensan presentes en el centro de casi todas las galaxias, con masas de millones a decenas de miles de millones de veces la del Sol.",
     "source": "El_universo_observable.pdf, p. 14",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-velocidad-ondas-gravitacionales",
@@ -153,7 +153,7 @@
     "explanation": "Son ondas de deformación del espacio que se propagan a la velocidad de la luz.",
     "source": "El_universo_observable.pdf, p. 11",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-cefeidas-escalera-distancias",
@@ -165,7 +165,7 @@
     "explanation": "La luminosidad de las cefeidas se relaciona con su periodo; en la escalera local enlazan las paralajes con las supernovas de tipo Ia.",
     "source": "El_universo_observable.pdf, pp. 9, 28",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-tension-hubble-sigma",
@@ -177,7 +177,7 @@
     "explanation": "La determinación local por escalera de distancias se aparta unos 5σ de la predicción derivada del fondo cósmico de microondas, y su origen sigue sin resolverse.",
     "source": "El_universo_observable.pdf, p. 10",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-k2-18b-metano-co2",
@@ -189,7 +189,7 @@
     "explanation": "El JWST detectó metano (5σ) y dióxido de carbono (3σ) en K2-18 b, y no amoníaco; los indicios de moléculas ligadas a vida son mucho más débiles.",
     "source": "El_universo_observable.pdf, pp. 17-18",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-distancia-gw150914",
@@ -201,7 +201,7 @@
     "explanation": "La fuente estaba a unos 410 megapársecs, un corrimiento al rojo de unas 0,09, con una incertidumbre de +160/−180 Mpc.",
     "source": "El_universo_observable.pdf, p. 12",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-universo-primitivo-caliente-denso",
@@ -213,7 +213,7 @@
     "explanation": "El modelo ΛCDM parte de una fase muy caliente y densa, de la que procede la luz residual que observamos hoy.",
     "source": "El_universo_observable.pdf, pp. 6, 28",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-constante-hubble-mide",
@@ -225,7 +225,7 @@
     "explanation": "H0 mide el ritmo actual de expansión del universo y permite inferir su edad o las distancias a galaxias de corrimiento al rojo conocido.",
     "source": "El_universo_observable.pdf, p. 9",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-51-pegasi-b-masa-jupiter",
@@ -237,7 +237,7 @@
     "explanation": "51 Pegasi b tiene una masa similar a la de Júpiter y orbita una estrella de tipo solar.",
     "source": "El_universo_observable.pdf, p. 16",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-masa-agujero-negro-m87",
@@ -249,7 +249,7 @@
     "explanation": "La masa inferida fue de (6,5 ± 0,7) × 10⁹ masas solares; la dinámica del gas había dado unos 3,5 × 10⁹.",
     "source": "El_universo_observable.pdf, p. 14",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-gaia-agencia-espacial",
@@ -261,7 +261,7 @@
     "explanation": "Gaia es una misión de piedra angular del programa científico de la Agencia Espacial Europea (ESA).",
     "source": "El_universo_observable.pdf, p. 18",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-kepler-busqueda-transitos",
@@ -273,7 +273,7 @@
     "explanation": "Kepler observó el brillo de decenas de miles de estrellas para detectar tránsitos, la leve bajada de brillo cuando un planeta pasa por delante.",
     "source": "El_universo_observable.pdf, p. 16",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-mayor-queloz-51-pegasi",
@@ -285,7 +285,7 @@
     "explanation": "Michel Mayor y Didier Queloz publicaron en Nature, en 1995, el hallazgo del primer planeta confirmado en torno a una estrella parecida al Sol.",
     "source": "El_universo_observable.pdf, p. 16",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-supernovas-distancias-mayores",
@@ -297,7 +297,7 @@
     "explanation": "Riess et al. (1998) hallaron distancias entre un 10 y un 15 % mayores que las esperadas sin constante cosmológica, señal de que la expansión se acelera.",
     "source": "El_universo_observable.pdf, p. 9",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-hueco-radios-planetas",
@@ -309,7 +309,7 @@
     "explanation": "El California-Kepler Survey halló un déficit de al menos un factor dos en la tasa de planetas entre 1,5 y 2,0 radios terrestres.",
     "source": "El_universo_observable.pdf, p. 17",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-estrella-neutrones-remanente",
@@ -321,7 +321,7 @@
     "explanation": "Una estrella de neutrones es el remanente compacto de una estrella masiva.",
     "source": "El_universo_observable.pdf, p. 28",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-h0-local-riess-breuval",
@@ -333,7 +333,7 @@
     "explanation": "Su escalera de distancias da H0 = 73,04 ± 1,04 km/s/Mpc, frente a los 67,36 ± 0,54 que se deducen del fondo cósmico de microondas.",
     "source": "El_universo_observable.pdf, p. 10",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-horizonte-sucesos-definicion",
@@ -345,7 +345,7 @@
     "explanation": "El horizonte de sucesos es una frontera causal de un solo sentido, de la que ni siquiera la luz puede escapar.",
     "source": "El_universo_observable.pdf, p. 14",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-velocidad-radial-metodo",
@@ -357,7 +357,7 @@
     "explanation": "La velocidad radial detecta el movimiento de vaivén que un planeta induce en su estrella mediante el desplazamiento Doppler de las líneas espectrales.",
     "source": "El_universo_observable.pdf, p. 22",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-planck-satelite-europeo",
@@ -369,7 +369,7 @@
     "explanation": "El satélite Planck, de la Agencia Espacial Europea, aportó los datos más precisos para fijar los parámetros del modelo cosmológico estándar.",
     "source": "El_universo_observable.pdf, p. 6",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-gw170817-estrellas-neutrones",
@@ -381,7 +381,7 @@
     "explanation": "GW170817, del 17 de agosto de 2017, fue la primera fusión de dos estrellas de neutrones detectada con ondas gravitacionales.",
     "source": "El_universo_observable.pdf, p. 13",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-estrellas-nubes-moleculares",
@@ -393,7 +393,7 @@
     "explanation": "Las estrellas se forman en nubes moleculares gigantes, donde la turbulencia crea sobredensidades que inician el colapso gravitatorio.",
     "source": "El_universo_observable.pdf, p. 15",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-astronomia-multimensajero",
@@ -405,7 +405,7 @@
     "explanation": "La astronomía multimensajero combina canales independientes, como ondas gravitacionales, luz de todo el espectro y neutrinos, para reconstruir los mismos fenómenos.",
     "source": "El_universo_observable.pdf, p. 13",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-corrimiento-rojo-lejania",
@@ -417,7 +417,7 @@
     "explanation": "El corrimiento al rojo es el desplazamiento de la luz a longitudes de onda mayores por la expansión del universo; un z mayor implica más distancia y más antigüedad.",
     "source": "El_universo_observable.pdf, p. 28",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-estrellas-solares-planeta-habitable",
@@ -429,7 +429,7 @@
     "explanation": "Petigura et al. (2013) estimaron un 11 ± 4 % con un planeta de 1-2 radios terrestres y flujo de 1-4 veces el terrestre; extrapolado a toda la zona habitable, un 22 ± 8 %.",
     "source": "El_universo_observable.pdf, p. 16",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-z-maximo-jades",
@@ -441,7 +441,7 @@
     "explanation": "Curtis-Lake et al. (2023) confirmaron cuatro galaxias con corrimientos al rojo de 10,38, 11,58, 12,63 y 13,20; la más lejana es la última.",
     "source": "El_universo_observable.pdf, p. 20",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-discos-gas-polvo",
@@ -453,7 +453,7 @@
     "explanation": "Alrededor de las estrellas jóvenes, el material restante forma discos de gas y polvo, de los que nacen los planetas.",
     "source": "El_universo_observable.pdf, p. 15",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-mond-gravedad-modificada",
@@ -465,7 +465,7 @@
     "explanation": "La dinámica newtoniana modificada (MOND) cambia la gravedad; el cúmulo Bala y otras medidas cosmológicas son difíciles de conciliar con sus versiones propuestas.",
     "source": "El_universo_observable.pdf, p. 8",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-jwst-luz-infrarroja",
@@ -477,7 +477,7 @@
     "explanation": "El JWST es un observatorio infrarrojo; esa resolución permite separar las cefeidas de su entorno y ver galaxias muy lejanas.",
     "source": "El_universo_observable.pdf, pp. 10, 28",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-gaia-dr3-fuentes",
@@ -489,7 +489,7 @@
     "explanation": "Gaia DR3 contiene astrometría y fotometría de unas 1.800 millones de fuentes (1.811.709.771), además de velocidades radiales para más de 33 millones de objetos.",
     "source": "El_universo_observable.pdf, p. 19",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-hueco-radios-fotoevaporacion",
@@ -501,7 +501,7 @@
     "explanation": "Entre los mecanismos propuestos están la fotoevaporación de la envoltura por la radiación de la estrella, la formación pobre en gas y la erosión por impactos.",
     "source": "El_universo_observable.pdf, p. 17",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-agujero-negro-primera-imagen-galaxia",
@@ -513,7 +513,7 @@
     "explanation": "En 2019 el Telescopio del Horizonte de Sucesos obtuvo la imagen de la sombra del agujero negro supermasivo de la galaxia elíptica gigante M87.",
     "source": "El_universo_observable.pdf, p. 14",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-gw170817-retraso-rayos-gamma",
@@ -525,7 +525,7 @@
     "explanation": "Una débil ráfaga de rayos gamma (GRB 170817A) se detectó unos 1,7 segundos después de la fusión: la primera detección electromagnética de una fuente de ondas gravitacionales.",
     "source": "El_universo_observable.pdf, p. 13",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-gaia-lanzamiento-2013",
@@ -537,7 +537,7 @@
     "explanation": "Gaia se lanzó el 19 de diciembre de 2013; la construcción de la nave se había aprobado en 2006.",
     "source": "El_universo_observable.pdf, p. 18",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-gaia-via-lactea-seis-dimensiones",
@@ -549,7 +549,7 @@
     "explanation": "Al combinar posición, movimiento en el cielo y velocidad en la línea de visión, Gaia permite reconstruir la estructura y la dinámica de la Vía Láctea.",
     "source": "El_universo_observable.pdf, p. 18",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-espectroscopia-tecnica",
@@ -561,7 +561,7 @@
     "explanation": "La espectroscopía permite determinar la composición química, la temperatura y la velocidad en la línea de visión de un objeto mediante el efecto Doppler.",
     "source": "El_universo_observable.pdf, p. 21",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-anillo-m87-diametro",
@@ -573,7 +573,7 @@
     "explanation": "El anillo, brillante, asimétrico y con una depresión central, medía 42 ± 3 microsegundos de arco.",
     "source": "El_universo_observable.pdf, p. 14",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-indice-espectral-planck",
@@ -585,7 +585,7 @@
     "explanation": "Planck dio ns = 0,965 ± 0,004. Los otros valores son la profundidad óptica de la reionización (0,054), la densidad de materia oscura (0,120) y la densidad de materia (0,316).",
     "source": "El_universo_observable.pdf, pp. 6-7",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   },
   {
     "id": "cien-ngc-4258-maseres-ancla",
@@ -597,6 +597,6 @@
     "explanation": "La escalera de Riess y Breuval combina paralajes de la Vía Láctea, máseres en NGC 4258 y binarias eclipsantes de la Gran Nube de Magallanes.",
     "source": "El_universo_observable.pdf, p. 10",
     "createdAt": "2026-11-20T09:00:00Z",
-    "status": "active"
+    "status": "disabled"
   }
 ]
