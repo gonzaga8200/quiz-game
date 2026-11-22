@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.20.0](https://github.com/gonzaga8200/quiz-game/compare/v0.19.0...v0.20.0) (2026-11-22)
+
+
+### Features
+
+* **ui:** share the final result from the results screen ([#57](https://github.com/gonzaga8200/quiz-game/issues/57)) ([b3323c9](https://github.com/gonzaga8200/quiz-game/commit/b3323c9ec3af16586d38ddb5ef88d7aa21654b6b))
+
 ## [0.19.0](https://github.com/gonzaga8200/quiz-game/compare/v0.18.0...v0.19.0) (2026-11-21)
 
 
