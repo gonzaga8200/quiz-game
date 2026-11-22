@@ -19,6 +19,9 @@ useSeoMeta({
     <section aria-labelledby="titular">
       <h2 id="titular">Titular del sitio</h2>
       <p>{{ LEGAL.owner }}.</p>
+      <p>
+        Nombre de dominio: <strong>{{ LEGAL.domain }}</strong>
+      </p>
       <LegalContact />
       <p>
         Contrarreloj es un juego de preguntas gratuito, sin publicidad y sin ánimo comercial. Para

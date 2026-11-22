@@ -2,6 +2,8 @@ export interface LegalInfo {
   /** Name the copyright is held under. Matches the LICENSE file. */
   readonly holder: string
   readonly owner: string
+  /** The site's domain name, which the legal notice must name. Matches `SEO.defaultSiteUrl`. */
+  readonly domain: string
   /** Year the site was first published; the footer shows it as the copyright year. */
   readonly copyrightYear: number
   /**
@@ -23,6 +25,7 @@ export interface LegalInfo {
 export const LEGAL: LegalInfo = {
   holder: 'Gonzalo Moreno Minguito',
   owner: 'Gonzalo Moreno Minguito (titular del proyecto, gonzaga8200 en GitHub)',
+  domain: 'contrarreloj-quiz.com',
   copyrightYear: 2026,
   email: 'gonzaga8200@gmail.com',
   contact: 'https://github.com/gonzaga8200/quiz-game/issues',

@@ -4,7 +4,7 @@ A timed quiz game ("contrarreloj" is Spanish for a cycling time trial). In each 
 the player answers as many questions as possible before the clock runs out. The game UI
 and all content are in Spanish.
 
-- **Live app:** https://contrarreloj-quiz.web.app
+- **Live app:** https://contrarreloj-quiz.com
 - **Status:** under construction. See [Roadmap](#roadmap).
 
 ## Game modes
@@ -98,8 +98,8 @@ contains: update it when a batch of questions changes the mix of topics.
 
 The game, the competitive setup and the ranking are client-rendered and `noindex`
 (`firebase.json`). `robots.txt` and `sitemap.xml` are generated at build time from
-`NUXT_PUBLIC_SITE_URL` (default `https://contrarreloj-quiz.web.app`); set that variable when the
-game gets its own domain.
+`NUXT_PUBLIC_SITE_URL` (default `https://contrarreloj-quiz.com`); set that variable only to serve
+the site from another address.
 
 ## Questions
 
@@ -206,6 +206,15 @@ Manual deploy, if you ever need it: `npm run build && npx firebase deploy --only
 Security rules are deployed separately: `npx firebase deploy --only firestore`. To roll back,
 use Firebase console > Hosting > release history, or run `deploy.yml` on an older tag with
 _Run workflow_.
+
+### Custom domain
+
+The site is served from `https://contrarreloj-quiz.com` (Firebase Hosting, DNS at Cloudflare). The
+records Hosting asks for (`A` and `TXT` on the apex) must stay **DNS only** (grey cloud): with the
+Cloudflare proxy on, Hosting cannot issue the HTTPS certificate. The domain also has to be in
+Authentication > Settings > _Authorized domains_, or Google sign-in fails with
+`auth/unauthorized-domain`. The old `contrarreloj-quiz.web.app` keeps answering; its pages point
+their canonical URL at the custom domain.
 
 ### Preview channels and Google sign-in
 
