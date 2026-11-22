@@ -70,12 +70,12 @@ onMounted(() => void loadBoard(board.value))
     >
       <h2 class="panel__title">{{ heading }}</h2>
 
-      <p v-if="status === 'loading'" aria-live="polite">Cargando clasificación…</p>
+      <p v-if="status === 'loading'" aria-live="polite">Cargando el ranking…</p>
 
       <p v-else-if="status === 'unavailable'">El ranking no está disponible en este momento.</p>
 
       <div v-else-if="status === 'error'" role="alert" class="panel__error">
-        <p>No se ha podido cargar la clasificación.</p>
+        <p>No se ha podido cargar el ranking.</p>
         <button type="button" class="btn btn--secondary" @click="loadBoard(board)">
           Reintentar
         </button>
@@ -88,7 +88,7 @@ onMounted(() => void loadBoard(board.value))
       <RankingList v-else :entries="entries" :current-uid="user?.uid ?? null" />
     </section>
 
-    <NuxtLink class="btn btn--secondary" to="/">Menú principal</NuxtLink>
+    <NuxtLink class="btn btn--secondary" to="/">Volver al menú</NuxtLink>
   </main>
 </template>
 

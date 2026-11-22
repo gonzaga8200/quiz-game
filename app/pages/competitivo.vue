@@ -39,7 +39,7 @@ async function start(): Promise<void> {
       <ChoiceGroup v-model="filter" legend="Dificultad" name="filter" :options="filterOptions" />
 
       <div class="setup__actions">
-        <button type="submit" class="btn btn--primary btn--large">Comienzo</button>
+        <button type="submit" class="btn btn--primary btn--large">Empezar partida</button>
         <NuxtLink class="btn btn--secondary" to="/">Volver al menú</NuxtLink>
       </div>
     </form>

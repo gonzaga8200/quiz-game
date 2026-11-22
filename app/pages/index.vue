@@ -61,7 +61,8 @@ const sound = useSound()
           <template v-else>
             <GoogleSignInButton @click="signIn" />
             <p class="note">
-              Entra con Google para jugar en modo competitivo y aparecer en el ranking.
+              Entra con Google para jugar en modo competitivo. Tu nombre y tu foto de Google serán
+              visibles en el ranking.
             </p>
             <p v-if="error" class="note note--error" role="alert">{{ error }}</p>
           </template>

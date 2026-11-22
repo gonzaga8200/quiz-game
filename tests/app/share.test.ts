@@ -7,22 +7,28 @@ const base = { points: 142, duration: 60, filter: 'Aleatorio', emoji: '🏆' } a
 
 describe('shareText', () => {
   it('names the points, the time and invites a rematch', () => {
-    expect(shareText(base)).toBe('🏆 He hecho 142 puntos en Contrarreloj (60 s). ¿Me superas?')
+    expect(shareText(base)).toBe(
+      '🏆 He conseguido 142 puntos en Contrarreloj, el juego de preguntas contra el reloj (60 s). ¿Me superas?',
+    )
+  })
+
+  it('says what Contrarreloj is, because on its own the word is the cycling time trial', () => {
+    expect(shareText(base)).toContain('el juego de preguntas')
   })
 
   it('uses the singular for a single point', () => {
-    expect(shareText({ ...base, points: 1 })).toContain('He hecho 1 punto en')
+    expect(shareText({ ...base, points: 1 })).toContain('He conseguido 1 punto en')
   })
 
   it('names the category of a category game', () => {
     expect(shareText({ ...base, category: 'Deportes' })).toBe(
-      '🏆 He hecho 142 puntos en Contrarreloj (60 s, Deportes). ¿Me superas?',
+      '🏆 He conseguido 142 puntos en Contrarreloj, el juego de preguntas contra el reloj (60 s, Deportes). ¿Me superas?',
     )
   })
 
   it('names the difficulty of a competitive game, but not the random one', () => {
     expect(shareText({ ...base, duration: 120, filter: 'Difícil' })).toBe(
-      '🏆 He hecho 142 puntos en Contrarreloj (120 s, dificultad difícil). ¿Me superas?',
+      '🏆 He conseguido 142 puntos en Contrarreloj, el juego de preguntas contra el reloj (120 s, dificultad difícil). ¿Me superas?',
     )
     expect(shareText({ ...base, duration: 120 })).toContain('(120 s)')
   })

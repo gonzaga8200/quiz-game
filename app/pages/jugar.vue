@@ -73,7 +73,7 @@ onMounted(() => {
         <p>No se han podido cargar las preguntas.</p>
         <div class="notice__actions">
           <button type="button" class="btn btn--primary" @click="loadQuestions">Reintentar</button>
-          <NuxtLink class="btn btn--secondary" to="/">Menú principal</NuxtLink>
+          <NuxtLink class="btn btn--secondary" to="/">Volver al menú</NuxtLink>
         </div>
       </div>
 

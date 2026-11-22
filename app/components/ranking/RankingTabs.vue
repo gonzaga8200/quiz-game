@@ -31,7 +31,7 @@ async function onKeydown(event: KeyboardEvent, index: number): Promise<void> {
 </script>
 
 <template>
-  <div class="tabs" role="tablist" aria-label="Clasificaciones por tiempo y dificultad">
+  <div class="tabs" role="tablist" aria-label="Rankings por tiempo y dificultad">
     <button
       v-for="(board, index) in BOARDS"
       :id="`tab-${board.id}`"

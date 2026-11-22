@@ -83,6 +83,11 @@ describe('SEO copy', () => {
     expect(SEO.description.length).toBeLessThanOrEqual(160)
   })
 
+  it('does not promise "no registration" for the whole game: only arcade has none', () => {
+    expect(SEO.description).toContain('arcade')
+    expect(SEO.description).not.toMatch(/gratis y sin registro/i)
+  })
+
   it('puts the descriptive words next to the brand', () => {
     expect(SEO.title).toContain(SEO.name)
     expect(SEO.title.toLowerCase()).toContain('preguntas')
@@ -104,6 +109,14 @@ describe('category page copy', () => {
     for (const key of ['title', 'heading', 'description'] as const) {
       expect(new Set(all.map((c) => c[key])).size).toBe(all.length)
     }
+  })
+
+  it('does not repeat the same paragraph or the same opening on every page', () => {
+    const copies = CATEGORIES.map((c) => CATEGORY_COPY[c])
+    const openings = copies.map((c) => c.intro[0].split(' ').slice(0, 3).join(' '))
+    expect(new Set(openings).size).toBe(copies.length)
+    expect(new Set(copies.map((c) => c.intro[1])).size).toBe(copies.length)
+    expect(new Set(copies.map((c) => c.intro[0])).size).toBe(copies.length)
   })
 
   it('the hub copy fits the limits too', () => {

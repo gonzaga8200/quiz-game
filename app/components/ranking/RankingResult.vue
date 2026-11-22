@@ -38,7 +38,7 @@ const boardLabel = computed(
             Estás en el puesto {{ state.result.position }} del ranking de {{ boardLabel }}.
           </template>
           <template v-else>
-            Tu mejor marca en el ranking de {{ boardLabel }} sigue siendo
+            Tu mejor puntuación en el ranking de {{ boardLabel }} sigue siendo
             <strong>{{ state.result.best }} puntos</strong>, en el puesto
             {{ state.result.position }}.
           </template>

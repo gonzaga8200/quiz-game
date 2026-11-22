@@ -12,7 +12,7 @@ export const SEO = {
   name: 'Contrarreloj',
   title: 'Contrarreloj · Juego de preguntas contra el tiempo',
   description:
-    'Contrarreloj es un juego de preguntas contra el tiempo: responde todas las que puedas en 60 segundos. Juega gratis y sin registro.',
+    'Contrarreloj es un juego de preguntas contra el tiempo: responde todas las que puedas en 60 segundos. El modo arcade es gratis y no pide registro.',
   /** Used until the game has its own domain; override with NUXT_PUBLIC_SITE_URL. */
   defaultSiteUrl: 'https://contrarreloj-quiz.web.app',
   /** Path under `public/`; 1200 x 630 px. */
