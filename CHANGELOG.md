@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.20.1](https://github.com/gonzaga8200/quiz-game/compare/v0.20.0...v0.20.1) (2026-11-22)
+
+
+### Bug fixes
+
+* **copy:** align the game's texts with one voice after a brand review ([#59](https://github.com/gonzaga8200/quiz-game/issues/59)) ([30f9a42](https://github.com/gonzaga8200/quiz-game/commit/30f9a42f0100501e6c97c1b3a9a58a31cda1bdce))
+
 ## [0.20.0](https://github.com/gonzaga8200/quiz-game/compare/v0.19.0...v0.20.0) (2026-11-22)
 
 
