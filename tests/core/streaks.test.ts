@@ -110,6 +110,22 @@ describe('spreadRuns', () => {
     expect(longestRun(out.map((i) => String(i.d)))).toBeLessThanOrEqual(2)
   })
 
+  it('when no item meets every rule, it breaks the lower-priority rule first', () => {
+    // After { c: 'p', d: 'q' } nothing is clean: one item repeats the first key (c), the other
+    // repeats the second key (d). The first rule is the priority, so the second is the one broken.
+    const first = { c: 'p', d: 'q', name: 'first' }
+    const repeatsFirstKey = { c: 'p', d: 'z', name: 'repeatsFirstKey' }
+    const repeatsSecondKey = { c: 'r', d: 'q', name: 'repeatsSecondKey' }
+    const out = spreadRuns(
+      [first, repeatsFirstKey, repeatsSecondKey],
+      [
+        { key: (i) => i.c, max: 1 },
+        { key: (i) => i.d, max: 1 },
+      ],
+    )
+    expect(out.map((i) => i.name)).toEqual(['first', 'repeatsSecondKey', 'repeatsFirstKey'])
+  })
+
   it('does not mutate its input', () => {
     const input = ['a', 'a', 'a', 'b']
     spreadRuns(input, [rule])

@@ -49,19 +49,24 @@ export interface SpreadRule<T> {
  * input stays random.
  *
  * Nothing is ever dropped. If the items left cannot meet the limits (for example only one
- * category remains) it takes the one that breaks the fewest rules, so the list degrades
- * gracefully at the end instead of failing.
+ * category remains) it takes the one that breaks the least important rules (the `rules` are
+ * in priority order), so the list degrades gracefully at the end instead of failing.
  */
 export function spreadRuns<T>(items: readonly T[], rules: readonly SpreadRule<T>[]): T[] {
   const remaining = [...items]
   const out: T[] = []
 
-  /** How many rules this item would break if placed next. */
+  /**
+   * How badly this item would break the rules if placed next; 0 when it breaks none. Earlier
+   * rules weigh more than all the later ones together, so when something has to give, the
+   * lowest-priority rule is the one that does.
+   */
   const violations = (item: T): number =>
-    rules.filter(({ key, max }) => {
-      if (out.length < max) return false
-      return out.slice(-max).every((placed) => key(placed) === key(item))
-    }).length
+    rules.reduce((penalty, { key, max }, index) => {
+      if (out.length < max) return penalty
+      const repeats = out.slice(-max).every((placed) => key(placed) === key(item))
+      return repeats ? penalty + 2 ** (rules.length - 1 - index) : penalty
+    }, 0)
 
   while (remaining.length > 0) {
     let best = 0
