@@ -1,0 +1,3385 @@
+[
+  {
+    "id": "dep-aros-simbolo-olimpico",
+    "text": "¿Cuántos aros tiene el símbolo olímpico?",
+    "options": [
+      "Cinco",
+      "Cuatro",
+      "Seis",
+      "Siete"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "El símbolo olímpico tiene cinco aros entrelazados, que representan los cinco continentes unidos por el deporte. Lo diseñó Pierre de Coubertin en 1913 y se usó por primera vez en los Juegos de 1920.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-cada-anos-celebran-juegos",
+    "text": "¿Cada cuántos años se celebran los Juegos de verano?",
+    "options": [
+      "Cada dos años",
+      "Cada cinco años",
+      "Cada tres años",
+      "Cada cuatro años"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Los Juegos Olímpicos de verano se celebran cada cuatro años, un periodo llamado olimpiada, igual que en la Grecia antigua. Los de Tokio se aplazaron un año por la pandemia, pero siguieron llamándose Tokio 2020.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-futbol",
+    "text": "¿Qué país ganó el Mundial de fútbol de 2010?",
+    "options": [
+      "Alemania",
+      "Países Bajos",
+      "Uruguay",
+      "España"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "España ganó su primer Mundial en Sudáfrica 2010 al vencer 1-0 a Países Bajos en la final, con un gol de Andrés Iniesta en el minuto 116 de la prórroga.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-deporte-disputa-torneo-wimbledon",
+    "text": "¿En qué deporte se disputa el torneo de Wimbledon?",
+    "options": [
+      "Hockey",
+      "Críquet",
+      "Golf",
+      "Tenis"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Wimbledon es el torneo de tenis más antiguo del mundo y se juega sobre hierba en Londres desde 1877. Es uno de los cuatro torneos del Grand Slam, junto a Australia, Roland Garros y el US Open.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugadores-equipo-juegan-vez",
+    "text": "¿Cuántos jugadores por equipo juegan a la vez en baloncesto?",
+    "options": [
+      "Siete",
+      "Cinco",
+      "Cuatro",
+      "Seis"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "En baloncesto cada equipo tiene cinco jugadores en pista al mismo tiempo, aunque puede hacer cambios ilimitados desde el banquillo. Los partidos de la NBA duran cuatro cuartos de doce minutos cada uno.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciclista-espanol-gano-cinco",
+    "text": "¿Qué ciclista español ganó cinco Tours seguidos?",
+    "options": [
+      "Pedro Delgado",
+      "Miguel Induráin",
+      "Carlos Sastre",
+      "Alberto Contador"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Miguel Induráin ganó el Tour de Francia cinco años seguidos, de 1991 a 1995. Fue el primer corredor de la historia en lograr cinco victorias consecutivas en la carrera francesa.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-color-maillot-lider-tour",
+    "text": "¿De qué color es el maillot del líder del Tour de Francia?",
+    "options": [
+      "Rojo",
+      "Azul",
+      "Verde",
+      "Amarillo"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "El líder de la clasificación general del Tour de Francia viste el maillot amarillo desde 1919. Su color procede del papel amarillo del periódico L'Auto, que organizaba la carrera.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-100-metros-juegos",
+    "text": "¿Quién ganó los 100 metros en los Juegos de Pekín 2008?",
+    "options": [
+      "Justin Gatlin",
+      "Tyson Gay",
+      "Usain Bolt",
+      "Asafa Powell"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "El jamaicano Usain Bolt ganó los 100 metros de Pekín 2008 con récord mundial de 9,69 segundos, celebrando antes de cruzar la meta. En esos Juegos ganó también los 200 metros y el relevo 4x100.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-espanola-acogio-juegos",
+    "text": "¿Qué ciudad española acogió los Juegos Olímpicos de 1992?",
+    "options": [
+      "Sevilla",
+      "Madrid",
+      "Valencia",
+      "Barcelona"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Barcelona organizó los Juegos de 1992, con el estadio de Montjuïc como sede principal. Fueron los mejores Juegos de la historia para España, que ganó 13 medallas de oro.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tenista-gano-14-veces",
+    "text": "¿Qué tenista ganó 14 veces Roland Garros?",
+    "options": [
+      "Rafael Nadal",
+      "Carlos Moyà",
+      "David Ferrer",
+      "Carlos Alcaraz"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Rafael Nadal ganó 14 títulos en Roland Garros entre 2005 y 2022, un récord absoluto en un mismo torneo de Grand Slam. Por eso lo llaman el rey de la tierra batida.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-ha-ganado-cinco",
+    "text": "¿Qué selección ha ganado cinco Mundiales de fútbol?",
+    "options": [
+      "Brasil",
+      "Italia",
+      "Argentina",
+      "Alemania"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Brasil es la selección con más Mundiales: ganó los de 1958, 1962, 1970, 1994 y 2002. Es además la única que ha participado en todas las ediciones desde 1930.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-capitaneo-argentina-campeona-qatar",
+    "text": "¿Quién capitaneó a Argentina campeona en Qatar 2022?",
+    "options": [
+      "Javier Mascherano",
+      "Sergio Agüero",
+      "Ángel Di María",
+      "Lionel Messi"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Lionel Messi levantó la Copa del Mundo en Catar 2022 tras la final contra Francia, que acabó 3-3 y se decidió en los penaltis. Fue su primer Mundial después de cinco participaciones.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-deporte-jugo-michael-jordan",
+    "text": "¿A qué deporte jugó Michael Jordan en los Chicago Bulls?",
+    "options": [
+      "Fútbol americano",
+      "Hockey hielo",
+      "Béisbol",
+      "Baloncesto"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Michael Jordan es considerado uno de los mejores jugadores de baloncesto de la historia. Con los Chicago Bulls ganó seis anillos de la NBA en los años noventa, dos secuencias de tres títulos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-eurocopa-2024",
+    "text": "¿Qué selección ganó la Eurocopa de 2024?",
+    "options": [
+      "España",
+      "Italia",
+      "Inglaterra",
+      "Francia"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "España ganó la Eurocopa de 2024 al vencer 2-1 a Inglaterra en Berlín, con goles de Nico Williams y Mikel Oyarzabal. Fue su cuarto título europeo, un récord absoluto.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-nadador-estadounidense-gano-23",
+    "text": "¿Qué nadador estadounidense ganó 23 oros olímpicos?",
+    "options": [
+      "Ian Thorpe",
+      "Mark Spitz",
+      "Michael Phelps",
+      "Ryan Lochte"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Michael Phelps ganó 23 medallas de oro olímpicas entre 2004 y 2016, y 28 en total. Es el deportista más laureado de la historia de los Juegos Olímpicos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-kilometros-mide-maraton",
+    "text": "¿Cuántos kilómetros mide un maratón?",
+    "options": [
+      "50,000 km",
+      "10,000 km",
+      "42,195 km",
+      "21,097 km"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "El maratón mide 42,195 kilómetros desde los Juegos de Londres de 1908, cuando se amplió la distancia para que la salida fuese en el castillo de Windsor y la meta ante el palco real.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-invento-juegos-olimpicos",
+    "text": "¿Qué país inventó los Juegos Olímpicos antiguos?",
+    "options": [
+      "Grecia",
+      "Italia",
+      "Egipto",
+      "China"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Los Juegos Olímpicos antiguos nacieron en Olimpia, en Grecia, y se celebraron desde el año 776 a. C. en honor a Zeus. Se disputaron durante más de mil años hasta que se prohibieron en el siglo IV.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-mundiales-futbol-espana",
+    "text": "¿Cuántos Mundiales de fútbol tiene España?",
+    "options": [
+      "Tres",
+      "Cuatro",
+      "Uno",
+      "Dos"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "España ganó el Mundial de 2010 en Sudáfrica y el de 2026, disputado en Estados Unidos, México y Canadá, donde venció 1-0 a Argentina en la final con un gol de Ferran Torres en la prórroga.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tenista-suizo-gano-20",
+    "text": "¿Qué tenista suizo ganó 20 torneos de Grand Slam?",
+    "options": [
+      "Roger Federer",
+      "Stan Wawrinka",
+      "Heinz Günthardt",
+      "Marc Rosset"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Roger Federer ganó 20 Grand Slams entre 2003 y 2018, ocho de ellos en Wimbledon. Fue número uno del mundo durante 310 semanas, un récord en su época.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-fueron-primeros-juegos",
+    "text": "¿En qué ciudad fueron los primeros Juegos modernos de 1896?",
+    "options": [
+      "París",
+      "Roma",
+      "Londres",
+      "Atenas"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Los primeros Juegos Olímpicos de la era moderna se celebraron en Atenas en 1896, impulsados por Pierre de Coubertin, y reunieron a atletas de unos catorce países en el estadio Panathinaiko.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-impulso-juegos-olimpicos-modernos",
+    "text": "¿Quién impulsó los Juegos Olímpicos modernos?",
+    "options": [
+      "Lord Killanin",
+      "Thomas Bach",
+      "Pierre de Coubertin",
+      "Avery Brundage"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El barón francés Pierre de Coubertin fundó el Comité Olímpico Internacional en 1894 con la idea de recuperar los Juegos de la antigua Grecia. Los primeros se celebraron dos años después.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-atleta-gano-cuatro-oros",
+    "text": "¿Qué atleta ganó cuatro oros en Berlín 1936?",
+    "options": [
+      "Emil Zátopek",
+      "Jesse Owens",
+      "Carl Lewis",
+      "Jim Thorpe"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Jesse Owens ganó los 100 m, 200 m, salto de longitud y el relevo 4x100 en Berlín 1936, desmontando ante la Alemania nazi la idea de superioridad racial que defendía su propaganda.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-salto-90-longitud-mexico",
+    "text": "¿Quién saltó 8,90 m de longitud en México 1968?",
+    "options": [
+      "Ralph Boston",
+      "Bob Beamon",
+      "Carl Lewis",
+      "Mike Powell"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Bob Beamon saltó 8,90 metros en México 1968, mejorando el récord mundial en 55 centímetros. Aquella marca duró casi 23 años, hasta que Mike Powell saltó 8,95 en 1991.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-brasilena-acogio-juegos",
+    "text": "¿Qué ciudad brasileña acogió los Juegos de 2016?",
+    "options": [
+      "São Paulo",
+      "Río de Janeiro",
+      "Salvador",
+      "Brasilia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Río de Janeiro organizó los Juegos de 2016, los primeros celebrados en Sudamérica. El Maracaná acogió las ceremonias de apertura y clausura de aquella edición.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gimnasta-logro-10-perfecto",
+    "text": "¿Qué gimnasta logró un 10 perfecto en Montreal 1976?",
+    "options": [
+      "Olga Korbut",
+      "Larisa Latynina",
+      "Simone Biles",
+      "Nadia Comăneci"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "La rumana Nadia Comăneci, de 14 años, consiguió el primer 10 perfecto de la gimnasia olímpica en Montreal 1976. El marcador solo llegaba a 9,99 y mostró 1,00.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-rey-inauguro-juegos-barcelona",
+    "text": "¿Qué rey inauguró los Juegos de Barcelona 92?",
+    "options": [
+      "Felipe VI",
+      "Carlos IV",
+      "Juan Carlos I",
+      "Alfonso XIII"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El rey Juan Carlos I declaró inaugurados los Juegos de Barcelona 1992 el 25 de julio en el estadio de Montjuïc. La ceremonia terminó con el encendido del pebetero mediante una flecha.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-nadador-gano-siete-oros",
+    "text": "¿Qué nadador ganó siete oros en Múnich 1972?",
+    "options": [
+      "Mark Spitz",
+      "Johnny Weissmuller",
+      "Ian Thorpe",
+      "Michael Phelps"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El estadounidense Mark Spitz ganó siete medallas de oro en Múnich 1972, todas con récord mundial. Su marca se mantuvo hasta que Michael Phelps ganó ocho oros en Pekín 2008.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-pertiga-paris-2024",
+    "text": "¿Quién ganó la pértiga en París 2024 con récord del mundo?",
+    "options": [
+      "Armand Duplantis",
+      "Sam Kendricks",
+      "Renaud Lavillenie",
+      "Sergey Bubka"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El sueco Armand Duplantis ganó la pértiga en París 2024 y batió el récord mundial con 6,25 metros, defendiendo el oro que ya había conseguido en Tokio. Es el gran dominador de la especialidad.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-espanol-gano-oro-500",
+    "text": "¿Qué español ganó el oro en 1.500 m en Barcelona 92?",
+    "options": [
+      "Fermín Cacho",
+      "Reyes Estévez",
+      "Abel Antón",
+      "Martín Fiz"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Fermín Cacho ganó los 1.500 metros en Barcelona 1992 tras una tarde inolvidable en Montjuïc. Es uno de los 13 oros de España en aquellos Juegos y su mayor éxito deportivo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-nadadora-espanola-gano-oro",
+    "text": "¿Qué nadadora española ganó oro en Londres 2012?",
+    "options": [
+      "Gemma Mengual",
+      "Mireia Belmonte",
+      "Ona Carbonell",
+      "Teresa Perales"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Mireia Belmonte ganó el oro en 200 metros mariposa en Londres 2012 y la plata en 800 libre. Fue la primera nadadora española que ganó un oro olímpico.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tenista-espanol-gano-oro",
+    "text": "¿Qué tenista español ganó el oro individual en Pekín 2008?",
+    "options": [
+      "Fernando Verdasco",
+      "Feliciano López",
+      "David Ferrer",
+      "Rafael Nadal"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Rafael Nadal ganó el oro olímpico individual en Pekín 2008 al vencer al chileno Fernando González en la final. Años después ganó también el dobles de Río 2016 junto a Marc López.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-acogera-juegos-verano",
+    "text": "¿Qué ciudad acogerá los Juegos de verano de 2028?",
+    "options": [
+      "Budapest",
+      "Doha",
+      "Los Ángeles",
+      "Brisbane"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Los Ángeles organizará los Juegos de 2028, por tercera vez tras 1932 y 1984. Brisbane acogerá los de 2032, ya adjudicados por el Comité Olímpico Internacional.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ano-disputaron-juegos-tokio",
+    "text": "¿En qué año se disputaron los Juegos de Tokio 2020?",
+    "options": [
+      "2019",
+      "2022",
+      "2020",
+      "2021"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Los Juegos de Tokio, previstos para 2020, se aplazaron un año por la pandemia de covid-19 y se celebraron en el verano de 2021, casi sin público, con el nombre oficial de Tokio 2020.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugo-primer-mundial-futbol",
+    "text": "¿Dónde se jugó el primer Mundial de fútbol, en 1930?",
+    "options": [
+      "Brasil",
+      "Italia",
+      "Uruguay",
+      "Francia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El primer Mundial de fútbol se jugó en Uruguay en 1930, con solo 13 selecciones, y lo ganó el propio anfitrión al vencer 4-2 a Argentina en la final en Montevideo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-1998",
+    "text": "¿Qué selección ganó el Mundial de 1998 en casa?",
+    "options": [
+      "Alemania",
+      "Francia",
+      "Brasil",
+      "Italia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Francia ganó su primer Mundial en 1998, jugado en casa, al vencer 3-0 a Brasil en la final con dos goles de cabeza de Zinedine Zidane. Fue su primera estrella.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-mano-dios-mundial",
+    "text": "¿Quién marcó la 'Mano de Dios' en el Mundial de 1986?",
+    "options": [
+      "Daniel Passarella",
+      "Mario Kempes",
+      "Johan Cruyff",
+      "Diego Maradona"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Diego Maradona marcó con la mano ante Inglaterra en los cuartos de 1986 y, minutos después, el llamado gol del siglo. Argentina ganó aquel Mundial con él como gran estrella.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-maximo-goleador-mundial",
+    "text": "¿Quién fue el máximo goleador del Mundial 2022?",
+    "options": [
+      "Kylian Mbappé",
+      "Harry Kane",
+      "Olivier Giroud",
+      "Lionel Messi"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Kylian Mbappé ganó la Bota de Oro de Catar 2022 con ocho goles, entre ellos tres en la final ante Argentina. Messi marcó siete y fue elegido mejor jugador del torneo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-final-mundial",
+    "text": "¿Quién marcó el gol de la final del Mundial 2010?",
+    "options": [
+      "David Villa",
+      "Xavi Hernández",
+      "Fernando Torres",
+      "Andrés Iniesta"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Andrés Iniesta marcó en el minuto 116 el 1-0 que dio a España su primer Mundial en 2010, tras un pase de Cesc Fàbregas. Debajo de la camiseta llevaba un mensaje a su amigo Dani Jarque.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-final-mundial-2",
+    "text": "¿Quién marcó el gol de la final del Mundial 2026?",
+    "options": [
+      "Mikel Oyarzabal",
+      "Nico Williams",
+      "Ferran Torres",
+      "Lamine Yamal"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Ferran Torres marcó en el minuto 106 de la prórroga el único gol de la final del Mundial 2026 ante Argentina, en el estadio MetLife de Nueva Jersey, y dio a España su segunda Copa del Mundo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-gano-primera-copa",
+    "text": "¿Qué equipo ganó la primera Copa de Europa, en 1956?",
+    "options": [
+      "Benfica",
+      "Real Madrid",
+      "FC Barcelona",
+      "Juventus"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El Real Madrid ganó la primera Copa de Europa en 1956 al vencer 4-3 al Stade de Reims en París. Con Di Stéfano ganó las cinco primeras ediciones consecutivas, hasta 1960.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-remonto-milan-estambul",
+    "text": "¿Qué equipo remontó un 0-3 al Milan en Estambul 2005?",
+    "options": [
+      "Liverpool",
+      "Chelsea",
+      "Arsenal",
+      "Everton"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El Liverpool remontó un 0-3 al descanso y empató 3-3 en seis minutos, y ganó la Champions de 2005 en los penaltis. Esa noche se conoce como el Milagro de Estambul.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-eurocopa-1964",
+    "text": "¿Qué selección ganó la Eurocopa 1964 con gol de Marcelino?",
+    "options": [
+      "Unión Soviética",
+      "España",
+      "Italia",
+      "Alemania"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "España ganó su primera Eurocopa en 1964, en el Santiago Bernabéu, al vencer 2-1 a la Unión Soviética con un gol de cabeza de Marcelino a seis minutos del final.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-balon-oro-femenino",
+    "text": "¿Quién ganó el Balón de Oro femenino de 2023?",
+    "options": [
+      "Jenni Hermoso",
+      "Alexia Putellas",
+      "Aitana Bonmatí",
+      "Salma Paralluelo"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Aitana Bonmatí ganó el Balón de Oro de 2023 tras proclamarse campeona del mundo con España y ganar la Champions con el Barcelona. Repitió el premio en 2024.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-femenino",
+    "text": "¿Qué selección ganó el Mundial femenino de 2023?",
+    "options": [
+      "Estados Unidos",
+      "Suecia",
+      "Inglaterra",
+      "España"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "España ganó el Mundial femenino de 2023, jugado en Australia y Nueva Zelanda, al vencer 1-0 a Inglaterra en Sídney con un gol de Olga Carmona. Fue su primer título mundial.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugador-ha-ganado-ocho",
+    "text": "¿Qué jugador ha ganado ocho Balones de Oro?",
+    "options": [
+      "Lionel Messi",
+      "Johan Cruyff",
+      "Michel Platini",
+      "Cristiano Ronaldo"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Lionel Messi ha ganado ocho Balones de Oro: 2009, 2010, 2011, 2012, 2015, 2019, 2021 y 2023. Cristiano Ronaldo tiene cinco y Platini y Cruyff, tres cada uno.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-gano-champions-2025",
+    "text": "¿Qué equipo ganó la Champions de 2025 con un 5-0?",
+    "options": [
+      "Arsenal",
+      "Bayern",
+      "Inter",
+      "PSG"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El Paris Saint-Germain ganó en Múnich su primera Champions League al vencer 5-0 al Inter, la mayor goleada de una final de la competición. Luis Enrique era su entrenador.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-joven-16-anos-brillo",
+    "text": "¿Qué joven de 16 años brilló con España en la Eurocopa 2024?",
+    "options": [
+      "Pau Cubarsí",
+      "Fermín López",
+      "Dani Olmo",
+      "Lamine Yamal"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Lamine Yamal fue el jugador más joven de la historia de una Eurocopa y ganó el premio al mejor joven del torneo. Cumplió 17 años el día antes de la final.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-invento-baloncesto-1891",
+    "text": "¿Quién inventó el baloncesto en 1891?",
+    "options": [
+      "Bill Russell",
+      "Walter Camp",
+      "George Mikan",
+      "James Naismith"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El profesor canadiense James Naismith inventó el baloncesto en 1891 en Springfield, Massachusetts, y colgó dos cestos de melocotones. Redactó trece reglas básicas para jugarlo en invierno.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-era-dream-team",
+    "text": "¿De qué país era el Dream Team de Barcelona 92?",
+    "options": [
+      "EE. UU.",
+      "Italia",
+      "Cuba",
+      "Brasil"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El Dream Team de Estados Unidos reunió a Michael Jordan, Magic Johnson y Larry Bird, entre otras estrellas, y ganó el oro olímpico de Barcelona 1992 con una media de más de 40 puntos de ventaja.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-seis-anillos-seis",
+    "text": "¿Quién ganó seis anillos y seis MVP de las Finales?",
+    "options": [
+      "Michael Jordan",
+      "LeBron James",
+      "Kobe Bryant",
+      "Larry Bird"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Michael Jordan ganó seis anillos con los Bulls (1991-93 y 1996-98) y fue elegido MVP de las Finales las seis veces, sin perder ninguna serie por el título.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-baloncesto",
+    "text": "¿Qué país ganó el Mundial de baloncesto de 2006 en Japón?",
+    "options": [
+      "España",
+      "EE. UU.",
+      "Grecia",
+      "Argentina"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "España ganó su primer Mundial de baloncesto en Japón 2006 al vencer 70-47 a Grecia en la final. Pau Gasol fue elegido mejor jugador del torneo, pese a lesionarse en semifinales.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-baloncesto",
+    "text": "¿Qué selección ganó el Mundial de baloncesto de 2019?",
+    "options": [
+      "Argentina",
+      "España",
+      "Serbia",
+      "Francia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "España ganó su segundo Mundial en China 2019 al derrotar 95-75 a Argentina en la final. Ricky Rubio fue elegido el mejor jugador del torneo y dirigió el equipo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pivot-espanol-gano-dos",
+    "text": "¿Qué pívot español ganó dos anillos con los Lakers?",
+    "options": [
+      "Sergio Rodríguez",
+      "Pau Gasol",
+      "Serge Ibaka",
+      "Marc Gasol"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Pau Gasol ganó la NBA con Los Ángeles Lakers en 2009 y 2010, junto a Kobe Bryant. Fue el primer español en conseguir un anillo en la mejor liga del mundo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-gano-nba-2026",
+    "text": "¿Qué equipo ganó la NBA en 2026?",
+    "options": [
+      "Denver Nuggets",
+      "New York Knicks",
+      "Oklahoma City Thunder",
+      "Boston Celtics"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Los New York Knicks ganaron las Finales de la NBA de 2026 al vencer 94-90 a los San Antonio Spurs en el quinto partido, con 45 puntos de Jalen Brunson.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-eurobasket-2025",
+    "text": "¿Qué selección ganó el Eurobasket 2025?",
+    "options": [
+      "Finlandia",
+      "Alemania",
+      "Grecia",
+      "Turquía"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Alemania ganó el Eurobasket 2025 en Riga al vencer 88-83 a Turquía en la final. Dennis Schröder fue elegido el jugador más valioso del torneo, tras conquistar el Mundial de 2023.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-anoto-100-puntos-partido",
+    "text": "¿Quién anotó 100 puntos en un partido de la NBA en 1962?",
+    "options": [
+      "Kareem Abdul-Jabbar",
+      "Oscar Robertson",
+      "Wilt Chamberlain",
+      "Bill Russell"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Wilt Chamberlain anotó 100 puntos con los Philadelphia Warriors contra los Knicks en Hershey en 1962. Sigue siendo la mayor anotación individual de un partido de la historia de la NBA.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-grand-slam-numero",
+    "text": "¿Quién ganó su Grand Slam número 24 en el US Open 2023?",
+    "options": [
+      "Roger Federer",
+      "Andy Murray",
+      "Rafael Nadal",
+      "Novak Djokovic"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Novak Djokovic ganó el US Open de 2023 al vencer a Daniil Medvédev y llegó a 24 títulos de Grand Slam, igualando el récord histórico de Margaret Court entre hombres y mujeres.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-grand-slam-juega-tierra",
+    "text": "¿Qué Grand Slam se juega en tierra batida en París?",
+    "options": [
+      "US Open",
+      "Roland Garros",
+      "Queen's",
+      "Wimbledon"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Roland Garros se juega sobre tierra batida en París, y su nombre recuerda a un aviador francés. Es el torneo del Grand Slam donde Rafael Nadal ganó 14 veces.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-primer-espanol-campeon",
+    "text": "¿Quién fue el primer español campeón de Wimbledon?",
+    "options": [
+      "Sergi Bruguera",
+      "Manolo Santana",
+      "Manuel Orantes",
+      "Andrés Gimeno"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Manolo Santana ganó Wimbledon en 1966 al vencer a Dennis Ralston, el primer español en lograrlo. Había ganado antes Roland Garros y el US Open, y fue pionero del tenis español.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-us-open-2022",
+    "text": "¿Quién ganó el US Open de 2022 a los 19 años?",
+    "options": [
+      "Carlos Alcaraz",
+      "Daniil Medvédev",
+      "Alexander Zverev",
+      "Casper Ruud"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Carlos Alcaraz ganó el US Open de 2022 al vencer a Casper Ruud, con 19 años, y se convirtió en el número uno más joven de la historia del ránking ATP.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-grand-slams-gano-rafael",
+    "text": "¿Cuántos Grand Slams ganó Rafael Nadal?",
+    "options": [
+      "20",
+      "24",
+      "18",
+      "22"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Rafael Nadal ganó 22 torneos de Grand Slam: 14 en Roland Garros, cuatro en el US Open, dos en Wimbledon y dos en el Abierto de Australia. Se retiró en noviembre de 2024 en Málaga.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tenista-sueco-gano-cinco",
+    "text": "¿Qué tenista sueco ganó cinco Wimbledon seguidos?",
+    "options": [
+      "John McEnroe",
+      "Mats Wilander",
+      "Björn Borg",
+      "Stefan Edberg"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Björn Borg ganó Wimbledon cinco años consecutivos, de 1976 a 1980, y también seis veces Roland Garros. Se retiró siendo muy joven, con solo 26 años.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tenista-ha-ganado-23",
+    "text": "¿Qué tenista ha ganado 23 Grand Slams siendo mujer?",
+    "options": [
+      "Steffi Graf",
+      "Serena Williams",
+      "Venus Williams",
+      "Martina Navratilova"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Serena Williams ganó 23 Grand Slams individuales en la Era Open, y el último, el Abierto de Australia 2017, lo consiguió estando embarazada. Margaret Court tiene 24 en total.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-espanola-gano-wimbledon-2017",
+    "text": "¿Qué española ganó Wimbledon en 2017?",
+    "options": [
+      "Conchita Martínez",
+      "Paula Badosa",
+      "Carla Suárez",
+      "Garbiñe Muguruza"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Garbiñe Muguruza ganó Wimbledon en 2017 al vencer a Venus Williams en la final, un año después de conquistar Roland Garros. Fue número uno del mundo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-tour-francia-2026",
+    "text": "¿Quién ganó el Tour de Francia 2026?",
+    "options": [
+      "Remco Evenepoel",
+      "Jonas Vingegaard",
+      "Tadej Pogačar",
+      "Isaac del Toro"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Tadej Pogačar ganó su quinto Tour de Francia en 2026 con 6 minutos y 26 segundos sobre Evenepoel, igualando a Anquetil, Merckx, Hinault e Induráin.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ano-celebro-primer-tour",
+    "text": "¿En qué año se celebró el primer Tour de Francia?",
+    "options": [
+      "1896",
+      "1913",
+      "1903",
+      "1924"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El primer Tour de Francia se disputó en 1903, organizado por el periódico L'Auto para aumentar sus ventas. Lo ganó Maurice Garin en una carrera de seis etapas muy largas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciclista-belga-gano-cinco",
+    "text": "¿Qué ciclista belga ganó cinco Tours entre 1969 y 1974?",
+    "options": [
+      "Eddy Merckx",
+      "Bernard Hinault",
+      "Lucien Van Impe",
+      "Jacques Anquetil"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Eddy Merckx, apodado El Caníbal, ganó cinco Tours entre 1969 y 1974, además de cinco Giros, y fue el ciclista más dominante de su época.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciclista-estadounidense-fue-despojado",
+    "text": "¿Qué ciclista estadounidense fue despojado de siete Tours?",
+    "options": [
+      "Greg LeMond",
+      "Floyd Landis",
+      "Tyler Hamilton",
+      "Lance Armstrong"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Lance Armstrong ganó siete Tours seguidos entre 1999 y 2005, pero en 2012 le retiraron todos los títulos por dopaje. La organización no los adjudicó a ningún otro corredor.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciclista-espanol-gano-tour",
+    "text": "¿Qué ciclista español ganó el Tour de 2008?",
+    "options": [
+      "Alberto Contador",
+      "Óscar Pereiro",
+      "Carlos Sastre",
+      "Pedro Delgado"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Carlos Sastre ganó el Tour de 2008 tras un ataque decisivo en Alpe d'Huez, y se llevó la general. Ese año Contador ganó el Giro y la Vuelta, pero no corrió el Tour.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-acogio-salida-tour",
+    "text": "¿Qué ciudad acogió la salida del Tour de Francia de 2026?",
+    "options": [
+      "Madrid",
+      "Pamplona",
+      "Barcelona",
+      "Bilbao"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El Tour de 2026 comenzó en Barcelona, y la segunda etapa terminó en Montjuïc con victoria del mexicano Isaac del Toro. Después atravesó Granollers camino de los Pirineos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-significa-maillot-lunares-tour",
+    "text": "¿Qué significa el maillot de lunares del Tour?",
+    "options": [
+      "Más combativo",
+      "Mejor sprinter",
+      "Mejor escalador",
+      "Mejor joven"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El maillot blanco con lunares rojos premia al mejor escalador del Tour. Se creó en 1975 para el rey de la montaña, y en 2026 lo ganó el ecuatoriano Richard Carapaz.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-carrera-francesa-conoce-infierno",
+    "text": "¿Qué carrera francesa se conoce como el Infierno del Norte?",
+    "options": [
+      "Tour de Flandes",
+      "París-Roubaix",
+      "Milán-San Remo",
+      "Lieja-Bastoña-Lieja"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "La París-Roubaix recibe el apodo de Infierno del Norte por sus tramos de adoquines. Se celebra desde 1896 en primavera y es una de las clásicas más duras del calendario.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-britanico-bajo-cuatro-minutos",
+    "text": "¿Qué británico bajó de cuatro minutos la milla en 1954?",
+    "options": [
+      "Roger Bannister",
+      "Mo Farah",
+      "Steve Ovett",
+      "Sebastian Coe"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Roger Bannister corrió la milla en 3 minutos y 59,4 segundos en Oxford en 1954, la primera vez que una persona bajó de la barrera de los cuatro minutos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-record-mundial-100-ostenta",
+    "text": "¿Qué récord mundial de 100 m ostenta Usain Bolt?",
+    "options": [
+      "9,58 s",
+      "9,69 s",
+      "9,63 s",
+      "9,72 s"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Usain Bolt corrió los 100 metros en 9,58 segundos en Berlín en 2009, una marca que sigue vigente. Su récord de 200 metros, 19,19 segundos, es también de aquel Mundial.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-logro-bolt-record",
+    "text": "¿En qué ciudad logró Bolt su récord de 9,58 s?",
+    "options": [
+      "Río",
+      "Berlín",
+      "Pekín",
+      "Londres"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Bolt logró los 9,58 segundos en el estadio Olímpico de Berlín, durante el Mundial de atletismo de 2009. Cuatro días después estableció en esa misma pista los 19,19 de los 200 metros.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-etiope-gano-maraton-olimpico",
+    "text": "¿Qué etíope ganó el maratón olímpico descalzo en 1960?",
+    "options": [
+      "Haile Gebrselassie",
+      "Mamo Wolde",
+      "Abebe Bikila",
+      "Kenenisa Bekele"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Abebe Bikila ganó el maratón de Roma 1960 corriendo descalzo, y fue el primer africano campeón olímpico. Repitió el oro en Tokio 1964, esa vez con zapatillas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-checoslovaco-gano-000-10",
+    "text": "¿Qué checoslovaco ganó 5.000, 10.000 y maratón en 1952?",
+    "options": [
+      "Emil Zátopek",
+      "Haile Gebrselassie",
+      "Paavo Nurmi",
+      "Lasse Virén"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Emil Zátopek ganó 5.000, 10.000 y maratón en Helsinki 1952, una hazaña única. Era conocido como la locomotora humana por su estilo agónico y su ritmo incansable.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-popularizo-salto-altura-espaldas",
+    "text": "¿Quién popularizó el salto de altura de espaldas en 1968?",
+    "options": [
+      "Valeri Brumel",
+      "Dick Fosbury",
+      "Javier Sotomayor",
+      "Sergey Bubka"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Dick Fosbury ganó el oro en México 1968 con una técnica nueva, saltando de espaldas, que se llamó Fosbury flop y que hoy usan todos los saltadores de altura.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-primero-saltar-seis",
+    "text": "¿Quién fue el primero en saltar seis metros con pértiga?",
+    "options": [
+      "Thiago Braz",
+      "Yelena Isinbáyeva",
+      "Renaud Lavillenie",
+      "Sergey Bubka"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El ucraniano Sergey Bubka fue el primer hombre en saltar seis metros con pértiga, en 1985. Llegó a batir su propio récord del mundo 35 veces a lo largo de su carrera.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-britanico-gano-000-10",
+    "text": "¿Qué británico ganó 5.000 y 10.000 m en Londres 2012?",
+    "options": [
+      "Linford Christie",
+      "Seb Coe",
+      "Mo Farah",
+      "Kelly Holmes"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Mo Farah ganó 5.000 y 10.000 metros en Londres 2012 ante su público y repitió el doblete en Río 2016. Nació en Somalia y se crio en el Reino Unido.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-wimbledon-2026",
+    "text": "¿Quién ganó Wimbledon en 2026?",
+    "options": [
+      "Alexander Zverev",
+      "Novak Djokovic",
+      "Carlos Alcaraz",
+      "Jannik Sinner"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Jannik Sinner ganó Wimbledon en 2026, según la ATP, en el torneo disputado en Londres entre el 29 de junio y el 12 de julio. Alcaraz había ganado antes el Abierto de Australia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-juegos-participaron-mujeres-primera",
+    "text": "¿En qué Juegos participaron mujeres por primera vez?",
+    "options": [
+      "Estocolmo 1912",
+      "París 1900",
+      "Londres 1908",
+      "Atenas 1896"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Las mujeres compitieron por primera vez en los Juegos de París 1900, en tenis y golf, entre otros deportes. Charlotte Cooper fue la primera campeona olímpica, en tenis.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fijo-distancia-maraton-42",
+    "text": "¿Dónde se fijó la distancia del maratón en 42,195 km?",
+    "options": [
+      "París 1900",
+      "Estocolmo 1912",
+      "Amberes 1920",
+      "Londres 1908"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "En Londres 1908 la salida se situó en el castillo de Windsor y la meta ante el palco real, lo que dio 42,195 kilómetros. La distancia se oficializó en 1921.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gesto-hicieron-tommie-smith",
+    "text": "¿Qué gesto hicieron Tommie Smith y John Carlos en 1968?",
+    "options": [
+      "Puño en alto",
+      "Brazos cruzados",
+      "Mano en el pecho",
+      "Rodilla en tierra"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Tras la final de los 200 metros en México 1968, Smith y Carlos subieron al podio descalzos y con el puño enguantado en alto, en un gesto de protesta contra el racismo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-potencia-lidero-boicot-angeles",
+    "text": "¿Qué potencia lideró el boicot a Los Ángeles 1984?",
+    "options": [
+      "Francia",
+      "Italia",
+      "La URSS",
+      "Canadá"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La Unión Soviética lideró el boicot de 1984 y arrastró a la mayoría de países del bloque del Este, en respuesta al boicot occidental a Moscú 1980, tras la invasión de Afganistán.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-presidio-coi-entre-1980",
+    "text": "¿Quién presidió el COI entre 1980 y 2001?",
+    "options": [
+      "Avery Brundage",
+      "Jacques Rogge",
+      "Juan Antonio Samaranch",
+      "Lord Killanin"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El catalán Juan Antonio Samaranch presidió el Comité Olímpico Internacional durante veintiún años. Bajo su mandato Barcelona consiguió organizar los Juegos de 1992.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-encendio-pebetero-atlanta-1996",
+    "text": "¿Quién encendió el pebetero de Atlanta 1996?",
+    "options": [
+      "Carl Lewis",
+      "Nadia Comăneci",
+      "Muhammad Ali",
+      "Michael Johnson"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Muhammad Ali encendió el pebetero en la ceremonia de Atlanta 1996, con las manos temblorosas por el párkinson, en uno de los momentos más emotivos de la historia olímpica.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-encendio-pebetero-barcelona-92",
+    "text": "¿Quién encendió el pebetero de Barcelona 92 con una flecha?",
+    "options": [
+      "Joan Lino Martínez",
+      "Miguel Induráin",
+      "Antonio Rebollo",
+      "Fermín Cacho"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El arquero paralímpico Antonio Rebollo lanzó una flecha encendida hacia el pebetero en la ceremonia de inauguración de Barcelona 1992, un momento que quedó para la historia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-oros-gano-espana-barcelona",
+    "text": "¿Cuántos oros ganó España en Barcelona 92?",
+    "options": [
+      "11",
+      "9",
+      "16",
+      "13"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España ganó 13 medallas de oro, 7 de plata y 2 de bronce en Barcelona 1992, sumando 22 medallas. Fue su mejor resultado olímpico y la primera vez que superó la decena de oros.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-espana-final-olimpica",
+    "text": "¿A quién ganó España la final olímpica de fútbol de 1992?",
+    "options": [
+      "Polonia",
+      "Egipto",
+      "Italia",
+      "Ghana"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España ganó el oro olímpico de fútbol en Barcelona 1992 al vencer 3-2 a Polonia en el Camp Nou, con un gol de Kiko en el último minuto. Guardiola y Luis Enrique fueron campeones.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-atleta-gano-nueve-oros",
+    "text": "¿Qué atleta ganó nueve oros olímpicos entre 1984 y 1996?",
+    "options": [
+      "Carl Lewis",
+      "Michael Johnson",
+      "Jesse Owens",
+      "Maurice Greene"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Carl Lewis ganó nueve oros olímpicos entre Los Ángeles 1984 y Atlanta 1996, repartidos en 100 m, 200 m, relevos y salto de longitud, que ganó cuatro veces seguidas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-oros-olimpicos-gano-usain",
+    "text": "¿Cuántos oros olímpicos ganó Usain Bolt?",
+    "options": [
+      "Seis",
+      "Siete",
+      "Nueve",
+      "Ocho"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Usain Bolt ganó ocho oros olímpicos en los Juegos de 2008, 2012 y 2016, en 100 m, 200 m y relevo 4x100. En 2017 le retiraron el oro de Pekín por el dopaje de un compañero.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-disputaron-juegos-1968",
+    "text": "¿En qué país se disputaron los Juegos de 1968?",
+    "options": [
+      "México",
+      "Alemania",
+      "Japón",
+      "Italia"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Los Juegos de 1968 se celebraron en México, en una ciudad a más de 2.200 metros de altitud. Esa altura favoreció marcas extraordinarias en saltos y velocidad, como el salto de Beamon.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-canadiense-organizo-juegos",
+    "text": "¿Qué ciudad canadiense organizó los Juegos de 1976?",
+    "options": [
+      "Montreal",
+      "Vancouver",
+      "Calgary",
+      "Toronto"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Montreal organizó los Juegos de 1976, con un estadio olímpico cuya construcción se pagó durante décadas. Fueron los Juegos del 10 perfecto de Nadia Comăneci y del boicot africano.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-500-olimpicos-1980",
+    "text": "¿Quién ganó los 1.500 m olímpicos de 1980 y 1984?",
+    "options": [
+      "Said Aouita",
+      "Sebastian Coe",
+      "Steve Cram",
+      "Steve Ovett"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Sebastian Coe ganó el oro en 1.500 metros en Moscú 1980 y Los Ángeles 1984, y la plata en 800 metros ambas veces. Su rivalidad con Steve Ovett fue legendaria.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-oro-baloncesto",
+    "text": "¿Qué selección ganó el oro de baloncesto en Atenas 2004?",
+    "options": [
+      "Italia",
+      "Lituania",
+      "Argentina",
+      "EE. UU."
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Argentina ganó el oro de baloncesto en Atenas 2004 al vencer a Italia en la final, tras eliminar a Estados Unidos en semifinales. Fue la llamada Generación Dorada de Manu Ginóbili.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-apodo-tenia-estadio-olimpico",
+    "text": "¿Qué apodo tenía el estadio olímpico de Pekín 2008?",
+    "options": [
+      "Cubo de Agua",
+      "Nido de Pájaro",
+      "Gran Muralla",
+      "Cinta Roja"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El estadio olímpico de Pekín 2008 se llamó Nido de Pájaro por su estructura de acero entrelazada, y fue diseñado por los arquitectos suizos Herzog y de Meuron. El Cubo de Agua fue la piscina.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-nacio-relevo-antorcha-olimpica",
+    "text": "¿Dónde nació el relevo de la antorcha olímpica?",
+    "options": [
+      "Londres 1948",
+      "Berlín 1936",
+      "Atenas 1896",
+      "París 1924"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El relevo de la antorcha olímpica desde Olimpia hasta la sede de los Juegos se estrenó en Berlín 1936, idea del organizador alemán Carl Diem, y fue usada por la propaganda nazi.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-rio-fue-escenario-inauguracion",
+    "text": "¿Qué río fue escenario de la inauguración de París 2024?",
+    "options": [
+      "Ródano",
+      "Loira",
+      "Garona",
+      "Sena"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La ceremonia de inauguración de París 2024 se celebró a lo largo del río Sena, con un desfile de barcos, y fue la primera vez que unos Juegos de verano se abrían fuera de un estadio.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-piraguista-gallego-gano-oro",
+    "text": "¿Qué piragüista gallego ganó el oro en Atenas 2004?",
+    "options": [
+      "David Cal",
+      "Carlos Pérez",
+      "Íñigo Peña",
+      "Saúl Craviotto"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "David Cal ganó el oro en C-1 1.000 metros en Atenas 2004 y la plata en C-1 500, y repitió la plata en Pekín 2008. Es uno de los grandes medallistas olímpicos españoles de la piragua.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-espanola-gano-oro-badminton",
+    "text": "¿Qué española ganó el oro en bádminton en Río 2016?",
+    "options": [
+      "Carolina Marín",
+      "Beatriz Corrales",
+      "Clara Azurmendi",
+      "Ona Carbonell"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Carolina Marín ganó el oro olímpico en Río 2016 al vencer a la india Pusarla Sindhu en la final. Fue la primera deportista no asiática en ganarlo en bádminton individual.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-medallas-gano-espana-barcelona",
+    "text": "¿Cuántas medallas ganó España en Barcelona 92?",
+    "options": [
+      "22",
+      "13",
+      "26",
+      "17"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España ganó 22 medallas en Barcelona 1992: 13 de oro, 7 de plata y 2 de bronce. Hasta entonces su mejor resultado olímpico era de un puñado de preseas en toda su historia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-mundial-1966-jugado",
+    "text": "¿Quién ganó el Mundial de 1966, jugado en Wembley?",
+    "options": [
+      "Portugal",
+      "Inglaterra",
+      "Argentina",
+      "Alemania Federal"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Inglaterra ganó el Mundial de 1966 al vencer 4-2 a la República Federal de Alemania en la prórroga. Geoff Hurst marcó tres goles en la final, aún su único título mundial.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-1954",
+    "text": "¿Qué selección ganó el Mundial de 1954, el Milagro de Berna?",
+    "options": [
+      "Brasil",
+      "Hungría",
+      "R. F. Alemania",
+      "Uruguay"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Alemania Federal ganó el Mundial de 1954 en Suiza al remontar un 0-2 contra la favorita Hungría, que no perdía desde hacía años, y venció 3-2. Se llamó el Milagro de Berna.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-perdio-maracanazo-1950",
+    "text": "¿Qué selección perdió el Maracanazo de 1950?",
+    "options": [
+      "Brasil",
+      "España",
+      "Uruguay",
+      "Argentina"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Brasil perdió 1-2 ante Uruguay en el decisivo partido del Mundial de 1950 en el Maracaná, ante unos 200.000 espectadores. Se conoce como el Maracanazo y marcó la historia del fútbol brasileño.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-frances-marco-13-goles",
+    "text": "¿Qué francés marcó 13 goles en un solo Mundial?",
+    "options": [
+      "Raymond Kopa",
+      "Zinedine Zidane",
+      "Just Fontaine",
+      "Michel Platini"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Just Fontaine marcó 13 goles en el Mundial de 1958 en Suecia, un récord que sigue vigente en una sola edición. Francia terminó tercera, por detrás de Brasil y Suecia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugador-gano-tres-mundiales",
+    "text": "¿Qué jugador ganó tres Mundiales con Brasil?",
+    "options": [
+      "Garrincha",
+      "Ronaldo",
+      "Rivaldo",
+      "Pelé"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Pelé ganó tres Mundiales con Brasil, en 1958, 1962 y 1970, y es el único futbolista que lo ha logrado. En 1958 marcó dos goles en la final con solo 17 años.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-italia-final-mundial",
+    "text": "¿A quién ganó Italia la final del Mundial 2006 por penaltis?",
+    "options": [
+      "Alemania",
+      "Francia",
+      "Portugal",
+      "Brasil"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Italia ganó el Mundial de 2006 al vencer a Francia en los penaltis tras el 1-1 de la final en Berlín. Fue su cuarto título mundial, y la despedida de Zidane.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-expulsado-cabezazo-final",
+    "text": "¿Quién fue expulsado por un cabezazo en la final de 2006?",
+    "options": [
+      "Patrick Vieira",
+      "Franck Ribéry",
+      "Thierry Henry",
+      "Zinedine Zidane"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Zinedine Zidane vio la tarjeta roja en la prórroga de la final de 2006 por dar un cabezazo en el pecho al italiano Marco Materazzi, en el último partido de su carrera.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-1978",
+    "text": "¿Qué selección ganó el Mundial de 1978 como anfitriona?",
+    "options": [
+      "Perú",
+      "Países Bajos",
+      "Brasil",
+      "Argentina"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Argentina ganó su primer Mundial en 1978, jugado en casa, al vencer 3-1 a Países Bajos en la prórroga en el Monumental. Mario Kempes fue el máximo goleador del torneo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-mundial-1994-decidido",
+    "text": "¿Quién ganó el Mundial de 1994, decidido en los penaltis?",
+    "options": [
+      "Brasil",
+      "Italia",
+      "Suecia",
+      "Alemania"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Brasil ganó el Mundial de 1994 en Estados Unidos al vencer a Italia en la primera final decidida en los penaltis. Roberto Baggio falló el último lanzamiento italiano.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-apodo-tuvo-capitan-aleman",
+    "text": "¿Qué apodo tuvo el capitán alemán campeón del mundo en 1974?",
+    "options": [
+      "Der Panzer",
+      "Der Kaiser",
+      "Der Löwe",
+      "Der Bomber"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Franz Beckenbauer, apodado Der Kaiser, levantó la Copa del Mundo en 1974 como capitán de Alemania Federal, y la ganó también como entrenador en 1990.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-entrenaba-espana-eurocopa-2012",
+    "text": "¿Quién entrenaba a España en la Eurocopa de 2012?",
+    "options": [
+      "Luis Aragonés",
+      "Julen Lopetegui",
+      "Luis Enrique",
+      "Vicente del Bosque"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Vicente del Bosque dirigió a España en la Eurocopa de 2012, que ganó al vencer 4-0 a Italia en la final de Kiev. Fue su tercer título consecutivo, entre Eurocopas y Mundial.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-entrenaba-espana-eurocopa-2008",
+    "text": "¿Quién entrenaba a España en la Eurocopa de 2008?",
+    "options": [
+      "Vicente del Bosque",
+      "Javier Clemente",
+      "Luis Aragonés",
+      "José Antonio Camacho"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Luis Aragonés dirigió a España en la Eurocopa de 2008, que ganó al vencer 1-0 a Alemania en Viena con un gol de Fernando Torres. Rompió una sequía de 44 años sin títulos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-final-mundial-3",
+    "text": "¿Quién marcó el gol de la final del Mundial de 2014?",
+    "options": [
+      "Miroslav Klose",
+      "Bastian Schweinsteiger",
+      "Mario Götze",
+      "Thomas Müller"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Mario Götze marcó el 1-0 en el minuto 113 de la final de Maracaná y dio a Alemania su cuarto Mundial. Entró como suplente y definió tras un pase de André Schürrle.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-fue-subcampeona-mundial",
+    "text": "¿Qué selección fue subcampeona del Mundial de 2022?",
+    "options": [
+      "Croacia",
+      "Marruecos",
+      "Francia",
+      "Países Bajos"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Francia perdió en los penaltis la final de 2022 contra Argentina, tras un 3-3 con tres goles de Mbappé. Los franceses eran campeones del mundo, pues habían ganado en 2018.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-africana-fue-semifinalista",
+    "text": "¿Qué selección africana fue semifinalista en 2022?",
+    "options": [
+      "Marruecos",
+      "Camerún",
+      "Ghana",
+      "Senegal"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Marruecos llegó a semifinales en Catar 2022, la mejor actuación de una selección africana en un Mundial. Eliminó a España en octavos y a Portugal en cuartos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadio-acogio-final-mundial",
+    "text": "¿Qué estadio acogió la final del Mundial 2022?",
+    "options": [
+      "Lusail",
+      "Education City",
+      "Khalifa",
+      "Al Bayt"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La final del Mundial 2022 se jugó en el Estadio Icónico de Lusail, con capacidad para unos 80.000 espectadores, el mayor de Catar. Argentina ganó a Francia en los penaltis.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-gano-triplete-2009",
+    "text": "¿Qué equipo ganó el triplete en 2009 con Guardiola?",
+    "options": [
+      "Real Madrid",
+      "Bayern",
+      "Inter",
+      "FC Barcelona"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El FC Barcelona de Guardiola ganó en 2009 la Liga, la Copa del Rey y la Champions League, el primer triplete de un equipo español. Messi marcó de cabeza en la final de Roma.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-copas-europa-tenia-real",
+    "text": "¿Cuántas Copas de Europa tenía el Real Madrid tras 2024?",
+    "options": [
+      "14",
+      "16",
+      "12",
+      "15"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El Real Madrid ganó su decimoquinta Copa de Europa en 2024, al vencer 2-0 al Borussia Dortmund en Wembley. Es el club con más títulos de la competición, con mucha ventaja.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-cuatro-goles-final",
+    "text": "¿Quién marcó cuatro goles en la final europea de 1960?",
+    "options": [
+      "Ferenc Puskás",
+      "José Santamaría",
+      "Francisco Gento",
+      "Alfredo Di Stéfano"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Ferenc Puskás marcó cuatro goles y Di Stéfano tres en el 7-3 del Real Madrid al Eintracht de Fráncfort en 1960, en Glasgow. Fue la quinta Copa de Europa consecutiva.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-selecciones-disputaron-mundial-2026",
+    "text": "¿Cuántas selecciones disputaron el Mundial 2026?",
+    "options": [
+      "32",
+      "64",
+      "40",
+      "48"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El Mundial de 2026 fue el primero con 48 selecciones, organizado conjuntamente por Estados Unidos, México y Canadá. Se jugaron 104 partidos, y la FIFA registró un récord de asistencia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-capitaneo-espana-campeona-mundo",
+    "text": "¿Quién capitaneó a España campeona del mundo en 2026?",
+    "options": [
+      "Dani Carvajal",
+      "Rodri",
+      "Pedri",
+      "Álvaro Morata"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Rodri, capitán de España, recibió el trofeo de campeón del mundo del Mundial 2026 tras la victoria por 1-0 ante Argentina en el estadio MetLife, en Nueva Jersey.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-maximo-goleador-mundial-2",
+    "text": "¿Quién fue el máximo goleador del Mundial 2026?",
+    "options": [
+      "Lionel Messi",
+      "Harry Kane",
+      "Erling Haaland",
+      "Kylian Mbappé"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Kylian Mbappé ganó la Bota de Oro del Mundial 2026 en una pugna con Erling Haaland, cuya Noruega llegó a cuartos de final, su mejor resultado en una Copa del Mundo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-dio-victoria-espana-final",
+    "text": "¿Quién dio la victoria a España en la final de la Euro 2024?",
+    "options": [
+      "Nico Williams",
+      "Dani Olmo",
+      "Mikel Oyarzabal",
+      "Álvaro Morata"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Mikel Oyarzabal marcó en el minuto 86 el 2-1 definitivo contra Inglaterra en la final de Berlín, tras un pase de Marc Cucurella. Nico Williams había adelantado a España en el segundo tiempo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ano-nacio-nba-nombre",
+    "text": "¿En qué año nació la NBA con el nombre de BAA?",
+    "options": [
+      "1946",
+      "1956",
+      "1936",
+      "1966"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La Basketball Association of America se fundó en 1946 y en 1949 se fusionó con la National Basketball League para formar la NBA. Los Celtics son uno de sus equipos históricos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-invento-naismith-baloncesto",
+    "text": "¿Dónde inventó Naismith el baloncesto?",
+    "options": [
+      "Boston",
+      "Springfield",
+      "Nueva York",
+      "Chicago"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "James Naismith inventó el baloncesto en 1891 en la YMCA de Springfield, Massachusetts. Buscaba un deporte de interior para sus alumnos durante los duros inviernos de Nueva Inglaterra.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-anoto-81-puntos-partido",
+    "text": "¿Quién anotó 81 puntos en un partido de la NBA en 2006?",
+    "options": [
+      "LeBron James",
+      "Michael Jordan",
+      "Kobe Bryant",
+      "Allen Iverson"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Kobe Bryant anotó 81 puntos con los Lakers contra los Toronto Raptors en enero de 2006, la segunda mejor anotación individual de la historia, solo por detrás de los 100 de Wilt Chamberlain.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-gano-73-partidos",
+    "text": "¿Qué equipo ganó 73 partidos en la temporada 2015-16?",
+    "options": [
+      "Golden State Warriors",
+      "Los Angeles Lakers",
+      "Chicago Bulls",
+      "Miami Heat"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Los Golden State Warriors de Stephen Curry lograron 73 victorias en 2015-16, mejorando el récord de 72 de los Bulls de 1995-96. Aun así perdieron las Finales ante los Cavaliers.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-anillos-gano-bill-russell",
+    "text": "¿Cuántos anillos ganó Bill Russell con los Celtics?",
+    "options": [
+      "13",
+      "11",
+      "15",
+      "9"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Bill Russell ganó 11 anillos de la NBA con los Boston Celtics entre 1957 y 1969, ocho de ellos consecutivos. Es el jugador con más títulos en la historia de la liga.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-fue-subcampeona-olimpica",
+    "text": "¿Qué selección fue subcampeona olímpica en 2008 y 2012?",
+    "options": [
+      "Argentina",
+      "España",
+      "Australia",
+      "Francia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España fue plata en baloncesto en Pekín 2008 y en Londres 2012, ambas veces contra Estados Unidos. En 2012 cayó 107-100 en una final muy igualada, con Pau Gasol de líder.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-baloncesto-2",
+    "text": "¿Qué selección ganó el Mundial de baloncesto de 2023?",
+    "options": [
+      "Alemania",
+      "Serbia",
+      "EE. UU.",
+      "Canadá"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Alemania ganó su primer Mundial en 2023 al vencer a Serbia en la final de Manila. Dennis Schröder fue el mejor jugador del torneo, en una generación de oro del baloncesto alemán.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-espana-final-eurobasket",
+    "text": "¿A quién ganó España la final del Eurobasket 2022?",
+    "options": [
+      "Francia",
+      "Eslovenia",
+      "Serbia",
+      "Alemania"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España ganó el Eurobasket 2022 en Berlín al vencer 88-76 a Francia en la final. Fue su cuarto título europeo y Willy Hernangómez fue elegido el mejor jugador del torneo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-elegido-mvp-eurobasket",
+    "text": "¿Quién fue elegido MVP del Eurobasket 2022?",
+    "options": [
+      "Lorenzo Brown",
+      "Juancho Hernangómez",
+      "Rudy Fernández",
+      "Willy Hernangómez"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Willy Hernangómez fue el MVP del Eurobasket 2022 por sus actuaciones decisivas en la selección española campeona, y Lorenzo Brown también brilló como base en la fase final.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-eurobasket-2017",
+    "text": "¿Qué selección ganó el Eurobasket 2017?",
+    "options": [
+      "Grecia",
+      "España",
+      "Eslovenia",
+      "Serbia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Eslovenia ganó su primer Eurobasket en 2017 al vencer 93-85 a Serbia en la final de Estambul. Goran Dragić fue elegido MVP, con Luka Dončić como joven promesa.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugo-final-mundial-baloncesto",
+    "text": "¿Dónde se jugó la final del Mundial de baloncesto 2014?",
+    "options": [
+      "Grecia",
+      "España",
+      "Francia",
+      "Turquía"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El Mundial de baloncesto de 2014 se celebró en España y la final se jugó en Madrid, con victoria de Estados Unidos por 129-92 sobre Serbia. España cayó en cuartos ante Francia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-maximo-anotador-historico-nba",
+    "text": "¿Quién es el máximo anotador histórico de la NBA?",
+    "options": [
+      "Michael Jordan",
+      "Kareem Abdul-Jabbar",
+      "LeBron James",
+      "Karl Malone"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "LeBron James superó en 2023 los 38.387 puntos de Kareem Abdul-Jabbar y se convirtió en el máximo anotador de la historia de la NBA, y siguió sumando años después.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-entrenador-dirigio-espana-campeona",
+    "text": "¿Qué entrenador dirigió a España campeona del mundo en 2019?",
+    "options": [
+      "Aíto García Reneses",
+      "Pepu Hernández",
+      "Sergio Scariolo",
+      "Lucas Mondelo"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Sergio Scariolo dirigió a España campeona del mundo en China 2019, y también ganó el Eurobasket de 2015 y 2022. Es el seleccionador más laureado de la historia de la selección.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugador-argentino-gano-oro",
+    "text": "¿Qué jugador argentino ganó el oro olímpico en Atenas 2004?",
+    "options": [
+      "Andrés Nocioni",
+      "Luis Scola",
+      "Manu Ginóbili",
+      "Fabricio Oberto"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Manu Ginóbili lideró a Argentina al oro de Atenas 2004, y ganó cuatro anillos de la NBA con los San Antonio Spurs. Su gran partido llegó en semifinales contra Estados Unidos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ano-empezo-era-open",
+    "text": "¿En qué año empezó la Era Open del tenis?",
+    "options": [
+      "1958",
+      "1970",
+      "1968",
+      "1975"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La Era Open comenzó en 1968, cuando los torneos de Grand Slam admitieron por fin a jugadores profesionales junto a los aficionados. Hasta entonces el tenis profesional estaba separado.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-primer-us-open",
+    "text": "¿Quién ganó el primer US Open de la Era Open, en 1968?",
+    "options": [
+      "Rod Laver",
+      "Arthur Ashe",
+      "John Newcombe",
+      "Ken Rosewall"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Arthur Ashe ganó el US Open de 1968, el primero de la Era Open, y fue el primer hombre afroamericano en lograrlo. Años después también ganó Wimbledon, en 1975.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-grand-slam-calendario",
+    "text": "¿Quién ganó el Grand Slam del calendario en 1962 y 1969?",
+    "options": [
+      "Rod Laver",
+      "Ken Rosewall",
+      "Don Budge",
+      "Pancho Gonzales"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El australiano Rod Laver ganó los cuatro Grand Slams en una misma temporada en 1962 y en 1969, el único jugador que lo ha logrado dos veces. Su 1969 fue en la Era Open.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-golden-slam-1988",
+    "text": "¿Quién ganó el Golden Slam en 1988?",
+    "options": [
+      "Chris Evert",
+      "Steffi Graf",
+      "Martina Navratilova",
+      "Monica Seles"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Steffi Graf ganó en 1988 los cuatro Grand Slams y el oro olímpico en Seúl, un Golden Slam que ningún otro tenista ha logrado ni antes ni después en individuales.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-final-wimbledon-1980",
+    "text": "¿Quién ganó la final de Wimbledon 1980 ante McEnroe?",
+    "options": [
+      "Guillermo Vilas",
+      "Ivan Lendl",
+      "Jimmy Connors",
+      "Björn Borg"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Björn Borg ganó la final de Wimbledon de 1980 a John McEnroe en cinco sets, tras perder un tie-break de 18-16 en el cuarto. Fue su quinto título seguido en el All England Club.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-partido-wimbledon-2010-duro",
+    "text": "¿Qué partido de Wimbledon 2010 duró 11 horas y 5 minutos?",
+    "options": [
+      "Murray-Wawrinka",
+      "Isner-Mahut",
+      "Federer-Nadal",
+      "Roddick-Hewitt"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "John Isner ganó a Nicolas Mahut en 11 horas y 5 minutos, repartidas en tres días, y el quinto set acabó 70-68. Es el partido más largo de la historia del tenis.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-final-australia-2012",
+    "text": "¿Quién ganó la final de Australia 2012, que duró 5h53?",
+    "options": [
+      "Roger Federer",
+      "Andy Murray",
+      "Novak Djokovic",
+      "Rafael Nadal"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Novak Djokovic ganó a Rafael Nadal en la final del Abierto de Australia 2012 tras casi seis horas de juego, la final de Grand Slam más larga de la historia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-espanola-gano-roland-garros",
+    "text": "¿Qué española ganó Roland Garros 1989 ante Steffi Graf?",
+    "options": [
+      "Carla Suárez",
+      "Paula Badosa",
+      "Conchita Martínez",
+      "Arantxa Sánchez Vicario"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Arantxa Sánchez Vicario venció a Steffi Graf en la final de Roland Garros de 1989 con 17 años, y fue la campeona más joven de ese torneo hasta entonces.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-copa-davis-2019",
+    "text": "¿Quién ganó la Copa Davis 2019 en la Caja Mágica?",
+    "options": [
+      "España",
+      "Argentina",
+      "Canadá",
+      "Croacia"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España ganó la Copa Davis 2019 en Madrid al vencer 2-0 a Canadá en la final. Rafael Nadal fue elegido el mejor jugador de aquella fase final disputada en la Caja Mágica.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-despidio-rafa-nadal-tenis",
+    "text": "¿Dónde se despidió Rafa Nadal del tenis en 2024?",
+    "options": [
+      "Madrid",
+      "Sevilla",
+      "Málaga",
+      "Manacor"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Rafa Nadal se retiró en noviembre de 2024 durante la Copa Davis disputada en Málaga, con España eliminada en cuartos por los Países Bajos. Antes jugó los Juegos de París con Alcaraz.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-roland-garros-2026",
+    "text": "¿Quién ganó Roland Garros 2026 en categoría masculina?",
+    "options": [
+      "Jannik Sinner",
+      "Alexander Zverev",
+      "Novak Djokovic",
+      "Carlos Alcaraz"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Alexander Zverev ganó Roland Garros 2026 al vencer a Flavio Cobolli por 6-1, 4-6, 6-4, 6-7 y 6-1, un título de Grand Slam que había perseguido durante años.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-roland-garros-2026-2",
+    "text": "¿Quién ganó Roland Garros 2026 en categoría femenina?",
+    "options": [
+      "Coco Gauff",
+      "Iga Swiatek",
+      "Mirra Andreeva",
+      "Aryna Sabalenka"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Mirra Andreeva ganó su primer Roland Garros en 2026 con 19 años, el primer título de Grand Slam de su carrera, según la prensa deportiva internacional que cubrió el torneo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-completo-career-grand-slam",
+    "text": "¿Quién completó el Career Grand Slam en Australia 2026?",
+    "options": [
+      "Daniil Medvédev",
+      "Alexander Zverev",
+      "Carlos Alcaraz",
+      "Jannik Sinner"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Carlos Alcaraz ganó el Abierto de Australia 2026 y completó el Career Grand Slam, al sumar los cuatro grandes. Lo consiguió siendo muy joven, y se unió a Nadal, Federer y Djokovic.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-edad-llego-alcaraz-numero",
+    "text": "¿A qué edad llegó Alcaraz al número uno mundial en 2022?",
+    "options": [
+      "17 años",
+      "23 años",
+      "21 años",
+      "19 años"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Carlos Alcaraz fue el número uno más joven de la historia del ránking ATP: lo logró en septiembre de 2022, con 19 años, tras ganar su primer Grand Slam en el US Open.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-juega-abierto-australia",
+    "text": "¿Dónde se juega el Abierto de Australia?",
+    "options": [
+      "Brisbane",
+      "Perth",
+      "Sídney",
+      "Melbourne"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El Abierto de Australia se juega en Melbourne Park, sobre pista dura, a principios de año. Es el primero de los cuatro torneos de Grand Slam de la temporada.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadounidense-gano-siete-wimbledon",
+    "text": "¿Qué estadounidense ganó siete Wimbledon y 14 Grand Slams?",
+    "options": [
+      "Pete Sampras",
+      "Andre Agassi",
+      "Stefan Edberg",
+      "Boris Becker"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Pete Sampras ganó siete Wimbledon y 14 títulos de Grand Slam, récord que luego superó Federer. Fue número uno del mundo durante seis años consecutivos, entre 1993 y 1998.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-primer-tour-francia",
+    "text": "¿Quién ganó el primer Tour de Francia, en 1903?",
+    "options": [
+      "Henri Desgrange",
+      "Maurice Garin",
+      "Lucien Petit-Breton",
+      "Octave Lapize"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Maurice Garin ganó el primer Tour de Francia en 1903, con seis etapas muy largas por toda Francia. Henri Desgrange, director de L'Auto, fue el gran impulsor de la carrera.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-periodico-procede-color-maillot",
+    "text": "¿De qué periódico procede el color del maillot amarillo?",
+    "options": [
+      "Le Figaro",
+      "Le Monde",
+      "L'Auto",
+      "L'Équipe"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El maillot amarillo se eligió porque L'Auto, el diario que organizaba el Tour, se imprimía en papel amarillo. Se estrenó en 1919 y el primer líder en llevarlo fue Eugène Christophe.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-escalador-espanol-gano-tour",
+    "text": "¿Qué escalador español ganó el Tour de 1959?",
+    "options": [
+      "Luis Ocaña",
+      "Jesús Loroño",
+      "Federico Bahamontes",
+      "Julio Jiménez"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Federico Bahamontes, el Águila de Toledo, ganó el Tour de 1959 y fue el primer español campeón de la carrera francesa. Ganó seis veces el premio de la montaña.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciclista-espanol-gano-tour-2",
+    "text": "¿Qué ciclista español ganó el Tour de 1988?",
+    "options": [
+      "Marino Lejarreta",
+      "Pedro Delgado",
+      "Miguel Induráin",
+      "Abraham Olano"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Pedro Delgado, Perico, ganó el Tour de 1988 en un año en que su victoria se puso en duda por un caso de dopaje que acabó archivado. Fue el segundo español ganador, tras Bahamontes.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-espanol-gano-tour-francia",
+    "text": "¿Qué español ganó el Tour de Francia de 1973?",
+    "options": [
+      "Federico Bahamontes",
+      "Pedro Delgado",
+      "Luis Ocaña",
+      "José Manuel Fuente"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Luis Ocaña ganó el Tour de 1973, en ausencia de Eddy Merckx, que no participó. Dos años antes había perdido el maillot amarillo tras una dura caída en los Pirineos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-frances-gano-tour-1985",
+    "text": "¿Qué francés ganó el Tour de 1985, último galo en lograrlo?",
+    "options": [
+      "Laurent Fignon",
+      "Thibaut Pinot",
+      "Bernard Hinault",
+      "Richard Virenque"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Bernard Hinault ganó el Tour de 1985, su quinta victoria, y es el último francés en ganar la carrera. Hasta 2026 ningún compatriota ha vuelto a subir a lo más alto del podio de París.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-segundos-gano-lemond-tour",
+    "text": "¿Por cuántos segundos ganó LeMond el Tour 1989?",
+    "options": [
+      "28 segundos",
+      "58 segundos",
+      "3 minutos",
+      "8 segundos"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Greg LeMond ganó el Tour de 1989 por solo ocho segundos a Laurent Fignon, tras la contrarreloj final en los Campos Elíseos. Fue el Tour más ajustado de la historia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-britanico-gano-tour-2012",
+    "text": "¿Qué británico ganó el Tour de 2012, el primero de su país?",
+    "options": [
+      "Mark Cavendish",
+      "Geraint Thomas",
+      "Chris Froome",
+      "Bradley Wiggins"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Bradley Wiggins ganó el Tour de 2012, con Chris Froome como gregario, y fue el primer británico ganador. Semanas después ganó el oro olímpico en contrarreloj en Londres.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-etapas-tour-ha-ganado",
+    "text": "¿Cuántas etapas del Tour ha ganado Mark Cavendish?",
+    "options": [
+      "28",
+      "30",
+      "34",
+      "35"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Mark Cavendish ha ganado 35 etapas del Tour de Francia, un récord absoluto que superó el de Eddy Merckx, de 34. En 2026 Pogačar ya era el cuarto de esa lista, con al menos 25 etapas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-belga-gano-oro-ruta",
+    "text": "¿Qué belga ganó oro en ruta y contrarreloj en París 2024?",
+    "options": [
+      "Remco Evenepoel",
+      "Wout van Aert",
+      "Jasper Philipsen",
+      "Tadej Pogačar"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Remco Evenepoel ganó el oro en la contrarreloj y la prueba en ruta de París 2024, una doble hazaña que ningún ciclista había logrado antes en unos mismos Juegos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciclista-espanol-gano-mundial",
+    "text": "¿Qué ciclista español ganó el Mundial de ruta de 2018?",
+    "options": [
+      "Alejandro Valverde",
+      "Joaquim Rodríguez",
+      "Alberto Contador",
+      "Samuel Sánchez"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Alejandro Valverde ganó el Mundial de ruta de 2018 en Innsbruck con 38 años, tras muchos podios. Fue el primer español campeón del mundo en ruta desde Óscar Freire, en 2004.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-vuelta-espana-2008",
+    "text": "¿Quién ganó la Vuelta a España de 2008, 2012 y 2014?",
+    "options": [
+      "Joaquim Rodríguez",
+      "Chris Froome",
+      "Alejandro Valverde",
+      "Alberto Contador"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Alberto Contador ganó la Vuelta a España en 2008, 2012 y 2014, la última tras una dura batalla con Froome. Su palmarés incluye también Tours y Giros.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ano-celebro-primera-vuelta",
+    "text": "¿En qué año se celebró la primera Vuelta a España?",
+    "options": [
+      "1925",
+      "1935",
+      "1955",
+      "1945"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La primera Vuelta a España se disputó en 1935 y la ganó el belga Gustaaf Deloor. La Guerra Civil y la Segunda Guerra Mundial interrumpieron la carrera durante varios años.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-tour-2006-tras",
+    "text": "¿Quién ganó el Tour 2006 tras descalificar a Landis?",
+    "options": [
+      "Óscar Pereiro",
+      "Carlos Sastre",
+      "Haimar Zubeldia",
+      "Alberto Contador"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Óscar Pereiro fue declarado ganador del Tour de 2006 tras el positivo de Floyd Landis, que acabó primero en París. El gallego recibió el maillot amarillo meses después.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-establecio-record-hora-mexico",
+    "text": "¿Quién estableció el récord de la hora en México en 1972?",
+    "options": [
+      "Francesco Moser",
+      "Eddy Merckx",
+      "Miguel Induráin",
+      "Chris Boardman"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Eddy Merckx recorrió 49,431 kilómetros en una hora en el velódromo de México en 1972. Lo logró aprovechando la altitud, y quedó extenuado tras el esfuerzo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadounidense-salto-95-longitud",
+    "text": "¿Qué estadounidense saltó 8,95 m de longitud en 1991?",
+    "options": [
+      "Bob Beamon",
+      "Mike Powell",
+      "Dwight Phillips",
+      "Carl Lewis"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Mike Powell saltó 8,95 metros en Tokio en 1991 y batió el récord de Bob Beamon, tras un duelo legendario con Carl Lewis. Sigue siendo el récord mundial.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ostenta-record-mundial-200",
+    "text": "¿Quién ostenta el récord mundial de 200 m con 19,19?",
+    "options": [
+      "Usain Bolt",
+      "Yohan Blake",
+      "Michael Johnson",
+      "Tyson Gay"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Usain Bolt corrió los 200 metros en 19,19 segundos en Berlín en 2009, mejorando el 19,30 con el que había ganado el oro olímpico de Pekín un año antes.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-primer-maraton-olimpico",
+    "text": "¿Quién ganó el primer maratón olímpico femenino, en 1984?",
+    "options": [
+      "Grete Waitz",
+      "Joan Benoit",
+      "Rosa Mota",
+      "Ingrid Kristiansen"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La estadounidense Joan Benoit ganó el primer maratón olímpico femenino en Los Ángeles 1984. La prueba no se había incluido hasta entonces en los Juegos.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-cubano-salto-45-altura",
+    "text": "¿Qué cubano saltó 2,45 m en altura en 1993?",
+    "options": [
+      "Patrik Sjöberg",
+      "Dick Fosbury",
+      "Javier Sotomayor",
+      "Mutaz Barshim"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Javier Sotomayor saltó 2,45 metros en Salamanca en 1993, un récord mundial de altura que sigue vigente más de treinta años después, y nadie más ha llegado nunca a esa altura.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-corrio-maraton-menos-dos",
+    "text": "¿Quién corrió un maratón en menos de dos horas en 2019?",
+    "options": [
+      "Kenenisa Bekele",
+      "Dennis Kimetto",
+      "Eliud Kipchoge",
+      "Wilson Kipsang"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Eliud Kipchoge corrió el maratón en 1:59:40 en Viena en 2019, con liebres rotatorias, así que la marca no es récord oficial. Fue la primera vez que alguien bajó de las dos horas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-celebro-mundial-atletismo-1999",
+    "text": "¿Dónde se celebró el Mundial de atletismo de 1999?",
+    "options": [
+      "Barcelona",
+      "Valencia",
+      "Madrid",
+      "Sevilla"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Sevilla acogió el Mundial de atletismo de 1999, en el estadio de la Cartuja. Es una de las pocas veces que España ha organizado el gran campeonato mundial de atletismo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ostenta-record-800-femenino",
+    "text": "¿Quién ostenta el récord de 800 m femenino desde 1983?",
+    "options": [
+      "Pamela Jelimo",
+      "Jarmila Kratochvílová",
+      "Maria Mutola",
+      "Caster Semenya"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Jarmila Kratochvílová corrió los 800 metros en 1:53,28 en Múnich en 1983, un récord que se mantiene desde hace más de cuarenta años, uno de los más antiguos del atletismo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-record-100-femenino-10",
+    "text": "¿Quién tiene el récord de 100 m femenino de 10,49?",
+    "options": [
+      "Marion Jones",
+      "Florence Griffith-Joyner",
+      "Evelyn Ashford",
+      "Carmelita Jeter"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Florence Griffith-Joyner corrió los 100 metros en 10,49 segundos en 1988, un récord discutido pero vigente. En Seúl 1988 ganó tres oros y una plata.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-10-000-pekin",
+    "text": "¿Quién ganó el 10.000 m en Pekín 2008 con 27:01?",
+    "options": [
+      "Kenenisa Bekele",
+      "Eliud Kipchoge",
+      "Haile Gebrselassie",
+      "Mo Farah"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Kenenisa Bekele ganó el 10.000 m de Pekín 2008 con récord olímpico y también el 5.000. Fue el gran sucesor de Haile Gebrselassie en las pistas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-oro-olimpico",
+    "text": "¿Qué país ganó el oro olímpico de fútbol en 1920?",
+    "options": [
+      "Bélgica",
+      "España",
+      "Reino Unido",
+      "Países Bajos"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Bélgica ganó el oro de fútbol en los Juegos de Amberes de 1920, jugando en casa, después de que Checoslovaquia abandonara la final en protesta por el arbitraje. España logró la plata.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-primer-gol-mundial",
+    "text": "¿Quién marcó el primer gol de un Mundial, en 1930?",
+    "options": [
+      "Guillermo Stábile",
+      "Lucien Laurent",
+      "Héctor Castro",
+      "Pedro Cea"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El francés Lucien Laurent marcó el primer gol de la historia de los Mundiales, el 13 de julio de 1930 en Montevideo, en la victoria de Francia por 4-1 sobre México.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-maximo-goleador-mundial-3",
+    "text": "¿Quién fue el máximo goleador del Mundial de 1930?",
+    "options": [
+      "Guillermo Stábile",
+      "Hugo Sotil",
+      "Héctor Scarone",
+      "Pedro Cea"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El argentino Guillermo Stábile fue máximo goleador del primer Mundial, con ocho goles en cuatro partidos, a pesar de ser suplente al inicio del torneo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-vencio-italia-final",
+    "text": "¿A qué selección venció Italia en la final de 1934?",
+    "options": [
+      "Brasil",
+      "Checoslovaquia",
+      "Austria",
+      "Hungría"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Italia ganó el Mundial de 1934, jugado en casa, al vencer 2-1 a Checoslovaquia en la prórroga en Roma. Fue su primer título mundial, y el régimen fascista lo celebró como un éxito político.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadio-acogio-final-mundial-2",
+    "text": "¿Qué estadio acogió la final del Mundial de 1950?",
+    "options": [
+      "Maracaná",
+      "Morumbí",
+      "Mineirão",
+      "Pacaembú"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "La final de 1950, en realidad un partido decisivo de la fase final, se jugó en el estadio Maracaná de Río de Janeiro, construido para aquel torneo y con capacidad para casi 200.000 espectadores.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-club-gano-copa-europa",
+    "text": "¿Qué club ganó la Copa de Europa de 1961?",
+    "options": [
+      "Inter",
+      "Ajax",
+      "Benfica",
+      "Milan"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El Benfica ganó la Copa de Europa de 1961 al vencer 3-2 al Barcelona en Berna, y puso fin a las cinco victorias seguidas del Real Madrid, que había sido eliminado por los azulgranas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-primer-balon-oro",
+    "text": "¿Quién ganó el primer Balón de Oro, en 1956?",
+    "options": [
+      "Alfredo Di Stéfano",
+      "Stanley Matthews",
+      "Raymond Kopa",
+      "Ferenc Puskás"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El inglés Stanley Matthews, de 41 años, ganó el primer Balón de Oro en 1956, el premio creado por la revista France Football. Di Stéfano lo ganó después, en 1957 y 1959.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-espanol-gano-balon-oro",
+    "text": "¿Qué español ganó el Balón de Oro de 1960?",
+    "options": [
+      "Luis Suárez",
+      "Luis del Sol",
+      "Paco Gento",
+      "Alfredo Di Stéfano"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Luis Suárez, el centrocampista gallego que jugaba en el Barcelona y luego en el Inter, ganó el Balón de Oro de 1960. Hasta que Rodri lo ganó en 2024, fue el único español con ese premio.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-vencio-ee-uu",
+    "text": "¿A qué país venció EE. UU. en la final olímpica de 1936?",
+    "options": [
+      "Polonia",
+      "Francia",
+      "Canadá",
+      "México"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "En Berlín 1936, el primer torneo olímpico de baloncesto, Estados Unidos ganó 19-8 a Canadá en una final jugada al aire libre sobre un campo de tenis embarrado por la lluvia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-oro-baloncesto-2",
+    "text": "¿Qué selección ganó el oro de baloncesto en Múnich 1972?",
+    "options": [
+      "EE. UU.",
+      "Cuba",
+      "Italia",
+      "URSS"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "La URSS ganó el oro de Múnich 1972 al vencer 51-50 a Estados Unidos en una final polémica, decidida en un último segundo repetido tres veces. Los estadounidenses rechazaron las platas.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-equipo-gano-jordan-sexto",
+    "text": "¿A qué equipo ganó Jordan su sexto anillo en 1998?",
+    "options": [
+      "Phoenix Suns",
+      "Orlando Magic",
+      "Utah Jazz",
+      "Houston Rockets"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Michael Jordan ganó su sexto anillo en 1998 contra los Utah Jazz, con un tiro decisivo sobre Bryon Russell en el sexto partido. Los Jazz también habían caído ante los Bulls en 1997.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-celebro-primer-mundial-atletismo",
+    "text": "¿Dónde se celebró el primer Mundial de atletismo (1983)?",
+    "options": [
+      "Gotemburgo",
+      "Roma",
+      "Tokio",
+      "Helsinki"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El primer Mundial de atletismo se celebró en Helsinki en 1983, organizado por la federación internacional. Nació para tener un gran campeonato propio, además de los Juegos Olímpicos, cada pocos años.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-grand-slam-calendario-2",
+    "text": "¿Quién ganó el Grand Slam del calendario en 1938?",
+    "options": [
+      "Fred Perry",
+      "Don Budge",
+      "Bill Tilden",
+      "Rod Laver"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Don Budge fue el primer tenista que ganó los cuatro torneos de Grand Slam en un mismo año, en 1938; ese logro fue el origen de la expresión Grand Slam en el tenis.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tenista-gano-wimbledon-1985",
+    "text": "¿Qué tenista ganó Wimbledon 1985 con solo 17 años?",
+    "options": [
+      "Mats Wilander",
+      "Boris Becker",
+      "Michael Chang",
+      "Pat Cash"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Boris Becker ganó Wimbledon en 1985, con 17 años y siete meses, y fue el campeón más joven de la historia del torneo, además del primer alemán en lograrlo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-tour-1998-marcado",
+    "text": "¿Quién ganó el Tour de 1998, marcado por el caso Festina?",
+    "options": [
+      "Jan Ullrich",
+      "Richard Virenque",
+      "Marco Pantani",
+      "Bjarne Riis"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Marco Pantani ganó el Tour de 1998, el año del escándalo de dopaje del equipo Festina, y completó el doblete Giro-Tour. Fue el último ciclista en ganar ambas grandes vueltas en el mismo año.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-finlandes-gano-nueve-oros",
+    "text": "¿Qué finlandés ganó nueve oros olímpicos entre 1920 y 1928?",
+    "options": [
+      "Lasse Virén",
+      "Paavo Nurmi",
+      "Ville Ritola",
+      "Hannes Kolehmainen"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Paavo Nurmi, el Finlandés Volador, ganó nueve oros y tres platas en los Juegos de 1920, 1924 y 1928, en carreras de medio fondo y fondo. Fue un dominador absoluto de su época.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-tour-1904-tras",
+    "text": "¿Quién ganó el Tour de 1904, tras descalificar a Garin?",
+    "options": [
+      "René Pottier",
+      "Lucien Petit-Breton",
+      "Louis Trousselier",
+      "Henri Cornet"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Henri Cornet ganó el Tour de 1904 tras las descalificaciones de los cuatro primeros clasificados. Con solo 19 años y 350 días, sigue siendo el ganador más joven de la historia.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-primer-torneo-wimbledon",
+    "text": "¿Quién ganó el primer torneo de Wimbledon, en 1877?",
+    "options": [
+      "Spencer Gore",
+      "William Renshaw",
+      "Frank Hadow",
+      "Herbert Lawford"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Spencer Gore ganó el primer torneo de Wimbledon en 1877, jugado sobre hierba en Londres con apenas 22 participantes. Al año siguiente lo ganó Frank Hadow, que inventó el globo.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-maraton-juegos-atenas",
+    "text": "¿Quién ganó el maratón de los Juegos de Atenas 1896?",
+    "options": [
+      "Thomas Hicks",
+      "Spyridon Louis",
+      "Edwin Flack",
+      "Charilaos Vasilakos"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "El pastor griego Spyridon Louis ganó el primer maratón olímpico en Atenas 1896, entrando en el estadio Panathinaiko con el público en pie. Fue un héroe nacional por la victoria local.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-primer-eurobasket",
+    "text": "¿Qué selección ganó el primer Eurobasket, en 1935?",
+    "options": [
+      "España",
+      "Suiza",
+      "Letonia",
+      "Italia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Letonia ganó el primer Campeonato de Europa de baloncesto en 1935, celebrado en Ginebra, y venció a España en la final. Fue el primer gran éxito internacional del baloncesto español.",
+    "source": "historia_del_deporte_en_los_siglos_xx_y_xxi.json",
+    "createdAt": "2026-11-22T11:21:38Z",
+    "status": "active"
+  }
+]
