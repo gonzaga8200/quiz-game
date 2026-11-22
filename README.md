@@ -272,9 +272,10 @@ you what else moves.
   questions shown the fewest times first, with ties broken at random, so repeats come as
   late as possible. Counts are compared inside each difficulty, so what a device played at
   one level never changes the mix of levels (and the points on offer) in another game. The
-  memory is saved once when a game ends or the screen is left, forgets
-  questions that are no longer in the bank, and if storage is blocked or corrupt the game
-  behaves as if it were empty.
+  memory is saved when a game ends, when the screen is left and when the page is hidden or
+  closed (a reload, a closed tab, the app sent to the background), counting each question
+  once. It forgets questions that are no longer in the bank, and if storage is blocked or
+  corrupt, or a save fails, the game carries on as if the memory were empty.
 - Celebration tiers (confetti emojis) are based on points per minute, so 60 s and 120 s
   games are comparable: 150+ trophy, 90+ party, 45+ applause, 15+ thumbs up, otherwise a
   gentle encouragement. Thresholds live in `core/celebration.ts`.

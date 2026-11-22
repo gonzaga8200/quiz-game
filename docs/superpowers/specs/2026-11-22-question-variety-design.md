@@ -71,9 +71,13 @@ categoría.
 - Nueva utilidad `app/utils/seen-questions.ts`, con el mismo patrón que `question-cache.ts`:
   `StorageLike`, validación con zod y todo dentro de `try/catch`. Almacenamiento bloqueado o
   datos corruptos equivalen a memoria vacía, es decir, el comportamiento de hoy.
-- `useGameSession` lee la memoria al crear la partida y la guarda una vez al terminar y en
-  `onScopeDispose` (salir a mitad de partida). Al guardar se descartan los ids que ya no
-  están en el banco, para que no crezca sin límite.
+- `GamePlay.vue` lee la memoria (`useSeenQuestions`) al crear la partida y se la pasa a
+  `useGameSession` como `seen`; la sesión avisa con `onShown` y `GamePlay.vue` guarda.
+- El guardado es incremental: cada aviso lleva solo las preguntas presentadas desde el
+  anterior, así que ninguna se cuenta dos veces. Se avisa al terminar la partida, al salir de la
+  pantalla (`onScopeDispose`), al ocultar o cerrar la página (`pagehide`) y al pasar la pestaña
+  a segundo plano (`visibilitychange`). Si el guardado falla, la partida no se ve afectada.
+- Al guardar se descartan los ids que ya no están en el banco, para que no crezca sin límite.
 
 ## Decisiones mías (revisables)
 

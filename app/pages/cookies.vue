@@ -44,7 +44,7 @@ const storage = [
   {
     name: 'contrarreloj.seen.v1 (localStorage)',
     purpose:
-      'Recordar qué preguntas has visto en este dispositivo para repetirlas lo menos posible. No contiene datos personales y no se envía a ningún sitio.',
+      'Recordar qué preguntas has visto en este dispositivo para repetirlas lo menos posible. Guarda solo los identificadores de las preguntas y cuántas veces se han mostrado; no se envía a ningún sitio.',
     kind: 'Funcional, solo en tu dispositivo',
     duration: 'Hasta que borres los datos del navegador',
   },
