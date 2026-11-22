@@ -1,18 +1,10 @@
 import type { Question } from '~~/core'
+import { browserStorage } from '~/utils/browser-storage'
 import { loadBundledQuestions } from '~/utils/bundled-questions'
 import { readCachedQuestions, writeCachedQuestions } from '~/utils/question-cache'
-import type { StorageLike } from '~/utils/question-cache'
 import { withTimeout } from '~/utils/with-timeout'
 
 const FIRESTORE_TIMEOUT_MS = 6000
-
-function browserStorage(): StorageLike | null {
-  try {
-    return window.localStorage
-  } catch {
-    return null // storage blocked
-  }
-}
 
 /**
  * Where the questions for a game come from. Firestore is the source of truth, with a
