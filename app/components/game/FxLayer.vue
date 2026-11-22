@@ -5,7 +5,12 @@ import IconFlame from '../icons/IconFlame.vue'
 /** What the layer shows now. `id` changes on every event so the animation restarts. */
 export type LayerFx =
   | { readonly id: number; readonly kind: 'wrong' }
-  | ({ readonly id: number; readonly kind: 'streak' } & StreakFx)
+  | ({
+      readonly id: number
+      readonly kind: 'streak'
+      /** Viewport y (px) of the top edge of the question text; the banner sits just above it. */
+      readonly anchorTop?: number
+    } & StreakFx)
 
 defineProps<{ fx: LayerFx | null }>()
 
@@ -26,11 +31,17 @@ const confetti = Array.from({ length: 24 }, (_, i) => ({
     <span v-if="fx.kind === 'wrong'" class="fx__vignette" />
 
     <template v-else>
-      <p class="fx__banner" :class="{ 'fx__banner--big': fx.big }">
-        <IconFlame class="fx__flame" />
-        <span class="fx__title">¡Racha de {{ fx.streak }}!</span>
-        <span v-if="fx.bonus > 0" class="fx__bonus">+{{ fx.bonus }} de bonus</span>
-      </p>
+      <!-- The slot ends where the question text starts, so the banner never covers it. -->
+      <div
+        class="fx__slot"
+        :style="fx.anchorTop === undefined ? undefined : { '--anchor': `${fx.anchorTop}px` }"
+      >
+        <p class="fx__banner" :class="{ 'fx__banner--big': fx.big }">
+          <IconFlame class="fx__flame" />
+          <span class="fx__title">¡Racha de {{ fx.streak }}!</span>
+          <span v-if="fx.bonus > 0" class="fx__bonus">+{{ fx.bonus }} de bonus</span>
+        </p>
+      </div>
 
       <template v-if="fx.big">
         <span
@@ -78,11 +89,22 @@ const confetti = Array.from({ length: 24 }, (_, i) => ({
   }
 }
 
-/* A streak: a gold ticket drops in under the top bar. */
-.fx__banner {
+/*
+ * A streak: a gold ticket drops in above the question. The slot is the strip of screen from
+ * the top down to the question text, and the banner rests on its bottom edge. It stays compact
+ * so it fits in the free space of the card without covering the clock or the category tags.
+ */
+.fx__slot {
   position: absolute;
-  top: 6.75rem;
-  left: 50%;
+  inset: 0 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: max(var(--anchor, 6.75rem), 4rem);
+  padding-bottom: 0.5rem;
+}
+
+.fx__banner {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -99,17 +121,16 @@ const confetti = Array.from({ length: 24 }, (_, i) => ({
   font-size: 1.25rem;
   line-height: 1;
   white-space: nowrap;
-  transform: translateX(-50%);
   animation: banner 1.5s ease-out forwards;
 }
 
 .fx__banner--big {
-  top: 6.75rem;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0.75rem 1.5rem;
+  gap: 0.125rem 0.5rem;
+  padding: 0.5rem 1.25rem;
   border-radius: var(--radius-card);
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   animation-duration: 2.2s;
 }
 
@@ -129,21 +150,21 @@ const confetti = Array.from({ length: 24 }, (_, i) => ({
 @keyframes banner {
   0% {
     opacity: 0;
-    transform: translateX(-50%) translateY(-1.5rem) scale(0.6);
+    transform: translateY(-1.5rem) scale(0.6);
   }
   14% {
     opacity: 1;
-    transform: translateX(-50%) translateY(0) scale(1.12);
+    transform: translateY(0) scale(1.12);
   }
   24% {
-    transform: translateX(-50%) translateY(0) scale(1);
+    transform: translateY(0) scale(1);
   }
   80% {
     opacity: 1;
   }
   100% {
     opacity: 0;
-    transform: translateX(-50%) translateY(-0.5rem) scale(1);
+    transform: translateY(-0.5rem) scale(1);
   }
 }
 
@@ -182,13 +203,6 @@ const confetti = Array.from({ length: 24 }, (_, i) => ({
   .fx__vignette,
   .fx__banner {
     animation: none;
-  }
-}
-
-@media (min-width: 56rem) {
-  .fx__banner,
-  .fx__banner--big {
-    top: 5rem;
   }
 }
 </style>

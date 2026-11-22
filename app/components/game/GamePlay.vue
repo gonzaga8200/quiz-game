@@ -24,6 +24,7 @@ const sound = useSound()
 
 // --- Visual feedback: a red flash on mistakes, a banner on streaks, a hit on the score -----
 const fx = ref<LayerFx | null>(null)
+const card = ref<{ $el: HTMLElement } | null>(null)
 const hit = ref<{ id: number; amount: number } | null>(null)
 const skipMessage = ref('')
 let fxCount = 0
@@ -31,7 +32,10 @@ let fxTimer: ReturnType<typeof setTimeout> | undefined
 let hitTimer: ReturnType<typeof setTimeout> | undefined
 let jingleTimer: ReturnType<typeof setTimeout> | undefined
 
-function showFx(next: Omit<LayerFx, 'id'>, ms: number): void {
+function showFx(
+  next: LayerFx extends infer T ? (T extends LayerFx ? Omit<T, 'id'> : never) : never,
+  ms: number,
+): void {
   fxCount += 1
   fx.value = { ...next, id: fxCount } as LayerFx
   clearTimeout(fxTimer)
@@ -83,7 +87,9 @@ watch(feedback, (fb) => {
   }
   const cheer = streakFx(fb, snapshot.value.streak)
   if (!cheer) return
-  showFx({ kind: 'streak', ...cheer }, cheer.big ? 2200 : 1500)
+  // The banner rests on the top edge of the question text: above it, not over it.
+  const anchorTop = card.value?.$el.querySelector('.card__question')?.getBoundingClientRect().top
+  showFx({ kind: 'streak', anchorTop, ...cheer }, cheer.big ? 2200 : 1500)
   vibrate(cheer.big ? [40, 40, 40, 40, 160] : 40)
   if (cheer.big) jingleTimer = setTimeout(() => sound.play('streak'), 180)
 })
@@ -153,6 +159,7 @@ onBeforeUnmount(() => {
 
     <QuestionCard
       v-if="question"
+      ref="card"
       class="game__card"
       :question="question"
       :feedback="feedback"
