@@ -27,7 +27,7 @@ export const LEGAL: LegalInfo = {
   owner: 'Gonzalo Moreno Minguito (titular del proyecto, gonzaga8200 en GitHub)',
   domain: 'contrarreloj-quiz.com',
   copyrightYear: 2026,
-  email: 'gonzaga8200@gmail.com',
+  email: 'informacion@contrarreloj-quiz.com',
   contact: 'https://github.com/gonzaga8200/quiz-game/issues',
   contactHint:
     'Abre una incidencia con el título «Privacidad» y no incluyas datos personales en ella.',
