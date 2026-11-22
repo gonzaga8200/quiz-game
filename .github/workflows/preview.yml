@@ -101,10 +101,24 @@ jobs:
           export GOOGLE_APPLICATION_CREDENTIALS="$KEY"
           trap 'rm -f "$KEY"' EXIT
 
+          # The Firebase CLI only runs inside a Firebase app directory. This job does not check
+          # the repository out, so give it the smallest firebase.json that is enough.
+          WORKDIR="$RUNNER_TEMP/firebase-cleanup"
+          mkdir -p "$WORKDIR"
+          echo '{"hosting":{"public":"."}}' > "$WORKDIR/firebase.json"
+          cd "$WORKDIR"
+
+          # With --json a failure is printed as {"status":"error",...}, so an empty list must not
+          # be mistaken for "nothing to delete": stop with the CLI's own message instead.
+          LIST=$(npx --yes firebase-tools@15 hosting:channel:list --project contrarreloj-quiz --json || true)
+          if ! echo "$LIST" | jq -e '.status == "success"' > /dev/null; then
+            echo "::error::Could not list the preview channels: $LIST"
+            exit 1
+          fi
+
           # Channel ids look like `pr<number>-<branch>`; the branch part is cut, so match the prefix.
-          IDS=$(npx --yes firebase-tools@15 hosting:channel:list --project contrarreloj-quiz --json \
-            | jq -r --arg prefix "pr${PR_NUMBER}-" \
-                '.result.channels[]? | .name | split("/") | last | select(startswith($prefix))')
+          IDS=$(echo "$LIST" | jq -r --arg prefix "pr${PR_NUMBER}-" \
+            '.result.channels[]? | .name | split("/") | last | select(startswith($prefix))')
 
           if [ -z "$IDS" ]; then
             echo "No preview channel for pull request #${PR_NUMBER}."
