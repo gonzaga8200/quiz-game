@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.25.0](https://github.com/gonzaga8200/quiz-game/compare/v0.24.0...v0.25.0) (2026-11-22)
+
+
+### Features
+
+* **game:** vary the questions with a per-device memory and no two same-category in a row ([#76](https://github.com/gonzaga8200/quiz-game/issues/76)) ([aa9d7a1](https://github.com/gonzaga8200/quiz-game/commit/aa9d7a1faca8f1c2a7bd5559ccd950fb6b333b44))
+
 ## [0.24.0](https://github.com/gonzaga8200/quiz-game/compare/v0.23.0...v0.24.0) (2026-11-22)
 
 
