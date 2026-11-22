@@ -101,6 +101,45 @@ describe('buildQueue with a memory of what was shown', () => {
   })
 })
 
+describe('buildQueue memory and the difficulty mix', () => {
+  /** 30 questions each of fácil, medio and difícil, spread over every category. */
+  const bank = CATEGORIES.flatMap((category, c) =>
+    (['fácil', 'medio', 'difícil'] as const).flatMap((difficulty) =>
+      Array.from({ length: 5 }, (_, i) =>
+        makeQuestion({
+          id: `mix-${c}-${difficulty}-${i}`,
+          text: `Pregunta de mezcla ${c}-${difficulty}-${i}`,
+          category,
+          difficulty,
+        }),
+      ),
+    ),
+  )
+
+  it('does not drop a level from random games because the device already saw all of it', () => {
+    // A device that has played a lot of "fácil": every fácil question was shown once.
+    const seen = new Map(
+      bank.filter((q) => q.difficulty === 'fácil').map((q) => [q.id, 1] as const),
+    )
+
+    let facil = 0
+    for (let seed = 1; seed <= 10; seed++) {
+      const first = buildQueue(bank, 'Aleatorio', mulberry32(seed), undefined, seen).slice(0, 30)
+      facil += first.filter((q) => q.difficulty === 'fácil').length
+    }
+    // Without the memory a third of 30 questions is fácil (about 100 over 10 games).
+    expect(facil).toBeGreaterThan(60)
+  })
+
+  it('still serves the least seen first inside each level', () => {
+    const level = bank.filter((q) => q.difficulty === 'medio')
+    const seen = new Map(level.slice(0, 10).map((q) => [q.id, 2] as const))
+    const queue = buildQueue(bank, 'Aleatorio', mulberry32(3), undefined, seen)
+    const medio = queue.filter((q) => q.difficulty === 'medio').map((q) => seen.get(q.id) ?? 0)
+    expect(medio).toEqual([...medio].sort((a, b) => a - b))
+  })
+})
+
 describe('Game memory', () => {
   const bank = makeBank('medio', 10)
 

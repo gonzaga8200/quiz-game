@@ -1,4 +1,4 @@
-import { MAX_SAME_CATEGORY_IN_A_ROW, MAX_SAME_IN_A_ROW } from './constants'
+import { DIFFICULTIES, MAX_SAME_CATEGORY_IN_A_ROW, MAX_SAME_IN_A_ROW } from './constants'
 import type { Category, Difficulty, DifficultyFilter } from './constants'
 import { difficultiesFor } from './filters'
 import type { Rng } from './rng'
@@ -79,6 +79,27 @@ export function spreadRuns<T>(items: readonly T[], rules: readonly SpreadRule<T>
 }
 
 /**
+ * Orders `pool` so the questions shown the fewest times come first. The sort is stable, so
+ * the order the pool already has (a shuffle) breaks ties at random.
+ *
+ * Counts are compared inside each difficulty: a question's rank is its count minus the lowest
+ * count at its level. Otherwise what a device played at one level (say, a lot of `fácil`)
+ * would push that level out of the next random games, changing the points on offer.
+ */
+function leastShownFirst(pool: readonly Question[], seen: ReadonlyMap<string, number>): Question[] {
+  const shown = (question: Question): number => seen.get(question.id) ?? 0
+  const floor = Object.fromEntries(DIFFICULTIES.map((level) => [level, Infinity])) as Record<
+    Difficulty,
+    number
+  >
+  for (const question of pool) {
+    floor[question.difficulty] = Math.min(floor[question.difficulty], shown(question))
+  }
+  const rank = (question: Question): number => shown(question) - floor[question.difficulty]
+  return [...pool].sort((a, b) => rank(a) - rank(b))
+}
+
+/**
  * Builds the whole question order for a game up front: only active questions that
  * match the filter, duplicates (same id) dropped, randomly ordered. Walking the
  * queue once guarantees a question is never repeated within a game.
@@ -92,8 +113,9 @@ export function spreadRuns<T>(items: readonly T[], rules: readonly SpreadRule<T>
  * spreading only looks at the difficulty (random mode).
  *
  * `seen` maps a question id to how many times this device has shown it. Questions shown
- * fewer times come first (ties stay random), so a player meets repeats as late as possible.
- * Ids that are not in the bank are ignored. Without `seen` the order is purely random.
+ * fewer times come first (ties stay random, counts are compared within each difficulty so the
+ * mix of levels is not skewed), so a player meets repeats as late as possible. Ids that are
+ * not in the bank are ignored. Without `seen` the order is purely random.
  */
 export function buildQueue(
   questions: readonly Question[],
@@ -112,11 +134,8 @@ export function buildQueue(
     return true
   })
   const shuffledPool = shuffled(pool, rng)
-  // Least shown first. The sort is stable, so the shuffle above breaks ties at random.
   const order =
-    seen !== undefined && seen.size > 0
-      ? [...shuffledPool].sort((a, b) => (seen.get(a.id) ?? 0) - (seen.get(b.id) ?? 0))
-      : shuffledPool
+    seen !== undefined && seen.size > 0 ? leastShownFirst(shuffledPool, seen) : shuffledPool
   const rules: SpreadRule<Question>[] = []
   if (category === undefined) {
     rules.push({ key: (question) => question.category, max: MAX_SAME_CATEGORY_IN_A_ROW })

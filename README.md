@@ -270,7 +270,9 @@ you what else moves.
 - Each device remembers how many times it has shown every question (`contrarreloj.seen.v1`
   in `localStorage`, only in the browser and never sent anywhere). A new game serves the
   questions shown the fewest times first, with ties broken at random, so repeats come as
-  late as possible. The memory is saved once when a game ends or the screen is left, forgets
+  late as possible. Counts are compared inside each difficulty, so what a device played at
+  one level never changes the mix of levels (and the points on offer) in another game. The
+  memory is saved once when a game ends or the screen is left, forgets
   questions that are no longer in the bank, and if storage is blocked or corrupt the game
   behaves as if it were empty.
 - Celebration tiers (confetti emojis) are based on points per minute, so 60 s and 120 s

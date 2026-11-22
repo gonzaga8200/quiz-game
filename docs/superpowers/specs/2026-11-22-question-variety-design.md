@@ -78,6 +78,9 @@ categoría.
 ## Decisiones mías (revisables)
 
 - Contador (mapa) en vez de un simple «visto / no visto», para no necesitar reinicios.
+- Las cuentas se comparan dentro de cada dificultad (rango = cuenta menos la cuenta mínima de
+  su nivel). Sin esto, un dispositivo que ha jugado mucho en un nivel recibiría partidas
+  Aleatorias sin ese nivel y los puntos disponibles cambiarían (hallazgo de la revisión final).
 - Una pregunta cuenta como mostrada al presentarse, aunque se salte o se acabe el tiempo.
 - Una constante propia para categoría en vez de reutilizar `MAX_SAME_IN_A_ROW`.
 - No se cambia el resto de `buildQueue` (convierte todo el banco a `PlayableQuestion`;
