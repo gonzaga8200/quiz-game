@@ -1,0 +1,2535 @@
+[
+  {
+    "id": "cine-llama-principal-premio-cine",
+    "text": "¿Cómo se llama el principal premio del cine español?",
+    "options": [
+      "Premios Grammy",
+      "Premios Oscar",
+      "Premios Cervantes",
+      "Premios Goya"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Los Premios Goya los entrega la Academia de las Artes y las Ciencias Cinematográficas de España. Se celebran cada año y reconocen las mejores películas y profesionales del cine español.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-premios-cine-entregan-hollywood",
+    "text": "¿Qué premios de cine se entregan en Hollywood?",
+    "options": [
+      "Los Óscar",
+      "Los Feroz",
+      "Los Cervantes",
+      "Los Goya"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Los Óscar los concede la Academia de Hollywood y son los premios de cine más famosos del mundo. Varias películas y artistas españoles han ganado una estatuilla dorada.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-viejo-marino-verano",
+    "text": "¿Cómo se llama el viejo marino de Verano azul?",
+    "options": [
+      "Quique",
+      "Pancho",
+      "Chanquete",
+      "Tito"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Chanquete es el entrañable marinero que vive en el barco La Dorada y acoge a los chavales de la pandilla. Lo interpretó el actor Antonio Ferrandis en la serie de 1981.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-usa-monos-rojos",
+    "text": "¿Qué serie usa monos rojos y máscaras de Dalí?",
+    "options": [
+      "Cuéntame cómo pasó",
+      "Aquí no hay quien viva",
+      "Los Serrano",
+      "La casa de papel"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "En La casa de papel, un grupo de atracadores asalta la Fábrica Nacional de Moneda y Timbre vestidos de rojo y con máscara de Dalí. Fue un éxito mundial en Netflix.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-pelicula-todo-sobre",
+    "text": "¿Quién dirigió la película Todo sobre mi madre?",
+    "options": [
+      "Pedro Almodóvar",
+      "Alejandro Amenábar",
+      "Santiago Segura",
+      "Fernando Trueba"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Pedro Almodóvar dirigió Todo sobre mi madre en 1999. La película ganó el Óscar a la mejor película de habla no inglesa y convirtió al director manchego en una figura mundial.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-cadena-fue-primera-television",
+    "text": "¿Qué cadena fue la primera televisión de España?",
+    "options": [
+      "Telecinco España",
+      "Canal Sur Televisión",
+      "Antena 3 Televisión",
+      "TVE (Televisión Española)"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Televisión Española, conocida como TVE, comenzó sus emisiones regulares el 28 de octubre de 1956. Durante más de treinta años fue la única cadena de televisión del país.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-familia-protagoniza-cuentame-paso",
+    "text": "¿Qué familia protagoniza Cuéntame cómo pasó?",
+    "options": [
+      "Los Alcántara",
+      "Los Serrano",
+      "Los Fernández",
+      "Los Martín"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Cuéntame cómo pasó sigue a los Alcántara, una familia de Madrid, a lo largo de los años desde 1968. Se emitió en La 1 de TVE entre 2001 y 2023.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-protagonizo-mascara-zorro-1998",
+    "text": "¿Quién protagonizó La máscara del Zorro en 1998?",
+    "options": [
+      "Imanol Arias",
+      "Javier Bardem",
+      "Antonio Banderas",
+      "Luis Tosar"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "El actor malagueño Antonio Banderas dio vida a Alejandro Murrieta, el nuevo Zorro, junto a Anthony Hopkins. La película fue uno de sus mayores éxitos en Hollywood.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-cantante-gano-eurovision-1968",
+    "text": "¿Qué cantante ganó Eurovisión en 1968 con La, la, la?",
+    "options": [
+      "Rocío Jurado",
+      "Salomé",
+      "Massiel",
+      "Karina"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Massiel ganó el Festival de Eurovisión de 1968 en Londres con La, la, la. Fue la primera victoria de España en el concurso, retransmitido por la televisión española.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ciudad-entrega-concha-oro",
+    "text": "¿En qué ciudad se entrega la Concha de Oro?",
+    "options": [
+      "Zaragoza",
+      "San Sebastián",
+      "Valladolid",
+      "Sevilla"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "La Concha de Oro es el máximo premio del Festival de Cine de San Sebastián. El certamen se celebra cada septiembre en la ciudad vasca y nació en el año 1953.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-pelicula-miedo-otros",
+    "text": "¿Quién dirigió la película de miedo Los otros?",
+    "options": [
+      "Alejandro Amenábar",
+      "Pedro Almodóvar",
+      "Santiago Segura",
+      "J. A. Bayona"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Alejandro Amenábar dirigió Los otros en 2001, una historia de fantasmas protagonizada por Nicole Kidman. Fue un enorme éxito de taquilla dentro y fuera de nuestro país.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-policia-pelis-segura",
+    "text": "¿Cómo se llama el policía de las pelis de Segura?",
+    "options": [
+      "Zipi",
+      "Torrente",
+      "Superlópez",
+      "Mortadelo"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "José Luis Torrente es el policía chulo, machista y fanfarrón que interpreta Santiago Segura. La saga empezó en 1998 y ha tenido seis películas con enorme éxito de público.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-cuenta-accidente-aereo",
+    "text": "¿Qué película cuenta el accidente aéreo de los Andes?",
+    "options": [
+      "Ocho apellidos vascos",
+      "El laberinto del fauno",
+      "Un monstruo viene a verme",
+      "La sociedad de la nieve"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "La sociedad de la nieve, dirigida por J. A. Bayona, relata la tragedia de 1972 de un avión uruguayo estrellado en los Andes. Fue nominada al Óscar y ganó el Goya.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-recrea-tsunami-2004",
+    "text": "¿Qué película recrea el tsunami de 2004 en Tailandia?",
+    "options": [
+      "Lo imposible",
+      "Mar adentro",
+      "Los otros",
+      "El orfanato"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Lo imposible, de J. A. Bayona, cuenta la historia real de una familia española atrapada en el tsunami de 2004. Está protagonizada por Naomi Watts y Ewan McGregor.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pintor-da-nombre-premios",
+    "text": "¿Qué pintor da su nombre a los premios del cine español?",
+    "options": [
+      "Francisco de Goya",
+      "Pablo Picasso",
+      "Diego Velázquez",
+      "Salvador Dalí"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy fácil",
+    "explanation": "Los premios llevan el nombre del pintor aragonés Francisco de Goya. La estatuilla es un busto del artista, inspirado en una escultura de Mariano Benlliure de 1902.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-empezo-emitir-tve",
+    "text": "¿En qué año empezó a emitir TVE de forma regular?",
+    "options": [
+      "1975",
+      "1946",
+      "1966",
+      "1956"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Televisión Española inició sus emisiones regulares el 28 de octubre de 1956, desde unos modestos estudios del Paseo de la Habana de Madrid, y al principio llegaba solo a unos pocos hogares.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-oliver-laxe-fue",
+    "text": "¿Qué película de Óliver Laxe fue nominada al Óscar?",
+    "options": [
+      "Sorda",
+      "Sirât",
+      "Romería",
+      "Los domingos"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Sirât fue elegida para representar a España en los Óscar y logró dos nominaciones: mejor película internacional y mejor sonido. Está dirigida por el cineasta franco-gallego Óliver Laxe.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-protagonizo-mar-adentro-ramon",
+    "text": "¿Quién protagonizó Mar adentro como Ramón Sampedro?",
+    "options": [
+      "Eduard Fernández",
+      "Antonio Banderas",
+      "Luis Tosar",
+      "Javier Bardem"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Javier Bardem encarnó a Ramón Sampedro en Mar adentro, de Amenábar, junto a Belén Rueda. La película ganó el Óscar a la mejor película de habla no inglesa.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-oscar-vicky-cristina",
+    "text": "¿Quién ganó un Óscar por Vicky Cristina Barcelona?",
+    "options": [
+      "Maribel Verdú",
+      "Penélope Cruz",
+      "Victoria Abril",
+      "Carmen Maura"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Penélope Cruz ganó en 2009 el Óscar a la mejor actriz de reparto por su papel de María Elena. Fue la primera actriz española en lograr una estatuilla de interpretación.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-actor-gano-oscar-pais",
+    "text": "¿Qué actor ganó el Óscar por No es país para viejos?",
+    "options": [
+      "Luis Tosar",
+      "José Coronado",
+      "Javier Bardem",
+      "Antonio Banderas"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Javier Bardem ganó el Óscar al mejor actor de reparto por interpretar al asesino Anton Chigurh en la película de los hermanos Coen. Fue el primer español en ganar un Óscar de interpretación.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-fue-primera-television-privada",
+    "text": "¿Cuál fue la primera televisión privada de España?",
+    "options": [
+      "Antena 3",
+      "Telecinco",
+      "La Sexta",
+      "Cuatro"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Antena 3 comenzó a emitir el 25 de enero de 1990 y rompió el monopolio de Televisión Española. Telecinco empezó pocas semanas después, el 3 de marzo del mismo año.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-creo-casa-papel",
+    "text": "¿Quién creó La casa de papel?",
+    "options": [
+      "Pedro Almodóvar",
+      "Santiago Segura",
+      "Álex Pina",
+      "Álex de la Iglesia"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Álex Pina creó La casa de papel, que se estrenó en Antena 3 el 2 de mayo de 2017. Netflix la compró después y la convirtió en un fenómeno mundial.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-actor-interpreta-antonio-alcantara",
+    "text": "¿Qué actor interpreta a Antonio Alcántara en Cuéntame?",
+    "options": [
+      "Imanol Arias",
+      "Carlos Hipólito",
+      "Pepón Nieto",
+      "Santiago Segura"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Imanol Arias dio vida a Antonio Alcántara, el cabeza de familia de Cuéntame cómo pasó. Su compañera en la ficción, Mercedes, está interpretada por la actriz Ana Duato.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-barco-chanquete",
+    "text": "¿Cómo se llama el barco de Chanquete?",
+    "options": [
+      "La Perla",
+      "La Estrella",
+      "La Dorada",
+      "El Delfín"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "La Dorada es la barca varada donde vive Chanquete en Verano azul. Es el lugar de reunión de la pandilla de chavales durante sus vacaciones de verano en la costa.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-localidad-malaguena-rodo-verano",
+    "text": "¿En qué localidad malagueña se rodó Verano azul?",
+    "options": [
+      "Benidorm",
+      "Nerja",
+      "Sitges",
+      "Marbella"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Verano azul, dirigida por Antonio Mercero, se rodó en Nerja, en la Costa del Sol malagueña. Se emitió por primera vez en TVE en octubre de 1981.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-record-14-goyas",
+    "text": "¿Qué película tiene el récord de 14 Goyas?",
+    "options": [
+      "Volver",
+      "Belle Époque",
+      "Mar adentro",
+      "Los otros"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Mar adentro, de Alejandro Amenábar, consiguió 14 premios Goya y es la película más premiada de la historia de estos galardones. Aquel año ganó también el Óscar.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-espanola-logro-primer",
+    "text": "¿Qué película española logró el primer Óscar extranjero?",
+    "options": [
+      "Mamá cumple 100 años",
+      "Volver a empezar",
+      "Cría cuervos",
+      "Belle Époque"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Volver a empezar, de José Luis Garci, ganó el Óscar a la mejor película de habla no inglesa en abril de 1983. Fue el primer Óscar de ese tipo para España.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-belle-epoque",
+    "text": "¿Quién dirigió Belle Époque?",
+    "options": [
+      "Luis García Berlanga",
+      "Fernando Trueba",
+      "Carlos Saura",
+      "José Luis Garci"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Fernando Trueba dirigió Belle Époque, ganadora del Goya a la mejor película y del Óscar a la mejor película de habla no inglesa. Ambientada en 1931, tiene a Penélope Cruz entre sus actrices.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-recibio-goya-honor-2026",
+    "text": "¿Quién recibió el Goya de Honor en 2026?",
+    "options": [
+      "Víctor Erice",
+      "Gonzalo Suárez",
+      "Pedro Almodóvar",
+      "José Luis Garci"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "El director y guionista Gonzalo Suárez recibió el Goya de Honor en la gala de 2026, celebrada en Barcelona. Es el premio con el que la Academia reconoce una trayectoria completa.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ciudad-celebraron-goya-2026",
+    "text": "¿En qué ciudad se celebraron los Goya de 2026?",
+    "options": [
+      "Valencia",
+      "Barcelona",
+      "Madrid",
+      "Sevilla"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "La 40.ª edición de los Premios Goya se celebró el 28 de febrero de 2026 en Barcelona, en el Auditorio Fòrum del CCIB, con Luis Tosar y Rigoberta Bandini como presentadores.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-gano-goya-mejor",
+    "text": "¿Qué película ganó el Goya a mejor película en 2026?",
+    "options": [
+      "Los domingos",
+      "La cena",
+      "Sirât",
+      "Maspalomas"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Los domingos, de Alauda Ruiz de Azúa, ganó el Goya a la mejor película en 2026. La cinta logró cinco premios, entre ellos el de mejor dirección y el de mejor guion original.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-tve-contaba-aventuras",
+    "text": "¿Qué serie de TVE contaba aventuras de unos bandoleros?",
+    "options": [
+      "Cañas y barro",
+      "Curro Jiménez",
+      "Los Serrano",
+      "Verano azul"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Curro Jiménez se estrenó en TVE en diciembre de 1976. Narraba las aventuras de unos bandoleros andaluces del siglo XIX y fue uno de los grandes éxitos de la televisión de la época.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-actor-dio-vida-curro",
+    "text": "¿Qué actor dio vida a Curro Jiménez?",
+    "options": [
+      "Álvaro de Luna",
+      "Pepe Sancho",
+      "Imanol Arias",
+      "Sancho Gracia"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Sancho Gracia interpretó a Curro Jiménez, mientras que Pepe Sancho era el Estudiante y Álvaro de Luna el Algarrobo, los otros miembros de la partida de bandoleros.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-cadena-emitia-aqui-viva",
+    "text": "¿En qué cadena se emitía Aquí no hay quien viva?",
+    "options": [
+      "Antena 3",
+      "La 1",
+      "Cuatro",
+      "Telecinco"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Aquí no hay quien viva se emitió en Antena 3 entre 2003 y 2006. La comedia de vecinos, creada por los hermanos Caballero, fue una de las series más vistas de su época.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-telecinco-compitio-aqui",
+    "text": "¿Qué serie de Telecinco compitió con Aquí no hay quien viva?",
+    "options": [
+      "Farmacia de guardia",
+      "Hospital Central",
+      "Los Serrano",
+      "Los hombres de Paco"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Los Serrano, emitida por Telecinco, mantuvo con Aquí no hay quien viva uno de los duelos de audiencia más célebres de la televisión española, ya que ambas series se programaban a la misma hora.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-lunes-sol-buen",
+    "text": "¿Quién dirigió Los lunes al sol y El buen patrón?",
+    "options": [
+      "Rodrigo Sorogoyen",
+      "Icíar Bollaín",
+      "Isabel Coixet",
+      "Fernando León de Aranoa"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Fernando León de Aranoa dirigió Los lunes al sol y El buen patrón, y ambas ganaron el Goya a la mejor película. En las dos trabaja el actor Javier Bardem.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-espanola-taquillera-espana",
+    "text": "¿Cuál es la película española más taquillera en España?",
+    "options": [
+      "El orfanato",
+      "Ocho apellidos vascos",
+      "Torrente 2",
+      "Lo imposible"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "fácil",
+    "explanation": "Ocho apellidos vascos, estrenada en 2014, es la película española con mayor recaudación en las salas españolas, con más de 55 millones de euros. Le sigue Lo imposible, de Bayona.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-celebro-primera-gala-goya",
+    "text": "¿Dónde se celebró la primera gala de los Goya?",
+    "options": [
+      "Teatro Español",
+      "Teatro Real",
+      "Teatro Albéniz",
+      "Teatro Lope de Vega"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El Teatro Lope de Vega, en la Gran Vía de Madrid, acogió la primera gala de los Goya el 17 de marzo de 1987. Hasta 2019 la ceremonia solo se alejó de la capital una vez.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-falto-primera-gala-pese",
+    "text": "¿Quién faltó a la primera gala pese a ganar cuatro Goyas?",
+    "options": [
+      "Luis García Berlanga",
+      "José Luis Garci",
+      "Carlos Saura",
+      "Fernando Fernán Gómez"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Fernando Fernán Gómez ganó por El viaje a ninguna parte los premios a película, dirección, guion e interpretación, pero no fue a recogerlos. Se quedó en casa, porque estas ceremonias le ponían muy nervioso.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-cuerda-gano-goya",
+    "text": "¿Qué película de Cuerda ganó el Goya a mejor película?",
+    "options": [
+      "El bosque animado",
+      "Tocando fondo",
+      "Todo es silencio",
+      "Los girasoles ciegos"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El bosque animado, adaptación de la novela de Wenceslao Fernández Flórez, ganó el Goya a la mejor película en la segunda edición. Cuerda dirigió también Amanece, que no es poco.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-comedia-berlanga-gano-goya",
+    "text": "¿Qué comedia de Berlanga ganó el Goya a mejor película?",
+    "options": [
+      "La escopeta nacional",
+      "Todos a la cárcel",
+      "El verdugo",
+      "Novio a la vista"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Todos a la cárcel, comedia coral de Luis García Berlanga ambientada en una prisión, ganó el Goya a la mejor película. Es una de las últimas grandes obras del director valenciano.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-saura-gano-13",
+    "text": "¿Qué película de Saura ganó 13 Goyas?",
+    "options": [
+      "Elisa, vida mía",
+      "Cría cuervos",
+      "¡Ay, Carmela!",
+      "Carmen"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "¡Ay, Carmela!, de Carlos Saura, ganó 13 Goyas, entre ellos los cinco grandes: película, dirección, guion, actor y actriz, con Carmen Maura. Está ambientada en la Guerra Civil española.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-goyas-gano-belle-epoque",
+    "text": "¿Cuántos Goyas ganó Belle Époque?",
+    "options": [
+      "9",
+      "11",
+      "5",
+      "7"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Belle Époque, de Fernando Trueba, se llevó nueve Goyas, entre ellos el de mejor película. Más tarde también ganó el Óscar a la mejor película de habla no inglesa.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-pa-negre-ganadora",
+    "text": "¿Quién dirigió Pa negre, ganadora de 9 Goyas?",
+    "options": [
+      "Daniel Monzón",
+      "Agustí Villaronga",
+      "Pablo Berger",
+      "Alberto Rodríguez"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Pa negre, de Agustí Villaronga, ganó nueve Goyas, entre ellos el de mejor película. Está rodada en catalán, ambientada en la posguerra y basada en una novela de Emili Teixidor.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-muda-pablo-berger",
+    "text": "¿Qué película muda de Pablo Berger ganó 10 Goyas?",
+    "options": [
+      "Pa negre",
+      "Camino",
+      "Blancanieves",
+      "Celda 211"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Blancanieves, de Pablo Berger, es una versión muda y en blanco y negro del cuento, trasladada al mundo de los toros. Ganó diez Goyas, entre ellos el de mejor película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-derroto-agora-goya",
+    "text": "¿Qué película derrotó a Ágora en los Goya?",
+    "options": [
+      "Camino",
+      "Celda 211",
+      "Tesis",
+      "Volver"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Celda 211, de Daniel Monzón y con Luis Tosar, ganó el Goya a la mejor película y se impuso a Ágora, de Amenábar, considerada la película más cara del cine español.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dos-peliculas-compartieron-goya",
+    "text": "¿Qué dos películas compartieron el Goya a mejor película?",
+    "options": [
+      "El 47 y Casa en llamas",
+      "El 47 y La infiltrada",
+      "Segundo premio y La infiltrada",
+      "La estrella azul y El 47"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "En 2025 la Academia premió por primera vez en su historia a dos películas a la vez, El 47 y La infiltrada, después de que ambas empataran en votos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-47",
+    "text": "¿Quién dirigió El 47?",
+    "options": [
+      "Dani de la Orden",
+      "Marcel Barrena",
+      "Isaki Lacuesta",
+      "Arantxa Echevarría"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Marcel Barrena dirigió El 47, sobre una lucha vecinal real. La película fue la más premiada de la gala de 2025, con cinco Goyas, aunque compartió el de mejor película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-actriz",
+    "text": "¿Quién ganó el Goya a mejor actriz protagonista en 2025?",
+    "options": [
+      "Carolina Yuste",
+      "Macarena García",
+      "Clara Segura",
+      "María Rodríguez Soto"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Carolina Yuste ganó el Goya a la mejor actriz protagonista por La infiltrada, donde interpreta a una policía infiltrada en ETA. Fue uno de los dos premios que logró la película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-actor",
+    "text": "¿Quién ganó el Goya a mejor actor protagonista en 2025?",
+    "options": [
+      "Antonio de la Torre",
+      "Luis Tosar",
+      "Karra Elejalde",
+      "Eduard Fernández"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Eduard Fernández ganó el Goya al mejor actor protagonista por Marco, película sobre Enric Marco, el hombre que se hizo pasar por superviviente de un campo de concentración nazi.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ciudad-acogio-goya-2025",
+    "text": "¿Qué ciudad acogió los Goya de 2025?",
+    "options": [
+      "Málaga",
+      "Sevilla",
+      "Valladolid",
+      "Granada"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La 39.ª edición de los Goya se celebró en Granada el 8 de febrero de 2025, con Maribel Verdú y Leonor Watling como presentadoras. En esa gala hubo el primer ex aequo en la categoría principal.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-llevo-seis-premios",
+    "text": "¿Qué película se llevó seis premios técnicos en 2026?",
+    "options": [
+      "Sirât",
+      "Maspalomas",
+      "Sorda",
+      "Los tigres"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Sirât, de Óliver Laxe, se llevó seis premios técnicos en los Goya de 2026, entre ellos sonido, fotografía, dirección de producción y música original, en una gala que dominó Los domingos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-actriz-2",
+    "text": "¿Quién ganó el Goya a mejor actriz protagonista en 2026?",
+    "options": [
+      "Elena Irureta",
+      "Patricia López Arnaiz",
+      "Carolina Yuste",
+      "Nagore Aranburu"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Patricia López Arnaiz ganó el Goya a la mejor actriz protagonista por Los domingos, de Alauda Ruiz de Azúa, una película que se llevó cinco premios en la gala de 2026.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-actor-2",
+    "text": "¿Quién ganó el Goya a mejor actor protagonista en 2026?",
+    "options": [
+      "Luis Tosar",
+      "Javier Bardem",
+      "José Ramón Soroiz",
+      "Álvaro Cervantes"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "José Ramón Soroiz ganó el Goya al mejor actor protagonista de 2026 por Maspalomas. La gala fue corta, con muchos mensajes políticos, y estuvo dominada por el triunfo de Los domingos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-noruega-gano-goya",
+    "text": "¿Qué película noruega ganó el Goya a mejor película europea?",
+    "options": [
+      "Valor sentimental",
+      "Emilia Pérez",
+      "Anatomía de una caída",
+      "La zona de interés"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Valor sentimental, del noruego Joachim Trier, ganó el Goya a la mejor película europea en 2026. Después se llevó también el Óscar a la mejor película internacional.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-pelicula-animada-decorado",
+    "text": "¿Quién dirigió la película animada Decorado?",
+    "options": [
+      "Salvador Simó",
+      "Alberto Vázquez",
+      "Pablo Berger",
+      "Javier Fesser"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Decorado, del director Alberto Vázquez, ganó el Goya a la mejor película de animación en 2026. Vázquez es uno de los cineastas más destacados de la animación española actual.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-goyas-gano-otros",
+    "text": "¿Cuántos Goyas ganó Los otros?",
+    "options": [
+      "8",
+      "10",
+      "6",
+      "5"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los otros, de Alejandro Amenábar, ganó ocho Goyas, entre ellos los de mejor película y mejor dirección. Estaba protagonizada por Nicole Kidman y fue un gran éxito de taquilla mundial.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-opera-prima-amenabar-gano",
+    "text": "¿Qué ópera prima de Amenábar ganó el Goya a mejor película?",
+    "options": [
+      "Ágora",
+      "Mar adentro",
+      "Los otros",
+      "Tesis"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Tesis, el primer largometraje de Alejandro Amenábar, ganó el Goya a la mejor película. Es un thriller sobre una estudiante que descubre una red de películas snuff en la universidad.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-campeones-goya-mejor",
+    "text": "¿Quién dirigió Campeones, Goya a mejor película?",
+    "options": [
+      "Daniel Monzón",
+      "Fernando León",
+      "Paco Plaza",
+      "Javier Fesser"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Javier Fesser dirigió Campeones, ganadora del Goya a la mejor película. La comedia cuenta cómo un entrenador de baloncesto dirige a un equipo de jugadores con discapacidad intelectual.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-ninas-goya-mejor",
+    "text": "¿Quién dirigió Las niñas, Goya a mejor película?",
+    "options": [
+      "Isabel Coixet",
+      "Icíar Bollaín",
+      "Pilar Palomero",
+      "Carla Simón"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Pilar Palomero dirigió Las niñas, ganadora del Goya a la mejor película. Ambientada en Zaragoza en 1992, narra la adolescencia de una niña de once años en un colegio de monjas.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-directora-gano-dos-veces",
+    "text": "¿Qué directora ganó dos veces el Goya a mejor película?",
+    "options": [
+      "Pilar Palomero",
+      "Isabel Coixet",
+      "Icíar Bollaín",
+      "Alauda Ruiz de Azúa"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Isabel Coixet ganó el Goya a la mejor película con La vida secreta de las palabras y con La librería. Es la directora que más veces ha ganado esa categoría.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-te-doy-mis",
+    "text": "¿Quién dirigió Te doy mis ojos, Goya a mejor película?",
+    "options": [
+      "Isabel Coixet",
+      "Paula Ortiz",
+      "Carla Simón",
+      "Icíar Bollaín"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Icíar Bollaín dirigió Te doy mis ojos, ganadora del Goya a la mejor película. El drama, con Laia Marull y Luis Tosar, retrata la violencia machista dentro de una pareja.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-as-bestas-goya",
+    "text": "¿Quién dirigió As bestas, Goya a mejor película?",
+    "options": [
+      "Alberto Rodríguez",
+      "Raúl Arévalo",
+      "Rodrigo Sorogoyen",
+      "Oliver Laxe"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Rodrigo Sorogoyen dirigió As bestas, ganadora del Goya a la mejor película. El thriller rural, con Denis Ménochet y Marina Foïs, está ambientado en una aldea gallega.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-trueba-gano-oscar",
+    "text": "¿Qué película de Trueba ganó el Óscar extranjero?",
+    "options": [
+      "El sueño del mono loco",
+      "Belle Époque",
+      "La niña de tus ojos",
+      "Chico y Rita"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Belle Époque ganó el Óscar a la mejor película de habla no inglesa y fue el segundo de la historia para España, después de Volver a empezar. Fernando Trueba la dirigió.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-actriz-le-dio-almodovar",
+    "text": "¿Qué actriz le dio a Almodóvar el Óscar de 2000?",
+    "options": [
+      "Victoria Abril",
+      "Penélope Cruz",
+      "Marisa Paredes",
+      "Carmen Maura"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Penélope Cruz entregó a Pedro Almodóvar el Óscar a la mejor película de habla no inglesa por Todo sobre mi madre, en la gala de marzo de 2000. Fue un momento histórico.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-almodovar-gano-oscar",
+    "text": "¿Qué película de Almodóvar ganó el Óscar a mejor guion?",
+    "options": [
+      "Dolor y gloria",
+      "Julieta",
+      "Volver",
+      "Hable con ella"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Almodóvar ganó el Óscar al mejor guion original por Hable con ella, el primer guion en español premiado. También fue nominado como director por esa misma película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-edad-tenia-amenabar-ganar",
+    "text": "¿Qué edad tenía Amenábar al ganar el Óscar en 2005?",
+    "options": [
+      "30 años",
+      "32 años",
+      "35 años",
+      "28 años"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Alejandro Amenábar tenía 32 años cuando Mar adentro ganó el Óscar a la mejor película en lengua extranjera, en febrero de 2005. Fue el cuarto español en conseguirlo.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-toro-gano-oscar",
+    "text": "¿Qué película de Del Toro ganó el Óscar de maquillaje?",
+    "options": [
+      "El laberinto del fauno",
+      "La forma del agua",
+      "El espinazo del diablo",
+      "La cumbre escarlata"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El laberinto del fauno, de Guillermo del Toro, ganó el Óscar de maquillaje, con los españoles David Martí y Montse Ribé. También ganó los de dirección artística y fotografía.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-oscar-maquillaje-laberinto",
+    "text": "¿Quién ganó el Óscar de maquillaje de El laberinto?",
+    "options": [
+      "David Martí y Montse Ribé",
+      "Yvonne Blake y Gil Parrondo",
+      "Pilar Revuelta y Eugenio Caballero",
+      "Paco Delgado y Alberto Iglesias"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los maquilladores españoles David Martí y Montse Ribé ganaron el Óscar de maquillaje por El laberinto del fauno. La película ganó otras dos estatuillas aquel año.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-espanola-gano-oscar-diseno",
+    "text": "¿Qué española ganó el Óscar de diseño de producción?",
+    "options": [
+      "Pilar Revuelta",
+      "Yvonne Blake",
+      "Montse Ribé",
+      "Isabel Coixet"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Pilar Revuelta ganó el Óscar al diseño de producción por El laberinto del fauno, compartido con el mexicano Eugenio Caballero. Es una de las pocas españolas con un Óscar técnico.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-protagonizo-mujeres-borde-ataque",
+    "text": "¿Quién protagonizó Mujeres al borde de un ataque de nervios?",
+    "options": [
+      "Victoria Abril",
+      "Marisa Paredes",
+      "Rossy de Palma",
+      "Carmen Maura"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Carmen Maura protagonizó Mujeres al borde de un ataque de nervios, la primera película de Almodóvar nominada al Óscar. Interpreta a Pepa, una actriz de doblaje abandonada por su amante.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-berlanga-fue-nominada",
+    "text": "¿Qué película de Berlanga fue nominada al Óscar?",
+    "options": [
+      "La vaquilla",
+      "Plácido",
+      "El verdugo",
+      "Calabuch"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Plácido, de Luis García Berlanga, fue nominada al Óscar a la mejor película de habla no inglesa. Es una comedia negra sobre una cena de Nochebuena benéfica en una pequeña ciudad.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-categorias-fue-preseleccionada-sirat",
+    "text": "¿En cuántas categorías fue preseleccionada Sirât al Óscar?",
+    "options": [
+      "Tres",
+      "Seis",
+      "Cuatro",
+      "Cinco"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Sirât pasó el primer corte en cinco categorías: película internacional, fotografía, sonido, banda sonora y casting. Ninguna película española había logrado antes tantas preselecciones.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-espanola-fue-nominada",
+    "text": "¿Qué película española fue nominada justo antes de Sirât?",
+    "options": [
+      "Dolor y gloria",
+      "El buen patrón",
+      "La sociedad de la nieve",
+      "Madres paralelas"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La sociedad de la nieve, de J. A. Bayona, fue la película española nominada al Óscar a mejor película internacional justo antes de Sirât. Narra la tragedia de los Andes de 1972.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-vencio-sirat-oscar",
+    "text": "¿Qué película venció a Sirât en el Óscar internacional?",
+    "options": [
+      "Valor sentimental",
+      "La voz de Hind Rajab",
+      "El agente secreto",
+      "Un simple accidente"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Sirât perdió el Óscar a la mejor película internacional frente a Valor sentimental, del noruego Joachim Trier. También cayó en la categoría de sonido ante F1: La película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-fue-primer-hombre-tiempo",
+    "text": "¿Quién fue el primer hombre del tiempo de TVE?",
+    "options": [
+      "Concha Velasco",
+      "Mercedes Milá",
+      "Roberto Brasero",
+      "Mariano Medina"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Mariano Medina presentó la previsión del tiempo en TVE desde sus primeros años de emisiones, a partir de 1956. Su estilo cercano lo convirtió en uno de los rostros más populares de la época.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-inauguraron-estudios-prado",
+    "text": "¿En qué año se inauguraron los estudios de Prado del Rey?",
+    "options": [
+      "1964",
+      "1956",
+      "1975",
+      "1971"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los estudios de Prado del Rey, en Pozuelo de Alarcón, se inauguraron el 18 de julio de 1964 y sustituyeron a los del Paseo de la Habana. Siguen siendo la sede principal de TVE.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-estaban-primeros-estudios-tve",
+    "text": "¿Dónde estaban los primeros estudios de TVE?",
+    "options": [
+      "Gran Vía",
+      "Calle Alcalá",
+      "Paseo de la Habana",
+      "Prado del Rey"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los primeros estudios de TVE estaban en el Paseo de la Habana, en Madrid. Allí se hizo en octubre de 1956 la primera emisión oficial, que tuvo numerosos fallos técnicos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-cadena-autonomica-rompio-monopolio",
+    "text": "¿Qué cadena autonómica rompió el monopolio de TVE en 1982?",
+    "options": [
+      "Canal Sur",
+      "TVG",
+      "ETB",
+      "TV3"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Euskal Telebista, la televisión pública vasca, fue la primera en romper en 1982 el monopolio que TVE mantenía desde 1956. Después llegaron TV3, TVG y Canal Sur.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-estas-cadenas-nacio-1990",
+    "text": "¿Cuál de estas cadenas nació en 1990 como canal de pago?",
+    "options": [
+      "La Sexta",
+      "Cuatro",
+      "Telecinco",
+      "Canal+"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Canal+ fue el canal de pago de la primera generación de televisiones privadas, nacida en 1990 junto a Antena 3 y Telecinco. Debía emitir seis horas diarias en abierto.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-magnate-italiano-participo-creacion",
+    "text": "¿Qué magnate italiano participó en la creación de Telecinco?",
+    "options": [
+      "Ted Turner",
+      "Jean-Marie Messier",
+      "Silvio Berlusconi",
+      "Rupert Murdoch"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Silvio Berlusconi, a través de Fininvest, tuvo un 25 % de Telecinco al nacer. Su gestión siguió el modelo de Canale 5, el canal que el propio empresario poseía en Italia.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dia-empezo-emitir-telecinco",
+    "text": "¿Qué día empezó a emitir Telecinco?",
+    "options": [
+      "3 de marzo de 1990",
+      "25 de enero de 1990",
+      "14 de septiembre de 1990",
+      "1 de abril de 1990"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Telecinco comenzó sus emisiones regulares el 3 de marzo de 1990 con una gala inaugural. Fue la segunda cadena privada, después de Antena 3, que había empezado el 25 de enero.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-empezo-emitir-antena",
+    "text": "¿En qué año empezó a emitir Antena 3?",
+    "options": [
+      "1988",
+      "1995",
+      "1992",
+      "1990"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Antena 3 empezó sus emisiones el 25 de enero de 1990 y fue la primera cadena privada de España. Telecinco la siguió el 3 de marzo de ese mismo año.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-antena-fue-primera",
+    "text": "¿Qué serie de Antena 3 fue la primera sitcom española?",
+    "options": [
+      "Siete vidas",
+      "Farmacia de guardia",
+      "Médico de familia",
+      "Compañeros"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Farmacia de guardia se emitió en Antena 3 entre 1991 y 1995 y se considera la primera comedia de situación de la televisión española.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-creo-serie-farmacia-guardia",
+    "text": "¿Quién creó la serie Farmacia de guardia?",
+    "options": [
+      "Chicho Ibáñez Serna",
+      "Narciso Ibáñez Menta",
+      "Pedro Masó",
+      "Antonio Mercero"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Antonio Mercero creó Farmacia de guardia. También dirigió Verano azul y La cabina, un célebre telefilme de 1972 protagonizado por José Luis López Vázquez.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-1995-protagonizo-emilio",
+    "text": "¿Qué serie de 1995 protagonizó Emilio Aragón en Telecinco?",
+    "options": [
+      "Los Serrano",
+      "Farmacia de guardia",
+      "Médico de familia",
+      "Periodistas"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Médico de familia se estrenó en Telecinco en 1995 con Emilio Aragón y Lydia Bosch. Narraba la vida de un médico viudo y padre de una familia numerosa.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-medico-medico-familia",
+    "text": "¿Cómo se llama el médico de Médico de familia?",
+    "options": [
+      "Javier Alcántara",
+      "Emilio Serrano",
+      "Nacho Martín",
+      "Pedro Delgado"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Nacho Martín es el médico viudo que protagoniza Médico de familia, interpretado por Emilio Aragón. La serie impulsó la industrialización de la ficción española a mediados de los años noventa.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-arranca-accion-cuentame",
+    "text": "¿En qué año arranca la acción de Cuéntame cómo pasó?",
+    "options": [
+      "1968",
+      "1982",
+      "1960",
+      "1975"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Cuéntame cómo pasó arranca en 1968, en los últimos años del franquismo, y avanza por la historia de España. Se emitió en La 1 de TVE desde 2001 hasta 2023.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-cadena-estreno-casa-papel",
+    "text": "¿En qué cadena se estrenó La casa de papel?",
+    "options": [
+      "Antena 3",
+      "Netflix",
+      "Telecinco",
+      "La 1"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La casa de papel se estrenó en Antena 3 el 2 de mayo de 2017, como miniserie en dos partes. Netflix la compró después y la reeditó para el resto del mundo.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-llego-casa-papel",
+    "text": "¿En qué año llegó La casa de papel a Netflix?",
+    "options": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Netflix estrenó La casa de papel fuera de España el 20 de diciembre de 2017, sin promoción previa. Reeditó los nueve episodios largos de la primera parte en trece de unos cincuenta minutos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-capitulos-tuvo-casa-papel",
+    "text": "¿Cuántos capítulos tuvo La casa de papel en Antena 3?",
+    "options": [
+      "9",
+      "22",
+      "15",
+      "13"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La casa de papel se emitió en Antena 3 como miniserie de quince episodios, repartidos en dos partes, entre mayo y noviembre de 2017. Después Netflix encargó nuevas temporadas.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-heredo-equipo-aqui",
+    "text": "¿Qué serie heredó el equipo de Aquí no hay quien viva?",
+    "options": [
+      "Machos Alfa",
+      "Los Serrano",
+      "El Pueblo",
+      "La que se avecina"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La que se avecina, emitida en Telecinco desde 2007, nació con gran parte de los actores y guionistas de Aquí no hay quien viva. La crean los hermanos Alberto y Laura Caballero.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-temporadas-tuvo-aqui-viva",
+    "text": "¿Cuántas temporadas tuvo Aquí no hay quien viva?",
+    "options": [
+      "Tres",
+      "Siete",
+      "Cinco",
+      "Nueve"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Aquí no hay quien viva tuvo cinco temporadas en Antena 3, desde 2003 hasta 2006. Narraba la vida de los vecinos de una comunidad de la calle Desengaño de Madrid.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-barrio-ficticio-cuentame",
+    "text": "¿Cómo se llama el barrio ficticio de Cuéntame cómo pasó?",
+    "options": [
+      "Carabanchel",
+      "Chamberí",
+      "San Genaro",
+      "Vallecas"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "San Genaro es el barrio madrileño ficticio donde viven los Alcántara en Cuéntame cómo pasó. La serie retrata la vida cotidiana de una familia de clase media durante varias décadas.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-personaje-verano-azul-muere",
+    "text": "¿Qué personaje de Verano azul muere en el último capítulo?",
+    "options": [
+      "Piraña",
+      "Tito",
+      "Desi",
+      "Chanquete"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Chanquete muere en el último capítulo de Verano azul, y su despedida es uno de los momentos más recordados de la televisión española. Los chavales lo despiden en su barca La Dorada.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-capitulos-tuvo-verano-azul",
+    "text": "¿Cuántos capítulos tuvo Verano azul?",
+    "options": [
+      "26",
+      "13",
+      "19",
+      "24"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Verano azul tuvo 19 capítulos, emitidos en TVE desde octubre de 1981. Aunque la historia transcurre en un solo verano, el rodaje se prolongó entre agosto de 1979 y diciembre de 1980.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-estreno-curro-jimenez",
+    "text": "¿En qué año se estrenó Curro Jiménez?",
+    "options": [
+      "1972",
+      "1986",
+      "1976",
+      "1981"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Curro Jiménez se estrenó en TVE el 22 de diciembre de 1976 y se prolongó hasta 1979. Fue una de las primeras series españolas de éxito y se rodó en cine.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-oficio-tenia-curro-jimenez",
+    "text": "¿Qué oficio tenía Curro Jiménez antes de ser bandolero?",
+    "options": [
+      "Pastor",
+      "Herrero",
+      "Panadero",
+      "Barquero"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Curro Jiménez era barquero en Cantillana antes de echarse al monte. El personaje se inspira en Andrés López, un barquero de esa localidad sevillana que fue bandolero en el siglo XIX.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pionero-cine-nacio-teruel",
+    "text": "¿Qué pionero del cine nació en Teruel?",
+    "options": [
+      "Fructuós Gelabert",
+      "Florián Rey",
+      "Segundo de Chomón",
+      "Edgar Neville"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Segundo de Chomón, nacido en Teruel en 1871, fue un pionero del cine mudo famoso por sus trucajes y efectos especiales. Trabajó tanto en Barcelona como en Francia.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-corto-bunuel-dali-1929",
+    "text": "¿Qué corto de Buñuel y Dalí es de 1929?",
+    "options": [
+      "Las Hurdes",
+      "Viridiana",
+      "La edad de oro",
+      "Un perro andaluz"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Un perro andaluz es un corto surrealista rodado en 1929 por Luis Buñuel y Salvador Dalí. Es una de las obras más influyentes de las vanguardias en la historia del cine.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-bunuel-gano-palma",
+    "text": "¿Qué película de Buñuel ganó la Palma de Oro en 1961?",
+    "options": [
+      "Nazarín",
+      "Tristana",
+      "Viridiana",
+      "Los olvidados"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Viridiana ganó la Palma de Oro de Cannes en 1961, compartida con otra película. Fue prohibida por el régimen franquista y el Vaticano la denunció por considerarla blasfema.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-protagonizo-viridiana",
+    "text": "¿Quién protagonizó Viridiana?",
+    "options": [
+      "Sara Montiel",
+      "Aurora Bautista",
+      "Carmen Sevilla",
+      "Silvia Pinal"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Silvia Pinal protagonizó Viridiana junto a Francisco Rabal y Fernando Rey. La actriz mexicana trabajó con Buñuel en otras películas, entre ellas El ángel exterminador.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-gano-bunuel-mejor",
+    "text": "¿Por qué película ganó Buñuel mejor director en Cannes?",
+    "options": [
+      "Nazarín",
+      "Tristana",
+      "Viridiana",
+      "Los olvidados"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Buñuel ganó el premio a la mejor dirección en Cannes en 1951 con Los olvidados, un drama sobre jóvenes de los barrios pobres de Ciudad de México. El premio evitó que la película fuera retirada.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-bienvenido-mister-marshall",
+    "text": "¿Quién dirigió Bienvenido, Mister Marshall?",
+    "options": [
+      "Luis Buñuel",
+      "Fernando Fernán Gómez",
+      "Luis García Berlanga",
+      "Juan Antonio Bardem"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Luis García Berlanga dirigió Bienvenido, Mister Marshall en 1953. Fue su primera película en solitario y se considera una obra maestra de la comedia española.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-festival-triunfo-bienvenido-mister",
+    "text": "¿En qué festival triunfó Bienvenido, Mister Marshall?",
+    "options": [
+      "Venecia",
+      "Berlín",
+      "San Sebastián",
+      "Cannes"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Bienvenido, Mister Marshall compitió en Cannes en 1953 y recibió el Premio Internacional de la película de buen humor. Aquel éxito lanzó la carrera internacional de Luis García Berlanga.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-humorista-coescribio-bienvenido-mister",
+    "text": "¿Qué humorista coescribió Bienvenido, Mister Marshall?",
+    "options": [
+      "Jardiel Poncela",
+      "Álvaro de Laiglesia",
+      "Miguel Mihura",
+      "Edgar Neville"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Miguel Mihura, humorista y autor teatral, escribió el guion de Bienvenido, Mister Marshall junto a Juan Antonio Bardem y Luis García Berlanga. Su aportación fue clave en el humor de la película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-interpreta-alcalde-bienvenido-mister",
+    "text": "¿Quién interpreta al alcalde en Bienvenido, Mister Marshall?",
+    "options": [
+      "Alfredo Landa",
+      "Manolo Morán",
+      "José Isbert",
+      "Fernando Fernán Gómez"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "José Isbert interpreta al alcalde de Villar del Río, que pronuncia desde el balcón del Ayuntamiento un famoso discurso a los vecinos ante la llegada de los americanos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-pueblo-bienvenido-mister",
+    "text": "¿Cómo se llama el pueblo de Bienvenido, Mister Marshall?",
+    "options": [
+      "Villabajo",
+      "Peñafiel",
+      "Villar del Río",
+      "Villarriba"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Villar del Río es el pueblo castellano que se prepara para recibir a los americanos en la película. El rodaje se hizo en Guadalix de la Sierra, en la provincia de Madrid.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-berlanga-premio-critica",
+    "text": "¿Qué película de Berlanga premió la crítica de Venecia?",
+    "options": [
+      "Plácido",
+      "La vaquilla",
+      "El verdugo",
+      "Calabuch"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El verdugo, de Berlanga, recibió el Premio de la Crítica en el Festival de Venecia. Esta comedia negra critica la pena de muerte con un joven que acepta ser verdugo para conseguir un piso.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-espiritu-colmena",
+    "text": "¿Quién dirigió El espíritu de la colmena?",
+    "options": [
+      "Víctor Erice",
+      "Basilio Martín Patino",
+      "Jaime de Armiñán",
+      "Carlos Saura"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Víctor Erice dirigió El espíritu de la colmena en 1973. La película retrata la España de la posguerra a través de una niña, Ana, que queda fascinada por Frankenstein.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-saura-incluye-porque",
+    "text": "¿Qué película de Saura incluye Porque te vas?",
+    "options": [
+      "Elisa, vida mía",
+      "Cría cuervos",
+      "Peppermint frappé",
+      "Mamá cumple cien años"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Cría cuervos, de Carlos Saura, incluye la canción Porque te vas, de Jeanette, que se convirtió en un gran éxito. La película es de 1976 y la protagoniza la niña Ana Torrent.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-1955-protagonizo-nino",
+    "text": "¿Qué película de 1955 protagonizó el niño Pablito Calvo?",
+    "options": [
+      "Marcelino pan y vino",
+      "El pequeño ruiseñor",
+      "Mi tío Jacinto",
+      "Un rayo de luz"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Marcelino pan y vino, de Ladislao Vajda, cuenta la historia de un niño huérfano criado por frailes. Pablito Calvo lo interpretó y la película triunfó en todo el mundo.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-amanece-poco",
+    "text": "¿Quién dirigió Amanece, que no es poco?",
+    "options": [
+      "José Luis Garci",
+      "Álex de la Iglesia",
+      "José Luis Borau",
+      "José Luis Cuerda"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "José Luis Cuerda dirigió Amanece, que no es poco, estrenada en 1989. Esta comedia surrealista, ambientada en un pueblo rural, se ha convertido con los años en una película de culto.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-celebro-primer-festival",
+    "text": "¿En qué año se celebró el primer Festival de San Sebastián?",
+    "options": [
+      "1947",
+      "1957",
+      "1963",
+      "1953"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El Festival de San Sebastián se celebró por primera vez el 21 de septiembre de 1953. Nació por iniciativa de un grupo de comerciantes que querían alargar la temporada de verano.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-cine-competia-san-sebastian",
+    "text": "¿Qué cine competía en San Sebastián en 1953 y 1954?",
+    "options": [
+      "Películas de todo el mundo",
+      "Solo películas francesas",
+      "Solo películas europeas",
+      "Solo películas españolas"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "En 1953 y 1954 solo competían películas españolas. El festival no se abrió a producciones de otros países hasta más tarde, y obtuvo la categoría A internacional en 1957.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-era-premio-principal-san",
+    "text": "¿Cuál era el premio principal de San Sebastián en 1953?",
+    "options": [
+      "Gran Premio",
+      "Concha de Plata",
+      "Premio Donostia",
+      "Concha de Oro"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "En 1953 y 1954 el máximo premio se llamó Gran Premio. Después pasó a ser la Concha de Plata en 1955 y 1956, y desde 1957 es la Concha de Oro.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-llama-premio-honorifico-san",
+    "text": "¿Cómo se llama el premio honorífico de San Sebastián?",
+    "options": [
+      "Premio Feroz",
+      "Premio Donostia",
+      "Concha de Oro",
+      "Premio Goya"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El Premio Donostia es el galardón honorífico del Festival de San Sebastián a las grandes trayectorias de actores, directores y otros profesionales del cine.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-celebra-seminci",
+    "text": "¿Dónde se celebra la Seminci?",
+    "options": [
+      "Valladolid",
+      "Sevilla",
+      "Sitges",
+      "Gijón"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La Seminci, Semana Internacional de Cine de Valladolid, es uno de los festivales más antiguos de España. Se celebra cada otoño en Valladolid y su máximo premio es la Espiga de Oro.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-genero-destaca-festival-sitges",
+    "text": "¿Qué género destaca en el festival de Sitges?",
+    "options": [
+      "Cine documental",
+      "Cine fantástico",
+      "Cine histórico",
+      "Cine musical"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "El Festival de Sitges, en Cataluña, está dedicado al cine fantástico y de terror. Es uno de los certámenes más importantes del mundo en ese género.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-entregan-premios-feroz",
+    "text": "¿Quiénes entregan los Premios Feroz?",
+    "options": [
+      "El público en votación",
+      "Productores de cine",
+      "Actores y actrices",
+      "Periodistas y críticos de cine"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los Premios Feroz los concede la Asociación de Informadores Cinematográficos de España, formada por periodistas y críticos de cine. Los ganadores se eligen entre unos 240 miembros.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-ano-celebro-primera-gala",
+    "text": "¿En qué año se celebró la primera gala de los Feroz?",
+    "options": [
+      "2014",
+      "2012",
+      "2010",
+      "2016"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "La primera gala de los Premios Feroz se celebró el 27 de enero de 2014 en los Cines Callao de Madrid, presentada por la actriz Alexandra Jiménez.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-drama-gano-primeros-premios",
+    "text": "¿Qué drama ganó en los primeros premios Feroz?",
+    "options": [
+      "La herida",
+      "Grand Piano",
+      "Caníbal",
+      "Stockholm"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Stockholm ganó el Feroz a la mejor película dramática en la primera edición, la de 2014. Compitió con Caníbal, Grand Piano y La herida.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-comedia-gano-primeros-premios",
+    "text": "¿Qué comedia ganó en los primeros premios Feroz?",
+    "options": [
+      "Los amantes pasajeros",
+      "Tres bodas de más",
+      "Las brujas de Zugarramurdi",
+      "Una pistola en cada mano"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Tres bodas de más fue elegida mejor comedia en la primera edición de los Feroz, en 2014. Estos premios distinguen cada año a una mejor película dramática y a una mejor comedia.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-productores-entregan-premios-forque",
+    "text": "¿Qué productores entregan los Premios Forqué?",
+    "options": [
+      "AICE",
+      "SGAE",
+      "EGEDA",
+      "ICAA"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los Premios José María Forqué los organiza EGEDA, la entidad que representa a los productores audiovisuales. Suelen celebrarse antes de los Goya y abren la temporada de premios.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-recaudo-ocho-apellidos-vascos",
+    "text": "¿Cuánto recaudó Ocho apellidos vascos en España?",
+    "options": [
+      "Unos 55 millones",
+      "Unos 35 millones",
+      "Unos 75 millones",
+      "Unos 25 millones"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Ocho apellidos vascos recaudó unos 55 millones de euros en las salas españolas. Superó a Lo imposible, de J. A. Bayona, que se había quedado en 42,4 millones.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-espanola-ha-recaudado",
+    "text": "¿Qué película española ha recaudado más en todo el mundo?",
+    "options": [
+      "Los otros",
+      "El orfanato",
+      "Lo imposible",
+      "Mar adentro"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Los otros es la película española con mayor recaudación en todo el mundo, con unos 210 millones de dólares. Lo imposible reunió unos 180 millones de dólares.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pais-belen-goya-iberoamericana",
+    "text": "¿De qué país es Belén, Goya iberoamericana de 2026?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Chile",
+      "Colombia"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "medio",
+    "explanation": "Belén, dirigida por Dolores Fonzi, es una película argentina basada en hechos reales de 2014. Ganó el Goya a la mejor película iberoamericana de 2026, por delante de producciones de Chile, Costa Rica, Brasil y Colombia.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-escultor-busto-goya-premio",
+    "text": "¿De qué escultor es el busto de Goya del premio?",
+    "options": [
+      "Eduardo Chillida",
+      "Mariano Benlliure",
+      "Pablo Gargallo",
+      "Miguel Berrocal"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "La estatuilla reproduce un busto de Goya obra de Mariano Benlliure, de 1902. Sobre ese modelo trabajó después Miguel Berrocal para diseñar el trofeo que la Academia entrega cada año.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-actriz-3",
+    "text": "¿Quién ganó el Goya a mejor actriz de reparto en 2026?",
+    "options": [
+      "Nagore Aramburu",
+      "Elvira Mínguez",
+      "Elena Irureta",
+      "María de Medeiros"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Nagore Aramburu ganó el Goya a la mejor actriz de reparto por Los domingos, película que también se llevó los premios a mejor película, dirección, guion original y actriz protagonista en 2026.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-iberoamericano-2026",
+    "text": "¿Quién ganó el Goya iberoamericano de 2026 por Belén?",
+    "options": [
+      "Lucrecia Martel",
+      "Dolores Fonzi",
+      "Lucía Puenzo",
+      "Albertina Carri"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Dolores Fonzi ganó el Goya a la mejor película iberoamericana de 2026 por Belén, basada en hechos reales de 2014. En su discurso advirtió contra el avance de la ultraderecha.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-direccion",
+    "text": "¿Quién ganó el Goya a mejor dirección novel en 2026?",
+    "options": [
+      "Pilar Palomero",
+      "Carla Simón",
+      "Eva Libertad",
+      "Ion de Sosa"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Eva Libertad ganó el Goya a la mejor dirección novel de 2026 por Sorda. Su hermana Miriam Garlo, protagonista de la película, ganó además el premio a la mejor actriz revelación.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-fue-nominado-bardem",
+    "text": "¿Por qué película fue nominado Bardem por primera vez?",
+    "options": [
+      "Jamón, jamón",
+      "Los lunes al sol",
+      "Mar adentro",
+      "Antes que anochezca"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Javier Bardem fue el primer actor español nominado al Óscar, por Antes que anochezca, donde interpreta al escritor cubano Reinaldo Arenas. Años después ganó la estatuilla con No es país para viejos.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-fue-primera-pelicula-espanola",
+    "text": "¿Cuál fue la primera película española nominada al Óscar?",
+    "options": [
+      "Plácido",
+      "La venganza",
+      "Calle Mayor",
+      "Los Tarantos"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "La venganza, de Juan Antonio Bardem, fue en 1958 la primera película española nominada al Óscar a la mejor película de habla no inglesa. Plácido, de Berlanga, lo fue en 1961.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-fue-nominado-almodovar",
+    "text": "¿Por qué película fue nominado Almodóvar como director?",
+    "options": [
+      "Todo sobre mi madre",
+      "Hable con ella",
+      "La piel que habito",
+      "Carne trémula"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Almodóvar fue nominado al Óscar a la mejor dirección por Hable con ella, que además ganó el de mejor guion original. Todo sobre mi madre le dio el Óscar a la mejor película internacional.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-oscar-opto-dolor-gloria",
+    "text": "¿A cuántos Óscar optó Dolor y gloria?",
+    "options": [
+      "Dos",
+      "Una",
+      "Tres",
+      "Cuatro"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Dolor y gloria logró dos nominaciones al Óscar: mejor película internacional y mejor actor, para Antonio Banderas. Ninguna de las dos acabó convirtiéndose en estatuilla, pese al gran éxito de crítica de la película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-podia-habitacion-lado-ir",
+    "text": "¿Por qué no podía La habitación de al lado ir al Óscar?",
+    "options": [
+      "Estaba rodada en inglés",
+      "Se estrenó fuera de plazo",
+      "Su duración era excesiva",
+      "Almodóvar rechazó concursar"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "La habitación de al lado, rodada íntegramente en inglés, no cumplía las normas de la Academia de Hollywood para optar a mejor película internacional, aunque sí podía aspirar a los Goya.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-actriz-presidio-jurado-venecia",
+    "text": "¿Qué actriz presidió el jurado de Venecia en 2024?",
+    "options": [
+      "Isabelle Huppert",
+      "Tilda Swinton",
+      "Cate Blanchett",
+      "Juliette Binoche"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Isabelle Huppert presidió el jurado del Festival de Venecia de 2024, que concedió el León de Oro a La habitación de al lado, de Pedro Almodóvar. Fue la primera película española en lograrlo.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-recibio-almodovar-leon-oro",
+    "text": "¿Cuándo recibió Almodóvar el León de Oro honorífico?",
+    "options": [
+      "2009",
+      "2019",
+      "2014",
+      "2023"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Venecia entregó a Almodóvar un León de Oro honorífico en 2019, al considerarlo el director más influyente desde Luis Buñuel. En 2024 ganó el León de Oro a la mejor película.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-localidad-nacio-pedro-almodovar",
+    "text": "¿En qué localidad nació Pedro Almodóvar?",
+    "options": [
+      "Calzada de Calatrava",
+      "Alcázar de San Juan",
+      "Puertollano",
+      "Valdepeñas"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Pedro Almodóvar nació en 1949 en Calzada de Calatrava, un pueblo de Ciudad Real. Es el director español con mayor reconocimiento internacional y acumula unos setenta premios.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-goya-gano-almodovar-productor",
+    "text": "¿Qué Goya ganó Almodóvar como productor de Relatos salvajes?",
+    "options": [
+      "Película de animación",
+      "Película iberoamericana",
+      "Película documental",
+      "Película europea"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Almodóvar ganó como productor el Goya a la mejor película iberoamericana por Relatos salvajes, del argentino Damián Szifron. Su productora, El Deseo, la coprodujo junto a su hermano Agustín.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-torero-protagoniza-tardes-soledad",
+    "text": "¿Qué torero protagoniza Tardes de soledad, de Albert Serra?",
+    "options": [
+      "Roca Rey",
+      "El Juli",
+      "Ponce",
+      "Talavante"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Tardes de soledad, de Albert Serra, ganó el Goya a la mejor película documental de 2026. La cinta sigue al torero peruano Roca Rey durante varias tardes de corridas de toros.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-gano-goya-mejor-actor-3",
+    "text": "¿Quién ganó el Goya a mejor actor de reparto en 2026?",
+    "options": [
+      "Juan Minujín",
+      "Kandido Uranga",
+      "Miguel Rellán",
+      "Álvaro Cervantes"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Álvaro Cervantes ganó el Goya al mejor actor de reparto de 2026 por Sorda, película que también premió a Miriam Garlo como actriz revelación y a Eva Libertad como directora novel.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dos-canales-forman-segunda",
+    "text": "¿Qué dos canales forman la segunda generación de privadas?",
+    "options": [
+      "La Sexta y Telecinco",
+      "Canal+ y Cuatro",
+      "Cuatro y La Sexta",
+      "Antena 3 y Telecinco"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "La segunda generación de televisiones privadas llegó en 2006 con Cuatro y La Sexta. La primera, en 1990, la formaron Antena 3, Telecinco y Canal+.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-dirigio-telecinco-estreno-estilo",
+    "text": "¿Quién dirigió Telecinco en su estreno, al estilo Canale 5?",
+    "options": [
+      "Jesús de Polanco",
+      "Valerio Lazarov",
+      "Silvio Berlusconi",
+      "Antonio Asensio"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Valerio Lazarov dirigió Telecinco en su estreno, cuando Fininvest, de Berlusconi, tomó la gestión del canal siguiendo el modelo de Canale 5, la cadena italiana del grupo.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-serie-telecinco-rivalizo-aqui",
+    "text": "¿Qué serie de Telecinco rivalizó con Aquí no hay quien viva?",
+    "options": [
+      "Periodistas",
+      "Compañeros",
+      "Los Serrano",
+      "Ana y los 7"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Telecinco enfrentó a Aquí no hay quien viva con su gran serie, Los Serrano, que rondaba el 40 % de cuota. Para igualar la lucha, la serie de Antena 3 alargó la duración de sus episodios.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-recibio-goya-internacional-2026",
+    "text": "¿Quién recibió el Goya Internacional en 2026?",
+    "options": [
+      "Cate Blanchett",
+      "Tilda Swinton",
+      "Richard Gere",
+      "Susan Sarandon"
+    ],
+    "correctIndex": 3,
+    "category": "Cine y televisión",
+    "difficulty": "difícil",
+    "explanation": "Susan Sarandon recibió el Goya Internacional en 2026, en la gala de Barcelona. Fue la quinta personalidad en lograrlo, después de Cate Blanchett, Juliette Binoche, Sigourney Weaver y Richard Gere.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-pelicula-gano-primera-concha",
+    "text": "¿Qué película ganó la primera Concha de Oro?",
+    "options": [
+      "La nonna Sabella",
+      "Ewa chce spac",
+      "Giorni d'amore",
+      "Plácido"
+    ],
+    "correctIndex": 0,
+    "category": "Cine y televisión",
+    "difficulty": "muy difícil",
+    "explanation": "La nonna Sabella, de Dino Risi, ganó la primera Concha de Oro en 1957, el año en que el festival pasó a ser de categoría A. En 1958 la ganó Ewa chce spac.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-rodo-primera-ficcion-espanola",
+    "text": "¿Quién rodó la primera ficción española, Riña en un café?",
+    "options": [
+      "Florián Rey",
+      "Fructuós Gelabert",
+      "Segundo de Chomón",
+      "Edgar Neville"
+    ],
+    "correctIndex": 1,
+    "category": "Cine y televisión",
+    "difficulty": "muy difícil",
+    "explanation": "El catalán Fructuós Gelabert rodó en 1897 Riña en un café, considerada la primera película de ficción española. Fue pionero del cine en Barcelona y fundó una de las primeras productoras.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  },
+  {
+    "id": "cine-espanol-gano-oscar-nicolas",
+    "text": "¿Qué español ganó el Óscar por Nicolás y Alejandra?",
+    "options": [
+      "Néstor Almendros",
+      "Paco Delgado",
+      "Gil Parrondo",
+      "Alberto Iglesias"
+    ],
+    "correctIndex": 2,
+    "category": "Cine y televisión",
+    "difficulty": "muy difícil",
+    "explanation": "Gil Parrondo ganó el Óscar a la mejor dirección artística por Nicolás y Alejandra, película sobre el último zar de Rusia, que también ganó el Óscar de vestuario.",
+    "source": "cine_y_television_en_espana.json",
+    "createdAt": "2026-11-22T10:35:43Z",
+    "status": "active"
+  }
+]
