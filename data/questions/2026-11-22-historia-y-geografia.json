@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "hist-fue-lider-alemania-nazi",
+    "text": "¿Quién fue el líder de la Alemania nazi?",
+    "options": [
+      "Benito Mussolini",
+      "Joseph Stalin",
+      "Adolf Hitler",
+      "Winston Churchill"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Adolf Hitler dirigió el partido nazi y gobernó Alemania como dictador, con el título de Führer, desde 1933 hasta el final de la guerra en 1945.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-guerra-mundial-siguio-primera",
+    "text": "¿Qué guerra mundial siguió a la Primera Guerra Mundial?",
+    "options": [
+      "Guerra de Vietnam",
+      "Guerra de Corea",
+      "Segunda Guerra Mundial",
+      "Guerra Fría"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La Segunda Guerra Mundial estalló poco más de veinte años después de la Primera y fue el conflicto más mortífero de la historia, con decenas de millones de muertos.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-lanzo-bombas-atomicas",
+    "text": "¿Qué país lanzó las bombas atómicas sobre Japón?",
+    "options": [
+      "Reino Unido",
+      "Estados Unidos",
+      "Unión Soviética",
+      "Alemania"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Estados Unidos lanzó dos bombas atómicas sobre ciudades japonesas en agosto de 1945, y pocos días después Japón anunció su rendición, que cerró la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-simbolo-llevaban-nazis-bandera",
+    "text": "¿Qué símbolo llevaban los nazis en su bandera?",
+    "options": [
+      "Una hoz y un martillo",
+      "Una esvástica",
+      "Una media luna",
+      "Un sol naciente"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La bandera del Tercer Reich llevaba una esvástica negra sobre un círculo blanco y fondo rojo. La hoz y el martillo eran el símbolo de la Unión Soviética.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-escribio-diario-escondida-nazis",
+    "text": "¿Quién escribió un diario escondida de los nazis?",
+    "options": [
+      "Marie Curie",
+      "Rosa Parks",
+      "Ana Frank",
+      "Frida Kahlo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Ana Frank, una niña judía, escribió su diario mientras se ocultaba con su familia en Ámsterdam. Murió en 1945 en el campo de Bergen-Belsen, antes del fin de la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-vehiculo-lanzaba-bombas-desde",
+    "text": "¿Qué vehículo lanzaba bombas desde el cielo?",
+    "options": [
+      "Un velero",
+      "Un submarino",
+      "Un bombardero",
+      "Un tanque"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Los bombarderos eran aviones grandes que soltaban bombas sobre ciudades y fábricas enemigas. Todos los bandos los usaron durante la guerra, sobre todo británicos, alemanes y estadounidenses.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lider-britanico-era-famoso",
+    "text": "¿Qué líder británico era famoso por fumar puros?",
+    "options": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Charles de Gaulle",
+      "Clement Attlee"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Winston Churchill fue primer ministro del Reino Unido desde mayo de 1940 y su puro se convirtió en una de las imágenes más conocidas de toda la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-islas-fue-aliado",
+    "text": "¿Qué país de islas fue aliado de Hitler en Asia?",
+    "options": [
+      "Brasil",
+      "Japón",
+      "Canadá",
+      "Suiza"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Japón, un país formado por islas, firmó en 1940 una alianza militar con Alemania e Italia y se enfrentó a Estados Unidos y al Reino Unido en el Pacífico.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-capital-alemania-tomada-1945",
+    "text": "¿Cuál es la capital de Alemania, tomada en 1945?",
+    "options": [
+      "Berlín",
+      "Madrid",
+      "Roma",
+      "París"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Berlín era la capital del Tercer Reich. Los soldados soviéticos la conquistaron en la primavera de 1945, en el último gran combate de la guerra en Europa.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-desembarco-aliado-francia",
+    "text": "¿Cómo se llamó el desembarco aliado en Francia en 1944?",
+    "options": [
+      "Día V",
+      "Día A",
+      "Día L",
+      "Día D"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El Día D marcó el inicio de la gran invasión aliada de la Francia ocupada por los nazis. Miles de barcos y aviones llevaron a los soldados hasta las playas.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-empezo-segunda-guerra",
+    "text": "¿En qué año empezó la Segunda Guerra Mundial?",
+    "options": [
+      "1936",
+      "1939",
+      "1914",
+      "1941"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La guerra estalló en septiembre de 1939, con el ataque alemán a su vecino del este. En 1914 había empezado la Primera Guerra Mundial y en 1936, la Guerra Civil española.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-termino-segunda-guerra",
+    "text": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "options": [
+      "1945",
+      "1943",
+      "1944",
+      "1947"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La guerra terminó en 1945: Alemania se rindió en la primavera y Japón en el verano, después de los bombardeos atómicos sobre Hiroshima y Nagasaki.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-invadio-alemania-iniciar",
+    "text": "¿Qué país invadió Alemania para iniciar la guerra?",
+    "options": [
+      "Dinamarca",
+      "Francia",
+      "Polonia",
+      "Austria"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Alemania atacó Polonia el 1 de septiembre de 1939 con tropas, tanques y aviones. Dos días después, el Reino Unido y Francia declararon la guerra a los alemanes.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-bando-alemania-italia",
+    "text": "¿Cómo se llamó el bando de Alemania, Italia y Japón?",
+    "options": [
+      "Las potencias del Eje",
+      "Las potencias aliadas",
+      "La Triple Alianza",
+      "La Triple Entente"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Alemania, Italia y Japón formaron las potencias del Eje, que se enfrentaron a los Aliados: el Reino Unido, la Unión Soviética, Estados Unidos y otros países.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dictador-gobernaba-union-sovietica",
+    "text": "¿Qué dictador gobernaba la Unión Soviética?",
+    "options": [
+      "Nikita Jrushchov",
+      "León Trotski",
+      "Vladímir Lenin",
+      "Joseph Stalin"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Iósif Stalin dirigió la URSS desde finales de los años veinte hasta su muerte en 1953. Tras ser atacado por Hitler en 1941, se alió con británicos y estadounidenses.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dictador-gobernaba-italia-durante",
+    "text": "¿Qué dictador gobernaba Italia durante la guerra?",
+    "options": [
+      "Francisco Franco",
+      "Benito Mussolini",
+      "Josip Broz Tito",
+      "António Salazar"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Benito Mussolini fue el líder fascista de Italia desde 1922. Aliado de Hitler, fue derrocado en 1943 y asesinado por partisanos italianos en abril de 1945.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ataque-llevo-ee-uu",
+    "text": "¿Qué ataque llevó a EE. UU. a entrar en la guerra?",
+    "options": [
+      "El bombardeo de Londres",
+      "El desembarco de Normandía",
+      "El hundimiento del Titanic",
+      "El ataque a Pearl Harbor"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El 7 de diciembre de 1941, aviones japoneses atacaron por sorpresa la base naval de Pearl Harbor, en Hawái. Al día siguiente, Estados Unidos declaró la guerra a Japón.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-desembarcaron-aliados-dia",
+    "text": "¿Dónde desembarcaron los Aliados el Día D?",
+    "options": [
+      "Bretaña",
+      "Calais",
+      "Marsella",
+      "Normandía"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El 6 de junio de 1944 los Aliados desembarcaron en las playas de Normandía, en el norte de Francia. Los alemanes esperaban el ataque en Calais, más cerca de Gran Bretaña.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-japonesa-sufrio-primer",
+    "text": "¿Qué ciudad japonesa sufrió el primer ataque nuclear?",
+    "options": [
+      "Kioto",
+      "Tokio",
+      "Hiroshima",
+      "Nagasaki"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El 6 de agosto de 1945 un bombardero estadounidense lanzó sobre Hiroshima la primera bomba atómica usada en una guerra. Murieron decenas de miles de personas de inmediato.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidia-ee-uu-durante",
+    "text": "¿Quién presidía EE. UU. durante casi toda la guerra?",
+    "options": [
+      "Herbert Hoover",
+      "Dwight Eisenhower",
+      "Harry S. Truman",
+      "Franklin D. Roosevelt"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Franklin D. Roosevelt fue presidente de Estados Unidos desde 1933 y murió en abril de 1945, pocas semanas antes de la rendición de Alemania.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-campo-nazi-liberaron-sovieticos",
+    "text": "¿Qué campo nazi liberaron los soviéticos en enero de 1945?",
+    "options": [
+      "Mauthausen",
+      "Buchenwald",
+      "Dachau",
+      "Auschwitz"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Tropas soviéticas liberaron Auschwitz el 27 de enero de 1945 y hallaron a unos 7.000 prisioneros enfermos. Dachau, Buchenwald y Mauthausen fueron liberados por fuerzas estadounidenses.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-judios-murieron-holocausto-menos",
+    "text": "¿Cuántos judíos murieron en el Holocausto, más o menos?",
+    "options": [
+      "Unos 600.000",
+      "Unos dos millones",
+      "Unos seis millones",
+      "Unos veinte millones"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los nazis y sus colaboradores asesinaron a unos seis millones de judíos europeos entre 1933 y 1945, además de millones de personas de otros grupos perseguidos.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-fuerza-aerea-alemana",
+    "text": "¿Cómo se llamaba la fuerza aérea alemana?",
+    "options": [
+      "Kriegsmarine",
+      "Wehrmacht",
+      "Luftwaffe",
+      "Gestapo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La Luftwaffe era la fuerza aérea de la Alemania nazi. La Wehrmacht era el conjunto de sus fuerzas armadas, y la Kriegsmarine, su armada.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-capital-sufrio-bombardeos-alemanes",
+    "text": "¿Qué capital sufrió los bombardeos alemanes del Blitz?",
+    "options": [
+      "Londres",
+      "Roma",
+      "Moscú",
+      "Madrid"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El Blitz fue la campaña de bombardeos nocturnos de la Luftwaffe sobre el Reino Unido entre septiembre de 1940 y mayo de 1941, con Londres como objetivo principal.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-avion-bombardeo-hiroshima",
+    "text": "¿Cómo se llamaba el avión que bombardeó Hiroshima?",
+    "options": [
+      "Enola Gay",
+      "Bockscar",
+      "Memphis Belle",
+      "Flying Fortress"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El Enola Gay, un bombardero B-29, soltó la bomba atómica sobre Hiroshima. Su nombre homenajeaba a la madre de su piloto, Paul Tibbets. El Bockscar fue el avión de Nagasaki.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lidero-francia-libre-desde",
+    "text": "¿Quién lideró la Francia Libre desde Londres?",
+    "options": [
+      "Philippe Pétain",
+      "Georges Clemenceau",
+      "Napoleón Bonaparte",
+      "Charles de Gaulle"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El general Charles de Gaulle rechazó el armisticio con Alemania en 1940 y organizó desde Londres la Francia Libre. Entró triunfante en la París liberada en agosto de 1944.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-postura-declaro-espana-empezar",
+    "text": "¿Qué postura declaró España al empezar la guerra?",
+    "options": [
+      "Se unió a los Aliados",
+      "Se unió al Eje",
+      "Declaró la guerra a Rusia",
+      "Declaró su neutralidad"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "España, recién salida de la Guerra Civil, proclamó su neutralidad en septiembre de 1939. En 1940 pasó a la «no beligerancia», más favorable al Eje, y más adelante regresó a la neutralidad.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-unidad-voluntarios-espanoles-lucho",
+    "text": "¿Qué unidad de voluntarios españoles luchó junto a Alemania?",
+    "options": [
+      "Tercio de Flandes",
+      "Brigadas Internacionales",
+      "Legión Cóndor",
+      "División Azul"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La División Azul reunió a voluntarios españoles que combatieron en el frente oriental, integrados en el ejército alemán, desde 1941 hasta su retirada en 1943-1944.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-guerra-relampago-alemana",
+    "text": "¿Cómo se llamó la «guerra relámpago» alemana?",
+    "options": [
+      "Kamikaze",
+      "Anschluss",
+      "Holocausto",
+      "Blitzkrieg"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La blitzkrieg combinaba tanques, aviones y soldados en ataques rápidos y concentrados para romper las defensas enemigas. Alemania la usó con éxito contra varios países europeos en 1939 y 1940.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-hizo-hitler-30-abril",
+    "text": "¿Qué hizo Hitler el 30 de abril de 1945?",
+    "options": [
+      "Se suicidó en su búnker",
+      "Se rindió a los Aliados",
+      "Huyó a Argentina",
+      "Fue capturado en Baviera"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Con los soviéticos a las puertas de Berlín, Hitler se suicidó en su búnker el 30 de abril de 1945. Alemania firmó su rendición pocos días después.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dia-celebra-victoria-europa",
+    "text": "¿Qué día se celebra la Victoria en Europa (VE)?",
+    "options": [
+      "6 de junio de 1944",
+      "8 de mayo de 1945",
+      "2 de septiembre de 1945",
+      "1 de mayo de 1945"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El 8 de mayo de 1945 se celebró el Día de la Victoria en Europa, tras la rendición incondicional de Alemania. Rusia conmemora la victoria el 9 de mayo.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-policia-secreta-nazi",
+    "text": "¿Cómo se llamaba la policía secreta nazi?",
+    "options": [
+      "Mossad",
+      "Stasi",
+      "NKVD",
+      "Gestapo"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La Gestapo era la policía secreta del Estado nazi y perseguía a opositores y a judíos. La Stasi fue la policía secreta de la Alemania comunista, y la NKVD, la soviética.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-formaban-tres-grandes-aliados",
+    "text": "¿Quiénes formaban los «Tres Grandes» aliados?",
+    "options": [
+      "Churchill, Roosevelt y Stalin",
+      "Hitler, Mussolini y Hirohito",
+      "Stalin, De Gaulle y Truman",
+      "Roosevelt, Franco y Churchill"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Churchill, Roosevelt y Stalin lideraban el Reino Unido, Estados Unidos y la URSS, las tres grandes potencias aliadas, y coordinaron la estrategia para derrotar al Eje.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-alemana-juzgo-jerarcas",
+    "text": "¿En qué ciudad alemana se juzgó a los jerarcas nazis?",
+    "options": [
+      "Núremberg",
+      "Hamburgo",
+      "Múnich",
+      "Berlín"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los juicios de Núremberg, iniciados en noviembre de 1945, juzgaron a los principales dirigentes nazis por crímenes de guerra y contra la humanidad. Fue el primer gran tribunal internacional de este tipo.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-organizacion-nacio-1945-mantener",
+    "text": "¿Qué organización nació en 1945 para mantener la paz?",
+    "options": [
+      "La OEA",
+      "La ONU",
+      "La OTAN",
+      "La OPEP"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La Organización de las Naciones Unidas se fundó en octubre de 1945, con sede en Nueva York, para evitar nuevas guerras. Sustituyó a la fracasada Sociedad de Naciones.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-fabrico-famoso-caza",
+    "text": "¿Qué país fabricó el famoso caza Spitfire?",
+    "options": [
+      "Italia",
+      "Reino Unido",
+      "Japón",
+      "Alemania"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El Supermarine Spitfire fue un caza británico clave en la defensa aérea del Reino Unido. Su rival alemán más conocido fue el Messerschmitt Bf 109.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaban-pilotos-suicidas-japoneses",
+    "text": "¿Cómo se llamaban los pilotos suicidas japoneses?",
+    "options": [
+      "Kamikazes",
+      "Samuráis",
+      "Ninjas",
+      "Geishas"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los kamikazes estrellaban aviones cargados de explosivos contra barcos enemigos. Esta táctica se usó sobre todo desde finales de 1944, cuando Japón perdía terreno en el Pacífico.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-signo-obligaron-llevar-judios",
+    "text": "¿Qué signo obligaron a llevar a los judíos en la ropa?",
+    "options": [
+      "Un círculo azul",
+      "Un triángulo rojo",
+      "Una cruz negra",
+      "Una estrella amarilla"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los nazis obligaron a los judíos a coser una estrella amarilla en la ropa para identificarlos y discriminarlos. En los campos, otros prisioneros llevaban triángulos de distintos colores.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-era-emperador-japon-durante",
+    "text": "¿Quién era el emperador de Japón durante la guerra?",
+    "options": [
+      "Akihito",
+      "Hirohito",
+      "Meiji",
+      "Naruhito"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Hirohito reinó en Japón desde 1926 hasta 1989 y conservó el trono tras la guerra, aunque renunció a su carácter divino. Su hijo Akihito le sucedió en 1989.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-partido-politico-hitler",
+    "text": "¿Cómo se llamaba el partido político de Hitler?",
+    "options": [
+      "Partido Falangista",
+      "Partido Fascista",
+      "Partido Comunista",
+      "Partido Nazi"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El Partido Nazi (NSDAP, Partido Nacionalsocialista Obrero Alemán) llevó a Hitler al poder en 1933. El Partido Fascista era el de Mussolini en Italia.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pacto-firmaron-alemania-urss",
+    "text": "¿Qué pacto firmaron Alemania y la URSS en 1939?",
+    "options": [
+      "Pacto de Acero",
+      "Pacto Tripartito",
+      "Pacto de Varsovia",
+      "Pacto Mólotov-Ribbentrop"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El pacto Mólotov-Ribbentrop, del 23 de agosto de 1939, fue un acuerdo de no agresión entre alemanes y soviéticos. Incluía un protocolo secreto para repartirse Europa oriental.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-acuerdo-1938-cedio-sudetes",
+    "text": "¿Qué acuerdo de 1938 cedió los Sudetes a Hitler?",
+    "options": [
+      "Tratado de Versalles",
+      "Pacto Briand-Kellogg",
+      "Acuerdo de Múnich",
+      "Conferencia de Yalta"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En Múnich, en septiembre de 1938, el Reino Unido, Francia e Italia aceptaron que Alemania se anexionara los Sudetes checoslovacos. Esta política se conoció como apaciguamiento.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-invasion-alemana-urss",
+    "text": "¿Cómo se llamó la invasión alemana de la URSS en 1941?",
+    "options": [
+      "Operación Dinamo",
+      "Operación Barbarroja",
+      "Operación Cobra",
+      "Operación Husky"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Operación Barbarroja comenzó el 22 de junio de 1941 con más de tres millones de soldados del Eje, y fue la mayor invasión terrestre de la historia.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-1942-43-freno",
+    "text": "¿Qué batalla de 1942-43 frenó el avance alemán en la URSS?",
+    "options": [
+      "Moscú",
+      "Stalingrado",
+      "Berlín",
+      "Kursk"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La batalla de Stalingrado, entre agosto de 1942 y febrero de 1943, terminó con la rendición del VI Ejército alemán y se considera el gran punto de inflexión del frente oriental.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-junio-1942-cambio",
+    "text": "¿Qué batalla de junio de 1942 cambió el rumbo del Pacífico?",
+    "options": [
+      "Mar del Coral",
+      "Midway",
+      "Guadalcanal",
+      "Golfo de Leyte"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En Midway, del 4 al 7 de junio de 1942, Estados Unidos hundió cuatro portaaviones japoneses. Japón pasó entonces a la defensiva durante el resto de la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mandaba-afrika-korps-aleman",
+    "text": "¿Quién mandaba el Afrika Korps alemán?",
+    "options": [
+      "Heinz Guderian",
+      "Karl Dönitz",
+      "Hermann Göring",
+      "Erwin Rommel"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Erwin Rommel dirigió las tropas alemanas en el norte de África desde 1941 y fue apodado «el Zorro del Desierto» por su habilidad táctica.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-britanico-gano-batalla",
+    "text": "¿Qué general británico ganó la batalla de El Alamein?",
+    "options": [
+      "Douglas Haig",
+      "Louis Mountbatten",
+      "Bernard Montgomery",
+      "Arthur Harris"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Bernard Montgomery mandó el Octavo Ejército británico en la segunda batalla de El Alamein, entre octubre y noviembre de 1942, que frenó el avance del Eje en Egipto.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-comandante-supremo-aliado",
+    "text": "¿Quién fue el comandante supremo aliado del Día D?",
+    "options": [
+      "Douglas MacArthur",
+      "Omar Bradley",
+      "George S. Patton",
+      "Dwight Eisenhower"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Dwight D. Eisenhower dirigió las fuerzas aliadas en Europa y tomó la decisión final de lanzar la invasión, aplazada un día por el mal tiempo.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mariscal-sovietico-dirigio-asalto",
+    "text": "¿Qué mariscal soviético dirigió el asalto final a Berlín?",
+    "options": [
+      "Semión Budionny",
+      "Semión Timoshenko",
+      "Kliment Voroshílov",
+      "Gueorgui Zhúkov"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Gueorgui Zhúkov mandó el Primer Frente Bielorruso, que, junto al ejército de Kónev, cercó Berlín en abril de 1945. Antes había dirigido la contraofensiva soviética ante Moscú, en 1941.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-sovietica-sufrio-asedio",
+    "text": "¿Qué ciudad soviética sufrió un asedio de casi 900 días?",
+    "options": [
+      "Stalingrado",
+      "Leningrado",
+      "Kiev",
+      "Moscú"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El cerco alemán de Leningrado duró del 8 de septiembre de 1941 al 27 de enero de 1944, unos 872 días, y causó cientos de miles de muertos, sobre todo por hambre.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-polaca-hubo-levantamiento",
+    "text": "¿En qué ciudad polaca hubo un levantamiento judío en 1943?",
+    "options": [
+      "Cracovia",
+      "Varsovia",
+      "Gdansk",
+      "Łódź"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En abril de 1943, los judíos del gueto de Varsovia se alzaron con armas contra los nazis, que deportaban a sus habitantes hacia Treblinka. Fue una de las mayores revueltas judías de la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ocurrio-noche-cristales-rotos",
+    "text": "¿Cuándo ocurrió la Noche de los Cristales Rotos?",
+    "options": [
+      "Mayo de 1940",
+      "Marzo de 1939",
+      "Agosto de 1936",
+      "Noviembre de 1938"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En la noche del 9 al 10 de noviembre de 1938, los nazis atacaron sinagogas, comercios y casas de judíos en toda Alemania y enviaron a unos 30.000 hombres a campos de concentración.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-conferencia-nazi-1942-planifico",
+    "text": "¿Qué conferencia nazi de 1942 planificó la «solución final»?",
+    "options": [
+      "Conferencia de Potsdam",
+      "Conferencia de Wannsee",
+      "Conferencia de Evian",
+      "Conferencia de Múnich"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El 20 de enero de 1942, quince altos cargos nazis se reunieron en una villa de Wannsee, cerca de Berlín, para coordinar el asesinato de los judíos de Europa.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-operacion-aliada-dia",
+    "text": "¿Cómo se llamó la operación aliada del Día D?",
+    "options": [
+      "Operación Torch",
+      "Operación Market Garden",
+      "Operación Overlord",
+      "Operación Dragón"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Operación Overlord fue el nombre en clave de la invasión aliada de Europa occidental en 1944. Torch fue el desembarco aliado en el norte de África, en noviembre de 1942.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-isla-clavaron-famosa-bandera",
+    "text": "¿En qué isla clavaron la famosa bandera de EE. UU. en 1945?",
+    "options": [
+      "Iwo Jima",
+      "Guadalcanal",
+      "Saipán",
+      "Okinawa"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El 23 de febrero de 1945, marines estadounidenses izaron la bandera en el monte Suribachi, en Iwo Jima. La foto de Joe Rosenthal se hizo una de las imágenes más famosas de la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-almirante-japones-planeo-ataque",
+    "text": "¿Qué almirante japonés planeó el ataque a Pearl Harbor?",
+    "options": [
+      "Chuichi Nagumo",
+      "Isoroku Yamamoto",
+      "Hideki Tojo",
+      "Soemu Toyoda"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El almirante Isoroku Yamamoto, jefe de la Flota Combinada, diseñó el ataque sorpresa del 7 de diciembre de 1941. Murió en 1943, cuando aviones estadounidenses derribaron su avión.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-acorazado-aleman-hundio-royal",
+    "text": "¿Qué acorazado alemán hundió la Royal Navy en 1941?",
+    "options": [
+      "Bismarck",
+      "Graf Spee",
+      "Scharnhorst",
+      "Tirpitz"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Bismarck, el mayor acorazado alemán de su momento, fue hundido el 27 de mayo de 1941 tras una persecución de la Marina Real británica, después de destruir al crucero Hood.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaban-submarinos-alemanes",
+    "text": "¿Cómo se llamaban los submarinos alemanes?",
+    "options": [
+      "Stukas",
+      "Zepelines",
+      "U-Boote",
+      "Panzers"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Los U-Boote (de «Unterseeboot», barco submarino) atacaban los convoyes aliados en la batalla del Atlántico, que duró desde septiembre de 1939 hasta mayo de 1945.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-inglesa-perdio-catedral",
+    "text": "¿Qué ciudad inglesa perdió su catedral en el Blitz?",
+    "options": [
+      "Salisbury",
+      "Coventry",
+      "York",
+      "Canterbury"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El 14 de noviembre de 1940, un bombardeo alemán destruyó la catedral medieval de Coventry y gran parte de la ciudad. Sus ruinas se conservan hoy como memorial de la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-fue-invadido-urss",
+    "text": "¿Qué país fue invadido por la URSS en noviembre de 1939?",
+    "options": [
+      "Finlandia",
+      "Noruega",
+      "Suecia",
+      "Estonia"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La URSS atacó Finlandia el 30 de noviembre de 1939, dando inicio a la Guerra de Invierno. Los finlandeses resistieron varios meses, aunque cedieron territorio en marzo de 1940.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-fue-sede-gobierno",
+    "text": "¿Qué ciudad fue sede del gobierno colaboracionista francés?",
+    "options": [
+      "Burdeos",
+      "Lyon",
+      "Vichy",
+      "Marsella"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Tras la derrota de 1940, el mariscal Pétain instaló en Vichy un gobierno que colaboró con Alemania, mientras el norte de Francia quedaba ocupado por los alemanes.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-firmo-armisticio-aliados",
+    "text": "¿Qué país firmó un armisticio con los Aliados en 1943?",
+    "options": [
+      "Japón",
+      "Rumanía",
+      "Italia",
+      "Alemania"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Italia firmó un armisticio con los Aliados en septiembre de 1943, tras el derrocamiento de Mussolini. Alemania ocupó entonces el norte y el centro del país y siguió combatiendo allí.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-alemana-fue-arrasada",
+    "text": "¿Qué ciudad alemana fue arrasada en febrero de 1945?",
+    "options": [
+      "Múnich",
+      "Hamburgo",
+      "Colonia",
+      "Dresde"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Entre el 13 y el 15 de febrero de 1945, bombarderos británicos y estadounidenses arrasaron Dresde con una tormenta de fuego que mató a decenas de miles de personas.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dirigio-laboratorio-alamos-guerra",
+    "text": "¿Quién dirigió el laboratorio de Los Álamos en la guerra?",
+    "options": [
+      "Albert Einstein",
+      "Niels Bohr",
+      "Enrico Fermi",
+      "J. Robert Oppenheimer"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "J. Robert Oppenheimer dirigió el laboratorio secreto de Los Álamos, donde se diseñaron las primeras bombas atómicas de la historia. El centro funcionó desde 1943 y reunió a físicos destacados de Estados Unidos y de Europa.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-proyecto-secreto-creo-bomba",
+    "text": "¿Qué proyecto secreto creó la bomba atómica de EE. UU.?",
+    "options": [
+      "Proyecto Venona",
+      "Proyecto Géminis",
+      "Proyecto Apolo",
+      "Proyecto Manhattan"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Proyecto Manhattan reunió a miles de científicos e ingenieros entre 1942 y 1945, con apoyo del Reino Unido y Canadá, para fabricar las primeras armas nucleares.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-estado-ee-uu-probo",
+    "text": "¿En qué estado de EE. UU. se probó la primera bomba atómica?",
+    "options": [
+      "Texas",
+      "Nuevo México",
+      "Nevada",
+      "Arizona"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La prueba Trinity, el 16 de julio de 1945, hizo estallar la primera bomba atómica en el desierto de Nuevo México, cerca de Alamogordo, con una potencia de unas 21 kilotones.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-bomba-lanzada-sobre",
+    "text": "¿Cómo se llamó la bomba lanzada sobre Nagasaki?",
+    "options": [
+      "Fat Man",
+      "Thin Man",
+      "Little Boy",
+      "Gadget"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "«Fat Man», una bomba de plutonio, cayó sobre Nagasaki el 9 de agosto de 1945, tres días después de Hiroshima. «Little Boy», de uranio, fue la de Hiroshima.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidente-ee-uu-autorizo",
+    "text": "¿Qué presidente de EE. UU. autorizó las bombas atómicas?",
+    "options": [
+      "Harry S. Truman",
+      "Franklin D. Roosevelt",
+      "Lyndon B. Johnson",
+      "John F. Kennedy"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Harry S. Truman, presidente desde la muerte de Roosevelt en abril de 1945, autorizó el uso de las bombas atómicas contra Japón en agosto de aquel año.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-maquina-cifrado-nazis",
+    "text": "¿Cómo se llamaba la máquina de cifrado de los nazis?",
+    "options": [
+      "Colossus",
+      "Enigma",
+      "Typex",
+      "Purple"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Enigma era la máquina de cifrado electromecánica del ejército alemán. Colossus fue un ordenador británico para descifrar otros mensajes alemanes, y Purple, la máquina diplomática japonesa.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-matematico-descifro-enigma-bletchley",
+    "text": "¿Qué matemático descifró Enigma en Bletchley Park?",
+    "options": [
+      "Alan Turing",
+      "Bertrand Russell",
+      "Charles Babbage",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Alan Turing trabajó en Bletchley Park desde 1939 y diseñó la «bombe», una máquina que ayudó a descifrar mensajes de Enigma. Se considera que su trabajo contribuyó a acortar la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lengua-usaron-code-talkers",
+    "text": "¿Qué lengua usaron los «code talkers» en el Pacífico?",
+    "options": [
+      "Navajo",
+      "Guaraní",
+      "Quechua",
+      "Náhuatl"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Los marines estadounidenses emplearon hablantes de navajo para transmitir mensajes en un código que los japoneses nunca lograron descifrar. Fueron clave en batallas como Iwo Jima.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-jefe-supremo-ss",
+    "text": "¿Quién fue el jefe supremo de las SS nazis?",
+    "options": [
+      "Hermann Göring",
+      "Joseph Goebbels",
+      "Heinrich Himmler",
+      "Rudolf Hess"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Heinrich Himmler dirigió las SS desde 1929 y fue uno de los principales responsables de los campos de concentración y del Holocausto. Se suicidó tras ser capturado en 1945.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ministro-nazi-dirigia-propaganda",
+    "text": "¿Qué ministro nazi dirigía la propaganda?",
+    "options": [
+      "Rudolf Hess",
+      "Albert Speer",
+      "Joseph Goebbels",
+      "Martin Bormann"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Joseph Goebbels fue ministro de Propaganda desde 1933. Usó la radio, el cine y la prensa para difundir el antisemitismo y exaltar la figura de Hitler.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-produjo-anschluss-anexion",
+    "text": "¿En qué año se produjo el Anschluss, la anexión de Austria?",
+    "options": [
+      "1936",
+      "1939",
+      "1938",
+      "1935"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Anschluss se consumó en marzo de 1938, cuando tropas alemanas entraron en Austria sin resistencia militar y Hitler la incorporó al Reich.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-playas-desembarco-hubo-normandia",
+    "text": "¿Cuántas playas de desembarco hubo en Normandía?",
+    "options": [
+      "Cuatro",
+      "Seis",
+      "Cinco",
+      "Tres"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Fueron cinco: Utah, Omaha, Gold, Juno y Sword. Los Aliados las repartieron entre fuerzas estadounidenses, británicas y canadienses, y el 6 de junio de 1944 llevaron a ellas a más de 160.000 soldados.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-playa-normandia-fue-sangrienta",
+    "text": "¿Qué playa de Normandía fue la más sangrienta el Día D?",
+    "options": [
+      "Juno",
+      "Omaha",
+      "Sword",
+      "Utah"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Omaha fue la playa más difícil: los acantilados y las defensas alemanas casi intactas causaron muchísimas bajas a las tropas estadounidenses durante las primeras horas.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-desembarco-sobre-todo",
+    "text": "¿Qué país desembarcó sobre todo en la playa Juno?",
+    "options": [
+      "Australia",
+      "Canadá",
+      "Polonia",
+      "Francia"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La 3.ª División de Infantería canadiense tomó la playa Juno el 6 de junio de 1944 y avanzó más tierra adentro que ninguna otra fuerza aliada aquel día.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-china-sufrio-masacre",
+    "text": "¿Qué ciudad china sufrió una masacre japonesa en 1937?",
+    "options": [
+      "Nankín",
+      "Pekín",
+      "Shanghái",
+      "Cantón"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Tras conquistar Nankín en diciembre de 1937, las tropas japonesas mataron durante semanas a decenas de miles de civiles y prisioneros chinos como mínimo, en la llamada Masacre de Nankín.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pilotos-afroamericanos-destacaron-guerra",
+    "text": "¿Qué pilotos afroamericanos destacaron en la guerra?",
+    "options": [
+      "Aviadores de Tuskegee",
+      "Halcones del Desierto",
+      "Tigres Voladores",
+      "Escuadrón Lafayette"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Los aviadores de Tuskegee formaron el primer grupo de pilotos de combate afroamericanos del ejército estadounidense y escoltaron bombarderos en Europa con un notable historial.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-libro-batalla-inglaterra",
+    "text": "¿En qué año se libró la Batalla de Inglaterra?",
+    "options": [
+      "1942",
+      "1941",
+      "1940",
+      "1939"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Batalla de Inglaterra se libró en el cielo del Reino Unido durante el verano y el otoño de 1940. La RAF frenó a la Luftwaffe y Hitler aplazó su plan de invasión.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-reunieron-franco-hitler-octubre",
+    "text": "¿Dónde se reunieron Franco y Hitler en octubre de 1940?",
+    "options": [
+      "Montoire",
+      "Biarritz",
+      "Hendaya",
+      "Irún"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El 23 de octubre de 1940, Franco y Hitler se entrevistaron en la estación francesa de Hendaya. Franco puso condiciones muy exigentes y España no entró en la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-diplomatico-espanol-salvo-miles",
+    "text": "¿Qué diplomático español salvó a miles de judíos húngaros?",
+    "options": [
+      "Juan Beigbeder",
+      "Ramón Serrano Suñer",
+      "Ángel Sanz Briz",
+      "Salvador de Madariaga"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ángel Sanz Briz, encargado de la legación española en Budapest en 1944, protegió a unos 5.000 judíos con cartas de protección. Se le conoce como el «Ángel de Budapest».",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-compania-espanoles-entro-primero",
+    "text": "¿Qué compañía de españoles entró primero en París?",
+    "options": [
+      "La Nueve",
+      "La Doce",
+      "La Once",
+      "La Siete"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Nueve, la 9.ª compañía de la 2.ª División Blindada de Leclerc, estaba formada en su mayoría por republicanos españoles. Fue la primera unidad en entrar en París el 24 de agosto de 1944.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-primer-ministro-britanico-firmo",
+    "text": "¿Qué primer ministro británico firmó el acuerdo de Múnich?",
+    "options": [
+      "Clement Attlee",
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Stanley Baldwin"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Neville Chamberlain, primer ministro británico entre 1937 y 1940, firmó en Múnich con la esperanza de evitar la guerra. Dimitió en mayo de 1940 y le sustituyó Winston Churchill.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-exigieron-aliados-alemania-casablanca",
+    "text": "¿Qué exigieron los Aliados a Alemania en Casablanca?",
+    "options": [
+      "Rendición incondicional",
+      "Un armisticio negociado",
+      "Reparaciones en oro",
+      "Una paz sin vencedores"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En enero de 1943, Roosevelt y Churchill proclamaron en Casablanca que solo aceptarían la rendición incondicional de las potencias del Eje, sin negociar ningún armisticio.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-isla-mediterraneo-invadieron-aliados",
+    "text": "¿Qué isla del Mediterráneo invadieron los Aliados en 1943?",
+    "options": [
+      "Córcega",
+      "Cerdeña",
+      "Creta",
+      "Sicilia"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En julio de 1943 los Aliados desembarcaron en Sicilia, en la operación «Husky». La invasión precipitó la caída de Mussolini y abrió el camino hacia la Italia continental.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-firmo-bordo-acorazado-uss",
+    "text": "¿Qué se firmó a bordo del acorazado USS Missouri?",
+    "options": [
+      "El Pacto Tripartito",
+      "La rendición de Alemania",
+      "La rendición de Japón",
+      "La Carta de la ONU"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El 2 de septiembre de 1945, en la bahía de Tokio, delegados japoneses firmaron a bordo del USS Missouri el acta de rendición, que puso fin formalmente a la Segunda Guerra Mundial.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-reunieron-tres-grandes-febrero",
+    "text": "¿Dónde se reunieron los Tres Grandes en febrero de 1945?",
+    "options": [
+      "Casablanca",
+      "Teherán",
+      "Yalta",
+      "Potsdam"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En Yalta, en Crimea, Roosevelt, Churchill y Stalin acordaron la derrota final de Alemania, la creación de la ONU y el reparto del país en zonas de ocupación.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-alemana-reunieron-truman",
+    "text": "¿En qué ciudad alemana se reunieron Truman y Stalin en 1945?",
+    "options": [
+      "Weimar",
+      "Potsdam",
+      "Fráncfort",
+      "Leipzig"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En Potsdam, cerca de Berlín, se celebró del 17 de julio al 2 de agosto de 1945 la última cumbre de los Tres Grandes. Churchill fue reemplazado a mitad por Clement Attlee.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-era-usada-contra-londres",
+    "text": "¿Qué era la V-2, usada contra Londres en 1944?",
+    "options": [
+      "Un tanque pesado",
+      "Un misil balístico",
+      "Un submarino",
+      "Un avión a reacción"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La V-2 fue el primer misil balístico de largo alcance de la historia. Alemania lanzó miles contra Londres, Amberes y otras ciudades desde septiembre de 1944.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-nombre-clave-tuvo-invasion",
+    "text": "¿Qué nombre clave tuvo la invasión alemana de Noruega?",
+    "options": [
+      "Fall Weiss",
+      "Fall Gelb",
+      "Seelöwe",
+      "Weserübung"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "La Operación Weserübung, lanzada el 9 de abril de 1940, ocupó Dinamarca en horas y Noruega en dos meses. Fall Gelb fue el plan contra Francia y los Países Bajos.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-volvio-espana-oficialmente",
+    "text": "¿En qué año volvió España oficialmente a la neutralidad?",
+    "options": [
+      "1940",
+      "1941",
+      "1945",
+      "1943"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "En octubre de 1943, con la guerra ya a favor de los Aliados, Franco abandonó la «no beligerancia» y regresó a la neutralidad, y ordenó retirar a la mayor parte de la División Azul.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-libro-mayor-batalla-blindados",
+    "text": "¿Dónde se libró la mayor batalla de blindados, en 1943?",
+    "options": [
+      "Kursk",
+      "Smolensk",
+      "Járkov",
+      "Kiev"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "La batalla de Kursk, en julio y agosto de 1943, enfrentó a miles de tanques y fue la última gran ofensiva alemana en el este. Desde entonces los soviéticos mantuvieron la iniciativa.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-sufrieron-bajas-voluntarios-espanoles",
+    "text": "¿Dónde sufrieron más bajas los voluntarios españoles?",
+    "options": [
+      "Krasny Bor",
+      "Stalingrado",
+      "Kursk",
+      "Moscú"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "En Krasny Bor, cerca de Leningrado, unos 5.000 españoles resistieron el 10 de febrero de 1943 una ofensiva soviética de más de 30.000 hombres. Fue su mayor batalla de la guerra.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-italiano-hizo-pasar-consul",
+    "text": "¿Qué italiano se hizo pasar por cónsul español en 1944?",
+    "options": [
+      "Dino Grandi",
+      "Giorgio Perlasca",
+      "Pietro Badoglio",
+      "Galeazzo Ciano"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Giorgio Perlasca, un comerciante italiano, se hizo pasar por cónsul de España cuando el diplomático titular salió de Budapest en 1944, y salvó a más de 5.000 judíos.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-plan-atentado-contra",
+    "text": "¿Cómo se llamó el plan del atentado contra Hitler en 1944?",
+    "options": [
+      "Ciudadela",
+      "Neptuno",
+      "Valquiria",
+      "Bagratión"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El 20 de julio de 1944, el coronel Von Stauffenberg colocó una bomba en el cuartel de Hitler como parte de la «Operación Valquiria». Hitler sobrevivió y muchos conspiradores fueron ejecutados.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-soldados-preveia-rescatar-plan",
+    "text": "¿Cuántos soldados preveía rescatar el plan de Dunkerque?",
+    "options": [
+      "Unos 10.000",
+      "Unos 45.000",
+      "Unos 300.000",
+      "Unos 150.000"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El plan inicial de la Operación Dinamo esperaba salvar a unos 45.000 soldados en dos días. En realidad duró nueve días y rescató a más de 338.000 aliados.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-era-objetivo-original-bomba",
+    "text": "¿Cuál era el objetivo original de la bomba de Nagasaki?",
+    "options": [
+      "Kokura",
+      "Kioto",
+      "Niigata",
+      "Yokohama"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El Bockscar debía lanzar la bomba sobre Kokura, pero las nubes y el humo impidieron ver el objetivo y el avión se dirigió a Nagasaki, su objetivo alternativo.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-japones-conquisto-singapur",
+    "text": "¿Qué general japonés conquistó Singapur en febrero de 1942?",
+    "options": [
+      "Tomoyuki Yamashita",
+      "Seishirō Itagaki",
+      "Yasuji Okamura",
+      "Masaharu Homma"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El general Tomoyuki Yamashita, jefe del 25.º Ejército, tomó Malaca y Singapur en unos 70 días y fue apodado «el Tigre de Malaya». Singapur se rindió el 15 de febrero de 1942.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-convoco-conferencia-wannsee-1942",
+    "text": "¿Quién convocó la conferencia de Wannsee de 1942?",
+    "options": [
+      "Adolf Eichmann",
+      "Hans Frank",
+      "Heinrich Himmler",
+      "Reinhard Heydrich"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Reinhard Heydrich, jefe de la Oficina Principal de Seguridad del Reich, convocó la reunión del 20 de enero de 1942. Adolf Eichmann redactó el acta de la conferencia.",
+    "source": "segunda_guerra_mundial.json",
+    "createdAt": "2026-11-22T01:10:27Z",
+    "status": "active"
+  }
+]
