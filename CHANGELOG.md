@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.24.0](https://github.com/gonzaga8200/quiz-game/compare/v0.23.0...v0.24.0) (2026-11-22)
+
+
+### Features
+
+* **questions:** add 199 Deportes questions on the history of sport in the 20th and 21st centuries ([#73](https://github.com/gonzaga8200/quiz-game/issues/73)) ([6026f54](https://github.com/gonzaga8200/quiz-game/commit/6026f547ecaef642a1a08c5cbb21d4ce3d08ade8))
+
 ## [0.23.0](https://github.com/gonzaga8200/quiz-game/compare/v0.22.0...v0.23.0) (2026-11-22)
 
 
