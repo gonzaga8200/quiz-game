@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { categoryFromSlug } from '~~/core'
+import { SEO } from '~/content/seo'
+import { normalizeSiteUrl } from '~/utils/seo'
+import { shareUrl } from '~/utils/share'
 import type { GameReport, Question } from '~~/core'
 
 useHead({ title: 'Jugando' })
@@ -10,6 +13,10 @@ const savedSetup = useGameSetup()
 const { load } = useQuestionBank()
 const sound = useSound()
 const submission = useScoreSubmission()
+const analytics = useAnalytics()
+
+// A shared link points at the page of the category that was played, or at the home page.
+const siteUrl = normalizeSiteUrl(useRuntimeConfig().public.siteUrl, SEO.defaultSiteUrl)
 
 // Arcade is fixed (60 s, random difficulty) and may be limited to one category with
 // `?categoria=<slug>`; an unknown slug is ignored. Competitive options come from the setup
@@ -74,6 +81,15 @@ onMounted(() => {
         v-else-if="report"
         :report="report"
         :category="setup.category"
+        :share-url="shareUrl(siteUrl, setup.category)"
+        @shared="
+          (method) =>
+            analytics.track('share', {
+              method,
+              content_type: 'game_result',
+              mode: setup?.mode ?? 'arcade',
+            })
+        "
         @again="playAgain"
         @menu="navigateTo('/')"
       >
