@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { CATEGORY_COPY, HUB_COPY } from '../../app/content/categories'
 import { SEO, SITEMAP_PATHS } from '../../app/content/seo'
+import { LEGAL } from '../../app/content/legal'
 import { CATEGORIES } from '../../core/constants'
 import {
   absoluteUrl,
@@ -73,6 +74,17 @@ describe('buildSitemapXml', () => {
     expect(SITEMAP_PATHS.slice(0, 2)).toEqual(['/', '/preguntas'])
     expect(SITEMAP_PATHS).toContain('/preguntas/deportes')
     expect(new Set(SITEMAP_PATHS).size).toBe(SITEMAP_PATHS.length)
+  })
+})
+
+describe('the site address', () => {
+  it('is the custom domain, over https and without a trailing slash', () => {
+    expect(SEO.defaultSiteUrl).toBe('https://contrarreloj-quiz.com')
+    expect(normalizeSiteUrl(undefined, SEO.defaultSiteUrl)).toBe(SEO.defaultSiteUrl)
+  })
+
+  it('is the same domain the legal notice names, as Spanish law asks', () => {
+    expect(LEGAL.domain).toBe(new URL(SEO.defaultSiteUrl).hostname)
   })
 })
 
