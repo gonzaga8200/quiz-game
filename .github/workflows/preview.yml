@@ -1,9 +1,16 @@
 name: Preview
 
-# One temporary Hosting channel per pull request (expires after 7 days), with the URL
-# posted on the PR. Pull requests from forks are skipped: they cannot read secrets.
+# One temporary Hosting channel per pull request, with the URL posted on the PR. Pull requests
+# from forks are skipped: they cannot read secrets.
+#
+# A Hosting site holds at most 50 preview channels; when they are all taken, creating one
+# fails with HTTP 429 "channel quota reached". Three things keep that from happening:
+#  - release-please PRs (version and CHANGELOG only) get no preview;
+#  - the channel is deleted when the pull request is closed or merged (the `cleanup` job);
+#  - channels that are left behind expire after 2 days instead of 7.
 on:
   pull_request:
+    types: [opened, synchronize, reopened, closed]
 
 concurrency:
   group: preview-${{ github.event.pull_request.number }}
@@ -17,7 +24,10 @@ permissions:
 jobs:
   preview:
     name: preview
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    if: >-
+      github.event.action != 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !startsWith(github.head_ref, 'release-please--')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -64,4 +74,43 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ }}
           projectId: contrarreloj-quiz
-          expires: 7d
+          expires: 2d
+
+  # Frees the channel as soon as the pull request is closed or merged.
+  cleanup:
+    name: cleanup
+    if: >-
+      github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !startsWith(github.head_ref, 'release-please--')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Delete this pull request's preview channel
+        env:
+          SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          if [ -z "$SERVICE_ACCOUNT" ]; then
+            echo "::notice::FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ is not set, so there is nothing to clean up."
+            exit 0
+          fi
+          KEY="$RUNNER_TEMP/firebase-key.json"
+          umask 077
+          printf '%s' "$SERVICE_ACCOUNT" > "$KEY"
+          export GOOGLE_APPLICATION_CREDENTIALS="$KEY"
+          trap 'rm -f "$KEY"' EXIT
+
+          # Channel ids look like `pr<number>-<branch>`; the branch part is cut, so match the prefix.
+          IDS=$(npx --yes firebase-tools@15 hosting:channel:list --project contrarreloj-quiz --json \
+            | jq -r --arg prefix "pr${PR_NUMBER}-" \
+                '.result.channels[]? | .name | split("/") | last | select(startswith($prefix))')
+
+          if [ -z "$IDS" ]; then
+            echo "No preview channel for pull request #${PR_NUMBER}."
+            exit 0
+          fi
+          for ID in $IDS; do
+            echo "Deleting $ID"
+            npx --yes firebase-tools@15 hosting:channel:delete "$ID" --force --project contrarreloj-quiz
+          done
