@@ -18,6 +18,12 @@ Arcade can be limited to one category with `/jugar?modo=arcade&categoria=<slug>`
 `deportes`; the slugs are in `core/categories.ts`). An unknown slug is ignored. Competitive mode
 never takes a category, because the ranking boards do not tell categories apart.
 
+A finished game with points can be shared from the results screen. The message holds only the
+points, the time and the category or difficulty played, never the player's name. The link points
+at the page of the category that was played (`/preguntas/<slug>`) or at the home page. It uses the
+browser's share sheet where there is one and copies the text to the clipboard otherwise. Static
+hosting cannot render a card per score, so every shared link shows the same preview image.
+
 ## Requirements
 
 - Node.js 22.12 or newer (`.nvmrc` pins 24)
@@ -143,7 +149,8 @@ Credentials or a key outside the repo); nothing is ever written to the repositor
 
 - Google Analytics 4 via `NUXT_PUBLIC_GA_ID` (empty or invalid = analytics off). Events:
   `page_view` on every route change, `login_click`, `login_success`, `login_error` (with
-  Firebase's error code only; no personal data).
+  Firebase's error code only; no personal data) and `share` (how the result was shared, native
+  share sheet or copy, plus the game mode; never the score or the player).
 - **Consent Mode v2, everything denied by default.** The Google tag script is not requested at
   all until the player presses _Aceptar_. _Rechazar_ (or withdrawing later) stops measuring,
   denies storage again and deletes the GA cookies. Advertising signals stay denied forever.

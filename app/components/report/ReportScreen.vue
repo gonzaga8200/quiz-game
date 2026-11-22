@@ -3,10 +3,17 @@ import { computed, onMounted, ref } from 'vue'
 import type { Category, CelebrationTier, GameReport } from '~~/core'
 import { fireCelebration } from '~/utils/confetti'
 import { formatSigned } from '~/utils/format'
+import { browserShareDeps, shareResult, shareText } from '~/utils/share'
+import type { ShareOutcome } from '~/utils/share'
 import ReportQuestionList from './ReportQuestionList.vue'
 
-const props = defineProps<{ report: GameReport; category?: Category }>()
-const emit = defineEmits<{ again: []; menu: [] }>()
+const props = defineProps<{
+  report: GameReport
+  category?: Category
+  /** Where a shared link lands. Without it the share button is not shown. */
+  shareUrl?: string
+}>()
+const emit = defineEmits<{ again: []; menu: []; shared: [method: 'native' | 'copy'] }>()
 
 const TITLES: Record<CelebrationTier, string> = {
   trophy: '¡Resultado de campeón!',
@@ -27,6 +34,40 @@ const heading = computed(() => {
 })
 
 const title = ref<HTMLElement | null>(null)
+
+// Sharing: only a result that scored, and only when the page knows where the link goes.
+const canShare = computed(
+  () => Boolean(props.shareUrl) && !noQuestions.value && props.report.points > 0,
+)
+const sharing = ref(false)
+const shareStatus = ref('')
+
+const SHARE_STATUS: Record<ShareOutcome, string> = {
+  shared: '',
+  cancelled: '',
+  copied: 'Resultado copiado. Pégalo donde quieras.',
+  failed: 'No se ha podido compartir. Inténtalo de nuevo.',
+}
+
+async function share(): Promise<void> {
+  if (!props.shareUrl || sharing.value) return
+  sharing.value = true
+  shareStatus.value = ''
+  const outcome = await shareResult(browserShareDeps(navigator), {
+    text: shareText({
+      points: props.report.points,
+      duration: props.report.duration,
+      filter: props.report.filter,
+      emoji: props.report.celebration.emojis[0] ?? '',
+      ...(props.category ? { category: props.category } : {}),
+    }),
+    url: props.shareUrl,
+  })
+  shareStatus.value = SHARE_STATUS[outcome]
+  if (outcome === 'shared') emit('shared', 'native')
+  if (outcome === 'copied') emit('shared', 'copy')
+  sharing.value = false
+}
 
 const emoji = computed(() => props.report.celebration.emojis[0] ?? '')
 
@@ -137,9 +178,21 @@ onMounted(() => {
       <button type="button" class="btn btn--primary btn--large" @click="emit('again')">
         Jugar de nuevo
       </button>
+      <button
+        v-if="canShare"
+        type="button"
+        class="btn btn--secondary btn--large"
+        :disabled="sharing"
+        @click="share"
+      >
+        Compartir resultado
+      </button>
       <button type="button" class="btn btn--secondary btn--large" @click="emit('menu')">
         Menú principal
       </button>
+      <!-- Always in the page, so a screen reader announces the text when it changes. -->
+      <p class="sr-only" role="status">{{ shareStatus }}</p>
+      <p v-if="shareStatus" class="report__share-status" aria-hidden="true">{{ shareStatus }}</p>
     </div>
   </div>
 </template>
@@ -278,7 +331,13 @@ onMounted(() => {
 
 @media (min-width: 30rem) {
   .report__actions {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
   }
+}
+
+.report__share-status {
+  grid-column: 1 / -1;
+  color: var(--crema-suave);
+  font-weight: 700;
 }
 </style>
