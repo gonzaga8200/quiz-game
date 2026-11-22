@@ -58,7 +58,9 @@ describe('ReportScreen sharing', () => {
     expect(share).toHaveBeenCalledOnce()
     const [data] = share.mock.calls[0] as [{ text: string; url: string }]
     expect(data.url).toBe(URL)
-    expect(data.text).toContain(`He hecho ${report.points} puntos en Contrarreloj (60 s, Deportes)`)
+    expect(data.text).toContain(
+      `He conseguido ${report.points} puntos en Contrarreloj, el juego de preguntas contra el reloj (60 s, Deportes)`,
+    )
     expect(wrapper.emitted('shared')).toEqual([['native']])
   })
 

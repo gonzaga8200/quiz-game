@@ -19,7 +19,7 @@ function backToMenu(): Promise<void> {
     <main id="main" tabindex="-1" class="error">
       <h1 class="error__title">{{ title }}</h1>
       <p v-if="notFound">La página que buscas no existe o ha cambiado de sitio.</p>
-      <p v-else>No hemos podido mostrar esta página. Inténtalo de nuevo en un momento.</p>
+      <p v-else>No se ha podido mostrar esta página. Inténtalo de nuevo en un momento.</p>
       <button type="button" class="btn btn--primary btn--large" @click="backToMenu">
         Volver al menú
       </button>

@@ -171,7 +171,7 @@ onMounted(() => {
     </template>
 
     <p v-else class="report__empty">
-      No encontramos preguntas para esta combinación. Prueba con otra dificultad.
+      No hay preguntas para esta combinación. Prueba con otra dificultad.
     </p>
 
     <div class="report__actions">
@@ -188,7 +188,7 @@ onMounted(() => {
         Compartir resultado
       </button>
       <button type="button" class="btn btn--secondary btn--large" @click="emit('menu')">
-        Menú principal
+        Volver al menú
       </button>
       <!-- Always in the page, so a screen reader announces the text when it changes. -->
       <p class="sr-only" role="status">{{ shareStatus }}</p>

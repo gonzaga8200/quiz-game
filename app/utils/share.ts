@@ -22,7 +22,7 @@ export function shareText(input: ShareInput): string {
   else if (input.filter !== 'Aleatorio') context.push(`dificultad ${input.filter.toLowerCase()}`)
 
   const points = `${input.points} ${input.points === 1 ? 'punto' : 'puntos'}`
-  return `${input.emoji} He hecho ${points} en Contrarreloj (${context.join(', ')}). ¿Me superas?`
+  return `${input.emoji} He conseguido ${points} en Contrarreloj, el juego de preguntas contra el reloj (${context.join(', ')}). ¿Me superas?`
 }
 
 /**
