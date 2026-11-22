@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { COPYRIGHT_NOTICE } from '~/content/legal'
+
 defineProps<{ wide?: boolean }>()
 const emit = defineEmits<{ 'open-cookie-settings': [] }>()
 </script>
@@ -7,11 +9,13 @@ const emit = defineEmits<{ 'open-cookie-settings': [] }>()
   <footer class="footer" :class="{ 'footer--wide': wide }">
     <nav aria-label="Información legal" class="footer__nav">
       <NuxtLink to="/preguntas">Preguntas con respuestas</NuxtLink>
+      <NuxtLink to="/aviso-legal">Aviso legal</NuxtLink>
       <NuxtLink to="/cookies">Cookies y privacidad</NuxtLink>
       <button type="button" class="footer__link" @click="emit('open-cookie-settings')">
         Configurar cookies
       </button>
     </nav>
+    <p class="footer__copyright">{{ COPYRIGHT_NOTICE }} · Contrarreloj</p>
   </footer>
 </template>
 
@@ -31,6 +35,12 @@ const emit = defineEmits<{ 'open-cookie-settings': [] }>()
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem 1.25rem;
+}
+
+.footer__copyright {
+  margin-top: 0.5rem;
+  color: var(--crema-suave);
+  font-size: 0.875rem;
 }
 
 .footer a,

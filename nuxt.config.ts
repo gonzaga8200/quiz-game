@@ -1,3 +1,4 @@
+import { COPYRIGHT_NOTICE, LEGAL } from './app/content/legal'
 import { CATEGORY_PATHS, QUESTIONS_PATH, SEO } from './app/content/seo'
 import { normalizeSiteUrl } from './app/utils/seo'
 
@@ -88,6 +89,8 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: SEO.description },
         { name: 'theme-color', content: '#261811' },
+        { name: 'author', content: LEGAL.holder },
+        { name: 'copyright', content: COPYRIGHT_NOTICE },
         // Social cards (WhatsApp, Telegram, X, Facebook, LinkedIn...).
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: SEO.name },

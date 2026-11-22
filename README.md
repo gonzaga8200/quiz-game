@@ -329,4 +329,6 @@ Geografía"`, `"muy fácil"`...), accents included. Ranking board ids use ASCII 
 
 ## License
 
-[MIT](LICENSE)
+Copyright (c) 2026 Gonzalo Moreno Minguito. All rights reserved: see [LICENSE](LICENSE). The code is visible
+but it is not open source, and may not be copied or reused without permission. Third-party
+dependencies keep their own licenses.

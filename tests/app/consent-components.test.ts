@@ -1,6 +1,9 @@
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import LegalContact from '../../app/components/consent/LegalContact.vue'
+import AppFooter from '../../app/components/consent/AppFooter.vue'
 import CookieBanner from '../../app/components/consent/CookieBanner.vue'
+import { LEGAL } from '../../app/content/legal'
 
 // NuxtLink is a Nuxt component; a plain anchor stands in for it here.
 const stubs = { NuxtLink: { props: ['to'], template: '<a :href="to"><slot /></a>' } }
@@ -40,5 +43,34 @@ describe('CookieBanner', () => {
     const section = mountBanner().find('section')
     expect(section.attributes('aria-labelledby')).toBe('cookie-banner-title')
     expect(section.attributes('aria-modal')).toBeUndefined()
+  })
+})
+
+describe('AppFooter', () => {
+  const mountFooter = () => mount(AppFooter, { global: { stubs } })
+
+  it('shows the copyright notice with the year and the holder', () => {
+    expect(mountFooter().text()).toContain(`© ${LEGAL.copyrightYear} ${LEGAL.holder}`)
+  })
+
+  it('links to the legal notice and to the cookie and privacy policy', () => {
+    const hrefs = mountFooter()
+      .findAll('a')
+      .map((a) => a.attributes('href'))
+    expect(hrefs).toContain('/aviso-legal')
+    expect(hrefs).toContain('/cookies')
+  })
+
+  it('lets the player reopen the cookie settings', async () => {
+    const wrapper = mountFooter()
+    await wrapper.find('button').trigger('click')
+    expect(wrapper.emitted('open-cookie-settings')).toHaveLength(1)
+  })
+})
+
+describe('LegalContact', () => {
+  it('shows the contact email as a mailto link', () => {
+    const link = mount(LegalContact).find('a')
+    expect(link.attributes('href')).toBe(`mailto:${LEGAL.email}`)
   })
 })

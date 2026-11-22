@@ -60,11 +60,7 @@ const storage = [
     <section aria-labelledby="quien">
       <h2 id="quien">Quién es el responsable</h2>
       <p>{{ LEGAL.owner }}.</p>
-      <p>
-        Contacto:
-        <a :href="LEGAL.contact" rel="noopener">{{ LEGAL.contact }}</a>
-        . {{ LEGAL.contactHint }}
-      </p>
+      <LegalContact />
     </section>
 
     <section aria-labelledby="que-guardamos">
@@ -109,8 +105,10 @@ const storage = [
       </p>
       <p>
         Al iniciar sesión, Google trata tus datos según su propia política de privacidad. Nosotros
-        recibimos tu nombre, tu foto de perfil y un identificador de usuario. No recibimos tu
-        contraseña ni tu correo electrónico para guardarlos.
+        recibimos tu nombre, tu foto de perfil, tu correo electrónico y un identificador de usuario.
+        Firebase Authentication guarda estos datos para gestionar tu cuenta. Solo el nombre, la foto
+        y las puntuaciones se publican en el ranking: el correo no se muestra ni se usa para nada
+        más. No recibimos tu contraseña.
       </p>
     </section>
 
@@ -130,9 +128,30 @@ const storage = [
         Base legal: la ejecución del servicio que solicitas al jugar en modo competitivo. Los datos
         se conservan mientras mantengas tu entrada en el ranking. Puedes ejercer tus derechos de
         acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo al
-        contacto indicado arriba; para borrar tu entrada, dinos el nombre con el que apareces. Si
-        crees que no hemos tratado bien tus datos, puedes reclamar ante la Agencia Española de
-        Protección de Datos.
+        contacto indicado arriba; para borrar tu entrada y tu cuenta, dinos el nombre con el que
+        apareces y las eliminaremos. Si crees que no hemos tratado bien tus datos, puedes reclamar
+        ante la Agencia Española de Protección de Datos.
+      </p>
+      <p>
+        <strong>Menores:</strong>
+        el modo competitivo es solo para mayores de 14 años, la edad a partir de la cual en España
+        se puede consentir el tratamiento de datos personales. Si eres más joven, puedes jugar en
+        modo arcade, que no guarda ningún dato tuyo.
+      </p>
+    </section>
+
+    <section aria-labelledby="alojamiento">
+      <h2 id="alojamiento">Alojamiento y transferencias</h2>
+      <p>
+        El sitio se sirve con Firebase Hosting y los datos del ranking y de las preguntas se guardan
+        en Firestore, en la región europea (eur3). Ambos son servicios de Google, que actúa como
+        encargado del tratamiento. Como cualquier servidor web, Firebase Hosting puede registrar tu
+        dirección IP y datos técnicos de tu visita (navegador, página solicitada, fecha) en sus
+        registros de funcionamiento y seguridad.
+      </p>
+      <p>
+        Google puede tratar datos fuera del Espacio Económico Europeo, por ejemplo en Estados
+        Unidos, con las garantías que indica en sus condiciones de tratamiento de datos.
       </p>
     </section>
 
@@ -183,7 +202,7 @@ const storage = [
       </ul>
     </section>
 
-    <NuxtLink class="btn btn--secondary" to="/">Menú principal</NuxtLink>
+    <NuxtLink class="btn btn--secondary" to="/">Volver al menú</NuxtLink>
   </main>
 </template>
 
