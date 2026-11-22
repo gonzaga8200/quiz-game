@@ -86,6 +86,10 @@ describe('the site address', () => {
   it('is the same domain the legal notice names, as Spanish law asks', () => {
     expect(LEGAL.domain).toBe(new URL(SEO.defaultSiteUrl).hostname)
   })
+
+  it('has a public contact address on that domain, not a personal mailbox', () => {
+    expect(LEGAL.email).toBe(`informacion@${LEGAL.domain}`)
+  })
 })
 
 describe('SEO copy', () => {
