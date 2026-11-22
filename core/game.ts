@@ -23,6 +23,11 @@ export interface GameConfig {
   readonly duration: Duration
   /** Only serve questions of this category (arcade mode). Omitted = every category. */
   readonly category?: Category
+  /**
+   * How many times this device has already shown each question (id to count). Questions
+   * shown fewer times are served first. Omitted = no memory, purely random order.
+   */
+  readonly seen?: ReadonlyMap<string, number>
   /** Random source; pass `Math.random` in the app and a seeded PRNG in tests. */
   readonly rng: Rng
   /** Monotonic clock in milliseconds; pass `performance.now` in the app. */
@@ -122,7 +127,13 @@ export class Game {
   constructor(config: GameConfig) {
     this.#config = config
     this.#durationMs = config.duration * 1000
-    this.#queue = buildQueue(config.questions, config.filter, config.rng, config.category)
+    this.#queue = buildQueue(
+      config.questions,
+      config.filter,
+      config.rng,
+      config.category,
+      config.seen,
+    )
   }
 
   /** Starts the clock and shows the first question. Does nothing if already started. */
@@ -202,6 +213,14 @@ export class Game {
   remainingMs(): number {
     if (this.#phase.status === 'ready') return this.#durationMs
     return Math.max(0, this.#durationMs - (this.#config.now() - this.#startedAt))
+  }
+
+  /**
+   * Ids of the questions presented so far, in order: the answered and skipped ones plus the
+   * one on screen. Empty before `start()`. Safe to read at any time.
+   */
+  shownIds(): string[] {
+    return this.#queue.slice(0, this.#nextIndex).map((question) => question.id)
   }
 
   /** Handled questions in order. Safe to read at any time. */

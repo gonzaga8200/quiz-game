@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import type { Category, DifficultyFilter, Duration, GameReport, Question } from '~~/core'
 import { useGameSession } from '~/composables/useGameSession'
+import { useSeenQuestions } from '~/composables/useSeenQuestions'
 import { streakFx, vibrate } from '~/utils/fx'
 import { actionForKey } from '~/utils/keyboard'
 import FxLayer from './FxLayer.vue'
@@ -50,11 +51,16 @@ function showHit(amount: number): void {
   hitTimer = setTimeout(() => (hit.value = null), 1400)
 }
 
+// The device remembers which questions it has shown, so a new game serves the least seen first.
+const memory = useSeenQuestions()
+
 const session = useGameSession({
   questions: props.questions,
   filter: props.filter,
   duration: props.duration,
   category: props.category,
+  seen: memory.read(),
+  onShown: (ids) => memory.save(ids, props.questions),
   effects: {
     onCorrect: () => sound.play('correct'),
     onWrong: () => sound.play('wrong'),

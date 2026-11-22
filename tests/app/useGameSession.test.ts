@@ -227,4 +227,134 @@ describe('useGameSession', () => {
     vi.advanceTimersByTime(70_000)
     expect(session.report.value).not.toBeNull()
   })
+
+  describe('memory of shown questions', () => {
+    /** Fakes the page going to the background or coming back, and fires the event. */
+    function setVisibility(state: 'hidden' | 'visible'): void {
+      Object.defineProperty(document, 'visibilityState', { value: state, configurable: true })
+      document.dispatchEvent(new Event('visibilitychange'))
+    }
+
+    afterEach(() => {
+      Reflect.deleteProperty(document, 'visibilityState')
+    })
+
+    it('reports the shown questions once when the game ends', () => {
+      const bank = makeBank('medio', 2)
+      const onShown = vi.fn()
+      const { session, scope } = setup({ questions: bank, onShown })
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600)
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600)
+
+      expect(session.report.value?.finishReason).toBe('exhausted')
+      expect(onShown).toHaveBeenCalledOnce()
+      expect([...(onShown.mock.calls[0]?.[0] as string[])].sort()).toEqual(
+        bank.map((q) => q.id).sort(),
+      )
+
+      scope.stop() // leaving the screen after the end must not count the game twice
+      expect(onShown).toHaveBeenCalledOnce()
+    })
+
+    it('reports when the player leaves mid-game, including the question on screen', () => {
+      const onShown = vi.fn()
+      const { session, scope } = setup({ onShown })
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600) // the second question is now on screen
+      expect(onShown).not.toHaveBeenCalled()
+
+      scope.stop()
+
+      expect(onShown).toHaveBeenCalledOnce()
+      expect(onShown.mock.calls[0]?.[0]).toHaveLength(2)
+    })
+
+    it('reports nothing when no question was shown', () => {
+      const onShown = vi.fn()
+      const scope = effectScope()
+      scope.run(() =>
+        useGameSession({
+          questions: makeBank('medio', 3),
+          filter: 'Aleatorio',
+          duration: 60,
+          rng: mulberry32(1),
+          now: () => Date.now(),
+          onShown,
+        }),
+      )
+      scope.stop()
+      expect(onShown).not.toHaveBeenCalled()
+    })
+
+    it('saves on page hide and then only reports the questions shown afterwards', () => {
+      const onShown = vi.fn()
+      const { session, scope } = setup({ onShown })
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600) // two questions presented so far
+
+      window.dispatchEvent(new Event('pagehide'))
+      expect(onShown).toHaveBeenCalledOnce()
+      expect(onShown.mock.calls[0]?.[0]).toHaveLength(2)
+
+      window.dispatchEvent(new Event('pagehide')) // nothing new since the last save
+      expect(onShown).toHaveBeenCalledOnce()
+
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600) // a third question is on screen
+      scope.stop()
+
+      expect(onShown).toHaveBeenCalledTimes(2)
+      const all = onShown.mock.calls.flatMap((call) => call[0] as string[])
+      expect(all).toHaveLength(3)
+      expect(new Set(all).size).toBe(3) // no question counted twice
+
+      window.dispatchEvent(new Event('pagehide')) // the listener is gone with the scope
+      expect(onShown).toHaveBeenCalledTimes(2)
+    })
+
+    it('saves when the tab goes to the background, but not when it comes back', () => {
+      const onShown = vi.fn()
+      const { scope } = setup({ onShown })
+
+      setVisibility('visible')
+      expect(onShown).not.toHaveBeenCalled()
+
+      setVisibility('hidden')
+      expect(onShown).toHaveBeenCalledOnce()
+      expect(onShown.mock.calls[0]?.[0]).toHaveLength(1) // the question on screen
+
+      scope.stop()
+      expect(onShown).toHaveBeenCalledOnce() // nothing new to report
+    })
+
+    it('never lets a failing save stop the game from ending or the screen from closing', () => {
+      const onShown = vi.fn(() => {
+        throw new Error('storage exploded')
+      })
+      const finished = setup({ questions: makeBank('medio', 2), onShown })
+      finished.session.answer(rightIndex(finished.session))
+      vi.advanceTimersByTime(600)
+      finished.session.answer(rightIndex(finished.session))
+      vi.advanceTimersByTime(600)
+      expect(finished.session.report.value?.finishReason).toBe('exhausted')
+      expect(() => finished.scope.stop()).not.toThrow()
+
+      const left = setup({ onShown })
+      expect(() => left.scope.stop()).not.toThrow()
+    })
+
+    it('uses the memory to choose the first question', () => {
+      const bank = makeBank('medio', 6)
+      const seen = new Map(bank.slice(1).map((q) => [q.id, 3] as const))
+      const { session, scope } = setup({
+        questions: bank,
+        category: 'Historia y Geografía',
+        seen,
+      })
+      expect(session.question.value?.id).toBe((bank[0] as { id: string }).id)
+      scope.stop()
+    })
+  })
 })

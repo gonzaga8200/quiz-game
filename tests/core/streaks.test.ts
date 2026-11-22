@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { CATEGORIES, DIFFICULTIES, MAX_SAME_IN_A_ROW } from '../../core/constants'
+import {
+  CATEGORIES,
+  DIFFICULTIES,
+  MAX_SAME_CATEGORY_IN_A_ROW,
+  MAX_SAME_IN_A_ROW,
+} from '../../core/constants'
 import type { Difficulty } from '../../core/constants'
 import { mulberry32 } from '../../core/rng'
 import type { Question } from '../../core/schema'
@@ -50,18 +55,19 @@ function skewedBank(): Question[] {
 
 describe('spreadRuns', () => {
   const key = (item: string) => item
+  const rule = { key, max: 2 }
 
   it('moves an item forward when it would be the third in a row', () => {
-    expect(spreadRuns(['a', 'a', 'a', 'b'], [key], 2)).toEqual(['a', 'a', 'b', 'a'])
+    expect(spreadRuns(['a', 'a', 'a', 'b'], [rule])).toEqual(['a', 'a', 'b', 'a'])
   })
 
   it('leaves an order that already respects the limit untouched', () => {
     const order = ['a', 'a', 'b', 'a', 'b', 'b', 'c']
-    expect(spreadRuns(order, [key], 2)).toEqual(order)
+    expect(spreadRuns(order, [rule])).toEqual(order)
   })
 
   it('keeps every item, even when the limit cannot be met', () => {
-    const out = spreadRuns(['a', 'a', 'a', 'a', 'b'], [key], 2)
+    const out = spreadRuns(['a', 'a', 'a', 'a', 'b'], [rule])
     expect([...out].sort()).toEqual(['a', 'a', 'a', 'a', 'b'])
     expect(out.slice(0, 3)).toEqual(['a', 'a', 'b']) // b comes in as soon as it is needed
   })
@@ -75,21 +81,60 @@ describe('spreadRuns', () => {
       { c: 'y', d: 2 },
       { c: 'z', d: 2 },
     ]
-    const out = spreadRuns(items, [(i) => i.c, (i) => String(i.d)], 2)
+    const out = spreadRuns(items, [
+      { key: (i) => i.c, max: 2 },
+      { key: (i) => String(i.d), max: 2 },
+    ])
     expect(out).toHaveLength(items.length)
     expect(longestRun(out.map((i) => i.c))).toBeLessThanOrEqual(2)
     expect(longestRun(out.map((i) => String(i.d)))).toBeLessThanOrEqual(2)
   })
 
+  it('applies a different limit to each rule', () => {
+    const items = [
+      { c: 'x', d: 1 },
+      { c: 'x', d: 1 },
+      { c: 'y', d: 1 },
+      { c: 'y', d: 2 },
+      { c: 'z', d: 2 },
+      { c: 'z', d: 2 },
+      { c: 'x', d: 1 },
+      { c: 'y', d: 2 },
+    ]
+    const out = spreadRuns(items, [
+      { key: (i) => i.c, max: 1 },
+      { key: (i) => String(i.d), max: 2 },
+    ])
+    expect(out).toHaveLength(items.length)
+    expect(longestRun(out.map((i) => i.c))).toBeLessThanOrEqual(1)
+    expect(longestRun(out.map((i) => String(i.d)))).toBeLessThanOrEqual(2)
+  })
+
+  it('when no item meets every rule, it breaks the lower-priority rule first', () => {
+    // After { c: 'p', d: 'q' } nothing is clean: one item repeats the first key (c), the other
+    // repeats the second key (d). The first rule is the priority, so the second is the one broken.
+    const first = { c: 'p', d: 'q', name: 'first' }
+    const repeatsFirstKey = { c: 'p', d: 'z', name: 'repeatsFirstKey' }
+    const repeatsSecondKey = { c: 'r', d: 'q', name: 'repeatsSecondKey' }
+    const out = spreadRuns(
+      [first, repeatsFirstKey, repeatsSecondKey],
+      [
+        { key: (i) => i.c, max: 1 },
+        { key: (i) => i.d, max: 1 },
+      ],
+    )
+    expect(out.map((i) => i.name)).toEqual(['first', 'repeatsSecondKey', 'repeatsFirstKey'])
+  })
+
   it('does not mutate its input', () => {
     const input = ['a', 'a', 'a', 'b']
-    spreadRuns(input, [key], 2)
+    spreadRuns(input, [rule])
     expect(input).toEqual(['a', 'a', 'a', 'b'])
   })
 
   it('handles empty and single-item lists', () => {
-    expect(spreadRuns([], [key], 2)).toEqual([])
-    expect(spreadRuns(['a'], [key], 2)).toEqual(['a'])
+    expect(spreadRuns([], [rule])).toEqual([])
+    expect(spreadRuns(['a'], [rule])).toEqual(['a'])
   })
 })
 
@@ -98,10 +143,12 @@ describe('buildQueue in random mode', () => {
   /** A typical game asks well under 60 questions; the guarantee must hold for all of them. */
   const PLAYED = 60
 
-  it('never serves more than two questions in a row of the same category', () => {
+  it('never serves more than one question in a row of the same category', () => {
     for (let seed = 1; seed <= 50; seed++) {
       const queue = buildQueue(bank, 'Aleatorio', mulberry32(seed)).slice(0, PLAYED)
-      expect(longestRun(queue.map((q) => q.category))).toBeLessThanOrEqual(MAX_SAME_IN_A_ROW)
+      expect(longestRun(queue.map((q) => q.category))).toBeLessThanOrEqual(
+        MAX_SAME_CATEGORY_IN_A_ROW,
+      )
     }
   })
 
@@ -151,5 +198,43 @@ describe('buildQueue with a difficulty filter', () => {
     const queue = buildQueue(same, 'Medio', mulberry32(4))
     expect(queue).toHaveLength(8)
     expect(longestRun(queue.map((q) => q.difficulty))).toBe(8)
+  })
+})
+
+/** `perCategory` questions of one difficulty in every category, with unique ids. */
+function balancedBank(difficulty: Difficulty, perCategory: number): Question[] {
+  return CATEGORIES.flatMap((category, c) =>
+    Array.from({ length: perCategory }, (_, i) =>
+      makeQuestion({
+        id: `eq-${difficulty.replace(/\s/g, '-')}-${c}-${i}`,
+        text: `Pregunta equilibrada ${c}-${i} (${difficulty})`,
+        options: [`a${i}`, `b${i}`, `c${i}`, `d${i}`],
+        category,
+        difficulty,
+      }),
+    ),
+  )
+}
+
+describe('buildQueue category rule outside random mode', () => {
+  it.each([
+    ['Fácil', 'fácil'],
+    ['Medio', 'medio'],
+    ['Difícil', 'difícil'],
+  ] as const)('never serves two questions of one category in a row with %s', (filter, level) => {
+    const bank = balancedBank(level, 10)
+    for (let seed = 1; seed <= 30; seed++) {
+      const queue = buildQueue(bank, filter, mulberry32(seed)).slice(0, 40)
+      expect(longestRun(queue.map((q) => q.category))).toBeLessThanOrEqual(
+        MAX_SAME_CATEGORY_IN_A_ROW,
+      )
+    }
+  })
+
+  it('arcade (one category) is not blocked by the category rule', () => {
+    const bank = [...balancedBank('medio', 8), ...balancedBank('fácil', 8)]
+    const queue = buildQueue(bank, 'Aleatorio', mulberry32(1), 'Ciencias')
+    const expected = bank.filter((q) => q.category === 'Ciencias').map((q) => q.id)
+    expect(queue.map((q) => q.id).sort()).toEqual(expected.sort())
   })
 })

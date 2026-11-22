@@ -1,4 +1,4 @@
-import { MAX_SAME_IN_A_ROW } from './constants'
+import { DIFFICULTIES, MAX_SAME_CATEGORY_IN_A_ROW, MAX_SAME_IN_A_ROW } from './constants'
 import type { Category, Difficulty, DifficultyFilter } from './constants'
 import { difficultiesFor } from './filters'
 import type { Rng } from './rng'
@@ -36,30 +36,37 @@ export function toPlayable(question: Question, rng: Rng): PlayableQuestion {
   }
 }
 
+/** A limit on how many consecutive items may share the same `key` value. */
+export interface SpreadRule<T> {
+  readonly key: (item: T) => string
+  readonly max: number
+}
+
 /**
- * Reorders `items` so that no more than `maxRun` consecutive items share the same value
- * for any of the `keys`. The original order is kept as much as possible: at each position
- * it takes the first remaining item that does not extend a run past the limit, so a random
+ * Reorders `items` so that no more than `rule.max` consecutive items share the same `key`
+ * value, for every rule. The original order is kept as much as possible: at each position
+ * it takes the first remaining item that does not extend a run past a limit, so a random
  * input stays random.
  *
- * Nothing is ever dropped. If the items left cannot meet the limit (for example only one
- * category remains) it takes the one that breaks the fewest keys, so the list degrades
- * gracefully at the end instead of failing.
+ * Nothing is ever dropped. If the items left cannot meet the limits (for example only one
+ * category remains) it takes the one that breaks the least important rules (the `rules` are
+ * in priority order), so the list degrades gracefully at the end instead of failing.
  */
-export function spreadRuns<T>(
-  items: readonly T[],
-  keys: readonly ((item: T) => string)[],
-  maxRun: number,
-): T[] {
+export function spreadRuns<T>(items: readonly T[], rules: readonly SpreadRule<T>[]): T[] {
   const remaining = [...items]
   const out: T[] = []
 
-  /** How many keys this item would push past the limit if placed next. */
-  const violations = (item: T): number => {
-    if (out.length < maxRun) return 0
-    const tail = out.slice(-maxRun)
-    return keys.filter((key) => tail.every((placed) => key(placed) === key(item))).length
-  }
+  /**
+   * How badly this item would break the rules if placed next; 0 when it breaks none. Earlier
+   * rules weigh more than all the later ones together, so when something has to give, the
+   * lowest-priority rule is the one that does.
+   */
+  const violations = (item: T): number =>
+    rules.reduce((penalty, { key, max }, index) => {
+      if (out.length < max) return penalty
+      const repeats = out.slice(-max).every((placed) => key(placed) === key(item))
+      return repeats ? penalty + 2 ** (rules.length - 1 - index) : penalty
+    }, 0)
 
   while (remaining.length > 0) {
     let best = 0
@@ -77,42 +84,70 @@ export function spreadRuns<T>(
 }
 
 /**
+ * Orders `pool` so the questions shown the fewest times come first. The sort is stable, so
+ * the order the pool already has (a shuffle) breaks ties at random.
+ *
+ * Counts are compared inside each difficulty: a question's rank is its count minus the lowest
+ * count at its level. Otherwise what a device played at one level (say, a lot of `fácil`)
+ * would push that level out of the next random games, changing the points on offer.
+ */
+function leastShownFirst(pool: readonly Question[], seen: ReadonlyMap<string, number>): Question[] {
+  const shown = (question: Question): number => seen.get(question.id) ?? 0
+  const floor = Object.fromEntries(DIFFICULTIES.map((level) => [level, Infinity])) as Record<
+    Difficulty,
+    number
+  >
+  for (const question of pool) {
+    floor[question.difficulty] = Math.min(floor[question.difficulty], shown(question))
+  }
+  const rank = (question: Question): number => shown(question) - floor[question.difficulty]
+  return [...pool].sort((a, b) => rank(a) - rank(b))
+}
+
+/**
  * Builds the whole question order for a game up front: only active questions that
  * match the filter, duplicates (same id) dropped, randomly ordered. Walking the
  * queue once guarantees a question is never repeated within a game.
  *
- * In random mode (`Aleatorio`) the order is also spread out: never more than
- * `MAX_SAME_IN_A_ROW` questions in a row of the same category or the same difficulty.
- * The other filters already narrow the difficulty, so they are left as shuffled.
+ * The order is also spread out. Without a `category`, in every filter, never more than
+ * `MAX_SAME_CATEGORY_IN_A_ROW` questions in a row of the same category. In random mode
+ * (`Aleatorio`), never more than `MAX_SAME_IN_A_ROW` in a row of the same difficulty (the
+ * other filters already narrow the difficulty).
  *
- * With a `category` only that category is served, and the spreading only looks at the
- * difficulty (every question already shares the category).
+ * With a `category` only that category is served, so there is no category rule and the
+ * spreading only looks at the difficulty (random mode).
+ *
+ * `seen` maps a question id to how many times this device has shown it. Questions shown
+ * fewer times come first (ties stay random, counts are compared within each difficulty so the
+ * mix of levels is not skewed), so a player meets repeats as late as possible. Ids that are
+ * not in the bank are ignored. Without `seen` the order is purely random.
  */
 export function buildQueue(
   questions: readonly Question[],
   filter: DifficultyFilter,
   rng: Rng,
   category?: Category,
+  seen?: ReadonlyMap<string, number>,
 ): PlayableQuestion[] {
   const allowed = new Set<Difficulty>(difficultiesFor(filter))
-  const seen = new Set<string>()
+  const included = new Set<string>()
   const pool = questions.filter((question) => {
     if (question.status !== 'active' || !allowed.has(question.difficulty)) return false
     if (category !== undefined && question.category !== category) return false
-    if (seen.has(question.id)) return false
-    seen.add(question.id)
+    if (included.has(question.id)) return false
+    included.add(question.id)
     return true
   })
-  const order = shuffled(pool, rng)
-  const ordered =
-    filter === 'Aleatorio'
-      ? spreadRuns(
-          order,
-          category === undefined
-            ? [(question) => question.category, (question) => question.difficulty]
-            : [(question) => question.difficulty],
-          MAX_SAME_IN_A_ROW,
-        )
-      : order
+  const shuffledPool = shuffled(pool, rng)
+  const order =
+    seen !== undefined && seen.size > 0 ? leastShownFirst(shuffledPool, seen) : shuffledPool
+  const rules: SpreadRule<Question>[] = []
+  if (category === undefined) {
+    rules.push({ key: (question) => question.category, max: MAX_SAME_CATEGORY_IN_A_ROW })
+  }
+  if (filter === 'Aleatorio') {
+    rules.push({ key: (question) => question.difficulty, max: MAX_SAME_IN_A_ROW })
+  }
+  const ordered = rules.length > 0 ? spreadRuns(order, rules) : order
   return ordered.map((question) => toPlayable(question, rng))
 }

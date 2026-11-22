@@ -35,6 +35,14 @@ export interface SessionOptions {
   duration: Duration
   /** Only serve questions of this category (arcade mode). */
   category?: Category
+  /** How many times this device has shown each question; the least shown are served first. */
+  seen?: ReadonlyMap<string, number>
+  /**
+   * Called with the ids of the questions presented since the previous call: when the page is
+   * hidden or closed, when the game ends and when the screen is left. A question is never
+   * reported twice, and it is not called when there is nothing new.
+   */
+  onShown?: (ids: readonly string[]) => void
   effects?: SessionEffects
   rng?: Rng
   /** Monotonic clock in ms. Defaults to `performance.now`. */
@@ -57,6 +65,7 @@ export function useGameSession(options: SessionOptions) {
     filter: options.filter,
     duration: options.duration,
     ...(options.category ? { category: options.category } : {}),
+    ...(options.seen ? { seen: options.seen } : {}),
     rng: options.rng ?? Math.random,
     now: options.now ?? (() => performance.now()),
   })
@@ -85,10 +94,29 @@ export function useGameSession(options: SessionOptions) {
     feedbackTimer = undefined
   }
 
+  let reportedCount = 0
+
+  /**
+   * Hands `onShown` the questions presented since the last report, if any. It can run several
+   * times (page hidden, game over, screen left) and never reports a question twice. Saving the
+   * memory must never get in the way of the game, so a failing callback is swallowed.
+   */
+  function reportShown(): void {
+    const ids = game.shownIds().slice(reportedCount)
+    if (ids.length === 0) return
+    reportedCount += ids.length
+    try {
+      options.onShown?.(ids)
+    } catch {
+      // The memory is a nicety: losing a save is better than breaking the screen.
+    }
+  }
+
   /** Ends the session once: freezes the state and builds the report. */
   function finalize(): void {
     if (report.value !== null) return
     stopTimers()
+    reportShown()
     feedback.value = null
     refresh()
     question.value = null
@@ -153,7 +181,25 @@ export function useGameSession(options: SessionOptions) {
     advance()
   }
 
-  onScopeDispose(stopTimers)
+  // Leaving the screen mid-game also counts what was shown. A reload, a closed tab or a phone
+  // suspending the app never dispose the scope, so the page being hidden saves it too.
+  const onPageHide = (): void => reportShown()
+  const onVisibilityChange = (): void => {
+    if (document.visibilityState === 'hidden') reportShown()
+  }
+  if (typeof window !== 'undefined') {
+    window.addEventListener('pagehide', onPageHide)
+    document.addEventListener('visibilitychange', onVisibilityChange)
+  }
+
+  onScopeDispose(() => {
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('pagehide', onPageHide)
+      document.removeEventListener('visibilitychange', onVisibilityChange)
+    }
+    stopTimers()
+    reportShown()
+  })
 
   return {
     snapshot,
