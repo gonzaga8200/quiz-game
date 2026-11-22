@@ -90,23 +90,33 @@ export function spreadRuns<T>(items: readonly T[], rules: readonly SpreadRule<T>
  *
  * With a `category` only that category is served, so there is no category rule and the
  * spreading only looks at the difficulty (random mode).
+ *
+ * `seen` maps a question id to how many times this device has shown it. Questions shown
+ * fewer times come first (ties stay random), so a player meets repeats as late as possible.
+ * Ids that are not in the bank are ignored. Without `seen` the order is purely random.
  */
 export function buildQueue(
   questions: readonly Question[],
   filter: DifficultyFilter,
   rng: Rng,
   category?: Category,
+  seen?: ReadonlyMap<string, number>,
 ): PlayableQuestion[] {
   const allowed = new Set<Difficulty>(difficultiesFor(filter))
-  const seen = new Set<string>()
+  const included = new Set<string>()
   const pool = questions.filter((question) => {
     if (question.status !== 'active' || !allowed.has(question.difficulty)) return false
     if (category !== undefined && question.category !== category) return false
-    if (seen.has(question.id)) return false
-    seen.add(question.id)
+    if (included.has(question.id)) return false
+    included.add(question.id)
     return true
   })
-  const order = shuffled(pool, rng)
+  const shuffledPool = shuffled(pool, rng)
+  // Least shown first. The sort is stable, so the shuffle above breaks ties at random.
+  const order =
+    seen !== undefined && seen.size > 0
+      ? [...shuffledPool].sort((a, b) => (seen.get(a.id) ?? 0) - (seen.get(b.id) ?? 0))
+      : shuffledPool
   const rules: SpreadRule<Question>[] = []
   if (category === undefined) {
     rules.push({ key: (question) => question.category, max: MAX_SAME_CATEGORY_IN_A_ROW })
