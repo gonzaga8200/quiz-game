@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.21.1](https://github.com/gonzaga8200/quiz-game/compare/v0.21.0...v0.21.1) (2026-11-22)
+
+
+### Bug fixes
+
+* **game:** show the streak banner above the question instead of over it ([#65](https://github.com/gonzaga8200/quiz-game/issues/65)) ([7fbfc2f](https://github.com/gonzaga8200/quiz-game/commit/7fbfc2fe30f1e3662cb1ccc477ac602f424b992b))
+
 ## [0.21.0](https://github.com/gonzaga8200/quiz-game/compare/v0.20.1...v0.21.0) (2026-11-22)
 
 
