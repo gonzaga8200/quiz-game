@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.23.0](https://github.com/gonzaga8200/quiz-game/compare/v0.22.0...v0.23.0) (2026-11-22)
+
+
+### Features
+
+* **questions:** add 149 Cine y televisión questions on Spanish cinema and television ([#70](https://github.com/gonzaga8200/quiz-game/issues/70)) ([a057ca3](https://github.com/gonzaga8200/quiz-game/commit/a057ca37ad4b955d4a781a675ee04bf718aa4b59))
+
 ## [0.22.0](https://github.com/gonzaga8200/quiz-game/compare/v0.21.1...v0.22.0) (2026-11-22)
 
 
