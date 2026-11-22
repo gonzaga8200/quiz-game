@@ -227,4 +227,67 @@ describe('useGameSession', () => {
     vi.advanceTimersByTime(70_000)
     expect(session.report.value).not.toBeNull()
   })
+
+  describe('memory of shown questions', () => {
+    it('reports the shown questions once when the game ends', () => {
+      const bank = makeBank('medio', 2)
+      const onShown = vi.fn()
+      const { session, scope } = setup({ questions: bank, onShown })
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600)
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600)
+
+      expect(session.report.value?.finishReason).toBe('exhausted')
+      expect(onShown).toHaveBeenCalledOnce()
+      expect([...(onShown.mock.calls[0]?.[0] as string[])].sort()).toEqual(
+        bank.map((q) => q.id).sort(),
+      )
+
+      scope.stop() // leaving the screen after the end must not count the game twice
+      expect(onShown).toHaveBeenCalledOnce()
+    })
+
+    it('reports when the player leaves mid-game, including the question on screen', () => {
+      const onShown = vi.fn()
+      const { session, scope } = setup({ onShown })
+      session.answer(rightIndex(session))
+      vi.advanceTimersByTime(600) // the second question is now on screen
+      expect(onShown).not.toHaveBeenCalled()
+
+      scope.stop()
+
+      expect(onShown).toHaveBeenCalledOnce()
+      expect(onShown.mock.calls[0]?.[0]).toHaveLength(2)
+    })
+
+    it('reports nothing when no question was shown', () => {
+      const onShown = vi.fn()
+      const scope = effectScope()
+      scope.run(() =>
+        useGameSession({
+          questions: makeBank('medio', 3),
+          filter: 'Aleatorio',
+          duration: 60,
+          rng: mulberry32(1),
+          now: () => Date.now(),
+          onShown,
+        }),
+      )
+      scope.stop()
+      expect(onShown).not.toHaveBeenCalled()
+    })
+
+    it('uses the memory to choose the first question', () => {
+      const bank = makeBank('medio', 6)
+      const seen = new Map(bank.slice(1).map((q) => [q.id, 3] as const))
+      const { session, scope } = setup({
+        questions: bank,
+        category: 'Historia y Geografía',
+        seen,
+      })
+      expect(session.question.value?.id).toBe((bank[0] as { id: string }).id)
+      scope.stop()
+    })
+  })
 })

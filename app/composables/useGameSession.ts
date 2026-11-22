@@ -35,6 +35,13 @@ export interface SessionOptions {
   duration: Duration
   /** Only serve questions of this category (arcade mode). */
   category?: Category
+  /** How many times this device has shown each question; the least shown are served first. */
+  seen?: ReadonlyMap<string, number>
+  /**
+   * Called once, with the ids of the questions presented, when the game ends or the screen
+   * is left mid-game. It is not called if no question was shown.
+   */
+  onShown?: (ids: readonly string[]) => void
   effects?: SessionEffects
   rng?: Rng
   /** Monotonic clock in ms. Defaults to `performance.now`. */
@@ -57,6 +64,7 @@ export function useGameSession(options: SessionOptions) {
     filter: options.filter,
     duration: options.duration,
     ...(options.category ? { category: options.category } : {}),
+    ...(options.seen ? { seen: options.seen } : {}),
     rng: options.rng ?? Math.random,
     now: options.now ?? (() => performance.now()),
   })
@@ -85,10 +93,22 @@ export function useGameSession(options: SessionOptions) {
     feedbackTimer = undefined
   }
 
+  let shownReported = false
+
+  /** Hands the presented question ids to `onShown`, once per session and only if any. */
+  function reportShown(): void {
+    if (shownReported) return
+    const ids = game.shownIds()
+    if (ids.length === 0) return
+    shownReported = true
+    options.onShown?.(ids)
+  }
+
   /** Ends the session once: freezes the state and builds the report. */
   function finalize(): void {
     if (report.value !== null) return
     stopTimers()
+    reportShown()
     feedback.value = null
     refresh()
     question.value = null
@@ -153,7 +173,11 @@ export function useGameSession(options: SessionOptions) {
     advance()
   }
 
-  onScopeDispose(stopTimers)
+  // Leaving the screen mid-game also counts what was shown (a no-op after the game ended).
+  onScopeDispose(() => {
+    stopTimers()
+    reportShown()
+  })
 
   return {
     snapshot,
