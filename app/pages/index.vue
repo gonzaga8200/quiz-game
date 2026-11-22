@@ -61,8 +61,9 @@ const sound = useSound()
           <template v-else>
             <GoogleSignInButton @click="signIn" />
             <p class="note">
-              Entra con Google para jugar en modo competitivo. Tu nombre y tu foto de Google serán
-              visibles en el ranking.
+              Entra con Google para jugar en modo competitivo (mayores de 14 años). Tu nombre, tu
+              foto de Google y tu puntuación serán visibles en el ranking.
+              <NuxtLink to="/cookies">Más información sobre privacidad</NuxtLink>.
             </p>
             <p v-if="error" class="note note--error" role="alert">{{ error }}</p>
           </template>
@@ -170,6 +171,11 @@ const sound = useSound()
 .note {
   font-size: 0.9375rem;
   color: var(--crema-suave);
+}
+
+.note a {
+  color: var(--oro-claro);
+  font-weight: 700;
 }
 
 .note--error {

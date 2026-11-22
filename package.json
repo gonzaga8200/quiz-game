@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Contrarreloj: a timed Spanish quiz game (Nuxt 4, Firebase).",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=22.12"
   },
