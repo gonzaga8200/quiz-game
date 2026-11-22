@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.19.0](https://github.com/gonzaga8200/quiz-game/compare/v0.18.0...v0.19.0) (2026-11-21)
+
+
+### Features
+
+* **seo:** add question pages per category and arcade games by category ([#55](https://github.com/gonzaga8200/quiz-game/issues/55)) ([510645e](https://github.com/gonzaga8200/quiz-game/commit/510645e63e55f6408978bbc5c6fe10c2d53c50f4))
+
 ## [0.18.0](https://github.com/gonzaga8200/quiz-game/compare/v0.17.0...v0.18.0) (2026-11-21)
 
 
