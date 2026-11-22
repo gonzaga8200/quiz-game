@@ -42,6 +42,13 @@ const storage = [
     duration: '1 hora',
   },
   {
+    name: 'contrarreloj.seen.v1 (localStorage)',
+    purpose:
+      'Recordar qué preguntas has visto en este dispositivo para repetirlas lo menos posible. No contiene datos personales y no se envía a ningún sitio.',
+    kind: 'Funcional, solo en tu dispositivo',
+    duration: 'Hasta que borres los datos del navegador',
+  },
+  {
     name: '_ga y _ga_<identificador> (cookies de Google Analytics)',
     purpose: 'Distinguir visitas y medir el uso del juego de forma estadística.',
     kind: 'Analítica, solo si aceptas',
@@ -68,6 +75,11 @@ const storage = [
       <p>
         Contrarreloj usa cookies y almacenamiento local del navegador. Lo imprescindible para que el
         juego funcione no necesita tu permiso. La analítica solo se activa si la aceptas.
+      </p>
+      <p>
+        Además, el juego recuerda en tu dispositivo qué preguntas has visto para no repetírtelas
+        enseguida. Ese dato no sale de tu navegador y puedes borrarlo en cualquier momento desde los
+        ajustes de datos del sitio.
       </p>
       <div class="table-wrap">
         <table class="policy__table">

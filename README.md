@@ -259,11 +259,20 @@ you what else moves.
 - The timer keeps running during the ~600 ms feedback after an answer. A question answered
   before the clock hits zero counts even if the animation runs past it. A question still
   open when the clock hits zero is discarded.
-- Questions are drawn in random order, with options shuffled at play time. In random mode
-  (`Aleatorio`, which includes arcade) the order is also spread out: never more than two
-  questions in a row of the same category or the same difficulty (`MAX_SAME_IN_A_ROW` in
-  `core/constants.ts`). The `Fácil`, `Medio` and `Difícil` filters are only shuffled. If
-  the bank runs out before the time does, the game ends early.
+- Questions are drawn in random order, with options shuffled at play time. The order is
+  also spread out: never two questions in a row of the same category
+  (`MAX_SAME_CATEGORY_IN_A_ROW` in `core/constants.ts`), in every filter except arcade
+  with a single category. In random mode (`Aleatorio`) there are also never more than two
+  in a row of the same difficulty (`MAX_SAME_IN_A_ROW`). If the questions left cannot meet
+  a limit (for example only one category remains) the limit is relaxed at the end of the
+  queue; no question is dropped. If the bank runs out before the time does, the game ends
+  early.
+- Each device remembers how many times it has shown every question (`contrarreloj.seen.v1`
+  in `localStorage`, only in the browser and never sent anywhere). A new game serves the
+  questions shown the fewest times first, with ties broken at random, so repeats come as
+  late as possible. The memory is saved once when a game ends or the screen is left, forgets
+  questions that are no longer in the bank, and if storage is blocked or corrupt the game
+  behaves as if it were empty.
 - Celebration tiers (confetti emojis) are based on points per minute, so 60 s and 120 s
   games are comparable: 150+ trophy, 90+ party, 45+ applause, 15+ thumbs up, otherwise a
   gentle encouragement. Thresholds live in `core/celebration.ts`.
@@ -291,7 +300,8 @@ you what else moves.
   not ranked. A player's position is the number of players with strictly more points, plus one,
   so ties share a position.
 - Questions are fetched from Firestore, cached for an hour in `localStorage`, and the bundled
-  questions are used if Firestore is empty or unreachable (6 s timeout).
+  questions are used if Firestore is empty or unreachable (6 s timeout). The per-device memory
+  of shown questions does not touch Firestore: it adds no reads or writes.
 
 **Data**
 

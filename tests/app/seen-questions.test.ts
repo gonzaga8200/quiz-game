@@ -1,4 +1,6 @@
+import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
+import { QUESTION_CACHE_KEY } from '../../app/utils/question-cache'
 import type { StorageLike } from '../../app/utils/question-cache'
 import { SEEN_KEY, readSeen, recordSeen } from '../../app/utils/seen-questions'
 
@@ -87,5 +89,19 @@ describe('seen questions memory', () => {
     expect(readSeen(failingRead)).toEqual(new Map())
     expect(() => recordSeen(failingRead, ['a'], bank('a'))).not.toThrow()
     expect(() => recordSeen(failingWrite, ['a'], bank('a'))).not.toThrow()
+  })
+})
+
+describe('cookie policy', () => {
+  it('lists every localStorage key the app uses', () => {
+    const page = readFileSync('app/pages/cookies.vue', 'utf8')
+    for (const key of [
+      SEEN_KEY,
+      QUESTION_CACHE_KEY,
+      'contrarreloj.consent',
+      'contrarreloj.muted',
+    ]) {
+      expect(page, key).toContain(key)
+    }
   })
 })

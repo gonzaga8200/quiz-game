@@ -32,28 +32,30 @@
 
 ## Estructura de ficheros
 
-| Fichero | Cambio |
-|---|---|
-| `core/constants.ts` | constante nueva `MAX_SAME_CATEGORY_IN_A_ROW` |
-| `core/selection.ts` | `spreadRuns` con reglas por clave; `buildQueue` con regla de categoría y parámetro `seen` |
-| `core/game.ts` | `GameConfig.seen` y `Game.shownIds()` |
-| `app/utils/browser-storage.ts` | nuevo: `browserStorage()` movido desde `useQuestionBank.ts` |
-| `app/utils/seen-questions.ts` | nuevo: leer y registrar la memoria |
-| `app/composables/useSeenQuestions.ts` | nuevo: conecta la utilidad con el almacenamiento real |
-| `app/composables/useGameSession.ts` | opciones `seen` y `onShown` |
-| `app/components/game/GamePlay.vue` | pasa `seen` y `onShown` a la sesión |
-| `app/pages/cookies.vue`, `README.md` | política de cookies y documentación |
-| `tests/core/streaks.test.ts`, `tests/core/variety.test.ts`, `tests/app/seen-questions.test.ts`, `tests/app/useGameSession.test.ts` | pruebas |
+| Fichero                                                                                                                            | Cambio                                                                                    |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `core/constants.ts`                                                                                                                | constante nueva `MAX_SAME_CATEGORY_IN_A_ROW`                                              |
+| `core/selection.ts`                                                                                                                | `spreadRuns` con reglas por clave; `buildQueue` con regla de categoría y parámetro `seen` |
+| `core/game.ts`                                                                                                                     | `GameConfig.seen` y `Game.shownIds()`                                                     |
+| `app/utils/browser-storage.ts`                                                                                                     | nuevo: `browserStorage()` movido desde `useQuestionBank.ts`                               |
+| `app/utils/seen-questions.ts`                                                                                                      | nuevo: leer y registrar la memoria                                                        |
+| `app/composables/useSeenQuestions.ts`                                                                                              | nuevo: conecta la utilidad con el almacenamiento real                                     |
+| `app/composables/useGameSession.ts`                                                                                                | opciones `seen` y `onShown`                                                               |
+| `app/components/game/GamePlay.vue`                                                                                                 | pasa `seen` y `onShown` a la sesión                                                       |
+| `app/pages/cookies.vue`, `README.md`                                                                                               | política de cookies y documentación                                                       |
+| `tests/core/streaks.test.ts`, `tests/core/variety.test.ts`, `tests/app/seen-questions.test.ts`, `tests/app/useGameSession.test.ts` | pruebas                                                                                   |
 
 ---
 
 ### Task 1: Regla de categorías (límite 1)
 
 **Ficheros:**
+
 - Modificar: `core/constants.ts` (junto a `MAX_SAME_IN_A_ROW`, línea 36), `core/selection.ts`
 - Prueba: `tests/core/streaks.test.ts`
 
 **Interfaces:**
+
 - Produce:
   - `export const MAX_SAME_CATEGORY_IN_A_ROW = 1` (con comentario: se aplica a la categoría en todos los filtros salvo arcade).
   - `export interface SpreadRule<T> { readonly key: (item: T) => string; readonly max: number }`
@@ -101,10 +103,12 @@ git commit -m "feat(game): never serve two questions in a row of the same catego
 ### Task 2: Memoria en el núcleo (orden por veces vista)
 
 **Ficheros:**
+
 - Modificar: `core/selection.ts`, `core/game.ts`
 - Crear: `tests/core/variety.test.ts`
 
 **Interfaces:**
+
 - Consume: `spreadRuns` y `buildQueue` de la Tarea 1.
 - Produce:
   - `buildQueue(questions, filter, rng, category?, seen?: ReadonlyMap<string, number>): PlayableQuestion[]`
@@ -146,11 +150,13 @@ git commit -m "feat(game): serve first the questions a device has seen the least
 ### Task 3: Memoria en el dispositivo (almacenamiento)
 
 **Ficheros:**
+
 - Crear: `app/utils/browser-storage.ts`, `app/utils/seen-questions.ts`
 - Modificar: `app/composables/useQuestionBank.ts` (importa `browserStorage` en vez de definirla)
 - Prueba: `tests/app/seen-questions.test.ts`
 
 **Interfaces:**
+
 - Consume: `StorageLike` de `app/utils/question-cache.ts`.
 - Produce:
   - `export function browserStorage(): StorageLike | null` (el mismo cuerpo que hoy en `useQuestionBank.ts`: `window.localStorage` dentro de `try/catch`).
@@ -192,11 +198,13 @@ git commit -m "feat(app): remember on the device how many times each question wa
 ### Task 4: Conectar la memoria a la partida
 
 **Ficheros:**
+
 - Crear: `app/composables/useSeenQuestions.ts`
 - Modificar: `app/composables/useGameSession.ts`, `app/components/game/GamePlay.vue`
 - Prueba: `tests/app/useGameSession.test.ts`
 
 **Interfaces:**
+
 - Consume: `readSeen`, `recordSeen`, `browserStorage` (Tarea 3); `GameConfig.seen`, `Game.shownIds()` (Tarea 2).
 - Produce:
   - `SessionOptions.seen?: ReadonlyMap<string, number>` y `SessionOptions.onShown?: (ids: readonly string[]) => void`.
@@ -235,10 +243,12 @@ git commit -m "feat(app): save the shown questions when a game ends or is left"
 ### Task 5: Política de cookies y documentación
 
 **Ficheros:**
+
 - Modificar: `app/pages/cookies.vue`, `README.md`
 - Prueba: añadir a `tests/app/seen-questions.test.ts` (o fichero nuevo `tests/app/cookies-policy.test.ts`)
 
 **Interfaces:**
+
 - Consume: `SEEN_KEY` (Tarea 3), `QUESTION_CACHE_KEY` de `app/utils/question-cache.ts`.
 
 - [ ] **Paso 1: escribir la prueba que falla**: `'the cookie policy lists every localStorage key the app uses'`. Lee `app/pages/cookies.vue` y espera que contenga `SEEN_KEY`, `QUESTION_CACHE_KEY`, `'contrarreloj.consent'` y `'contrarreloj.muted'`.
@@ -269,6 +279,7 @@ npm run format:check
 npm run typecheck
 npm run test:coverage
 ```
+
 Esperado: los cuatro en verde; `core/` al 100 %. Si `format:check` falla, ejecutar `npx prettier --write` solo sobre los ficheros tocados.
 
 - [ ] **Paso 6: commit**
