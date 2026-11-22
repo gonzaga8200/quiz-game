@@ -190,7 +190,9 @@ describe('import helpers', () => {
   })
 })
 
-describe('questions:validate command', () => {
+// Each test starts a tsx process that loads the whole bank. That takes ~3 s locally and more on
+// a shared CI runner, and it grows with the bank, so the default 5 s is not enough.
+describe('questions:validate command', { timeout: 30_000 }, () => {
   const run = (...args: string[]) => {
     try {
       const stdout = execFileSync('npx', ['tsx', 'scripts/validate-questions.ts', ...args], {
