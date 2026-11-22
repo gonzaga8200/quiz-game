@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.21.0](https://github.com/gonzaga8200/quiz-game/compare/v0.20.1...v0.21.0) (2026-11-22)
+
+
+### Features
+
+* **legal:** add copyright, legal notice and all-rights-reserved license ([#62](https://github.com/gonzaga8200/quiz-game/issues/62)) ([65f4c49](https://github.com/gonzaga8200/quiz-game/commit/65f4c499c5ecbafb2b81bc3bde28577642671bdb))
+
 ## [0.20.1](https://github.com/gonzaga8200/quiz-game/compare/v0.20.0...v0.20.1) (2026-11-22)
 
 
