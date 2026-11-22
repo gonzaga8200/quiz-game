@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.22.0](https://github.com/gonzaga8200/quiz-game/compare/v0.21.1...v0.22.0) (2026-11-22)
+
+
+### Features
+
+* **questions:** add 100 Historia y Geografía questions on the Second World War ([#67](https://github.com/gonzaga8200/quiz-game/issues/67)) ([2681a7a](https://github.com/gonzaga8200/quiz-game/commit/2681a7a3f23d341e6ccba26999e545c6ef95bd7f))
+
 ## [0.21.1](https://github.com/gonzaga8200/quiz-game/compare/v0.21.0...v0.21.1) (2026-11-22)
 
 
