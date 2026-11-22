@@ -171,7 +171,7 @@ cache and security headers). Three GitHub Actions workflows do the work:
 | Workflow             | When                         | What                                                                           |
 | -------------------- | ---------------------------- | ------------------------------------------------------------------------------ |
 | `ci.yml`             | pull requests, pushes        | lint, format, typecheck, validate questions, unit and rules tests, build       |
-| `preview.yml`        | pull requests (same repo)    | deploys a temporary Hosting channel (7 days) and comments the URL on the PR    |
+| `preview.yml`        | pull requests (same repo)    | deploys a temporary Hosting channel and comments the URL; deletes it on close  |
 | `release-please.yml` | pushes to `main`             | opens or updates the release PR; when it is merged, tags, releases and deploys |
 | `deploy.yml`         | release, called by the above | builds the tag and publishes it to the live channel                            |
 
@@ -212,6 +212,12 @@ _Run workflow_.
 Each preview has its own domain (`contrarreloj-quiz--pr12-....web.app`). Firebase Auth only
 accepts sign-in on _authorized domains_, which have to be added one by one, so previews are
 meant for checking the UI and arcade mode; sign-in works on `localhost` and the live site.
+
+A site holds at most 50 preview channels (more fails with HTTP 429 "channel quota reached").
+To stay far from that, release-please PRs get no preview, the channel is deleted when its PR is
+closed or merged, and a leftover channel expires after 2 days. If the quota is ever reached
+anyway, list them with `npx firebase hosting:channel:list --project contrarreloj-quiz` and
+delete the old ones with `hosting:channel:delete <id>`.
 
 ## Architecture
 
