@@ -1,4 +1,4 @@
-import { MAX_SAME_IN_A_ROW } from './constants'
+import { MAX_SAME_CATEGORY_IN_A_ROW, MAX_SAME_IN_A_ROW } from './constants'
 import type { Category, Difficulty, DifficultyFilter } from './constants'
 import { difficultiesFor } from './filters'
 import type { Rng } from './rng'
@@ -36,30 +36,32 @@ export function toPlayable(question: Question, rng: Rng): PlayableQuestion {
   }
 }
 
+/** A limit on how many consecutive items may share the same `key` value. */
+export interface SpreadRule<T> {
+  readonly key: (item: T) => string
+  readonly max: number
+}
+
 /**
- * Reorders `items` so that no more than `maxRun` consecutive items share the same value
- * for any of the `keys`. The original order is kept as much as possible: at each position
- * it takes the first remaining item that does not extend a run past the limit, so a random
+ * Reorders `items` so that no more than `rule.max` consecutive items share the same `key`
+ * value, for every rule. The original order is kept as much as possible: at each position
+ * it takes the first remaining item that does not extend a run past a limit, so a random
  * input stays random.
  *
- * Nothing is ever dropped. If the items left cannot meet the limit (for example only one
- * category remains) it takes the one that breaks the fewest keys, so the list degrades
+ * Nothing is ever dropped. If the items left cannot meet the limits (for example only one
+ * category remains) it takes the one that breaks the fewest rules, so the list degrades
  * gracefully at the end instead of failing.
  */
-export function spreadRuns<T>(
-  items: readonly T[],
-  keys: readonly ((item: T) => string)[],
-  maxRun: number,
-): T[] {
+export function spreadRuns<T>(items: readonly T[], rules: readonly SpreadRule<T>[]): T[] {
   const remaining = [...items]
   const out: T[] = []
 
-  /** How many keys this item would push past the limit if placed next. */
-  const violations = (item: T): number => {
-    if (out.length < maxRun) return 0
-    const tail = out.slice(-maxRun)
-    return keys.filter((key) => tail.every((placed) => key(placed) === key(item))).length
-  }
+  /** How many rules this item would break if placed next. */
+  const violations = (item: T): number =>
+    rules.filter(({ key, max }) => {
+      if (out.length < max) return false
+      return out.slice(-max).every((placed) => key(placed) === key(item))
+    }).length
 
   while (remaining.length > 0) {
     let best = 0
@@ -81,12 +83,13 @@ export function spreadRuns<T>(
  * match the filter, duplicates (same id) dropped, randomly ordered. Walking the
  * queue once guarantees a question is never repeated within a game.
  *
- * In random mode (`Aleatorio`) the order is also spread out: never more than
- * `MAX_SAME_IN_A_ROW` questions in a row of the same category or the same difficulty.
- * The other filters already narrow the difficulty, so they are left as shuffled.
+ * The order is also spread out. Without a `category`, in every filter, never more than
+ * `MAX_SAME_CATEGORY_IN_A_ROW` questions in a row of the same category. In random mode
+ * (`Aleatorio`), never more than `MAX_SAME_IN_A_ROW` in a row of the same difficulty (the
+ * other filters already narrow the difficulty).
  *
- * With a `category` only that category is served, and the spreading only looks at the
- * difficulty (every question already shares the category).
+ * With a `category` only that category is served, so there is no category rule and the
+ * spreading only looks at the difficulty (random mode).
  */
 export function buildQueue(
   questions: readonly Question[],
@@ -104,15 +107,13 @@ export function buildQueue(
     return true
   })
   const order = shuffled(pool, rng)
-  const ordered =
-    filter === 'Aleatorio'
-      ? spreadRuns(
-          order,
-          category === undefined
-            ? [(question) => question.category, (question) => question.difficulty]
-            : [(question) => question.difficulty],
-          MAX_SAME_IN_A_ROW,
-        )
-      : order
+  const rules: SpreadRule<Question>[] = []
+  if (category === undefined) {
+    rules.push({ key: (question) => question.category, max: MAX_SAME_CATEGORY_IN_A_ROW })
+  }
+  if (filter === 'Aleatorio') {
+    rules.push({ key: (question) => question.difficulty, max: MAX_SAME_IN_A_ROW })
+  }
+  const ordered = rules.length > 0 ? spreadRuns(order, rules) : order
   return ordered.map((question) => toPlayable(question, rng))
 }
