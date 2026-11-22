@@ -38,8 +38,9 @@ export interface SessionOptions {
   /** How many times this device has shown each question; the least shown are served first. */
   seen?: ReadonlyMap<string, number>
   /**
-   * Called once, with the ids of the questions presented, when the game ends or the screen
-   * is left mid-game. It is not called if no question was shown.
+   * Called with the ids of the questions presented since the previous call: when the page is
+   * hidden or closed, when the game ends and when the screen is left. A question is never
+   * reported twice, and it is not called when there is nothing new.
    */
   onShown?: (ids: readonly string[]) => void
   effects?: SessionEffects
@@ -93,15 +94,22 @@ export function useGameSession(options: SessionOptions) {
     feedbackTimer = undefined
   }
 
-  let shownReported = false
+  let reportedCount = 0
 
-  /** Hands the presented question ids to `onShown`, once per session and only if any. */
+  /**
+   * Hands `onShown` the questions presented since the last report, if any. It can run several
+   * times (page hidden, game over, screen left) and never reports a question twice. Saving the
+   * memory must never get in the way of the game, so a failing callback is swallowed.
+   */
   function reportShown(): void {
-    if (shownReported) return
-    const ids = game.shownIds()
+    const ids = game.shownIds().slice(reportedCount)
     if (ids.length === 0) return
-    shownReported = true
-    options.onShown?.(ids)
+    reportedCount += ids.length
+    try {
+      options.onShown?.(ids)
+    } catch {
+      // The memory is a nicety: losing a save is better than breaking the screen.
+    }
   }
 
   /** Ends the session once: freezes the state and builds the report. */
@@ -173,8 +181,22 @@ export function useGameSession(options: SessionOptions) {
     advance()
   }
 
-  // Leaving the screen mid-game also counts what was shown (a no-op after the game ended).
+  // Leaving the screen mid-game also counts what was shown. A reload, a closed tab or a phone
+  // suspending the app never dispose the scope, so the page being hidden saves it too.
+  const onPageHide = (): void => reportShown()
+  const onVisibilityChange = (): void => {
+    if (document.visibilityState === 'hidden') reportShown()
+  }
+  if (typeof window !== 'undefined') {
+    window.addEventListener('pagehide', onPageHide)
+    document.addEventListener('visibilitychange', onVisibilityChange)
+  }
+
   onScopeDispose(() => {
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('pagehide', onPageHide)
+      document.removeEventListener('visibilitychange', onVisibilityChange)
+    }
     stopTimers()
     reportShown()
   })
