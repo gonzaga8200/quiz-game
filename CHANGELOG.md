@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.27.0](https://github.com/gonzaga8200/quiz-game/compare/v0.26.0...v0.27.0) (2026-11-23)
+
+
+### Features
+
+* **questions:** add 300 Música questions on pop and rock from the 80s to today ([#82](https://github.com/gonzaga8200/quiz-game/issues/82)) ([3e25327](https://github.com/gonzaga8200/quiz-game/commit/3e25327080bdac2323482f6b117f4ff719db597e))
+
 ## [0.26.0](https://github.com/gonzaga8200/quiz-game/compare/v0.25.0...v0.26.0) (2026-11-23)
 
 
