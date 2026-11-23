@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.26.0](https://github.com/gonzaga8200/quiz-game/compare/v0.25.0...v0.26.0) (2026-11-23)
+
+
+### Features
+
+* **game:** choose a category in competitive mode, add Música and sharpen the mistake feedback ([#80](https://github.com/gonzaga8200/quiz-game/issues/80)) ([221cab6](https://github.com/gonzaga8200/quiz-game/commit/221cab618fce5759ee3b32fbb83c50b85f63d59e))
+* **questions:** add 299 Arte y Literatura and Historia y Geografía questions on impressionist and realist painters and the First World War ([#78](https://github.com/gonzaga8200/quiz-game/issues/78)) ([08dc73d](https://github.com/gonzaga8200/quiz-game/commit/08dc73d7a215e183f04042b4b37bf41c3a5261d5))
+
 ## [0.25.0](https://github.com/gonzaga8200/quiz-game/compare/v0.24.0...v0.25.0) (2026-11-22)
 
 
