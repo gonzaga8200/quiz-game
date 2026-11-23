@@ -1,7 +1,12 @@
 import { describe, expect, it } from 'vitest'
 import { CATEGORIES, DIFFICULTIES } from '../../core/constants'
 import type { Category, Difficulty } from '../../core/constants'
-import { categoryFromSlug, categoryUrlSlug } from '../../core/categories'
+import {
+  RANDOM_CATEGORY,
+  categoryFromSlug,
+  categoryOfChoice,
+  categoryUrlSlug,
+} from '../../core/categories'
 import { Game } from '../../core/game'
 import { mulberry32 } from '../../core/rng'
 import { buildQueue } from '../../core/selection'
@@ -43,6 +48,16 @@ describe('category URL slugs', () => {
       expect(categoryFromSlug(value)).toBeNull()
     },
   )
+})
+
+describe('categoryOfChoice', () => {
+  it('turns "Aleatorio" into no category at all', () => {
+    expect(categoryOfChoice(RANDOM_CATEGORY)).toBeUndefined()
+  })
+
+  it.each(CATEGORIES)('keeps %s as it is', (category) => {
+    expect(categoryOfChoice(category)).toBe(category)
+  })
 })
 
 describe('buildQueue with a category', () => {

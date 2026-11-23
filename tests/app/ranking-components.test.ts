@@ -2,8 +2,11 @@ import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
 import RankingList from '../../app/components/ranking/RankingList.vue'
 import RankingResult from '../../app/components/ranking/RankingResult.vue'
-import RankingTabs from '../../app/components/ranking/RankingTabs.vue'
-import type { BoardId, RankingEntry } from '../../core'
+import RankingFilters from '../../app/components/ranking/RankingFilters.vue'
+import CategoryPicker from '../../app/components/CategoryPicker.vue'
+import { describeBoard } from '../../app/utils/format'
+import { CATEGORIES } from '../../core'
+import type { CategoryChoice, DifficultyFilter, Duration, RankingEntry } from '../../core'
 
 const entry = (
   uid: string,
@@ -23,66 +26,102 @@ const entry = (
   createdAt: '2026-01-01T00:00:00.000Z',
 })
 
-describe('RankingTabs', () => {
-  const mountTabs = (modelValue: BoardId = '60_aleatorio') =>
-    mount(RankingTabs, {
-      props: { modelValue, 'onUpdate:modelValue': () => {} },
+describe('RankingFilters', () => {
+  const mountFilters = (
+    props: { duration?: Duration; filter?: DifficultyFilter; category?: CategoryChoice } = {},
+  ) =>
+    mount(RankingFilters, {
+      props: {
+        duration: 60,
+        filter: 'Aleatorio',
+        category: 'Aleatorio',
+        ...props,
+        'onUpdate:duration': () => {},
+        'onUpdate:filter': () => {},
+        'onUpdate:category': () => {},
+      },
       attachTo: document.body,
     })
 
-  it('renders one tab per duration and difficulty (8)', () => {
-    const wrapper = mountTabs()
-    const tabs = wrapper.findAll('[role="tab"]')
-    expect(tabs).toHaveLength(8)
-    expect(tabs[0]?.text()).toContain('60 s')
-    expect(tabs[0]?.text()).toContain('Aleatorio')
-    expect(tabs[7]?.text()).toContain('120 s')
-    expect(tabs[7]?.text()).toContain('Difícil')
+  const radios = (wrapper: ReturnType<typeof mountFilters>, name: string) =>
+    wrapper.findAll<HTMLInputElement>(`input[name="${name}"]`)
+
+  it('offers the three choices: 2 times, 4 difficulties and every category plus "Aleatorio"', () => {
+    const wrapper = mountFilters()
+    expect(radios(wrapper, 'ranking-duration')).toHaveLength(2)
+    expect(radios(wrapper, 'ranking-filter')).toHaveLength(4)
+    expect(radios(wrapper, 'ranking-category')).toHaveLength(CATEGORIES.length + 1)
     wrapper.unmount()
   })
 
-  it('marks only the selected tab and makes it the only tab stop', () => {
-    const wrapper = mountTabs('120_medio')
-    const tabs = wrapper.findAll('[role="tab"]')
-    expect(tabs.filter((t) => t.attributes('aria-selected') === 'true')).toHaveLength(1)
-    expect(wrapper.find('#tab-120_medio').attributes('aria-selected')).toBe('true')
-    expect(wrapper.find('#tab-120_medio').attributes('tabindex')).toBe('0')
-    expect(wrapper.find('#tab-60_medio').attributes('tabindex')).toBe('-1')
+  it('checks the current choice in each group', () => {
+    const wrapper = mountFilters({ duration: 120, filter: 'Medio', category: 'Ciencias' })
+    const checked = (name: string) =>
+      radios(wrapper, name)
+        .filter((input) => input.element.checked)
+        .map((input) => input.element.value)
+    expect(checked('ranking-duration')).toEqual(['120'])
+    expect(checked('ranking-filter')).toEqual(['Medio'])
+    expect(checked('ranking-category')).toEqual(['Ciencias'])
     wrapper.unmount()
   })
 
-  it('selects a tab on click', async () => {
-    const wrapper = mountTabs()
-    await wrapper.find('#tab-120_facil').trigger('click')
-    expect(wrapper.emitted('update:modelValue')).toEqual([['120_facil']])
+  it('tells each model apart when the player picks something', async () => {
+    const wrapper = mountFilters()
+    await radios(wrapper, 'ranking-duration')[1]?.setValue()
+    await radios(wrapper, 'ranking-filter')[3]?.setValue()
+    await radios(wrapper, 'ranking-category')[5]?.setValue()
+    expect(wrapper.emitted('update:duration')).toEqual([[120]])
+    expect(wrapper.emitted('update:filter')).toEqual([['Difícil']])
+    expect(wrapper.emitted('update:category')).toEqual([['Ciencias']])
     wrapper.unmount()
   })
 
-  it.each([
-    ['ArrowRight', '60_facil'],
-    ['ArrowDown', '60_facil'],
-    ['ArrowLeft', '120_dificil'], // wraps around
-    ['ArrowUp', '120_dificil'],
-    ['End', '120_dificil'],
-  ])('%s from the first tab selects %s', async (key, expected) => {
-    const wrapper = mountTabs()
-    await wrapper.find('#tab-60_aleatorio').trigger('keydown', { key })
-    expect(wrapper.emitted('update:modelValue')?.[0]).toEqual([expected])
+  it('lists "Aleatorio" first and then every category', () => {
+    const wrapper = mountFilters()
+    expect(radios(wrapper, 'ranking-category').map((input) => input.element.value)).toEqual([
+      'Aleatorio',
+      ...CATEGORIES,
+    ])
     wrapper.unmount()
   })
+})
 
-  it('Home jumps to the first tab from anywhere', async () => {
-    const wrapper = mountTabs('120_medio')
-    await wrapper.find('#tab-120_medio').trigger('keydown', { key: 'Home' })
-    expect(wrapper.emitted('update:modelValue')?.[0]).toEqual(['60_aleatorio'])
-    wrapper.unmount()
+describe('CategoryPicker', () => {
+  it('offers "Aleatorio" first and an even number of options, so the tiles never leave a stray one', () => {
+    const wrapper = mount(CategoryPicker, {
+      props: { modelValue: 'Aleatorio', legend: 'Categoría', name: 'c' },
+    })
+    const labels = wrapper.findAll('.choice__label').map((label) => label.text())
+    expect(labels[0]).toBe('Aleatorio')
+    expect(labels).toEqual(['Aleatorio', ...CATEGORIES])
+    expect(labels.length % 2).toBe(0)
   })
 
-  it('ignores other keys', async () => {
-    const wrapper = mountTabs()
-    await wrapper.find('#tab-60_aleatorio').trigger('keydown', { key: 'a' })
-    expect(wrapper.emitted('update:modelValue')).toBeUndefined()
-    wrapper.unmount()
+  it('gives each category the colour of its bookmark', () => {
+    const wrapper = mount(CategoryPicker, {
+      props: { modelValue: 'Aleatorio', legend: 'Categoría', name: 'c' },
+    })
+    const tones = wrapper.findAll('.choice').map((choice) => choice.attributes('data-tone'))
+    expect(tones).toEqual([
+      'todas',
+      'arte',
+      'historia',
+      'deportes',
+      'cine',
+      'ciencias',
+      'lengua',
+      'musica',
+    ])
+  })
+})
+
+describe('describeBoard', () => {
+  it('names the board with time, difficulty and, when there is one, category', () => {
+    expect(describeBoard(60, 'Aleatorio')).toBe('60 segundos, dificultad aleatoria')
+    expect(describeBoard(120, 'Difícil', 'Ciencias')).toBe(
+      '120 segundos, dificultad difícil, categoría Ciencias',
+    )
   })
 })
 
@@ -140,6 +179,17 @@ describe('RankingResult', () => {
     expect(wrapper.text()).toContain('Nuevo récord personal')
     expect(wrapper.text()).toContain('puesto 3')
     expect(wrapper.text()).toContain('60 segundos, dificultad aleatoria')
+  })
+
+  it('names the category when the game was limited to one', () => {
+    const wrapper = mount(RankingResult, {
+      props: {
+        ...props,
+        category: 'Ciencias',
+        state: { status: 'done', result: { status: 'new-best', best: 80, position: 2 } },
+      },
+    })
+    expect(wrapper.text()).toContain('60 segundos, dificultad aleatoria, categoría Ciencias')
   })
 
   it('reminds the player of their best when this game did not beat it', () => {

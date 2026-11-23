@@ -7,7 +7,7 @@ export interface GameSetup {
   readonly mode: GameMode
   readonly duration: Duration
   readonly filter: DifficultyFilter
-  /** Only in arcade mode: play a single category (`?categoria=`). */
+  /** Play a single category: `?categoria=` in arcade, the category chosen in competitive. */
   readonly category?: Category
 }
 

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { celebrationFor } from '../../core/celebration'
 import type { CelebrationTier } from '../../core/celebration'
-import { DIFFICULTY_FILTERS, DURATIONS } from '../../core/constants'
+import { CATEGORIES, DIFFICULTY_FILTERS, DURATIONS } from '../../core/constants'
 import { BOARDS, FILTER_SLUGS, boardId, isPersonalBest } from '../../core/filters'
 import {
   answerRight,
@@ -18,20 +18,26 @@ import { Game } from '../../core/game'
 import { mulberry32 } from '../../core/rng'
 
 describe('ranking boards', () => {
-  it('has one board per duration and difficulty filter (8 in total)', () => {
-    expect(BOARDS).toHaveLength(DURATIONS.length * DIFFICULTY_FILTERS.length)
-    expect(new Set(BOARDS.map((b) => b.id)).size).toBe(8)
+  it('has one board per duration, difficulty filter and category choice (64 in total)', () => {
+    expect(BOARDS).toHaveLength(
+      DURATIONS.length * DIFFICULTY_FILTERS.length * (CATEGORIES.length + 1),
+    )
+    expect(new Set(BOARDS.map((b) => b.id)).size).toBe(64)
   })
 
-  it('builds ASCII ids from duration and filter', () => {
+  it('builds ASCII ids from duration, filter and, when there is one, category', () => {
     expect(boardId(60, 'Aleatorio')).toBe('60_aleatorio')
     expect(boardId(120, 'Difícil')).toBe('120_dificil')
     expect(boardId(60, 'Fácil')).toBe('60_facil')
+    expect(boardId(60, 'Aleatorio', 'Ciencias')).toBe('60_aleatorio_ciencias')
+    expect(boardId(120, 'Medio', 'Historia y Geografía')).toBe('120_medio_historia-y-geografia')
+    expect(boardId(60, 'Difícil', 'Música')).toBe('60_dificil_musica')
     expect(Object.values(FILTER_SLUGS).every((slug) => /^[a-z]+$/.test(slug))).toBe(true)
+    expect(BOARDS.every((b) => /^(60|120)_[a-z]+(_[a-z-]+)?$/.test(b.id))).toBe(true)
   })
 
-  it('lists boards in display order (60 s first)', () => {
-    expect(BOARDS.map((b) => b.id)).toEqual([
+  it('keeps the original ids for games that mix every category', () => {
+    expect(BOARDS.filter((b) => b.category === undefined).map((b) => b.id)).toEqual([
       '60_aleatorio',
       '60_facil',
       '60_medio',
@@ -40,6 +46,19 @@ describe('ranking boards', () => {
       '120_facil',
       '120_medio',
       '120_dificil',
+    ])
+  })
+
+  it('lists boards in display order (60 s first, mixed categories before each category)', () => {
+    expect(BOARDS.slice(0, 8).map((b) => b.id)).toEqual([
+      '60_aleatorio',
+      '60_aleatorio_arte-y-literatura',
+      '60_aleatorio_historia-y-geografia',
+      '60_aleatorio_deportes',
+      '60_aleatorio_cine-y-television',
+      '60_aleatorio_ciencias',
+      '60_aleatorio_lengua-e-idiomas',
+      '60_aleatorio_musica',
     ])
   })
 
@@ -189,5 +208,20 @@ describe('buildReport', () => {
     })
     expect(report).toMatchObject({ duration: 120, filter: 'Medio', points: 7, correct: 1 })
     expect(report.celebration.tier).toBe('try')
+    expect('category' in report).toBe(false)
+  })
+
+  it('remembers the category the game was limited to', () => {
+    const game = new Game({
+      questions: makeBank('medio', 1),
+      filter: 'Medio',
+      duration: 60,
+      category: 'Historia y Geografía',
+      rng: mulberry32(1),
+      now: makeClock().now,
+    })
+    game.start()
+    answerRight(game) // the bank has a single question, so the game ends
+    expect(game.report()?.category).toBe('Historia y Geografía')
   })
 })

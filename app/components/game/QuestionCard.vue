@@ -83,18 +83,20 @@ watch(
       </span>
     </div>
 
-    <h2 id="question-text" ref="heading" class="card__question" tabindex="-1">
-      {{ question.text }}
-    </h2>
+    <div class="card__stage">
+      <h2 id="question-text" ref="heading" class="card__question" tabindex="-1">
+        {{ question.text }}
+      </h2>
 
-    <!-- A mistake gets a stamp over the question; the right answer is shown below it. -->
-    <p v-if="feedback && !feedback.correct" class="card__stamp" aria-hidden="true">
-      <IconCross />
-      <span>¡Fallo!</span>
-      <span v-if="feedback.penalty > 0" class="card__stamp-points">
-        {{ formatSigned(-feedback.penalty) }}
-      </span>
-    </p>
+      <!-- A mistake gets a stamp on the top edge of the question, never over it. -->
+      <p v-if="feedback && !feedback.correct" class="card__stamp" aria-hidden="true">
+        <IconCross />
+        <span>¡Fallo!</span>
+        <span v-if="feedback.penalty > 0" class="card__stamp-points">
+          {{ formatSigned(-feedback.penalty) }}
+        </span>
+      </p>
+    </div>
 
     <div class="card__orn" aria-hidden="true" />
 
@@ -178,17 +180,21 @@ watch(
   --cat: var(--cat-lengua);
 }
 
+.card[data-category='musica'] {
+  --cat: var(--cat-musica);
+}
+
 .card[data-feedback='correct'] {
   border-color: var(--acierto-linea);
   background-color: var(--acierto-tinte);
 }
 
 .card[data-feedback='wrong'] {
-  border-color: var(--fallo);
-  background-color: var(--fallo-tinte);
+  border-color: var(--fallo-vivo);
+  background-color: var(--fallo-vivo-tinte);
   box-shadow:
-    0 0 0 4px var(--fallo),
-    0 0 2.5rem rgb(214 58 46 / 0.65);
+    0 0 0 4px var(--fallo-vivo),
+    0 0 2.5rem rgb(235 30 20 / 0.8);
 }
 
 /* A combo bonus: a gold ring and glow around the card. */
@@ -198,66 +204,58 @@ watch(
     0 0 2.75rem rgb(242 203 106 / 0.75);
 }
 
-/* The "¡Fallo!" stamp, tilted like a rubber stamp over the question. */
+/*
+ * The question sits in the middle of the free space of the card. The stamp hangs from the
+ * top edge of that stage, so it fills the gap above the question and never covers it.
+ */
+.card__stage {
+  position: relative;
+  align-self: center;
+}
+
+/* The "¡Fallo!" stamp: solid red, tilted like a rubber stamp. */
 .card__stamp {
   position: absolute;
   z-index: 2;
-  top: 38%;
+  bottom: 100%;
   left: 50%;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.375rem 0.875rem;
-  border: 3px solid var(--fallo);
+  margin-bottom: 0.375rem;
+  padding: 0.3125rem 0.875rem;
+  border: 3px solid var(--tinta);
   border-radius: 0.375rem;
-  outline: 2px solid var(--fallo);
-  outline-offset: 2px;
-  background: rgb(243 230 200 / 0.94);
-  color: var(--fallo);
+  outline: 2px solid var(--fallo-vivo);
+  outline-offset: 0;
+  background: var(--fallo-vivo);
+  box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 0.35);
+  color: var(--papel);
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   white-space: nowrap;
-  transform: translate(-50%, -50%) rotate(-6deg);
+  transform: translateX(-50%) rotate(-4deg);
 }
 
 .card__stamp-points {
   padding-left: 0.5rem;
-  border-left: 3px solid var(--fallo);
+  border-left: 3px solid var(--papel);
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .card[data-feedback='wrong'] {
-    animation: card-shake 0.45s ease-in-out;
-  }
-
   .card__stamp {
     animation: stamp 0.35s cubic-bezier(0.2, 1.4, 0.4, 1) backwards;
-  }
-}
-
-@keyframes card-shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-  15%,
-  55% {
-    transform: translateX(-9px);
-  }
-  35%,
-  75% {
-    transform: translateX(9px);
   }
 }
 
 @keyframes stamp {
   from {
     opacity: 0;
-    transform: translate(-50%, -50%) rotate(-6deg) scale(2.2);
+    transform: translateX(-50%) rotate(-4deg) scale(2);
   }
 }
 
@@ -314,7 +312,6 @@ watch(
 }
 
 .card__question {
-  align-self: center;
   font-family: var(--font-display);
   font-style: normal;
   font-weight: 700;
@@ -372,6 +369,7 @@ watch(
 
 .card[data-feedback='wrong'] .card__summary {
   color: var(--fallo);
+  font-size: 1.0625rem;
 }
 
 /* Roomy screens: the four answers form a 2 x 2 grid. */

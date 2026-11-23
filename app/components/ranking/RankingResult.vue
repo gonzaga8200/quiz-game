@@ -1,24 +1,19 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { DifficultyFilter, Duration } from '~~/core'
+import type { Category, DifficultyFilter, Duration } from '~~/core'
 import type { SubmissionState } from '~/types/ranking'
+import { describeBoard } from '~/utils/format'
 
 const props = defineProps<{
   state: SubmissionState
   duration: Duration
   filter: DifficultyFilter
+  category?: Category
 }>()
 
 const emit = defineEmits<{ retry: [] }>()
 
-const boardLabel = computed(
-  () =>
-    `${props.duration} segundos, ${
-      props.filter === 'Aleatorio'
-        ? 'dificultad aleatoria'
-        : `dificultad ${props.filter.toLowerCase()}`
-    }`,
-)
+const boardLabel = computed(() => describeBoard(props.duration, props.filter, props.category))
 </script>
 
 <template>

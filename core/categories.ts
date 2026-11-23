@@ -13,6 +13,16 @@ const URL_SLUGS: Readonly<Record<Category, string>> = {
   'Cine y televisión': 'cine-y-television',
   Ciencias: 'ciencias',
   'Lengua e Idiomas': 'lengua-e-idiomas',
+  Música: 'musica',
+}
+
+/** What the setup and ranking screens offer besides the categories themselves. */
+export const RANDOM_CATEGORY = 'Aleatorio'
+export type CategoryChoice = Category | typeof RANDOM_CATEGORY
+
+/** The category a choice stands for, or undefined for "Aleatorio" (every category). */
+export function categoryOfChoice(choice: CategoryChoice): Category | undefined {
+  return choice === RANDOM_CATEGORY ? undefined : choice
 }
 
 export function categoryUrlSlug(category: Category): string {

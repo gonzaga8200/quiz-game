@@ -171,7 +171,7 @@ onMounted(() => {
     </template>
 
     <p v-else class="report__empty">
-      No hay preguntas para esta combinación. Prueba con otra dificultad.
+      No hay preguntas para esta combinación. Prueba con otra dificultad u otra categoría.
     </p>
 
     <div class="report__actions">

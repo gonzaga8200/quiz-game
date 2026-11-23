@@ -38,6 +38,9 @@
   --acierto-tinte: #dce9c9;
   --fallo: #b3342b;
   --fallo-tinte: #f2d3c6;
+  /* The loud red of a mistake on screen: stamp, card ring and flash. */
+  --fallo-vivo: #d9170c;
+  --fallo-vivo-tinte: #f8c7bb;
   --fallo-suelo: #f29a8a; /* red readable on the dark ground */
 
   /* "Pasar": light orange while free, dark orange once it costs points */
@@ -64,6 +67,7 @@
   --cat-cine: #6a4380;
   --cat-ciencias: #2a6f7b;
   --cat-lengua: #40508f;
+  --cat-musica: #b8501c;
 
   /* Paper and wood grain: tiny inline SVG noise, no extra request */
   --grano-papel: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .24 0 0 0 0 .1 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");

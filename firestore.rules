@@ -5,7 +5,9 @@ rules_version = '2';
 // - Questions: anyone can read the active ones. Nobody can write from a client
 //   (questions are imported with the Admin SDK, which bypasses these rules).
 // - Rankings: one document per player per board at
-//   rankings/{duration}_{filter}/entries/{uid}. Anyone can read. A signed-in player
+//   rankings/{duration}_{filter}[_{category}]/entries/{uid}. Anyone can read. The category
+//   part is only there when the game was limited to one category (the entry then carries a
+//   `category` field); games that mix every category keep the original board ids. A signed-in player
 //   can only write their own document, only with valid fields and ranges, and only
 //   to replace a lower score with a higher one.
 //
@@ -40,13 +42,31 @@ service cloud.firestore {
       }[filter];
     }
 
+    function categorySlug(category) {
+      return {
+        'Arte y Literatura': 'arte-y-literatura',
+        'Historia y Geografía': 'historia-y-geografia',
+        'Deportes': 'deportes',
+        'Cine y televisión': 'cine-y-television',
+        'Ciencias': 'ciencias',
+        'Lengua e Idiomas': 'lengua-e-idiomas',
+        'Música': 'musica'
+      }[category];
+    }
+
+    // The board an entry belongs to: duration and filter, plus the category when it has one.
+    function expectedBoard(d) {
+      let base = string(d.duration) + '_' + filterSlug(d.difficultyFilter);
+      return 'category' in d ? base + '_' + categorySlug(d.category) : base;
+    }
+
     function isValidEntry(boardId, uid) {
       let d = request.resource.data;
       return request.auth != null
         && request.auth.uid == uid
         && d.keys().hasOnly([
           'uid', 'displayName', 'photoURL', 'points', 'correct', 'wrong', 'skipped',
-          'duration', 'difficultyFilter', 'createdAt'
+          'duration', 'difficultyFilter', 'category', 'createdAt'
         ])
         && d.keys().hasAll([
           'uid', 'displayName', 'photoURL', 'points', 'correct', 'wrong', 'skipped',
@@ -64,7 +84,11 @@ service cloud.firestore {
         && d.skipped is int && d.skipped >= 0
         && d.duration in [60, 120]
         && d.difficultyFilter in ['Aleatorio', 'Fácil', 'Medio', 'Difícil']
-        && boardId == string(d.duration) + '_' + filterSlug(d.difficultyFilter)
+        && (!('category' in d) || d.category in [
+          'Arte y Literatura', 'Historia y Geografía', 'Deportes', 'Cine y televisión',
+          'Ciencias', 'Lengua e Idiomas', 'Música'
+        ])
+        && boardId == expectedBoard(d)
         // At most one answered question per second.
         && d.correct + d.wrong + d.skipped <= d.duration
         // 17 = MAX_POINTS_PER_CORRECT in core/constants.ts

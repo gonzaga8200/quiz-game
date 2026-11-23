@@ -32,7 +32,7 @@ Default number when none is given: 10 (say so in the summary).
 
 - `id`: lowercase slug (`a-z`, `0-9`, `-`), 3 to 80 chars, **unique across every file**.
   Prefix by category: `arte-`, `hist-` or `geo-` (Historia y Geografía), `dep-`, `cine-`,
-  `cien-`, `leng-` (Lengua e Idiomas), then 2 to 5 keywords. Never change the id of an
+  `cien-`, `leng-` (Lengua e Idiomas), `mus-` (Música), then 2 to 5 keywords. Never change the id of an
   existing question.
 - `text`: 10 to 300 chars by the schema, but **write it short: 65 chars at most** (see
   quality rule 9). `options`: **exactly 4**, distinct, 1 to 120 chars by the schema, but
@@ -40,7 +40,7 @@ Default number when none is given: 10 (say so in the summary).
 - `correctIndex`: 0 to 3. **Vary it** across a file; do not always use the same position
   (the game shuffles options at play time, but the data should not look biased).
 - `category` is exactly one of: `Arte y Literatura`, `Historia y Geografía`, `Deportes`,
-  `Cine y televisión`, `Ciencias`, `Lengua e Idiomas`.
+  `Cine y televisión`, `Ciencias`, `Lengua e Idiomas`, `Música`.
 - `difficulty` is exactly one of: `muy fácil`, `fácil`, `medio`, `difícil`, `muy difícil`
   (with accents and the space).
 - `explanation`: 1 to 2 short lines (10 to 300 chars) saying **why** the answer is right.
@@ -62,7 +62,7 @@ Default number when none is given: 10 (say so in the summary).
    dropped and why.
 5. **Write** the file `data/questions/<YYYY-MM-DD>-<category-slug>.json` (today's date; slugs:
    `arte-y-literatura`, `historia-y-geografia`, `deportes`, `cine-y-television`, `ciencias`,
-   `lengua-e-idiomas`, or `mixta` when the file spans several categories). If that name exists, add a suffix such as
+   `lengua-e-idiomas`, `musica`, or `mixta` when the file spans several categories). If that name exists, add a suffix such as
    `-2`. Use 2-space indented JSON, as a single array.
 6. **Validate:** `npm run questions:validate`. Fix every error. Read every warning (probable
    duplicate, mismatched option lengths, answer given away) and fix or justify it.
@@ -72,7 +72,7 @@ Default number when none is given: 10 (say so in the summary).
 
 ### A. Only a number (e.g. "crea 20 preguntas")
 
-Choose categories and difficulties yourself, **balanced**: spread evenly over the 6 categories
+Choose categories and difficulties yourself, **balanced**: spread evenly over the 7 categories
 and the 5 difficulties, and favour the cells that are emptiest in the `--summary` table.
 If only a category is given, balance difficulties; if only a difficulty is given, balance
 categories. The hard levels must still be genuinely hard (see the difficulty guide).
@@ -284,6 +284,24 @@ linguistics. The whole game is in Spanish, so:
   its first letters give the answer away.
 - **Figures** (speakers, official languages) change: fix the date or the source in the
   question, as rule 2 says.
+
+## Category notes: Música
+
+Covers music of every period and style: instruments and how they work, composers and works,
+bands and artists, albums and songs, music theory and history, festivals and awards.
+
+- **Spell names exactly** as the artist or work is known (`«Bohemian Rhapsody»`, `Queen`), and
+  put titles of songs, albums and works inside `«»`. Never ask for lyrics or quote them: ask
+  about the song, who made it, when and what it is known for.
+- **Dates and records** (release years, chart positions, sales, awards) must be checked against
+  a reliable source and fixed in the question, as rule 2 says. Discard anything that depends on
+  a chart or a count that changes.
+- **No opinions or rankings of taste** («the best guitarist»): ask only about facts.
+- **One correct option.** Check that the distractors are not also true (a song covered by
+  several artists, a band with several singers). Build distractors from the same family
+  (other composers of the period, other instruments of the same section).
+- Questions about **Spanish and Latin American music** are welcome, as long as the question
+  names the country or the period; the whole game is in Spanish.
 
 ## Difficulty
 

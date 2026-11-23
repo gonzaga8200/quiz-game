@@ -55,7 +55,7 @@ const sound = useSound()
           >
             <span>
               Modo competitivo
-              <span class="btn__hint">60 o 120 segundos, tú eliges la dificultad</span>
+              <span class="btn__hint">60 o 120 segundos, tú eliges dificultad y categoría</span>
             </span>
           </NuxtLink>
           <template v-else>

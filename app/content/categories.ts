@@ -88,13 +88,24 @@ export const CATEGORY_COPY: Readonly<Record<Category, CategoryPageCopy>> = {
       'Si ya te las sabes, ponte a prueba contra el reloj: 60 segundos y niveles de dificultad mezclados.',
     ],
   },
+  Música: {
+    title: 'Preguntas de música con respuestas',
+    heading: 'Preguntas de música con respuestas',
+    description:
+      'Preguntas de música con respuesta y explicación: instrumentos, compositores, grupos y canciones de todas las épocas. Juega gratis contra el reloj.',
+    blurb: 'Instrumentos, compositores, grupos y canciones de todas las épocas.',
+    intro: [
+      'Preguntas de música con su respuesta y una explicación breve. Van de los instrumentos y los grandes compositores clásicos a los grupos y las canciones que han marcado el pop y el rock.',
+      'Si te sabes las notas, demuéstralo contra el reloj: tienes 60 segundos para acertar todas las que puedas.',
+    ],
+  },
 }
 
 export const HUB_COPY = {
   title: 'Preguntas de cultura general con respuestas',
   heading: 'Preguntas de cultura general con respuestas',
   description:
-    'Preguntas de cultura general con respuesta y explicación, por categorías: deportes, historia, literatura, cine, ciencias y lengua. Juega gratis.',
+    'Preguntas de cultura general con respuesta y explicación, por categorías: deportes, historia, literatura, cine, música, ciencias y lengua. Juega gratis.',
   intro: [
     'Elige una categoría para ver una selección de preguntas con su respuesta y una explicación breve. Todas salen del banco de preguntas de Contrarreloj, un juego en el que tienes 60 segundos para responder todas las que puedas.',
     'Si prefieres jugar directamente, empieza una partida con todas las categorías mezcladas, sin registrarte.',

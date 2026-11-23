@@ -1,3 +1,14 @@
+/**
+ * Names a ranking board in a sentence, e.g. "60 segundos, dificultad aleatoria" or
+ * "120 segundos, dificultad difícil, categoría Ciencias".
+ */
+export function describeBoard(duration: number, filter: string, category?: string): string {
+  const level =
+    filter === 'Aleatorio' ? 'dificultad aleatoria' : `dificultad ${filter.toLowerCase()}`
+  const base = `${duration} segundos, ${level}`
+  return category === undefined ? base : `${base}, categoría ${category}`
+}
+
 /** Countdown text such as "1:05". Rounds up so "0:00" only shows when time is truly out. */
 export function formatClock(ms: number): string {
   const totalSeconds = Math.ceil(Math.max(0, ms) / 1000)

@@ -19,8 +19,8 @@ const analytics = useAnalytics()
 const siteUrl = normalizeSiteUrl(useRuntimeConfig().public.siteUrl, SEO.defaultSiteUrl)
 
 // Arcade is fixed (60 s, random difficulty) and may be limited to one category with
-// `?categoria=<slug>`; an unknown slug is ignored. Competitive options come from the setup
-// screen and never take a category, because the ranking boards do not tell categories apart.
+// `?categoria=<slug>`; an unknown slug is ignored. Competitive options (time, difficulty and
+// category) come from the setup screen, and each combination has its own ranking board.
 const setup = computed(() => {
   if (route.query.modo !== 'arcade') return savedSetup.value
   const category = categoryFromSlug(route.query.categoria)
@@ -98,6 +98,7 @@ onMounted(() => {
             :state="submission.state.value"
             :duration="setup.duration"
             :filter="setup.filter"
+            :category="setup.category"
             @retry="submission.retry"
           />
         </template>
