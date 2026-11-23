@@ -1,0 +1,5102 @@
+[
+  {
+    "id": "mus-conocido-rey-pop",
+    "text": "¿Quién es conocido como el Rey del Pop?",
+    "options": [
+      "Elvis Presley",
+      "Michael Jackson",
+      "Prince",
+      "Freddie Mercury"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Michael Jackson recibió ese apodo por su enorme éxito mundial en los años 80, sobre todo con el álbum Thriller, el más vendido de la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-another-one",
+    "text": "¿Qué banda canta «Another One Bites the Dust»?",
+    "options": [
+      "Nirvana",
+      "Queen",
+      "The Beatles",
+      "Kiss"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Queen publicó esta canción en 1980. Su línea de bajo, compuesta por John Deacon, la convirtió en uno de los mayores éxitos de la banda de Freddie Mercury.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-sueco-canta-the",
+    "text": "¿Qué grupo sueco canta «The Final Countdown»?",
+    "options": [
+      "a-ha",
+      "ABBA",
+      "Roxette",
+      "Europe"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Europe lanzó «The Final Countdown» en 1986. Su famoso riff de sintetizador la convirtió en himno del rock de los 80 y fue número uno en muchos países.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-banda-coldplay",
+    "text": "¿Quién es el cantante de la banda Coldplay?",
+    "options": [
+      "Ed Sheeran",
+      "Chris Martin",
+      "Adam Levine",
+      "Bono"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Chris Martin es el vocalista y pianista de Coldplay, banda británica fundada en Londres en 1996 y autora de éxitos como «Yellow» y «Viva la Vida».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-shake-it-off",
+    "text": "¿Quién canta «Shake It Off»?",
+    "options": [
+      "Taylor Swift",
+      "Rihanna",
+      "Katy Perry",
+      "Adele"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Taylor Swift publicó «Shake It Off» en 2014 como primer sencillo de su álbum 1989, con el que dio el salto del country al pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-hello-2015",
+    "text": "¿Quién canta la canción «Hello» de 2015?",
+    "options": [
+      "Shakira",
+      "Adele",
+      "Beyoncé",
+      "Lady Gaga"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Adele lanzó «Hello» en octubre de 2015 como adelanto de su álbum 25. Fue un éxito mundial y alcanzó el número uno en decenas de países.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-colombiana-canta-waka",
+    "text": "¿Qué cantante colombiana canta «Waka Waka»?",
+    "options": [
+      "Selena Gómez",
+      "Shakira",
+      "Karol G",
+      "Danna Paola"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Shakira grabó «Waka Waka (This Time for Africa)» como canción oficial del Mundial de fútbol de Sudáfrica 2010, y se convirtió en un éxito global.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-now-and",
+    "text": "¿Qué banda lanzó «Now and Then» en 2023?",
+    "options": [
+      "The Cure",
+      "Pink Floyd",
+      "The Beatles",
+      "Radiohead"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "The Beatles publicaron «Now and Then» en 2023 como su última canción. Se completó con inteligencia artificial a partir de una maqueta de John Lennon.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-despacito-junto-daddy",
+    "text": "¿Quién canta «Despacito» junto a Daddy Yankee?",
+    "options": [
+      "Maluma",
+      "J Balvin",
+      "Ozuna",
+      "Luis Fonsi"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Luis Fonsi publicó «Despacito» en 2017 con Daddy Yankee. Fue una de las canciones más reproducidas de la historia y tuvo remix con Justin Bieber.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-thriller",
+    "text": "¿Quién canta la canción «Thriller»?",
+    "options": [
+      "Elton John",
+      "Michael Jackson",
+      "Prince",
+      "Madonna"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Michael Jackson publicó «Thriller» en 1982 y su videoclip, con zombis y baile, cambió la historia del videoclip. El álbum del mismo nombre es el más vendido.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-conocida-reina-pop",
+    "text": "¿Qué cantante es conocida como la Reina del Pop?",
+    "options": [
+      "Adele",
+      "Shakira",
+      "Rihanna",
+      "Madonna"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Madonna es apodada la Reina del Pop desde los años 80, gracias a éxitos como «Like a Virgin» y «Material Girl» y a su constante reinvención.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-surcoreano-canta-dynamite",
+    "text": "¿Qué grupo surcoreano canta «Dynamite»?",
+    "options": [
+      "Twice",
+      "BTS",
+      "EXO",
+      "Blackpink"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "BTS lanzó «Dynamite» en agosto de 2020, su primera canción íntegramente en inglés. Debutó en el número uno del Billboard Hot 100 de Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-banda-maroon",
+    "text": "¿Quién es el cantante de la banda Maroon 5?",
+    "options": [
+      "Adam Levine",
+      "Shawn Mendes",
+      "Bruno Mars",
+      "Justin Bieber"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Adam Levine es el vocalista de Maroon 5, banda de pop rock de Los Ángeles conocida por «This Love», «Sugar» y «Girls Like You».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-britanico-canta-shape",
+    "text": "¿Qué cantante británico canta «Shape of You»?",
+    "options": [
+      "Justin Bieber",
+      "Sam Smith",
+      "Ed Sheeran",
+      "Harry Styles"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Ed Sheeran lanzó «Shape of You» en 2017. Fue número uno en muchos países y pasó años entre las canciones más escuchadas de la historia en streaming.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-hizo-famoso-youtube",
+    "text": "¿Qué cantante se hizo famoso en YouTube con «Baby»?",
+    "options": [
+      "Shawn Mendes",
+      "Charlie Puth",
+      "Justin Bieber",
+      "Niall Horan"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Justin Bieber fue descubierto por sus vídeos en YouTube. «Baby», publicada en 2010 junto a Ludacris, lo catapultó a la fama mundial siendo adolescente.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-poker-face",
+    "text": "¿Quién canta la canción «Poker Face»?",
+    "options": [
+      "Lady Gaga",
+      "Britney Spears",
+      "Rihanna",
+      "Katy Perry"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Lady Gaga publicó «Poker Face» en 2008, de su álbum debut The Fame. Fue número uno en más de veinte países y consolidó su carrera internacional.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-baby-one-more",
+    "text": "¿Quién canta «...Baby One More Time»?",
+    "options": [
+      "Avril Lavigne",
+      "Jessica Simpson",
+      "Christina Aguilera",
+      "Britney Spears"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Britney Spears debutó en 1998 con «...Baby One More Time», que fue número uno en medio mundo y la convirtió en estrella del pop adolescente.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-irlandesa-cantante-bono",
+    "text": "¿Qué banda irlandesa tiene como cantante a Bono?",
+    "options": [
+      "Muse",
+      "Oasis",
+      "U2",
+      "Coldplay"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Bono es el vocalista de U2, banda de Dublín formada en 1976 y autora de «With or Without You», «One» y «Beautiful Day».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-barbados-canta-umbrella",
+    "text": "¿Qué cantante de Barbados canta «Umbrella»?",
+    "options": [
+      "Rihanna",
+      "Nicki Minaj",
+      "Katy Perry",
+      "Beyoncé"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Rihanna nació en Barbados y lanzó «Umbrella» en 2007 junto a Jay-Z. Fue su primer número uno en Estados Unidos y estuvo siete semanas en lo más alto.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-girls-just-want",
+    "text": "¿Quién canta «Girls Just Want to Have Fun»?",
+    "options": [
+      "Madonna",
+      "Whitney Houston",
+      "Cyndi Lauper",
+      "Tina Turner"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Cyndi Lauper publicó esta canción en 1983 en su álbum debut She's So Unusual. Se convirtió en un himno del pop de los años 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-smells-like",
+    "text": "¿Qué banda canta «Smells Like Teen Spirit»?",
+    "options": [
+      "Metallica",
+      "Green Day",
+      "Nirvana",
+      "Queen"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Nirvana lanzó «Smells Like Teen Spirit» en 1991, del álbum Nevermind. Esta canción popularizó el grunge y convirtió a Kurt Cobain en icono generacional.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-bad-guy-2019",
+    "text": "¿Quién canta «Bad Guy» de 2019?",
+    "options": [
+      "Dua Lipa",
+      "Ariana Grande",
+      "Olivia Rodrigo",
+      "Billie Eilish"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Billie Eilish publicó «Bad Guy» en 2019 y ganó con ella el Grammy a la Grabación del año en 2020, con solo dieciocho años.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-levitating",
+    "text": "¿Quién canta la canción «Levitating»?",
+    "options": [
+      "Adele",
+      "Lady Gaga",
+      "Rihanna",
+      "Dua Lipa"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Dua Lipa incluyó «Levitating» en su álbum Future Nostalgia, de 2020. Se convirtió en uno de los mayores éxitos de aquel año y de toda su carrera.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-espanol-canta-corazon",
+    "text": "¿Qué cantante español canta «Corazón partío»?",
+    "options": [
+      "Miguel Bosé",
+      "Alejandro Sanz",
+      "Enrique Iglesias",
+      "David Bisbal"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Alejandro Sanz publicó «Corazón partío» en 1997, del álbum Más. Fue un éxito enorme en España y Latinoamérica.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-bailando-junto-gente",
+    "text": "¿Quién canta «Bailando» junto a Gente de Zona?",
+    "options": [
+      "Enrique Iglesias",
+      "Alejandro Sanz",
+      "Pablo Alborán",
+      "David Bisbal"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Enrique Iglesias publicó «Bailando» en 2014 con Descemer Bueno y Gente de Zona. Fue un éxito mundial y batió récords en las listas latinas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-espanol-canta-camaron",
+    "text": "¿Qué dúo español canta «Como Camarón»?",
+    "options": [
+      "Estopa",
+      "Hombres G",
+      "Amaral",
+      "Pereza"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Estopa, dúo de hermanos de Cornellà de Llobregat, publicó «Como Camarón» en su álbum debut, que vendió más de un millón de copias en España.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-espanol-canta-devuelveme",
+    "text": "¿Qué grupo español canta «Devuélveme a mi chica»?",
+    "options": [
+      "Mecano",
+      "Los Secretos",
+      "Loquillo",
+      "Hombres G"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Hombres G publicó «Devuélveme a mi chica» en 1985. Fue su primer gran éxito y la banda de David Summers lideró el pop rock español de los 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-espanola-canta-malamente",
+    "text": "¿Qué cantante española canta «Malamente»?",
+    "options": [
+      "Aitana",
+      "Lola Índigo",
+      "Vanesa Martín",
+      "Rosalía"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Rosalía lanzó «Malamente» en 2018 como adelanto de su álbum El mal querer, que fusiona flamenco con pop y música urbana.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-rolling-in-the",
+    "text": "¿Quién canta «Rolling in the Deep»?",
+    "options": [
+      "Beyoncé",
+      "Adele",
+      "Taylor Swift",
+      "Rihanna"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Adele publicó «Rolling in the Deep» a finales de 2010, del álbum 21. Fue número uno en Estados Unidos y ganó varios Grammy en 2012.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-britanica-canta-viva",
+    "text": "¿Qué banda británica canta «Viva la Vida»?",
+    "options": [
+      "Radiohead",
+      "U2",
+      "Coldplay",
+      "Muse"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Coldplay lanzó «Viva la Vida» en 2008. Fue su primer número uno en Estados Unidos y da título a un álbum con Brian Eno como coproductor.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-roar-2013",
+    "text": "¿Quién canta la canción «Roar» de 2013?",
+    "options": [
+      "Rihanna",
+      "Adele",
+      "Katy Perry",
+      "Shakira"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Katy Perry publicó «Roar» en 2013, del álbum Prism. Fue número uno en Estados Unidos y se convirtió en un himno de superación.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-happy-pelicula-gru",
+    "text": "¿Quién canta «Happy», de la película Gru 2?",
+    "options": [
+      "Pharrell Williams",
+      "Ed Sheeran",
+      "Justin Timberlake",
+      "Bruno Mars"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Pharrell Williams compuso «Happy» en 2013 para la película Gru, mi villano favorito 2. Fue número uno en decenas de países y nominada al Óscar.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-uptown-funk-junto",
+    "text": "¿Quién canta «Uptown Funk» junto a Mark Ronson?",
+    "options": [
+      "Bruno Mars",
+      "The Weeknd",
+      "Ed Sheeran",
+      "Jason Derulo"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Mark Ronson y Bruno Mars publicaron «Uptown Funk» en 2014. Pasó catorce semanas en el número uno del Billboard Hot 100 en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-livin-on",
+    "text": "¿Qué banda canta «Livin' on a Prayer»?",
+    "options": [
+      "Europe",
+      "Aerosmith",
+      "Journey",
+      "Bon Jovi"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Bon Jovi publicó «Livin' on a Prayer» en 1986, del álbum Slippery When Wet. Fue número uno en Estados Unidos y es su canción más emblemática.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-like-prayer",
+    "text": "¿Quién canta la canción «Like a Prayer»?",
+    "options": [
+      "Madonna",
+      "Cher",
+      "Cyndi Lauper",
+      "Prince"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Madonna lanzó «Like a Prayer» en 1989. Su videoclip provocó polémica por mezclar religión y erotismo, y Pepsi canceló un anuncio con ella.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-back-in",
+    "text": "¿Qué banda canta «Back in Black»?",
+    "options": [
+      "Nirvana",
+      "Aerosmith",
+      "AC/DC",
+      "Metallica"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "AC/DC publicó «Back in Black» en 1980 como homenaje a su cantante Bon Scott, fallecido ese año. El álbum es uno de los más vendidos de la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-billie-jean",
+    "text": "¿Quién canta la canción «Billie Jean»?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Lionel Richie",
+      "Stevie Wonder"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Michael Jackson publicó «Billie Jean» en 1983, del álbum Thriller. Fue número uno en Estados Unidos y su línea de bajo es una de las más reconocibles.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-livin-vida-loca",
+    "text": "¿Quién canta «Livin' la Vida Loca»?",
+    "options": [
+      "Marc Anthony",
+      "Chayanne",
+      "Ricky Martin",
+      "Enrique Iglesias"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Ricky Martin lanzó «Livin' la Vida Loca» en 1999. Fue número uno en Estados Unidos y desató el llamado boom latino en la música pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-hips-don",
+    "text": "¿Qué cantante canta «Hips Don't Lie» con Wyclef Jean?",
+    "options": [
+      "Rihanna",
+      "Beyoncé",
+      "Shakira",
+      "Jennifer Lopez"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Shakira publicó «Hips Don't Lie» en 2006, con Wyclef Jean. Fue su primer número uno en Estados Unidos y uno de los sencillos más vendidos del año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-single-ladies",
+    "text": "¿Quién canta la canción «Single Ladies»?",
+    "options": [
+      "Adele",
+      "Alicia Keys",
+      "Beyoncé",
+      "Rihanna"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Beyoncé lanzó «Single Ladies (Put a Ring on It)» en 2008. Su videoclip, en blanco y negro y con una coreografía muy imitada, es de los más famosos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-basket-case",
+    "text": "¿Qué banda canta «Basket Case»?",
+    "options": [
+      "Sum 41",
+      "Green Day",
+      "The Offspring",
+      "Blink-182"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Green Day publicó «Basket Case» en 1994, del álbum Dookie. Esta canción popularizó el punk rock melódico entre el público general.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-britanica-canta-wonderwall",
+    "text": "¿Qué banda británica canta «Wonderwall»?",
+    "options": [
+      "Radiohead",
+      "Oasis",
+      "Coldplay",
+      "Blur"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Oasis publicó «Wonderwall» en 1995, del álbum (What's the Story) Morning Glory?. Compuesta por Noel Gallagher, es su canción más conocida.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-femenino-britanico-canta",
+    "text": "¿Qué grupo femenino británico canta «Wannabe»?",
+    "options": [
+      "Spice Girls",
+      "Girls Aloud",
+      "Little Mix",
+      "Sugababes"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Spice Girls publicaron «Wannabe» en 1996. Fue número uno en más de treinta países y lanzó el fenómeno del girl power en el pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-canta-want-it",
+    "text": "¿Qué grupo canta «I Want It That Way»?",
+    "options": [
+      "Westlife",
+      "Take That",
+      "Boyzone",
+      "Backstreet Boys"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Backstreet Boys lanzaron «I Want It That Way» en 1999, del álbum Millennium. Es la canción más popular de esta banda de Florida.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-noruego-canta-take",
+    "text": "¿Qué grupo noruego canta «Take On Me»?",
+    "options": [
+      "Blondie",
+      "a-ha",
+      "Duran Duran",
+      "Culture Club"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "a-ha publicó «Take On Me» en 1985. Su videoclip, que mezcla actores reales y dibujo animado a lápiz, fue muy aclamado y ganó seis premios MTV.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-purple-rain",
+    "text": "¿Quién canta la canción «Purple Rain»?",
+    "options": [
+      "David Bowie",
+      "Michael Jackson",
+      "Prince",
+      "Lenny Kravitz"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Prince publicó «Purple Rain» en 1984, como parte de la banda sonora de la película del mismo nombre. Se considera su obra maestra.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-never-gonna-give",
+    "text": "¿Quién canta «Never Gonna Give You Up»?",
+    "options": [
+      "Phil Collins",
+      "Billy Idol",
+      "Rick Astley",
+      "George Michael"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Rick Astley lanzó «Never Gonna Give You Up» en 1987. Dos décadas después se hizo viral con el meme llamado rickrolling en internet.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-dance-monkey-2019",
+    "text": "¿Quién canta «Dance Monkey» (2019)?",
+    "options": [
+      "Lizzo",
+      "Tones and I",
+      "Dua Lipa",
+      "Billie Eilish"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Tones and I, nombre artístico de la australiana Toni Watson, lanzó «Dance Monkey» en 2019. Fue número uno en más de treinta países.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-shallow-junto-bradley",
+    "text": "¿Quién canta «Shallow» junto a Bradley Cooper?",
+    "options": [
+      "Katy Perry",
+      "Rihanna",
+      "Taylor Swift",
+      "Lady Gaga"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Lady Gaga y Bradley Cooper cantan «Shallow» en la película Ha nacido una estrella (2018). La canción ganó el Óscar y el Grammy.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-can-stop-the",
+    "text": "¿Quién canta «Can't Stop the Feeling!»?",
+    "options": [
+      "Ed Sheeran",
+      "Harry Styles",
+      "Bruno Mars",
+      "Justin Timberlake"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Justin Timberlake publicó «Can't Stop the Feeling!» en 2016 para la película Trolls. Fue número uno en Estados Unidos y nominada al Óscar.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-as-it-was",
+    "text": "¿Quién canta «As It Was»?",
+    "options": [
+      "Shawn Mendes",
+      "Ed Sheeran",
+      "Sam Smith",
+      "Harry Styles"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Harry Styles publicó «As It Was» en 2022, del álbum Harry's House. Fue número uno en Estados Unidos y estuvo muchas semanas en lo más alto.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-flowers-2023",
+    "text": "¿Quién canta la canción «Flowers» de 2023?",
+    "options": [
+      "Miley Cyrus",
+      "Dua Lipa",
+      "Taylor Swift",
+      "Selena Gómez"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Miley Cyrus lanzó «Flowers» en enero de 2023. Fue su primer número uno en solitario en Estados Unidos y ganó el Grammy a la Grabación del año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-cancion-anti-hero",
+    "text": "¿Quién canta la canción «Anti-Hero»?",
+    "options": [
+      "Taylor Swift",
+      "Billie Eilish",
+      "Ariana Grande",
+      "Olivia Rodrigo"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Taylor Swift publicó «Anti-Hero» en 2022, del álbum Midnights. Fue número uno en Estados Unidos y habla de sus propias inseguridades.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-blinding-lights",
+    "text": "¿Quién canta «Blinding Lights»?",
+    "options": [
+      "Post Malone",
+      "Bruno Mars",
+      "Drake",
+      "The Weeknd"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "The Weeknd lanzó «Blinding Lights» a finales de 2019. Es una de las canciones más reproducidas de la historia y lideró el Hot 100 en 2020.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-popularizo-baile-llamado",
+    "text": "¿Qué cantante popularizó el baile llamado moonwalk?",
+    "options": [
+      "James Brown",
+      "Madonna",
+      "Michael Jackson",
+      "Prince"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Michael Jackson mostró el moonwalk en directo en 1983, durante el especial Motown 25, al cantar «Billie Jean». Desde entonces es su paso emblema.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-espanol-canta-mujer",
+    "text": "¿Qué grupo español canta «Mujer contra mujer»?",
+    "options": [
+      "Hombres G",
+      "Los Secretos",
+      "Mecano",
+      "Amaral"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Mecano publicó «Mujer contra mujer» en 1988. La canción, escrita por José María Cano, es una de las más conocidas del pop español de los 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-colombiano-canta-camisa",
+    "text": "¿Qué cantante colombiano canta «La camisa negra»?",
+    "options": [
+      "Shakira",
+      "Juanes",
+      "Maluma",
+      "Carlos Vives"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Juanes publicó «La camisa negra» en 2005, del álbum Mi sangre. Fue un éxito en todo el mundo hispano y ganó varios Grammy Latinos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-toca-enter-sandman",
+    "text": "¿Qué banda toca «Enter Sandman»?",
+    "options": [
+      "Kiss",
+      "AC/DC",
+      "Iron Maiden",
+      "Metallica"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Metallica lanzó «Enter Sandman» en 1991, del llamado Álbum negro. Es su canción más conocida y abrió el heavy metal a un público masivo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-irlandes-canta-zombie",
+    "text": "¿Qué grupo irlandés canta «Zombie»?",
+    "options": [
+      "Soul Asylum",
+      "The Cranberries",
+      "Pearl Jam",
+      "Third Eye Blind"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "The Cranberries publicaron «Zombie» en 1994 como protesta por los atentados en Warrington y el conflicto de Irlanda del Norte.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-vogue-hung",
+    "text": "¿Qué cantante canta «Vogue» y «Hung Up»?",
+    "options": [
+      "Kylie Minogue",
+      "Janet Jackson",
+      "Madonna",
+      "Britney Spears"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Madonna publicó «Vogue» en 1990 y «Hung Up» en 2005. Ambas fueron números uno en decenas de países y confirman su vigencia a lo largo de décadas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-llama-cantante-banda-queen",
+    "text": "¿Cómo se llama el cantante de la banda Queen?",
+    "options": [
+      "Brian May",
+      "Roger Taylor",
+      "Freddie Mercury",
+      "John Deacon"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Freddie Mercury fue el vocalista de Queen desde 1970 hasta su muerte en 1991. Era famoso por su rango vocal y su carisma en directo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-salio-album-thriller",
+    "text": "¿En qué año salió el álbum «Thriller»?",
+    "options": [
+      "1982",
+      "1978",
+      "1990",
+      "1986"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Michael Jackson publicó «Thriller» el 30 de noviembre de 1982. En 1984 el Libro Guinness lo certificó como el álbum más vendido de la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-era-lider-kurt",
+    "text": "¿De qué banda era líder Kurt Cobain?",
+    "options": [
+      "Soundgarden",
+      "Nirvana",
+      "Foo Fighters",
+      "Pearl Jam"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Kurt Cobain fundó Nirvana en Aberdeen, Washington, en 1987. Con «Nevermind» (1991) la banda llevó el grunge al gran público.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-album-21",
+    "text": "¿Qué cantante lanzó el álbum «21» en 2011?",
+    "options": [
+      "Duffy",
+      "Amy Winehouse",
+      "Adele",
+      "Lana Del Rey"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Adele publicó «21» en enero de 2011. Incluye «Rolling in the Deep» y «Someone Like You», y ganó seis premios Grammy en 2012.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-gira-the-eras",
+    "text": "¿De quién fue la gira «The Eras Tour»?",
+    "options": [
+      "Dua Lipa",
+      "Taylor Swift",
+      "Beyoncé",
+      "Adele"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "La gira The Eras Tour de Taylor Swift comenzó en 2023 y repasaba todos sus álbumes. Se convirtió en la más taquillera de la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-protagonizo-serie-hannah",
+    "text": "¿Qué cantante protagonizó la serie «Hannah Montana»?",
+    "options": [
+      "Demi Lovato",
+      "Miley Cyrus",
+      "Ariana Grande",
+      "Selena Gómez"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Miley Cyrus interpretó a Hannah Montana en la serie de Disney Channel, que se emitió de 2006 a 2011, antes de lanzar su carrera pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-inglesa-nacio-grupo",
+    "text": "¿En qué ciudad inglesa nació el grupo Oasis?",
+    "options": [
+      "Mánchester",
+      "Londres",
+      "Liverpool",
+      "Glasgow"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Oasis se formó en Mánchester en 1991 y lo lideraron los hermanos Liam y Noel Gallagher. Fue una de las bandas del britpop de los años 90.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-duo-pop-roxette",
+    "text": "¿De qué país es el dúo pop Roxette?",
+    "options": [
+      "Noruega",
+      "Dinamarca",
+      "Suecia",
+      "Finlandia"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Roxette era un dúo sueco formado por Per Gessle y Marie Fredriksson. Alcanzó fama mundial con «It Must Have Been Love» y «Listen to Your Heart».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-britanica-canta-supermassive",
+    "text": "¿Qué banda británica canta «Supermassive Black Hole»?",
+    "options": [
+      "Radiohead",
+      "Muse",
+      "Coldplay",
+      "Keane"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Muse publicó «Supermassive Black Hole» en 2006, de su álbum Black Holes and Revelations. Su cantante, Matt Bellamy, mezcla rock alternativo y electrónica.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-album-born",
+    "text": "¿Qué cantante lanzó el álbum «Born This Way» en 2011?",
+    "options": [
+      "Kesha",
+      "Lady Gaga",
+      "Katy Perry",
+      "Pink"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Lady Gaga lanzó «Born This Way» en 2011. Su canción homónima, un himno de aceptación y orgullo, fue número uno en el Billboard Hot 100.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-appetite-for",
+    "text": "¿Qué banda lanzó «Appetite for Destruction» en 1987?",
+    "options": [
+      "Metallica",
+      "Guns N' Roses",
+      "Def Leppard",
+      "Mötley Crüe"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Guns N' Roses publicó «Appetite for Destruction» en 1987. Incluye «Sweet Child o' Mine» y es uno de los mejores álbumes debut de la historia del rock.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-album-lemonade",
+    "text": "¿Qué cantante lanzó el álbum «Lemonade» en 2016?",
+    "options": [
+      "Rihanna",
+      "Taylor Swift",
+      "Beyoncé",
+      "Adele"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Beyoncé publicó «Lemonade» en 2016 como álbum visual con película para HBO. Incluye «Formation» y «Hold Up» y fue un enorme éxito de crítica.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-album-sour",
+    "text": "¿Qué cantante lanzó el álbum «Sour» en 2021?",
+    "options": [
+      "Billie Eilish",
+      "Dua Lipa",
+      "Ariana Grande",
+      "Olivia Rodrigo"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Olivia Rodrigo debutó con «Sour» en 2021. Incluye «drivers license» y «good 4 u» y le valió tres premios Grammy, entre ellos Mejor artista nuevo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-espanol-canta-sin",
+    "text": "¿Qué grupo español canta «Sin ti no soy nada»?",
+    "options": [
+      "Amaral",
+      "Pereza",
+      "Estopa",
+      "Marlango"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Amaral, dúo zaragozano formado por Eva Amaral y Juan Aguirre, publicó «Sin ti no soy nada» en 2002. Es una de las canciones más reconocidas del pop rock español.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-espanol-canta-playa",
+    "text": "¿Qué grupo español canta «La playa»?",
+    "options": [
+      "La Oreja de Van Gogh",
+      "Los Secretos",
+      "Los Planetas",
+      "El Canto del Loco"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "La Oreja de Van Gogh, banda de San Sebastián, publicó «La playa» en 2000. Fue uno de sus mayores éxitos y vendieron millones de discos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-abandono-oreja-van",
+    "text": "¿Qué cantante abandonó La Oreja de Van Gogh en 2007?",
+    "options": [
+      "Leire Martínez",
+      "Pablo Benegas",
+      "Amaia Montero",
+      "Xabi San Martín"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Amaia Montero dejó La Oreja de Van Gogh en 2007 para iniciar su carrera en solitario. La sustituyó Leire Martínez como vocalista.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-fue-cantante-enrique",
+    "text": "¿De qué banda fue cantante Enrique Bunbury?",
+    "options": [
+      "Siniestro Total",
+      "Hombres G",
+      "Héroes del Silencio",
+      "Los Secretos"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Enrique Bunbury fue el vocalista de Héroes del Silencio, banda zaragozana de rock de los 80 y 90, antes de iniciar su carrera en solitario en 1996.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-primera-edicion-operacion",
+    "text": "¿Quién ganó la primera edición de «Operación Triunfo»?",
+    "options": [
+      "Naím Thomas",
+      "Rosa López",
+      "Manu Tenorio",
+      "David Bisbal"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Rosa López ganó la primera edición de Operación Triunfo en 2002 y representó a España en Eurovisión con «Europe's Living a Celebration».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-slomo-eurovision-2022",
+    "text": "¿Quién cantó «SloMo» en Eurovisión 2022?",
+    "options": [
+      "Chanel",
+      "Blanca Paloma",
+      "Rosa López",
+      "Nebulossa"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Chanel representó a España en Eurovisión 2022 con «SloMo» y quedó tercera, el mejor resultado español en décadas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lidera-dave-grohl",
+    "text": "¿Qué banda lidera Dave Grohl?",
+    "options": [
+      "Green Day",
+      "Foo Fighters",
+      "Pearl Jam",
+      "Nirvana"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Dave Grohl fundó Foo Fighters en 1994, tras la muerte de Kurt Cobain y el fin de Nirvana, donde era el batería. En Foo Fighters canta y toca la guitarra.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-every-breath",
+    "text": "¿Qué banda canta «Every Breath You Take»?",
+    "options": [
+      "Genesis",
+      "Dire Straits",
+      "Queen",
+      "The Police"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "The Police publicó «Every Breath You Take» en 1983. Su líder, Sting, la compuso y fue número uno en Estados Unidos durante ocho semanas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-born-in-the",
+    "text": "¿Quién canta «Born in the U.S.A.»?",
+    "options": [
+      "Bruce Springsteen",
+      "Billy Joel",
+      "Bryan Adams",
+      "Bon Jovi"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Bruce Springsteen publicó «Born in the U.S.A.» en 1984. Aunque suena patriótica, su letra critica el trato dado a los veteranos de Vietnam.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-britanica-canta-rehab",
+    "text": "¿Qué cantante británica canta «Rehab»?",
+    "options": [
+      "Duffy",
+      "Lily Allen",
+      "Adele",
+      "Amy Winehouse"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Amy Winehouse publicó «Rehab» en 2006, del álbum Back to Black. Ganó tres Grammy, entre ellos Grabación del año, y es su canción más conocida.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-royals-2013",
+    "text": "¿Quién canta «Royals» en 2013?",
+    "options": [
+      "Lorde",
+      "Rihanna",
+      "Katy Perry",
+      "Adele"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Lorde, cantante neozelandesa, publicó «Royals» en 2013 con solo dieciséis años. Fue número uno en Estados Unidos y ganó dos premios Grammy.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-chandelier",
+    "text": "¿Quién canta «Chandelier»?",
+    "options": [
+      "Lorde",
+      "Pink",
+      "Sia",
+      "Adele"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Sia lanzó «Chandelier» en 2014, del álbum 1000 Forms of Fear. Su videoclip, protagonizado por la niña bailarina Maddie Ziegler, se hizo muy famoso.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-counting-stars",
+    "text": "¿Qué banda canta «Counting Stars»?",
+    "options": [
+      "Imagine Dragons",
+      "Maroon 5",
+      "Coldplay",
+      "OneRepublic"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "OneRepublic publicó «Counting Stars» en 2013, del álbum Native. Fue un éxito mundial y superó los mil millones de reproducciones en internet.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-radioactive-2012",
+    "text": "¿Qué banda canta «Radioactive» (2012)?",
+    "options": [
+      "OneRepublic",
+      "Fall Out Boy",
+      "Imagine Dragons",
+      "Twenty One Pilots"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Imagine Dragons, banda de Las Vegas, lanzó «Radioactive» en 2012. Pasó un récord de semanas en el Hot 100 y ganó un Grammy en 2014.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-britanico-canta-sweet",
+    "text": "¿Qué dúo británico canta «Sweet Dreams (Are Made of This)»?",
+    "options": [
+      "Eurythmics",
+      "Tears for Fears",
+      "Depeche Mode",
+      "Soft Cell"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Eurythmics, dúo de Annie Lennox y Dave Stewart, publicó «Sweet Dreams» en 1983. Fue número uno en Estados Unidos y es su canción emblemática.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-britanico-canta-wake",
+    "text": "¿Qué dúo británico canta «Wake Me Up Before You Go-Go»?",
+    "options": [
+      "Culture Club",
+      "Duran Duran",
+      "Madness",
+      "Wham!"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Wham!, formado por George Michael y Andrew Ridgeley, lanzó «Wake Me Up Before You Go-Go» en 1984. Fue número uno en Reino Unido y Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-careless-whisper",
+    "text": "¿Quién canta «Careless Whisper»?",
+    "options": [
+      "Phil Collins",
+      "George Michael",
+      "Billy Idol",
+      "Rick Astley"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "George Michael publicó «Careless Whisper» en 1984, aún como miembro de Wham!. Su famoso solo de saxofón la hizo mundialmente popular.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-take-me-to",
+    "text": "¿Quién canta «Take Me to Church»?",
+    "options": [
+      "Hozier",
+      "Sam Smith",
+      "Passenger",
+      "Lewis Capaldi"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "El cantante irlandés Hozier publicó «Take Me to Church» en 2013. Su letra critica la postura de la Iglesia ante la homosexualidad.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-someone-you-loved",
+    "text": "¿Quién canta «Someone You Loved»?",
+    "options": [
+      "Sam Smith",
+      "Lewis Capaldi",
+      "James Arthur",
+      "Ed Sheeran"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Lewis Capaldi, cantante escocés, lanzó «Someone You Loved» en 2018. Fue número uno en Estados Unidos y Reino Unido y vendió millones de copias.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-album-sweetener",
+    "text": "¿Qué cantante lanzó el álbum «Sweetener» en 2018?",
+    "options": [
+      "Demi Lovato",
+      "Selena Gómez",
+      "Camila Cabello",
+      "Ariana Grande"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Ariana Grande publicó «Sweetener» en agosto de 2018. El álbum le valió su primer Grammy, al mejor álbum vocal de pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-havana-junto-young",
+    "text": "¿Quién canta «Havana» junto a Young Thug?",
+    "options": [
+      "Becky G",
+      "Camila Cabello",
+      "Selena Gómez",
+      "Shawn Mendes"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Camila Cabello lanzó «Havana» en 2017, tras dejar Fifth Harmony. Fue número uno en Reino Unido y segunda del Billboard Hot 100.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-gano-grammy-album",
+    "text": "¿Qué álbum ganó el Grammy al Álbum del año en 2024?",
+    "options": [
+      "Midnights",
+      "Folklore",
+      "Harry's House",
+      "Cowboy Carter"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Taylor Swift ganó en 2024 el Grammy al Álbum del año con «Midnights». Es la primera artista con cuatro victorias en esa categoría.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-grammy-album-ano",
+    "text": "¿Quién ganó el Grammy al Álbum del año en 2025?",
+    "options": [
+      "Billie Eilish",
+      "Kendrick Lamar",
+      "Charli XCX",
+      "Beyoncé"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Beyoncé ganó el Álbum del año en los Grammy de 2025 con «Cowboy Carter», su incursión en el country, y también el de Mejor álbum country.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-grammy-album-ano-2",
+    "text": "¿Quién ganó el Grammy al Álbum del año en 2026?",
+    "options": [
+      "Billie Eilish",
+      "Sabrina Carpenter",
+      "Taylor Swift",
+      "Bad Bunny"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Bad Bunny ganó el Grammy al Álbum del año en 2026 con «DeBÍ TiRAR MáS FOToS», un disco en español que rinde homenaje a Puerto Rico.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-lanzo-album-short-sweet",
+    "text": "¿Quién lanzó el álbum «Short n' Sweet» en 2024?",
+    "options": [
+      "Charli XCX",
+      "Chappell Roan",
+      "Sabrina Carpenter",
+      "Billie Eilish"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Sabrina Carpenter publicó «Short n' Sweet» en 2024. Incluye «Espresso» y «Please Please Please» y le dio dos premios Grammy en 2025.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-die-with-smile",
+    "text": "¿Quién canta «Die With a Smile» junto a Bruno Mars?",
+    "options": [
+      "Dua Lipa",
+      "Rihanna",
+      "Taylor Swift",
+      "Lady Gaga"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Lady Gaga y Bruno Mars publicaron «Die With a Smile» en 2024. Fue número uno en Estados Unidos y ganó un Grammy en 2025.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-colombiana-actuo-super-bowl",
+    "text": "¿Qué colombiana actuó con J.Lo en la Super Bowl de 2020?",
+    "options": [
+      "Karol G",
+      "Shakira",
+      "Becky G",
+      "Camila Cabello"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Shakira y Jennifer Lopez compartieron el espectáculo del descanso de la Super Bowl LIV, en Miami, en febrero de 2020.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-banda-bon-jovi",
+    "text": "¿De qué país es la banda Bon Jovi?",
+    "options": [
+      "Reino Unido",
+      "Irlanda",
+      "Estados Unidos",
+      "Canadá"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Bon Jovi se formó en Nueva Jersey en 1983. Su cantante, Jon Bon Jovi, lidera la banda de éxitos como «Livin' on a Prayer» y «It's My Life».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-banda-u2",
+    "text": "¿De qué país es la banda U2?",
+    "options": [
+      "Gales",
+      "Irlanda",
+      "Escocia",
+      "Inglaterra"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "U2 se formó en Dublín en 1976. Es una de las bandas de rock más exitosas del mundo, con álbumes como «The Joshua Tree» (1987).",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-apodado-the-boss",
+    "text": "¿Qué cantante es apodado «The Boss»?",
+    "options": [
+      "Bon Jovi",
+      "Billy Joel",
+      "Bruce Springsteen",
+      "Phil Collins"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Bruce Springsteen recibió el apodo «The Boss» a comienzos de su carrera. Se lo pusieron los músicos de su banda, la E Street Band.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-conocida-queen",
+    "text": "¿Qué cantante es conocida como «Queen B»?",
+    "options": [
+      "Adele",
+      "Beyoncé",
+      "Lizzo",
+      "Rihanna"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Beyoncé es conocida como «Queen B» por su fama mundial. Sus seguidores, la «Beyhive», popularizaron el apodo en redes sociales.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-in-the",
+    "text": "¿Qué banda canta «In the End» (2000)?",
+    "options": [
+      "Limp Bizkit",
+      "Evanescence",
+      "Linkin Park",
+      "Papa Roach"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Linkin Park lanzó «In the End» en 2001, del álbum Hybrid Theory. Mezcla rock y rap, y es una de las canciones más escuchadas del rock del siglo XXI.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-bring-me",
+    "text": "¿Qué banda canta «Bring Me to Life»?",
+    "options": [
+      "Evanescence",
+      "Paramore",
+      "Lacuna Coil",
+      "Linkin Park"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Evanescence publicó «Bring Me to Life» en 2003, junto a Paul McCoy. Fue su gran éxito mundial y ganó un Grammy al mejor álbum de hard rock.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-mr-brightside",
+    "text": "¿Qué banda canta «Mr. Brightside»?",
+    "options": [
+      "Coldplay",
+      "The Killers",
+      "The Strokes",
+      "Keane"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "The Killers, banda de Las Vegas, publicó «Mr. Brightside» en 2003. Tuvo un éxito enorme en Reino Unido y es una de las canciones más reproducidas del rock.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-complicated-2002",
+    "text": "¿Quién canta «Complicated» en 2002?",
+    "options": [
+      "Ashlee Simpson",
+      "Avril Lavigne",
+      "Michelle Branch",
+      "Kelly Clarkson"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Avril Lavigne, cantante canadiense, lanzó «Complicated» en 2002, del álbum Let Go. Fue su gran éxito y la convirtió en estrella del pop rock.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-since-been-gone",
+    "text": "¿Quién canta «Since U Been Gone»?",
+    "options": [
+      "Avril Lavigne",
+      "Ashlee Simpson",
+      "Kelly Clarkson",
+      "Michelle Branch"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Kelly Clarkson lanzó «Since U Been Gone» en 2004. Ganó el Grammy a la mejor interpretación vocal pop femenina y es su canción más conocida.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-heat-waves",
+    "text": "¿Qué banda canta «Heat Waves»?",
+    "options": [
+      "Cage the Elephant",
+      "Glass Animals",
+      "The 1975",
+      "Tame Impala"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Glass Animals, banda británica, publicó «Heat Waves» en 2020. Un año después, gracias a TikTok, fue número uno en muchos países.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-escocesa-canta-take",
+    "text": "¿Qué banda escocesa canta «Take Me Out» en 2004?",
+    "options": [
+      "Arctic Monkeys",
+      "The Strokes",
+      "Franz Ferdinand",
+      "Interpol"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Franz Ferdinand, banda de Glasgow, publicó «Take Me Out» en 2004. Su ritmo marcado la convirtió en uno de los himnos del indie rock de los 2000.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-do-wanna",
+    "text": "¿Qué banda canta «Do I Wanna Know?»?",
+    "options": [
+      "Arctic Monkeys",
+      "Kasabian",
+      "The Libertines",
+      "The Strokes"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Arctic Monkeys, banda de Sheffield, lanzó «Do I Wanna Know?» en 2013, en su álbum AM. Es una de sus canciones más escuchadas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-salio-harry-styles",
+    "text": "¿De qué banda salió Harry Styles?",
+    "options": [
+      "Take That",
+      "Boyzone",
+      "One Direction",
+      "Westlife"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Harry Styles formó parte de One Direction, grupo creado en el concurso The X Factor en 2010. Inició su carrera en solitario en 2016.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-salio-cantante-robbie",
+    "text": "¿De qué grupo salió el cantante Robbie Williams?",
+    "options": [
+      "Westlife",
+      "Take That",
+      "Blue",
+      "Boyzone"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Robbie Williams formó parte de Take That hasta 1995. Después inició una exitosa carrera en solitario con «Angels» y «Rock DJ».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-cantante-lider-the",
+    "text": "¿Quién fue el cantante líder de The Police?",
+    "options": [
+      "Bono",
+      "Prince",
+      "Sting",
+      "Seal"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Sting fue el bajista y cantante de The Police en los años 70 y 80. Desde 1985 desarrolla una carrera en solitario muy exitosa.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-believe-exito-1998",
+    "text": "¿Quién canta «Believe», éxito de 1998?",
+    "options": [
+      "Madonna",
+      "Shakira",
+      "Björk",
+      "Cher"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Cher publicó «Believe» en 1998. Fue número uno en veintitrés países y popularizó el efecto vocal Auto-Tune en la música pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-genie-in-bottle",
+    "text": "¿Quién canta «Genie in a Bottle»?",
+    "options": [
+      "Mandy Moore",
+      "Britney Spears",
+      "Jessica Simpson",
+      "Christina Aguilera"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Christina Aguilera debutó en 1999 con «Genie in a Bottle», número uno en Estados Unidos. Al año siguiente ganó el Grammy a Mejor artista nuevo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-colombiana-canto-tqg",
+    "text": "¿Qué cantante colombiana cantó «TQG» con Shakira?",
+    "options": [
+      "Greeicy",
+      "Karol G",
+      "Danna Paola",
+      "Aitana"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Karol G y Shakira publicaron «TQG» en 2023, del álbum Mañana será bonito. Fue una de las canciones latinas más escuchadas de aquel año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-eurovision-2023-tattoo",
+    "text": "¿Quién ganó Eurovisión 2023 con «Tattoo»?",
+    "options": [
+      "Måneskin",
+      "Chanel",
+      "Blanca Paloma",
+      "Loreen"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Loreen, cantante sueca, ganó Eurovisión 2023 con «Tattoo» en Liverpool. Es la segunda vez que gana, tras su triunfo de 2012 con «Euphoria».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-stay-junto-the",
+    "text": "¿Quién canta «Stay» junto a The Kid Laroi?",
+    "options": [
+      "Justin Bieber",
+      "Charlie Puth",
+      "Shawn Mendes",
+      "Niall Horan"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Justin Bieber y The Kid Laroi publicaron «Stay» en 2021. Fue número uno en el Billboard Hot 100 y una de las canciones más escuchadas de ese año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-publico-like-virgin",
+    "text": "¿En qué año se publicó «Like a Virgin» de Madonna?",
+    "options": [
+      "1984",
+      "1982",
+      "1988",
+      "1986"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Madonna publicó «Like a Virgin» en 1984. El álbum incluía la canción homónima y «Material Girl», y la consolidó como estrella mundial del pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-celebro-concierto-benefico",
+    "text": "¿En qué año se celebró el concierto benéfico Live Aid?",
+    "options": [
+      "1983",
+      "1987",
+      "1989",
+      "1985"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Live Aid se celebró el 13 de julio de 1985, con conciertos simultáneos en Londres y Filadelfia, para recaudar fondos contra la hambruna en Etiopía.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-estadio-londinense-fue-live",
+    "text": "¿En qué estadio londinense fue el Live Aid de 1985?",
+    "options": [
+      "Wembley",
+      "Stamford Bridge",
+      "Highbury",
+      "Twickenham"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El concierto británico del Live Aid tuvo lugar en el estadio de Wembley, con actuaciones de Queen, U2, David Bowie y Elton John, entre otros.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-empezo-emitir-cadena",
+    "text": "¿En qué año empezó a emitir la cadena MTV?",
+    "options": [
+      "1987",
+      "1981",
+      "1984",
+      "1979"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "MTV empezó a emitir el 1 de agosto de 1981 en Estados Unidos. Revolucionó la industria musical al convertir el videoclip en un elemento clave.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cancion-fue-primer-video",
+    "text": "¿Qué canción fue el primer vídeo emitido por MTV?",
+    "options": [
+      "Video Killed the Radio Star",
+      "Every Breath You Take",
+      "Wake Me Up Before You Go-Go",
+      "Sweet Dreams (Are Made of This)"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Video Killed the Radio Star», del grupo The Buggles, fue el primer vídeo que emitió MTV, a las 12:01 de la mañana del 1 de agosto de 1981.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-productor-trabajo-michael-jackson",
+    "text": "¿Qué productor trabajó con Michael Jackson en «Thriller»?",
+    "options": [
+      "Rick Rubin",
+      "Quincy Jones",
+      "Phil Spector",
+      "Brian Eno"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Quincy Jones produjo «Off the Wall», «Thriller» y «Bad» de Michael Jackson. Su trabajo fue clave en el sonido del pop de los años 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-exbeatle-canta-michael-jackson",
+    "text": "¿Qué exbeatle canta con Michael Jackson «The Girl Is Mine»?",
+    "options": [
+      "Prince",
+      "Stevie Wonder",
+      "Elton John",
+      "Paul McCartney"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Paul McCartney grabó «The Girl Is Mine» con Michael Jackson en 1982. Fue el primer sencillo de «Thriller» y alcanzó el número dos en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-eye-of",
+    "text": "¿Qué banda canta «Eye of the Tiger» en Rocky III?",
+    "options": [
+      "Survivor",
+      "Journey",
+      "Toto",
+      "Foreigner"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Survivor compuso «Eye of the Tiger» a petición de Sylvester Stallone para Rocky III (1982). Fue número uno en Estados Unidos durante seis semanas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-danger-zone",
+    "text": "¿Qué cantante canta «Danger Zone» en Top Gun?",
+    "options": [
+      "Bryan Adams",
+      "Jon Bon Jovi",
+      "Kenny Loggins",
+      "Huey Lewis"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Kenny Loggins grabó «Danger Zone» para la banda sonora de Top Gun (1986), que se convirtió en uno de los álbumes de bandas sonoras más vendidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-take-my",
+    "text": "¿Qué banda canta «Take My Breath Away» en Top Gun?",
+    "options": [
+      "Heart",
+      "Berlin",
+      "Foreigner",
+      "Starship"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Berlin interpretó «Take My Breath Away» en Top Gun (1986). La canción ganó el Óscar a la mejor canción original en 1987 y el Globo de Oro.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-don-you",
+    "text": "¿Qué banda canta «Don't You (Forget About Me)»?",
+    "options": [
+      "Depeche Mode",
+      "Simple Minds",
+      "The Cure",
+      "Tears for Fears"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Simple Minds grabó «Don't You (Forget About Me)» para la película El club de los cinco (1985). Fue su único número uno en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-estadounidense-canta-africa",
+    "text": "¿Qué banda estadounidense canta «Africa» (1982)?",
+    "options": [
+      "Asia",
+      "Toto",
+      "Journey",
+      "Foreigner"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Toto publicó «Africa» en 1982 en el álbum Toto IV. Alcanzó el número uno en Estados Unidos y es una de las canciones más populares de los 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-jump-1984",
+    "text": "¿Qué banda canta «Jump» (1984)?",
+    "options": [
+      "Def Leppard",
+      "Scorpions",
+      "Van Halen",
+      "Whitesnake"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Van Halen publicó «Jump» en 1984, en el álbum 1984. Su riff de sintetizador la convirtió en su único número uno en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-alemana-canta-wind",
+    "text": "¿Qué banda alemana canta «Wind of Change» (1990)?",
+    "options": [
+      "Rammstein",
+      "Scorpions",
+      "Kraftwerk",
+      "Nena"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Scorpions publicó «Wind of Change» en 1990, inspirada en los cambios políticos en Europa del Este. Se convirtió en himno del final de la Guerra Fría.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-losing-my",
+    "text": "¿Qué banda canta «Losing My Religion» (1991)?",
+    "options": [
+      "R.E.M.",
+      "The Cure",
+      "Pixies",
+      "Pearl Jam"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "R.E.M. publicó «Losing My Religion» en 1991, del álbum Out of Time. Es su canción más conocida, y su videoclip ganó varios premios MTV.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-britanica-canta-bittersweet",
+    "text": "¿Qué banda británica canta «Bittersweet Symphony» (1997)?",
+    "options": [
+      "Suede",
+      "Pulp",
+      "The Verve",
+      "Blur"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Verve publicó «Bittersweet Symphony» en 1997. Incluye un fragmento de una versión orquestal de los Rolling Stones, lo que originó una larga disputa por derechos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-album-jagged",
+    "text": "¿Qué cantante lanzó el álbum «Jagged Little Pill» en 1995?",
+    "options": [
+      "Tori Amos",
+      "Alanis Morissette",
+      "Sheryl Crow",
+      "Sarah McLachlan"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Alanis Morissette publicó «Jagged Little Pill» en 1995, con «You Oughta Know» e «Ironic». Vendió decenas de millones de copias y ganó el Grammy al Álbum del año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-my-heart",
+    "text": "¿Qué cantante canta «My Heart Will Go On» en Titanic?",
+    "options": [
+      "Céline Dion",
+      "Whitney Houston",
+      "Barbra Streisand",
+      "Mariah Carey"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Céline Dion grabó «My Heart Will Go On» para Titanic (1997). La canción ganó el Óscar a la mejor canción original y fue número uno en todo el mundo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-escribio-will-always-love",
+    "text": "¿Quién escribió «I Will Always Love You»?",
+    "options": [
+      "Diane Warren",
+      "Whitney Houston",
+      "Linda Ronstadt",
+      "Dolly Parton"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Dolly Parton escribió «I Will Always Love You» en 1973. La versión de Whitney Houston para El guardaespaldas (1992) la convirtió en un éxito mundial.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-everything-do",
+    "text": "¿Qué cantante canta «(Everything I Do) I Do It for You»?",
+    "options": [
+      "Michael Bolton",
+      "Phil Collins",
+      "Rod Stewart",
+      "Bryan Adams"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Bryan Adams grabó esta balada para Robin Hood: príncipe de los ladrones (1991). Estuvo dieciséis semanas en el número uno de Reino Unido, un récord de la época.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-album-californication",
+    "text": "¿Qué banda lanzó el álbum «Californication» en 1999?",
+    "options": [
+      "Foo Fighters",
+      "Rage Against the Machine",
+      "Smashing Pumpkins",
+      "Red Hot Chili Peppers"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Red Hot Chili Peppers publicó «Californication» en 1999, con el regreso del guitarrista John Frusciante. Es uno de los álbumes más vendidos de la banda.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-cantaba-bye-bye",
+    "text": "¿Qué grupo cantaba «Bye Bye Bye» en el año 2000?",
+    "options": [
+      "Boyzone",
+      "NSYNC",
+      "98 Degrees",
+      "O-Town"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "NSYNC lanzó «Bye Bye Bye» en 2000, del álbum No Strings Attached. En su primera semana vendió más de un millón de discos en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-can-get-you",
+    "text": "¿Quién canta «Can't Get You Out of My Head» (2001)?",
+    "options": [
+      "Kylie Minogue",
+      "Christina Aguilera",
+      "Jennifer Lopez",
+      "Natalie Imbruglia"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Kylie Minogue publicó «Can't Get You Out of My Head» en 2001. Fue número uno en decenas de países y revitalizó su carrera.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-estadounidense-canta-seven",
+    "text": "¿Qué dúo estadounidense canta «Seven Nation Army» (2003)?",
+    "options": [
+      "The Kills",
+      "Royal Blood",
+      "The Black Keys",
+      "The White Stripes"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The White Stripes, formado por Jack White y Meg White, publicó «Seven Nation Army» en 2003. Su riff de guitarra sin bajo es uno de los más famosos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-welcome-to",
+    "text": "¿Qué banda canta «Welcome to the Black Parade»?",
+    "options": [
+      "Panic! at the Disco",
+      "Good Charlotte",
+      "My Chemical Romance",
+      "Fall Out Boy"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "My Chemical Romance publicó «Welcome to the Black Parade» en 2006. Es la canción más conocida del grupo y marcó la época del llamado emo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-hey-there",
+    "text": "¿Qué banda canta «Hey There Delilah» (2006)?",
+    "options": [
+      "Maroon 5",
+      "OneRepublic",
+      "Jason Mraz",
+      "Plain White T's"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Plain White T's publicó «Hey There Delilah» en 2006. La canción, inspirada en la corredora Delilah DiCrescenzo, llegó al número uno en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-call-me-maybe",
+    "text": "¿Quién canta «Call Me Maybe»?",
+    "options": [
+      "Taylor Swift",
+      "Selena Gómez",
+      "Demi Lovato",
+      "Carly Rae Jepsen"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Carly Rae Jepsen, cantante canadiense, publicó «Call Me Maybe» en 2011. En 2012 fue número uno en decenas de países y vendió millones de copias.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-somebody-that-used",
+    "text": "¿Quién canta «Somebody That I Used to Know»?",
+    "options": [
+      "Lorde",
+      "Gotye",
+      "Sia",
+      "Flume"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Gotye lanzó «Somebody That I Used to Know» en 2011, con Kimbra. Fue número uno en muchos países y ganó el Grammy a la Grabación del año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-britanica-canta-friday",
+    "text": "¿Qué banda británica canta «Friday I'm in Love» (1992)?",
+    "options": [
+      "The Smiths",
+      "The Cure",
+      "Joy Division",
+      "New Order"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Cure, liderada por Robert Smith, publicó «Friday I'm in Love» en 1992, del álbum Wish. Es una de las canciones más alegres de su repertorio.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-don-speak",
+    "text": "¿Qué banda canta «Don't Speak» (1996)?",
+    "options": [
+      "No Doubt",
+      "Garbage",
+      "Texas",
+      "The Cardigans"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "No Doubt publicó «Don't Speak» en 1996, del álbum Tragic Kingdom. Su cantante, Gwen Stefani, la escribió tras su ruptura con el bajista Tony Kanal.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-sueca-canta-lovefool",
+    "text": "¿Qué banda sueca canta «Lovefool» (1996)?",
+    "options": [
+      "Europe",
+      "Roxette",
+      "The Cardigans",
+      "Ace of Base"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Cardigans publicó «Lovefool» en 1996. Se hizo mundialmente famosa tras aparecer en la película Romeo + Julieta de Baz Luhrmann.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-blur-creo-grupo",
+    "text": "¿Qué cantante de Blur creó el grupo virtual Gorillaz?",
+    "options": [
+      "Damon Albarn",
+      "Liam Gallagher",
+      "Brandon Flowers",
+      "Chris Martin"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Damon Albarn, cantante de Blur, formó Gorillaz en 1998 junto al dibujante Jamie Hewlett. Es un grupo virtual de personajes animados.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-toca-guitarra-coldplay",
+    "text": "¿Quién toca la guitarra en Coldplay?",
+    "options": [
+      "Will Champion",
+      "Guy Berryman",
+      "Phil Harvey",
+      "Jonny Buckland"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Jonny Buckland es el guitarrista de Coldplay. Berryman toca el bajo, Champion la batería y Chris Martin canta y toca el piano y la guitarra.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-mayoria-canciones-oasis",
+    "text": "¿Quién compuso la mayoría de las canciones de Oasis?",
+    "options": [
+      "Liam Gallagher",
+      "Gem Archer",
+      "Bonehead",
+      "Noel Gallagher"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Noel Gallagher, guitarrista de Oasis, escribió casi todas las canciones de la banda, entre ellas «Wonderwall» y «Don't Look Back in Anger».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-guitarrista-banda-u2",
+    "text": "¿Quién es el guitarrista de la banda U2?",
+    "options": [
+      "Adam Clayton",
+      "Larry Mullen",
+      "The Edge",
+      "Bono"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Edge, nombre artístico de David Evans, es el guitarrista de U2. Su estilo, con eco y delay, define el sonido de la banda.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-bateria-banda-metallica",
+    "text": "¿Quién es el batería de la banda Metallica?",
+    "options": [
+      "Robert Trujillo",
+      "Lars Ulrich",
+      "Kirk Hammett",
+      "James Hetfield"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Lars Ulrich es el batería y cofundador de Metallica, banda creada en Los Ángeles en 1981 junto al cantante James Hetfield.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-organizo-sencillo-benefico",
+    "text": "¿Qué dúo organizó el sencillo benéfico «Band Aid» en 1984?",
+    "options": [
+      "Phil Collins y Sting",
+      "Bob Geldof y Midge Ure",
+      "Elton John y George Michael",
+      "Paul McCartney y Bono"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Bob Geldof y Midge Ure escribieron «Do They Know It's Christmas?» en 1984 para ayudar a Etiopía. Reunió a las mayores estrellas británicas del momento.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-escribieron-we-are-the",
+    "text": "¿Quiénes escribieron «We Are the World» en 1985?",
+    "options": [
+      "Madonna y Cyndi Lauper",
+      "Michael Jackson y Lionel Richie",
+      "Stevie Wonder y Quincy Jones",
+      "Prince y Bruce Springsteen"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Michael Jackson y Lionel Richie escribieron «We Are the World» en 1985 para USA for Africa. Quincy Jones la produjo con decenas de artistas invitados.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-murio-freddie-mercury",
+    "text": "¿En qué año murió Freddie Mercury?",
+    "options": [
+      "1991",
+      "1989",
+      "1993",
+      "1995"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Freddie Mercury murió el 24 de noviembre de 1991, un día después de confirmar públicamente que padecía sida. Tenía cuarenta y cinco años.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-murio-kurt-cobain",
+    "text": "¿En qué año murió Kurt Cobain?",
+    "options": [
+      "1998",
+      "1996",
+      "1994",
+      "1992"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Kurt Cobain, líder de Nirvana, murió en abril de 1994 en Seattle, con veintisiete años. Su muerte marcó el final del movimiento grunge.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-murio-cantante-prince",
+    "text": "¿En qué año murió el cantante Prince?",
+    "options": [
+      "2016",
+      "2014",
+      "2018",
+      "2012"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Prince murió el 21 de abril de 2016 en su estudio de Paisley Park, en Minnesota. Tenía cincuenta y siete años.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-murio-michael-jackson",
+    "text": "¿En qué año murió Michael Jackson?",
+    "options": [
+      "2007",
+      "2013",
+      "2009",
+      "2011"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Michael Jackson murió el 25 de junio de 2009 en Los Ángeles, cuando preparaba su serie de conciertos This Is It en Londres.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-murio-cantante-amy",
+    "text": "¿En qué año murió la cantante Amy Winehouse?",
+    "options": [
+      "2011",
+      "2015",
+      "2009",
+      "2013"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Amy Winehouse murió en julio de 2011, con veintisiete años. Su álbum «Back to Black» (2006) la había convertido en una estrella mundial.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-all-want-for",
+    "text": "¿Quién canta «All I Want for Christmas Is You»?",
+    "options": [
+      "Whitney Houston",
+      "Madonna",
+      "Céline Dion",
+      "Mariah Carey"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Mariah Carey publicó «All I Want for Christmas Is You» en 1994. Alcanzó por primera vez el número uno en Estados Unidos en 2019, veinticinco años después.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-wanna-dance-with",
+    "text": "¿Quién canta «I Wanna Dance with Somebody» (1987)?",
+    "options": [
+      "Janet Jackson",
+      "Madonna",
+      "Whitney Houston",
+      "Tina Turner"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Whitney Houston publicó «I Wanna Dance with Somebody» en 1987, del álbum Whitney. Fue su cuarto número uno consecutivo en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-in-the-air",
+    "text": "¿Quién canta «In the Air Tonight» (1981)?",
+    "options": [
+      "Peter Gabriel",
+      "Sting",
+      "Phil Collins",
+      "Elton John"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Phil Collins publicó «In the Air Tonight» en 1981, de su primer álbum en solitario. Es famosa por la entrada explosiva de su batería.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-album-invisible",
+    "text": "¿Qué banda lanzó el álbum «Invisible Touch» en 1986?",
+    "options": [
+      "Asia",
+      "Yes",
+      "Rush",
+      "Genesis"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Genesis publicó «Invisible Touch» en 1986. Fue su álbum más exitoso y la canción homónima alcanzó el número uno en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-britanica-canta-money",
+    "text": "¿Qué banda británica canta «Money for Nothing»?",
+    "options": [
+      "Genesis",
+      "Foreigner",
+      "Toto",
+      "Dire Straits"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Dire Straits publicó «Money for Nothing» en 1985. Sting aparece cantando «I want my MTV» en la canción, que ganó un Grammy en 1986.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-everybody-wants",
+    "text": "¿Qué banda canta «Everybody Wants to Rule the World»?",
+    "options": [
+      "Duran Duran",
+      "Depeche Mode",
+      "The Cure",
+      "Tears for Fears"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Tears for Fears publicó «Everybody Wants to Rule the World» en 1985. Fue número uno en Estados Unidos y es su canción más conocida.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-total-eclipse-of",
+    "text": "¿Quién canta «Total Eclipse of the Heart» (1983)?",
+    "options": [
+      "Bonnie Tyler",
+      "Pat Benatar",
+      "Cyndi Lauper",
+      "Belinda Carlisle"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Bonnie Tyler, cantante galesa, publicó «Total Eclipse of the Heart» en 1983. Fue número uno en Estados Unidos y Reino Unido.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-popularizo-love-rock-roll",
+    "text": "¿Quién popularizó «I Love Rock 'n' Roll» en 1981?",
+    "options": [
+      "Debbie Harry",
+      "Joan Jett",
+      "Stevie Nicks",
+      "Pat Benatar"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Joan Jett and the Blackhearts versionó «I Love Rock 'n' Roll» en 1981, tras la versión original del grupo Arrows. Estuvo siete semanas en el número uno.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-banda-inxs",
+    "text": "¿De qué país es la banda INXS?",
+    "options": [
+      "Australia",
+      "Nueva Zelanda",
+      "Canadá",
+      "Reino Unido"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "INXS se formó en Sídney en 1977. Su álbum «Kick» (1987), con «Need You Tonight», les dio fama mundial. Su cantante era Michael Hutchence.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-banda-guns-roses",
+    "text": "¿Quién es el cantante de la banda Guns N' Roses?",
+    "options": [
+      "Duff McKagan",
+      "Axl Rose",
+      "Izzy Stradlin",
+      "Slash"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Axl Rose es el vocalista de Guns N' Roses, banda formada en Los Ángeles en 1985. Slash es el guitarrista solista de la formación original.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-don-want",
+    "text": "¿Qué banda canta «I Don't Want to Miss a Thing»?",
+    "options": [
+      "Def Leppard",
+      "Bon Jovi",
+      "Aerosmith",
+      "Journey"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Aerosmith grabó «I Don't Want to Miss a Thing» en 1998 para la película Armageddon. Fue su primer número uno en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-hermanos-canta-mmmbop",
+    "text": "¿Qué banda de hermanos canta «MMMBop» (1997)?",
+    "options": [
+      "Osmonds",
+      "Jonas Brothers",
+      "Bee Gees",
+      "Hanson"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Hanson, formada por tres hermanos de Oklahoma, publicó «MMMBop» en 1997. Fue número uno en Estados Unidos cuando el mayor tenía solo dieciséis años.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-hero-2001",
+    "text": "¿Qué cantante lanzó «Hero» en 2001?",
+    "options": [
+      "Marc Anthony",
+      "Enrique Iglesias",
+      "Ricky Martin",
+      "Chayanne"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Enrique Iglesias publicó «Hero» en 2001, su primer gran éxito en inglés en Estados Unidos. Fue número uno en varios países.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-summer-of",
+    "text": "¿Qué cantante canta «Summer of '69»?",
+    "options": [
+      "Bruce Springsteen",
+      "Billy Joel",
+      "Bryan Adams",
+      "Rod Stewart"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Bryan Adams, cantante canadiense, publicó «Summer of '69» en 1985. Es uno de sus mayores éxitos y habla de la nostalgia de la juventud.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pelicula-incluye-don-you",
+    "text": "¿Qué película incluye «Don't You (Forget About Me)»?",
+    "options": [
+      "Regreso al futuro",
+      "Los Goonies",
+      "Dirty Dancing",
+      "El club de los cinco"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "La canción de Simple Minds aparece en El club de los cinco (1985), de John Hughes. Fue compuesta por Keith Forsey y Steve Schiff.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-every-rose",
+    "text": "¿Qué cantante canta «Every Rose Has Its Thorn»?",
+    "options": [
+      "Mötley Crüe",
+      "Skid Row",
+      "Warrant",
+      "Poison"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Poison publicó «Every Rose Has Its Thorn» en 1988. Fue su único número uno en Estados Unidos y es una de las baladas del glam metal más recordadas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-sweet-child",
+    "text": "¿Qué banda canta «Sweet Child o' Mine»?",
+    "options": [
+      "Mötley Crüe",
+      "Def Leppard",
+      "Guns N' Roses",
+      "Aerosmith"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Guns N' Roses publicó «Sweet Child o' Mine» en 1987. Fue número uno en Estados Unidos y su introducción de guitarra es muy reconocible.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-under-the",
+    "text": "¿Qué banda canta «Under the Bridge»?",
+    "options": [
+      "Foo Fighters",
+      "Rage Against the Machine",
+      "Smashing Pumpkins",
+      "Red Hot Chili Peppers"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Red Hot Chili Peppers publicó «Under the Bridge» en 1992, del álbum Blood Sugar Sex Magik. Anthony Kiedis la escribió tras sentirse solo en Los Ángeles.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-era-cantante-grupo-mecano",
+    "text": "¿Quién era la cantante del grupo Mecano?",
+    "options": [
+      "Ana Torroja",
+      "Ana Belén",
+      "Rosana",
+      "Marta Sánchez"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Ana Torroja fue la voz de Mecano, trío madrileño formado en 1981 junto a los hermanos José María y Nacho Cano, que compusieron casi todos sus temas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-hermanos-componian-canciones-mecano",
+    "text": "¿Qué hermanos componían las canciones de Mecano?",
+    "options": [
+      "Álvaro y Enrique Urquijo",
+      "José María y Nacho Cano",
+      "David y José Muñoz",
+      "Liam y Noel Gallagher"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "José María y Nacho Cano compusieron la mayoría de las canciones de Mecano, uno de los grupos españoles que más discos ha vendido en la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-banda-hombres",
+    "text": "¿Quién es el cantante de la banda Hombres G?",
+    "options": [
+      "Dani Martín",
+      "Leiva",
+      "Pau Donés",
+      "David Summers"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "David Summers es el cantante y bajista de Hombres G, grupo madrileño formado en 1982 que se hizo famoso con «Devuélveme a mi chica» y «Marta tiene un marcapasos».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-madrileno-formaron-ruben",
+    "text": "¿Qué dúo madrileño formaron Rubén Pozo y Leiva?",
+    "options": [
+      "Amaral",
+      "Sin Bandera",
+      "Estopa",
+      "Pereza"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Rubén Pozo y Leiva formaron Pereza, dúo madrileño de rock que triunfó en los 2000 con «Todo» y «Estrella polar» antes de separarse en 2011.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-cantante-canto-loco",
+    "text": "¿Quién fue el cantante de El Canto del Loco?",
+    "options": [
+      "Dani Martín",
+      "Pau Donés",
+      "Leiva",
+      "Andrés Suárez"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Dani Martín fue el vocalista de El Canto del Loco, banda madrileña de pop rock. Tras su separación, en 2010, inició su carrera en solitario.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-espanol-canta-flaca",
+    "text": "¿Qué grupo español canta «La flaca» (1996)?",
+    "options": [
+      "Estopa",
+      "Ketama",
+      "Amaral",
+      "Jarabe de Palo"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Jarabe de Palo, liderado por Pau Donés, lanzó «La flaca» en 1996. Fue un éxito en España y Latinoamérica y la banda llegó a vender más de un millón de discos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-nacio-grupo-heroes",
+    "text": "¿En qué ciudad nació el grupo Héroes del Silencio?",
+    "options": [
+      "Madrid",
+      "Sevilla",
+      "Zaragoza",
+      "Valencia"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Héroes del Silencio nació en Zaragoza en 1984. Con Enrique Bunbury como cantante, fue uno de los grupos de rock en español más importantes de su época.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-localidad-catalana-miembros-estopa",
+    "text": "¿De qué localidad catalana son los miembros de Estopa?",
+    "options": [
+      "Santa Coloma de Gramenet",
+      "Cornellà de Llobregat",
+      "L'Hospitalet de Llobregat",
+      "Sant Adrià de Besòs"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Los hermanos David y José Muñoz, que forman Estopa, son de Cornellà de Llobregat, en el área metropolitana de Barcelona. Debutaron en 1999.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-amaral-aparece-sin",
+    "text": "¿En qué álbum de Amaral aparece «Sin ti no soy nada»?",
+    "options": [
+      "Estrella de mar",
+      "Hacia lo salvaje",
+      "Gato negro, dragón rojo",
+      "Pájaros en la cabeza"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Sin ti no soy nada» forma parte de «Estrella de mar» (2002), el álbum que convirtió a Amaral en uno de los grupos más importantes del pop rock español.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-espanola-canta-copenhague",
+    "text": "¿Qué banda española canta «Copenhague»?",
+    "options": [
+      "Love of Lesbian",
+      "Sidonie",
+      "Supersubmarina",
+      "Vetusta Morla"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Vetusta Morla, banda de Tres Cantos, publicó «Copenhague» en 2008. Es uno de los grandes temas del rock independiente español del siglo XXI.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-quedate-conmigo-eurovision",
+    "text": "¿Quién cantó «Quédate conmigo» en Eurovisión 2012?",
+    "options": [
+      "Barei",
+      "Soraya",
+      "Pastora Soler",
+      "Edurne"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Pastora Soler representó a España en Eurovisión 2012, celebrado en Bakú, con «Quédate conmigo». Quedó décima y la canción fue muy elogiada.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-gano-eurovision-2021",
+    "text": "¿Qué banda ganó Eurovisión 2021 con «Zitti e buoni»?",
+    "options": [
+      "Måneskin",
+      "Subsonica",
+      "Negramaro",
+      "Il Volo"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Måneskin ganó Eurovisión 2021 en Róterdam con «Zitti e buoni». La banda de rock se hizo famosa en todo el mundo a partir de aquella victoria.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-gano-eurovision-2006",
+    "text": "¿Qué país ganó Eurovisión 2006 con la banda Lordi?",
+    "options": [
+      "Suecia",
+      "Dinamarca",
+      "Finlandia",
+      "Noruega"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Lordi, banda de hard rock con disfraces de monstruo, ganó Eurovisión 2006 en Atenas con «Hard Rock Hallelujah». Fue la primera victoria de Finlandia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-publico-mal-querer",
+    "text": "¿En qué año se publicó «El mal querer» de Rosalía?",
+    "options": [
+      "2018",
+      "2022",
+      "2016",
+      "2020"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Rosalía publicó «El mal querer» en 2018. Está inspirado en una novela medieval y mezcla flamenco, pop y música urbana. Ganó varios Grammy Latinos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-shakira-incluye-whenever",
+    "text": "¿Qué álbum de Shakira incluye «Whenever, Wherever»?",
+    "options": [
+      "Fijación oral, vol. 1",
+      "Sale el sol",
+      "Oral Fixation, Vol. 2",
+      "Laundry Service"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Whenever, Wherever» aparece en «Laundry Service» (2001), el primer álbum de Shakira en inglés, que vendió más de veinte millones de copias en el mundo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-espanol-padre-enrique",
+    "text": "¿Qué cantante español es el padre de Enrique Iglesias?",
+    "options": [
+      "Raphael",
+      "Camilo Sesto",
+      "Miguel Bosé",
+      "Julio Iglesias"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Enrique Iglesias es hijo del cantante Julio Iglesias, uno de los artistas españoles que más discos ha vendido en la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-espanol-canta-le",
+    "text": "¿Qué grupo español canta «A quién le importa»?",
+    "options": [
+      "Los Secretos",
+      "Gabinete Caligari",
+      "Alaska y Dinarama",
+      "Radio Futura"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Alaska y Dinarama popularizaron «A quién le importa» en los años 80. La canción es un himno de la Movida madrileña y fue versionada por Thalía.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-lideraba-banda-radio-futura",
+    "text": "¿Quién lideraba la banda Radio Futura?",
+    "options": [
+      "Manolo García",
+      "Enrique Urquijo",
+      "Nacho Vegas",
+      "Santiago Auserón"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Santiago Auserón fue el cantante y compositor de Radio Futura, banda clave del pop español de los años 80. Después inició su carrera como Juan Perro.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-catalan-canta-querida",
+    "text": "¿Qué dúo catalán canta «Querida Milagros»?",
+    "options": [
+      "Los Piratas",
+      "Los Planetas",
+      "El Último de la Fila",
+      "Duncan Dhu"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El Último de la Fila, formado por Manolo García y Quimi Portet, fue una de las bandas más populares del pop rock español entre los 80 y los 90.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-banda-mana",
+    "text": "¿De qué país es la banda Maná?",
+    "options": [
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "México"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Maná se formó en Guadalajara, México, en los años 80. Con éxitos como «Rayando el sol» es una de las bandas de rock en español más exitosas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-cantante-banda-soda",
+    "text": "¿Quién fue el cantante de la banda Soda Stereo?",
+    "options": [
+      "Gustavo Cerati",
+      "Charly García",
+      "Fito Páez",
+      "Andrés Calamaro"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Gustavo Cerati fue el cantante y guitarrista de Soda Stereo, banda argentina de los 80 y 90, autora de «De música ligera» y «Persiana americana».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-argentina-canta-lamento",
+    "text": "¿Qué banda argentina canta «Lamento boliviano»?",
+    "options": [
+      "Caifanes",
+      "Enanitos Verdes",
+      "Soda Stereo",
+      "Los Prisioneros"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Enanitos Verdes, banda de Mendoza, publicó «Lamento boliviano» en 1994. Se convirtió en uno de los grandes éxitos del rock en español de los 90.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-colombiana-nacio-shakira",
+    "text": "¿En qué ciudad colombiana nació Shakira?",
+    "options": [
+      "Barranquilla",
+      "Medellín",
+      "Cali",
+      "Bogotá"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Shakira nació en Barranquilla en 1977. Allí creció y publicó sus primeros discos antes de dar el salto internacional a finales de los años 90.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-territorio-cantante-bad-bunny",
+    "text": "¿De qué territorio es el cantante Bad Bunny?",
+    "options": [
+      "México",
+      "Panamá",
+      "Puerto Rico",
+      "Cuba"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Bad Bunny nació en Vega Baja, Puerto Rico, en 1994. Se convirtió en uno de los artistas más escuchados del mundo y en 2026 ganó el Grammy al Álbum del año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-coldplay-incluye-yellow",
+    "text": "¿Qué álbum de Coldplay incluye «Yellow»?",
+    "options": [
+      "Ghost Stories",
+      "Parachutes",
+      "Mylo Xyloto",
+      "Everyday Life"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Yellow» está en «Parachutes», el álbum debut de Coldplay, publicado en 2000. Con él la banda alcanzó fama internacional y ganó un Grammy.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-chasing-cars",
+    "text": "¿Qué banda canta «Chasing Cars» (2006)?",
+    "options": [
+      "The Script",
+      "Keane",
+      "Snow Patrol",
+      "Travis"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Snow Patrol publicó «Chasing Cars» en 2006, del álbum Eyes Open. Ganó fama mundial tras aparecer en la serie Anatomía de Grey.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-you-re-beautiful",
+    "text": "¿Quién canta «You're Beautiful» (2005)?",
+    "options": [
+      "Jason Mraz",
+      "Daniel Powter",
+      "James Morrison",
+      "James Blunt"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "James Blunt, cantante británico, publicó «You're Beautiful» en 2005, de su álbum Back to Bedlam. Fue número uno en Reino Unido y Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-bad-day-2005",
+    "text": "¿Quién canta «Bad Day» (2005)?",
+    "options": [
+      "Daniel Powter",
+      "Jason Mraz",
+      "Gavin DeGraw",
+      "James Blunt"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El cantante canadiense Daniel Powter publicó «Bad Day» en 2005. Se hizo muy popular tras usarse en el programa American Idol y alcanzó el número uno.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-how-to",
+    "text": "¿Qué banda canta «How to Save a Life»?",
+    "options": [
+      "Matchbox Twenty",
+      "The Script",
+      "Lifehouse",
+      "The Fray"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Fray, banda de Denver, publicó «How to Save a Life» en 2005. Su fama creció al sonar en la serie Anatomía de Grey.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-use-somebody",
+    "text": "¿Qué banda canta «Use Somebody» (2008)?",
+    "options": [
+      "Kasabian",
+      "The Killers",
+      "Kings of Leon",
+      "The Black Keys"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Kings of Leon, banda de Tennessee, publicó «Use Somebody» en 2008. Ganó el Grammy a la Grabación del año en 2010.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-yours-2008",
+    "text": "¿Quién canta «I'm Yours» (2008)?",
+    "options": [
+      "Jason Mraz",
+      "Jack Johnson",
+      "Gavin DeGraw",
+      "Colbie Caillat"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Jason Mraz publicó «I'm Yours» en 2008. Pasó más de un año en el Billboard Hot 100 y fue una de las canciones más descargadas de la época.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-canta-gotta-feeling",
+    "text": "¿Qué grupo canta «I Gotta Feeling» (2009)?",
+    "options": [
+      "Black Eyed Peas",
+      "Far East Movement",
+      "OneRepublic",
+      "Maroon 5"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Black Eyed Peas publicó «I Gotta Feeling» en 2009, del álbum The E.N.D. Fue número uno y se convirtió en himno de fiestas y celebraciones.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-kissed-girl-2008",
+    "text": "¿Quién canta «I Kissed a Girl» (2008)?",
+    "options": [
+      "Katy Perry",
+      "Lady Gaga",
+      "Miley Cyrus",
+      "Pink"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Katy Perry se hizo famosa en 2008 con «I Kissed a Girl», primer sencillo de su álbum One of the Boys. Fue número uno en Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-oscar-mejor-cancion",
+    "text": "¿Quién ganó el Óscar a la mejor canción por «Skyfall»?",
+    "options": [
+      "Lady Gaga",
+      "Sam Smith",
+      "Billie Eilish",
+      "Adele"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Adele ganó el Óscar a la mejor canción original en 2013 por «Skyfall», tema de la película de James Bond del mismo nombre.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-oscar-time-to",
+    "text": "¿Quién ganó el Óscar por «No Time to Die»?",
+    "options": [
+      "Sam Smith",
+      "Lady Gaga",
+      "Adele",
+      "Billie Eilish"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Billie Eilish y su hermano Finneas ganaron el Óscar a la mejor canción original en 2022 por «No Time to Die», de la película de James Bond.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cancion-pelicula-barbie-gano",
+    "text": "¿Qué canción de la película Barbie ganó el Óscar en 2024?",
+    "options": [
+      "I'm Just Ken",
+      "Dance the Night",
+      "Barbie World",
+      "What Was I Made For?"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«What Was I Made For?», de Billie Eilish y Finneas, ganó el Óscar a la mejor canción en 2024. Es el segundo Óscar de ambos hermanos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-gano-album-ano",
+    "text": "¿Qué cantante ganó el Álbum del año en los Grammy 2023?",
+    "options": [
+      "Adele",
+      "Bad Bunny",
+      "Harry Styles",
+      "Beyoncé"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Harry Styles ganó en 2023 el Grammy al Álbum del año con «Harry's House», un disco de pop con influencias de soul y sintetizadores de los 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-gano-cuatro-grammy",
+    "text": "¿Qué cantante ganó los cuatro Grammy principales en 2020?",
+    "options": [
+      "Ariana Grande",
+      "Lizzo",
+      "Lana Del Rey",
+      "Billie Eilish"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Billie Eilish ganó en 2020 Álbum, Grabación y Canción del año y Artista revelación. Fue la primera en lograrlo desde Christopher Cross en 1981.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-taylor-swift-fue",
+    "text": "¿Qué álbum de Taylor Swift fue Álbum del año en 2010?",
+    "options": [
+      "Fearless",
+      "1989",
+      "Red",
+      "Folklore"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Fearless» ganó el Grammy al Álbum del año en 2010. Taylor Swift tenía veinte años y fue la artista más joven en conseguirlo hasta entonces.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grammy-historia",
+    "text": "¿Quién tiene más Grammy en la historia?",
+    "options": [
+      "Beyoncé",
+      "Adele",
+      "Alison Krauss",
+      "Taylor Swift"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Beyoncé es la artista con más premios Grammy de la historia. Superó el récord en 2023 y siguió ampliándolo con «Cowboy Carter» en 2025.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-summertime-sadness",
+    "text": "¿Qué cantante canta «Summertime Sadness» (2012)?",
+    "options": [
+      "Lorde",
+      "Lana Del Rey",
+      "Halsey",
+      "Billie Eilish"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Lana Del Rey publicó «Summertime Sadness» en 2012, del álbum Born to Die. Su remix de Cedric Gervais ganó un Grammy en 2014.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-actuo-descanso-super-bowl",
+    "text": "¿Quién actuó en el descanso de la Super Bowl de 2021?",
+    "options": [
+      "Bruno Mars",
+      "Shakira",
+      "Rihanna",
+      "The Weeknd"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Weeknd actuó en el descanso de la Super Bowl de 2021, celebrada en Tampa, con un espectáculo adaptado a la pandemia y con aforo reducido.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-protagonizo-descanso-super-bowl",
+    "text": "¿Quién protagonizó el descanso de la Super Bowl de 2023?",
+    "options": [
+      "Lady Gaga",
+      "Coldplay",
+      "Katy Perry",
+      "Rihanna"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Rihanna protagonizó el descanso de la Super Bowl de 2023, en Arizona. Anunció su embarazo durante el espectáculo, que duró unos trece minutos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cancion-lanzo-olivia-rodrigo",
+    "text": "¿Qué canción lanzó Olivia Rodrigo en enero de 2021?",
+    "options": [
+      "deja vu",
+      "good 4 u",
+      "drivers license",
+      "traitor"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«drivers license» debutó en el número uno del Billboard Hot 100 en enero de 2021. Fue el gran éxito de Olivia Rodrigo, con solo diecisiete años.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cancion-taylor-swift-2019",
+    "text": "¿Qué canción de Taylor Swift de 2019 fue número uno en 2023?",
+    "options": [
+      "Anti-Hero",
+      "Love Story",
+      "Lover",
+      "Cruel Summer"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Cruel Summer», publicada en 2019 en el álbum Lover, llegó al número uno del Hot 100 en octubre de 2023, impulsada por la gira The Eras Tour.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-espresso-exito-2024",
+    "text": "¿Quién canta «Espresso», éxito de 2024?",
+    "options": [
+      "Chappell Roan",
+      "Sabrina Carpenter",
+      "Gracie Abrams",
+      "Olivia Rodrigo"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Sabrina Carpenter lanzó «Espresso» en 2024. Fue una de las canciones más escuchadas del año y le dio un Grammy a la mejor interpretación pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-lanzo-good-luck-babe",
+    "text": "¿Quién lanzó «Good Luck, Babe!» en 2024?",
+    "options": [
+      "Chappell Roan",
+      "Olivia Rodrigo",
+      "Sabrina Carpenter",
+      "Gracie Abrams"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Chappell Roan publicó «Good Luck, Babe!» en 2024. Fue número uno en varios países y la artista ganó el Grammy al Mejor artista nuevo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-lanzo-album-brat-2024",
+    "text": "¿Quién lanzó el álbum «Brat» en 2024?",
+    "options": [
+      "Rina Sawayama",
+      "Doja Cat",
+      "Lizzo",
+      "Charli XCX"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Charli XCX publicó «Brat» en 2024. Su estética verde lima dio lugar al fenómeno «brat summer» y el disco ganó varios premios Grammy.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-birds-of-feather",
+    "text": "¿Quién canta «Birds of a Feather» (2024)?",
+    "options": [
+      "Sabrina Carpenter",
+      "Billie Eilish",
+      "Olivia Rodrigo",
+      "Dua Lipa"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Billie Eilish publicó «Birds of a Feather» en 2024, del álbum Hit Me Hard and Soft. Fue uno de los mayores éxitos del año y recibió varias nominaciones.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-beautiful-things-2024",
+    "text": "¿Quién canta «Beautiful Things» (2024)?",
+    "options": [
+      "Shaboozey",
+      "Benson Boone",
+      "Teddy Swims",
+      "Noah Kahan"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Benson Boone publicó «Beautiful Things» en 2024. Fue un éxito mundial y le valió una nominación al Grammy a Mejor artista nuevo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-neoyorquina-canta-last",
+    "text": "¿Qué banda neoyorquina canta «Last Nite» (2001)?",
+    "options": [
+      "The Strokes",
+      "The Killers",
+      "Yeah Yeah Yeahs",
+      "Interpol"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Strokes, banda de Nueva York, publicó «Last Nite» en 2001, de su álbum debut Is This It. Fue clave en el resurgir del rock de los 2000.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-inglesa-banda-arctic",
+    "text": "¿De qué ciudad inglesa es la banda Arctic Monkeys?",
+    "options": [
+      "Liverpool",
+      "Sheffield",
+      "Leeds",
+      "Mánchester"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Arctic Monkeys se formó en Sheffield en 2002. Su álbum debut, de 2006, fue el de venta más rápida en la historia del Reino Unido hasta entonces.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-album-american",
+    "text": "¿Qué banda lanzó el álbum «American Idiot» en 2004?",
+    "options": [
+      "Sum 41",
+      "The Offspring",
+      "Blink-182",
+      "Green Day"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Green Day publicó «American Idiot» en 2004. Es una ópera rock con crítica política que devolvió a la banda a la primera línea mundial.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-sk8er-boi",
+    "text": "¿Qué cantante canta «Sk8er Boi» (2002)?",
+    "options": [
+      "Ashlee Simpson",
+      "Kelly Clarkson",
+      "Avril Lavigne",
+      "Michelle Branch"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Avril Lavigne publicó «Sk8er Boi» en 2002, del álbum Let Go. Con esta canción consolidó su imagen de cantante pop punk adolescente.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-lanzo-beautiful-2002",
+    "text": "¿Qué cantante lanzó «Beautiful» en 2002?",
+    "options": [
+      "Kelly Clarkson",
+      "Jessica Simpson",
+      "Christina Aguilera",
+      "Britney Spears"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Christina Aguilera publicó «Beautiful» en 2002, del álbum Stripped. La canción es un himno de autoestima y obtuvo un Grammy.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-espanol-canta-shakira",
+    "text": "¿Con qué cantante español canta Shakira «La tortura»?",
+    "options": [
+      "Alejandro Sanz",
+      "Enrique Iglesias",
+      "Pablo Alborán",
+      "David Bisbal"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Shakira y Alejandro Sanz publicaron «La tortura» en 2005. Fue número uno en España y el sencillo en español más exitoso de aquel año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-buleria-2004",
+    "text": "¿Quién canta «Bulería» (2004)?",
+    "options": [
+      "Pablo López",
+      "Chayanne",
+      "Miguel Bosé",
+      "David Bisbal"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "David Bisbal, que saltó a la fama en Operación Triunfo, publicó «Bulería» en 2004. Mezcla pop con aires flamencos y fue un éxito en España.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-solamente-tu-2010",
+    "text": "¿Quién canta «Solamente tú» (2010)?",
+    "options": [
+      "Pablo Alborán",
+      "Dani Martín",
+      "Manuel Carrasco",
+      "Pablo López"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Pablo Alborán, cantante malagueño, publicó «Solamente tú» en 2010. Se hizo muy popular en internet antes de que su disco debut saliera a la venta.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantan-malo-2018",
+    "text": "¿Quiénes cantan «Lo malo» (2018)?",
+    "options": [
+      "Natalia y Mimi",
+      "Aitana y Ana Guerra",
+      "Ana Guerra y Cepeda",
+      "Amaia y Alfred"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Aitana y Ana Guerra cantaron «Lo malo» en 2018, tras salir de Operación Triunfo. Superó los cien millones de reproducciones en poco tiempo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-represento-espana-eurovision",
+    "text": "¿Qué dúo representó a España en Eurovisión 2018?",
+    "options": [
+      "Amaia y Alfred",
+      "Aitana y Ana Guerra",
+      "Miriam y Agoney",
+      "Roi y Cepeda"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Amaia y Alfred cantaron «Tu canción» en Eurovisión 2018, en Lisboa. Habían salido de Operación Triunfo y la canción fue muy querida por el público.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-publico-album-bad",
+    "text": "¿En qué año se publicó el álbum «Bad» de Michael Jackson?",
+    "options": [
+      "1989",
+      "1991",
+      "1987",
+      "1985"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Michael Jackson publicó «Bad» en 1987. Fue el primer álbum con cinco sencillos número uno en Estados Unidos, entre ellos «Smooth Criminal».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-true-colors-1986",
+    "text": "¿Quién canta «True Colors» en 1986?",
+    "options": [
+      "Whitney Houston",
+      "Tina Turner",
+      "Madonna",
+      "Cyndi Lauper"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Cyndi Lauper publicó «True Colors» en 1986 y fue número uno en Estados Unidos. Es una de las baladas más queridas del pop de los 80.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-what-love-got",
+    "text": "¿Quién canta «What's Love Got to Do with It»?",
+    "options": [
+      "Diana Ross",
+      "Donna Summer",
+      "Tina Turner",
+      "Aretha Franklin"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Tina Turner publicó «What's Love Got to Do with It» en 1984. Fue su único número uno en Estados Unidos y marcó su regreso a la fama.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-let-dance-1983",
+    "text": "¿Quién canta «Let's Dance» (1983)?",
+    "options": [
+      "Peter Gabriel",
+      "Sting",
+      "David Bowie",
+      "Prince"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "David Bowie publicó «Let's Dance» en 1983, producida por Nile Rodgers de Chic. Fue número uno en Reino Unido y Estados Unidos.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-bon-jovi-esta",
+    "text": "¿En qué álbum de Bon Jovi está «Livin' on a Prayer»?",
+    "options": [
+      "These Days",
+      "Keep the Faith",
+      "Slippery When Wet",
+      "New Jersey"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Livin' on a Prayer» está en «Slippery When Wet» (1986). Es el álbum más vendido de Bon Jovi y consolidó su fama mundial.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-aparece-portada-album-nevermind",
+    "text": "¿Qué aparece en la portada del álbum «Nevermind» de Nirvana?",
+    "options": [
+      "Un perro en la playa",
+      "Un bebé bajo el agua",
+      "Un niño con guitarra",
+      "Una piscina vacía"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "La portada de «Nevermind» (1991) muestra a un bebé desnudo que nada bajo el agua hacia un billete de dólar colgado de un anzuelo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-publico-primer-album",
+    "text": "¿En qué año se publicó el primer álbum de Oasis?",
+    "options": [
+      "1992",
+      "1994",
+      "1998",
+      "1996"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Oasis publicó «Definitely Maybe» en 1994. Fue el álbum debut más vendido de la historia en Reino Unido hasta ese momento.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-ok-computer",
+    "text": "¿Qué banda lanzó «OK Computer» en 1997?",
+    "options": [
+      "Radiohead",
+      "Pulp",
+      "Blur",
+      "Muse"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Radiohead publicó «OK Computer» en 1997. Es considerado uno de los mejores discos del rock alternativo y contiene «Karma Police».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-rivalizo-blur-britpop",
+    "text": "¿Con qué banda rivalizó Blur en el britpop de 1995?",
+    "options": [
+      "Pulp",
+      "Oasis",
+      "The Verve",
+      "Suede"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "En 1995 Blur y Oasis publicaron sencillos el mismo día, en la llamada Batalla del Britpop. Blur ganó esa semana, pero Oasis triunfó después.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-spice-girl-dejo-grupo",
+    "text": "¿Qué Spice Girl dejó el grupo en 1998?",
+    "options": [
+      "Emma Bunton",
+      "Geri Halliwell",
+      "Victoria Beckham",
+      "Melanie Brown"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Geri Halliwell abandonó las Spice Girls en mayo de 1998. El grupo continuó como cuarteto durante un tiempo y se separó años después.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-nombre-real-lady-gaga",
+    "text": "¿Cuál es el nombre real de Lady Gaga?",
+    "options": [
+      "Robyn Fenty",
+      "Stefani Germanotta",
+      "Alecia Moore",
+      "Katheryn Hudson"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El nombre real de Lady Gaga es Stefani Joanne Angelina Germanotta. Katheryn Hudson es Katy Perry, Robyn Fenty es Rihanna y Alecia Moore es Pink.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-estadounidense-banda-pearl",
+    "text": "¿De qué ciudad estadounidense es la banda Pearl Jam?",
+    "options": [
+      "Los Ángeles",
+      "Seattle",
+      "Portland",
+      "Nueva York"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Pearl Jam se formó en Seattle en 1990. Junto a Nirvana, Soundgarden y Alice in Chains lideró el movimiento grunge de principios de los 90.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-all-the",
+    "text": "¿Qué banda canta «All the Small Things»?",
+    "options": [
+      "Green Day",
+      "Blink-182",
+      "Good Charlotte",
+      "Sum 41"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Blink-182 publicó «All the Small Things» en 1999, del álbum Enema of the State. Su videoclip parodiaba a los grupos juveniles del momento.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-lidera-banda-paramore",
+    "text": "¿Quién lidera la banda Paramore?",
+    "options": [
+      "Hayley Williams",
+      "Alanis Morissette",
+      "Avril Lavigne",
+      "Gwen Stefani"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Hayley Williams es la vocalista de Paramore, banda de Tennessee. Se hizo famosa con «Misery Business» en 2007, cuando tenía dieciocho años.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-canta-stressed-out",
+    "text": "¿Qué dúo canta «Stressed Out» (2015)?",
+    "options": [
+      "OneRepublic",
+      "Panic! at the Disco",
+      "Imagine Dragons",
+      "Twenty One Pilots"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Twenty One Pilots, dúo de Ohio formado por Tyler Joseph y Josh Dun, publicó «Stressed Out» en 2015. Fue su primer gran éxito mundial.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-folk-canta-ho",
+    "text": "¿Qué banda folk canta «Ho Hey» (2012)?",
+    "options": [
+      "Fleet Foxes",
+      "Of Monsters and Men",
+      "Mumford & Sons",
+      "The Lumineers"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Lumineers, banda de Denver, publicó «Ho Hey» en 2012. Se hizo muy popular gracias a series y películas y entró en el Hot 100.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-creep-1992",
+    "text": "¿Qué banda canta «Creep» (1992)?",
+    "options": [
+      "Radiohead",
+      "Garbage",
+      "Weezer",
+      "Pearl Jam"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Radiohead publicó «Creep» en 1992 en su álbum debut Pablo Honey. Se convirtió en un éxito mundial y es la canción más popular de sus inicios.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-buddy-holly",
+    "text": "¿Qué banda canta «Buddy Holly» (1994)?",
+    "options": [
+      "Green Day",
+      "The Offspring",
+      "Weezer",
+      "Blink-182"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Weezer publicó «Buddy Holly» en 1994, del álbum conocido como Blue Album. Su videoclip, ambientado en la serie Happy Days, fue muy premiado.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-canta-wrecking-ball",
+    "text": "¿Qué cantante canta «Wrecking Ball» (2013)?",
+    "options": [
+      "Miley Cyrus",
+      "Katy Perry",
+      "Rihanna",
+      "Selena Gómez"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Miley Cyrus publicó «Wrecking Ball» en 2013, de su álbum Bangerz. Fue su primer número uno en Estados Unidos y su videoclip batió récords.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-sorpresa-taylor-swift",
+    "text": "¿Qué álbum sorpresa de Taylor Swift salió en julio de 2020?",
+    "options": [
+      "Folklore",
+      "Evermore",
+      "Reputation",
+      "Lover"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Taylor Swift lanzó «Folklore» sin aviso en julio de 2020, durante la pandemia. Ganó el Grammy al Álbum del año en 2021.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-iris-1998",
+    "text": "¿Qué banda canta «Iris» (1998)?",
+    "options": [
+      "Semisonic",
+      "Third Eye Blind",
+      "Goo Goo Dolls",
+      "Matchbox Twenty"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Goo Goo Dolls publicó «Iris» en 1998 para la película Ciudad de ángeles. Estuvo en lo más alto de las listas radiofónicas durante muchas semanas.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-torn-1997",
+    "text": "¿Quién canta «Torn» (1997)?",
+    "options": [
+      "Natalie Imbruglia",
+      "Alanis Morissette",
+      "Sarah McLachlan",
+      "Sheryl Crow"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Natalie Imbruglia, cantante australiana, publicó «Torn» en 1997. Es una versión de una canción de Ednaswap y fue un éxito mundial.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-duo-australiano-canta-truly",
+    "text": "¿Qué dúo australiano canta «Truly Madly Deeply»?",
+    "options": [
+      "Savage Garden",
+      "Air Supply",
+      "Crowded House",
+      "Men at Work"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Savage Garden, formado por Darren Hayes y Daniel Jones, publicó «Truly Madly Deeply» en 1997. Fue número uno en Estados Unidos y Australia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-shape-of-my",
+    "text": "¿Quién canta «Shape of My Heart» (1993)?",
+    "options": [
+      "Bryan Adams",
+      "Phil Collins",
+      "Sting",
+      "Peter Gabriel"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Sting publicó «Shape of My Heart» en 1993, del álbum Ten Summoner's Tales. Se hizo muy conocida después al sonar en la película León.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-tears-in-heaven",
+    "text": "¿Quién canta «Tears in Heaven» (1992)?",
+    "options": [
+      "Eric Clapton",
+      "Elton John",
+      "Sting",
+      "Phil Collins"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Eric Clapton escribió «Tears in Heaven» en 1992 tras la muerte de su hijo. Ganó tres premios Grammy en 1993, entre ellos Canción del año.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-homenajeo-elton-john-candle",
+    "text": "¿A quién homenajeó Elton John en «Candle in the Wind 1997»?",
+    "options": [
+      "A Freddie Mercury",
+      "A John Lennon",
+      "A Diana de Gales",
+      "A Marilyn Monroe"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Elton John cantó «Candle in the Wind 1997» en el funeral de Diana de Gales. Se convirtió en el sencillo más vendido de la historia del Reino Unido.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-angels-1997",
+    "text": "¿Quién canta «Angels» (1997)?",
+    "options": [
+      "George Michael",
+      "Robbie Williams",
+      "Gary Barlow",
+      "Elton John"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Robbie Williams publicó «Angels» en 1997, de su álbum debut en solitario Life thru a Lens. Es su canción más querida en Reino Unido.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-canta-pompeii-2013",
+    "text": "¿Qué banda canta «Pompeii» (2013)?",
+    "options": [
+      "Muse",
+      "Bastille",
+      "Foals",
+      "Alt-J"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Bastille, banda londinense liderada por Dan Smith, publicó «Pompeii» en 2013. Fue un éxito mundial y entró en el Top 10 de varios países.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-riptide-2013",
+    "text": "¿Quién canta «Riptide» (2013)?",
+    "options": [
+      "Passenger",
+      "Vance Joy",
+      "Hozier",
+      "Gotye"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El cantante australiano Vance Joy publicó «Riptide» en 2013. Con su ukelele y su melodía pegadiza, encabezó el Hottest 100 de la radio Triple J en 2013.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-abrio-live-aid",
+    "text": "¿Qué banda abrió el Live Aid en Wembley?",
+    "options": [
+      "Sade",
+      "Queen",
+      "Status Quo",
+      "Madness"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Status Quo abrió el concierto de Wembley del Live Aid en 1985 con «Rockin' All Over the World». Queen actuó después y su actuación se recuerda como la mejor.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-radio-ga-ga",
+    "text": "¿Quién compuso «Radio Ga Ga» de Queen?",
+    "options": [
+      "Brian May",
+      "John Deacon",
+      "Freddie Mercury",
+      "Roger Taylor"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Roger Taylor, batería de Queen, compuso «Radio Ga Ga» en 1984. Su videoclip incluía escenas de la película Metrópolis, de Fritz Lang.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-produjo-nevermind-nirvana",
+    "text": "¿Quién produjo «Nevermind» de Nirvana?",
+    "options": [
+      "Butch Vig",
+      "Brendan O'Brien",
+      "Steve Albini",
+      "Rick Rubin"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Butch Vig produjo «Nevermind» en 1991. Steve Albini produjo después «In Utero», el siguiente álbum de Nirvana, de sonido más crudo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-produjo-ok-computer-radiohead",
+    "text": "¿Quién produjo «OK Computer» de Radiohead?",
+    "options": [
+      "Nigel Godrich",
+      "Brian Eno",
+      "Rick Rubin",
+      "Mark Ronson"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Nigel Godrich produjo «OK Computer» en 1997 y se convirtió en colaborador habitual de Radiohead, hasta el punto de ser llamado el sexto miembro.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-toco-solo-guitarra-beat",
+    "text": "¿Quién tocó el solo de guitarra de «Beat It»?",
+    "options": [
+      "Jimmy Page",
+      "Brian May",
+      "Eddie Van Halen",
+      "Steve Lukather"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Eddie Van Halen grabó el solo de «Beat It» de Michael Jackson en 1982, sin cobrar. Steve Lukather, de Toto, tocó la guitarra rítmica y el bajo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-llamaba-banda-prince-purple",
+    "text": "¿Cómo se llamaba la banda de Prince en «Purple Rain»?",
+    "options": [
+      "The Time",
+      "The Heartbreakers",
+      "The Revolution",
+      "The Wailers"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Prince grabó «Purple Rain» (1984) con su banda The Revolution. The Time era otro grupo de su órbita y aparece en la película.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-productores-trabajaron-the-joshua",
+    "text": "¿Qué productores trabajaron en «The Joshua Tree» de U2?",
+    "options": [
+      "Brian Eno y Daniel Lanois",
+      "Trevor Horn y Nick Rhodes",
+      "Phil Spector y George Martin",
+      "Quincy Jones y Nile Rodgers"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Brian Eno y Daniel Lanois produjeron «The Joshua Tree» (1987) de U2. Ya habían trabajado con la banda en «The Unforgettable Fire».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-produjo-ray-of-light",
+    "text": "¿Quién produjo «Ray of Light» de Madonna?",
+    "options": [
+      "Patrick Leonard",
+      "Nile Rodgers",
+      "Stuart Price",
+      "William Orbit"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "William Orbit produjo «Ray of Light» (1998), con el que Madonna incorporó sonidos electrónicos. El álbum ganó cuatro premios Grammy.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canta-wicked-game-1989",
+    "text": "¿Quién canta «Wicked Game» (1989)?",
+    "options": [
+      "Roy Orbison",
+      "Lou Reed",
+      "Bryan Ferry",
+      "Chris Isaak"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Chris Isaak publicó «Wicked Game» en 1989. Se hizo muy famosa en 1991 tras sonar en la película Corazón salvaje, de David Lynch.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grabo-casi-solo-primer",
+    "text": "¿Quién grabó casi solo el primer disco de Foo Fighters?",
+    "options": [
+      "Dave Grohl",
+      "Pat Smear",
+      "Nate Mendel",
+      "Taylor Hawkins"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Dave Grohl grabó casi solo el primer álbum de Foo Fighters en 1995. Después reunió una banda para llevar las canciones al directo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-numeros-uno-dio-teenage",
+    "text": "¿Cuántos números uno dio «Teenage Dream» a Katy Perry?",
+    "options": [
+      "Cuatro",
+      "Tres",
+      "Cinco",
+      "Seis"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "«Teenage Dream» (2010) generó cinco números uno en Estados Unidos: «California Gurls», «Teenage Dream», «Firework», «E.T.» y «Last Friday Night».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grammy-gano-thriller-1984",
+    "text": "¿Cuántos Grammy ganó «Thriller» en 1984?",
+    "options": [
+      "Diez",
+      "Ocho",
+      "Cuatro",
+      "Seis"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Michael Jackson ganó ocho Grammy en 1984, un récord en una sola noche. Entre ellos estuvieron Álbum del año y Grabación del año por «Beat It».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-banda-lanzo-in-rainbows",
+    "text": "¿Qué banda lanzó «In Rainbows» con precio a voluntad?",
+    "options": [
+      "Coldplay",
+      "Muse",
+      "Radiohead",
+      "Arcade Fire"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Radiohead publicó «In Rainbows» en 2007 en internet y dejó que cada comprador decidiera cuánto pagar. Fue un hito en la industria musical.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-prince-adopto-simbolo",
+    "text": "¿En qué año Prince adoptó un símbolo como nombre?",
+    "options": [
+      "1999",
+      "1996",
+      "1993",
+      "1989"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Prince adoptó en 1993 un símbolo impronunciable como nombre, en conflicto con su discográfica Warner. Quedó conocido como «el artista antes conocido como Prince».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-grabo-u2-gran",
+    "text": "¿En qué ciudad grabó U2 gran parte de «Achtung Baby»?",
+    "options": [
+      "Dublín",
+      "Nueva York",
+      "Londres",
+      "Berlín"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "U2 grabó parte de «Achtung Baby» (1991) en los estudios Hansa de Berlín, poco después de la caída del muro. El álbum supuso un cambio de estilo.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-escribio-nothing-compares",
+    "text": "¿Quién escribió «Nothing Compares 2 U»?",
+    "options": [
+      "Prince",
+      "Sting",
+      "Bono",
+      "Seal"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Prince escribió «Nothing Compares 2 U» en los años 80 para The Family. Sinéad O'Connor la hizo famosa en 1990 con su versión.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-entre-dos-tierras",
+    "text": "¿De qué álbum es «Entre dos tierras» (Héroes del Silencio)?",
+    "options": [
+      "Héroe de leyenda",
+      "Senderos de traición",
+      "Parasiempre",
+      "El espíritu del vino"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "«Entre dos tierras» está en «Senderos de traición» (1990), el álbum que consolidó a Héroes del Silencio en España y Latinoamérica.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cancion-inspiro-riff-smells",
+    "text": "¿Qué canción inspiró el riff de «Smells Like Teen Spirit»?",
+    "options": [
+      "Sweet Child o' Mine",
+      "More Than a Feeling",
+      "Hotel California",
+      "Back in Black"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Kurt Cobain dijo que quería escribir algo parecido a «More Than a Feeling» de Boston, mezclado con el estilo de los Pixies.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-produjo-like-virgin-madonna",
+    "text": "¿Quién produjo «Like a Virgin» de Madonna?",
+    "options": [
+      "Giorgio Moroder",
+      "Quincy Jones",
+      "Nile Rodgers",
+      "Trevor Horn"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Nile Rodgers, guitarrista del grupo Chic, produjo «Like a Virgin» en 1984. Su estilo funk y bailable marcó el sonido del álbum.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-artista-grabo-queen-under",
+    "text": "¿Con qué artista grabó Queen «Under Pressure» en 1981?",
+    "options": [
+      "Elton John",
+      "David Bowie",
+      "Mick Jagger",
+      "Lou Reed"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Queen y David Bowie grabaron «Under Pressure» en 1981 durante una sesión improvisada en Suiza. Fue número uno en Reino Unido.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-grammy-mejor-artista",
+    "text": "¿Quién ganó el Grammy al Mejor artista nuevo en 2025?",
+    "options": [
+      "Doechii",
+      "Benson Boone",
+      "Teddy Swims",
+      "Chappell Roan"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Chappell Roan ganó el Grammy al Mejor artista nuevo en 2025, tras el éxito de «Good Luck, Babe!» y de su álbum «The Rise and Fall of a Midwest Princess».",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gano-latin-grammy-2024",
+    "text": "¿Quién ganó el Latin Grammy 2024 al Álbum del año?",
+    "options": [
+      "Juan Luis Guerra",
+      "Shakira",
+      "Rauw Alejandro",
+      "Karol G"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Juan Luis Guerra ganó el Latin Grammy 2024 al Álbum del año con «Radio Güira», un disco que homenajea la radio y la música dominicana.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grammy-album-ano-taylor",
+    "text": "¿Cuántos Grammy al Álbum del año tiene Taylor Swift?",
+    "options": [
+      "Dos",
+      "Cinco",
+      "Tres",
+      "Cuatro"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Taylor Swift ganó el Grammy al Álbum del año con «Fearless», «1989», «Folklore» y «Midnights». Es la artista con más premios en esta categoría.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-sustituyo-bon-scott-cantante",
+    "text": "¿Quién sustituyó a Bon Scott como cantante de AC/DC?",
+    "options": [
+      "Brian Johnson",
+      "Steven Tyler",
+      "Ozzy Osbourne",
+      "Rob Halford"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Brian Johnson entró en AC/DC tras la muerte de Bon Scott en 1980 y cantó el álbum «Back in Black», uno de los más vendidos de la historia.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-produjo-back-to-black",
+    "text": "¿Quién produjo «Back to Black» de Amy Winehouse?",
+    "options": [
+      "Max Martin",
+      "Rick Rubin",
+      "Mark Ronson",
+      "Pharrell Williams"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Mark Ronson produjo la mayor parte de «Back to Black» (2006), con un sonido inspirado en el soul y los grupos femeninos de los años 60.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-abrio-live-aid-filadelfia",
+    "text": "¿Quién abrió el Live Aid en Filadelfia?",
+    "options": [
+      "Joan Baez",
+      "Patti LaBelle",
+      "Bryan Adams",
+      "Madonna"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Joan Baez abrió el concierto de Filadelfia del Live Aid en 1985, ante unos noventa mil espectadores en el estadio JFK.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-nombre-real-bruno-mars",
+    "text": "¿Cuál es el nombre real de Bruno Mars?",
+    "options": [
+      "Aubrey Graham",
+      "Abel Tesfaye",
+      "Peter Gene Hernandez",
+      "Austin Post"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Bruno Mars nació en Honolulu como Peter Gene Hernandez. Aubrey Graham es Drake, Abel Tesfaye es The Weeknd y Austin Post es Post Malone.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-nacio-freddie-mercury",
+    "text": "¿En qué ciudad nació Freddie Mercury?",
+    "options": [
+      "Nairobi",
+      "Stone Town",
+      "Bombay",
+      "Londres"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Freddie Mercury nació como Farrokh Bulsara en Stone Town, en la isla de Zanzíbar, en 1946. Su familia se mudó a Inglaterra en 1964.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-primer-sencillo-nirvana",
+    "text": "¿Cuál fue el primer sencillo de Nirvana, de 1988?",
+    "options": [
+      "Lithium",
+      "Come as You Are",
+      "Sliver",
+      "Love Buzz"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "«Love Buzz», versión de la banda Shocking Blue, fue el primer sencillo de Nirvana, publicado en 1988 por el sello independiente Sub Pop.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-primer-numero-uno",
+    "text": "¿Cuál fue el primer número uno de Madonna en Estados Unidos?",
+    "options": [
+      "Like a Virgin",
+      "Material Girl",
+      "Crazy for You",
+      "Holiday"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "«Like a Virgin» fue el primer número uno de Madonna en el Billboard Hot 100, en diciembre de 1984. «Crazy for You» fue el segundo en 1985.",
+    "source": "musica_pop_y_rock_de_los_80_a_la_actualidad.json",
+    "createdAt": "2026-11-23T22:55:16Z",
+    "status": "active"
+  }
+]
