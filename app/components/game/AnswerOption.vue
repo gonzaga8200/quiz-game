@@ -148,7 +148,7 @@ function onClick(): void {
   font-size: 1.5rem;
 }
 
-/* Wrong choice: the same ring, but dashed, plus the cross and the shake. */
+/* Wrong choice: the same ring, but dashed, plus the cross. */
 .option--wrong {
   border-style: dashed;
   border-color: var(--papel);
@@ -157,23 +157,7 @@ function onClick(): void {
 
 .option--wrong .option__mark {
   background: var(--papel);
-  color: var(--fallo);
+  color: var(--fallo-vivo);
   font-size: 1.5rem;
-}
-
-/* The whole card shakes (see QuestionCard), so the button itself only gets a quick throb. */
-@media (prefers-reduced-motion: no-preference) {
-  .option--wrong {
-    animation: throb 0.5s ease-in-out;
-  }
-}
-
-@keyframes throb {
-  30% {
-    transform: scale(1.04);
-  }
-  60% {
-    transform: scale(0.98);
-  }
 }
 </style>

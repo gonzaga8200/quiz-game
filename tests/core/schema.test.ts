@@ -68,7 +68,7 @@ describe('QuestionSchema', () => {
     ['correctIndex 4', { correctIndex: 4 }, 'correctIndex'],
     ['correctIndex -1', { correctIndex: -1 }, 'correctIndex'],
     ['a fractional correctIndex', { correctIndex: 1.5 }, 'correctIndex'],
-    ['an unknown category', { category: 'Música' }, 'category'],
+    ['an unknown category', { category: 'Astrología' }, 'category'],
     ['an unknown difficulty', { difficulty: 'imposible' }, 'difficulty'],
     ['a difficulty without its accent', { difficulty: 'dificil' }, 'difficulty'],
     ['a too-short text', { text: '¿Qué?' }, 'text'],
@@ -135,6 +135,16 @@ describe('ScoreSubmissionSchema', () => {
 
   it.each(DIFFICULTY_FILTERS)('accepts the filter "%s"', (difficultyFilter) => {
     expect(ScoreSubmissionSchema.safeParse({ ...validScore, difficultyFilter }).success).toBe(true)
+  })
+
+  it('accepts a known category and leaves it out when the game mixed them all', () => {
+    expect(ScoreSubmissionSchema.safeParse({ ...validScore, category: 'Ciencias' }).success).toBe(
+      true,
+    )
+    expect('category' in ScoreSubmissionSchema.parse(validScore)).toBe(false)
+    expect(ScoreSubmissionSchema.safeParse({ ...validScore, category: 'Trivial' }).success).toBe(
+      false,
+    )
   })
 
   it('accepts 120 s games and a missing photo (null)', () => {

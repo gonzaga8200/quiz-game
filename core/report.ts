@@ -47,6 +47,8 @@ export interface GameReport {
   readonly finishReason: FinishReason
   readonly duration: Duration
   readonly filter: DifficultyFilter
+  /** Set when the game was limited to one category. */
+  readonly category?: Category
   readonly celebration: Celebration
 }
 
@@ -56,6 +58,7 @@ export interface ReportInput {
   readonly finishReason: FinishReason
   readonly duration: Duration
   readonly filter: DifficultyFilter
+  readonly category?: Category
 }
 
 const sum = (values: readonly number[]): number => values.reduce((total, value) => total + value, 0)
@@ -128,6 +131,7 @@ export function buildReport(input: ReportInput): GameReport {
     finishReason: input.finishReason,
     duration: input.duration,
     filter: input.filter,
+    ...(input.category ? { category: input.category } : {}),
     celebration: celebrationFor(points, input.duration),
   }
 }

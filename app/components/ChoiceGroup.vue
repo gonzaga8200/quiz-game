@@ -56,7 +56,10 @@ const model = defineModel<T>({ required: true })
 
 .group__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  /* Two columns fit both the 2-option and the 4-option groups, on a phone and on a desktop. */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* Every button as tall as the tallest, whether or not its hint wraps. */
+  grid-auto-rows: 1fr;
   gap: 0.625rem;
 }
 
@@ -74,6 +77,7 @@ const model = defineModel<T>({ required: true })
 
 .choice__body {
   display: flex;
+  height: 100%;
   align-items: center;
   gap: 0.75rem;
   min-height: 3.75rem;

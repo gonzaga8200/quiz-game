@@ -39,6 +39,7 @@ export function toScoreSubmission(player: RankingPlayer, report: GameReport): Sc
     skipped: report.skipped,
     duration: report.duration,
     difficultyFilter: report.filter,
+    ...(report.category ? { category: report.category } : {}),
   })
 }
 
@@ -51,7 +52,7 @@ export function createRankingService(store: RankingStore) {
     async submit(player: RankingPlayer, report: GameReport): Promise<SubmitResult> {
       if (report.points <= 0) return { status: 'skipped' }
 
-      const board = boardId(report.duration, report.filter)
+      const board = boardId(report.duration, report.filter, report.category)
       const previous = await store.getBestPoints(board, player.uid)
 
       if (previous !== null && !isPersonalBest(previous, report.points)) {

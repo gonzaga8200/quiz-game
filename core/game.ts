@@ -21,7 +21,7 @@ export interface GameConfig {
   readonly questions: readonly Question[]
   readonly filter: DifficultyFilter
   readonly duration: Duration
-  /** Only serve questions of this category (arcade mode). Omitted = every category. */
+  /** Only serve questions of this category. Omitted = every category. */
   readonly category?: Category
   /**
    * How many times this device has already shown each question (id to count). Questions
@@ -238,6 +238,7 @@ export class Game {
       finishReason: phase.reason,
       duration: this.#config.duration,
       filter: this.#config.filter,
+      ...(this.#config.category ? { category: this.#config.category } : {}),
     })
   }
 

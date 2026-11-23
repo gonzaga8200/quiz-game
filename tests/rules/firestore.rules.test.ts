@@ -162,12 +162,63 @@ describe('rankings: creating a score', () => {
     await assertSucceeds(setDoc(doc(asUser('ana'), path('ana')), entry('ana')))
   })
 
-  it.each(BOARDS)('accepts a valid score on board $id', async ({ id, duration, filter }) => {
+  it.each(BOARDS)(
+    'accepts a valid score on board $id',
+    async ({ id, duration, filter, category }) => {
+      await assertSucceeds(
+        setDoc(
+          doc(asUser('ana'), path('ana', id)),
+          entry('ana', { duration, difficultyFilter: filter, ...(category ? { category } : {}) }),
+        ),
+      )
+    },
+  )
+
+  it('keeps a score with a category out of the board of mixed categories, and the reverse', async () => {
+    const ciencias = entry('ana', { category: 'Ciencias' })
+    await assertFails(setDoc(doc(asUser('ana'), path('ana', '60_medio')), ciencias))
+    await assertFails(setDoc(doc(asUser('ana'), path('ana', '60_medio_deportes')), ciencias))
+    await assertFails(setDoc(doc(asUser('ana'), path('ana', '60_medio_ciencias')), entry('ana')))
+    await assertSucceeds(setDoc(doc(asUser('ana'), path('ana', '60_medio_ciencias')), ciencias))
+  })
+
+  it('rejects an unknown category and a category board with the wrong time or difficulty', async () => {
+    await assertFails(
+      setDoc(
+        doc(asUser('ana'), path('ana', '60_medio_trivial')),
+        entry('ana', { category: 'Trivial' }),
+      ),
+    )
+    await assertFails(
+      setDoc(
+        doc(asUser('ana'), path('ana', '120_medio_ciencias')),
+        entry('ana', { category: 'Ciencias' }),
+      ),
+    )
+    await assertFails(
+      setDoc(
+        doc(asUser('ana'), path('ana', '60_facil_ciencias')),
+        entry('ana', { category: 'Ciencias' }),
+      ),
+    )
+  })
+
+  it('lets a player improve a score on a category board', async () => {
+    const id = '60_medio_ciencias'
+    await env.withSecurityRulesDisabled(async (context) => {
+      await setDoc(
+        doc(context.firestore(), path('ana', id)),
+        entry('ana', { category: 'Ciencias', createdAt: new Date('2026-01-01T00:00:00Z') }),
+      )
+    })
     await assertSucceeds(
       setDoc(
         doc(asUser('ana'), path('ana', id)),
-        entry('ana', { duration, difficultyFilter: filter }),
+        entry('ana', { category: 'Ciencias', points: 101 }),
       ),
+    )
+    await assertFails(
+      setDoc(doc(asUser('ana'), path('ana', id)), entry('ana', { category: 'Ciencias' })),
     )
   })
 
@@ -262,6 +313,7 @@ describe('rankings: creating a score', () => {
 
   it('builds the same board ids as core', () => {
     expect(boardId(60, 'Medio')).toBe(board)
+    expect(boardId(60, 'Medio', 'Ciencias')).toBe('60_medio_ciencias')
   })
 })
 

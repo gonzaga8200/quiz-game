@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { BOARDS } from '~~/core'
-import type { BoardId, RankingEntry } from '~~/core'
+import { RANDOM_CATEGORY, boardId, categoryOfChoice } from '~~/core'
+import type { BoardId, CategoryChoice, DifficultyFilter, Duration, RankingEntry } from '~~/core'
+import { describeBoard } from '~/utils/format'
 
 useHead({ title: 'Ranking' })
 
@@ -12,19 +13,22 @@ const { configured } = useFirebase()
 const { user } = useAuth()
 const { get } = useRankingService()
 
-const board = ref<BoardId>('60_aleatorio')
+const duration = ref<Duration>(60)
+const filter = ref<DifficultyFilter>('Aleatorio')
+const category = ref<CategoryChoice>(RANDOM_CATEGORY)
+
+const board = computed<BoardId>(() =>
+  boardId(duration.value, filter.value, categoryOfChoice(category.value)),
+)
 const status = ref<Status>(configured ? 'loading' : 'unavailable')
 const entries = shallowRef<readonly RankingEntry[]>([])
 
 // Switching back and forth between tabs should not re-read 50 documents every time.
 const cache = new Map<BoardId, { at: number; entries: readonly RankingEntry[] }>()
 
-const current = computed(() => BOARDS.find((b) => b.id === board.value))
-const heading = computed(() => {
-  const b = current.value
-  if (!b) return 'Ranking'
-  return `${b.duration} segundos, ${b.filter === 'Aleatorio' ? 'dificultad aleatoria' : `dificultad ${b.filter.toLowerCase()}`}`
-})
+const heading = computed(() =>
+  describeBoard(duration.value, filter.value, categoryOfChoice(category.value)),
+)
 
 async function loadBoard(id: BoardId): Promise<void> {
   if (!configured) return
@@ -56,19 +60,17 @@ onMounted(() => void loadBoard(board.value))
   <main id="main" tabindex="-1" class="ranking">
     <header class="ranking__head">
       <h1 class="ranking__title">Ranking</h1>
-      <p>Las 50 mejores puntuaciones de cada combinación de tiempo y dificultad.</p>
+      <p>Las 50 mejores puntuaciones de cada combinación de tiempo, dificultad y categoría.</p>
     </header>
 
-    <RankingTabs v-model="board" />
+    <RankingFilters
+      v-model:duration="duration"
+      v-model:filter="filter"
+      v-model:category="category"
+    />
 
-    <section
-      id="ranking-panel"
-      class="panel"
-      role="tabpanel"
-      :aria-labelledby="`tab-${board}`"
-      :aria-busy="status === 'loading'"
-    >
-      <h2 class="panel__title">{{ heading }}</h2>
+    <section class="panel" aria-labelledby="ranking-heading" :aria-busy="status === 'loading'">
+      <h2 id="ranking-heading" class="panel__title" aria-live="polite">{{ heading }}</h2>
 
       <p v-if="status === 'loading'" aria-live="polite">Cargando el ranking…</p>
 
@@ -95,6 +97,7 @@ onMounted(() => void loadBoard(board.value))
 <style scoped>
 .ranking {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.25rem;
 }
 

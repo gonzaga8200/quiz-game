@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mus-guitarra-clasica-cuerdas",
+    "text": "¿Cuántas cuerdas tiene una guitarra clásica?",
+    "options": [
+      "Cuatro",
+      "Seis",
+      "Cinco",
+      "Siete"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "La guitarra clásica tiene seis cuerdas, afinadas en mi, la, re, sol, si y mi.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-violin-familia",
+    "text": "¿A qué familia pertenece el violín?",
+    "options": [
+      "Viento madera",
+      "Percusión",
+      "Cuerda",
+      "Viento metal"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El violín es un instrumento de cuerda frotada: el sonido nace al pasar el arco por las cuerdas.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-vivaldi-cuatro-estaciones",
+    "text": "¿Quién compuso «Las cuatro estaciones»?",
+    "options": [
+      "Vivaldi",
+      "Bach",
+      "Mozart",
+      "Haydn"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Antonio Vivaldi compuso «Las cuatro estaciones», cuatro conciertos para violín del Barroco.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-abba-pais",
+    "text": "¿De qué país era el grupo ABBA?",
+    "options": [
+      "Noruega",
+      "Dinamarca",
+      "Suecia",
+      "Finlandia"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "ABBA se formó en Estocolmo en 1972.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gershwin-rapsodia-azul",
+    "text": "¿Quién compuso «Rapsodia en azul»?",
+    "options": [
+      "Copland",
+      "Gershwin",
+      "Bernstein",
+      "Ellington"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "George Gershwin estrenó «Rapsodia en azul» en 1924, mezclando jazz y música clásica.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-beatles-ciudad",
+    "text": "¿En qué ciudad nacieron los cuatro Beatles?",
+    "options": [
+      "Londres",
+      "Manchester",
+      "Birmingham",
+      "Liverpool"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "John Lennon, Paul McCartney, George Harrison y Ringo Starr nacieron en Liverpool.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-casals-instrumento",
+    "text": "¿Qué instrumento tocaba el catalán Pau Casals?",
+    "options": [
+      "Violonchelo",
+      "Violín",
+      "Piano",
+      "Guitarra"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Pau Casals fue violonchelista y popularizó las suites para violonchelo de Bach.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-stravinski-pajaro-fuego",
+    "text": "¿Quién compuso el ballet «El pájaro de fuego»?",
+    "options": [
+      "Chaikovski",
+      "Rajmáninov",
+      "Stravinski",
+      "Músorgski"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Igor Stravinski compuso «El pájaro de fuego» en 1910 para los Ballets Rusos.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-rodrigo-concierto-aranjuez",
+    "text": "¿Quién compuso el «Concierto de Aranjuez»?",
+    "options": [
+      "Falla",
+      "Joaquín Rodrigo",
+      "Albéniz",
+      "Granados"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Joaquín Rodrigo compuso el «Concierto de Aranjuez» para guitarra y orquesta en 1939.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-britten-peter-grimes",
+    "text": "¿Quién compuso la ópera «Peter Grimes»?",
+    "options": [
+      "Elgar",
+      "Holst",
+      "Vaughan Williams",
+      "Britten"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Benjamin Britten estrenó la ópera «Peter Grimes» en Londres en 1945.",
+    "createdAt": "2026-11-23T12:00:00Z",
+    "status": "active"
+  }
+]

@@ -58,8 +58,9 @@ The app uses Firebase on the free Spark plan: **Hosting** (static site), **Auth*
 sign-in only) and **Firestore**. The Firebase project id is `contrarreloj-quiz`.
 
 - `firestore.rules` is the security model (see below) and is covered by `npm run test:rules`.
-- Questions live in `questions/{id}`; rankings in `rankings/{duration}_{filter}/entries/{uid}`
-  (8 boards, one best score per player per board, top 50 shown).
+- Questions live in `questions/{id}`; rankings in
+  `rankings/{duration}_{filter}[_{category}]/entries/{uid}` (64 boards: 2 times x 4 difficulties x
+  8 category choices, one best score per player per board, top 50 shown).
 - Without any Firebase variables the game still runs: arcade mode uses the questions
   bundled in `data/questions/`, and the competitive/ranking entry points stay hidden.
 
@@ -298,7 +299,10 @@ you what else moves.
 
 **Ranking**
 
-- One entry per player per board (`60_aleatorio`...`120_dificil`). A later game replaces it only
+- One entry per player per board (`60_aleatorio`, `60_aleatorio_ciencias`...). The category part
+  is only there when the player limited the game to one category in competitive mode; games that
+  mix every category keep the original ids, and the entry carries a `category` field only then.
+  A later game replaces it only
   if it scores higher; otherwise the report says "your best is still X". Games with 0 points are
   not ranked. A player's position is the number of players with strictly more points, plus one,
   so ties share a position.
@@ -310,7 +314,7 @@ you what else moves.
 
 - Category and difficulty values are stored exactly as written in the brief (`"Historia y
 Geografía"`, `"muy fácil"`...), accents included. Ranking board ids use ASCII slugs
-  (`60_aleatorio`, `120_dificil`).
+  (`60_aleatorio`, `120_dificil`, `60_medio_historia-y-geografia`).
 - Question ids are lowercase slugs chosen by whoever writes the question; the validator
   checks they are unique across all files.
 - Unknown fields are rejected by the schema, so typos in question files fail loudly.

@@ -40,6 +40,19 @@ describe('convertQuestions', () => {
     ])
   })
 
+  it('files music questions under Música, with or without the accent, and gives them a mus- id', () => {
+    const { byCategory, problems } = convertQuestions(
+      [
+        item({ categoria: 'Música', pregunta: '¿Cuántas cuerdas tiene una guitarra clásica?' }),
+        item({ categoria: 'musica', pregunta: '¿Qué instrumento toca un pianista?' }),
+      ],
+      context,
+    )
+    expect(problems).toEqual([])
+    expect(byCategory.get('Música')).toHaveLength(2)
+    expect(byCategory.get('Música')?.every((q) => q.id.startsWith('mus-'))).toBe(true)
+  })
+
   it('files each question under its own category and accepts the five difficulty spellings', () => {
     const { byCategory, problems } = convertQuestions(
       [

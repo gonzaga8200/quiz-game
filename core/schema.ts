@@ -68,6 +68,8 @@ const scoreShape = {
   skipped: z.number().int().min(0),
   duration: z.literal(DURATIONS),
   difficultyFilter: z.enum(DIFFICULTY_FILTERS),
+  /** Only when the game was limited to one category; absent when it mixed them all. */
+  category: z.enum(CATEGORIES).optional(),
 }
 
 type ScoreShape = z.infer<z.ZodObject<typeof scoreShape>>

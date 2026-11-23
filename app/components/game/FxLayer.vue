@@ -70,13 +70,13 @@ const confetti = Array.from({ length: 24 }, (_, i) => ({
   pointer-events: none;
 }
 
-/* A mistake: the edges of the screen flash red. */
+/* A mistake: the edges of the screen flash a sharp red. */
 .fx__vignette {
   position: absolute;
   inset: 0;
   box-shadow:
-    inset 0 0 5rem 1rem rgb(214 58 46 / 0.85),
-    inset 0 0 0 0.5rem rgb(214 58 46 / 0.9);
+    inset 0 0 4.5rem 1.25rem rgb(240 24 14 / 0.95),
+    inset 0 0 0 0.625rem rgb(240 24 14);
   animation: vignette 0.7s ease-out forwards;
 }
 

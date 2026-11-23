@@ -44,6 +44,7 @@ const CATEGORY_ALIASES = new Map<string, Category>([
   ['television', 'Cine y televisión'],
   ['lengua', 'Lengua e Idiomas'],
   ['idiomas', 'Lengua e Idiomas'],
+  ['musical', 'Música'],
 ])
 
 const DIFFICULTY_BY_FOLDED = new Map<string, Difficulty>(
@@ -57,6 +58,7 @@ const ID_PREFIX: Readonly<Record<Category, string>> = {
   'Cine y televisión': 'cine',
   Ciencias: 'cien',
   'Lengua e Idiomas': 'leng',
+  Música: 'mus',
 }
 
 const STOPWORDS = new Set(

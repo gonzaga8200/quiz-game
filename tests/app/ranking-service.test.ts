@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest'
 import { Game, mulberry32 } from '../../core'
-import type { BoardId, GameReport, RankingEntry, ScoreSubmission } from '../../core'
+import type { BoardId, Category, GameReport, RankingEntry, ScoreSubmission } from '../../core'
 import { createRankingService, toScoreSubmission } from '../../app/utils/ranking-service'
 import type { RankingStore } from '../../app/utils/ranking-service'
 import { answerRight, makeBank, makeClock } from '../core/helpers'
@@ -8,13 +8,14 @@ import { answerRight, makeBank, makeClock } from '../core/helpers'
 /** Plays `rights` correct answers (7 points each, plus combo bonuses) and returns the report. */
 function reportWith(
   rights: number,
-  options: { duration?: 60 | 120; filter?: 'Medio' | 'Aleatorio' } = {},
+  options: { duration?: 60 | 120; filter?: 'Medio' | 'Aleatorio'; category?: Category } = {},
 ): GameReport {
   const clock = makeClock()
   const game = new Game({
     questions: makeBank('medio', Math.max(rights, 1)),
     filter: options.filter ?? 'Medio',
     duration: options.duration ?? 60,
+    ...(options.category ? { category: options.category } : {}),
     rng: mulberry32(1),
     now: clock.now,
   })
@@ -59,6 +60,14 @@ describe('toScoreSubmission', () => {
       duration: 60,
       difficultyFilter: 'Medio',
     })
+  })
+
+  it('adds the category only when the game was limited to one', () => {
+    const mixed = toScoreSubmission(player, reportWith(3))
+    expect('category' in mixed).toBe(false)
+
+    const limited = toScoreSubmission(player, reportWith(3, { category: 'Historia y Geografía' }))
+    expect(limited.category).toBe('Historia y Geografía')
   })
 
   it('cleans up awkward profile data', () => {
@@ -129,6 +138,17 @@ describe('ranking service: submit', () => {
       reportWith(4, { duration: 120, filter: 'Aleatorio' }),
     )
     expect(saved[0]?.board).toBe('120_aleatorio')
+  })
+
+  it('uses the board of the category that was played', async () => {
+    const { store, saved } = fakeStore()
+    await createRankingService(store).submit(
+      player,
+      reportWith(4, { filter: 'Aleatorio', category: 'Historia y Geografía' }),
+    )
+    expect(saved[0]?.board).toBe('60_aleatorio_historia-y-geografia')
+    expect(saved[0]?.entry.category).toBe('Historia y Geografía')
+    expect(store.getBestPoints).toHaveBeenCalledWith('60_aleatorio_historia-y-geografia', 'ana')
   })
 
   it('lets store errors reach the caller', async () => {

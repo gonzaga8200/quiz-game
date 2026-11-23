@@ -12,6 +12,7 @@ const SLUGS: Record<Category, string> = {
   'Cine y televisión': 'cine',
   Ciencias: 'ciencias',
   'Lengua e Idiomas': 'lengua',
+  Música: 'musica',
 }
 
 export function categorySlug(category: Category): string {
