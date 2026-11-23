@@ -217,6 +217,29 @@ Authentication > Settings > _Authorized domains_, or Google sign-in fails with
 `auth/unauthorized-domain`. The old `contrarreloj-quiz.web.app` keeps answering; its pages point
 their canonical URL at the custom domain.
 
+### Auth domain (Google sign-in)
+
+`NUXT_PUBLIC_FIREBASE_AUTH_DOMAIN` should be the **domain the site is served from** (the custom
+domain), not `<project>.firebaseapp.com`. The sign-in pop-up keeps its state in `sessionStorage`
+on the auth domain; when that domain differs from the site, browsers that partition third-party
+storage (Chrome, Safari, Firefox) give the iframe and the pop-up separate storage, and sign-in
+fails with _"Unable to process request due to missing initial state"_.
+
+Firebase Hosting serves `/__/auth/handler` on every custom domain of the site, so the only
+setup is:
+
+1. Set the GitHub variable `NUXT_PUBLIC_FIREBASE_AUTH_DOMAIN` to the custom domain (no scheme,
+   no path) and deploy: it is baked into the build.
+2. Google Cloud console > APIs & Services > Credentials > the _Web client (auto created by
+   Google Service)_: add `https://<domain>/__/auth/handler` to _Authorized redirect URIs_ and
+   `https://<domain>` to _Authorized JavaScript origins_.
+3. Keep the domain in Firebase console > Authentication > Settings > _Authorized domains_.
+
+Pick the domain that answers directly. Open `https://<domain>/__/auth/handler` in a browser: it
+must load a Firebase page, not redirect to another host. Do the console steps **before**
+deploying with the new variable, or sign-in fails with `redirect_uri_mismatch`. Preview channels
+use the same variable, so sign-in on them keeps being a non-goal (see below).
+
 ### Preview channels and Google sign-in
 
 Each preview has its own domain (`contrarreloj-quiz--pr12-....web.app`). Firebase Auth only
@@ -339,7 +362,7 @@ Geografía"`, `"muy fácil"`...), accents included. Ranking board ids use ASCII 
   JSON file at build time.
 - **Google sign-in uses a pop-up.** If the browser blocks it, the player is told to allow
   pop-ups for the site; there is no redirect fallback because redirects are unreliable when the
-  auth domain differs from the hosting domain.
+  auth domain differs from the hosting domain (see _Auth domain_ above).
 - Ranking avatars are loaded from Google's servers, which receive the visitor's IP address when
   they are shown.
 
