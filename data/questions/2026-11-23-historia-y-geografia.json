@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "hist-ano-empezo-primera-guerra",
+    "text": "¿En qué año empezó la Primera Guerra Mundial?",
+    "options": [
+      "1939",
+      "1918",
+      "1914",
+      "1905"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La Primera Guerra Mundial empezó en 1914, después del asesinato del archiduque Francisco Fernando en Sarajevo. El 28 de julio de ese año Austria-Hungría declaró la guerra a Serbia.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-termino-primera-guerra",
+    "text": "¿En qué año terminó la Primera Guerra Mundial?",
+    "options": [
+      "1945",
+      "1916",
+      "1918",
+      "1919"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Los combates de la Primera Guerra Mundial terminaron en 1918, el 11 de noviembre, cuando entró en vigor el armisticio. La paz con Alemania se firmó después, en 1919, en Versalles.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-otro-nombre-recibio-primera",
+    "text": "¿Qué otro nombre recibió la Primera Guerra Mundial?",
+    "options": [
+      "Guerra de Troya",
+      "La Gran Guerra",
+      "Guerra Civil",
+      "Guerra Fría"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Se llamó la Gran Guerra porque fue el mayor conflicto que se había conocido hasta entonces. El nombre de Primera Guerra Mundial se generalizó después, cuando en 1939 estalló un segundo conflicto mundial.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-cavaban-soldados-protegerse-frente",
+    "text": "¿Qué cavaban los soldados para protegerse en el frente?",
+    "options": [
+      "Pirámides",
+      "Trincheras",
+      "Volcanes",
+      "Puertos"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Los soldados cavaron largas trincheras para protegerse del fuego enemigo. En el frente occidental formaron una red de zanjas que iba desde el mar del Norte hasta la frontera suiza.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mes-termino-guerra-1918",
+    "text": "¿En qué mes terminó la guerra, en 1918?",
+    "options": [
+      "Enero",
+      "Mayo",
+      "Noviembre",
+      "Agosto"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La guerra terminó en noviembre de 1918. El armisticio con Alemania se firmó el 11 de noviembre y entró en vigor a las once de la mañana, cuando se detuvieron los combates en el frente occidental.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-vehiculo-blindado-orugas-estreno",
+    "text": "¿Qué vehículo blindado con orugas se estrenó en la guerra?",
+    "options": [
+      "Patinete",
+      "Globo",
+      "Tanque",
+      "Tranvía"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El tanque se usó por primera vez en la batalla del Somme, en septiembre de 1916, cuando los británicos lo lanzaron contra las trincheras alemanas. Sus orugas permitían cruzar el barro y las alambradas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-archiduque-fue-asesinado-sarajevo",
+    "text": "¿Qué archiduque fue asesinado en Sarajevo en 1914?",
+    "options": [
+      "Francisco Fernando",
+      "Francisco José",
+      "Nicolás II",
+      "Guillermo II"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El archiduque Francisco Fernando, heredero del trono austrohúngaro, fue asesinado en Sarajevo el 28 de junio de 1914 junto a su esposa Sofía. Su muerte fue la chispa que desató la guerra.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-ocurrio-atentado-inicio",
+    "text": "¿En qué ciudad ocurrió el atentado que inició la guerra?",
+    "options": [
+      "Belgrado",
+      "Sarajevo",
+      "Berlín",
+      "Viena"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El atentado contra el heredero austrohúngaro ocurrió en Sarajevo, capital de Bosnia, que entonces pertenecía a Austria-Hungría. Hoy es la capital de Bosnia y Herzegovina.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-invadio-alemania-atacar",
+    "text": "¿Qué país invadió Alemania para atacar Francia en 1914?",
+    "options": [
+      "Bélgica",
+      "Países Bajos",
+      "Suiza",
+      "Dinamarca"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Alemania invadió Bélgica en agosto de 1914 para rodear a Francia por el norte, según el plan Schlieffen. Esa invasión hizo que Reino Unido declarase la guerra a los alemanes.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-emperador-gobernaba-alemania-estallar",
+    "text": "¿Qué emperador gobernaba Alemania al estallar la guerra?",
+    "options": [
+      "Carlos V",
+      "Napoleón III",
+      "Federico II",
+      "Guillermo II"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Guillermo II, el káiser, gobernó Alemania de 1888 a 1918. Su abdicación se anunció el 9 de noviembre de 1918 y se exilió en los Países Bajos, poco antes del armisticio que acabó con la guerra.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidente-ee-uu-entro",
+    "text": "¿Qué presidente de EE. UU. entró en la guerra en 1917?",
+    "options": [
+      "Harry Truman",
+      "Woodrow Wilson",
+      "Theodore Roosevelt",
+      "Abraham Lincoln"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Woodrow Wilson pidió al Congreso la declaración de guerra contra Alemania en abril de 1917. La entrada de Estados Unidos aportó millones de soldados y recursos frescos a los Aliados.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-acuerdo-detuvo-combates-noviembre",
+    "text": "¿Qué acuerdo detuvo los combates en noviembre de 1918?",
+    "options": [
+      "Armisticio",
+      "Tratado de Roma",
+      "Carta Magna",
+      "Pacto de Varsovia"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El armisticio, firmado en un vagón de tren en Compiègne, detuvo los combates el 11 de noviembre de 1918. No fue la paz definitiva, que llegó meses después con el Tratado de Versalles.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-arma-disparaba-rafagas-balas",
+    "text": "¿Qué arma disparaba ráfagas de balas sin parar?",
+    "options": [
+      "Espada",
+      "Catapulta",
+      "Ametralladora",
+      "Ballesta"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La ametralladora fue una de las armas más mortíferas de la guerra, porque podía disparar cientos de balas por minuto. Hizo que los ataques frontales contra las trincheras causaran miles de muertos.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-maquinas-voladoras-combatieron-guerra",
+    "text": "¿Qué máquinas voladoras combatieron en la guerra?",
+    "options": [
+      "Aviones",
+      "Cohetes",
+      "Drones",
+      "Helicópteros"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Los aviones se usaron por primera vez en combate de forma generalizada en esta guerra, primero para explorar y después para bombardear y luchar contra otros aviones en los llamados combates aéreos.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-imperio-tenia-capital-constantinopla",
+    "text": "¿Qué imperio tenía su capital en Constantinopla?",
+    "options": [
+      "Imperio azteca",
+      "Imperio inca",
+      "Imperio romano",
+      "Imperio otomano"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El Imperio otomano tenía su capital en Constantinopla, la actual Estambul, y se alió con Alemania y Austria-Hungría. Se desmoronó tras perder la guerra y dio origen a la república turca.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-europeo-mantuvo-neutral",
+    "text": "¿Qué país europeo se mantuvo neutral en la guerra?",
+    "options": [
+      "Francia",
+      "España",
+      "Rusia",
+      "Italia"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "España fue neutral en la Primera Guerra Mundial bajo el reinado de Alfonso XIII, aunque la sociedad se dividió entre germanófilos y aliadófilos. La neutralidad permitió vender productos a ambos bandos.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-bando-francia-reino",
+    "text": "¿Cómo se llamó el bando de Francia, Reino Unido y Rusia?",
+    "options": [
+      "Vikingos",
+      "Romanos",
+      "Piratas",
+      "Aliados"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "Francia, Reino Unido y Rusia formaban la Triple Entente, y su bando se llamó los Aliados. Luego se unieron otros países, como Italia, Japón, Rumanía y, más tarde, Estados Unidos.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-gas-venenoso-usaron-alemanes",
+    "text": "¿Qué gas venenoso usaron los alemanes en Ypres en 1915?",
+    "options": [
+      "Helio",
+      "Neón",
+      "Oxígeno",
+      "Cloro"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El 22 de abril de 1915, durante la segunda batalla de Ypres, los alemanes lanzaron cloro gas contra las trincheras aliadas. Fue el primer gran ataque químico y provocó miles de bajas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-anos-duro-aproximadamente-guerra",
+    "text": "¿Cuántos años duró aproximadamente la guerra?",
+    "options": [
+      "Cien años",
+      "Diez años",
+      "Cuatro años",
+      "Un año"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "La guerra duró algo más de cuatro años, desde el 28 de julio de 1914 hasta el 11 de noviembre de 1918. Todos pensaban que sería corta, pero acabó convirtiéndose en una guerra larga de desgaste.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-firmo-paz-alemania",
+    "text": "¿En qué ciudad se firmó la paz con Alemania en 1919?",
+    "options": [
+      "Roma",
+      "Viena",
+      "Utrecht",
+      "Versalles"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy fácil",
+    "explanation": "El Tratado de Versalles se firmó el 28 de junio de 1919 en el Salón de los Espejos del palacio de Versalles, cerca de París. Fijó duras condiciones para Alemania, derrotada en la guerra.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-nombre-recibio-bando-alemania",
+    "text": "¿Qué nombre recibió el bando de Alemania y Austria-Hungría?",
+    "options": [
+      "Entente Cordiale",
+      "Santa Alianza",
+      "Triple Entente",
+      "Potencias Centrales"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Alemania y Austria-Hungría formaron las Potencias Centrales, a las que se sumaron el Imperio otomano en 1914 y Bulgaria en 1915. Estaban situadas en el centro de Europa, rodeadas por sus enemigos.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-alianza-francia-reino",
+    "text": "¿Cómo se llamaba la alianza de Francia, Reino Unido y Rusia?",
+    "options": [
+      "Pacto de Varsovia",
+      "Triple Alianza",
+      "Triple Entente",
+      "Liga Hanseática"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La Triple Entente unía a Francia, Reino Unido y Rusia antes de 1914. Se enfrentaba a la Triple Alianza, formada por Alemania, Austria-Hungría e Italia, aunque Italia acabó luchando con los Aliados.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-asesino-archiduque-francisco-fernando",
+    "text": "¿Quién asesinó al archiduque Francisco Fernando?",
+    "options": [
+      "Ion Antonescu",
+      "Mustafá Kemal",
+      "Gavrilo Princip",
+      "Josip Broz"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Gavrilo Princip, un joven nacionalista serbobosnio, disparó al archiduque Francisco Fernando y a su esposa en Sarajevo el 28 de junio de 1914. Por ser menor de veinte años no fue ejecutado y murió en prisión en 1918.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dia-fue-atentado-sarajevo",
+    "text": "¿Qué día fue el atentado de Sarajevo?",
+    "options": [
+      "28 de junio",
+      "4 de agosto",
+      "1 de agosto",
+      "28 de julio"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El atentado ocurrió el 28 de junio de 1914. Un mes después, el 28 de julio, Austria-Hungría declaró la guerra a Serbia, y las alianzas arrastraron a las grandes potencias europeas al conflicto.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ciudad-francesa-firmo-armisticio",
+    "text": "¿En qué ciudad francesa se firmó el armisticio de 1918?",
+    "options": [
+      "Compiègne",
+      "Reims",
+      "Versalles",
+      "Sèvres"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El armisticio se firmó el 11 de noviembre de 1918 en un vagón de tren en el bosque de Compiègne, cerca de París. En 1940 Hitler obligó a Francia a rendirse en ese mismo vagón.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-politico-frances-era-llamado",
+    "text": "¿Qué político francés era llamado El Tigre?",
+    "options": [
+      "Raymond Poincaré",
+      "Charles de Gaulle",
+      "Philippe Pétain",
+      "Georges Clemenceau"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Georges Clemenceau fue jefe del Gobierno francés desde 1917 y llevó a Francia a la victoria. Fue una figura clave en la Conferencia de Paz de París y en el Tratado de Versalles.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-primer-ministro-britanico-goberno",
+    "text": "¿Qué primer ministro británico gobernó de 1916 a 1922?",
+    "options": [
+      "Winston Churchill",
+      "Herbert Asquith",
+      "Neville Chamberlain",
+      "David Lloyd George"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "David Lloyd George dirigió el Gobierno británico durante la segunda mitad de la guerra y fue uno de los Cuatro Grandes en la Conferencia de París de 1919, junto a Wilson, Clemenceau y Orlando.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-revolucion-saco-rusia-guerra",
+    "text": "¿Qué revolución sacó a Rusia de la guerra en 1917?",
+    "options": [
+      "Revolución industrial",
+      "Revolución cubana",
+      "Revolución francesa",
+      "Revolución rusa"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La Revolución rusa de 1917 derribó al zar Nicolás II y, en octubre, llevó al poder a los bolcheviques, que firmaron la paz con Alemania en 1918 y sacaron a Rusia de la guerra.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lidero-bolcheviques-revolucion-1917",
+    "text": "¿Quién lideró a los bolcheviques en la Revolución de 1917?",
+    "options": [
+      "Trotski",
+      "Kérenski",
+      "Stalin",
+      "Lenin"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Vladímir Lenin lideró a los bolcheviques en la Revolución de octubre de 1917, con el lema paz, pan y tierra. Pocos meses después su Gobierno firmó la paz con Alemania en Brest-Litovsk.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-tratado-1918-firmo-rusia",
+    "text": "¿Qué tratado de 1918 firmó la Rusia soviética con Alemania?",
+    "options": [
+      "Brest-Litovsk",
+      "Rapallo",
+      "Versalles",
+      "Locarno"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Rusia firmó con Alemania el Tratado de Brest-Litovsk el 3 de marzo de 1918. Perdió grandes territorios en el oeste, aunque la derrota alemana en noviembre dejó el tratado sin efecto.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-1916-fue-larga",
+    "text": "¿Qué batalla de 1916 fue la más larga de la guerra?",
+    "options": [
+      "Marne",
+      "Verdún",
+      "Somme",
+      "Ypres"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La batalla de Verdún duró del 21 de febrero al 18 de diciembre de 1916, más de trescientos días. Se convirtió en el símbolo del sufrimiento de Francia y de la guerra de desgaste.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-1916-vio-estreno",
+    "text": "¿Qué batalla de 1916 vio el estreno de los tanques?",
+    "options": [
+      "Tannenberg",
+      "Verdún",
+      "Marne",
+      "Somme"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los británicos estrenaron los tanques en la batalla del Somme, en septiembre de 1916. Eran lentos y fallaban a menudo, pero demostraron que podían cruzar trincheras y alambradas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-ataco-austria-hungria",
+    "text": "¿Qué país atacó Austria-Hungría el 28 de julio de 1914?",
+    "options": [
+      "Serbia",
+      "Bélgica",
+      "Rusia",
+      "Francia"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Austria-Hungría declaró la guerra a Serbia el 28 de julio de 1914, un mes después del atentado de Sarajevo. Rusia apoyó a Serbia y Alemania apoyó a Austria-Hungría, lo que extendió el conflicto.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-transatlantico-hundio-submarino-aleman",
+    "text": "¿Qué transatlántico hundió un submarino alemán en 1915?",
+    "options": [
+      "Lusitania",
+      "Olympic",
+      "Britannic",
+      "Titanic"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Un submarino alemán hundió el Lusitania el 7 de mayo de 1915 frente a Irlanda. Murieron 128 estadounidenses, y la indignación aumentó la tensión entre Alemania y Estados Unidos.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-neutral-entro-guerra",
+    "text": "¿Qué país neutral entró en guerra contra Alemania en 1917?",
+    "options": [
+      "Suecia",
+      "EE. UU.",
+      "Suiza",
+      "Noruega"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Estados Unidos entró en guerra el 6 de abril de 1917, después de que Alemania reanudase la guerra submarina sin restricciones y de que se conociera el telegrama Zimmermann.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dinastia-gobernaba-alemania-hasta",
+    "text": "¿Qué dinastía gobernaba Alemania hasta 1918?",
+    "options": [
+      "Borbón",
+      "Hohenzollern",
+      "Romanov",
+      "Habsburgo"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los Hohenzollern gobernaron Prusia y Alemania hasta 1918, cuando Guillermo II abdicó. Tras él se proclamó la República, que acabó firmando el armisticio de noviembre de ese año.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dinastia-gobernaba-austria-hungria",
+    "text": "¿Qué dinastía gobernaba Austria-Hungría?",
+    "options": [
+      "Habsburgo",
+      "Hohenzollern",
+      "Romanov",
+      "Saboya"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los Habsburgo reinaron sobre Austria-Hungría hasta 1918. Francisco José I murió en 1916 y su sucesor, Carlos I, perdió el trono cuando el imperio se disolvió al final de la guerra.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dinastia-rusa-cayo-nicolas",
+    "text": "¿Qué dinastía rusa cayó con Nicolás II?",
+    "options": [
+      "Windsor",
+      "Habsburgo",
+      "Hohenzollern",
+      "Romanov"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Los Romanov gobernaron Rusia durante tres siglos. Nicolás II abdicó en marzo de 1917 y fue ejecutado con su familia por los bolcheviques en 1918, en Ekaterimburgo.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamaba-franja-entre-trincheras",
+    "text": "¿Cómo se llamaba la franja entre las trincheras enemigas?",
+    "options": [
+      "Campo santo",
+      "Tierra de nadie",
+      "Zona neutral",
+      "Valle muerto"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La tierra de nadie era el espacio lleno de cráteres, barro y alambradas que separaba las trincheras de los dos bandos. Cruzarla durante un ataque era extremadamente peligroso.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-desembarco-aliado-fracaso-turquia",
+    "text": "¿Qué desembarco aliado fracasó en Turquía en 1915?",
+    "options": [
+      "Anzio",
+      "Dunkerque",
+      "Normandía",
+      "Galípoli"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El desembarco aliado de Galípoli, iniciado el 25 de abril de 1915, pretendía abrir el paso a Constantinopla, pero fracasó ante la resistencia otomana y los aliados se retiraron a comienzos de 1916.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-armisticio",
+    "text": "¿Qué es un armisticio?",
+    "options": [
+      "Una retirada de tropas",
+      "Un tratado comercial",
+      "Una declaración de guerra",
+      "Un alto el fuego"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Un armisticio es un acuerdo para suspender los combates, y no es todavía un tratado de paz. El de 1918 puso fin a la lucha en el frente occidental y abrió las negociaciones de paz.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-organismo-nacio-tras-guerra",
+    "text": "¿Qué organismo nació tras la guerra para mantener la paz?",
+    "options": [
+      "Tribunal de La Haya",
+      "Liga Hanseática",
+      "Sociedad de Naciones",
+      "Cruz Roja Internacional"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La Sociedad de Naciones se creó en 1919 con el Tratado de Versalles para evitar nuevas guerras. Tuvo poco éxito, entre otras cosas porque Estados Unidos, que la había propuesto, no llegó a ingresar.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-animal-llevaba-mensajes-frente",
+    "text": "¿Qué animal llevaba mensajes en el frente?",
+    "options": [
+      "Cuervo",
+      "Paloma",
+      "Búho",
+      "Gaviota"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Las palomas mensajeras llevaban mensajes entre las trincheras y los mandos, cuando fallaban las comunicaciones por cable o por radio. También se usaron perros y caballos para otros servicios.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-mayor-batalla-naval",
+    "text": "¿Qué fue la mayor batalla naval de la guerra?",
+    "options": [
+      "Lepanto",
+      "Jutlandia",
+      "Midway",
+      "Trafalgar"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La batalla de Jutlandia, en mayo de 1916, enfrentó a las flotas británica y alemana en el mar del Norte. Fue la mayor batalla naval de la guerra y dejó la superioridad naval en manos británicas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-recupero-independencia-1918",
+    "text": "¿Qué país recuperó su independencia en 1918 tras un siglo?",
+    "options": [
+      "Suiza",
+      "Polonia",
+      "Portugal",
+      "Bélgica"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Polonia recuperó su independencia en 1918, tras más de un siglo repartida entre Rusia, Alemania y Austria. Los tratados de paz reconocieron el nuevo Estado y le otorgaron salida al mar Báltico.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-soldados-podia-tener-alemania",
+    "text": "¿Cuántos soldados podía tener Alemania según Versalles?",
+    "options": [
+      "200.000",
+      "1.000.000",
+      "500.000",
+      "100.000"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El Tratado de Versalles limitó el ejército alemán a 100.000 hombres y le prohibió tener tanques, aviones y submarinos. Alemania consideró estas medidas una humillación y las rechazó durante años.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-declaro-guerra-alemania",
+    "text": "¿Qué país declaró guerra a Alemania el 4 de agosto de 1914?",
+    "options": [
+      "Estados Unidos",
+      "España",
+      "Reino Unido",
+      "Italia"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "El Reino Unido declaró la guerra a Alemania el 4 de agosto de 1914, después de que los alemanes invadieran Bélgica, cuya neutralidad Londres se había comprometido a defender.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-flor-simboliza-recuerdo-caidos",
+    "text": "¿Qué flor simboliza el recuerdo de los caídos?",
+    "options": [
+      "Margarita",
+      "Tulipán",
+      "Rosa",
+      "Amapola"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La amapola roja es el símbolo del recuerdo a los muertos de la guerra, sobre todo en el Reino Unido. Brotaba en los campos de Flandes, removidos por las batallas y cubiertos de tumbas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-epidemia-extendio-mundo-1918",
+    "text": "¿Qué epidemia se extendió por el mundo en 1918?",
+    "options": [
+      "Cólera",
+      "Peste negra",
+      "Viruela",
+      "Gripe española"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "La gripe española se extendió por el mundo en 1918 y mató a millones de personas más. Se propagó con rapidez por los movimientos de tropas, y recibió ese nombre porque España informaba de ella.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-apodo-tenia-piloto-aleman",
+    "text": "¿Qué apodo tenía el piloto alemán Manfred von Richthofen?",
+    "options": [
+      "El Halcón Azul",
+      "El Barón Rojo",
+      "El Conde Verde",
+      "El Águila Negra"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "fácil",
+    "explanation": "Manfred von Richthofen, conocido como el Barón Rojo, fue el piloto de caza más famoso de la guerra, con ochenta victorias aéreas. Murió en combate en abril de 1918, en Francia.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-freno-alemanes-ante",
+    "text": "¿Qué batalla frenó a los alemanes ante París en 1914?",
+    "options": [
+      "Batalla de Ypres",
+      "Batalla del Marne",
+      "Batalla del Somme",
+      "Batalla de Mons"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En septiembre de 1914, una contraofensiva franco-británica detuvo a los alemanes a menos de cuarenta kilómetros de París en la batalla del Marne. Después, ambos bandos empezaron a cavar trincheras.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-plan-aleman-buscaba-derrotar",
+    "text": "¿Qué plan alemán buscaba derrotar primero a Francia?",
+    "options": [
+      "Plan Barbarroja",
+      "Plan Marshall",
+      "Plan Dawes",
+      "Plan Schlieffen"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El plan Schlieffen preveía vencer a Francia en pocas semanas, rodeándola a través de Bélgica, y después volverse contra Rusia. Falló porque la resistencia belga y el Marne frenaron el avance.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-vencieron-rusos-tannenberg-1914",
+    "text": "¿Quiénes vencieron a los rusos en Tannenberg en 1914?",
+    "options": [
+      "Moltke y Conrad",
+      "Hindenburg y Ludendorff",
+      "Mackensen y Falkenhayn",
+      "Joffre y Foch"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En agosto de 1914, Hindenburg y Ludendorff destruyeron casi por completo al Segundo Ejército ruso en Tannenberg, Prusia Oriental. La victoria los convirtió en héroes nacionales y les dio gran influencia.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-ofrecio-alemania-alianza",
+    "text": "¿A qué país ofreció Alemania una alianza en 1917?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "México",
+      "Cuba"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El telegrama Zimmermann, de enero de 1917, proponía a México una alianza contra Estados Unidos y le prometía recuperar Texas, Nuevo México y Arizona. Su publicación indignó a la opinión pública estadounidense.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-medida-alemana-1917-acerco",
+    "text": "¿Qué medida alemana de 1917 acercó a EE. UU. a la guerra?",
+    "options": [
+      "Guerra submarina total",
+      "Invasión de Suiza",
+      "Ataque a Canadá",
+      "Bloqueo del Báltico"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El 1 de febrero de 1917 Alemania reanudó la guerra submarina sin restricciones y empezó a hundir también barcos neutrales. Dos meses después, Estados Unidos declaró la guerra a Alemania.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-entro-italia-guerra",
+    "text": "¿En qué año entró Italia en la guerra con los Aliados?",
+    "options": [
+      "1916",
+      "1915",
+      "1914",
+      "1917"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Italia, que formaba parte de la Triple Alianza, se mantuvo neutral al principio. En mayo de 1915 declaró la guerra a Austria-Hungría y se unió a los Aliados, atraída por promesas territoriales.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ejercito-sufrio-desastre-caporetto",
+    "text": "¿Qué ejército sufrió el desastre de Caporetto en 1917?",
+    "options": [
+      "El italiano",
+      "El ruso",
+      "El serbio",
+      "El francés"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En octubre de 1917, tropas austrohúngaras y alemanas rompieron el frente italiano en Caporetto y obligaron a retroceder a los italianos más de cien kilómetros, hasta el río Piave, con muchos prisioneros.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-oficial-britanico-apoyo-revuelta",
+    "text": "¿Qué oficial británico apoyó la revuelta árabe en 1916?",
+    "options": [
+      "John French",
+      "Lord Kitchener",
+      "T. E. Lawrence",
+      "Douglas Haig"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "T. E. Lawrence, conocido como Lawrence de Arabia, ayudó a los árabes liderados por Faisal en su rebelión contra el Imperio otomano. Su acción incluyó ataques al ferrocarril del Hiyaz.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-documento-britanico-1917-apoyo",
+    "text": "¿Qué documento británico de 1917 apoyó un hogar judío?",
+    "options": [
+      "Tratado de Rapallo",
+      "Declaración Balfour",
+      "Doctrina Monroe",
+      "Pacto de Locarno"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La Declaración Balfour, del 2 de noviembre de 1917, expresaba el apoyo del Gobierno británico a un hogar nacional para el pueblo judío en Palestina, entonces territorio otomano.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-puntos-tenia-programa-paz",
+    "text": "¿Cuántos puntos tenía el programa de paz de Wilson?",
+    "options": [
+      "Catorce",
+      "Doce",
+      "Veinte",
+      "Diez"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En enero de 1918, el presidente Wilson presentó sus Catorce Puntos como base para una paz justa. Incluían la libertad de navegación, la autodeterminación de los pueblos y una asociación de naciones.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mar-libro-batalla-jutlandia",
+    "text": "¿En qué mar se libró la batalla de Jutlandia?",
+    "options": [
+      "Mar Negro",
+      "Mar Báltico",
+      "Mar del Norte",
+      "Mediterráneo"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La batalla de Jutlandia se libró a finales de mayo de 1916 en el mar del Norte, frente a la costa danesa. Enfrentó a las flotas británica y alemana, y ambos bandos se atribuyeron la victoria.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-dirigio-gran-ofensiva",
+    "text": "¿Qué general dirigió la gran ofensiva rusa de 1916?",
+    "options": [
+      "Samsónov",
+      "Rennenkampf",
+      "Brusílov",
+      "Kornílov"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El general Alekséi Brusílov dirigió en junio de 1916 una ofensiva contra Austria-Hungría que logró grandes avances y obligó a los alemanes a enviar refuerzos al este, aunque costó enormes bajas rusas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-bailarina-fue-fusilada-1917",
+    "text": "¿Qué bailarina fue fusilada en 1917 acusada de espionaje?",
+    "options": [
+      "Isadora Duncan",
+      "Josephine Baker",
+      "Anna Pávlova",
+      "Mata Hari"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Mata Hari, bailarina neerlandesa, fue ejecutada por un pelotón francés en octubre de 1917, condenada por espiar a favor de Alemania. Hoy muchos historiadores dudan de que las pruebas fueran sólidas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-enfermera-britanica-fusilaron-alemanes",
+    "text": "¿Qué enfermera británica fusilaron los alemanes en 1915?",
+    "options": [
+      "Florence Nightingale",
+      "Mary Seacole",
+      "Clara Barton",
+      "Edith Cavell"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Edith Cavell fue ejecutada en Bruselas en octubre de 1915, acusada de ayudar a escapar a soldados aliados. Su muerte provocó una gran indignación en los países aliados y en los neutrales.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-representaba-vittorio-orlando",
+    "text": "¿Qué país representaba Vittorio Orlando en Versalles?",
+    "options": [
+      "Rumanía",
+      "Bélgica",
+      "Japón",
+      "Italia"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Vittorio Orlando, primer ministro italiano, formó junto a Wilson, Lloyd George y Clemenceau el grupo de los Cuatro Grandes en la Conferencia de París. Se marchó indignado porque Italia no logró todo lo prometido.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-firmo-tratado-saint",
+    "text": "¿Con qué país se firmó el Tratado de Saint-Germain?",
+    "options": [
+      "Turquía",
+      "Austria",
+      "Hungría",
+      "Bulgaria"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Tratado de Saint-Germain-en-Laye, firmado el 10 de septiembre de 1919, creó la pequeña república de Austria y le prohibió unirse a Alemania. El Imperio austrohúngaro quedó oficialmente disuelto.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-perdio-gran-parte",
+    "text": "¿Qué país perdió gran parte de su territorio en Trianon?",
+    "options": [
+      "Hungría",
+      "Rumanía",
+      "Austria",
+      "Bulgaria"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Tratado de Trianon, de 1920, redujo mucho el territorio húngaro y dejó a millones de húngaros fuera de las nuevas fronteras. Rumanía, Checoslovaquia y Yugoslavia se quedaron con buena parte de sus tierras.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-articulo-versalles-atribuia-alemania",
+    "text": "¿Qué artículo de Versalles atribuía a Alemania la culpa?",
+    "options": [
+      "Artículo 231",
+      "Artículo 117",
+      "Artículo 49",
+      "Artículo 301"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El artículo 231 del Tratado de Versalles declaraba a Alemania y a sus aliados responsables de los daños de la guerra. Era la base legal de las reparaciones y ofendió mucho a los alemanes.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-regiones-recupero-francia-tratado",
+    "text": "¿Qué regiones recuperó Francia con el Tratado de Versalles?",
+    "options": [
+      "Saboya y Niza",
+      "Alsacia y Lorena",
+      "Flandes y Artois",
+      "Bretaña y Normandía"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Alsacia y Lorena, perdidas ante Alemania en 1871 tras la guerra franco-prusiana, volvieron a Francia con el Tratado de Versalles. Su recuperación era un objetivo francés desde el comienzo de la guerra.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-linea-fortificada-alemana",
+    "text": "¿Cómo se llamó la línea fortificada alemana de 1917?",
+    "options": [
+      "Línea Hindenburg",
+      "Línea Maginot",
+      "Línea Metaxas",
+      "Línea Mannerheim"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "La línea Hindenburg era un sistema defensivo alemán construido en el invierno de 1916-1917. En la primavera de 1917 los alemanes se retiraron hasta ella para acortar el frente occidental.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-frances-hizo-famoso",
+    "text": "¿Qué general francés se hizo famoso en la defensa de Verdún?",
+    "options": [
+      "Philippe Pétain",
+      "Joseph Gallieni",
+      "Ferdinand Foch",
+      "Joseph Joffre"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Philippe Pétain asumió la defensa de Verdún en febrero de 1916 y organizó el abastecimiento por la llamada Vía Sagrada. Su prestigio lo llevó después a ser mariscal y jefe del ejército francés.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mariscal-frances-mando-aliados",
+    "text": "¿Qué mariscal francés mandó a los Aliados en 1918?",
+    "options": [
+      "Joseph Joffre",
+      "Philippe Pétain",
+      "Ferdinand Foch",
+      "Robert Nivelle"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Ferdinand Foch fue nombrado comandante supremo de los ejércitos aliados en el frente occidental en 1918, durante la crisis de la ofensiva alemana de primavera. Dirigió después las ofensivas que condujeron a la victoria.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-mandaba-fuerzas-britanicas-somme",
+    "text": "¿Quién mandaba las fuerzas británicas en el Somme?",
+    "options": [
+      "Edmund Allenby",
+      "Horatio Kitchener",
+      "Douglas Haig",
+      "John French"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Douglas Haig mandó las fuerzas británicas en Francia desde diciembre de 1915 y planeó la ofensiva del Somme de 1916. Su estrategia de desgaste ha sido muy criticada por el elevado número de bajas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-estrecho-querian-forzar-aliados",
+    "text": "¿Qué estrecho querían forzar los Aliados en Galípoli?",
+    "options": [
+      "Gibraltar",
+      "Mesina",
+      "Los Dardanelos",
+      "La Mancha"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "En Galípoli los Aliados querían abrir el paso de los Dardanelos para llegar a Constantinopla y sacar al Imperio otomano de la guerra. Fracasaron ante la fuerte defensa otomana y se retiraron.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dos-paises-aportaron-anzac",
+    "text": "¿Qué dos países aportaron los ANZAC en Galípoli?",
+    "options": [
+      "India y Egipto",
+      "Irlanda y Gales",
+      "Australia y Nueva Zelanda",
+      "Canadá y Sudáfrica"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "ANZAC significa Cuerpo de Ejército Australiano y Neozelandés. Sus tropas desembarcaron en Galípoli el 25 de abril de 1915, fecha que ambos países recuerdan cada año como el Día de ANZAC.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-imperio-ocurrio-genocidio-armenio",
+    "text": "¿En qué imperio ocurrió el genocidio armenio de 1915?",
+    "options": [
+      "Imperio persa",
+      "Imperio otomano",
+      "Imperio austrohúngaro",
+      "Imperio ruso"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "A partir de 1915, las autoridades del Imperio otomano deportaron y mataron a cientos de miles de armenios. Es considerado un genocidio por la mayoría de los historiadores, aunque Turquía rechaza esa denominación.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-acorazado-revoluciono-marina-britanica",
+    "text": "¿Qué acorazado revolucionó la marina británica en 1906?",
+    "options": [
+      "HMS Warspite",
+      "HMS Dreadnought",
+      "HMS Hood",
+      "HMS Victory"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El HMS Dreadnought, botado en 1906, montaba cañones de un solo calibre grande y era muy rápido. Dejó anticuados a los demás acorazados e inició una carrera naval entre Gran Bretaña y Alemania.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fue-ultimo-emperador-austria",
+    "text": "¿Quién fue el último emperador de Austria-Hungría?",
+    "options": [
+      "Carlos I",
+      "Francisco José I",
+      "Maximiliano I",
+      "Fernando I"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Carlos I sucedió a Francisco José I en noviembre de 1916 y fue el último emperador de Austria-Hungría. Intentó negociar la paz, pero perdió el trono cuando el imperio se disolvió, en 1918.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-lideraba-gobierno-ruso-octubre",
+    "text": "¿Quién lideraba el Gobierno ruso en octubre de 1917?",
+    "options": [
+      "Aleksandr Kérenski",
+      "Lavr Kornílov",
+      "Lev Trotski",
+      "Pável Miliukov"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "Aleksandr Kérenski dirigió el Gobierno provisional ruso desde julio de 1917 y quiso continuar la guerra. Fue derrocado por los bolcheviques en la Revolución de octubre y huyó del país.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-organo-ee-uu-ratifico",
+    "text": "¿Qué órgano de EE. UU. no ratificó el Tratado de Versalles?",
+    "options": [
+      "La Cámara",
+      "La Presidencia",
+      "El Senado",
+      "La Corte Suprema"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "medio",
+    "explanation": "El Senado estadounidense rechazó ratificar el Tratado de Versalles entre 1919 y 1920, pese al empeño de Wilson. Por ello Estados Unidos no entró en la Sociedad de Naciones que el presidente había impulsado.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-llamo-gran-obus-aleman",
+    "text": "¿Cómo se llamó el gran obús alemán usado contra Lieja?",
+    "options": [
+      "Gran Ana",
+      "Gran Frida",
+      "Gran Berta",
+      "Gran Matilde"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "La Gran Berta era un obús de gran calibre fabricado por Krupp. Los alemanes lo usaron en 1914 para destruir los fuertes belgas de Lieja, que se consideraban casi inexpugnables.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-presidente-gobierno-espanol-declaro",
+    "text": "¿Qué presidente del Gobierno español declaró la neutralidad?",
+    "options": [
+      "José Canalejas",
+      "Antonio Maura",
+      "Eduardo Dato",
+      "Segismundo Moret"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Eduardo Dato, líder conservador y presidente del Gobierno en 1914, proclamó la neutralidad de España en la guerra. La medida se mantuvo durante todo el conflicto bajo el reinado de Alfonso XIII.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-tratado-1920-repartio-imperio",
+    "text": "¿Qué tratado de 1920 repartió el Imperio otomano?",
+    "options": [
+      "Tratado de Sèvres",
+      "Tratado de Rapallo",
+      "Tratado de Trianon",
+      "Tratado de Neuilly"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El Tratado de Sèvres, firmado el 10 de agosto de 1920, repartía el Imperio otomano entre las potencias vencedoras. Los nacionalistas turcos lo rechazaron y fue sustituido por el Tratado de Lausana.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-firmo-tratado-neuilly",
+    "text": "¿Con qué país se firmó el Tratado de Neuilly?",
+    "options": [
+      "Grecia",
+      "Rumanía",
+      "Bulgaria",
+      "Turquía"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El Tratado de Neuilly-sur-Seine se firmó con Bulgaria el 27 de noviembre de 1919. Bulgaria perdió su salida al mar Egeo y tuvo que pagar reparaciones y reducir su ejército.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-ano-libro-tercera-batalla",
+    "text": "¿En qué año se libró la tercera batalla de Ypres?",
+    "options": [
+      "1917",
+      "1914",
+      "1915",
+      "1916"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "La tercera batalla de Ypres, conocida como Passchendaele, se libró entre julio y noviembre de 1917. Se recuerda por el barro, las lluvias y el elevado número de bajas con escasas ganancias.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-general-frances-vencio-batalla",
+    "text": "¿Qué general francés venció en la batalla del Marne?",
+    "options": [
+      "Philippe Pétain",
+      "Ferdinand Foch",
+      "Robert Nivelle",
+      "Joseph Joffre"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "Joseph Joffre, comandante en jefe del ejército francés en 1914, dirigió la contraofensiva del Marne que detuvo el avance alemán sobre París. Después fue relevado del mando a finales de 1916.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-1917-usaron-tanques",
+    "text": "¿En qué batalla de 1917 se usaron tanques en masa?",
+    "options": [
+      "Caporetto",
+      "Verdún",
+      "Cambrai",
+      "Mesina"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "En Cambrai, el 20 de noviembre de 1917, los británicos lanzaron cientos de tanques en un ataque sorpresa y rompieron las líneas alemanas. Los alemanes recuperaron después buena parte del terreno perdido.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-nombre-recibio-ofensiva-aliada",
+    "text": "¿Qué nombre recibió la ofensiva aliada final de 1918?",
+    "options": [
+      "Ofensiva Nivelle",
+      "Ofensiva de Mesina",
+      "Ofensiva de los Cien Días",
+      "Ofensiva Kérenski"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "La ofensiva de los Cien Días fue la serie de ataques aliados que, desde agosto de 1918, hizo retroceder al ejército alemán en el frente occidental y llevó al armisticio de noviembre.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-dos-paises-firmaron-acuerdo",
+    "text": "¿Qué dos países firmaron el acuerdo Sykes-Picot en 1916?",
+    "options": [
+      "Italia y Rusia",
+      "Reino Unido y Francia",
+      "Francia e Italia",
+      "Reino Unido y Rusia"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El acuerdo Sykes-Picot, de mayo de 1916, fue un pacto secreto entre Reino Unido y Francia para repartirse zonas de influencia en Oriente Próximo si el Imperio otomano era derrotado.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-isla-firmo-armisticio-imperio",
+    "text": "¿En qué isla firmó su armisticio el Imperio otomano?",
+    "options": [
+      "Creta",
+      "Lemnos",
+      "Malta",
+      "Chipre"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "difícil",
+    "explanation": "El Imperio otomano firmó el armisticio de Mudros el 30 de octubre de 1918, en la bahía de Mudros, en la isla griega de Lemnos, a bordo de un buque de guerra británico.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-sustituyo-hindenburg-frente-estado",
+    "text": "¿A quién sustituyó Hindenburg al frente del Estado Mayor?",
+    "options": [
+      "Alfred von Schlieffen",
+      "Helmuth von Moltke",
+      "Erich Ludendorff",
+      "Erich von Falkenhayn"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Paul von Hindenburg sustituyó en agosto de 1916 a Erich von Falkenhayn como jefe del Estado Mayor alemán, con Ludendorff como colaborador clave. Falkenhayn había planeado la ofensiva contra Verdún.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-pais-declaro-guerra-ee",
+    "text": "¿A qué país declaró la guerra EE. UU. en diciembre de 1917?",
+    "options": [
+      "Alemania",
+      "Bulgaria",
+      "Imperio otomano",
+      "Austria-Hungría"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Estados Unidos declaró la guerra a Austria-Hungría el 7 de diciembre de 1917, ocho meses después de hacerlo contra Alemania. Nunca declaró la guerra a Bulgaria ni al Imperio otomano.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-tratado-secreto-1915-llevo",
+    "text": "¿Qué tratado secreto de 1915 llevó a Italia a la guerra?",
+    "options": [
+      "Tratado de Londres",
+      "Pacto de Acero",
+      "Tratado de Rapallo",
+      "Tratado de Berlín"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "En el Tratado de Londres, firmado en secreto en abril de 1915, los Aliados prometieron a Italia territorios austriacos si entraba en la guerra. Su incumplimiento parcial generó mucho resentimiento después.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-naval-hundio-crucero",
+    "text": "¿En qué batalla naval se hundió el crucero Blücher?",
+    "options": [
+      "Dogger Bank",
+      "Jutlandia",
+      "Coronel",
+      "Heligoland"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El crucero alemán Blücher se hundió en la batalla del Dogger Bank, el 24 de enero de 1915, en el mar del Norte. Los británicos habían descifrado las señales alemanas y esperaban el ataque.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-almirante-aleman-vencio-britanicos",
+    "text": "¿Qué almirante alemán venció a los británicos en Coronel?",
+    "options": [
+      "Alfred von Tirpitz",
+      "Maximilian von Spee",
+      "Franz von Hipper",
+      "Reinhard Scheer"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El almirante Maximilian von Spee derrotó a una escuadra británica en Coronel, frente a Chile, el 1 de noviembre de 1914. Un mes después murió con la mayor parte de su flota en las islas Malvinas.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-sala-britanica-descifro-telegrama",
+    "text": "¿Qué sala británica descifró el telegrama Zimmermann?",
+    "options": [
+      "Sala 17",
+      "Sala 9",
+      "Sala 40",
+      "Sala 12"
+    ],
+    "correctIndex": 2,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "La Sala 40 del Almirantazgo británico era el servicio de criptografía naval que descifró el telegrama Zimmermann en enero de 1917. Su contenido se comunicó a Estados Unidos y se hizo público en marzo.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-fuerte-verdun-cayo-ante",
+    "text": "¿Qué fuerte de Verdún cayó ante Alemania en febrero de 1916?",
+    "options": [
+      "Tavannes",
+      "Douaumont",
+      "Souville",
+      "Vaux"
+    ],
+    "correctIndex": 1,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El fuerte de Douaumont, considerado el más sólido de Verdún, cayó en manos alemanas el 25 de febrero de 1916 casi sin lucha, porque estaba débilmente guarnecido. Los franceses lo recuperaron en octubre.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-bajas-britanicas-hubo-primer",
+    "text": "¿Cuántas bajas británicas hubo el primer día del Somme?",
+    "options": [
+      "Unas 57.000",
+      "Unas 12.000",
+      "Unas 27.000",
+      "Unas 87.000"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El 1 de julio de 1916, primer día de la batalla del Somme, el ejército británico sufrió unas 57.000 bajas, de ellas unos 19.000 muertos. Es el día más sangriento de su historia militar.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-batalla-fue-dia-negro",
+    "text": "¿Qué batalla fue el «día negro» del ejército alemán?",
+    "options": [
+      "Amiens",
+      "Reims",
+      "Arrás",
+      "Lys"
+    ],
+    "correctIndex": 0,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "Erich Ludendorff calificó el 8 de agosto de 1918, primer día de la batalla de Amiens, como el día negro del ejército alemán. Tanques y tropas aliadas rompieron el frente y se vio que la derrota era cercana.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "hist-cuenca-minera-alemana-goberno",
+    "text": "¿Qué cuenca minera alemana gobernó la Sociedad de Naciones?",
+    "options": [
+      "Cuenca del Ruhr",
+      "Cuenca de Lorena",
+      "Cuenca de Silesia",
+      "Cuenca del Sarre"
+    ],
+    "correctIndex": 3,
+    "category": "Historia y Geografía",
+    "difficulty": "muy difícil",
+    "explanation": "El Tratado de Versalles puso la cuenca del Sarre bajo el gobierno de la Sociedad de Naciones durante quince años, mientras Francia explotaba sus minas. En 1935 un plebiscito la devolvió a Alemania.",
+    "source": "primera_guerra_mundial.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  }
+]

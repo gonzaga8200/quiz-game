@@ -1,0 +1,3385 @@
+[
+  {
+    "id": "arte-pinto-serie-nenufares",
+    "text": "¿Quién pintó la serie de «Los nenúfares»?",
+    "options": [
+      "Monet",
+      "Goya",
+      "Picasso",
+      "Velázquez"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Claude Monet pintó cientos de nenúfares en el estanque de su jardín de Giverny, en Francia, durante las últimas décadas de su vida, hasta su muerte en 1926.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-era-pintor-claude",
+    "text": "¿De qué país era el pintor Claude Monet?",
+    "options": [
+      "Italia",
+      "Portugal",
+      "Alemania",
+      "Francia"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Monet nació en París en 1840 y vivió casi toda su vida en Francia. Murió en Giverny, un pueblo donde tenía su famoso jardín, en 1926.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-color-sale-mezclar-azul",
+    "text": "¿Qué color sale al mezclar azul y amarillo?",
+    "options": [
+      "Rojo",
+      "Naranja",
+      "Morado",
+      "Verde"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "El azul y el amarillo son colores primarios; al mezclarlos se obtiene el verde. Los pintores impresionistas jugaban mucho con estas mezclas para pintar árboles y campos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-estilo-monet-renoir",
+    "text": "¿Cómo se llama el estilo de Monet y Renoir?",
+    "options": [
+      "Surrealismo",
+      "Barroco",
+      "Cubismo",
+      "Impresionismo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Monet y Renoir pertenecieron al impresionismo, un movimiento nacido en Francia en el siglo XIX que pintaba la luz y las impresiones del momento con pinceladas sueltas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintaban-muchos-impresionistas-paisajes",
+    "text": "¿Dónde pintaban muchos impresionistas sus paisajes?",
+    "options": [
+      "En un avión",
+      "Al aire libre",
+      "Bajo el agua",
+      "En una cueva"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Los impresionistas salían del taller para pintar al aire libre, en el campo, los ríos y la ciudad, y así captar los cambios de la luz natural.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-flores-famosas-pinto-vincent",
+    "text": "¿Qué flores famosas pintó Vincent van Gogh?",
+    "options": [
+      "Margaritas",
+      "Girasoles",
+      "Rosas rojas",
+      "Tulipanes"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Van Gogh pintó varias series de girasoles en Arlés, en 1888 y 1889. Son famosos por sus amarillos intensos y sus pinceladas gruesas y llenas de energía.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-maja-desnuda",
+    "text": "¿Quién pintó «La maja desnuda»?",
+    "options": [
+      "Zurbarán",
+      "Murillo",
+      "Goya",
+      "Sorolla"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Francisco de Goya pintó «La maja desnuda» hacia 1800 y la acompañó de «La maja vestida». Ambas se exhiben juntas en el Museo del Prado.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-guernica",
+    "text": "¿Quién pintó el «Guernica»?",
+    "options": [
+      "Goya",
+      "Dalí",
+      "Miró",
+      "Picasso"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Pablo Picasso pintó el «Guernica» en 1937 como protesta por el bombardeo de la ciudad vasca. Hoy se expone en el Museo Reina Sofía de Madrid.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-relojes-blandos-derriten",
+    "text": "¿Quién pintó relojes blandos que se derriten?",
+    "options": [
+      "Dalí",
+      "Picasso",
+      "Goya",
+      "Miró"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Salvador Dalí pintó «La persistencia de la memoria» en 1931, con relojes blandos en un paisaje de ensueño. Es una obra icónica del surrealismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-esta-museo-prado",
+    "text": "¿En qué ciudad está el Museo del Prado?",
+    "options": [
+      "Madrid",
+      "Valencia",
+      "Bilbao",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "El Museo del Prado está en Madrid, en el Paseo del Prado. Guarda obras de Velázquez, Goya, El Greco, Murillo y muchos otros grandes maestros.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-eran-goya-velazquez",
+    "text": "¿De qué país eran Goya, Velázquez y Picasso?",
+    "options": [
+      "Italia",
+      "Francia",
+      "Portugal",
+      "España"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Los tres pintores nacieron en España: Velázquez en Sevilla, Goya en Fuendetodos (Zaragoza) y Picasso en Málaga. Todos son artistas de fama mundial.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-lugar-pinto-sorolla-mucha",
+    "text": "¿Qué lugar pintó Sorolla con mucha luz?",
+    "options": [
+      "El desierto",
+      "La selva",
+      "La nieve",
+      "La playa"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Joaquín Sorolla pintó la playa de Valencia llena de sol, de niños bañándose y mujeres paseando. Por eso lo llaman «el pintor de la luz».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-personaje-central-meninas",
+    "text": "¿Quién es el personaje central de «Las meninas»?",
+    "options": [
+      "Una niña",
+      "Un monje",
+      "Un soldado",
+      "Un pirata"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "En el centro de «Las meninas» está la infanta Margarita Teresa, una niña de unos cinco años, rodeada de sus damas de compañía y de otros personajes de la corte.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-usa-pintor-mezclar-colores",
+    "text": "¿Qué usa el pintor para mezclar los colores?",
+    "options": [
+      "Un cubo",
+      "Un martillo",
+      "Una paleta",
+      "Una escoba"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "La paleta es una tabla o superficie donde el pintor coloca y mezcla sus colores antes de aplicarlos con el pincel sobre el lienzo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-intentan-mostrar-pintores-realistas",
+    "text": "¿Qué intentan mostrar los pintores realistas?",
+    "options": [
+      "Cosas imposibles",
+      "Solo colores",
+      "La vida tal como es",
+      "Mundos de fantasía"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "El realismo pinta personas, lugares y trabajos tal como son, sin idealizarlos. Los pintores realistas quieren que el cuadro parezca la vida de verdad.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-cuadro-frutas-sobre",
+    "text": "¿Cómo se llama un cuadro de frutas sobre una mesa?",
+    "options": [
+      "Bodegón",
+      "Paisaje",
+      "Retrato",
+      "Marina"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Un bodegón, también llamado naturaleza muerta, representa objetos cotidianos como frutas, flores, jarras o pan. Fue un género muy cultivado por pintores realistas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-cuadro-pintor-retrata",
+    "text": "¿Cómo se llama el cuadro en que un pintor se retrata?",
+    "options": [
+      "Bodegón",
+      "Marina",
+      "Paisaje",
+      "Autorretrato"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Un autorretrato es un retrato que el artista hace de sí mismo, normalmente mirándose en un espejo. Velázquez, Goya y Van Gogh pintaron varios.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-usa-pintor-sostener-lienzo",
+    "text": "¿Qué usa el pintor para sostener el lienzo?",
+    "options": [
+      "Un caballete",
+      "Un martillo",
+      "Un cubo",
+      "Una escoba"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "El caballete es un soporte, normalmente de madera, que sostiene el lienzo mientras el pintor trabaja. Se pliega fácilmente para pintar al aire libre.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-era-pintor-realista",
+    "text": "¿De qué país era el pintor realista Gustave Courbet?",
+    "options": [
+      "España",
+      "Japón",
+      "Rusia",
+      "Francia"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Gustave Courbet nació en 1819 en Ornans, en el este de Francia. Es considerado el máximo representante del realismo pictórico del siglo XIX.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-mujer-sombrilla",
+    "text": "¿Quién pintó «Mujer con sombrilla»?",
+    "options": [
+      "Sisley",
+      "Manet",
+      "Monet",
+      "Renoir"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Claude Monet pintó «Mujer con sombrilla» en 1875: una mujer de pie sobre una colina, con el viento y el cielo captados con pincelada rápida y luminosa.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-nacio-impresionismo",
+    "text": "¿En qué país nació el impresionismo?",
+    "options": [
+      "Italia",
+      "Francia",
+      "Inglaterra",
+      "España"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El impresionismo nació en París en la década de 1870. Sus artistas rompieron con la pintura académica oficial y mostraron su obra en exposiciones independientes.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-impresionista-famoso-bailarinas",
+    "text": "¿Qué impresionista es famoso por sus bailarinas?",
+    "options": [
+      "Pissarro",
+      "Degas",
+      "Monet",
+      "Sisley"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Edgar Degas pintó cientos de escenas de bailarinas de ballet, en ensayos y camerinos, con encuadres inesperados que recordaban a la fotografía.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-baile-moulin-galette",
+    "text": "¿Quién pintó «Baile en el Moulin de la Galette»?",
+    "options": [
+      "Monet",
+      "Renoir",
+      "Sisley",
+      "Degas"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Pierre-Auguste Renoir pintó esta escena de baile al aire libre en Montmartre en 1876. Hoy se conserva en el Museo de Orsay, en París.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-pintura-aire-libre",
+    "text": "¿Cómo se llama la pintura al aire libre?",
+    "options": [
+      "Puntillismo",
+      "Grisalla",
+      "Tenebrismo",
+      "Plein air"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "«Plein air» significa «aire libre» en francés. Los impresionistas lo practicaron mucho, gracias a los tubos de pintura y los caballetes portátiles.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintora-impresionista-pinto-cuna",
+    "text": "¿Qué pintora impresionista pintó «La cuna»?",
+    "options": [
+      "Cassatt",
+      "Kahlo",
+      "Morisot",
+      "Bonheur"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Berthe Morisot pintó «La cuna» en 1872 y la expuso en la primera exposición impresionista de 1874. Retrata a su hermana Edma contemplando a su hija dormida.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pueblo-frances-tenia-monet",
+    "text": "¿En qué pueblo francés tenía Monet su jardín?",
+    "options": [
+      "Giverny",
+      "Lyon",
+      "Marsella",
+      "Burdeos"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Monet se instaló en Giverny en 1883. Allí diseñó su jardín con estanque de nenúfares y puente japonés, que pintó durante más de treinta años.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tecnica-usaba-seurat-puntitos",
+    "text": "¿Qué técnica usaba Seurat con puntitos de color?",
+    "options": [
+      "Puntillismo",
+      "Cubismo",
+      "Realismo",
+      "Fauvismo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Georges Seurat aplicaba pequeños puntos de colores puros que el ojo mezcla a distancia. Es el puntillismo, también llamado neoimpresionismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-noche-estrellada",
+    "text": "¿Quién pintó «La noche estrellada»?",
+    "options": [
+      "Van Gogh",
+      "Renoir",
+      "Monet",
+      "Cézanne"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Vincent van Gogh pintó «La noche estrellada» en 1889, mientras estaba ingresado en un hospital de Saint-Rémy-de-Provence. Hoy se encuentra en el MoMA de Nueva York.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hizo-primera-exposicion-impresionista",
+    "text": "¿Dónde se hizo la primera exposición impresionista?",
+    "options": [
+      "Londres",
+      "París",
+      "Madrid",
+      "Roma"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "En abril de 1874, en el antiguo estudio del fotógrafo Nadar, en el boulevard des Capucines de París, un grupo de artistas independientes mostró sus obras.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-era-pintora-mary",
+    "text": "¿De qué país era la pintora Mary Cassatt?",
+    "options": [
+      "Inglaterra",
+      "Bélgica",
+      "Francia",
+      "Estados Unidos"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Mary Cassatt nació en Pensilvania, pero vivió en París y fue invitada por Degas a exponer con los impresionistas. Pintó sobre todo escenas de madres con sus hijos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-buscaban-captar-impresionistas",
+    "text": "¿Qué buscaban captar los impresionistas?",
+    "options": [
+      "Los milagros",
+      "Las batallas",
+      "La luz del momento",
+      "El dolor humano"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Los impresionistas querían reflejar la impresión fugaz de la luz y el color en un momento concreto, más que detallar con precisión los objetos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-famoso-museo-parisino-esta",
+    "text": "¿Qué famoso museo parisino está en una antigua estación?",
+    "options": [
+      "Museo Picasso",
+      "Museo Rodin",
+      "Museo del Louvre",
+      "Museo de Orsay"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El Museo de Orsay ocupa la antigua estación ferroviaria de Orsay, inaugurada en 1900. Guarda la mayor colección mundial de pintura impresionista y postimpresionista.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estos-pintores-fue-impresionista",
+    "text": "¿Cuál de estos pintores NO fue impresionista?",
+    "options": [
+      "Monet",
+      "Renoir",
+      "Goya",
+      "Pissarro"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Francisco de Goya vivió entre 1746 y 1828, mucho antes del impresionismo. Monet, Renoir y Pissarro sí expusieron en las exposiciones impresionistas de París.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-siglo-nacio-impresionismo",
+    "text": "¿En qué siglo nació el impresionismo?",
+    "options": [
+      "Siglo XX",
+      "Siglo XIX",
+      "Siglo XV",
+      "Siglo XVII"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El impresionismo surgió en la década de 1860 y se dio a conocer en 1874. Sus ocho exposiciones se celebraron entre 1874 y 1886.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-nacionalidad-era-vincent-van",
+    "text": "¿De qué nacionalidad era Vincent van Gogh?",
+    "options": [
+      "Italiana",
+      "Española",
+      "Francesa",
+      "Neerlandesa"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Vincent van Gogh nació en 1853 en los Países Bajos. Se trasladó a París en 1886 y allí conoció a los impresionistas, cuya paleta luminosa influyó en su pintura.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-eran-pinceladas-impresionistas",
+    "text": "¿Cómo eran las pinceladas impresionistas?",
+    "options": [
+      "Rápidas y sueltas",
+      "Lentas y frías",
+      "Finas y exactas",
+      "Lisas y ocultas"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Los impresionistas aplicaban pinceladas visibles, rápidas y cortas, sin disimular el trazo. Así transmitían movimiento y vibración de la luz.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-fruta-pinto-cezanne-famosos",
+    "text": "¿Con qué fruta pintó Cézanne famosos bodegones?",
+    "options": [
+      "Piñas",
+      "Plátanos",
+      "Cerezas",
+      "Manzanas"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Paul Cézanne pintó muchas naturalezas muertas con manzanas, a las que daba volumen con color. Cuentan entre sus obras más influyentes del postimpresionismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-almuerzo-remeros",
+    "text": "¿Quién pintó «El almuerzo de los remeros»?",
+    "options": [
+      "Sisley",
+      "Caillebotte",
+      "Renoir",
+      "Monet"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Renoir pintó esta alegre comida junto al Sena entre 1880 y 1881. Muchos de los retratados eran amigos suyos, como el pintor Gustave Caillebotte.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-impresionista-pinto-serie-catedral",
+    "text": "¿Qué impresionista pintó la serie de la catedral de Ruan?",
+    "options": [
+      "Degas",
+      "Monet",
+      "Renoir",
+      "Manet"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Monet pintó unas treinta vistas de la fachada de la catedral de Ruan entre 1892 y 1894, a distintas horas, para mostrar cómo la luz transforma el mismo edificio.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-rendicion-breda",
+    "text": "¿Quién pintó «La rendición de Breda»?",
+    "options": [
+      "Velázquez",
+      "Murillo",
+      "Zurbarán",
+      "Ribera"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Velázquez pintó «La rendición de Breda» hacia 1635 para el Salón de Reinos del Palacio del Buen Retiro. Es conocido también como «Las lanzas».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-fusilamientos-mayo",
+    "text": "¿Quién pintó «Los fusilamientos del 3 de mayo»?",
+    "options": [
+      "Velázquez",
+      "Goya",
+      "Murillo",
+      "Sorolla"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Goya pintó «El 3 de mayo en Madrid» en 1814. Recuerda la represión francesa del levantamiento de 1808 y es una imagen clave contra la violencia de la guerra.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-famoso-pinturas-negras",
+    "text": "¿Qué pintor es famoso por sus «Pinturas negras»?",
+    "options": [
+      "Zurbarán",
+      "Murillo",
+      "Goya",
+      "Ribera"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Goya pintó las «Pinturas negras» en las paredes de su casa de campo hacia 1820. Son escenas oscuras y angustiosas, hoy en el Museo del Prado.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-paseo-orillas-mar",
+    "text": "¿Quién pintó «Paseo a orillas del mar»?",
+    "options": [
+      "Rusiñol",
+      "Zuloaga",
+      "Casas",
+      "Sorolla"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Joaquín Sorolla pintó esta obra en 1909. Muestra a su esposa Clotilde y a su hija María paseando por la playa de Valencia, con vestidos blancos y sombrillas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-francesa-murio-goya",
+    "text": "¿En qué ciudad francesa murió Goya?",
+    "options": [
+      "Burdeos",
+      "Marsella",
+      "Lyon",
+      "París"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Goya se exilió en Burdeos en 1824 y murió allí el 16 de abril de 1828, a los 82 años. Sus restos descansan hoy en la ermita de San Antonio de la Florida, en Madrid.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-nacio-malaga-1881",
+    "text": "¿Qué pintor nació en Málaga en 1881?",
+    "options": [
+      "Miró",
+      "Gris",
+      "Dalí",
+      "Picasso"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Pablo Ruiz Picasso nació en Málaga el 25 de octubre de 1881. Después vivió en La Coruña, Barcelona y Francia, donde murió en 1973.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-salvador-dali",
+    "text": "¿En qué ciudad nació Salvador Dalí?",
+    "options": [
+      "Girona",
+      "Barcelona",
+      "Cadaqués",
+      "Figueres"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Dalí nació en Figueres (Girona) en 1904 y allí se encuentra el Teatro-Museo Dalí, que él mismo diseñó. Murió en la misma ciudad en 1989.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-conocido-pintor-luz",
+    "text": "¿Qué pintor es conocido como «el pintor de la luz»?",
+    "options": [
+      "Zuloaga",
+      "Goya",
+      "Zurbarán",
+      "Sorolla"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "A Joaquín Sorolla lo llaman «el pintor de la luz» por sus escenas mediterráneas bañadas de sol. Su estilo se conoce como luminismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-caballero-mano-pecho",
+    "text": "¿Quién pintó «El caballero de la mano en el pecho»?",
+    "options": [
+      "El Greco",
+      "Murillo",
+      "Goya",
+      "Sorolla"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El Greco pintó este retrato hacia 1580. Es una de las obras más famosas del Museo del Prado y destaca por la mirada y la mano del caballero.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-nacio-isla-creta",
+    "text": "¿Qué pintor nació en la isla de Creta?",
+    "options": [
+      "El Greco",
+      "Ribera",
+      "Zurbarán",
+      "Murillo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Doménikos Theotokópoulos, «El Greco», nació en Candía (Creta) en 1541. Vivió en Venecia y Roma antes de establecerse en España, donde murió en 1614.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-sentido-perdio-goya-tras",
+    "text": "¿Qué sentido perdió Goya tras una enfermedad?",
+    "options": [
+      "El oído",
+      "El gusto",
+      "La vista",
+      "El olfato"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Goya enfermó gravemente a finales de 1792 y quedó sordo. Esa experiencia cambió su vida y su obra, que se hizo más crítica y fantástica.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-sevillano-famoso-inmaculadas",
+    "text": "¿Qué pintor sevillano es famoso por sus Inmaculadas?",
+    "options": [
+      "Goya",
+      "Murillo",
+      "Picasso",
+      "Dalí"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Bartolomé Esteban Murillo pintó muchas versiones de la Inmaculada Concepción y escenas de niños. Fue el pintor más admirado de la Sevilla del siglo XVII.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-senoritas-avinon",
+    "text": "¿Quién pintó «Las señoritas de Aviñón»?",
+    "options": [
+      "Gris",
+      "Picasso",
+      "Miró",
+      "Dalí"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Picasso pintó «Las señoritas de Aviñón» en 1907. Se considera una de las obras que abrieron el camino al cubismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-nacionalidad-era-realmente-greco",
+    "text": "¿De qué nacionalidad era realmente El Greco?",
+    "options": [
+      "Flamenca",
+      "Griega",
+      "Italiana",
+      "Francesa"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El Greco nació en Creta, entonces dominio veneciano y de cultura griega. De ahí su apodo, que significa «el griego» en italiano.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-museo-madrileno-guarda-guernica",
+    "text": "¿Qué museo madrileño guarda el «Guernica»?",
+    "options": [
+      "Museo Sorolla",
+      "Museo Reina Sofía",
+      "Museo Thyssen",
+      "Museo del Prado"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El «Guernica» se expone en el Museo Nacional Centro de Arte Reina Sofía de Madrid desde 1992. Antes estuvo en el MoMA de Nueva York.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-pinto-greco-casi",
+    "text": "¿En qué ciudad pintó El Greco casi toda su obra española?",
+    "options": [
+      "Sevilla",
+      "Granada",
+      "Toledo",
+      "Burgos"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El Greco se instaló en Toledo hacia 1577 y allí pintó sus obras más célebres, como «El entierro del conde de Orgaz», hasta su muerte en 1614.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-grabo-sueno-razon-produce",
+    "text": "¿Quién grabó «El sueño de la razón produce monstruos»?",
+    "options": [
+      "Murillo",
+      "Zurbarán",
+      "Velázquez",
+      "Goya"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Es el grabado número 43 de «Los Caprichos» de Goya, publicados en 1799. Muestra a un hombre dormido rodeado de animales nocturnos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estilo-pintaba-sorolla",
+    "text": "¿Qué estilo pintaba Sorolla?",
+    "options": [
+      "Barroco",
+      "Luminismo",
+      "Gótico",
+      "Cubismo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El luminismo de Sorolla es una variante del impresionismo español, centrada en la luz del Mediterráneo y en el color intenso y las sombras coloreadas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-espanol-famoso-santos",
+    "text": "¿Qué pintor español es famoso por sus santos y monjes?",
+    "options": [
+      "Dalí",
+      "Zurbarán",
+      "Sorolla",
+      "Goya"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Francisco de Zurbarán pintó monjes, santos y mártires con gran sobriedad y fuertes contrastes de luz. Nació en 1598 y murió en 1664.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-murio-velazquez",
+    "text": "¿Dónde murió Velázquez?",
+    "options": [
+      "Madrid",
+      "Roma",
+      "Toledo",
+      "Sevilla"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Velázquez nació en Sevilla en 1599 y murió en Madrid el 6 de agosto de 1660. Pasó casi toda su carrera como pintor de la corte de Felipe IV.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-rey-fue-gran-protector",
+    "text": "¿Qué rey fue el gran protector de Velázquez?",
+    "options": [
+      "Carlos III",
+      "Felipe II",
+      "Carlos V",
+      "Felipe IV"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Felipe IV nombró a Velázquez pintor de cámara en 1623 y lo mantuvo a su servicio toda la vida. Lo retrató muchas veces, también en «Las meninas».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-era-sorolla",
+    "text": "¿De qué ciudad era Sorolla?",
+    "options": [
+      "Sevilla",
+      "Málaga",
+      "Valencia",
+      "Bilbao"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Joaquín Sorolla nació en Valencia el 27 de febrero de 1863. Quedó huérfano de niño y se formó en la Escuela de Bellas Artes de San Carlos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-eibar-pinto-espana",
+    "text": "¿Qué pintor de Éibar pintó la «España negra»?",
+    "options": [
+      "Casas",
+      "Zuloaga",
+      "Sorolla",
+      "Rusiñol"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Ignacio Zuloaga retrató una España austera y de tipos populares, en contraste con la luminosa de Sorolla. Nació en Éibar en 1870.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estos-pintores-nacio-cataluna",
+    "text": "¿Cuál de estos pintores nació en Cataluña?",
+    "options": [
+      "Goya",
+      "Sorolla",
+      "Murillo",
+      "Joan Miró"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Joan Miró nació en Barcelona en 1893. Su fundación se encuentra en el monte de Montjuïc, y su estilo mezcla surrealismo y arte abstracto.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-era-velazquez",
+    "text": "¿De qué ciudad era Velázquez?",
+    "options": [
+      "Toledo",
+      "Madrid",
+      "Sevilla",
+      "Granada"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Diego Rodríguez de Silva y Velázquez nació en Sevilla en 1599. Allí se formó con Francisco Pacheco antes de marchar a Madrid, a la corte.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-espigadoras",
+    "text": "¿Quién pintó «Las espigadoras»?",
+    "options": [
+      "Courbet",
+      "Daumier",
+      "Millet",
+      "Manet"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Jean-François Millet pintó «Las espigadoras» en 1857. Muestra a tres campesinas agachadas recogiendo las espigas que quedan tras la cosecha, símbolo de la pobreza rural.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-entierro-ornans",
+    "text": "¿Quién pintó «El entierro en Ornans»?",
+    "options": [
+      "Courbet",
+      "Manet",
+      "Millet",
+      "Daumier"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Gustave Courbet pintó este gran lienzo entre 1849 y 1850. Retrata, a escala de pintura histórica, el entierro de un vecino de su pueblo natal, con gente corriente.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-realista-hacia-caricaturas",
+    "text": "¿Qué pintor realista hacía caricaturas para un periódico?",
+    "options": [
+      "Courbet",
+      "Millet",
+      "Manet",
+      "Daumier"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Honoré Daumier realizó miles de litografías satíricas sobre políticos, jueces y burgueses de su época. También pintó escenas de la vida de los obreros de París.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-feria-caballos",
+    "text": "¿Quién pintó «La feria de caballos»?",
+    "options": [
+      "Berthe Morisot",
+      "Mary Cassatt",
+      "Rosa Bonheur",
+      "Frida Kahlo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Rosa Bonheur pintó «La feria de caballos» entre 1852 y 1855. Fue la gran pintora francesa de animales y una de las artistas más famosas de su tiempo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-movimiento-surgio-francia-hacia",
+    "text": "¿Qué movimiento surgió en Francia hacia 1850 con Courbet?",
+    "options": [
+      "Fauvismo",
+      "Dadaísmo",
+      "Realismo",
+      "Cubismo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El realismo nació en Francia a mediados del siglo XIX como reacción contra el romanticismo y la pintura académica. Defendía mostrar la vida real y los trabajadores.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escuela-reunia-bosque-fontainebleau",
+    "text": "¿Qué escuela se reunía en el bosque de Fontainebleau?",
+    "options": [
+      "Escuela de Venecia",
+      "Escuela de Madrid",
+      "Escuela de Barbizon",
+      "Escuela de Sevilla"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Los pintores de Barbizon, como Millet y Rousseau, trabajaron en la naturaleza y la vida campesina. Su pintura de paisaje fue un antecedente del impresionismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-nighthawks",
+    "text": "¿Quién pintó «Nighthawks»?",
+    "options": [
+      "Wyeth",
+      "Hopper",
+      "Warhol",
+      "Pollock"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Edward Hopper pintó «Nighthawks» (Noctámbulos) en 1942, una escena de un bar nocturno con figuras solitarias. Es una obra icónica del realismo estadounidense.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-mundo-christina",
+    "text": "¿Quién pintó «El mundo de Christina»?",
+    "options": [
+      "Wyeth",
+      "Whistler",
+      "Rockwell",
+      "Hopper"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Andrew Wyeth pintó en 1948 a una mujer tumbada en un campo de hierba, mirando hacia una casa lejana. La obra se conserva en el MoMA de Nueva York.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-tomelloso-pinto-gran",
+    "text": "¿Qué pintor de Tomelloso pintó la Gran Vía de Madrid?",
+    "options": [
+      "Antonio López",
+      "Antonio Saura",
+      "Antonio Tàpies",
+      "Antonio Mingote"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Antonio López García, nacido en Tomelloso en 1936, es el gran representante del realismo español actual. Su serie sobre la Gran Vía es una de sus obras más conocidas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-sirgadores-volga",
+    "text": "¿Quién pintó «Los sirgadores del Volga»?",
+    "options": [
+      "Chagall",
+      "Repin",
+      "Malévich",
+      "Kandinsky"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Ilia Repin, pintor realista ruso, pintó «Los sirgadores del Volga» entre 1870 y 1873. Muestra a hombres agotados tirando de un barco y denuncia su dura situación.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cuadro-millet-muestra-dos",
+    "text": "¿Qué cuadro de Millet muestra a dos campesinos rezando?",
+    "options": [
+      "Las espigadoras",
+      "La siesta",
+      "El Ángelus",
+      "El sembrador"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "«El Ángelus», de Millet (1857-1859), muestra a dos campesinos que interrumpen el trabajo para rezar al caer la tarde. Se conserva en el Museo de Orsay.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-siglo-nacio-realismo-pictorico",
+    "text": "¿En qué siglo nació el realismo pictórico?",
+    "options": [
+      "Siglo XIX",
+      "Siglo XX",
+      "Siglo XVI",
+      "Siglo XVII"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El realismo pictórico se desarrolló en Francia a mediados del siglo XIX, sobre todo desde la década de 1850, con Courbet, Millet y Daumier como figuras clave.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-realismo-muy-detallado",
+    "text": "¿Cómo se llama el realismo muy detallado, casi fotográfico?",
+    "options": [
+      "Surrealismo",
+      "Hiperrealismo",
+      "Cubismo",
+      "Fauvismo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El hiperrealismo reproduce la realidad con un detalle casi fotográfico. Surgió a finales de la década de 1960 en Estados Unidos y tuvo seguidores en todo el mundo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-frances-gran-representante",
+    "text": "¿Qué pintor francés es el gran representante del realismo?",
+    "options": [
+      "Daumier",
+      "Manet",
+      "Millet",
+      "Courbet"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Gustave Courbet usó el término «realismo» para su obra y lo defendió con su propio pabellón de exposición. Se le considera la figura central del movimiento.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-era-pintora-rosa",
+    "text": "¿De qué país era la pintora Rosa Bonheur?",
+    "options": [
+      "Rusia",
+      "España",
+      "Francia",
+      "Italia"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Rosa Bonheur nació en Burdeos en 1822 y murió en 1899. Obtuvo gran reconocimiento internacional por sus cuadros de animales y fue condecorada con la Legión de Honor.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-fue-primera-exposicion",
+    "text": "¿En qué año fue la primera exposición impresionista?",
+    "options": [
+      "1886",
+      "1895",
+      "1863",
+      "1874"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La primera muestra del grupo se inauguró el 15 de abril de 1874. La última, la octava, tuvo lugar doce años después, en 1886.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-critico-bautizo-impresionismo-burlandose",
+    "text": "¿Qué crítico bautizó el impresionismo burlándose?",
+    "options": [
+      "Charles Baudelaire",
+      "Théophile Gautier",
+      "Émile Zola",
+      "Louis Leroy"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Louis Leroy escribió en «Le Charivari» una reseña irónica a partir del cuadro de Monet «Impresión, sol naciente». Su burla acabó dando nombre al movimiento.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estudio-fotografo-hizo-primera",
+    "text": "¿En el estudio de qué fotógrafo se hizo la primera expo?",
+    "options": [
+      "Atget",
+      "Nadar",
+      "Niépce",
+      "Daguerre"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los artistas independientes alquilaron el antiguo estudio del fotógrafo Nadar, en el número 35 del boulevard des Capucines de París, para su primera exposición.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-conserva-impresion-sol-naciente",
+    "text": "¿Dónde se conserva «Impresión, sol naciente»?",
+    "options": [
+      "Museo del Louvre",
+      "Museo de Orsay",
+      "Museo del Prado",
+      "Museo Marmottan"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El cuadro de Monet de 1872 pertenece al Museo Marmottan Monet de París. Fue donado al museo en 1940 y se considera la obra fundacional del impresionismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-puerto-frances-muestra-impresion",
+    "text": "¿Qué puerto francés muestra «Impresión, sol naciente»?",
+    "options": [
+      "Le Havre",
+      "Calais",
+      "Burdeos",
+      "Marsella"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Monet pintó el puerto de Le Havre, su ciudad de infancia, al amanecer, desde la ventana de su hotel. Lo hizo en pocas horas, hacia noviembre de 1872.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-exposiciones-impresionistas-hubo-entre",
+    "text": "¿Cuántas exposiciones impresionistas hubo entre 1874 y 1886?",
+    "options": [
+      "Diez",
+      "Cinco",
+      "Ocho",
+      "Doce"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los impresionistas organizaron ocho exposiciones de grupo en París entre 1874 y 1886. No todos los artistas participaron en todas ellas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-expuso-ocho-muestras-impresionistas",
+    "text": "¿Quién expuso en las ocho muestras impresionistas?",
+    "options": [
+      "Monet",
+      "Degas",
+      "Pissarro",
+      "Renoir"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Camille Pissarro fue el único artista que participó en las ocho exposiciones. Monet lo hizo en cinco, Renoir y Sisley en cuatro, y Degas y Morisot en siete.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-pierre-auguste",
+    "text": "¿En qué ciudad nació Pierre-Auguste Renoir?",
+    "options": [
+      "París",
+      "Burdeos",
+      "Limoges",
+      "Marsella"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Renoir nació en Limoges en 1841, famosa por su porcelana. De joven trabajó pintando porcelana antes de estudiar en el taller de Gleyre en París.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-desayuno-sobre-hierba",
+    "text": "¿Quién pintó «Desayuno sobre la hierba»?",
+    "options": [
+      "Degas",
+      "Courbet",
+      "Manet",
+      "Monet"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Édouard Manet pintó esta obra en 1863 y provocó escándalo en el Salón de los Rechazados por mostrar una mujer desnuda junto a hombres vestidos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cuadro-manet-escandalizo-salon",
+    "text": "¿Qué cuadro de Manet escandalizó en el Salón de 1865?",
+    "options": [
+      "El balcón",
+      "El pífano",
+      "La lectura",
+      "Olimpia"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Olimpia» retrataba sin idealizar a una mujer desnuda mirando de frente al espectador. La crítica la atacó duramente, aunque hoy se considera una obra clave del arte moderno.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tema-pinto-menudo-mary",
+    "text": "¿Qué tema pintó a menudo Mary Cassatt?",
+    "options": [
+      "Madres con niños",
+      "Ruinas romanas",
+      "Cacerías",
+      "Batallas navales"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Mary Cassatt es célebre por sus escenas íntimas de madres y niños, como «El baño del niño», con influencia del grabado japonés y la composición de Degas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-calle-paris-dia",
+    "text": "¿Quién pintó «Calle de París, día lluvioso»?",
+    "options": [
+      "Caillebotte",
+      "Pissarro",
+      "Sisley",
+      "Manet"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Gustave Caillebotte pintó este gran lienzo en 1877. Muestra el París de Haussmann con perspectiva muy marcada, y hoy se conserva en el Art Institute de Chicago.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escultura-degas-vistio-tutu",
+    "text": "¿Qué escultura de Degas vistió un tutú de tela?",
+    "options": [
+      "El pensador",
+      "El hombre que camina",
+      "La eterna primavera",
+      "La pequeña bailarina"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«La pequeña bailarina de catorce años» fue modelada en cera por Degas y expuesta en 1881 con una falda de tela y una cinta en el pelo, algo muy novedoso.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-nacionalidad-era-alfred-sisley",
+    "text": "¿De qué nacionalidad era Alfred Sisley?",
+    "options": [
+      "Británica",
+      "Alemana",
+      "Francesa",
+      "Belga"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Alfred Sisley nació en París de padres ingleses y mantuvo la nacionalidad británica. Pintó sobre todo paisajes de los alrededores de París y del Sena.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-nacio-camille-pissarro",
+    "text": "¿Dónde nació Camille Pissarro?",
+    "options": [
+      "En una isla del Caribe",
+      "En el puerto de Génova",
+      "En una aldea de Bretaña",
+      "En un pueblo de Alsacia"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Pissarro nació en 1830 en la isla de Saint Thomas, entonces colonia danesa en el Caribe. Se instaló en Francia de joven y fue el mentor de varios impresionistas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-instalo-monet-giverny",
+    "text": "¿En qué año se instaló Monet en Giverny?",
+    "options": [
+      "1895",
+      "1883",
+      "1874",
+      "1863"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Monet se mudó a Giverny en 1883 y compró la casa en 1890. Allí creó su jardín de agua, protagonista de sus obras más conocidas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estan-grandes-paneles-nenufares",
+    "text": "¿Dónde están los grandes paneles de «Los nenúfares»?",
+    "options": [
+      "Museo del Louvre",
+      "Museo Picasso",
+      "Museo de la Orangerie",
+      "Museo Rodin"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los grandes paneles ovales de «Los nenúfares» que Monet donó al Estado se exhiben en el Museo de la Orangerie, en París, en salas diseñadas para ellos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-grupo-murio-guerra",
+    "text": "¿Qué pintor del grupo murió en la guerra de 1870?",
+    "options": [
+      "Sisley",
+      "Bazille",
+      "Cézanne",
+      "Degas"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Frédéric Bazille, amigo de Monet y Renoir, murió en combate en noviembre de 1870, durante la guerra franco-prusiana, con solo 28 años.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-maestro-monet-pintaba-playas",
+    "text": "¿Qué maestro de Monet pintaba playas de Normandía?",
+    "options": [
+      "Daumier",
+      "Boudin",
+      "Corot",
+      "Millet"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Eugène Boudin animó al joven Monet a pintar al aire libre en las playas de Normandía. Es considerado precursor del impresionismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-taller-coincidieron-monet-renoir",
+    "text": "¿En qué taller coincidieron Monet, Renoir y Sisley?",
+    "options": [
+      "Taller de Ingres",
+      "Taller de Courbet",
+      "Taller de Manet",
+      "Taller de Gleyre"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "A comienzos de la década de 1860, Monet, Renoir, Sisley y Bazille estudiaron en el taller de Charles Gleyre, un maestro académico generoso y abierto.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-marchante-apoyo-impresionistas",
+    "text": "¿Qué marchante apoyó a los impresionistas?",
+    "options": [
+      "Paul Durand-Ruel",
+      "Daniel Wildenstein",
+      "Leo Castelli",
+      "Ambroise Vollard"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Paul Durand-Ruel compró y expuso obras de los impresionistas cuando casi nadie las quería. Su galería de París fue clave para su éxito internacional.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-invento-facilito-pintar-aire",
+    "text": "¿Qué invento facilitó pintar al aire libre?",
+    "options": [
+      "El tubo de pintura",
+      "El caballete de cartón",
+      "La luz eléctrica",
+      "El pincel de nailon"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El tubo de pintura plegable, patentado en 1841, permitía transportar el óleo y trabajar fuera del taller. Fue esencial para el plein air impresionista.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-arte-oriental-influyo-impresionistas",
+    "text": "¿Qué arte oriental influyó en los impresionistas?",
+    "options": [
+      "Las estampas japonesas",
+      "Los biombos chinos",
+      "Los mandalas tibetanos",
+      "La caligrafía árabe"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los grabados japoneses, de artistas como Hokusai y Hiroshige, inspiraron encuadres atrevidos, colores planos y composiciones asimétricas en Monet, Degas y Cassatt.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estacion-tren-pinto-monet",
+    "text": "¿Qué estación de tren pintó Monet en 1877?",
+    "options": [
+      "Montparnasse",
+      "Saint-Lazare",
+      "Gare de Lyon",
+      "Gare du Nord"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Monet pintó doce vistas de la estación parisina de Saint-Lazare, con el humo y el vapor de las locomotoras, y expuso varias en 1877.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-ajenjo-dos-figuras",
+    "text": "¿Quién pintó «El ajenjo», con dos figuras en un café?",
+    "options": [
+      "Monet",
+      "Renoir",
+      "Degas",
+      "Manet"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Edgar Degas pintó «El ajenjo» hacia 1875-76. Muestra a dos figuras apáticas en un café parisino y es una crítica discreta a la soledad urbana.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-paul-cezanne",
+    "text": "¿En qué ciudad nació Paul Cézanne?",
+    "options": [
+      "Aix-en-Provence",
+      "Estrasburgo",
+      "Marsella",
+      "Burdeos"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cézanne nació en Aix-en-Provence en 1839 y regresó allí a menudo. Su paisaje provenzal, en especial la montaña Sainte-Victoire, fue su gran tema.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hermano-pintor-caso-berthe",
+    "text": "¿Con el hermano de qué pintor se casó Berthe Morisot?",
+    "options": [
+      "Claude Monet",
+      "Paul Cézanne",
+      "Édouard Manet",
+      "Edgar Degas"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Berthe Morisot se casó en 1874 con Eugène Manet, hermano del pintor Édouard Manet, a quien conocía y retrató. Siguió pintando y exponiendo con los impresionistas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-montana-pinto-cezanne-otra",
+    "text": "¿Qué montaña pintó Cézanne una y otra vez?",
+    "options": [
+      "Mont Blanc",
+      "Mont Ventoux",
+      "Montmartre",
+      "Sainte-Victoire"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Cézanne pintó la montaña Sainte-Victoire, cerca de Aix-en-Provence, decenas de veces. En estas obras evolucionó hacia la simplificación de las formas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-domingo-grande-jatte",
+    "text": "¿Quién pintó «Un domingo en la Grande Jatte»?",
+    "options": [
+      "Signac",
+      "Seurat",
+      "Pissarro",
+      "Cézanne"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Georges Seurat tardó dos años en pintar esta obra monumental de 1884-1886, en la que usó el puntillismo para mostrar a parisinos paseando a orillas del Sena.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-movimiento-cezanne-van",
+    "text": "¿Cómo se llama el movimiento de Cézanne y Van Gogh?",
+    "options": [
+      "Romanticismo",
+      "Expresionismo",
+      "Neoclasicismo",
+      "Postimpresionismo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El postimpresionismo agrupa a artistas como Cézanne, Van Gogh y Gauguin, que partieron del impresionismo pero buscaron más estructura, símbolo o expresión personal.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-monet-grenouillere-1869",
+    "text": "¿Con quién pintó Monet «La Grenouillère» en 1869?",
+    "options": [
+      "Degas",
+      "Sisley",
+      "Pissarro",
+      "Renoir"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En 1869 Monet y Renoir trabajaron juntos frente al mismo paisaje de bañistas en La Grenouillère. Se consideran un punto de partida del estilo impresionista.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-tuvo-monet-barco-taller",
+    "text": "¿Dónde tuvo Monet un barco-taller en el Sena?",
+    "options": [
+      "Argenteuil",
+      "Giverny",
+      "Honfleur",
+      "Étretat"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En Argenteuil, junto al Sena, Monet pintó desde un barco convertido en estudio, siguiendo el ejemplo de Daubigny, y retrató a menudo el río y sus regatas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cafe-parisino-reunian-manet",
+    "text": "¿En qué café parisino se reunían Manet y los impresionistas?",
+    "options": [
+      "Café de Flore",
+      "Café Guerbois",
+      "Café Procope",
+      "Les Deux Magots"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En el Café Guerbois, en el barrio de Batignolles, charlaban Manet, Monet, Renoir, Degas, Cézanne y Zola. Allí fraguaron las ideas del impresionismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-creo-salon-rechazados",
+    "text": "¿En qué año se creó el Salón de los Rechazados?",
+    "options": [
+      "1848",
+      "1874",
+      "1889",
+      "1863"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Napoleón III autorizó en 1863 un salón alternativo para las obras que el jurado oficial había rechazado. Allí se vio «Desayuno sobre la hierba» de Manet.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-fue-primera-esposa-claude",
+    "text": "¿Quién fue la primera esposa de Claude Monet?",
+    "options": [
+      "Berthe Morisot",
+      "Suzanne Valadon",
+      "Camille Doncieux",
+      "Alice Hoschedé"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Camille Doncieux fue modelo y primera esposa de Monet; posó para «Mujer con sombrilla» y para muchas otras obras. Murió en 1879, a los 32 años.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintora-fue-modelo-renoir",
+    "text": "¿Qué pintora fue modelo de Renoir y luego artista?",
+    "options": [
+      "Berthe Morisot",
+      "Rosa Bonheur",
+      "Suzanne Valadon",
+      "Camille Claudel"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Suzanne Valadon posó para Renoir, Puvis de Chavannes y Toulouse-Lautrec, y se hizo pintora gracias al apoyo de Degas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-serie-monet-muestra-montones",
+    "text": "¿Qué serie de Monet muestra montones de heno?",
+    "options": [
+      "Los girasoles",
+      "Los olivos",
+      "Los almiares",
+      "Los cipreses"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Monet pintó una serie de almiares a finales de la década de 1880 y comienzos de la de 1890, en distintas horas y estaciones, para estudiar los cambios de la luz.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-enfermedad-dificulto-pintura-renoir",
+    "text": "¿Qué enfermedad dificultó la pintura de Renoir?",
+    "options": [
+      "Artritis",
+      "Epilepsia",
+      "Sordera",
+      "Ceguera"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Renoir sufrió artritis reumatoide en sus últimos años. Con las manos deformadas, siguió pintando con el pincel atado a la muñeca y con ayuda de asistentes.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-pinto-velazquez-meninas",
+    "text": "¿En qué año pintó Velázquez «Las meninas»?",
+    "options": [
+      "1656",
+      "1665",
+      "1647",
+      "1634"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Velázquez pintó «Las meninas» en 1656, hacia el final de su carrera. Mide más de tres metros de alto y se considera una de las obras maestras de la historia del arte.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-orden-distingue-velazquez-meninas",
+    "text": "¿Qué orden distingue a Velázquez en «Las meninas»?",
+    "options": [
+      "Calatrava",
+      "Alcántara",
+      "Montesa",
+      "Santiago"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Velázquez lleva en el pecho la cruz roja de la Orden de Santiago, que no obtuvo hasta 1659. La tradición dice que el rey ordenó añadirla después.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cuadro-velazquez-muestra-entrega",
+    "text": "¿Qué cuadro de Velázquez muestra la entrega de unas llaves?",
+    "options": [
+      "Los borrachos",
+      "La fragua de Vulcano",
+      "Las hilanderas",
+      "La rendición de Breda"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «La rendición de Breda», Justino de Nassau entrega las llaves de la ciudad al general Spínola con un gesto de respeto, algo poco común en la pintura de batallas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-general-recibe-llaves-rendicion",
+    "text": "¿Qué general recibe las llaves en «La rendición de Breda»?",
+    "options": [
+      "Ambrosio Spínola",
+      "Álvaro de Bazán",
+      "Gran Capitán",
+      "Duque de Alba"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ambrosio Spínola, general genovés al servicio de España, tomó Breda en 1625. Velázquez lo pintó cortés y humano, en la escena central del cuadro.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estilo-fuertes-contrastes-luz",
+    "text": "¿Qué estilo de fuertes contrastes de luz usó Ribera?",
+    "options": [
+      "Luminismo",
+      "Fauvismo",
+      "Puntillismo",
+      "Tenebrismo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "José de Ribera, discípulo de la estela de Caravaggio, usó el tenebrismo: figuras iluminadas con fuerza sobre fondos oscuros, con gran dramatismo y realismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-murio-jose-ribera",
+    "text": "¿Dónde murió José de Ribera?",
+    "options": [
+      "Sevilla",
+      "Nápoles",
+      "Madrid",
+      "Valencia"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ribera nació en Xàtiva en 1591, pero hizo toda su carrera en Nápoles, entonces dominio español, donde murió en 1652. Allí lo llamaban «lo Spagnoletto».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-region-nacio-zurbaran",
+    "text": "¿En qué región nació Zurbarán?",
+    "options": [
+      "Aragón",
+      "Galicia",
+      "Andalucía",
+      "Extremadura"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Francisco de Zurbarán nació en Fuente de Cantos, en Extremadura, en 1598. Trabajó sobre todo en Sevilla y murió en Madrid en 1664.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-ninos-comiendo-uvas",
+    "text": "¿Quién pintó «Niños comiendo uvas y melón»?",
+    "options": [
+      "Zurbarán",
+      "Ribera",
+      "Murillo",
+      "Goya"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Murillo pintó a dos pilluelos sevillanos comiendo fruta hacia 1645-46. La obra se conserva en la Alte Pinakothek de Múnich.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-inauguro-museo-prado",
+    "text": "¿En qué año se inauguró el Museo del Prado?",
+    "options": [
+      "1819",
+      "1808",
+      "1789",
+      "1836"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Museo del Prado abrió sus puertas en noviembre de 1819, impulsado por la reina Isabel de Braganza y Fernando VII, con pintura de las colecciones reales.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-esta-entierro-conde-orgaz",
+    "text": "¿Dónde está «El entierro del conde de Orgaz»?",
+    "options": [
+      "Catedral de Toledo",
+      "Iglesia de Santo Tomé",
+      "Museo del Prado",
+      "Alcázar de Toledo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La obra maestra de El Greco, de 1586-88, sigue en la iglesia de Santo Tomé, en Toledo, el lugar para el que se pintó.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-goya-incluye-mismo",
+    "text": "¿Qué obra de Goya lo incluye a él mismo al fondo?",
+    "options": [
+      "El quitasol",
+      "La gallina ciega",
+      "Familia de Carlos IV",
+      "La vendimia"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «La familia de Carlos IV» (1800-01), Goya se retrata en la penumbra del fondo, a la izquierda, ante un gran lienzo, como Velázquez en «Las meninas».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-pinto-goya-fusilamientos",
+    "text": "¿En qué año pintó Goya «Los fusilamientos del 3 de mayo»?",
+    "options": [
+      "1814",
+      "1820",
+      "1808",
+      "1800"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Goya pintó «El 2 de mayo» y «El 3 de mayo» en 1814, tras la expulsión de los franceses, para conmemorar el levantamiento madrileño de 1808.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-guerra-inspiro-desastres-guerra",
+    "text": "¿Qué guerra inspiró «Los desastres de la guerra» de Goya?",
+    "options": [
+      "Guerra de la Convención",
+      "Guerra de la Independencia",
+      "Guerra de los Siete Años",
+      "Guerra de Sucesión"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Goya grabó «Los desastres de la guerra» entre 1810 y 1815, con escenas de violencia de la Guerra de la Independencia contra Napoleón. Se publicaron mucho después.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-casa-goya-albergo-pinturas",
+    "text": "¿Qué casa de Goya albergó las «Pinturas negras»?",
+    "options": [
+      "Palacio Real",
+      "Quinta del Sordo",
+      "El Escorial",
+      "La Zarzuela"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La Quinta del Sordo era una casa de campo junto al Manzanares, en Madrid, que Goya compró en 1819. Allí pintó, hacia 1820, las «Pinturas negras» sobre los muros.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintura-negra-muestra-dios",
+    "text": "¿Qué «Pintura negra» muestra a un dios devorando a su hijo?",
+    "options": [
+      "Saturno",
+      "Júpiter",
+      "Apolo",
+      "Neptuno"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Saturno devorando a un hijo» es una de las «Pinturas negras» más conocidas de Goya. Representa al dios romano del tiempo, que se come a sus propios hijos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llamaba-esposa-goya",
+    "text": "¿Cómo se llamaba la esposa de Goya?",
+    "options": [
+      "Josefa Bayeu",
+      "Pepita Tudó",
+      "Cayetana de Alba",
+      "Leocadia Weiss"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Goya se casó en 1773 con Josefa Bayeu, hermana de los pintores Francisco y Ramón Bayeu, que lo ayudaron a introducirse en la corte.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-trabajo-hizo-goya-real",
+    "text": "¿Qué trabajo hizo Goya para la Real Fábrica de Tapices?",
+    "options": [
+      "Grabados de monedas",
+      "Esculturas de bronce",
+      "Retablos de madera",
+      "Cartones para tapices"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Entre 1775 y 1792, Goya pintó cartones, modelos para tejer tapices con escenas alegres de la vida popular, como «El quitasol» o «El pelele».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-serie-grabados-goya-publico",
+    "text": "¿Qué serie de grabados de Goya se publicó en 1799?",
+    "options": [
+      "Los Desastres",
+      "La Tauromaquia",
+      "Los Caprichos",
+      "Los Disparates"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Los Caprichos» son 80 grabados con sátira de los vicios y supersticiones de su tiempo. Goya los puso a la venta en 1799, pero los retiró enseguida.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-monumental-pinto-sorolla",
+    "text": "¿Qué obra monumental pintó Sorolla para Nueva York?",
+    "options": [
+      "Crónica de España",
+      "Visión de España",
+      "Historia de España",
+      "Mapa de España"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Visión de España» son catorce grandes paneles que Sorolla pintó entre 1912 y 1919 con tipos y trajes regionales para la Hispanic Society de Nueva York.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-institucion-encargo-sorolla-vision",
+    "text": "¿Qué institución encargó a Sorolla «Visión de España»?",
+    "options": [
+      "Museo Frick",
+      "Museo Guggenheim",
+      "Hispanic Society",
+      "Museo Whitney"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La Hispanic Society of America, fundada en Nueva York por Archer Huntington, encargó a Sorolla la decoración de su biblioteca con escenas de las regiones españolas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-fue-gran-mecenas-americano",
+    "text": "¿Quién fue el gran mecenas americano de Sorolla?",
+    "options": [
+      "J. P. Morgan",
+      "John D. Rockefeller",
+      "Archer Huntington",
+      "Andrew Carnegie"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Archer Milton Huntington, hispanista y fundador de la Hispanic Society, fue mecenas de Sorolla y organizó sus exposiciones en Estados Unidos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-premio-gano-sorolla-exposicion",
+    "text": "¿Qué premio ganó Sorolla en la Exposición de París de 1900?",
+    "options": [
+      "Medalla de bronce",
+      "Mención honorífica",
+      "Grand Prix",
+      "Premio de Roma"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Sorolla obtuvo el Grand Prix de la Exposición Universal de 1900 por el conjunto de su obra, y en especial por «¡Triste herencia!». Lo consagró a nivel internacional.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-nacio-reus-1838",
+    "text": "¿Qué pintor nació en Reus en 1838?",
+    "options": [
+      "Rosales",
+      "Madrazo",
+      "Fortuny",
+      "Haes"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Marià Fortuny nació en Reus en 1838 y murió en Roma en 1874. Fue uno de los pintores españoles más cotizados de su época por su virtuosismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-isabel-catolica-dictando",
+    "text": "¿Quién pintó «Isabel la Católica dictando su testamento»?",
+    "options": [
+      "Fortuny",
+      "Rosales",
+      "Pradilla",
+      "Madrazo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Eduardo Rosales pintó esta obra en 1864, hoy en el Museo del Prado. Fue un hito de la pintura de historia española del siglo XIX y le dio fama.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-rendicion-granada",
+    "text": "¿Quién pintó «La rendición de Granada»?",
+    "options": [
+      "Pradilla",
+      "Fortuny",
+      "Rosales",
+      "Madrazo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Francisco Pradilla pintó «La rendición de Granada» en 1882, escena de la entrega de la ciudad a los Reyes Católicos. Es un gran cuadro de historia.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ilustro-espana-negra-poeta",
+    "text": "¿Quién ilustró «España negra» con el poeta Verhaeren?",
+    "options": [
+      "Solana",
+      "Regoyos",
+      "Zuloaga",
+      "Beruete"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Darío de Regoyos viajó en 1888 por España con el poeta belga Émile Verhaeren. De ese viaje salió «España negra» (1899), con grabados de Regoyos.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-grupo-bruselas-expuso-regoyos",
+    "text": "¿Con qué grupo de Bruselas expuso Regoyos?",
+    "options": [
+      "Los Fauves",
+      "Die Brücke",
+      "Los Nabis",
+      "Los XX"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Regoyos fue miembro fundador de Les XX, grupo de vanguardia belga activo entre 1883 y 1893, donde conoció el impresionismo y el puntillismo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pueblo-asturiano-nacio-regoyos",
+    "text": "¿En qué pueblo asturiano nació Regoyos?",
+    "options": [
+      "Luarca",
+      "Ribadesella",
+      "Cangas de Onís",
+      "Llanes"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Darío de Regoyos nació en Ribadesella en 1857 y murió en Barcelona en 1913. Es uno de los pioneros del impresionismo en España.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-compartio-ramon-casas-estudio",
+    "text": "¿Con quién compartió Ramon Casas un estudio en Montmartre?",
+    "options": [
+      "Joaquim Mir",
+      "Pablo Picasso",
+      "Santiago Rusiñol",
+      "Isidre Nonell"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Entre 1890 y 1892, Ramon Casas y Santiago Rusiñol vivieron en el Moulin de la Galette de Montmartre, que pintaron y describieron en sus obras.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-taberna-modernista-abrio-barcelona",
+    "text": "¿Qué taberna modernista abrió en Barcelona en 1897?",
+    "options": [
+      "Café Novedades",
+      "Las Siete Puertas",
+      "La Maison Dorée",
+      "Els Quatre Gats"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Els Quatre Gats abrió en 1897 de la mano de Pere Romeu, Ramon Casas y Santiago Rusiñol. Era un lugar de reunión de artistas y allí expuso el joven Picasso.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-garrote-vil-1894",
+    "text": "¿Quién pintó «Garrote vil», de 1894?",
+    "options": [
+      "Casas",
+      "Mir",
+      "Rusiñol",
+      "Nonell"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ramon Casas pintó «Garrote vil» en 1894, una escena de ejecución con un fuerte tono de denuncia social. Es una de las obras más impactantes del modernismo catalán.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-tertulia-cafe-pombo",
+    "text": "¿Quién pintó «La tertulia del Café de Pombo»?",
+    "options": [
+      "Zuloaga",
+      "Beruete",
+      "Solana",
+      "Regoyos"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "José Gutiérrez Solana pintó en 1920 a los contertulios de Ramón Gómez de la Serna en el madrileño Café de Pombo. Hoy está en el Museo Reina Sofía.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-esta-cau-ferrat-casa",
+    "text": "¿Dónde está el Cau Ferrat, casa-museo de Rusiñol?",
+    "options": [
+      "Tossa de Mar",
+      "Sitges",
+      "Sant Cugat",
+      "Cadaqués"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Santiago Rusiñol compró en Sitges dos casas de pescadores y las convirtió en el Cau Ferrat, museo con obras de El Greco, hierros antiguos y arte modernista.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llevo-dos-grecos-cau",
+    "text": "¿Quién llevó dos Grecos al Cau Ferrat en 1894?",
+    "options": [
+      "Nonell",
+      "Casas",
+      "Rusiñol",
+      "Mir"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Santiago Rusiñol, animado por Zuloaga, adquirió dos obras de El Greco en París. Las llevó en procesión festiva a Sitges, el 4 de noviembre de 1894.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-paisajista-belga-fue-maestro",
+    "text": "¿Qué paisajista belga fue maestro de Beruete y Regoyos?",
+    "options": [
+      "Pérez Villaamil",
+      "Mariano Fortuny",
+      "Carlos de Haes",
+      "Martín Rico"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Carlos de Haes, nacido en Bruselas, fue profesor de paisaje en la Academia de San Fernando de Madrid. Formó a Beruete y a Regoyos y renovó el paisaje español.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-rio-toledo-pinto-beruete",
+    "text": "¿Qué río de Toledo pintó Beruete hacia 1905?",
+    "options": [
+      "El Duero",
+      "El Guadalquivir",
+      "El Ebro",
+      "El Tajo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Aureliano de Beruete pintó «El Tajo, Toledo» entre 1905 y 1906. Está en el Museo del Prado y es un ejemplo de su paisaje castellano de luz clara.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-retrato-beruete-1902",
+    "text": "¿Quién pintó el retrato de Beruete de 1902 del Prado?",
+    "options": [
+      "Regoyos",
+      "Pinazo",
+      "Zuloaga",
+      "Sorolla"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Joaquín Sorolla, amigo del paisajista Aureliano de Beruete, pintó dos de sus mejores retratos. Uno de ellos, de 1902, se conserva en el Museo del Prado.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-aun-dicen-pescado",
+    "text": "¿Quién pintó «¡Aún dicen que el pescado es caro!»?",
+    "options": [
+      "Sorolla",
+      "Pinazo",
+      "Regoyos",
+      "Zuloaga"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Sorolla pintó esta obra de tema social en 1894: un joven pescador herido es atendido por sus compañeros en el barco. Recibió un gran éxito en París.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-monto-courbet-pabellon",
+    "text": "¿En qué año montó Courbet su Pabellón del Realismo?",
+    "options": [
+      "1848",
+      "1855",
+      "1863",
+      "1871"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Courbet abrió su «Pabellón del Realismo» en 1855, junto a la Exposición Universal de París, tras ser rechazadas dos de sus grandes obras por el jurado.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-cuadro-courbet-fue-destruido",
+    "text": "¿Qué cuadro de Courbet fue destruido en 1945?",
+    "options": [
+      "El entierro en Ornans",
+      "El taller del pintor",
+      "Los picapedreros",
+      "Las bañistas"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Los picapedreros» (1849) mostraba a dos obreros rompiendo piedras en una carretera. Se perdió en 1945, al final de la Segunda Guerra Mundial, mientras se conservaba en Alemania.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-museo-parisino-esta-entierro",
+    "text": "¿En qué museo parisino está «El entierro en Ornans»?",
+    "options": [
+      "Museo del Louvre",
+      "Museo Marmottan",
+      "Museo de Orsay",
+      "Museo Rodin"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«El entierro en Ornans» se conserva en el Museo de Orsay de París. Su gran tamaño y sus personajes corrientes escandalizaron al público en 1850.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hizo-courbet-tras-rechazo",
+    "text": "¿Qué hizo Courbet tras el rechazo de 1855?",
+    "options": [
+      "Quemó sus obras",
+      "Montó su pabellón",
+      "Dejó la pintura",
+      "Se fue a Roma"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Courbet retiró las obras aceptadas y expuso sus cuadros en un pabellón propio, cerca de la Exposición Universal. Fue una de las primeras exposiciones individuales de un artista.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-region-francesa-nacio-millet",
+    "text": "¿En qué región francesa nació Millet?",
+    "options": [
+      "Alsacia",
+      "Bretaña",
+      "Normandía",
+      "Provenza"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Jean-François Millet nació en 1814 en una aldea campesina de Normandía, hijo de agricultores. Esa vida rural marcó casi toda su pintura.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pueblo-establecio-millet",
+    "text": "¿En qué pueblo se estableció Millet?",
+    "options": [
+      "Giverny",
+      "Auvers",
+      "Barbizon",
+      "Ornans"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Millet se instaló en Barbizon, junto al bosque de Fontainebleau, en 1849. Allí pintó a campesinos y dio nombre a la escuela de Barbizon.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-admiraba-millet-copio",
+    "text": "¿Qué pintor admiraba a Millet y copió sus obras?",
+    "options": [
+      "Monet",
+      "Degas",
+      "Renoir",
+      "Van Gogh"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Vincent van Gogh admiraba a Millet por su respeto hacia los campesinos. Copió varias de sus composiciones, como «Los primeros pasos» y «El sembrador».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-realista-fue-encarcelado",
+    "text": "¿Qué pintor realista fue encarcelado por burlarse del rey?",
+    "options": [
+      "Millet",
+      "Manet",
+      "Courbet",
+      "Daumier"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Daumier pasó seis meses en prisión en 1832 por una caricatura de Luis Felipe, que lo representaba como Gargantúa devorando el dinero del pueblo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estampa-daumier-retrata-masacre",
+    "text": "¿Qué estampa de Daumier retrata una masacre de 1834?",
+    "options": [
+      "Don Quijote",
+      "La lavandera",
+      "Gargantúa",
+      "Rue Transnonain"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Rue Transnonain, 15 de abril de 1834» muestra los cadáveres de una familia tras una represión militar. El gobierno ordenó destruir los ejemplares en circulación.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-periodico-satirico-publico-daumier",
+    "text": "¿En qué periódico satírico publicó Daumier sus litografías?",
+    "options": [
+      "Le Charivari",
+      "Le Figaro",
+      "L'Humanité",
+      "Le Monde"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Daumier publicó miles de litografías políticas y de costumbres en «La Caricature» y sobre todo en «Le Charivari», el diario satírico más influyente de París.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-bar-folies-bergere",
+    "text": "¿Quién pintó «Un bar en el Folies-Bergère»?",
+    "options": [
+      "Manet",
+      "Degas",
+      "Monet",
+      "Renoir"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Édouard Manet pintó esta obra en 1882, poco antes de morir. Muestra a una camarera de rostro ausente ante un espejo que refleja a la multitud del local.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-manet-recuerda-mayo",
+    "text": "¿Qué obra de Manet recuerda al «3 de mayo» de Goya?",
+    "options": [
+      "Música en las Tullerías",
+      "Retrato de Émile Zola",
+      "El almuerzo en el taller",
+      "La ejecución de Maximiliano"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En «La ejecución de Maximiliano» (1867-68), Manet retrató el fusilamiento del emperador de México con una composición inspirada en Goya.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-clinica-gross-1875",
+    "text": "¿Quién pintó «La clínica Gross» en 1875?",
+    "options": [
+      "Hopper",
+      "Eakins",
+      "Homer",
+      "Wyeth"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Thomas Eakins retrató con crudeza una operación quirúrgica en Filadelfia, con el cirujano Samuel Gross en acción. Es un hito del realismo estadounidense.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-museo-esta-mundo-christina",
+    "text": "¿En qué museo está «El mundo de Christina»?",
+    "options": [
+      "Museo MoMA",
+      "Museo Frick",
+      "Museo Guggenheim",
+      "Museo Whitney"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«El mundo de Christina», de Andrew Wyeth, se conserva desde 1949 en el Museo de Arte Moderno (MoMA) de Nueva York y es una de sus obras más famosas.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-grupo-realistas-rusos-rebelo",
+    "text": "¿Qué grupo de realistas rusos se rebeló contra la Academia?",
+    "options": [
+      "Los Nabis",
+      "Los Itinerantes",
+      "Los Futuristas",
+      "Los Fauves"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los Itinerantes, o Peredvizhniki, se organizaron en 1870 y llevaron exposiciones por toda Rusia para mostrar la vida de la gente corriente. Repin fue uno de sus miembros.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-grupo-pintores-realistas-surgio",
+    "text": "¿Qué grupo de pintores realistas surgió en Madrid?",
+    "options": [
+      "Equipo Crónica",
+      "Realistas de Madrid",
+      "Dau al Set",
+      "Grupo El Paso"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los «Realistas de Madrid» eran Antonio López, María Moreno, Isabel Quintanilla, Amalia Avia, Esperanza Parada y los hermanos Francisco y Julio López Hernández.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estaba-casada-antonio-lopez",
+    "text": "¿Quién estaba casada con Antonio López y era pintora?",
+    "options": [
+      "María Moreno",
+      "Esperanza Parada",
+      "Isabel Quintanilla",
+      "Amalia Avia"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "María Moreno, pintora madrileña nacida en 1933, es la esposa de Antonio López. Ambos forman parte del grupo de los Realistas de Madrid.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-director-rodo-sol-membrillo",
+    "text": "¿Qué director rodó «El sol del membrillo»?",
+    "options": [
+      "Pedro Almodóvar",
+      "Víctor Erice",
+      "Carlos Saura",
+      "Luis García Berlanga"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Víctor Erice dirigió «El sol del membrillo» en 1992. El documental sigue a Antonio López mientras intenta pintar un membrillero en el jardín de su casa.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-museo-madrileno-expuso-realistas",
+    "text": "¿Qué museo madrileño expuso a los «Realistas de Madrid»?",
+    "options": [
+      "Museo Sorolla",
+      "Museo del Prado",
+      "Museo Thyssen",
+      "Museo Cerralbo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Museo Thyssen-Bornemisza reunió a los Realistas de Madrid en una gran exposición, con obras de Antonio López, Isabel Quintanilla, María Moreno y los demás.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-premio-artes-plasticas-recibio",
+    "text": "¿Qué premio de artes plásticas recibió Antonio López?",
+    "options": [
+      "Premio Planeta",
+      "Premio Cervantes",
+      "Premio Velázquez",
+      "Premio Nobel"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Antonio López recibió el Premio Velázquez de Artes Plásticas, uno de los premios iberoamericanos más importantes, además del Premio Príncipe de Asturias de las Artes.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-realista-nacido-ornans",
+    "text": "¿Qué pintor realista nacido en Ornans murió en Suiza?",
+    "options": [
+      "Daumier",
+      "Bonheur",
+      "Millet",
+      "Courbet"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Courbet se exilió en Suiza en 1873, tras ser acusado de participar en el derribo de la columna Vendôme. Murió allí en 1877.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-temas-preferia-pintar-realismo",
+    "text": "¿Qué temas prefería pintar el realismo?",
+    "options": [
+      "Santos y milagros",
+      "Gente común y su trabajo",
+      "Dioses y héroes antiguos",
+      "Sueños y fantasías"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Los realistas rechazaron los temas heroicos o mitológicos y pintaron obreros, campesinos y escenas cotidianas con dignidad y a gran tamaño, como en la pintura histórica.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-creo-hopper-escenas",
+    "text": "¿En qué ciudad creó Hopper sus escenas urbanas nocturnas?",
+    "options": [
+      "Boston",
+      "Nueva York",
+      "Filadelfia",
+      "Chicago"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Edward Hopper vivió y trabajó en Nueva York, sobre todo en Greenwich Village. Allí se inspiró para escenas de soledad urbana como «Nighthawks».",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-desde-edificio-pinto-lopez",
+    "text": "¿Desde qué edificio pintó López su Madrid de 1976-82?",
+    "options": [
+      "Torres Blancas",
+      "Torre de Madrid",
+      "Torre Picasso",
+      "Edificio Metrópolis"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "«Madrid visto desde Torres Blancas» es una gran obra de Antonio López, realizada entre 1976 y 1982, que muestra la ciudad en un largo proceso de observación.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hizo-segunda-exposicion-impresionista",
+    "text": "¿Dónde se hizo la segunda exposición impresionista, en 1876?",
+    "options": [
+      "Galería Durand-Ruel",
+      "Estudio de Nadar",
+      "Café Guerbois",
+      "Salón de París"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "La segunda exposición, en abril de 1876, se celebró en la galería del marchante Paul Durand-Ruel, en la rue Le Peletier. Tuvo menos público que la primera.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-lego-coleccion-impresionista-estado",
+    "text": "¿Quién legó su colección impresionista al Estado en 1894?",
+    "options": [
+      "Paul Gachet",
+      "Caillebotte",
+      "Ernest Hoschedé",
+      "Georges Petit"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Gustave Caillebotte, pintor y mecenas, dejó al Estado su colección de obras impresionistas al morir en 1894. El legado fue aceptado en parte, con cierta polémica.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-barrio-parisino-rodeaba-cafe",
+    "text": "¿Qué barrio parisino rodeaba el Café Guerbois?",
+    "options": [
+      "Batignolles",
+      "Montparnasse",
+      "Belleville",
+      "Montmartre"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "El Café Guerbois estaba en el barrio de Batignolles, de ahí que se hablara del «grupo de Batignolles» para referirse a Manet y su círculo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ocho-exposiciones-participo-monet",
+    "text": "¿En cuántas de las ocho exposiciones participó Monet?",
+    "options": [
+      "En cuatro",
+      "En cinco",
+      "En siete",
+      "En ocho"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Aunque Monet es la figura más famosa del impresionismo, solo expuso en cinco de las ocho muestras del grupo, según el Ministerio de Cultura francés.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ocho-muestras-expuso-berthe",
+    "text": "¿En cuántas de las ocho muestras expuso Berthe Morisot?",
+    "options": [
+      "En siete",
+      "En cuatro",
+      "En las ocho",
+      "En cinco"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Berthe Morisot, junto con Degas, participó en siete de las ocho exposiciones impresionistas. Solo faltó en la de 1879.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-fue-maestro-suegro-velazquez",
+    "text": "¿Quién fue maestro y suegro de Velázquez?",
+    "options": [
+      "Juan de Roelas",
+      "Alonso Cano",
+      "Francisco Pacheco",
+      "Herrera el Viejo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Francisco Pacheco, pintor y teórico sevillano, tuvo a Velázquez de aprendiz desde 1611. Velázquez se casó en 1618 con su hija, Juana Pacheco.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-papa-retrato-velazquez-roma",
+    "text": "¿A qué papa retrató Velázquez en Roma hacia 1650?",
+    "options": [
+      "Paulo III",
+      "Inocencio X",
+      "Urbano VIII",
+      "Alejandro VII"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "El «Retrato de Inocencio X», pintado hacia 1650, impresionó tanto al papa que regaló una medalla y una cadena de oro a Velázquez.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-exilio-goya-francia",
+    "text": "¿En qué año se exilió Goya a Francia?",
+    "options": [
+      "1824",
+      "1814",
+      "1820",
+      "1828"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Goya dejó España en 1824, tras el regreso del absolutismo de Fernando VII. Se instaló en Burdeos y murió allí en 1828.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-sorolla-muestra-ninos",
+    "text": "¿Qué obra de Sorolla muestra a niños con discapacidad?",
+    "options": [
+      "La hora del baño",
+      "El baño del caballo",
+      "Triste herencia",
+      "Niños en la playa"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "«¡Triste herencia!» (1899) muestra a niños con discapacidades bañándose en la playa de la Malvarrosa, acompañados de un fraile. Es una obra de denuncia social.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-sueno-jacob-1639",
+    "text": "¿Quién pintó «El sueño de Jacob» en 1639?",
+    "options": [
+      "Zurbarán",
+      "Murillo",
+      "Cano",
+      "Ribera"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "José de Ribera pintó «El sueño de Jacob» en 1639. Se conserva en el Museo del Prado y muestra a Jacob dormido, con un cielo luminoso al fondo.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-iglesia-madrilena-pinto-goya",
+    "text": "¿En qué iglesia madrileña pintó Goya unos frescos?",
+    "options": [
+      "San Jerónimo el Real",
+      "Las Calatravas",
+      "San Antonio de la Florida",
+      "San Francisco el Grande"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Goya pintó en 1798 la cúpula de la ermita de San Antonio de la Florida, en Madrid, con un milagro del santo. Es donde reposan sus restos desde 1919.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-critico-publico-realismo-1857",
+    "text": "¿Qué crítico publicó «El realismo» en 1857?",
+    "options": [
+      "Jules Castagnary",
+      "Baudelaire",
+      "Théophile Thoré",
+      "Champfleury"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Jules Champfleury publicó en 1857 el libro «Le Réalisme», en el que defendió la pintura de Courbet. Fue uno de los principales teóricos del movimiento.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-vagon-tercera-clase",
+    "text": "¿Quién pintó «El vagón de tercera clase»?",
+    "options": [
+      "Courbet",
+      "Daumier",
+      "Millet",
+      "Bonheur"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Honoré Daumier pintó «El vagón de tercera clase» hacia 1862-64. Muestra a pasajeros humildes con realismo y dignidad, en un tren de la Francia del Segundo Imperio.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-lavabo-espejo-1967",
+    "text": "¿Quién pintó «Lavabo y espejo» en 1967?",
+    "options": [
+      "Julio López",
+      "Antonio López",
+      "Francisco López",
+      "Isabel Quintanilla"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Antonio López pintó «Lavabo y espejo» en 1967. Forma parte de sus interiores domésticos, observados con extrema paciencia, que lo hicieron famoso.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pinto-ventana-1970-interior",
+    "text": "¿Quién pintó «Ventana» (1970), un interior realista?",
+    "options": [
+      "María Moreno",
+      "Esperanza Parada",
+      "Isabel Quintanilla",
+      "Amalia Avia"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Isabel Quintanilla pintó «Ventana» en 1970. Sus interiores y naturalezas muertas, de gran precisión y silencio, la convirtieron en una figura clave del realismo madrileño.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-italiano-expuso-1874",
+    "text": "¿Qué pintor italiano expuso en 1874 con los impresionistas?",
+    "options": [
+      "Giovanni Boldini",
+      "Giuseppe De Nittis",
+      "Telemaco Signorini",
+      "Federico Zandomeneghi"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Giuseppe De Nittis, pintor italiano afincado en París y amigo de Degas, participó en la primera exposición impresionista de 1874, aunque su estilo era más académico.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-museo-nueva-york-guarda",
+    "text": "¿Qué museo de Nueva York guarda la «Vista de Toledo»?",
+    "options": [
+      "Museo Frick",
+      "Museo Whitney",
+      "Museo Guggenheim",
+      "Metropolitan Museum"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "La «Vista de Toledo» de El Greco, uno de los primeros paisajes españoles, se encuentra en el Metropolitan Museum of Art de Nueva York, donde ingresó en 1929.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-paneles-vision-espana-sorolla",
+    "text": "¿Cuántos paneles tiene «Visión de España» de Sorolla?",
+    "options": [
+      "Catorce",
+      "Doce",
+      "Diez",
+      "Dieciséis"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Sorolla pintó catorce grandes paneles para la sala principal de la Hispanic Society, entre 1912 y 1919. Cada uno representa una región o provincia de España.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-nacio-pintora-isabel",
+    "text": "¿En qué año nació la pintora Isabel Quintanilla?",
+    "options": [
+      "1942",
+      "1938",
+      "1933",
+      "1930"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Isabel Quintanilla nació en Madrid en 1938 y estudió Bellas Artes en San Fernando, donde conoció a Antonio López y a Francisco López Hernández.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-caso-pintora-isabel-quintanilla",
+    "text": "¿Con quién se casó la pintora Isabel Quintanilla?",
+    "options": [
+      "Antonio López García",
+      "Julio López Hernández",
+      "Francisco López Hernández",
+      "Luis Gordillo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Isabel Quintanilla se casó con el pintor Francisco López Hernández, hermano del escultor Julio López. Ambos formaron parte de los Realistas de Madrid.",
+    "source": "pintores_impresionistas_espanoles_y_realistas.json",
+    "createdAt": "2026-11-23T13:52:36Z",
+    "status": "active"
+  }
+]
