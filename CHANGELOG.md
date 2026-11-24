@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.28.0](https://github.com/gonzaga8200/quiz-game/compare/v0.27.0...v0.28.0) (2026-11-24)
+
+
+### Features
+
+* **questions:** add 397 questions on the 98 and 27 generations, physics and chemistry, the solar system and the World Cups ([#84](https://github.com/gonzaga8200/quiz-game/issues/84)) ([ab1a09d](https://github.com/gonzaga8200/quiz-game/commit/ab1a09daeef1cf1df38e30d352d02e3f6bdd6eb3))
+
 ## [0.27.0](https://github.com/gonzaga8200/quiz-game/compare/v0.26.0...v0.27.0) (2026-11-23)
 
 
