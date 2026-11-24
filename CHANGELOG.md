@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.28.1](https://github.com/gonzaga8200/quiz-game/compare/v0.28.0...v0.28.1) (2026-11-24)
+
+
+### Bug fixes
+
+* **deploy:** publish the Firestore rules on release, check them, and speed up the question validation ([#86](https://github.com/gonzaga8200/quiz-game/issues/86)) ([c77d839](https://github.com/gonzaga8200/quiz-game/commit/c77d8393d9162d3a75d5061aa9499608116fbc50))
+
 ## [0.28.0](https://github.com/gonzaga8200/quiz-game/compare/v0.27.0...v0.28.0) (2026-11-24)
 
 
