@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import {
   MAX_OPTION_LENGTH_HINT,
   MAX_TEXT_LENGTH_HINT,
@@ -8,6 +8,7 @@ import {
   normalizeForComparison,
   wordOverlap,
 } from '../../core/validation'
+import { mulberry32 } from '../../core/rng'
 import type { Question } from '../../core/schema'
 import { makeQuestion } from './helpers'
 
@@ -206,5 +207,83 @@ describe('findQuestionIssues: quality warnings', () => {
         }),
       ),
     ).toEqual([])
+  })
+})
+
+describe('findQuestionIssues: large banks', () => {
+  const VOCABULARY = [
+    'rio',
+    'montaña',
+    'pintor',
+    'guerra',
+    'tratado',
+    'reina',
+    'isla',
+    'poeta',
+    'sinfonía',
+    'ciudad',
+    'volcán',
+    'novela',
+    'planeta',
+    'selección',
+    'campeón',
+    'teatro',
+  ]
+
+  /**
+   * Deterministic questions made of random words. With `numbered` every text is unique; without
+   * it, the few words and the small vocabulary produce many near-identical texts.
+   */
+  function randomEntries(count: number, wordsPerText: number, seed: number, numbered: boolean) {
+    const random = mulberry32(seed)
+    const vocabulary = numbered ? VOCABULARY : VOCABULARY.slice(0, 7)
+    const word = () => vocabulary[Math.floor(random() * vocabulary.length)] as string
+    return Array.from({ length: count }, (_, i) =>
+      entry(
+        q({
+          id: `pregunta-${i}`,
+          text: `¿Qué ${Array.from({ length: wordsPerText }, word).join(' ')}${numbered ? ` número ${i}` : ''}?`,
+        }),
+      ),
+    )
+  }
+
+  it('flags exactly the pairs whose word overlap reaches the threshold', () => {
+    const entries = randomEntries(250, 4, 7, false)
+    const seen = new Set<string>()
+    const kept: { id: string; text: string }[] = []
+    const expected: string[] = []
+    for (const { question } of entries) {
+      const text = normalizeForComparison(question.text)
+      if (seen.has(text)) continue
+      seen.add(text)
+      for (const other of kept) {
+        if (wordOverlap(text, other.text) >= SIMILAR_TEXT_THRESHOLD) {
+          expected.push(`${question.id} > ${other.id}`)
+        }
+      }
+      kept.push({ id: question.id, text })
+    }
+    expect(expected.length).toBeGreaterThan(0)
+
+    const actual = findQuestionIssues(entries)
+      .filter((issue) => issue.message.startsWith('very similar to'))
+      .map((issue) => `${issue.id} > ${/very similar to (\S+)/.exec(issue.message)?.[1]}`)
+    expect(actual).toEqual(expected)
+  })
+
+  it('normalises each question once, not once per pair of questions', () => {
+    // The import script and CI validate the whole bank every time. Normalising both texts for
+    // every pair made that take over 20 s on a CI runner. Counting the calls does not depend on
+    // how fast the machine is: comparing 600 questions pair by pair would normalise over 300,000
+    // times, and each question needs only a handful of normalisations of its own.
+    const entries = randomEntries(600, 6, 11, true)
+    const normalize = vi.spyOn(String.prototype, 'normalize')
+    try {
+      findQuestionIssues(entries)
+      expect(normalize.mock.calls.length).toBeLessThan(entries.length * 5)
+    } finally {
+      normalize.mockRestore()
+    }
   })
 })

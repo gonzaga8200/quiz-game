@@ -31,14 +31,52 @@ export function normalizeForComparison(text: string): string {
     .trim()
 }
 
+/** The distinct words of an already normalised text. */
+function wordsOf(normalized: string): Set<string> {
+  return new Set(normalized.split(' '))
+}
+
+/** Share of words two sets have in common, 0 (nothing) to 1 (same words). */
+function overlapOfSets(a: ReadonlySet<string>, b: ReadonlySet<string>): number {
+  let shared = 0
+  for (const word of a) if (b.has(word)) shared += 1
+  // Never zero: even an empty text normalises to a set holding one empty word.
+  return shared / (a.size + b.size - shared)
+}
+
 /** Share of words two texts have in common, 0 (nothing) to 1 (same words). */
 export function wordOverlap(a: string, b: string): number {
-  const wordsA = new Set(normalizeForComparison(a).split(' '))
-  const wordsB = new Set(normalizeForComparison(b).split(' '))
+  return overlapOfSets(wordsOf(normalizeForComparison(a)), wordsOf(normalizeForComparison(b)))
+}
+
+/**
+ * Whether `wordOverlap` of two sets reaches `threshold`, decided without counting every
+ * shared word: it works out how many words must be shared, and gives up on the pair as soon
+ * as that is out of reach. A bank of thousands of questions is compared pair by pair, and
+ * almost every pair has nothing in common.
+ */
+function reachesOverlap(
+  a: ReadonlySet<string>,
+  b: ReadonlySet<string>,
+  threshold: number,
+): boolean {
+  const [small, large] = a.size <= b.size ? [a, b] : [b, a]
+  const total = a.size + b.size
+  const reaches = (shared: number): boolean => shared / (total - shared) >= threshold
+
+  // Smallest number of shared words that reaches the threshold.
+  let needed = Math.max(0, Math.floor((threshold * total) / (1 + threshold)) - 1)
+  while (needed <= small.size && !reaches(needed)) needed += 1
+  if (needed > small.size) return false
+
   let shared = 0
-  for (const word of wordsA) if (wordsB.has(word)) shared += 1
-  // Never zero: even an empty text normalises to a set holding one empty word.
-  return shared / (wordsA.size + wordsB.size - shared)
+  let left = small.size
+  for (const word of small) {
+    if (shared + left < needed) return false
+    if (large.has(word)) shared += 1
+    left -= 1
+  }
+  return shared >= needed
 }
 
 /** Questions this similar to an existing one are flagged as probable duplicates. */
@@ -109,7 +147,7 @@ export function findQuestionIssues(entries: readonly QuestionEntry[]): QuestionI
   const issues: QuestionIssue[] = []
   const byId = new Map<string, QuestionEntry>()
   const byText = new Map<string, QuestionEntry>()
-  const kept: { entry: QuestionEntry; text: string }[] = []
+  const kept: { entry: QuestionEntry; words: ReadonlySet<string> }[] = []
 
   for (const entry of entries) {
     const { file, question } = entry
@@ -132,8 +170,9 @@ export function findQuestionIssues(entries: readonly QuestionEntry[]): QuestionI
         message: `same question text as ${sameText.question.id} (${sameText.file})`,
       })
     } else {
+      const words = wordsOf(text)
       for (const other of kept) {
-        if (wordOverlap(text, other.text) >= SIMILAR_TEXT_THRESHOLD) {
+        if (reachesOverlap(words, other.words, SIMILAR_TEXT_THRESHOLD)) {
           issues.push({
             level: 'warning',
             file,
@@ -144,7 +183,7 @@ export function findQuestionIssues(entries: readonly QuestionEntry[]): QuestionI
       }
       byId.set(question.id, entry)
       byText.set(text, entry)
-      kept.push({ entry, text })
+      kept.push({ entry, words })
     }
 
     issues.push(...qualityWarnings(entry))

@@ -204,9 +204,15 @@ cache and security headers). Three GitHub Actions workflows do the work:
    calls `deploy.yml`, which builds that tag and publishes it to Hosting.
 
 Manual deploy, if you ever need it: `npm run build && npx firebase deploy --only hosting`.
-Security rules are deployed separately: `npx firebase deploy --only firestore`. To roll back,
-use Firebase console > Hosting > release history, or run `deploy.yml` on an older tag with
-_Run workflow_.
+Security rules are not part of the Hosting deploy: the `rules` job of `deploy.yml` publishes
+`firestore.rules` after each release and then runs `npm run rules:check -- --project contrarreloj-quiz`,
+which fails if the published rules differ from the file. Run that command yourself whenever saving
+to the ranking fails. By hand: `npx firebase deploy --only firestore:rules`. The service account
+in the `FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ` secret needs the "Firebase Rules Admin" role
+for that job to work.
+
+To roll back the site, use Firebase console > Hosting > release history, or run `deploy.yml` on
+an older tag with _Run workflow_ (that also republishes the rules of that tag).
 
 ### Custom domain
 
