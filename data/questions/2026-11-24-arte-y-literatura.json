@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "arte-generos-escribio-federico-garcia",
+    "text": "¿Qué géneros escribió Federico García Lorca?",
+    "options": [
+      "Deporte y moda",
+      "Física y química",
+      "Poesía y teatro",
+      "Cocina y viajes"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Lorca fue poeta y dramaturgo: escribió libros de poemas, como Romancero gitano, y obras de teatro, como Bodas de sangre y La casa de Bernarda Alba.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-colonia-caribena-perdio-espana",
+    "text": "¿Qué colonia caribeña perdió España en 1898?",
+    "options": [
+      "Brasil",
+      "Chile",
+      "Cuba",
+      "Perú"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Tras la guerra con Estados Unidos, España perdió en 1898 Cuba, Puerto Rico y Filipinas. Aquella crisis dio nombre a la Generación del 98.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-animal-platero-platero-yo",
+    "text": "¿Qué animal es Platero en «Platero y yo»?",
+    "options": [
+      "Un caballo",
+      "Un burro",
+      "Un gato",
+      "Un perro"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Platero es un burrito pequeño y tierno, compañero del narrador en el libro de Juan Ramón Jiménez ambientado en Moguer, publicado completo en 1917.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-siglo-escribieron-poetas-27",
+    "text": "¿En qué siglo escribieron los poetas del 27?",
+    "options": [
+      "Siglo XVI",
+      "Siglo XX",
+      "Siglo XVIII",
+      "Siglo XIX"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Los poetas de la Generación del 27 publicaron sus obras principales en el siglo XX, sobre todo durante los años veinte y treinta.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-bodas-sangre",
+    "text": "¿Quién escribió «Bodas de sangre»?",
+    "options": [
+      "Miguel de Unamuno",
+      "Antonio Machado",
+      "Federico García Lorca",
+      "Valle-Inclán"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Bodas de sangre es una tragedia de Federico García Lorca, estrenada en 1933, sobre una novia que huye con su amante el día de su boda.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-grupo-poetas-espanoles",
+    "text": "¿Cómo se llama el grupo de poetas españoles de 1927?",
+    "options": [
+      "Generación del 36",
+      "Generación del 98",
+      "Generación del 27",
+      "Generación del 14"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Se llama Generación del 27 por el homenaje a Góngora celebrado en 1927 en el Ateneo de Sevilla, en el tercer centenario de su muerte.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estos-escritores-generacion-27",
+    "text": "¿Cuál de estos escritores es de la Generación del 27?",
+    "options": [
+      "Rafael Alberti",
+      "Miguel de Cervantes",
+      "Santa Teresa de Jesús",
+      "Francisco de Quevedo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Rafael Alberti, nacido en El Puerto de Santa María en 1902, fue uno de los grandes poetas del 27; los demás son autores de los siglos XVI y XVII.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estos-escritores-generacion-98",
+    "text": "¿Cuál de estos escritores es de la Generación del 98?",
+    "options": [
+      "Miguel de Cervantes",
+      "Miguel de Unamuno",
+      "Luis de Góngora",
+      "Calderón de la Barca"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Miguel de Unamuno (1864-1936) fue novelista, poeta y filósofo, y una de las figuras centrales de la Generación del 98; los demás vivieron en el Siglo de Oro.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-campos-castilla-antonio-machado",
+    "text": "¿Qué es «Campos de Castilla», de Antonio Machado?",
+    "options": [
+      "Un libro de poemas",
+      "Una canción",
+      "Una película",
+      "Un cuadro"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Campos de Castilla (1912) es un libro de poemas de Antonio Machado que retrata los paisajes y la gente de Soria y de Castilla.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-idioma-escribio-antonio-machado",
+    "text": "¿En qué idioma escribió Antonio Machado sus versos?",
+    "options": [
+      "Francés",
+      "Italiano",
+      "Inglés",
+      "Español"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy fácil",
+    "explanation": "Machado escribió su poesía en español; sus libros más conocidos son Soledades, Campos de Castilla y Nuevas canciones.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-novela-niebla",
+    "text": "¿Quién escribió la novela «Niebla»?",
+    "options": [
+      "Valle-Inclán",
+      "Miguel de Unamuno",
+      "Pío Baroja",
+      "Antonio Machado"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Niebla (1914), de Miguel de Unamuno, cuenta la historia de Augusto Pérez, un personaje que se rebela contra su propio autor.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-casa-bernarda-alba",
+    "text": "¿Quién escribió «La casa de Bernarda Alba»?",
+    "options": [
+      "Federico García Lorca",
+      "Jacinto Benavente",
+      "Vicente Aleixandre",
+      "Rafael Alberti"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Lorca terminó este drama en junio de 1936, pocas semanas antes de su muerte; trata de unas mujeres encerradas en casa durante un luto de ocho años.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-98-escribio-soledades",
+    "text": "¿Qué poeta del 98 escribió «Soledades» en 1903?",
+    "options": [
+      "Ramiro de Maeztu",
+      "Miguel de Unamuno",
+      "Antonio Machado",
+      "Pío Baroja"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Antonio Machado publicó Soledades en 1903 y lo amplió en 1907 como Soledades. Galerías. Otros poemas; es su primer gran libro de versos.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-luces-bohemia",
+    "text": "¿Quién escribió «Luces de bohemia»?",
+    "options": [
+      "Ramón del Valle-Inclán",
+      "Ramón Pérez de Ayala",
+      "Antonio Machado",
+      "Miguel de Unamuno"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Luces de bohemia, publicada en 1920 y en 1924, retrata un Madrid miserable y grotesco; es la obra más conocida de Valle-Inclán.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-arbol-ciencia",
+    "text": "¿Quién escribió «El árbol de la ciencia»?",
+    "options": [
+      "Valle-Inclán",
+      "Antonio Machado",
+      "Miguel de Unamuno",
+      "Pío Baroja"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El árbol de la ciencia (1911) es una de las novelas más conocidas de Baroja y refleja el pesimismo de su generación ante la vida.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-seudonimo-uso-escritor-jose",
+    "text": "¿Qué seudónimo usó el escritor José Martínez Ruiz?",
+    "options": [
+      "Clarín",
+      "Azorín",
+      "Zeda",
+      "Fígaro"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "José Martínez Ruiz adoptó el seudónimo Azorín, nombre de un personaje de sus primeras novelas, y lo mantuvo toda su vida.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-fue-rector-universidad",
+    "text": "¿En qué ciudad fue rector de universidad Unamuno?",
+    "options": [
+      "Granada",
+      "Toledo",
+      "Valladolid",
+      "Salamanca"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Unamuno fue rector de la Universidad de Salamanca, donde también enseñó griego; allí protagonizó en 1936 su célebre enfrentamiento con Millán-Astray.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-fue-fusilado",
+    "text": "¿Qué poeta del 27 fue fusilado en agosto de 1936?",
+    "options": [
+      "Rafael Alberti",
+      "Luis Cernuda",
+      "Jorge Guillén",
+      "Federico García Lorca"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Federico García Lorca fue fusilado entre Víznar y Alfacar, en Granada, en agosto de 1936, al comienzo de la Guerra Civil.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-platero-yo",
+    "text": "¿Quién escribió «Platero y yo»?",
+    "options": [
+      "Pedro Salinas",
+      "Gerardo Diego",
+      "Juan Ramón Jiménez",
+      "Antonio Machado"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Juan Ramón Jiménez, Premio Nobel de Literatura en 1956, escribió Platero y yo; los poetas del 27 lo consideraban uno de sus maestros.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-estaba-residencia-estudiantes",
+    "text": "¿En qué ciudad estaba la Residencia de Estudiantes?",
+    "options": [
+      "Sevilla",
+      "Salamanca",
+      "Barcelona",
+      "Madrid"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "La Residencia de Estudiantes, creada en 1910 en Madrid, reunió a jóvenes como Lorca, Dalí y Buñuel, y fue un foco cultural clave de la Edad de Plata.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-gano-nobel",
+    "text": "¿Qué poeta del 27 ganó el Nobel de Literatura en 1977?",
+    "options": [
+      "Rafael Alberti",
+      "Dámaso Alonso",
+      "Jorge Guillén",
+      "Vicente Aleixandre"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Vicente Aleixandre recibió el Nobel de Literatura en 1977; fue el único poeta de la Generación del 27 en obtenerlo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-marinero-tierra",
+    "text": "¿Quién escribió «Marinero en tierra»?",
+    "options": [
+      "Luis Cernuda",
+      "Gerardo Diego",
+      "Rafael Alberti",
+      "Emilio Prados"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Rafael Alberti publicó Marinero en tierra en 1925, un libro de nostalgia del mar de Cádiz que obtuvo el Premio Nacional de Literatura.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-enfrento-espana-guerra",
+    "text": "¿Con qué país se enfrentó España en la guerra de 1898?",
+    "options": [
+      "Alemania",
+      "Reino Unido",
+      "Estados Unidos",
+      "Marruecos"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "La guerra hispano-estadounidense de 1898 acabó con la pérdida de las últimas colonias y dio nombre a la Generación del 98.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-zalacain-aventurero",
+    "text": "¿Quién escribió «Zalacaín el aventurero»?",
+    "options": [
+      "Pío Baroja y Nessi",
+      "Antonio Machado",
+      "Valle-Inclán",
+      "Miguel de Unamuno"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Pío Baroja publicó Zalacaín el aventurero en 1909; es una novela de acción ambientada en el País Vasco y Navarra durante las guerras carlistas.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-miguel-unamuno",
+    "text": "¿En qué ciudad nació Miguel de Unamuno?",
+    "options": [
+      "Bilbao",
+      "Salamanca",
+      "Madrid",
+      "Vitoria"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Unamuno nació en Bilbao en 1864 y murió en Salamanca el 31 de diciembre de 1936.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-pio-baroja",
+    "text": "¿En qué ciudad nació Pío Baroja?",
+    "options": [
+      "Bilbao",
+      "Pamplona",
+      "Vitoria",
+      "San Sebastián"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Pío Baroja nació en San Sebastián en 1872 y murió en Madrid en 1956; estudió Medicina antes de dedicarse a escribir.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-corriente-pertenecia-poeta-ruben",
+    "text": "¿A qué corriente pertenecía el poeta Rubén Darío?",
+    "options": [
+      "Realismo",
+      "Romanticismo",
+      "Barroco",
+      "Modernismo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "El nicaragüense Rubén Darío fue el gran maestro del Modernismo, una corriente que influyó mucho en los escritores españoles del 98.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pintor-compartio-residencia-lorca",
+    "text": "¿Qué pintor compartió Residencia con Lorca y Buñuel?",
+    "options": [
+      "Joan Miró",
+      "Juan Gris",
+      "Pablo Picasso",
+      "Salvador Dalí"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Salvador Dalí vivió en la Residencia de Estudiantes de Madrid y trabó una estrecha amistad con Lorca y con Luis Buñuel.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-nacio-antonio-machado",
+    "text": "¿En qué ciudad nació Antonio Machado?",
+    "options": [
+      "Soria",
+      "Madrid",
+      "Segovia",
+      "Sevilla"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Antonio Machado nació en Sevilla en 1875, aunque se trasladó a Madrid con su familia siendo niño y se formó en la Institución Libre de Enseñanza.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-libro-poemas-cantico",
+    "text": "¿Quién escribió el libro de poemas «Cántico»?",
+    "options": [
+      "Jorge Guillén",
+      "Dámaso Alonso",
+      "Pedro Salinas",
+      "Gerardo Diego"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "fácil",
+    "explanation": "Jorge Guillén publicó Cántico en 1928 y lo fue ampliando durante décadas; es el gran libro de su poesía, de tono luminoso y vital.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-trata-envidia-entre",
+    "text": "¿Qué novela trata de la envidia entre Abel y Joaquín?",
+    "options": [
+      "Paz en la guerra",
+      "Abel Sánchez",
+      "La tía Tula",
+      "Amor y pedagogía"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Abel Sánchez (1917), de Unamuno, reelabora el mito de Caín y Abel: Joaquín Monegro vive devorado por la envidia hacia su amigo, el pintor Abel.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-castellana-inspira-campos",
+    "text": "¿Qué ciudad castellana inspira «Campos de Castilla»?",
+    "options": [
+      "Segovia",
+      "Burgos",
+      "Ávila",
+      "Soria"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Machado vivió en Soria desde 1907 como profesor de francés; allí conoció a Leonor y escribió buena parte de Campos de Castilla (1912).",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llamaba-esposa-antonio-machado",
+    "text": "¿Cómo se llamaba la esposa de Antonio Machado?",
+    "options": [
+      "Leonor Izquierdo",
+      "Zenobia Camprubí",
+      "Concha Méndez",
+      "Rosa Chacel"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Machado se casó en 1909 con Leonor Izquierdo, de quince años; ella murió en 1912 y su pérdida marcó profundamente la poesía del autor.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llama-genero-creado-valle",
+    "text": "¿Cómo se llama el género creado por Valle-Inclán?",
+    "options": [
+      "Esperpento",
+      "Entremés",
+      "Sainete",
+      "Nivola"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Valle-Inclán definió el esperpento como una deformación grotesca de la realidad, vista como en un espejo cóncavo, para criticar la España de su tiempo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escritor-creo-nivola-genero",
+    "text": "¿Qué escritor creó la «nivola» como género narrativo?",
+    "options": [
+      "Ramón del Valle-Inclán",
+      "Miguel de Unamuno",
+      "Jacinto Benavente",
+      "Ramón Pérez de Ayala"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Unamuno llamó nivola a Niebla para señalar que no seguía las reglas de la novela tradicional, con mucho diálogo, personajes autónomos y poca descripción.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-fue-autor-idearium-espanol",
+    "text": "¿Quién fue el autor de «Idearium español»?",
+    "options": [
+      "José Ortega y Gasset",
+      "Ángel Ganivet",
+      "Joaquín Costa",
+      "Ramiro de Maeztu"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ganivet publicó Idearium español en 1897, una reflexión sobre la identidad de España; se le considera un precursor de la Generación del 98.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-novela-azorin-publico-1902",
+    "text": "¿Qué novela de Azorín se publicó en 1902?",
+    "options": [
+      "La voluntad",
+      "Castilla",
+      "Los pueblos",
+      "Doña Inés"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La voluntad (1902) es una novela sobre el desencanto del joven Antonio Azorín, un reflejo de la crisis espiritual de fin de siglo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-difundio-nombre-generacion",
+    "text": "¿En qué año se difundió el nombre «Generación del 98»?",
+    "options": [
+      "1927",
+      "1898",
+      "1905",
+      "1913"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En 1913 Azorín publicó en el diario ABC una serie de artículos que popularizó la etiqueta, aunque algunos autores, como Baroja, la rechazaron.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-barroco-homenajeo-generacion",
+    "text": "¿A qué poeta barroco homenajeó la Generación del 27?",
+    "options": [
+      "Lope de Vega",
+      "Luis de Góngora",
+      "Francisco de Quevedo",
+      "Calderón de la Barca"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En 1927, tercer centenario de su muerte, el grupo homenajeó a Góngora, cuya poesía admiraban por su audacia en las metáforas y en el lenguaje.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-homenajeo-gongora-1927",
+    "text": "¿En qué ciudad se homenajeó a Góngora en 1927?",
+    "options": [
+      "Madrid",
+      "Granada",
+      "Córdoba",
+      "Sevilla"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El Ateneo de Sevilla acogió el homenaje los días 16 y 17 de diciembre de 1927, acto que suele tomarse como el origen simbólico del grupo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-torero-impulso-homenaje-gongora",
+    "text": "¿Qué torero impulsó el homenaje a Góngora de 1927?",
+    "options": [
+      "Domingo Ortega",
+      "Joselito el Gallo",
+      "Juan Belmonte",
+      "Ignacio Sánchez Mejías"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ignacio Sánchez Mejías, torero retirado de los ruedos ese año y amigo de varios poetas, impulsó y patrocinó el acto celebrado en Sevilla.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-escribio-voz",
+    "text": "¿Qué poeta del 27 escribió «La voz a ti debida»?",
+    "options": [
+      "Dámaso Alonso",
+      "Luis Cernuda",
+      "Pedro Salinas",
+      "Jorge Guillén"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Pedro Salinas publicó La voz a ti debida en 1933, un libro de poemas de amor que sigue siendo una de sus obras más celebradas.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-escribio-islas",
+    "text": "¿Qué poeta del 27 escribió «Las islas invitadas»?",
+    "options": [
+      "Emilio Prados",
+      "Manuel Altolaguirre",
+      "Dámaso Alonso",
+      "Rafael Alberti"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Altolaguirre publicó Las islas invitadas en 1926; fue poeta e impresor, y trabajó en Málaga y en Madrid como editor de libros de sus compañeros.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-conoce-artistas-intelectuales-27",
+    "text": "¿Cómo se conoce a las artistas e intelectuales del 27?",
+    "options": [
+      "Las Hilanderas",
+      "Las Sinsombrero",
+      "Las Cariátides",
+      "Las Meninas"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Las Sinsombrero fueron escritoras, pintoras e intelectuales de la época, como Maruja Mallo, Rosa Chacel y María Zambrano; el nombre alude a un gesto de rebeldía.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-libro-prosa-poetica",
+    "text": "¿Quién escribió el libro de prosa poética «Ocnos»?",
+    "options": [
+      "Jorge Guillén",
+      "Luis Cernuda",
+      "Pedro Salinas",
+      "Vicente Aleixandre"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ocnos es un libro de prosa poética de Luis Cernuda, con evocaciones de su infancia sevillana; lo publicó en 1942 y lo amplió después.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-lorca-retrata-solterona",
+    "text": "¿Qué obra de Lorca retrata a una solterona granadina?",
+    "options": [
+      "La zapatera prodigiosa",
+      "El maleficio de la mariposa",
+      "Mariana Pineda",
+      "Doña Rosita la soltera"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Doña Rosita la soltera (1935) muestra el paso del tiempo en una mujer granadina que espera durante años a su prometido, emigrado a América.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-lorca-nace-viaje",
+    "text": "¿Qué libro de Lorca nace de su viaje a Nueva York?",
+    "options": [
+      "Romancero gitano",
+      "Poema del cante jondo",
+      "Poeta en Nueva York",
+      "Libro de poemas"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Lorca pasó 1929 y 1930 en Nueva York y en Cuba; Poeta en Nueva York, con imágenes surrealistas, se publicó tras su muerte.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-grupo-teatro-universitario-dirigio",
+    "text": "¿Qué grupo de teatro universitario dirigió Lorca?",
+    "options": [
+      "El Mirlo",
+      "La Tarumba",
+      "El Caracol",
+      "La Barraca"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Desde 1932 Lorca dirigió La Barraca, un teatro universitario ambulante que llevó obras clásicas, como las de Lope y Calderón, a pueblos de España.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-chileno-dirigio-caballo",
+    "text": "¿Qué poeta chileno dirigió «Caballo verde para la poesía»?",
+    "options": [
+      "Gabriela Mistral",
+      "Pablo Neruda",
+      "Nicanor Parra",
+      "Vicente Huidobro"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Neruda, cónsul en Madrid, dirigió en 1935 la revista Caballo verde para la poesía, donde publicó a jóvenes poetas del 27 y a otros autores.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-estilo-prosa-azorin",
+    "text": "¿Cómo es el estilo de prosa de Azorín?",
+    "options": [
+      "Párrafos larguísimos",
+      "Frases cortas y precisas",
+      "Diálogos teatrales",
+      "Versos de arte mayor"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Azorín cultivó un estilo sobrio e impresionista, de frases breves y atención al detalle, que busca captar la esencia de paisajes y objetos cotidianos.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-revista-fundo-ortega-gasset",
+    "text": "¿Qué revista fundó Ortega y Gasset en 1923?",
+    "options": [
+      "Los Cuatro Vientos",
+      "La Gaceta Literaria",
+      "Cruz y Raya",
+      "Revista de Occidente"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "La Revista de Occidente, fundada por Ortega y Gasset en 1923, difundió el pensamiento europeo y publicó a muchos jóvenes poetas del 27.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-revista-malaguena-fundaron-prados",
+    "text": "¿Qué revista malagueña fundaron Prados y Altolaguirre?",
+    "options": [
+      "Mediodía",
+      "Litoral",
+      "Ínsula",
+      "Carmen"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Emilio Prados y Manuel Altolaguirre fundaron Litoral en 1926; su número de 1927 se dedicó a Góngora y es una huella clave del grupo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-preparo-1932-antologia-poesia",
+    "text": "¿Quién preparó en 1932 la antología «Poesía española»?",
+    "options": [
+      "Dámaso Alonso",
+      "Pedro Salinas",
+      "Gerardo Diego",
+      "Jorge Guillén"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Gerardo Diego reunió en 1932 a los poetas de su generación en esa antología, que ayudó a fijar la imagen del grupo del 27.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-corriente-fundo-chileno-vicente",
+    "text": "¿Qué corriente fundó el chileno Vicente Huidobro?",
+    "options": [
+      "Creacionismo",
+      "Surrealismo",
+      "Dadaísmo",
+      "Ultraísmo"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Huidobro defendió que el poeta debe crear realidades nuevas y no copiar la naturaleza; Gerardo Diego fue su principal seguidor en España.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-publico-vicente-aleixandre",
+    "text": "¿Qué libro publicó Vicente Aleixandre en 1944?",
+    "options": [
+      "Pasión de la tierra",
+      "Sombra del paraíso",
+      "Espadas como labios",
+      "La destrucción o el amor"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Sombra del paraíso (1944) es un canto a la naturaleza y a la infancia, y marca un giro de Aleixandre desde el surrealismo hacia un tono más luminoso.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-carrera-universitaria-estudio-pio",
+    "text": "¿Qué carrera universitaria estudió Pío Baroja?",
+    "options": [
+      "Medicina",
+      "Filosofía",
+      "Arquitectura",
+      "Derecho"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Baroja estudió Medicina y ejerció brevemente como médico rural en Cestona (Guipúzcoa) antes de dedicarse por completo a la literatura.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-protagoniza-arbol-ciencia",
+    "text": "¿Quién protagoniza «El árbol de la ciencia»?",
+    "options": [
+      "Antonio Azorín",
+      "Augusto Pérez",
+      "Andrés Hurtado",
+      "Fernando Ossorio"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Andrés Hurtado, joven estudiante de Medicina, es el protagonista de la novela; su tío, el doctor Iturrioz, dialoga con él sobre la vida y la filosofía.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-miembro-perdio-valle-inclan",
+    "text": "¿Qué miembro perdió Valle-Inclán en 1899?",
+    "options": [
+      "El pie izquierdo",
+      "El brazo izquierdo",
+      "La pierna izquierda",
+      "La pierna derecha"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "En 1899, tras una riña en un café de Madrid, la herida se gangrenó y le amputaron el brazo izquierdo; desde entonces fue «el manco de Valle-Inclán».",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-protagoniza-luces-bohemia",
+    "text": "¿Quién protagoniza «Luces de bohemia»?",
+    "options": [
+      "Max Estrella",
+      "Don Friolera",
+      "Mari-Gaila",
+      "Santos Banderas"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Max Estrella, poeta ciego y bohemio, protagoniza la obra; su figura se inspira en el escritor Alejandro Sawa y en la bohemia madrileña.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-marques-protagoniza-sonatas-valle",
+    "text": "¿Qué marqués protagoniza las «Sonatas» de Valle-Inclán?",
+    "options": [
+      "Don Álvaro de Luna",
+      "Don Juan Tenorio",
+      "Marqués de Bradomín",
+      "Don Pedro Crespo"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El marqués de Bradomín, donjuán decadente, es el protagonista de las cuatro Sonatas de Valle-Inclán (otoño, estío, primavera e invierno).",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ciudad-andaluza-fue-machado",
+    "text": "¿En qué ciudad andaluza fue Machado profesor de francés?",
+    "options": [
+      "Jaén",
+      "Granada",
+      "Baeza",
+      "Úbeda"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Machado trabajó en el instituto de Baeza (Jaén) entre 1912 y 1919, después de la muerte de su esposa Leonor.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-hermano-antonio-machado-fue",
+    "text": "¿Qué hermano de Antonio Machado fue poeta modernista?",
+    "options": [
+      "José",
+      "Francisco",
+      "Joaquín",
+      "Manuel"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Manuel Machado, autor de Alma (1902), fue un destacado poeta modernista y escribió teatro en colaboración con su hermano Antonio.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-profesor-apocrifo-imagino-machado",
+    "text": "¿Qué profesor apócrifo imaginó Machado en una obra de 1936?",
+    "options": [
+      "Pío Cid",
+      "Fernando Ossorio",
+      "Augusto Pérez",
+      "Juan de Mairena"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Juan de Mairena (1936) reúne sentencias, donaires y apuntes de un profesor inventado por Machado, que enseña gimnasia y retórica.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-isla-fue-desterrado-unamuno",
+    "text": "¿A qué isla fue desterrado Unamuno en 1924?",
+    "options": [
+      "Lanzarote",
+      "Tenerife",
+      "Mallorca",
+      "Fuerteventura"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "El dictador Primo de Rivera lo desterró en 1924 por sus críticas; Unamuno huyó a París y luego a Hendaya, y regresó a España en 1930.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ensayo-unamuno-publico-1913",
+    "text": "¿Qué ensayo de Unamuno se publicó en 1913?",
+    "options": [
+      "Vida de Don Quijote y Sancho",
+      "Del sentimiento trágico de la vida",
+      "En torno al casticismo",
+      "La agonía del cristianismo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Del sentimiento trágico de la vida (1913) analiza la angustia ante la muerte y el deseo de inmortalidad; es el ensayo más influyente de Unamuno.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-azorin-publico-1912",
+    "text": "¿Qué libro de Azorín se publicó en 1912?",
+    "options": [
+      "Castilla",
+      "La voluntad",
+      "Los pueblos",
+      "Doña Inés"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Castilla (1912) reúne textos breves de Azorín sobre los paisajes, los pueblos y la historia castellana, y los ve con una mirada muy sensible al detalle.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-nacio-valladolid",
+    "text": "¿Qué poeta del 27 nació en Valladolid?",
+    "options": [
+      "Jorge Guillén",
+      "Pedro Salinas",
+      "Gerardo Diego",
+      "Dámaso Alonso"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Jorge Guillén nació en Valladolid en 1893; fue profesor y poeta, y su libro Cántico lo acompañó, ampliado, casi toda la vida.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escritor-98-fue-asesinado",
+    "text": "¿Qué escritor del 98 fue asesinado en Madrid en 1936?",
+    "options": [
+      "Pío Baroja",
+      "Ramiro de Maeztu",
+      "Valle-Inclán",
+      "Ángel Ganivet"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Ramiro de Maeztu, ensayista de ideas conservadoras, fue fusilado en octubre de 1936 en las afueras de Madrid, durante la Guerra Civil.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-localidad-alicantina-nacio-azorin",
+    "text": "¿En qué localidad alicantina nació Azorín?",
+    "options": [
+      "Monóvar",
+      "Elche",
+      "Orihuela",
+      "Alcoy"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "medio",
+    "explanation": "Azorín nació en Monóvar (Alicante) en 1873 y murió en Madrid en 1967, a los 93 años, con una larga trayectoria como escritor y periodista.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-trilogia-baroja-incluye-busca",
+    "text": "¿Qué trilogía de Baroja incluye «La busca»?",
+    "options": [
+      "La lucha por la vida",
+      "La vida fantástica",
+      "Las ciudades",
+      "Tierra vasca"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "La busca (1904) forma, con Mala hierba y Aurora roja, la trilogía La lucha por la vida, sobre los bajos fondos del Madrid de principios de siglo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-negocio-familiar-dirigio-pio",
+    "text": "¿Qué negocio familiar dirigió Pío Baroja en Madrid?",
+    "options": [
+      "Librería",
+      "Farmacia",
+      "Panadería",
+      "Imprenta"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Baroja y su hermano Ricardo dirigieron la panadería Viena Capellanes, heredada de una tía, en el Madrid de finales del siglo XIX.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-escribio-estacion-ida-vuelta",
+    "text": "¿Quién escribió «Estación. Ida y vuelta», de 1930?",
+    "options": [
+      "Josefina de la Torre",
+      "María Zambrano",
+      "Rosa Chacel",
+      "Concha Méndez"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Rosa Chacel publicó esta novela de vanguardia en 1930; fue una de las grandes narradoras vinculadas a la Generación del 27.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-publico-placeres-prohibidos",
+    "text": "¿Qué poeta publicó «Los placeres prohibidos» en 1931?",
+    "options": [
+      "Pedro Salinas",
+      "Emilio Prados",
+      "Luis Cernuda",
+      "Manuel Altolaguirre"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Luis Cernuda publicó Los placeres prohibidos en 1931, un libro de influencia surrealista sobre el deseo, que luego incorporó a La realidad y el deseo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-filosofa-malaguena-gano-cervantes",
+    "text": "¿Qué filósofa malagueña ganó el Cervantes en 1988?",
+    "options": [
+      "Concha Méndez",
+      "María Teresa León",
+      "María Zambrano",
+      "Rosa Chacel"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "María Zambrano, discípula de Ortega y cercana al ambiente del 27, recibió el Premio Cervantes en 1988; fue la primera mujer galardonada.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-dirigio-rae",
+    "text": "¿Qué poeta del 27 dirigió la RAE de 1968 a 1982?",
+    "options": [
+      "Vicente Aleixandre",
+      "Dámaso Alonso",
+      "Jorge Guillén",
+      "Gerardo Diego"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Dámaso Alonso, filólogo y poeta, fue director de la Real Academia Española entre 1968 y 1982, y ganó el Premio Cervantes en 1978.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-llamaba-casa-madrilena-aleixandre",
+    "text": "¿Cómo se llamaba la casa madrileña de Aleixandre?",
+    "options": [
+      "Villa Mercedes",
+      "Velintonia",
+      "Casa Alegre",
+      "Villa Aurora"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Aleixandre vivió en Velintonia, un chalet de Madrid donde recibió, durante décadas, a poetas jóvenes y a amigos de su generación.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-compartio-gerardo-diego-cervantes",
+    "text": "¿Con quién compartió Gerardo Diego el Cervantes de 1979?",
+    "options": [
+      "Jorge Luis Borges",
+      "Octavio Paz",
+      "Alejo Carpentier",
+      "Julio Cortázar"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "En 1979 el Premio Cervantes se concedió ex aequo a Gerardo Diego y al argentino Jorge Luis Borges.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-poeta-27-gano-primer",
+    "text": "¿Qué poeta del 27 ganó el primer Cervantes, en 1976?",
+    "options": [
+      "Jorge Guillén",
+      "Rafael Alberti",
+      "Dámaso Alonso",
+      "Gerardo Diego"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "El Premio Cervantes se concedió por primera vez en 1976 a Jorge Guillén; Dámaso Alonso lo recibió en 1978, Diego en 1979 y Alberti en 1983.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-publico-romancero-gitano",
+    "text": "¿En qué año se publicó «Romancero gitano»?",
+    "options": [
+      "1936",
+      "1931",
+      "1928",
+      "1927"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Romancero gitano apareció en 1928 y dio a Lorca su gran fama popular, con romances sobre gitanos, el mundo andaluz y el destino.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-localidad-granadina-nacio-lorca",
+    "text": "¿En qué localidad granadina nació Lorca?",
+    "options": [
+      "Guadix",
+      "Alfacar",
+      "Fuente Vaqueros",
+      "Víznar"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Lorca nació el 5 de junio de 1898 en Fuente Vaqueros, un pueblo de la vega de Granada.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-lorca-estreno-barcelona",
+    "text": "¿Qué obra de Lorca se estrenó en Barcelona en 1927?",
+    "options": [
+      "Doña Rosita la soltera",
+      "La zapatera prodigiosa",
+      "Mariana Pineda",
+      "Bodas de sangre"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Mariana Pineda se estrenó en 1927 en Barcelona, con Margarita Xirgu y decorados de Dalí; trata de una heroína liberal granadina.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-localidad-murio-antonio-machado",
+    "text": "¿En qué localidad murió Antonio Machado en 1939?",
+    "options": [
+      "Collioure",
+      "Port-Vendres",
+      "Cerbère",
+      "Perpiñán"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Machado murió en Collioure, en el sur de Francia, el 22 de febrero de 1939, pocas semanas después de cruzar la frontera huyendo de la guerra.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-ano-murio-ramon-valle",
+    "text": "¿En qué año murió Ramón del Valle-Inclán?",
+    "options": [
+      "1939",
+      "1931",
+      "1936",
+      "1925"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Valle-Inclán murió en Santiago de Compostela el 5 de enero de 1936, meses antes de que empezara la Guerra Civil.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-valle-inclan-novela",
+    "text": "¿Qué obra de Valle-Inclán es una novela de tierra caliente?",
+    "options": [
+      "Tirano Banderas",
+      "Divinas palabras",
+      "Sonata de estío",
+      "Los cuernos de don Friolera"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Tirano Banderas (1926) retrata a un dictador en un país hispanoamericano imaginario, con un lenguaje que mezcla modismos de varios países.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-joaquin-costa-1901",
+    "text": "¿Qué libro de Joaquín Costa de 1901 critica la Restauración?",
+    "options": [
+      "Los males de la patria",
+      "España invertebrada",
+      "Idearium español",
+      "Oligarquía y caciquismo"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Costa, figura del regeneracionismo, analizó en 1901 cómo el caciquismo y la oligarquía falseaban la vida política española.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-precursor-98-murio-riga",
+    "text": "¿Qué precursor del 98 murió en Riga en 1898?",
+    "options": [
+      "Lucas Mallada",
+      "Joaquín Costa",
+      "Ángel Ganivet",
+      "Ramiro de Maeztu"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Ángel Ganivet, cónsul español en Riga, se suicidó en 1898; es considerado un precursor de la Generación del 98.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-obra-unamuno-avito-carrascal",
+    "text": "¿Qué obra de Unamuno tiene a Avito Carrascal?",
+    "options": [
+      "Cómo se hace una novela",
+      "Abel Sánchez",
+      "Amor y pedagogía",
+      "Paz en la guerra"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Amor y pedagogía (1902) satiriza el cientificismo: Avito Carrascal intenta educar a su hijo según un método pedagógico, con resultados trágicos.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-publico-hijos-ira-1944",
+    "text": "¿Quién publicó «Hijos de la ira» en 1944?",
+    "options": [
+      "Luis Cernuda",
+      "Dámaso Alonso",
+      "Gerardo Diego",
+      "Vicente Aleixandre"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "Hijos de la ira (1944) es un libro de poesía angustiada y desgarrada que marcó la posguerra española; su autor era un poeta del 27.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-publico-pedro-salinas",
+    "text": "¿Qué libro publicó Pedro Salinas en 1946?",
+    "options": [
+      "Fábula y signo",
+      "El contemplado",
+      "Razón de amor",
+      "Seguro azar"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "difícil",
+    "explanation": "El contemplado (1946), escrito en el exilio, está dedicado al mar de Puerto Rico y reúne variaciones sobre un mismo paisaje.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-periodista-rino-valle-inclan",
+    "text": "¿Con qué periodista riñó Valle-Inclán en 1899?",
+    "options": [
+      "Rubén Darío",
+      "Alejandro Sawa",
+      "Pío Baroja",
+      "Manuel Bueno"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "La riña de julio de 1899 en el Café de la Montaña con Manuel Bueno acabó con un bastonazo, una herida infectada y la amputación del brazo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-casa-familia-refugio-lorca",
+    "text": "¿En casa de qué familia se refugió Lorca en 1936?",
+    "options": [
+      "La familia Dalí",
+      "La familia Falla",
+      "La familia Giner",
+      "La familia Rosales"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Lorca se refugió en Granada en casa de los Rosales, familia de su amigo el poeta Luis Rosales; de allí fue detenido el 16 de agosto de 1936.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-gerardo-diego-gano",
+    "text": "¿Qué libro de Gerardo Diego ganó el Premio Nacional de 1925?",
+    "options": [
+      "Versos humanos",
+      "Alondra de verdad",
+      "Ángeles de Compostela",
+      "Manual de espumas"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Versos humanos (1925) compartió el Premio Nacional de Literatura con Marinero en tierra, de Alberti; el jurado incluía a Antonio Machado.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-vocacion-tenia-alberti-antes",
+    "text": "¿Qué vocación tenía Alberti antes de ser poeta?",
+    "options": [
+      "Pintura",
+      "Arquitectura",
+      "Medicina",
+      "Derecho"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Alberti fue pintor en su juventud y expuso en Madrid en 1922; tras una enfermedad se volcó en la poesía, aunque nunca dejó del todo el dibujo.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-dirigio-residencia-estudiantes-1910",
+    "text": "¿Quién dirigió la Residencia de Estudiantes de 1910 a 1936?",
+    "options": [
+      "Menéndez Pidal",
+      "Alberto Jiménez Fraud",
+      "Giner de los Ríos",
+      "José Castillejo"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Alberto Jiménez Fraud (1883-1964) dirigió la Residencia desde su creación hasta el inicio de la Guerra Civil, y la convirtió en un centro cultural de primer orden.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-revista-dirigio-gerardo-diego",
+    "text": "¿Qué revista dirigió Gerardo Diego en Santander en 1927?",
+    "options": [
+      "Litoral",
+      "Verso y Prosa",
+      "Carmen",
+      "Mediodía"
+    ],
+    "correctIndex": 2,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Carmen, con su suplemento Lola, apareció en Santander en 1927 dirigida por Gerardo Diego, y reunió a poetas del 27.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-pais-murio-exiliado-emilio",
+    "text": "¿En qué país murió exiliado Emilio Prados?",
+    "options": [
+      "Cuba",
+      "México",
+      "Chile",
+      "Argentina"
+    ],
+    "correctIndex": 1,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Emilio Prados, poeta malagueño y cofundador de Litoral, se exilió tras la guerra y murió en México en 1962.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-libro-publico-vicente-aleixandre-2",
+    "text": "¿Qué libro publicó Vicente Aleixandre en 1932?",
+    "options": [
+      "Espadas como labios",
+      "La destrucción o el amor",
+      "Pasión de la tierra",
+      "Sombra del paraíso"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Espadas como labios (1932) es un libro surrealista; después llegarían Pasión de la tierra y La destrucción o el amor, ambos de 1935.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-protagoniza-memorias-hombre-accion",
+    "text": "¿Quién protagoniza «Memorias de un hombre de acción»?",
+    "options": [
+      "Eugenio de Aviraneta",
+      "El Empecinado",
+      "Zumalacárregui",
+      "Espoz y Mina"
+    ],
+    "correctIndex": 0,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Baroja dedicó 22 novelas, entre 1913 y 1935, a su pariente lejano Eugenio de Aviraneta (1792-1872), conspirador del siglo XIX.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "arte-inspiro-poemas-guiomar-machado",
+    "text": "¿Quién inspiró los poemas a «Guiomar», de Machado?",
+    "options": [
+      "Leonor Izquierdo",
+      "Concha Méndez",
+      "Zenobia Camprubí",
+      "Pilar de Valderrama"
+    ],
+    "correctIndex": 3,
+    "category": "Arte y Literatura",
+    "difficulty": "muy difícil",
+    "explanation": "Guiomar es el nombre poético de la escritora Pilar de Valderrama, a quien Machado conoció en Madrid a finales de los años veinte.",
+    "source": "generacion_del_98_y_generacion_del_27.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  }
+]
