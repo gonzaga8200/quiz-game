@@ -28,7 +28,8 @@
     "questions:validate": "tsx scripts/validate-questions.ts",
     "questions:convert": "tsx scripts/convert-questions.ts",
     "questions:import": "tsx scripts/import-questions.ts",
-    "questions:stats": "tsx scripts/question-stats.ts"
+    "questions:stats": "tsx scripts/question-stats.ts",
+    "rules:check": "tsx scripts/check-rules-deployed.ts"
   },
   "dependencies": {
     "@nuxt/fonts": "^1.2.0",

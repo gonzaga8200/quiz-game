@@ -1,6 +1,7 @@
-name: Deploy to Firebase Hosting
+name: Deploy to Firebase
 
-# Production deploy. Runs when a release is published, when release-please creates one
+# Production deploy: the static site (Hosting) and then the Firestore security rules.
+# Runs when a release is published, when release-please creates one
 # (it calls this workflow directly: releases created with the default GITHUB_TOKEN do not
 # trigger `release` events), and on demand.
 on:
@@ -62,3 +63,38 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ }}
           projectId: contrarreloj-quiz
           channelId: live
+
+  # The security rules are not part of the Hosting deploy. Before this job existed they were
+  # published by hand, and the web shipped a ranking feature while the published rules still
+  # rejected it. It runs after Hosting on purpose: if the service account lacks permission to
+  # publish rules (it needs the "Firebase Rules Admin" role) the site is still deployed and
+  # this job fails loudly instead of blocking the release.
+  rules:
+    name: firestore rules
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: production
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - name: Publish the rules and check they are the ones in the repository
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CONTRARRELOJ_QUIZ }}
+        run: |
+          key="$RUNNER_TEMP/firebase-key.json"
+          trap 'rm -f "$key"' EXIT
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$key"
+          export GOOGLE_APPLICATION_CREDENTIALS="$key"
+          npx firebase deploy --only firestore:rules --project contrarreloj-quiz
+          npm run rules:check -- --project contrarreloj-quiz
