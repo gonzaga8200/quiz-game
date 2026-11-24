@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "dep-pais-gano-mundial-masculino",
+    "text": "¿Qué país ganó el Mundial masculino de 2018?",
+    "options": [
+      "Brasil",
+      "Bélgica",
+      "Francia",
+      "Croacia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Francia ganó su segunda estrella en Rusia 2018, al vencer 4-2 a Croacia en la final disputada en el estadio Luzhniki de Moscú.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-cada-anos-juega-mundial",
+    "text": "¿Cada cuántos años se juega el Mundial de fútbol?",
+    "options": [
+      "Cada cinco años",
+      "Cada dos años",
+      "Cada cuatro años",
+      "Cada tres años"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Tanto el Mundial masculino como el femenino se celebran cada cuatro años. El masculino empezó en 1930 y el femenino, en 1991.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-ha-ganado-mundiales",
+    "text": "¿Qué país ha ganado más Mundiales masculinos?",
+    "options": [
+      "Italia",
+      "Brasil",
+      "Argentina",
+      "Alemania"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Brasil es el país con más títulos masculinos: cinco (1958, 1962, 1970, 1994 y 2002). Alemania e Italia tienen cuatro cada una.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-femenino",
+    "text": "¿Qué país ganó el Mundial femenino de 2023?",
+    "options": [
+      "Inglaterra",
+      "España",
+      "Australia",
+      "EE. UU."
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "España ganó su primer Mundial femenino en 2023 al vencer 1-0 a Inglaterra en la final de Sídney, con gol de Olga Carmona.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-capitan-levanto-copa-argentina",
+    "text": "¿Qué capitán levantó la copa con Argentina en 2022?",
+    "options": [
+      "Ángel Di María",
+      "Lautaro Martínez",
+      "Lionel Messi",
+      "Julián Álvarez"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Messi capitaneó a Argentina en Catar 2022 y ganó el único gran título que le faltaba, tras vencer a Francia en los penaltis.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-masculino",
+    "text": "¿Qué país organizó el Mundial masculino de 2022?",
+    "options": [
+      "Sudáfrica",
+      "Rusia",
+      "Catar",
+      "Brasil"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Catar acogió el Mundial en noviembre y diciembre de 2022, el primero celebrado en Oriente Próximo y el primero disputado en invierno.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-primer-mundial",
+    "text": "¿Qué país ganó el primer Mundial masculino, en 1930?",
+    "options": [
+      "Uruguay",
+      "Brasil",
+      "Italia",
+      "Argentina"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Uruguay organizó y ganó el primer Mundial en 1930, tras derrotar 4-2 a Argentina en la final jugada en el Estadio Centenario de Montevideo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-masculino",
+    "text": "¿Qué selección ganó el Mundial masculino de 2026?",
+    "options": [
+      "Argentina",
+      "España",
+      "Inglaterra",
+      "Francia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "España ganó su segunda Copa del Mundo al vencer 1-0 a Argentina en la final de Nueva York/Nueva Jersey, con gol de Ferran Torres en la prórroga.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-femenino-2",
+    "text": "¿Qué país ganó el Mundial femenino de 2019?",
+    "options": [
+      "Estados Unidos",
+      "Suecia",
+      "Países Bajos",
+      "Inglaterra"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Estados Unidos ganó en Francia 2019 al derrotar 2-0 a Países Bajos en la final. Fue su cuarto título mundial, el segundo consecutivo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-masculino-2",
+    "text": "¿Qué país organizó el Mundial masculino de 2014?",
+    "options": [
+      "Argentina",
+      "México",
+      "Alemania",
+      "Brasil"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy fácil",
+    "explanation": "Brasil fue anfitrión en 2014. La final se jugó en el Maracaná de Río de Janeiro, y Alemania ganó 1-0 a Argentina en la prórroga.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-final-2010",
+    "text": "¿Quién marcó el gol de la final de 2010?",
+    "options": [
+      "Fernando Torres",
+      "Andrés Iniesta",
+      "David Villa",
+      "Xavi Hernández"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Iniesta marcó en el minuto 116 de la prórroga y dio a España su primer Mundial, tras un 1-0 ante Países Bajos en Johannesburgo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-fue-subcampeona-mundial-2",
+    "text": "¿Qué selección fue subcampeona en el Mundial de 2022?",
+    "options": [
+      "Francia",
+      "Croacia",
+      "Países Bajos",
+      "Marruecos"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Francia perdió la final de Catar en los penaltis tras un 3-3 en 120 minutos, con tres goles de Mbappé, que ganó la Bota de Oro.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-masculino-2",
+    "text": "¿Qué selección ganó el Mundial masculino de 2014?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Alemania",
+      "Países Bajos"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Alemania ganó su cuarto título en 2014 al vencer 1-0 a Argentina en la prórroga, con gol de Mario Götze en el Maracaná.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-mundiales-gano-pele-jugador",
+    "text": "¿Cuántos Mundiales ganó Pelé como jugador?",
+    "options": [
+      "Tres",
+      "Dos",
+      "Cinco",
+      "Cuatro"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Pelé ganó los Mundiales de 1958, 1962 y 1970 con Brasil. Es el único jugador de la historia con tres títulos mundiales.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-masculino-3",
+    "text": "¿Qué selección ganó el Mundial masculino de 2006?",
+    "options": [
+      "Portugal",
+      "Alemania",
+      "Francia",
+      "Italia"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Italia ganó su cuarto título en 2006, al vencer a Francia en los penaltis en Berlín tras un 1-1 en la prórroga.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-australia-mundial",
+    "text": "¿Qué país organizó con Australia el Mundial femenino 2023?",
+    "options": [
+      "Canadá",
+      "Nueva Zelanda",
+      "Corea del Sur",
+      "Japón"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Australia y Nueva Zelanda organizaron juntas el Mundial femenino de 2023, el primero con dos anfitriones y el primero en el hemisferio sur.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-femenino-3",
+    "text": "¿Qué país ganó el Mundial femenino de 2011?",
+    "options": [
+      "Alemania",
+      "Suecia",
+      "EE. UU.",
+      "Japón"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Japón ganó en Alemania 2011 a Estados Unidos en los penaltis, tras un 2-2. Fue el primer título mundial de una selección asiática.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-balon-oro-mundial",
+    "text": "¿Quién ganó el Balón de Oro del Mundial femenino 2023?",
+    "options": [
+      "Jennifer Hermoso",
+      "Alexia Putellas",
+      "Salma Paralluelo",
+      "Aitana Bonmatí"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Bonmatí fue elegida mejor jugadora del torneo. Su compañera Jennifer Hermoso ganó el Balón de Plata, y Paralluelo fue la mejor jugadora joven.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-mano-dios",
+    "text": "¿Quién marcó el gol de la 'Mano de Dios' en 1986?",
+    "options": [
+      "Johan Cruyff",
+      "Zinedine Zidane",
+      "Diego Maradona",
+      "Roberto Baggio"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Maradona marcó con la mano ante Inglaterra en los cuartos de final de México 86, y minutos después logró el llamado gol del siglo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-2002",
+    "text": "¿Qué país organizó el Mundial 2002 junto con Japón?",
+    "options": [
+      "Tailandia",
+      "Australia",
+      "Arabia Saudí",
+      "Corea del Sur"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Corea del Sur y Japón organizaron el Mundial de 2002, el primero celebrado en Asia y el primero con dos países anfitriones.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-masculino-4",
+    "text": "¿Qué selección ganó el Mundial masculino de 1998?",
+    "options": [
+      "Croacia",
+      "Italia",
+      "Brasil",
+      "Francia"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Francia ganó su primer título como anfitriona, con un 3-0 a Brasil en la final de París, con dos goles de Zidane.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-femenino-4",
+    "text": "¿Qué país ganó el Mundial femenino de 2015?",
+    "options": [
+      "Alemania",
+      "Japón",
+      "EE. UU.",
+      "Inglaterra"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Estados Unidos venció 5-2 a Japón en la final de Vancouver, con un hat-trick de Carli Lloyd, y logró su tercer título.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-ha-ganado-mundiales",
+    "text": "¿Qué selección ha ganado más Mundiales femeninos?",
+    "options": [
+      "Noruega",
+      "Alemania",
+      "EE. UU.",
+      "Japón"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Estados Unidos tiene cuatro títulos (1991, 1999, 2015 y 2019). Alemania tiene dos, y Noruega, Japón y España uno cada una.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-1966",
+    "text": "¿Qué país ganó el Mundial de 1966 como anfitrión?",
+    "options": [
+      "Inglaterra",
+      "Brasil",
+      "Italia",
+      "Alemania"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Inglaterra ganó su único título al vencer 4-2 a Alemania Occidental en la prórroga de la final de Wembley.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-1986",
+    "text": "¿Qué país ganó el Mundial de 1986 con Maradona?",
+    "options": [
+      "Argentina",
+      "Francia",
+      "Alemania",
+      "Brasil"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Argentina ganó su segundo título en México 86 al vencer 3-2 a Alemania Occidental en la final del Estadio Azteca.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-decidio-final-2022",
+    "text": "¿Cómo se decidió la final de 2022?",
+    "options": [
+      "En la prórroga",
+      "Con un gol de oro",
+      "En el tiempo reglamentario",
+      "En los penaltis"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Argentina y Francia empataron 3-3 tras 120 minutos. Argentina ganó 4-2 en la tanda de penaltis en el estadio de Lusail.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-mundial-femenino-5",
+    "text": "¿Qué país ganó el Mundial femenino de 2007?",
+    "options": [
+      "Brasil",
+      "Estados Unidos",
+      "Noruega",
+      "Alemania"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Alemania ganó en China 2007, sin encajar ningún gol, al vencer 2-0 a Brasil en la final. Era su segundo título consecutivo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-selecciones-jugaron-mundial-masculino",
+    "text": "¿Cuántas selecciones jugaron el Mundial masculino de 2026?",
+    "options": [
+      "40",
+      "64",
+      "32",
+      "48"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "El Mundial de 2026 fue el primero con 48 selecciones, en lugar de 32, y se celebró en Estados Unidos, México y Canadá.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-celebro-mundial-masculino",
+    "text": "¿En qué país se celebró el Mundial masculino de 2018?",
+    "options": [
+      "Catar",
+      "Alemania",
+      "Brasil",
+      "Rusia"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Rusia fue anfitriona en 2018 y la final se jugó en el estadio Luzhniki de Moscú, el 15 de julio.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-dirigio-espana-campeona-mundo",
+    "text": "¿Quién dirigió a España campeona del mundo en 2010?",
+    "options": [
+      "Vicente del Bosque",
+      "Luis Enrique",
+      "Luis Aragonés",
+      "Julen Lopetegui"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "fácil",
+    "explanation": "Del Bosque dirigió a España en Sudáfrica 2010. Aragonés había ganado antes la Eurocopa 2008, y Del Bosque heredó ese grupo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-selecciones-jugaron-mundial-1930",
+    "text": "¿Cuántas selecciones jugaron el Mundial de 1930?",
+    "options": [
+      "16",
+      "13",
+      "8",
+      "24"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "En Uruguay 1930 jugaron solo 13 selecciones: siete de América del Sur, cuatro de Europa y dos de Norteamérica. Muchas se negaron por el largo viaje.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-tres-goles-final",
+    "text": "¿Quién marcó tres goles en la final de 1966?",
+    "options": [
+      "Gordon Banks",
+      "Bobby Charlton",
+      "Martin Peters",
+      "Geoff Hurst"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Hurst es el único jugador con un hat-trick en una final masculina. Inglaterra venció 4-2 a Alemania Occidental en Wembley.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-anfitrion-gano-mundial-1978",
+    "text": "¿Qué anfitrión ganó el Mundial de 1978?",
+    "options": [
+      "Argentina",
+      "Países Bajos",
+      "Italia",
+      "Brasil"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Argentina ganó su primer Mundial como anfitriona, al vencer 3-1 a Países Bajos en la prórroga de la final de Buenos Aires.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-perdio-tres-finales",
+    "text": "¿Qué selección perdió tres finales sin ganar ninguna?",
+    "options": [
+      "Países Bajos",
+      "Suecia",
+      "Croacia",
+      "Hungría"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Países Bajos perdió las finales de 1974, 1978 y 2010 sin lograr nunca el título. Hungría y Croacia solo han perdido una o dos.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-titulo-aleman",
+    "text": "¿Quién marcó el gol del título alemán en 2014?",
+    "options": [
+      "Miroslav Klose",
+      "Mario Götze",
+      "Thomas Müller",
+      "André Schürrle"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Götze entró como suplente y marcó en el minuto 113 el 1-0 definitivo ante Argentina, tras un pase de Schürrle.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-expulsado-final-2006",
+    "text": "¿Quién fue expulsado en la final de 2006 por un cabezazo?",
+    "options": [
+      "Franck Ribéry",
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Marco Materazzi"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Zidane vio la roja en la prórroga por cabecear a Materazzi, y Francia perdió después la tanda de penaltis ante Italia.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-masculino-3",
+    "text": "¿Qué país organizó el Mundial masculino de 1982?",
+    "options": [
+      "España",
+      "Italia",
+      "Argentina",
+      "México"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España organizó en 1982 el primer Mundial con 24 selecciones. La final se jugó en el Santiago Bernabéu y la ganó Italia.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-gano-mundial-1982",
+    "text": "¿Qué selección ganó el Mundial de 1982?",
+    "options": [
+      "Polonia",
+      "Alemania",
+      "Brasil",
+      "Italia"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Italia ganó su tercer título en el Bernabéu al vencer 3-1 a Alemania Occidental, con Paolo Rossi como máximo goleador del torneo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-llamo-mascota-mundial-espana",
+    "text": "¿Cómo se llamó la mascota del Mundial de España 1982?",
+    "options": [
+      "Pique",
+      "Naranjito",
+      "Footix",
+      "Zakumi"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Naranjito, una naranja con camiseta de la selección, fue la mascota de 1982. Footix fue la de 1998, Pique la de 1986 y Zakumi la de 2010.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadio-fue-maracanazo-1950",
+    "text": "¿En qué estadio fue el 'Maracanazo' de 1950?",
+    "options": [
+      "Azteca",
+      "Morumbi",
+      "Mineirão",
+      "Maracaná"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Uruguay venció 2-1 a Brasil en el Maracaná de Río de Janeiro ante unos 200.000 espectadores, en el partido decisivo de 1950.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-bota-oro-mundial",
+    "text": "¿Quién ganó la Bota de Oro del Mundial de 2018?",
+    "options": [
+      "Kylian Mbappé",
+      "Romelu Lukaku",
+      "Antoine Griezmann",
+      "Harry Kane"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El inglés Harry Kane marcó seis goles en Rusia 2018 y ganó la Bota de Oro. Inglaterra terminó cuarta, tras perder la semifinal ante Croacia.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-masculino-4",
+    "text": "¿Qué país organizó el Mundial masculino de 1990?",
+    "options": [
+      "México",
+      "Inglaterra",
+      "Italia",
+      "Francia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Italia fue anfitriona en 1990. Alemania Occidental ganó el título al derrotar 1-0 a Argentina en la final jugada en Roma.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-titulo-aleman-2",
+    "text": "¿Quién marcó el gol del título alemán en 1990?",
+    "options": [
+      "Rudi Völler",
+      "Andreas Brehme",
+      "Jürgen Klinsmann",
+      "Lothar Matthäus"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Brehme transformó un penalti en el minuto 85 de la final de Roma y dio a Alemania Occidental su tercer título mundial.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fallo-penalti-decisivo-final",
+    "text": "¿Quién falló el penalti decisivo de la final de 1994?",
+    "options": [
+      "Daniele Massaro",
+      "Roberto Baggio",
+      "Paolo Maldini",
+      "Franco Baresi"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Baggio disparó por encima del larguero en la tanda de penaltis y dio el cuarto título a Brasil frente a Italia en el Rose Bowl.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-contra-jugo-francia-final",
+    "text": "¿Contra quién jugó Francia la final de 2018?",
+    "options": [
+      "Bélgica",
+      "Croacia",
+      "Inglaterra",
+      "Uruguay"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Francia ganó 4-2 a Croacia, que disputaba su primera final mundialista tras eliminar a Inglaterra en la semifinal.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadio-fue-final-mundial",
+    "text": "¿En qué estadio fue la final del Mundial de 2022?",
+    "options": [
+      "Estadio Al Bayt",
+      "Estadio 974",
+      "Estadio Khalifa",
+      "Estadio Lusail"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La final entre Argentina y Francia se jugó en el estadio de Lusail, con capacidad para unos 88.000 espectadores.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-africana-llego-semifinales",
+    "text": "¿Qué selección africana llegó a semifinales en 2022?",
+    "options": [
+      "Senegal",
+      "Camerún",
+      "Marruecos",
+      "Ghana"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Marruecos fue la primera selección africana en alcanzar unas semifinales. Perdió ante Francia y después cayó ante Croacia en el partido por el tercer puesto.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-gano-primer-mundial-2",
+    "text": "¿Qué país ganó el primer Mundial femenino de 1995?",
+    "options": [
+      "Estados Unidos",
+      "Alemania",
+      "Suecia",
+      "Noruega"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Noruega ganó el torneo de 1995 en Suecia, con una victoria 2-0 sobre Alemania en la final disputada en Solna.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-tres-goles-final-2",
+    "text": "¿Quién marcó tres goles en la final femenina de 2015?",
+    "options": [
+      "Abby Wambach",
+      "Alex Morgan",
+      "Megan Rapinoe",
+      "Carli Lloyd"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Lloyd hizo un hat-trick en los primeros 16 minutos de la final de Vancouver, un 5-2 de Estados Unidos sobre Japón.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-final-femenina",
+    "text": "¿Quién marcó el gol de la final femenina de 2023?",
+    "options": [
+      "Jennifer Hermoso",
+      "Olga Carmona",
+      "Salma Paralluelo",
+      "Aitana Bonmatí"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Carmona, capitana de España, marcó en el minuto 29 el único gol de la final. También había marcado el gol de la semifinal ante Suecia.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-decidio-final-femenina-1999",
+    "text": "¿Cómo se decidió la final femenina de 1999?",
+    "options": [
+      "Con un gol de oro",
+      "En los penaltis",
+      "En el tiempo reglamentario",
+      "En la prórroga"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Estados Unidos y China empataron 0-0 y la tanda terminó 5-4 para las estadounidenses, con el penalti decisivo de Brandi Chastain.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-femenino",
+    "text": "¿Qué país organizó el Mundial femenino de 1995?",
+    "options": [
+      "Alemania",
+      "Noruega",
+      "China",
+      "Suecia"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Suecia fue sede del segundo Mundial femenino, en 1995. Era la primera vez que el torneo se jugaba en Europa.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-acogio-mundial-femenino",
+    "text": "¿Qué país acogió el Mundial femenino de 2003 por el SARS?",
+    "options": [
+      "Suecia",
+      "Estados Unidos",
+      "Canadá",
+      "Alemania"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "China iba a organizar el torneo de 2003, pero una epidemia de SARS obligó a trasladarlo a Estados Unidos con poco tiempo de margen.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-femenino-2",
+    "text": "¿Qué país organizó el Mundial femenino de 2019?",
+    "options": [
+      "Canadá",
+      "Alemania",
+      "Francia",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Francia organizó el Mundial femenino de 2019. Estados Unidos ganó la final en Lyon contra Países Bajos.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-bota-oro-mundial-2",
+    "text": "¿Quién ganó la Bota de Oro del Mundial de 2022?",
+    "options": [
+      "Kylian Mbappé",
+      "Julián Álvarez",
+      "Olivier Giroud",
+      "Lionel Messi"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Mbappé marcó ocho goles en Catar, con un hat-trick en la final, y superó a Messi, que marcó siete y fue elegido mejor jugador.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-sera-sede-mundial",
+    "text": "¿Qué país será sede del Mundial femenino de 2027?",
+    "options": [
+      "Canadá",
+      "Brasil",
+      "Alemania",
+      "Australia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Brasil organizará el Mundial femenino de 2027, el primero que se celebra en Sudamérica.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-ultimo-mundial-antes",
+    "text": "¿Quién ganó el último Mundial antes de la guerra?",
+    "options": [
+      "Italia",
+      "Brasil",
+      "Francia",
+      "Hungría"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Italia ganó en 1938 en Francia, al vencer 4-2 a Hungría en la final. Revalidaba el título logrado en 1934.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-bota-oro-mundial-3",
+    "text": "¿Quién ganó la Bota de Oro del Mundial de 2010?",
+    "options": [
+      "Diego Forlán",
+      "David Villa",
+      "Thomas Müller",
+      "Wesley Sneijder"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Müller marcó cinco goles en Sudáfrica y ganó la Bota de Oro por tener más asistencias que Villa, Sneijder y Forlán, que también marcaron cinco.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-balon-oro-mundial-2",
+    "text": "¿Quién ganó el Balón de Oro del Mundial de 2010?",
+    "options": [
+      "Xavi Hernández",
+      "Diego Forlán",
+      "Wesley Sneijder",
+      "Andrés Iniesta"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El uruguayo Forlán fue elegido mejor jugador del torneo, en el que Uruguay terminó cuarta tras perder el partido por el tercer puesto.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-ciudad-fue-final-mundial",
+    "text": "¿En qué ciudad fue la final del Mundial 2014?",
+    "options": [
+      "Río de Janeiro",
+      "Brasilia",
+      "Belo Horizonte",
+      "São Paulo"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La final de 2014 se jugó en el Maracaná de Río de Janeiro, el mismo estadio de la final de 1950.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-tercera-mundial-2018",
+    "text": "¿Quién fue tercera en el Mundial de 2018?",
+    "options": [
+      "Croacia",
+      "Inglaterra",
+      "Bélgica",
+      "Francia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Bélgica ganó 2-0 a Inglaterra el partido por el tercer puesto, su mejor resultado en un Mundial.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-brasil-final-mundial",
+    "text": "¿A quién ganó Brasil la final del Mundial de 2002?",
+    "options": [
+      "Corea del Sur",
+      "Italia",
+      "Alemania",
+      "Turquía"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Brasil ganó 2-0 a Alemania con dos goles de Ronaldo, que fue máximo goleador del torneo con ocho tantos, y logró su quinto título.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-pais-organizo-mundial-1986",
+    "text": "¿Qué país organizó el Mundial 1986 tras renunciar Colombia?",
+    "options": [
+      "Brasil",
+      "EE. UU.",
+      "Argentina",
+      "México"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Colombia renunció a la sede por motivos económicos y México, que ya había organizado el Mundial de 1970, asumió la organización.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-gano-balon-oro-mundial-3",
+    "text": "¿Quién ganó el Balón de Oro del Mundial de 2018?",
+    "options": [
+      "Eden Hazard",
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Luka Modrić"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El croata Modrić fue elegido mejor jugador de Rusia 2018, un torneo en el que Croacia llegó a la final por primera vez.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-estadio-fue-final-2026",
+    "text": "¿En qué estadio fue la final de 2026?",
+    "options": [
+      "AT&T Stadium",
+      "SoFi Stadium",
+      "Estadio Azteca",
+      "MetLife Stadium"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "España venció 1-0 a Argentina en el MetLife Stadium, en East Rutherford (Nueva Jersey), a las afueras de Nueva York.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-tres-paises-fueron-sede",
+    "text": "¿Qué tres países fueron sede del Mundial 2026?",
+    "options": [
+      "EE. UU., México y Cuba",
+      "EE. UU., México y Canadá",
+      "EE. UU., Brasil y Canadá",
+      "México, Canadá y Costa Rica"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "El Mundial de 2026 fue el primero con tres países anfitriones: Estados Unidos, México y Canadá.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-final-2026",
+    "text": "¿Quién marcó el gol de la final de 2026?",
+    "options": [
+      "Ferran Torres",
+      "Dani Olmo",
+      "Lamine Yamal",
+      "Mikel Oyarzabal"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Ferran Torres marcó en el minuto 106 de la prórroga el 1-0 que dio a España su segundo Mundial.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-llama-victoria-alemania-ante",
+    "text": "¿Cómo se llama la victoria de Alemania ante Hungría en 1954?",
+    "options": [
+      "Milagro de Berna",
+      "Maracanazo",
+      "Gol fantasma",
+      "Mano de Dios"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Alemania Occidental ganó 3-2 a la gran favorita, Hungría, en la final de Berna, un resultado conocido como el 'Milagro de Berna'.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-elegida-mejor-jugadora",
+    "text": "¿Quién fue elegida mejor jugadora del Mundial femenino 2019?",
+    "options": [
+      "Alex Morgan",
+      "Megan Rapinoe",
+      "Rose Lavelle",
+      "Lucy Bronze"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "Rapinoe ganó el Balón de Oro y la Bota de Oro de 2019 con seis goles, empatada con Morgan y Ellen White.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-perro-encontro-copa-robada",
+    "text": "¿Qué perro encontró la copa robada en 1966?",
+    "options": [
+      "Pickles",
+      "Lassie",
+      "Balto",
+      "Laika"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "medio",
+    "explanation": "La Copa Jules Rimet fue robada en Londres meses antes del Mundial de 1966. Un perro llamado Pickles la encontró envuelta en periódico bajo un seto.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-13-goles-mundial",
+    "text": "¿Quién marcó 13 goles en el Mundial de 1958?",
+    "options": [
+      "Just Fontaine",
+      "Eusébio",
+      "Sándor Kocsis",
+      "Gerd Müller"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Fontaine marcó 13 goles en seis partidos con Francia, el récord de goles en un único Mundial, y no ha sido superado.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-goles-marco-miroslav-klose",
+    "text": "¿Cuántos goles marcó Miroslav Klose en Mundiales?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Klose marcó 16 goles en 24 partidos con Alemania, en cuatro Mundiales (2002, 2006, 2010 y 2014), y fue campeón en 2014.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-partido-mundial-masculino-acabo",
+    "text": "¿Qué partido de Mundial masculino acabó 10-1?",
+    "options": [
+      "Alemania–Arabia Saudí",
+      "Austria–Suiza",
+      "Hungría–El Salvador",
+      "Yugoslavia–Zaire"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Hungría ganó 10-1 a El Salvador en 1982, el marcador más abultado de un Mundial masculino. László Kiss marcó tres goles en ocho minutos.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-rapido-historia",
+    "text": "¿Quién marcó el gol más rápido de la historia mundialista?",
+    "options": [
+      "Bryan Robson",
+      "Clint Dempsey",
+      "Hakan Şükür",
+      "Ebbe Sand"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Şükür marcó a los 11 segundos con Turquía ante Corea del Sur, en el partido por el tercer puesto de 2002.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugador-veterano-jugar-mundial",
+    "text": "¿Quién es el jugador más veterano en jugar un Mundial?",
+    "options": [
+      "Roger Milla",
+      "Pat Jennings",
+      "Essam El-Hadary",
+      "Faryd Mondragón"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El portero egipcio El-Hadary jugó en 2018 con 45 años y 161 días, ante Arabia Saudí, y paró un penalti.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugador-joven-jugar-mundial",
+    "text": "¿Quién es el jugador más joven en jugar un Mundial?",
+    "options": [
+      "Michael Owen",
+      "Norman Whiteside",
+      "Patrick Kluivert",
+      "Samuel Eto'o"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Whiteside debutó con Irlanda del Norte en 1982, con 17 años y 41 días, y batió el récord de Pelé.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-edad-tenia-pele-marcar",
+    "text": "¿Qué edad tenía Pelé al marcar a Gales en 1958?",
+    "options": [
+      "19 años",
+      "17 años",
+      "18 años",
+      "16 años"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Pelé tenía 17 años y 239 días cuando marcó a Gales en los cuartos de 1958, el goleador más joven de un Mundial.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-goles-marco-marta-mundiales",
+    "text": "¿Cuántos goles marcó Marta en los Mundiales femeninos?",
+    "options": [
+      "17",
+      "14",
+      "15",
+      "19"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Marta marcó 17 goles entre 2003 y 2019, récord de goles en Mundiales femeninos, por delante de Birgit Prinz y Abby Wambach, con 14.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-jugo-siete-mundiales-femeninos",
+    "text": "¿Quién jugó siete Mundiales femeninos?",
+    "options": [
+      "Formiga",
+      "Prinz",
+      "Marta",
+      "Sinclair"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "La brasileña Formiga jugó siete Mundiales femeninos, entre 1995 y 2019. Marta y Christine Sinclair jugaron seis.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-mayor-goleada-mundial",
+    "text": "¿Cuál fue la mayor goleada de un Mundial femenino?",
+    "options": [
+      "EE. UU. 7-0 Taipéi",
+      "Alemania 10-0 Costa de Marfil",
+      "EE. UU. 13-0 Tailandia",
+      "Alemania 11-0 Argentina"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Estados Unidos ganó 13-0 a Tailandia en 2019, la mayor goleada de la historia de un Mundial, masculino o femenino, con cinco goles de Alex Morgan.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-partido-mundial-tuvo-12",
+    "text": "¿Qué partido de Mundial tuvo 12 goles?",
+    "options": [
+      "Alemania–Arabia Saudí",
+      "Hungría–Alemania",
+      "Austria–Suiza",
+      "Brasil–Polonia"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Austria ganó 7-5 a Suiza en 1954, el partido con más goles de la historia de los Mundiales.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-mundial-estreno-trofeo-actual",
+    "text": "¿En qué Mundial se estrenó el trofeo actual?",
+    "options": [
+      "1978",
+      "1970",
+      "1974",
+      "1982"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El trofeo actual, diseñado por Silvio Gazzaniga, se estrenó en 1974, después de que Brasil se quedara la Copa Jules Rimet por ganar su tercer título.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-mundial-decidio-titulo-liguilla",
+    "text": "¿En qué Mundial se decidió el título en una liguilla final?",
+    "options": [
+      "1950",
+      "1958",
+      "1954",
+      "1934"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "En 1950 no hubo final: cuatro selecciones jugaron una liguilla. Uruguay ganó a Brasil en el partido decisivo.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-perdio-final-1934",
+    "text": "¿Qué selección perdió la final de 1934 ante Italia?",
+    "options": [
+      "Hungría",
+      "Yugoslavia",
+      "Checoslovaquia",
+      "Austria"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Italia ganó 2-1 a Checoslovaquia en la prórroga de la final de Roma, con gol de Angelo Schiavio.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-dirigia-brasil-campeon-1970",
+    "text": "¿Quién dirigía a Brasil campeón en 1970?",
+    "options": [
+      "Mário Zagallo",
+      "Vicente Feola",
+      "Telê Santana",
+      "Luiz Felipe Scolari"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Zagallo había ganado el título como jugador en 1958 y 1962, y en 1970 lo ganó como seleccionador, con Pelé y Jairzinho.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-dirigia-argentina-campeona-1978",
+    "text": "¿Quién dirigía a Argentina campeona en 1978?",
+    "options": [
+      "Carlos Bilardo",
+      "Marcelo Bielsa",
+      "Alfio Basile",
+      "César Luis Menotti"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Menotti dirigió a Argentina en el Mundial de 1978, ganado 3-1 a Países Bajos. Bilardo lo ganó en 1986.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-dirigia-italia-campeona-2006",
+    "text": "¿Quién dirigía a Italia campeona en 2006?",
+    "options": [
+      "Fabio Capello",
+      "Roberto Donadoni",
+      "Marcello Lippi",
+      "Arrigo Sacchi"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Lippi ganó con Italia el Mundial de 2006 en Alemania, al vencer a Francia en los penaltis.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-finales-masculinas-ha-jugado",
+    "text": "¿Cuántas finales masculinas ha jugado Alemania?",
+    "options": [
+      "Nueve",
+      "Siete",
+      "Ocho",
+      "Seis"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Alemania (con Alemania Occidental) ha jugado ocho finales, más que ningún otro país, y ha ganado cuatro.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-anfitrion-perdio-final-1958",
+    "text": "¿Qué anfitrión perdió la final de 1958 ante Brasil?",
+    "options": [
+      "Gales",
+      "Suecia",
+      "Hungría",
+      "Francia"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Suecia perdió 5-2 ante Brasil en 1958. Es, junto con Brasil en 1950, uno de los dos anfitriones que han perdido una final.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-primer-gol-historia",
+    "text": "¿Quién marcó el primer gol de la historia de los Mundiales?",
+    "options": [
+      "Pedro Cea",
+      "Lucien Laurent",
+      "Héctor Castro",
+      "Guillermo Stabile"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El francés Lucien Laurent marcó en el minuto 19 del Francia-México del 13 de julio de 1930, el primer gol mundialista.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-maximo-goleador-mundial-4",
+    "text": "¿Quién fue el máximo goleador del Mundial de 1966?",
+    "options": [
+      "Geoff Hurst",
+      "Helmut Haller",
+      "Bobby Moore",
+      "Eusébio"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "El portugués Eusébio marcó nueve goles en 1966, cuatro de ellos en un solo partido contra Corea del Norte.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-tres-cabezazos-arabia",
+    "text": "¿Quién marcó tres cabezazos a Arabia Saudí en 2002?",
+    "options": [
+      "Carsten Jancker",
+      "Oliver Neuville",
+      "Michael Ballack",
+      "Miroslav Klose"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Klose marcó tres goles de cabeza en el 8-0 de Alemania a Arabia Saudí, un hito solo igualado por Skuhravý en 1990.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-fue-maxima-goleadora-mundial",
+    "text": "¿Quién fue la máxima goleadora del Mundial femenino de 1991?",
+    "options": [
+      "Michelle Akers",
+      "Heidi Mohr",
+      "Carin Jennings",
+      "Linda Medalen"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "La estadounidense Michelle Akers marcó diez goles en 1991, récord en un Mundial femenino, y Estados Unidos ganó el primer título.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-gol-oro-final",
+    "text": "¿Quién marcó el gol de oro en la final femenina de 2003?",
+    "options": [
+      "Nia Künzer",
+      "Birgit Prinz",
+      "Maren Meinert",
+      "Josefine Öqvist"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Künzer marcó de cabeza en la prórroga de la final de 2003 y dio a Alemania un 2-1 sobre Suecia.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-campeona-marco-solo-12",
+    "text": "¿Qué campeona marcó solo 12 goles en todo un Mundial?",
+    "options": [
+      "Alemania",
+      "Japón",
+      "Noruega",
+      "España"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "difícil",
+    "explanation": "Japón ganó en 2011 con solo 12 goles, la campeona con menos goles de la historia de un Mundial.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-seleccion-africana-fue-primera",
+    "text": "¿Qué selección africana fue la primera en llegar a cuartos?",
+    "options": [
+      "Senegal",
+      "Marruecos",
+      "Camerún",
+      "Ghana"
+    ],
+    "correctIndex": 2,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Camerún llegó a cuartos en 1990 y perdió 3-2 ante Inglaterra en la prórroga, con Roger Milla como figura.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-primer-gol-oro",
+    "text": "¿Quién marcó el primer gol de oro de un Mundial masculino?",
+    "options": [
+      "Thierry Henry",
+      "Laurent Blanc",
+      "Youri Djorkaeff",
+      "Emmanuel Petit"
+    ],
+    "correctIndex": 1,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Blanc marcó en el minuto 114 contra Paraguay en los octavos de 1998 y dio la victoria a Francia.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-marco-cinco-goles-partido",
+    "text": "¿Quién marcó cinco goles en un partido de un Mundial?",
+    "options": [
+      "Oleg Salenko",
+      "Davor Šuker",
+      "Hristo Stoichkov",
+      "Gheorghe Hagi"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Salenko marcó cinco goles con Rusia en el 6-1 a Camerún en 1994, récord que nadie ha igualado en un partido masculino.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-hombres-ganaron-mundial-jugador",
+    "text": "¿Cuántos hombres ganaron el Mundial como jugador y técnico?",
+    "options": [
+      "Tres",
+      "Uno",
+      "Cuatro",
+      "Dos"
+    ],
+    "correctIndex": 0,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Mário Zagallo, Franz Beckenbauer y Didier Deschamps ganaron el Mundial como jugador y como seleccionador.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "dep-portero-estuvo-517-minutos",
+    "text": "¿Qué portero estuvo 517 minutos sin encajar en un Mundial?",
+    "options": [
+      "Peter Shilton",
+      "Dino Zoff",
+      "Gianluigi Buffon",
+      "Walter Zenga"
+    ],
+    "correctIndex": 3,
+    "category": "Deportes",
+    "difficulty": "muy difícil",
+    "explanation": "Zenga no encajó ningún gol durante 517 minutos en Italia 90, hasta que Caniggia marcó en la semifinal.",
+    "source": "mundiales_de_futbol_masculinos_y_femeninos.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  }
+]

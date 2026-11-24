@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "cien-formula-quimica-agua",
+    "text": "¿Cuál es la fórmula química del agua?",
+    "options": [
+      "O2",
+      "NaCl",
+      "H2O",
+      "CO2"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Cada molécula de agua tiene dos átomos de hidrógeno y uno de oxígeno, por eso se escribe H2O. Es la sustancia más común de la vida en la Tierra.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-absorben-plantas-hacer",
+    "text": "¿Qué gas absorben las plantas al hacer la fotosíntesis?",
+    "options": [
+      "Óxido de nitrógeno",
+      "Monóxido de carbono",
+      "Dióxido de carbono",
+      "Dióxido de azufre"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "En la fotosíntesis las plantas toman dióxido de carbono del aire y agua, y con la luz del Sol fabrican azúcares y liberan oxígeno.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-temperatura-hierve-agua-nivel",
+    "text": "¿A qué temperatura hierve el agua al nivel del mar?",
+    "options": [
+      "80 °C",
+      "100 °C",
+      "120 °C",
+      "90 °C"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "A una atmósfera de presión, es decir, al nivel del mar, el agua pura pasa de líquido a vapor a 100 grados Celsius. En la montaña hierve a menos temperatura.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-temperatura-congela-agua-pura",
+    "text": "¿A qué temperatura se congela el agua pura a 1 atm?",
+    "options": [
+      "10 °C",
+      "0 °C",
+      "-10 °C",
+      "4 °C"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El punto de congelación del agua pura a presión normal es 0 grados Celsius. De hecho, la escala Celsius se definió a partir de este valor y del punto de ebullición.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-fuerza-nos-mantiene-pegados",
+    "text": "¿Qué fuerza nos mantiene pegados al suelo?",
+    "options": [
+      "El magnetismo",
+      "La fricción",
+      "La gravedad",
+      "La inercia"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La Tierra atrae todos los cuerpos con su gravedad, una fuerza que depende de la masa. Es lo que nos da peso y hace que los objetos caigan.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-quimico-simbolo-fe",
+    "text": "¿Qué elemento químico tiene el símbolo Fe?",
+    "options": [
+      "Francio",
+      "Flúor",
+      "Hierro",
+      "Fósforo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Fe viene del nombre latino ferrum, que significa hierro. Es un metal muy usado en construcción, herramientas y, aleado con carbono, en el acero.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-estado-materia-esta-hielo",
+    "text": "¿En qué estado de la materia está el hielo?",
+    "options": [
+      "Líquido",
+      "Sólido",
+      "Plasma",
+      "Gaseoso"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El hielo es agua en estado sólido: sus moléculas están fijas en una estructura ordenada y mantiene su forma, a diferencia del agua líquida o del vapor.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nombre-recibe-paso-gas",
+    "text": "¿Qué nombre recibe el paso de gas a líquido?",
+    "options": [
+      "Condensación",
+      "Solidificación",
+      "Evaporación",
+      "Fusión"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La condensación ocurre cuando un gas se enfría y se vuelve líquido, como el vapor de agua que empaña un espejo o forma gotas en un vaso frío.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-viaja-rapido-luz-sonido",
+    "text": "¿Qué viaja más rápido: la luz o el sonido?",
+    "options": [
+      "El sonido",
+      "Va a la par",
+      "Los dos igual",
+      "La luz"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La luz recorre unos 300 000 km por segundo, mientras que el sonido en el aire apenas llega a unos 343 metros por segundo. Por eso vemos el rayo antes de oír el trueno.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-necesita-fuego-arder",
+    "text": "¿Qué gas necesita el fuego para arder?",
+    "options": [
+      "Neón",
+      "Oxígeno",
+      "Helio",
+      "Argón"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La combustión es una reacción entre un combustible y el oxígeno. Sin este gas, por ejemplo al tapar una vela con un vaso, la llama se apaga.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-instrumento-sirve-medir-temperatura",
+    "text": "¿Qué instrumento sirve para medir la temperatura?",
+    "options": [
+      "Termómetro",
+      "Barómetro",
+      "Higrómetro",
+      "Cronómetro"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El termómetro mide la temperatura, normalmente en grados Celsius. El barómetro mide la presión, el cronómetro el tiempo y el higrómetro la humedad.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-instrumento-usa-medir-masa",
+    "text": "¿Qué instrumento se usa para medir la masa?",
+    "options": [
+      "Cronómetro",
+      "Termómetro",
+      "Balanza",
+      "Regla"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La balanza compara o mide la masa de un objeto. La regla mide longitudes, el termómetro la temperatura y el cronómetro el tiempo.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-polo-iman-atrae-polo",
+    "text": "¿Qué polo de un imán atrae al polo norte de otro?",
+    "options": [
+      "El polo sur",
+      "El polo norte",
+      "Ninguno de ellos",
+      "Los dos polos"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los polos magnéticos opuestos se atraen y los iguales se repelen. Por eso el polo sur de un imán atrae al polo norte de otro.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-quimico-esta-hecho",
+    "text": "¿De qué elemento químico está hecho el diamante?",
+    "options": [
+      "Fósforo",
+      "Azufre",
+      "Silicio",
+      "Carbono"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El diamante es carbono puro con los átomos dispuestos en una red cristalina muy rígida. El grafito del lápiz también es carbono, pero con otra estructura.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-simbolo-quimico-hidrogeno",
+    "text": "¿Cuál es el símbolo químico del hidrógeno?",
+    "options": [
+      "He",
+      "H",
+      "Ho",
+      "Hg"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El hidrógeno se representa con la letra H. He es el helio, Hg el mercurio y Ho el holmio. Es el primer elemento de la tabla periódica.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-particula-atomo-carga-negativa",
+    "text": "¿Qué partícula del átomo tiene carga negativa?",
+    "options": [
+      "El neutrón",
+      "El fotón",
+      "El protón",
+      "El electrón"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los electrones tienen carga eléctrica negativa y giran alrededor del núcleo. Los protones son positivos, los neutrones no tienen carga y el fotón es una partícula de luz.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-metal-liquido-temperatura-ambiente",
+    "text": "¿Qué metal es líquido a temperatura ambiente?",
+    "options": [
+      "Hierro",
+      "Plomo",
+      "Cobre",
+      "Mercurio"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El mercurio funde a unos -39 °C, así que a temperatura ambiente es líquido. Se usó durante mucho tiempo en los termómetros clásicos, hoy retirados por su toxicidad.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-ligero-todos",
+    "text": "¿Cuál es el elemento más ligero de todos?",
+    "options": [
+      "Oxígeno",
+      "Litio",
+      "Hidrógeno",
+      "Helio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El hidrógeno tiene número atómico 1 y es el elemento con menor masa atómica. Le sigue el helio, que ocupa el segundo lugar en la tabla periódica.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-le-pasa-hielo-calentamos",
+    "text": "¿Qué le pasa al hielo cuando lo calentamos?",
+    "options": [
+      "Se endurece",
+      "Se vuelve gas",
+      "Se congela",
+      "Se derrite"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Al aportar calor, el hielo alcanza 0 °C y cambia de sólido a líquido: es la fusión. Después, si seguimos calentando, el agua líquida acabará hirviendo.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elementos-tabla-periodica-actual",
+    "text": "¿Cuántos elementos tiene la tabla periódica actual?",
+    "options": [
+      "120",
+      "112",
+      "108",
+      "118"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La tabla periódica reconocida por la IUPAC llega al elemento 118, el oganesón. Los cuatro últimos, nihonio, moscovio, teneso y oganesón, recibieron su nombre en 2016.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-simbolo-quimico-sodio",
+    "text": "¿Cuál es el símbolo químico del sodio?",
+    "options": [
+      "Sd",
+      "So",
+      "Na",
+      "N"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Na procede del latín natrium. El sodio es un metal alcalino muy reactivo que, junto con el cloro, forma la sal común.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-simbolo-quimico-potasio",
+    "text": "¿Cuál es el símbolo químico del potasio?",
+    "options": [
+      "Po",
+      "P",
+      "K",
+      "Pt"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "K viene del latín kalium. El potasio es un metal alcalino muy reactivo. Po es el polonio, P el fósforo y Pt el platino.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-unidad-fuerza-sistema-internacional",
+    "text": "¿Cuál es la unidad de fuerza en el Sistema Internacional?",
+    "options": [
+      "Newton",
+      "Vatio",
+      "Pascal",
+      "Julio"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El newton (N) es la fuerza que da a una masa de 1 kg una aceleración de 1 m/s². Recibe el nombre de Isaac Newton.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-unidad-mide-energia-sistema",
+    "text": "¿Qué unidad mide la energía en el Sistema Internacional?",
+    "options": [
+      "Julio",
+      "Newton",
+      "Vatio",
+      "Pascal"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El julio (J) es la unidad de energía y trabajo del SI. El vatio mide potencia, es decir, energía por segundo, y el pascal mide presión.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-formulo-ley-gravitacion-universal",
+    "text": "¿Quién formuló la ley de la gravitación universal?",
+    "options": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Niels Bohr",
+      "Isaac Newton"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Newton publicó en 1687 sus Principia, donde expone que dos masas se atraen con una fuerza proporcional a sus masas e inversa al cuadrado de la distancia.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-propuso-teoria-relatividad",
+    "text": "¿Quién propuso la teoría de la relatividad?",
+    "options": [
+      "Isaac Newton",
+      "Max Planck",
+      "Marie Curie",
+      "Albert Einstein"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Einstein publicó la relatividad especial en 1905 y la relatividad general en 1915. Transformó nuestra idea del espacio, el tiempo y la gravedad.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-forma-mayor-parte",
+    "text": "¿Qué gas forma la mayor parte de la atmósfera terrestre?",
+    "options": [
+      "Argón",
+      "Hidrógeno",
+      "Oxígeno",
+      "Nitrógeno"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El aire seco contiene cerca de un 78 % de nitrógeno, un 21 % de oxígeno y menos de un 1 % de argón y otros gases en pequeñas cantidades.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-formula-quimica-dioxido-carbono",
+    "text": "¿Cuál es la fórmula química del dióxido de carbono?",
+    "options": [
+      "CO",
+      "CO3",
+      "C2O",
+      "CO2"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Una molécula de dióxido de carbono tiene un átomo de carbono y dos de oxígeno. Es un gas de efecto invernadero que también exhalamos al respirar.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-centro-atomo",
+    "text": "¿Cómo se llama el centro del átomo?",
+    "options": [
+      "El núcleo",
+      "La capa",
+      "La corteza",
+      "El orbital"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El núcleo atómico concentra casi toda la masa del átomo y contiene protones y neutrones. Los electrones se mueven a su alrededor en la corteza.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cientifica-gano-nobel-fisica",
+    "text": "¿Qué científica ganó el Nobel de Física y el de Química?",
+    "options": [
+      "Rosalind Franklin",
+      "Marie Curie",
+      "Lise Meitner",
+      "Dorothy Hodgkin"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Marie Curie ganó el Nobel de Física en 1903, compartido, y el de Química en 1911 por descubrir el polonio y el radio. Sigue siendo la única persona premiada en dos ciencias.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-magnitud-mide-amperimetro",
+    "text": "¿Qué magnitud mide un amperímetro?",
+    "options": [
+      "La potencia",
+      "El voltaje",
+      "La resistencia",
+      "La corriente"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El amperímetro mide la intensidad de corriente eléctrica, en amperios, y se conecta en serie en el circuito. El voltímetro, en cambio, mide la tensión.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-noble-usa-inflar",
+    "text": "¿Qué gas noble se usa para inflar globos que flotan?",
+    "options": [
+      "Helio",
+      "Neón",
+      "Argón",
+      "Xenón"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El helio es un gas noble menos denso que el aire y no es inflamable, por eso se usa en globos y dirigibles. El hidrógeno también flota, pero arde con facilidad.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ph-agua-pura-25",
+    "text": "¿Cuál es el pH del agua pura a 25 °C?",
+    "options": [
+      "7",
+      "14",
+      "10",
+      "0"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El agua pura a 25 °C es neutra y tiene pH 7. Los valores menores de 7 indican acidez y los mayores de 7, basicidad o alcalinidad.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tipo-reaccion-quimica-libera",
+    "text": "¿Qué tipo de reacción química libera calor?",
+    "options": [
+      "Isotérmica",
+      "Exotérmica",
+      "Endotérmica",
+      "Adiabática"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "En una reacción exotérmica, como la combustión, se desprende energía en forma de calor. En una endotérmica sucede lo contrario: se absorbe energía del entorno.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-velocidad-luz-vacio",
+    "text": "¿Cuál es la velocidad de la luz en el vacío?",
+    "options": [
+      "340 m/s",
+      "300 000 km/s",
+      "30 000 km/s",
+      "3 000 km/s"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La luz viaja en el vacío a 299 792 458 m/s, valor exacto por definición, que se redondea a 300 000 km/s. Los 340 m/s corresponden al sonido en el aire.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-base-quimica-organica",
+    "text": "¿Qué elemento es la base de la química orgánica?",
+    "options": [
+      "Carbono",
+      "Silicio",
+      "Azufre",
+      "Calcio"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El carbono forma cadenas largas y enlaces estables con hidrógeno, oxígeno y nitrógeno. Esto le permite construir la enorme variedad de compuestos orgánicos.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-energia-cuerpo-moverse",
+    "text": "¿Cómo se llama la energía que tiene un cuerpo al moverse?",
+    "options": [
+      "Química",
+      "Potencial",
+      "Térmica",
+      "Cinética"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La energía cinética depende de la masa y del cuadrado de la velocidad. La potencial, en cambio, depende de la posición o configuración del cuerpo.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ley-habla-accion-reaccion",
+    "text": "¿Qué ley habla de la acción y la reacción?",
+    "options": [
+      "La segunda ley de Newton",
+      "La tercera ley de Newton",
+      "La primera ley de Newton",
+      "La ley de Hooke"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La tercera ley de Newton dice que, si un cuerpo ejerce una fuerza sobre otro, este ejerce sobre el primero otra fuerza igual y de sentido contrario.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-publico-tabla-periodica-1869",
+    "text": "¿Quién publicó la tabla periódica en 1869?",
+    "options": [
+      "Niels Bohr",
+      "Antoine Lavoisier",
+      "John Dalton",
+      "Dmitri Mendeléyev"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Mendeléyev ordenó los elementos por masa atómica y dejó huecos para otros aún sin descubrir, cuyas propiedades predijo con acierto, como las del galio y el germanio.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-particula-nucleo-carga-electrica",
+    "text": "¿Qué partícula del núcleo no tiene carga eléctrica?",
+    "options": [
+      "El positrón",
+      "El electrón",
+      "El protón",
+      "El neutrón"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El neutrón es eléctricamente neutro y, junto con el protón, forma el núcleo atómico. El positrón es la antipartícula del electrón y no está en el núcleo.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-simbolo-quimico-plata",
+    "text": "¿Cuál es el símbolo químico de la plata?",
+    "options": [
+      "Pt",
+      "Pb",
+      "Ag",
+      "Pl"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Ag viene del latín argentum. Pt es el platino y Pb el plomo. La plata es el metal con mayor conductividad eléctrica y térmica.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-simbolo-quimico-plomo",
+    "text": "¿Cuál es el símbolo químico del plomo?",
+    "options": [
+      "Pl",
+      "Pb",
+      "Po",
+      "P"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Pb procede del latín plumbum, de donde también viene la palabra «plomería». El plomo es un metal pesado y blando, hoy limitado por su toxicidad.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-unidad-usa-medir-frecuencia",
+    "text": "¿Qué unidad se usa para medir la frecuencia?",
+    "options": [
+      "Voltio",
+      "Hercio",
+      "Tesla",
+      "Decibelio"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El hercio (Hz) equivale a un ciclo por segundo. Debe su nombre a Heinrich Hertz, que demostró experimentalmente las ondas electromagnéticas en 1887.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-unidad-resistencia-electrica",
+    "text": "¿Cuál es la unidad de resistencia eléctrica?",
+    "options": [
+      "Voltio",
+      "Ohmio",
+      "Amperio",
+      "Vatio"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El ohmio (Ω) es la resistencia que deja pasar un amperio con una tensión de un voltio. Lleva el nombre de Georg Ohm, que formuló la ley que relaciona estas magnitudes.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-radiactividad-1896",
+    "text": "¿Quién descubrió la radiactividad en 1896?",
+    "options": [
+      "Marie Curie",
+      "Wilhelm Röntgen",
+      "Ernest Rutherford",
+      "Henri Becquerel"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Becquerel observó que las sales de uranio velaban placas fotográficas sin luz. Marie Curie bautizó el fenómeno como radiactividad y los tres compartieron el Nobel de 1903.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-rayos-descubrio-rontgen-1895",
+    "text": "¿Qué rayos descubrió Röntgen en 1895?",
+    "options": [
+      "Rayos gamma",
+      "Rayos alfa",
+      "Rayos X",
+      "Rayos UV"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Wilhelm Röntgen los llamó rayos X porque no sabía qué eran. Le valieron el primer Nobel de Física, en 1901, y revolucionaron el diagnóstico médico.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-acido-esta-presente-limon",
+    "text": "¿Qué ácido está presente en el limón?",
+    "options": [
+      "Ácido acético",
+      "Ácido nítrico",
+      "Ácido sulfúrico",
+      "Ácido cítrico"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El ácido cítrico es el responsable del sabor ácido de los cítricos. El acético es el del vinagre, mientras que el sulfúrico y el nítrico son ácidos minerales fuertes.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-instrumento-mide-presion-atmosferica",
+    "text": "¿Qué instrumento mide la presión atmosférica?",
+    "options": [
+      "Anemómetro",
+      "Termómetro",
+      "Higrómetro",
+      "Barómetro"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El barómetro mide la presión del aire. Evangelista Torricelli construyó el primero en 1643 con una columna de mercurio.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-abundante-universo",
+    "text": "¿Cuál es el elemento más abundante del universo?",
+    "options": [
+      "Oxígeno",
+      "Hidrógeno",
+      "Carbono",
+      "Helio"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El hidrógeno supone cerca del 75 % de la materia ordinaria del universo y el helio cerca del 25 %. Los demás elementos son una fracción muy pequeña.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-abundante-corteza-terrestre",
+    "text": "¿Qué elemento es el más abundante en la corteza terrestre?",
+    "options": [
+      "Silicio",
+      "Oxígeno",
+      "Aluminio",
+      "Hierro"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El oxígeno representa casi la mitad de la masa de la corteza terrestre, sobre todo formando óxidos y silicatos. Le sigue el silicio.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-numero-atomico-carbono",
+    "text": "¿Cuál es el número atómico del carbono?",
+    "options": [
+      "14",
+      "12",
+      "8",
+      "6"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El carbono tiene 6 protones, así que su número atómico es 6. El 12 es el número másico de su isótopo más común, que suma protones y neutrones.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-forma-molecula-agua",
+    "text": "¿Qué forma tiene la molécula de agua?",
+    "options": [
+      "Tetraédrica",
+      "Angular",
+      "Lineal",
+      "Piramidal"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El átomo de oxígeno tiene dos pares de electrones sin compartir que empujan a los átomos de hidrógeno, y la molécula queda doblada con un ángulo de unos 104,5°.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vale-cero-absoluto-escala",
+    "text": "¿Cuánto vale el cero absoluto en la escala kelvin?",
+    "options": [
+      "-273 K",
+      "273 K",
+      "0 K",
+      "100 K"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El cero absoluto es 0 K, equivalente a -273,15 °C. Es el límite teórico inferior de temperatura, en el que cesaría casi toda la agitación térmica.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nombre-pasar-solido-gas",
+    "text": "¿Qué nombre tiene pasar de sólido a gas directamente?",
+    "options": [
+      "Sublimación",
+      "Evaporación",
+      "Deposición",
+      "Fusión"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "En la sublimación una sustancia pasa de sólido a gas sin fundirse, como el hielo seco o la naftalina. El proceso inverso se llama deposición.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-enuncio-principio-flotacion",
+    "text": "¿Quién enunció el principio de la flotación?",
+    "options": [
+      "Torricelli",
+      "Arquímedes",
+      "Pascal",
+      "Galileo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Según Arquímedes, un cuerpo sumergido recibe un empuje hacia arriba igual al peso del fluido que desplaza. Lo formuló en el siglo III a. C.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-magnitud-mide-decibelio",
+    "text": "¿Qué magnitud mide el decibelio?",
+    "options": [
+      "El nivel sonoro",
+      "La longitud de onda",
+      "El timbre",
+      "La frecuencia"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El decibelio (dB) expresa de forma logarítmica la intensidad o nivel de un sonido. Una conversación normal ronda los 60 dB.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-enlace-une-sodio-cloro",
+    "text": "¿Qué enlace une el sodio y el cloro en la sal común?",
+    "options": [
+      "Dipolar",
+      "Covalente",
+      "Iónico",
+      "Metálico"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El sodio cede un electrón al cloro. Los iones, Na+ y Cl-, se atraen por fuerzas eléctricas y forman un cristal de cloruro de sodio.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-metal-usa-fabricar-cables",
+    "text": "¿Qué metal se usa más para fabricar cables eléctricos?",
+    "options": [
+      "Hierro",
+      "Cobre",
+      "Oro",
+      "Plomo"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El cobre combina muy buena conductividad eléctrica, ductilidad y precio asequible. El oro conduce bien, pero es mucho más caro.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-propuso-1913-modelo-atomico",
+    "text": "¿Quién propuso en 1913 un modelo atómico con órbitas?",
+    "options": [
+      "Niels Bohr",
+      "J. J. Thomson",
+      "John Dalton",
+      "Ernest Rutherford"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Bohr propuso que los electrones giran en órbitas con energías fijas y emiten o absorben luz al saltar entre ellas, explicando así el espectro del hidrógeno.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-electron-1897",
+    "text": "¿Quién descubrió el electrón en 1897?",
+    "options": [
+      "Niels Bohr",
+      "Ernest Rutherford",
+      "J. J. Thomson",
+      "James Chadwick"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Joseph John Thomson midió con rayos catódicos la relación entre la carga y la masa del electrón. Por ello recibió el Nobel de Física de 1906.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-neutron-1932",
+    "text": "¿Quién descubrió el neutrón en 1932?",
+    "options": [
+      "Enrico Fermi",
+      "Niels Bohr",
+      "James Chadwick",
+      "Ernest Rutherford"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Chadwick identificó el neutrón al bombardear berilio con partículas alfa. Este hallazgo le valió el Nobel de Física de 1935.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-principio-dice-energia-solo",
+    "text": "¿Qué principio dice que la energía solo se transforma?",
+    "options": [
+      "Principio de incertidumbre",
+      "Ley de Avogadro",
+      "Principio de exclusión",
+      "Conservación de la energía"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El principio de conservación de la energía establece que la energía total de un sistema aislado permanece constante: solo cambia de una forma a otra.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-valor-aproximado-numero-avogadro",
+    "text": "¿Cuál es el valor aproximado del número de Avogadro?",
+    "options": [
+      "6,02 × 10^32",
+      "3,00 × 10^8",
+      "1,60 × 10^-19",
+      "6,02 × 10^23"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El número de Avogadro es el de partículas que hay en un mol. Desde 2019 vale exactamente 6,022 140 76 × 10^23 por mol.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-formulo-principio-incertidumbre",
+    "text": "¿Quién formuló el principio de incertidumbre?",
+    "options": [
+      "Paul Dirac",
+      "Wolfgang Pauli",
+      "Erwin Schrödinger",
+      "Werner Heisenberg"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Heisenberg formuló en 1927 que no se pueden conocer con precisión absoluta, a la vez, la posición y el momento lineal de una partícula.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-particula-transmite-fuerza-electromagnetica",
+    "text": "¿Qué partícula transmite la fuerza electromagnética?",
+    "options": [
+      "El gravitón",
+      "El fotón",
+      "El gluón",
+      "El bosón W"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En el Modelo Estándar la interacción electromagnética se transmite mediante fotones. Los gluones transmiten la fuerza fuerte y los bosones W y Z, la débil.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-electrones-atomo-neutro-oxigeno",
+    "text": "¿Cuántos electrones tiene un átomo neutro de oxígeno?",
+    "options": [
+      "8",
+      "18",
+      "6",
+      "16"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El oxígeno tiene número atómico 8, es decir, 8 protones. Al ser neutro, tiene también 8 electrones.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ley-relaciona-voltaje-intensidad",
+    "text": "¿Qué ley relaciona voltaje, intensidad y resistencia?",
+    "options": [
+      "Ley de Ohm",
+      "Ley de Faraday",
+      "Ley de Lenz",
+      "Ley de Coulomb"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La ley de Ohm dice que la tensión es igual a la intensidad multiplicada por la resistencia (V = I · R) en los materiales óhmicos.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ley-describe-fuerza-entre",
+    "text": "¿Qué ley describe la fuerza entre dos cargas eléctricas?",
+    "options": [
+      "Ley de Ohm",
+      "Ley de Coulomb",
+      "Ley de Joule",
+      "Ley de Hooke"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La ley de Coulomb dice que la fuerza entre dos cargas es proporcional al producto de ambas e inversamente proporcional al cuadrado de su distancia.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-enuncio-tres-leyes-movimiento",
+    "text": "¿Quién enunció las tres leyes del movimiento planetario?",
+    "options": [
+      "Johannes Kepler",
+      "Nicolás Copérnico",
+      "Galileo Galilei",
+      "Tycho Brahe"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Kepler formuló sus leyes entre 1609 y 1619 a partir de los datos de Tycho Brahe. Describen órbitas elípticas y sirvieron de base a la gravitación de Newton.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-libera-acido-atacar",
+    "text": "¿Qué gas libera un ácido al atacar a un metal activo?",
+    "options": [
+      "Hidrógeno",
+      "Cloro",
+      "Nitrógeno",
+      "Oxígeno"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Al reaccionar un ácido con metales como el cinc o el magnesio se forma una sal y se desprende hidrógeno gaseoso, que forma burbujas.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-reaccion-entre-acido",
+    "text": "¿Cómo se llama la reacción entre un ácido y una base?",
+    "options": [
+      "Combustión",
+      "Oxidación",
+      "Neutralización",
+      "Precipitación"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En la neutralización un ácido y una base reaccionan y producen una sal y agua. Es la base de la valoración ácido-base.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-propuso-primera-teoria-atomica",
+    "text": "¿Quién propuso la primera teoría atómica moderna en 1808?",
+    "options": [
+      "Niels Bohr",
+      "Demócrito",
+      "John Dalton",
+      "Antoine Lavoisier"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Dalton propuso que la materia se compone de átomos indivisibles, iguales entre sí en cada elemento. Demócrito ya había imaginado los átomos, pero sin base experimental.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-trabajo-recibio-einstein-nobel",
+    "text": "¿Por qué trabajo recibió Einstein el Nobel de Física?",
+    "options": [
+      "Relatividad general",
+      "Movimiento browniano",
+      "Efecto fotoeléctrico",
+      "Relatividad especial"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Einstein recibió el Nobel por sus aportaciones a la física teórica y, en especial, por la ley del efecto fotoeléctrico. Lo recibió en 1922, correspondiente al año 1921.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-quimico-simbolo",
+    "text": "¿Qué elemento químico tiene el símbolo W?",
+    "options": [
+      "Bario",
+      "Berilio",
+      "Wolframio",
+      "Vanadio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "W procede de wolframio, nombre alemán del elemento, que en inglés se llama tungsten. Tiene número atómico 74.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-quimico-simbolo-sn",
+    "text": "¿Qué elemento químico tiene el símbolo Sn?",
+    "options": [
+      "Silicio",
+      "Estaño",
+      "Azufre",
+      "Selenio"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Sn viene del latín stannum. El estaño se alea con el cobre para obtener bronce y se usa en soldaduras. Se, Si y S son selenio, silicio y azufre.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-mayor-electronegatividad",
+    "text": "¿Qué elemento tiene mayor electronegatividad?",
+    "options": [
+      "Nitrógeno",
+      "Flúor",
+      "Cloro",
+      "Oxígeno"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El flúor es el elemento más electronegativo, con 3,98 en la escala de Pauling. Le sigue el oxígeno, que ocupa el segundo puesto con 3,44.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ph-disolucion-acida",
+    "text": "¿Cuál es el pH de una disolución ácida?",
+    "options": [
+      "Menor que 7",
+      "Mayor que 7",
+      "Igual a 7",
+      "Igual a 14"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Una disolución es ácida si su pH es menor que 7, porque contiene más iones hidronio. Cuanto menor es el pH, más ácida resulta.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tipo-onda-mecanica-sonido",
+    "text": "¿Qué tipo de onda mecánica es el sonido en el aire?",
+    "options": [
+      "Longitudinal",
+      "Gravitacional",
+      "Transversal",
+      "Electromagnética"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En el sonido, las partículas del aire vibran en la misma dirección en que avanza la onda, formando compresiones y rarefacciones. Por eso es longitudinal.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-magnitud-mide-teslas",
+    "text": "¿Qué magnitud se mide en teslas?",
+    "options": [
+      "Potencia eléctrica",
+      "Capacidad eléctrica",
+      "Campo magnético",
+      "Carga eléctrica"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El tesla (T) es la unidad de densidad de flujo magnético, que mide el campo magnético. Debe su nombre a Nikola Tesla.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-nucleo-atomico",
+    "text": "¿Quién descubrió el núcleo atómico?",
+    "options": [
+      "Robert Millikan",
+      "Niels Bohr",
+      "Ernest Rutherford",
+      "J. J. Thomson"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En 1911 Rutherford interpretó los experimentos de Geiger y Marsden con láminas de oro y concluyó que la carga positiva del átomo se concentra en un núcleo diminuto.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-midio-carga-electron-gotas",
+    "text": "¿Quién midió la carga del electrón con gotas de aceite?",
+    "options": [
+      "Ernest Rutherford",
+      "J. J. Thomson",
+      "Robert Millikan",
+      "Henri Becquerel"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "En 1909 Millikan midió la carga del electrón observando gotas de aceite en un campo eléctrico. Le dieron el Nobel de Física de 1923.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-constante-conecta-temperatura-energia",
+    "text": "¿Qué constante conecta temperatura y energía molecular?",
+    "options": [
+      "Constante de Boltzmann",
+      "Constante de Rydberg",
+      "Constante de Faraday",
+      "Constante de Planck"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La constante de Boltzmann, de 1,380649 × 10^-23 J/K, relaciona la temperatura con la energía cinética media de las partículas.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-masa-molar-aproximada-agua",
+    "text": "¿Cuál es la masa molar aproximada del agua?",
+    "options": [
+      "20 g/mol",
+      "16 g/mol",
+      "18 g/mol",
+      "34 g/mol"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Se suman dos átomos de hidrógeno, 1 g/mol cada uno, y uno de oxígeno, 16 g/mol, y resultan unos 18 g/mol.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-energeticamente-reaccion-fotosintesis",
+    "text": "Energéticamente, ¿cómo es la reacción de fotosíntesis?",
+    "options": [
+      "Endotérmica",
+      "Exotérmica",
+      "Isotérmica",
+      "Adiabática"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La fotosíntesis absorbe energía luminosa para fabricar glucosa a partir de dióxido de carbono y agua. Es, por tanto, una reacción endotérmica.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-considerado-padre-quimica-moderna",
+    "text": "¿Quién es considerado el padre de la química moderna?",
+    "options": [
+      "Robert Boyle",
+      "Joseph Priestley",
+      "John Dalton",
+      "Antoine Lavoisier"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Lavoisier estableció la conservación de la masa en las reacciones, explicó la combustión como combinación con oxígeno y renovó la nomenclatura química.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-formulo-ecuaciones-electromagnetismo",
+    "text": "¿Quién formuló las ecuaciones del electromagnetismo?",
+    "options": [
+      "André-Marie Ampère",
+      "Michael Faraday",
+      "James Clerk Maxwell",
+      "Heinrich Hertz"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Maxwell reunió en un sistema de ecuaciones, a partir de 1861, la electricidad, el magnetismo y la luz. Hertz comprobó después las ondas que predecían.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-particulas-estan-hechos-protones",
+    "text": "¿De qué partículas están hechos los protones y neutrones?",
+    "options": [
+      "Neutrinos",
+      "Fotones",
+      "Quarks",
+      "Leptones"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Protones y neutrones están formados por tres quarks cada uno: dos up y uno down el protón, y dos down y uno up el neutrón.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-estado-materia-predomina-estrellas",
+    "text": "¿Qué estado de la materia predomina en las estrellas?",
+    "options": [
+      "Gaseoso",
+      "Plasma",
+      "Líquido",
+      "Sólido"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Las estrellas son plasma: gas tan caliente que los átomos pierden sus electrones y quedan iones y electrones libres.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-polonio-radio",
+    "text": "¿Quién descubrió el polonio y el radio?",
+    "options": [
+      "Otto Hahn y Fritz Strassmann",
+      "Marie y Pierre Curie",
+      "Henri Becquerel",
+      "Ernest Rutherford"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El matrimonio Curie descubrió el polonio y el radio en 1898 a partir de la pechblenda, un mineral de uranio. Marie bautizó el polonio en honor a su Polonia natal.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-metal-punto-fusion-alto",
+    "text": "¿Qué metal tiene el punto de fusión más alto?",
+    "options": [
+      "Renio",
+      "Osmio",
+      "Platino",
+      "Wolframio"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El wolframio, o tungsteno, funde a 3422 °C, el punto de fusión más alto de todos los metales. Por eso se usó en los filamentos de las bombillas.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-particula-anuncio-cern-2012",
+    "text": "¿Qué partícula anunció el CERN en 2012?",
+    "options": [
+      "Gravitón",
+      "Quark top",
+      "Neutrino tau",
+      "Bosón de Higgs"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El 4 de julio de 2012 los experimentos ATLAS y CMS del CERN anunciaron el bosón de Higgs, la partícula asociada al campo que da masa a otras partículas.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-fue-primer-elemento-producido",
+    "text": "¿Qué fue el primer elemento producido artificialmente?",
+    "options": [
+      "Tecnecio",
+      "Astato",
+      "Prometio",
+      "Neptunio"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Perrier y Segrè lo obtuvieron en 1937 bombardeando molibdeno con deuterones. Su nombre viene del griego technetos, que significa «artificial».",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-fisico-predijo-teoricamente-positron",
+    "text": "¿Qué físico predijo teóricamente el positrón?",
+    "options": [
+      "Paul Dirac",
+      "Carl Anderson",
+      "Wolfgang Pauli",
+      "Enrico Fermi"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La ecuación relativista de Dirac, de 1928, condujo a predecir la antipartícula del electrón, que él propuso en 1931. Anderson la detectó en 1932 en rayos cósmicos.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-numero-cuantico-define-forma",
+    "text": "¿Qué número cuántico define la forma de un orbital?",
+    "options": [
+      "De espín (s)",
+      "Azimutal (l)",
+      "Principal (n)",
+      "Magnético (m)"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El número cuántico azimutal, o secundario, determina la forma del orbital: s esférico, p con dos lóbulos, etc. El principal fija el nivel de energía.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-metal-liquido-temperatura-ambiente-2",
+    "text": "¿Qué no metal es líquido a temperatura ambiente?",
+    "options": [
+      "Cloro",
+      "Flúor",
+      "Bromo",
+      "Yodo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El bromo es el único no metal líquido en condiciones normales. El mercurio también lo es, pero es un metal. Cloro y flúor son gases, y el yodo es sólido.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-midio-velocidad-luz-rueda",
+    "text": "¿Quién midió la velocidad de la luz con una rueda dentada?",
+    "options": [
+      "Albert Michelson",
+      "Hippolyte Fizeau",
+      "Ole Rømer",
+      "Léon Foucault"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "En 1849 Fizeau midió en la Tierra, por primera vez, la velocidad de la luz con una rueda dentada y obtuvo unos 315 000 km/s. Rømer la estimó en 1676 con las lunas de Júpiter.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-atomo-basa-definicion-segundo",
+    "text": "¿En qué átomo se basa la definición del segundo del SI?",
+    "options": [
+      "Cesio-133",
+      "Hidrógeno-1",
+      "Rubidio-87",
+      "Estroncio-87"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El segundo se define fijando en 9 192 631 770 Hz la frecuencia de la transición hiperfina del estado fundamental del cesio-133.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-unidad-si-mide-actividad",
+    "text": "¿Qué unidad del SI mide la actividad radiactiva?",
+    "options": [
+      "Becquerel",
+      "Curie",
+      "Sievert",
+      "Gray"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El becquerel (Bq) equivale a una desintegración por segundo. El gray mide dosis absorbida y el sievert, dosis equivalente. El curie es una unidad antigua ajena al SI.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-elemento-quimico-lleva-nombre",
+    "text": "¿Qué elemento químico lleva el nombre de Copérnico?",
+    "options": [
+      "Seaborgio",
+      "Roentgenio",
+      "Meitnerio",
+      "Copernicio"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "El elemento 112 se llama copernicio (Cn) en honor a Nicolás Copérnico. La IUPAC aprobó el nombre el 19 de febrero de 2010, su aniversario de nacimiento.",
+    "source": "fisica_y_quimica.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  }
+]

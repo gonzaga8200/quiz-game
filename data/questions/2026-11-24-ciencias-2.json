@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "cien-estrella-esta-centro-sistema",
+    "text": "¿Qué estrella está en el centro del sistema solar?",
+    "options": [
+      "Marte",
+      "Sirio",
+      "El Sol",
+      "La Luna"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El Sol es la única estrella del sistema solar. Todos los planetas, asteroides y cometas giran a su alrededor y reciben de él su luz y su calor.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-satelite-natural-tierra",
+    "text": "¿Cómo se llama el satélite natural de la Tierra?",
+    "options": [
+      "Europa",
+      "Fobos",
+      "La Luna",
+      "Titán"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La Luna es el único satélite natural de la Tierra y tarda unos 27 días en darle una vuelta. Fobos orbita Marte, Titán orbita Saturno y Europa orbita Júpiter.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-conocido-planeta-rojo",
+    "text": "¿Qué planeta es conocido como el planeta rojo?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Mercurio",
+      "Venus"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Marte se ve rojizo por el óxido de hierro que cubre su superficie, un polvo parecido a la herrumbre. Por eso los antiguos lo asociaron con la sangre y la guerra.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-anillos-muy-visibles",
+    "text": "¿Qué planeta tiene unos anillos muy visibles?",
+    "options": [
+      "Marte",
+      "Mercurio",
+      "Saturno",
+      "Venus"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los anillos de Saturno, formados sobre todo por hielo y roca, se ven incluso con un telescopio pequeño. Son los más grandes y brillantes del sistema solar.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-planeta-vivimos",
+    "text": "¿Cómo se llama el planeta donde vivimos?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "La Tierra",
+      "Venus"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Vivimos en la Tierra, el tercer planeta desde el Sol. Es el único mundo conocido con agua líquida en su superficie y con vida.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planetas-sistema-solar",
+    "text": "¿Cuántos planetas tiene el sistema solar?",
+    "options": [
+      "8",
+      "7",
+      "10",
+      "9"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El sistema solar tiene ocho planetas, de Mercurio a Neptuno. Desde 2006 Plutón no cuenta como planeta, sino como planeta enano.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-esta-cerca-sol",
+    "text": "¿Qué planeta está más cerca del Sol?",
+    "options": [
+      "Venus",
+      "Mercurio",
+      "Marte",
+      "La Tierra"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Mercurio es el primer planeta desde el Sol, a unos 58 millones de kilómetros de media. Por su cercanía recorre su órbita en solo 88 días terrestres.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-provoca-haya-dia-noche",
+    "text": "¿Qué provoca que haya día y noche en la Tierra?",
+    "options": [
+      "La rotación de la Tierra",
+      "El viento solar",
+      "La órbita de la Luna",
+      "Las nubes del cielo"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La Tierra gira sobre su eje una vez cada 24 horas. La mitad que mira al Sol tiene día y la mitad opuesta tiene noche.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tarda-tierra-dar-vuelta",
+    "text": "¿Cuánto tarda la Tierra en dar una vuelta al Sol?",
+    "options": [
+      "Un día",
+      "Una semana",
+      "Un mes",
+      "Un año"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La Tierra tarda unos 365 días en completar su órbita alrededor del Sol, que es lo que llamamos un año. Cada cuatro años se añade un día más.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-fue-primer-hombre-pisar",
+    "text": "¿Quién fue el primer hombre en pisar la Luna?",
+    "options": [
+      "Alan Shepard",
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Neil Armstrong pisó la Luna el 20 de julio de 1969, en la misión Apolo 11. Buzz Aldrin lo acompañó unos minutos después.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cuerpo-sistema-solar-cola",
+    "text": "¿Qué cuerpo del sistema solar tiene una cola brillante?",
+    "options": [
+      "Un cometa",
+      "Un planeta",
+      "Un satélite",
+      "Una estrella"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los cometas son bolas de hielo y polvo. Al acercarse al Sol se calientan y desprenden gas y polvo que forman una cola brillante.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llaman-cuerpos-giran-torno",
+    "text": "¿Cómo se llaman los cuerpos que giran en torno a un planeta?",
+    "options": [
+      "Galaxias",
+      "Cometas",
+      "Satélites",
+      "Estrellas"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Los satélites naturales, o lunas, giran alrededor de un planeta. La Tierra tiene uno, la Luna, y otros planetas como Júpiter y Saturno tienen muchos.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-lugar-ocupa-tierra-contando",
+    "text": "¿Qué lugar ocupa la Tierra contando desde el Sol?",
+    "options": [
+      "El tercero",
+      "El primero",
+      "El quinto",
+      "El cuarto"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La Tierra es el tercer planeta desde el Sol, después de Mercurio y Venus y antes de Marte.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tipo-astro-sol",
+    "text": "¿Qué tipo de astro es el Sol?",
+    "options": [
+      "Un cometa",
+      "Un satélite",
+      "Un planeta",
+      "Una estrella"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El Sol es una estrella, una enorme esfera de gas muy caliente que produce luz y calor al fusionar hidrógeno en helio en su interior.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-vehiculo-lleva-astronautas-espacio",
+    "text": "¿Qué vehículo lleva a los astronautas al espacio?",
+    "options": [
+      "Un submarino",
+      "Un cohete",
+      "Un globo",
+      "Un autobús"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Solo un cohete tiene potencia suficiente para vencer la gravedad terrestre y alcanzar la velocidad necesaria para llegar al espacio.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-luna-ve-toda",
+    "text": "¿Cómo se llama la Luna cuando se ve toda redonda?",
+    "options": [
+      "Cuarto menguante",
+      "Luna creciente",
+      "Luna nueva",
+      "Luna llena"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "La Luna llena ocurre cuando la Tierra queda entre el Sol y la Luna, y vemos entera su cara iluminada. Se repite cada unos 29 días.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-galaxia-esta-sistema",
+    "text": "¿Cómo se llama la galaxia donde está el sistema solar?",
+    "options": [
+      "Andrómeda",
+      "Triángulo",
+      "Sombrero",
+      "Vía Láctea"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "El sistema solar está en un brazo de la Vía Láctea, una galaxia espiral con cientos de miles de millones de estrellas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-pequeno-sistema-solar",
+    "text": "¿Cuál es el planeta más pequeño del sistema solar?",
+    "options": [
+      "Venus",
+      "La Tierra",
+      "Mercurio",
+      "Marte"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Mercurio mide unos 4879 km de diámetro, solo algo más que la Luna. Marte es el segundo más pequeño y Venus y la Tierra son bastante mayores.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-ve-lucero-brillante",
+    "text": "¿Qué planeta se ve como un lucero brillante al amanecer?",
+    "options": [
+      "Urano",
+      "Plutón",
+      "Neptuno",
+      "Venus"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "muy fácil",
+    "explanation": "Venus es el astro más brillante del cielo después del Sol y la Luna. Se ve poco antes del amanecer o tras el atardecer, por eso se le llama lucero.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-caliente-sistema-solar",
+    "text": "¿Cuál es el planeta más caliente del sistema solar?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Mercurio",
+      "Venus"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Venus tiene una superficie de unos 462 °C por el efecto invernadero de su atmósfera de dióxido de carbono. Mercurio está más cerca del Sol, pero no retiene el calor.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-gran-mancha-roja",
+    "text": "¿Qué planeta tiene la Gran Mancha Roja?",
+    "options": [
+      "Marte",
+      "Saturno",
+      "Júpiter",
+      "Neptuno"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La Gran Mancha Roja es una tormenta de Júpiter con una antigüedad de al menos 300 años. Es mayor que la Tierra: más de dos diámetros terrestres de ancho.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llaman-dos-lunas-marte",
+    "text": "¿Cómo se llaman las dos lunas de Marte?",
+    "options": [
+      "Titán y Rea",
+      "Ío y Europa",
+      "Fobos y Deimos",
+      "Tritón y Nereida"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Marte tiene dos satélites pequeños e irregulares, Fobos y Deimos, probablemente asteroides capturados por su gravedad.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-alejado-sol",
+    "text": "¿Cuál es el planeta más alejado del Sol?",
+    "options": [
+      "Neptuno",
+      "Saturno",
+      "Júpiter",
+      "Urano"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Neptuno es el octavo y último planeta, a unos 4500 millones de kilómetros del Sol. Tarda cerca de 165 años en completar una órbita.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-gira-practicamente-tumbado",
+    "text": "¿Qué planeta gira prácticamente tumbado de lado?",
+    "options": [
+      "Urano",
+      "Saturno",
+      "Neptuno",
+      "Júpiter"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El eje de rotación de Urano está inclinado unos 98 grados, así que gira casi tumbado sobre su órbita. Por eso sus estaciones son extremas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-luna-grande-jupiter",
+    "text": "¿Cuál es la luna más grande de Júpiter?",
+    "options": [
+      "Ío",
+      "Europa",
+      "Calisto",
+      "Ganimedes"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Ganimedes, con unos 5268 km de diámetro, es la mayor luna de Júpiter y la mayor del sistema solar, más grande incluso que Mercurio.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mayor-luna-saturno",
+    "text": "¿Cuál es la mayor luna de Saturno?",
+    "options": [
+      "Encélado",
+      "Mimas",
+      "Rea",
+      "Titán"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Titán es la mayor luna de Saturno y la segunda del sistema solar. Es la única luna con una atmósfera espesa, rica en nitrógeno.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-cinturon-principal-asteroides",
+    "text": "¿Dónde está el cinturón principal de asteroides?",
+    "options": [
+      "Entre Saturno y Urano",
+      "Más allá de Neptuno",
+      "Entre la Tierra y Marte",
+      "Entre Marte y Júpiter"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El cinturón principal de asteroides ocupa la región entre las órbitas de Marte y Júpiter. Contiene millones de rocas y también al planeta enano Ceres.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-enano-esta-cinturon",
+    "text": "¿Qué planeta enano está en el cinturón de asteroides?",
+    "options": [
+      "Plutón",
+      "Makemake",
+      "Eris",
+      "Ceres"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Ceres es el único planeta enano del cinturón de asteroides, entre Marte y Júpiter. Plutón, Haumea, Makemake y Eris están más allá de Neptuno.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ano-dejo-pluton-ser",
+    "text": "¿En qué año dejó Plutón de ser considerado planeta?",
+    "options": [
+      "2006",
+      "2016",
+      "1996",
+      "1930"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "En 2006 la Unión Astronómica Internacional aprobó una definición de planeta que dejó a Plutón como planeta enano, porque no ha despejado su órbita.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-fue-primer-ser-humano",
+    "text": "¿Quién fue el primer ser humano en viajar al espacio?",
+    "options": [
+      "Alan Shepard",
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El soviético Yuri Gagarin dio una vuelta a la Tierra a bordo de la Vostok 1 el 12 de abril de 1961, en un vuelo de unas dos horas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ano-llego-ser-humano",
+    "text": "¿En qué año llegó el ser humano a la Luna?",
+    "options": [
+      "1979",
+      "1959",
+      "1972",
+      "1969"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La misión Apolo 11 aterrizó en la Luna el 20 de julio de 1969. Fue la primera vez que personas pisaron otro mundo.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mision-llevo-armstrong-luna",
+    "text": "¿Qué misión llevó a Armstrong a la Luna?",
+    "options": [
+      "Apolo 11",
+      "Apolo 13",
+      "Gemini 4",
+      "Vostok 1"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Apolo 11 despegó el 16 de julio de 1969 con Armstrong, Aldrin y Collins. Apolo 13 sufrió una avería y no llegó a alunizar.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-tamano-parecido-tierra",
+    "text": "¿Qué planeta tiene un tamaño parecido al de la Tierra?",
+    "options": [
+      "Venus",
+      "Júpiter",
+      "Mercurio",
+      "Marte"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Venus mide unos 12 104 km de diámetro, casi lo mismo que la Tierra, con 12 742 km. Por eso se le llama el planeta gemelo, aunque sus condiciones son muy distintas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-forma-casi-toda",
+    "text": "¿Qué gas forma casi toda la atmósfera de Venus?",
+    "options": [
+      "Oxígeno y nitrógeno",
+      "Dióxido de carbono",
+      "Metano y amoníaco",
+      "Vapor de agua"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La atmósfera de Venus es casi toda dióxido de carbono, con nubes de ácido sulfúrico. Provoca un fuerte efecto invernadero.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-ano-corto",
+    "text": "¿Qué planeta tiene el año más corto?",
+    "options": [
+      "La Tierra",
+      "Mercurio",
+      "Marte",
+      "Venus"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Mercurio da una vuelta al Sol en unos 88 días terrestres, el año más corto del sistema solar. Es el planeta más cercano al Sol y se mueve más deprisa.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-dias-terrestres-dura-ano",
+    "text": "¿Cuántos días terrestres dura un año en Marte?",
+    "options": [
+      "687 días",
+      "365 días",
+      "88 días",
+      "225 días"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Marte está más lejos del Sol que la Tierra y su órbita es más larga, así que tarda unos 687 días terrestres en completarla.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-volcan-grande-sistema-solar",
+    "text": "¿Cuál es el volcán más grande del sistema solar?",
+    "options": [
+      "Monte Fuji",
+      "Mauna Loa",
+      "Monte Etna",
+      "Monte Olimpo"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El Monte Olimpo, en Marte, es el mayor volcán conocido del sistema solar. Mide unos 22 a 26 km de altura, unas tres veces el Everest.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-luna-jupiter-volcanes-activos",
+    "text": "¿Qué luna de Júpiter tiene volcanes activos?",
+    "options": [
+      "Ganimedes",
+      "Ío",
+      "Europa",
+      "Calisto"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Ío es el mundo con más actividad volcánica del sistema solar. Las sondas Voyager descubrieron en 1979 decenas de volcanes en su superficie.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-cuatro-grandes-lunas",
+    "text": "¿Quién descubrió las cuatro grandes lunas de Júpiter?",
+    "options": [
+      "Nicolás Copérnico",
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Galileo Galilei"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "En 1610 Galileo observó con su telescopio cuatro lunas que giraban alrededor de Júpiter: Ío, Europa, Ganimedes y Calisto.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-planeta-urano-1781",
+    "text": "¿Quién descubrió el planeta Urano en 1781?",
+    "options": [
+      "Clyde Tombaugh",
+      "Urbain Le Verrier",
+      "Galileo Galilei",
+      "William Herschel"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "William Herschel descubrió Urano el 13 de marzo de 1781 con su telescopio. Fue el primer planeta hallado con telescopio y amplió el sistema solar conocido.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-pluton-1930",
+    "text": "¿Quién descubrió Plutón en 1930?",
+    "options": [
+      "Percival Lowell",
+      "Edwin Hubble",
+      "Clyde Tombaugh",
+      "William Herschel"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El astrónomo estadounidense Clyde Tombaugh encontró Plutón en 1930 en el observatorio Lowell, tras comparar placas fotográficas del cielo.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-hallo-gracias-calculos",
+    "text": "¿Qué planeta se halló gracias a cálculos matemáticos?",
+    "options": [
+      "Urano",
+      "Neptuno",
+      "Venus",
+      "Saturno"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Le Verrier calculó dónde debía estar un planeta que perturbaba a Urano, y Galle lo encontró en Berlín en 1846, a un grado de distancia del lugar predicho.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sonda-visito-planetas-urano",
+    "text": "¿Qué sonda visitó los planetas Urano y Neptuno?",
+    "options": [
+      "Cassini",
+      "Voyager 2",
+      "Galileo",
+      "Voyager 1"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Voyager 2 es la única nave que ha visitado Urano, en 1986, y Neptuno, en 1989. Voyager 1 no se dirigió hacia esos planetas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sonda-estudio-saturno-entre",
+    "text": "¿Qué sonda estudió Saturno entre 2004 y 2017?",
+    "options": [
+      "Galileo",
+      "Cassini",
+      "Juno",
+      "Pioneer 10"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La sonda Cassini orbitó Saturno desde 2004 hasta 2017, cuando se destruyó voluntariamente en su atmósfera tras estudiar el planeta, sus anillos y sus lunas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sonda-llego-pluton-2015",
+    "text": "¿Qué sonda llegó a Plutón en 2015?",
+    "options": [
+      "Voyager 2",
+      "Dawn",
+      "Cassini",
+      "New Horizons"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La sonda New Horizons sobrevoló Plutón el 14 de julio de 2015 y envió las primeras imágenes detalladas del planeta enano y de su luna Caronte.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-gira-rapido-sobre",
+    "text": "¿Qué planeta gira más rápido sobre sí mismo?",
+    "options": [
+      "La Tierra",
+      "Marte",
+      "Júpiter",
+      "Mercurio"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Júpiter completa una rotación en unas 9,9 horas, a pesar de su enorme tamaño. Por esa rotación rápida está achatado por los polos.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-realmente-estrella-fugaz",
+    "text": "¿Qué es realmente una «estrella fugaz»?",
+    "options": [
+      "Un satélite",
+      "Una supernova",
+      "Un cometa",
+      "Un meteoro"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Una estrella fugaz es un meteoro: un trocito de roca o polvo que se quema por el rozamiento al entrar en la atmósfera terrestre a gran velocidad.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-cometa-regresa-cada-76",
+    "text": "¿Qué cometa regresa cada 76 años aproximadamente?",
+    "options": [
+      "Tempel 1",
+      "Hale-Bopp",
+      "Encke",
+      "Halley"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El cometa Halley tiene un periodo de unos 75 a 76 años. Su último paso por el interior del sistema solar fue en 1986 y volverá hacia 2061.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ocurre-si-luna-coloca",
+    "text": "¿Qué ocurre si la Luna se coloca entre el Sol y la Tierra?",
+    "options": [
+      "Un equinoccio",
+      "Un eclipse solar",
+      "Un solsticio",
+      "Un eclipse lunar"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Cuando la Luna se interpone entre el Sol y la Tierra, su sombra cae sobre nuestro planeta y se produce un eclipse solar.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tarda-neptuno-orbitar-alrededor",
+    "text": "¿Cuánto tarda Neptuno en orbitar alrededor del Sol?",
+    "options": [
+      "Unos 84 años",
+      "Unos 165 años",
+      "Unos 12 años",
+      "Unos 29 años"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Neptuno recorre su órbita en unos 60 190 días terrestres, casi 165 años. Desde su descubrimiento, en 1846, solo ha completado una vuelta.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-tarda-12-anos",
+    "text": "¿Qué planeta tarda unos 12 años en orbitar el Sol?",
+    "options": [
+      "Urano",
+      "Saturno",
+      "Marte",
+      "Júpiter"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Júpiter tarda unos 11,9 años terrestres en dar una vuelta al Sol. Saturno tarda unos 29 años y Urano, 84.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mide-unidad-astronomica-ua",
+    "text": "¿Qué mide una unidad astronómica (UA)?",
+    "options": [
+      "Diámetro del Sol",
+      "Distancia Tierra-Sol",
+      "Distancia Tierra-Luna",
+      "Diámetro de la Tierra"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Una unidad astronómica equivale a la distancia media de la Tierra al Sol, unos 149,6 millones de kilómetros. Se usa para medir distancias dentro del sistema solar.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-esta-hecho-sobre-todo",
+    "text": "¿De qué está hecho sobre todo el Sol?",
+    "options": [
+      "Hierro",
+      "Oxígeno",
+      "Hidrógeno",
+      "Carbono"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El Sol es sobre todo hidrógeno, con cerca de tres cuartas partes de su masa, y el resto es casi todo helio. En su núcleo funde hidrógeno en helio.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-instrumento-uso-galileo-observar",
+    "text": "¿Qué instrumento usó Galileo para observar Júpiter?",
+    "options": [
+      "Telescopio",
+      "Periscopio",
+      "Sextante",
+      "Microscopio"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Galileo construyó en 1609 un telescopio refractor y con él observó las lunas de Júpiter, las fases de Venus y los cráteres de la Luna.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tarda-luz-sol-llegar",
+    "text": "¿Cuánto tarda la luz del Sol en llegar a la Tierra?",
+    "options": [
+      "Unas 8 horas",
+      "Unos 8 minutos",
+      "Unos 8 segundos",
+      "Un día"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "La luz viaja a unos 300 000 km por segundo y el Sol está a unos 150 millones de kilómetros, así que tarda poco más de 8 minutos en llegar.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-encuentra-entre-jupiter",
+    "text": "¿Qué planeta se encuentra entre Júpiter y Urano?",
+    "options": [
+      "Saturno",
+      "Neptuno",
+      "Venus",
+      "Marte"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "El orden de los planetas desde el Sol es Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno, así que Saturno está entre Júpiter y Urano.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-esta-justo-despues",
+    "text": "¿Qué planeta está justo después de la Tierra desde el Sol?",
+    "options": [
+      "Mercurio",
+      "Venus",
+      "Marte",
+      "Saturno"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Marte es el cuarto planeta desde el Sol y el siguiente a la Tierra. Venus y Mercurio están más cerca del Sol que nosotros.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-estan-hechos-sobre-todo",
+    "text": "¿De qué están hechos sobre todo los anillos de Saturno?",
+    "options": [
+      "Metal líquido",
+      "Hielo de agua",
+      "Roca fundida",
+      "Gas helio"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Los anillos de Saturno son miles de millones de fragmentos de hielo de agua, desde granos de polvo hasta bloques del tamaño de una casa.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planetas-rocosos-sistema-solar",
+    "text": "¿Cuántos planetas rocosos tiene el sistema solar?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "fácil",
+    "explanation": "Los planetas rocosos o terrestres son cuatro: Mercurio, Venus, la Tierra y Marte. Los otros cuatro son gigantes gaseosos o helados.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-menos-denso-agua",
+    "text": "¿Qué planeta es menos denso que el agua?",
+    "options": [
+      "Neptuno",
+      "Júpiter",
+      "Saturno",
+      "Urano"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Saturno tiene una densidad media de unos 690 kg/m3, menor que la del agua, que es de 1000 kg/m3. Flotaría en una bañera lo bastante grande.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-luna-saturno-atmosfera-espesa",
+    "text": "¿Qué luna de Saturno tiene una atmósfera espesa?",
+    "options": [
+      "Mimas",
+      "Jápeto",
+      "Titán",
+      "Encélado"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Titán tiene una atmósfera mayor que la de la Tierra, rica en nitrógeno, con lagos de metano y etano en su superficie.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-luna-saturno-lanza-geiseres",
+    "text": "¿Qué luna de Saturno lanza géiseres de agua al espacio?",
+    "options": [
+      "Titán",
+      "Rea",
+      "Mimas",
+      "Encélado"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La sonda Cassini descubrió que Encélado expulsa chorros de vapor de agua y hielo por fracturas de su polo sur, lo que apunta a un océano interior.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-propuso-modelo-heliocentrico-1543",
+    "text": "¿Quién propuso el modelo heliocéntrico en 1543?",
+    "options": [
+      "Claudio Ptolomeo",
+      "Johannes Kepler",
+      "Tycho Brahe",
+      "Nicolás Copérnico"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Copérnico publicó en 1543 su obra sobre las revoluciones de las esferas celestes, en la que colocaba al Sol y no a la Tierra en el centro.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-forma-orbitas-planetas-segun",
+    "text": "¿Qué forma tienen las órbitas de los planetas según Kepler?",
+    "options": [
+      "Hiperbólica",
+      "Parabólica",
+      "Circular",
+      "Elíptica"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La primera ley de Kepler dice que los planetas describen elipses con el Sol en uno de sus focos. Las órbitas reales son casi circulares.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-fue-segundo-hombre-pisar",
+    "text": "¿Quién fue el segundo hombre en pisar la Luna?",
+    "options": [
+      "Alan Shepard",
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Pete Conrad"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Buzz Aldrin bajó al suelo lunar unos 19 minutos después de Armstrong. Michael Collins se quedó en órbita lunar pilotando el módulo de mando.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mision-apolo-fue-ultima",
+    "text": "¿Qué misión Apolo fue la última en pisar la Luna?",
+    "options": [
+      "Apolo 17",
+      "Apolo 13",
+      "Apolo 16",
+      "Apolo 15"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Apolo 17 alunizó en diciembre de 1972. Desde entonces nadie ha vuelto a pisar la Luna.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llamo-primer-satelite-artificial",
+    "text": "¿Cómo se llamó el primer satélite artificial?",
+    "options": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Telstar 1",
+      "Vanguard 1"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La Unión Soviética lanzó el Sputnik 1 el 4 de octubre de 1957. Fue el primer objeto fabricado por el ser humano en orbitar la Tierra.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-programa-sovietico-poso-sondas",
+    "text": "¿Qué programa soviético posó sondas en Venus?",
+    "options": [
+      "Vostok",
+      "Venera",
+      "Lunokhod",
+      "Soyuz"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El programa Venera, de los años 60 a 80, logró posar varias sondas en Venus, que enviaron imágenes de la superficie antes de que el calor las destruyera.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-rover-nasa-llego-marte",
+    "text": "¿Qué rover de la NASA llegó a Marte en 2021?",
+    "options": [
+      "Perseverance",
+      "Curiosity",
+      "Sojourner",
+      "Opportunity"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Perseverance aterrizó en el cráter Jezero en febrero de 2021 para buscar signos de vida antigua. Curiosity llegó en 2012.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-enano-orbito-sonda",
+    "text": "¿Qué planeta enano orbitó la sonda Dawn en 2015?",
+    "options": [
+      "Ceres",
+      "Haumea",
+      "Eris",
+      "Plutón"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La sonda Dawn de la NASA entró en órbita de Ceres en 2015, después de haber estudiado antes el asteroide Vesta, y reveló manchas brillantes de sal.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planetas-enanos-reconoce-oficialmente",
+    "text": "¿Cuántos planetas enanos reconoce oficialmente la UAI?",
+    "options": [
+      "3",
+      "8",
+      "5",
+      "12"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La Unión Astronómica Internacional reconoce cinco planetas enanos: Ceres, Plutón, Haumea, Makemake y Eris. Hay otros candidatos pendientes.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-principalmente-cinturon-kuiper",
+    "text": "¿Qué hay principalmente en el cinturón de Kuiper?",
+    "options": [
+      "Estrellas enanas",
+      "Asteroides rocosos",
+      "Objetos helados",
+      "Gas caliente"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El cinturón de Kuiper es una región más allá de Neptuno con cuerpos helados, como Plutón y muchos cometas de corto periodo.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-nube-hipotetica-rodea-sistema",
+    "text": "¿Qué nube hipotética rodea el sistema solar?",
+    "options": [
+      "Nube de Kuiper",
+      "Nube de Hubble",
+      "Nube de Oort",
+      "Nube de Halley"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La nube de Oort sería una gran envoltura de cuerpos helados a más de mil veces la distancia de Neptuno, origen de los cometas de largo periodo.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-heliosfera",
+    "text": "¿Qué es la heliosfera?",
+    "options": [
+      "Corona del Sol",
+      "Núcleo del Sol",
+      "Burbuja del viento solar",
+      "Capa de la atmósfera"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La heliosfera es la enorme burbuja magnética creada por el viento solar, que envuelve al Sol y a los planetas. Su borde se llama heliopausa.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ano-entro-voyager-espacio",
+    "text": "¿En qué año entró Voyager 1 en el espacio interestelar?",
+    "options": [
+      "2004",
+      "2012",
+      "1989",
+      "2018"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Voyager 1 cruzó la heliopausa el 25 de agosto de 2012. Voyager 2 lo hizo el 5 de noviembre de 2018.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-ano-lanzaron-sondas-voyager",
+    "text": "¿En qué año se lanzaron las sondas Voyager?",
+    "options": [
+      "1972",
+      "1977",
+      "1985",
+      "1969"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Voyager 2 se lanzó el 20 de agosto de 1977 y Voyager 1, en una trayectoria más rápida, el 5 de septiembre de ese mismo año.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-astronomo-frances-predijo-posicion",
+    "text": "¿Qué astrónomo francés predijo la posición de Neptuno?",
+    "options": [
+      "Urbain Le Verrier",
+      "Johann Galle",
+      "William Herschel",
+      "Edmond Halley"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Le Verrier calculó la posición de Neptuno a partir de las perturbaciones de Urano. Galle lo observó la noche del 23 de septiembre de 1846.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-descubrio-division-anillos-saturno",
+    "text": "¿Quién descubrió la división de los anillos de Saturno?",
+    "options": [
+      "Giovanni Cassini",
+      "Edmond Halley",
+      "Christiaan Huygens",
+      "Galileo Galilei"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Giovanni Domenico Cassini observó en 1675 un hueco oscuro entre los anillos de Saturno, hoy llamado división de Cassini.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-tipo-planetas-urano-neptuno",
+    "text": "¿Qué tipo de planetas son Urano y Neptuno?",
+    "options": [
+      "Planetas enanos",
+      "Planetas rocosos",
+      "Gigantes helados",
+      "Gigantes gaseosos"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Urano y Neptuno son gigantes helados: contienen más agua, amoníaco y metano que hidrógeno y helio, a diferencia de Júpiter y Saturno.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gas-da-color-azulado",
+    "text": "¿Qué gas da su color azulado a Urano?",
+    "options": [
+      "Cloro",
+      "Oxígeno",
+      "Metano",
+      "Amoníaco"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El metano de su atmósfera absorbe la luz roja y deja pasar la azul, por lo que Urano y Neptuno tienen un tono azulado.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-temperatura-superficial-venus",
+    "text": "¿Cuál es la temperatura superficial de Venus?",
+    "options": [
+      "Unos 160 °C",
+      "Unos 260 °C",
+      "Unos 460 °C",
+      "Unos 760 °C"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "Venus tiene una temperatura media en superficie de unos 462 °C, suficiente para fundir el plomo, y es estable entre el día y la noche.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-gravedad-marte-respecto-tierra",
+    "text": "¿Qué gravedad tiene Marte respecto a la Tierra?",
+    "options": [
+      "Un 38 %",
+      "Un 85 %",
+      "Un 62 %",
+      "Un 17 %"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La gravedad de Marte es de unos 3,7 m/s2, cerca del 38 % de la terrestre. Una persona de 80 kg pesaría allí unos 30 kg.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-porcentaje-masa-sistema-solar",
+    "text": "¿Qué porcentaje de la masa del sistema solar es el Sol?",
+    "options": [
+      "El 90 %",
+      "El 75 %",
+      "El 99,8 %",
+      "El 50 %"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El Sol concentra aproximadamente el 99,8 % de la masa del sistema solar. Júpiter reúne la mayor parte de lo que queda.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-superficie-visible-sol",
+    "text": "¿Cómo se llama la superficie visible del Sol?",
+    "options": [
+      "Fotosfera",
+      "Corona",
+      "Cromosfera",
+      "Núcleo"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La fotosfera es la capa del Sol que emite la luz que vemos, a unos 5500 °C. La corona, mucho más caliente, es la capa externa de su atmósfera.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-dura-ciclo-solar-manchas",
+    "text": "¿Cuánto dura el ciclo solar de manchas?",
+    "options": [
+      "Unos 3 años",
+      "Unos 30 años",
+      "Unos 50 años",
+      "Unos 11 años"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La actividad del Sol y el número de manchas solares aumentan y disminuyen en ciclos de unos 11 años.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-punto-orbita-cercano",
+    "text": "¿Cómo se llama el punto de la órbita más cercano al Sol?",
+    "options": [
+      "Apogeo",
+      "Afelio",
+      "Perihelio",
+      "Perigeo"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El perihelio es el punto de la órbita de un astro más próximo al Sol. El más lejano es el afelio. Apogeo y perigeo se refieren a la Tierra.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-marca-dia-largo-hemisferio",
+    "text": "¿Qué marca el día más largo en el hemisferio norte?",
+    "options": [
+      "Equinoccio de otoño",
+      "Solsticio de invierno",
+      "Solsticio de verano",
+      "Equinoccio de primavera"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El solsticio de verano, hacia el 21 de junio, es el día con más horas de luz en el hemisferio norte, cuando el polo norte se inclina más hacia el Sol.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-causa-estaciones-ano-tierra",
+    "text": "¿Qué causa las estaciones del año en la Tierra?",
+    "options": [
+      "Las manchas solares",
+      "La inclinación del eje",
+      "La órbita de la Luna",
+      "La distancia al Sol"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "El eje de la Tierra está inclinado unos 23,4 grados. Según el momento de la órbita, un hemisferio recibe la luz solar más directa y tiene verano.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-mision-esa-llevo-philae",
+    "text": "¿Qué misión de la ESA llevó a Philae a un cometa?",
+    "options": [
+      "Huygens",
+      "Rosetta",
+      "Ulysses",
+      "Giotto"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "medio",
+    "explanation": "La sonda Rosetta llegó al cometa 67P en 2014 y soltó el módulo Philae, que fue el primero en posarse sobre un cometa.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-enano-masa",
+    "text": "¿Qué planeta enano tiene más masa?",
+    "options": [
+      "Ceres",
+      "Plutón",
+      "Makemake",
+      "Eris"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Eris tiene más masa que Plutón, aunque Plutón es algo mayor en diámetro. Su descubrimiento en 2005 contribuyó al debate que llevó a redefinir qué es un planeta.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sonda-aterrizo-titan-2005",
+    "text": "¿Qué sonda aterrizó en Titán en 2005?",
+    "options": [
+      "Dawn",
+      "Cassini",
+      "Galileo",
+      "Huygens"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "La sonda Huygens de la ESA viajó con Cassini y se posó en Titán el 14 de enero de 2005, el aterrizaje más lejano realizado hasta entonces.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-estimo-velocidad-luz-1676",
+    "text": "¿Quién estimó la velocidad de la luz en 1676 con Ío?",
+    "options": [
+      "Ole Rømer",
+      "Giovanni Cassini",
+      "Christiaan Huygens",
+      "Edmond Halley"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Ole Rømer observó que los eclipses de Ío por Júpiter se retrasaban según la distancia a la Tierra y dedujo que la luz tarda en llegar.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-primer-cuerpo-hallado-entre",
+    "text": "¿Cuál es el primer cuerpo hallado entre los asteroides?",
+    "options": [
+      "Ceres",
+      "Palas",
+      "Juno",
+      "Vesta"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Giuseppe Piazzi descubrió Ceres el 1 de enero de 1801. Se la consideró primero un planeta y después un asteroide, y hoy es un planeta enano.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-llama-mayor-luna-pluton",
+    "text": "¿Cómo se llama la mayor luna de Plutón?",
+    "options": [
+      "Cerbero",
+      "Caronte",
+      "Hidra",
+      "Nix"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Caronte tiene aproximadamente la mitad del diámetro de Plutón. Ambos giran uno alrededor del otro, por lo que a menudo se habla de un sistema doble.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-tormenta-hexagonal-polo",
+    "text": "¿Qué planeta tiene una tormenta hexagonal en su polo norte?",
+    "options": [
+      "Júpiter",
+      "Urano",
+      "Saturno",
+      "Neptuno"
+    ],
+    "correctIndex": 2,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Una corriente de chorro con forma de hexágono rodea el polo norte de Saturno. Fue descubierta por las sondas Voyager en los años ochenta y observada después por Cassini.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-velocidad-escape-tierra",
+    "text": "¿Cuál es la velocidad de escape de la Tierra?",
+    "options": [
+      "25 km/s",
+      "11,2 km/s",
+      "3,0 km/s",
+      "7,9 km/s"
+    ],
+    "correctIndex": 1,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Para alejarse de la Tierra sin volver hay que superar unos 11,2 km/s, la velocidad de escape. Los 7,9 km/s son la velocidad de una órbita baja.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-dura-dia-solar-mercurio",
+    "text": "¿Cuánto dura un día solar en Mercurio?",
+    "options": [
+      "176 días",
+      "243 días",
+      "88 días",
+      "59 días"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Mercurio gira sobre sí mismo en unos 59 días, pero el Sol tarda unos 176 días terrestres en volver al mismo punto del cielo, el doble de su año.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-sonda-fue-primera-orbitar",
+    "text": "¿Qué sonda fue la primera en orbitar Mercurio?",
+    "options": [
+      "MESSENGER",
+      "Magellan",
+      "BepiColombo",
+      "Mariner 10"
+    ],
+    "correctIndex": 0,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "MESSENGER, de la NASA, entró en órbita de Mercurio en marzo de 2011. Mariner 10 solo había sobrevolado el planeta en los años setenta.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  },
+  {
+    "id": "cien-planeta-tarda-girar-sobre",
+    "text": "¿Qué planeta tarda más en girar sobre su eje?",
+    "options": [
+      "Mercurio",
+      "Urano",
+      "Neptuno",
+      "Venus"
+    ],
+    "correctIndex": 3,
+    "category": "Ciencias",
+    "difficulty": "difícil",
+    "explanation": "Venus tarda unos 243 días terrestres en girar sobre sí mismo, y además lo hace en sentido contrario a casi todos los demás planetas.",
+    "source": "sistema_solar.json",
+    "createdAt": "2026-11-24T12:32:38Z",
+    "status": "active"
+  }
+]
