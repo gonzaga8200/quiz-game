@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.30.0](https://github.com/gonzaga8200/quiz-game/compare/v0.29.0...v0.30.0) (2026-11-24)
+
+
+### Features
+
+* **site:** add menu, social links and contact page ([#91](https://github.com/gonzaga8200/quiz-game/issues/91)) ([c46cc16](https://github.com/gonzaga8200/quiz-game/commit/c46cc16af6d7e0c18ef343669b5db48b4f71a637))
+
 ## [0.29.0](https://github.com/gonzaga8200/quiz-game/compare/v0.28.1...v0.29.0) (2026-11-24)
 
 
