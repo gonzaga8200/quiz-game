@@ -29,6 +29,7 @@ const wide = computed(() => route.path === '/' || inGame.value)
 <template>
   <a class="skip-link" href="#main">Saltar al contenido</a>
   <div class="shell" :class="{ 'shell--wide': wide }">
+    <AppHeader v-if="!inGame" />
     <NuxtPage />
   </div>
 

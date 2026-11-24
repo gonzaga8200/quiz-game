@@ -10,6 +10,8 @@ import type { LayerFx } from './FxLayer.vue'
 import GameHud from './GameHud.vue'
 import QuestionCard from './QuestionCard.vue'
 import SkipButton from './SkipButton.vue'
+import ReportQuestionDialog from '../feedback/ReportQuestionDialog.vue'
+import IconReport from '../icons/IconReport.vue'
 import SoundToggle from '../SoundToggle.vue'
 
 const props = defineProps<{
@@ -80,6 +82,23 @@ const session = useGameSession({
 })
 const { snapshot, question, remainingMs, feedback } = session
 
+// --- Reporting a question: the clock stops while the dialog is open ----------------------
+const reported = ref<{ id: string; text: string } | null>(null)
+
+function openReport(): void {
+  const q = question.value
+  if (!q || reported.value || feedback.value) return
+  reported.value = { id: q.id, text: q.text }
+  session.pause()
+}
+
+function closeReport(): void {
+  // Both the form and the dialog's own close event end here; only the first one counts.
+  if (!reported.value) return
+  reported.value = null
+  session.resume()
+}
+
 // The feedback is set right after the score and streak are refreshed, so reading the
 // snapshot here already gives the new streak.
 watch(feedback, (fb) => {
@@ -128,6 +147,8 @@ const announcement = computed(() => answerMessage.value || skipMessage.value || 
 
 // --- Keyboard: 1-4 / A-D answer, P skips ------------------------------------------
 function onKeydown(event: KeyboardEvent): void {
+  // While the report is open, typing digits or P goes into the form, not into the game.
+  if (reported.value) return
   if (event.ctrlKey || event.metaKey || event.altKey || event.repeat) return
   const q = question.value
   if (!q || feedback.value) return
@@ -180,8 +201,27 @@ onBeforeUnmount(() => {
         :locked="feedback !== null"
         @skip="session.skip()"
       />
-      <SoundToggle />
+      <div class="game__tools">
+        <button
+          type="button"
+          class="game__report"
+          title="Reportar esta pregunta"
+          aria-label="Reportar esta pregunta"
+          :disabled="!question || feedback !== null || reported !== null"
+          @click="openReport"
+        >
+          <IconReport />
+        </button>
+        <SoundToggle />
+      </div>
     </div>
+
+    <ReportQuestionDialog
+      :open="reported !== null"
+      :question-id="reported?.id ?? ''"
+      :question-text="reported?.text ?? ''"
+      @close="closeReport"
+    />
 
     <p class="game__shortcuts">Con teclado: 1 a 4 o A a D para responder, P para pasar.</p>
 
@@ -210,6 +250,35 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.game__tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Quiet by design: a small flag that only shows up where the player looks for it. */
+.game__report {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--nogal-borde);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--crema-suave);
+  cursor: pointer;
+}
+
+.game__report:hover:not(:disabled) {
+  border-color: var(--crema-suave);
+  color: var(--crema);
+}
+
+.game__report:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 .game__shortcuts {

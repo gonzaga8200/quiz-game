@@ -21,7 +21,6 @@ const sound = useSound()
           <button type="button" class="who__out" @click="signOut">Cerrar sesión</button>
         </div>
       </ClientOnly>
-      <SoundToggle class="menu__sound" />
     </div>
 
     <header class="hero">
@@ -37,43 +36,57 @@ const sound = useSound()
       </p>
     </header>
 
-    <nav class="actions" aria-label="Menú principal">
-      <NuxtLink class="btn btn--primary btn--large" to="/jugar?modo=arcade" @click="sound.unlock()">
-        <span>
-          Jugar arcade
-          <span class="btn__hint">60 segundos, dificultad aleatoria, sin registro</span>
-        </span>
-      </NuxtLink>
+    <div class="menu__panel">
+      <nav class="actions" aria-label="Menú principal">
+        <NuxtLink
+          class="btn btn--primary btn--large"
+          to="/jugar?modo=arcade"
+          @click="sound.unlock()"
+        >
+          <span>
+            Jugar arcade
+            <span class="btn__hint">60 segundos, dificultad aleatoria, sin registro</span>
+          </span>
+        </NuxtLink>
 
-      <ClientOnly>
-        <template v-if="available && ready">
-          <NuxtLink
-            v-if="user"
-            class="btn btn--secondary btn--large"
-            to="/competitivo"
-            @click="sound.unlock()"
-          >
-            <span>
-              Modo competitivo
-              <span class="btn__hint">60 o 120 segundos, tú eliges dificultad y categoría</span>
-            </span>
-          </NuxtLink>
-          <template v-else>
-            <GoogleSignInButton @click="signIn" />
-            <p class="note">
-              Entra con Google para jugar en modo competitivo (mayores de 14 años). Tu nombre, tu
-              foto de Google y tu puntuación serán visibles en el ranking.
-              <NuxtLink to="/cookies">Más información sobre privacidad</NuxtLink>.
-            </p>
-            <p v-if="error" class="note note--error" role="alert">{{ error }}</p>
+        <ClientOnly>
+          <template v-if="available && ready">
+            <NuxtLink
+              v-if="user"
+              class="btn btn--secondary btn--large"
+              to="/competitivo"
+              @click="sound.unlock()"
+            >
+              <span>
+                Modo competitivo
+                <span class="btn__hint">60 o 120 segundos, tú eliges dificultad y categoría</span>
+              </span>
+            </NuxtLink>
+            <template v-else>
+              <GoogleSignInButton @click="signIn" />
+              <p class="note">
+                Entra con Google para jugar en modo competitivo (mayores de 14 años). Tu nombre, tu
+                foto de Google y tu puntuación serán visibles en el ranking.
+                <NuxtLink to="/cookies">Más información sobre privacidad</NuxtLink>.
+              </p>
+              <p v-if="error" class="note note--error" role="alert">{{ error }}</p>
+            </template>
           </template>
-        </template>
-      </ClientOnly>
+        </ClientOnly>
 
-      <NuxtLink v-if="available" class="btn btn--secondary btn--large" to="/ranking">
-        Ranking
-      </NuxtLink>
-    </nav>
+        <NuxtLink v-if="available" class="btn btn--secondary btn--large" to="/ranking">
+          Ranking
+        </NuxtLink>
+      </nav>
+
+      <section class="menu__social" aria-labelledby="social-title">
+        <h2 id="social-title" class="menu__social-title">Síguenos</h2>
+        <p class="menu__social-text">
+          Preguntas nuevas y novedades de Contrarreloj, también en redes.
+        </p>
+        <SocialLinks />
+      </section>
+    </div>
   </main>
 </template>
 
@@ -86,15 +99,38 @@ const sound = useSound()
   display: grid;
   grid-template-rows: auto 1fr auto;
   gap: 1.5rem;
-  /* The shell adds 1rem on top and 3rem below. */
-  min-height: calc(100dvh - 4rem);
+  /* The shell adds 1rem on top and 3rem below, and the header row sits above the menu. */
+  min-height: calc(100dvh - 4rem - var(--header-h));
+}
+
+/* The menu column: the actions, then the social links below them. */
+.menu__panel {
+  display: grid;
+  gap: 1.5rem;
+  align-content: center;
+}
+
+.menu__social {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.menu__social-title {
+  font-size: 1.5rem;
+  color: var(--oro-claro);
+}
+
+.menu__social-text {
+  margin-bottom: 0.375rem;
+  color: var(--crema-suave);
+  font-size: 0.9375rem;
 }
 
 .menu__bar {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.75rem;
+  gap: 0.5rem;
   min-height: 3rem;
 }
 
@@ -202,7 +238,7 @@ const sound = useSound()
     grid-area: hero;
   }
 
-  .actions {
+  .menu__panel {
     grid-area: actions;
   }
 

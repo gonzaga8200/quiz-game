@@ -167,6 +167,20 @@ const storage = [
       </p>
     </section>
 
+    <section aria-labelledby="formulario">
+      <h2 id="formulario">Contacto y reportes de preguntas</h2>
+      <p>
+        La página de contacto y el reporte de preguntas durante una partida no envían nada desde el
+        sitio. Al pulsar el botón se abre tu propio programa de correo con el texto preparado, y
+        decides tú si lo envías. Ese correo sale de tu cuenta y llega a la nuestra como cualquier
+        otro mensaje.
+      </p>
+      <p>
+        No guardamos en el sitio lo que escribas, ni tu correo, ni nada en tu navegador. Lo que
+        recibamos por correo se usa solo para atender tu mensaje.
+      </p>
+    </section>
+
     <section aria-labelledby="analitica">
       <h2 id="analitica">Analítica con Google Analytics 4</h2>
       <p>

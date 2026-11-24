@@ -60,6 +60,14 @@ export interface SessionOptions {
 export function useGameSession(options: SessionOptions) {
   const feedbackMs = options.feedbackMs ?? 600
   const tickMs = options.tickMs ?? 100
+
+  // The game's clock. A pause freezes it: while paused it reads the same instant, and resuming
+  // subtracts the paused time, so a report or a pause never costs the player seconds.
+  const readClock = options.now ?? (() => performance.now())
+  let pausedTotal = 0
+  let pausedAt: number | null = null
+  const clock = (): number => (pausedAt ?? readClock()) - pausedTotal
+
   const game = new Game({
     questions: options.questions,
     filter: options.filter,
@@ -67,7 +75,7 @@ export function useGameSession(options: SessionOptions) {
     ...(options.category ? { category: options.category } : {}),
     ...(options.seen ? { seen: options.seen } : {}),
     rng: options.rng ?? Math.random,
-    now: options.now ?? (() => performance.now()),
+    now: clock,
   })
 
   const snapshot = shallowRef<GameSnapshot>(game.snapshot())
@@ -133,7 +141,10 @@ export function useGameSession(options: SessionOptions) {
     if (game.snapshot().status === 'finished' && feedback.value === null) finalize()
   }
 
+  let started = false
+
   function start(): void {
+    started = true
     game.start()
     refresh()
     if (snapshot.value.status === 'finished') {
@@ -141,6 +152,23 @@ export function useGameSession(options: SessionOptions) {
       return
     }
     tickTimer = setInterval(onTick, tickMs)
+  }
+
+  /** Stops the clock, e.g. while a report is open. Nothing is lost: `resume` carries on. */
+  function pause(): void {
+    if (!started || pausedAt !== null || report.value !== null) return
+    pausedAt = readClock()
+    clearInterval(tickTimer)
+    tickTimer = undefined
+  }
+
+  function resume(): void {
+    if (pausedAt === null) return
+    pausedTotal += readClock() - pausedAt
+    pausedAt = null
+    if (started && report.value === null && tickTimer === undefined) {
+      tickTimer = setInterval(onTick, tickMs)
+    }
   }
 
   function advance(): void {
@@ -210,6 +238,8 @@ export function useGameSession(options: SessionOptions) {
     start,
     answer,
     skip,
+    pause,
+    resume,
     dispose: stopTimers,
   }
 }
