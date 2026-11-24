@@ -357,4 +357,24 @@ describe('useGameSession', () => {
       scope.stop()
     })
   })
+
+  it('stops the clock while paused and carries on from the same point on resume', () => {
+    const { session } = setup()
+    vi.advanceTimersByTime(2000)
+    session.pause()
+    vi.advanceTimersByTime(30_000)
+    // Nothing moves while paused, however long the report takes.
+    expect(session.remainingMs.value).toBe(58_000)
+    session.resume()
+    vi.advanceTimersByTime(1000)
+    expect(session.remainingMs.value).toBe(57_000)
+  })
+
+  it('ignores a resume that has no pause to end, and a pause before the game starts', () => {
+    const { session } = setup()
+    session.resume()
+    vi.advanceTimersByTime(500)
+    expect(session.remainingMs.value).toBeLessThan(60_000)
+    expect(session.report.value).toBeNull()
+  })
 })
