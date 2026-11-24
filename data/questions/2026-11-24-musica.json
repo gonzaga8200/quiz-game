@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "mus-instrumento-teclas-blancas-negras",
+    "text": "¿Qué instrumento tiene teclas blancas y negras?",
+    "options": [
+      "Trompeta",
+      "Tambor",
+      "Piano",
+      "Violín"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El piano tiene teclas blancas y negras que se pulsan con los dedos. Dentro, unos pequeños martillos golpean las cuerdas y así suena cada nota.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-miembros-tenia-grupo-the",
+    "text": "¿Cuántos miembros tenía el grupo The Beatles?",
+    "options": [
+      "Ocho",
+      "Dos",
+      "Cuatro",
+      "Seis"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "The Beatles eran cuatro: John Lennon, Paul McCartney, George Harrison y Ringo Starr. Formaron uno de los grupos más famosos de la historia de la música.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-era-grupo-the",
+    "text": "¿De qué país era el grupo The Beatles?",
+    "options": [
+      "Alemania",
+      "Inglaterra",
+      "Australia",
+      "Francia"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "The Beatles nacieron en Liverpool, una ciudad de Inglaterra. Desde allí conquistaron el mundo entero durante la década de 1960 con sus canciones.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-apodo-tenia-cantante-elvis",
+    "text": "¿Qué apodo tenía el cantante Elvis Presley?",
+    "options": [
+      "El Príncipe",
+      "El Rey",
+      "El Duque",
+      "El Conde"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "A Elvis Presley lo llamaban «el Rey del Rock and Roll», o simplemente «el Rey», por su enorme éxito y su influencia en la música de los años cincuenta.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-cuatro-cuerdas-toca",
+    "text": "¿Qué instrumento tiene cuatro cuerdas y se toca con arco?",
+    "options": [
+      "Piano",
+      "Flauta",
+      "Violín",
+      "Tambor"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El violín tiene cuatro cuerdas que se frotan con un arco. Es el instrumento más agudo de la familia de las cuerdas y es fundamental en las orquestas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-estos-instrumentos-toca-soplando",
+    "text": "¿Cuál de estos instrumentos se toca soplando?",
+    "options": [
+      "Tambor",
+      "Piano",
+      "Trompeta",
+      "Violín"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "La trompeta es un instrumento de metal: el músico sopla por la boquilla y pulsa unos pistones para cambiar de nota. El piano, el violín y el tambor no se soplan.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-toca-golpeandolo-baquetas",
+    "text": "¿Qué instrumento se toca golpeándolo con baquetas?",
+    "options": [
+      "Tambor",
+      "Flauta",
+      "Trompeta",
+      "Violín"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El tambor es un instrumento de percusión y se toca golpeando su parche con dos baquetas. Marca el ritmo en bandas, desfiles y orquestas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-llama-dirige-orquesta",
+    "text": "¿Cómo se llama quien dirige una orquesta?",
+    "options": [
+      "Director",
+      "Presentador",
+      "Bailarín",
+      "Cocinero"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El director de orquesta coordina a todos los músicos con sus gestos. Marca el ritmo y la intensidad para que todos suenen juntos y a la vez.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-notas-musicales-escala-basica",
+    "text": "¿Cuántas notas musicales hay en la escala básica?",
+    "options": [
+      "Cinco",
+      "Doce",
+      "Nueve",
+      "Siete"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "La escala básica tiene siete notas: do, re, mi, fa, sol, la y si. Después de si, la serie vuelve a empezar con un do más agudo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-llama-gran-grupo-toca",
+    "text": "¿Cómo se llama el gran grupo que toca música clásica?",
+    "options": [
+      "Comparsa",
+      "Orquesta",
+      "Cuadrilla",
+      "Tertulia"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Una orquesta es un gran conjunto de músicos con instrumentos de cuerda, viento y percusión. Interpreta música clásica bajo la dirección de un director.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-color-era-submarino-beatles",
+    "text": "¿De qué color era el submarino de los Beatles?",
+    "options": [
+      "Amarillo",
+      "Rojo",
+      "Azul",
+      "Verde"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "La canción «Yellow Submarine» de The Beatles, de 1966, habla de un submarino amarillo. Dio nombre también a una película de dibujos animados de 1968.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-animal-da-nombre-ballet",
+    "text": "¿Qué animal da nombre al ballet «El lago de los…»?",
+    "options": [
+      "Águilas",
+      "Patos",
+      "Cisnes",
+      "Gallos"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "«El lago de los cisnes» es un famoso ballet del compositor ruso Chaikovski. En él, una princesa es convertida en cisne por un hechizo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-marca-ritmo-banda",
+    "text": "¿Qué instrumento marca el ritmo en una banda de rock?",
+    "options": [
+      "Batería",
+      "Arpa",
+      "Violín",
+      "Oboe"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "La batería es el instrumento de percusión que marca el ritmo en casi todas las bandas de rock. Combina tambores, platillos y un bombo con pedal.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-usa-director-orquesta-dirigir",
+    "text": "¿Qué usa un director de orquesta para dirigir?",
+    "options": [
+      "Un martillo",
+      "Una cuchara",
+      "Una escoba",
+      "Una batuta"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "La batuta es una varita ligera que el director sostiene con una mano. Con ella marca el compás y guía a los músicos durante todo el concierto.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-escuchaba-tocadiscos-anos-60",
+    "text": "¿Qué se escuchaba en un tocadiscos en los años 60?",
+    "options": [
+      "Discos duros",
+      "Discos de vinilo",
+      "Memorias USB",
+      "Tarjetas SD"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El tocadiscos reproduce discos de vinilo, que guardan el sonido en surcos. En los años sesenta era la forma más habitual de escuchar música en casa.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-fuelle-abre-cierra",
+    "text": "¿Qué instrumento tiene un fuelle que se abre y se cierra?",
+    "options": [
+      "Flauta",
+      "Arpa",
+      "Piano",
+      "Acordeón"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El acordeón tiene un fuelle que se abre y se cierra para mover el aire. Ese aire hace vibrar unas lengüetas metálicas y produce el sonido.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-musicos-forman-duo",
+    "text": "¿Cuántos músicos forman un dúo?",
+    "options": [
+      "Tres",
+      "Cuatro",
+      "Cinco",
+      "Dos"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Un dúo está formado por dos músicos. Con tres se llama trío, con cuatro cuarteto y con cinco quinteto, según el número de intérpretes.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-llama-persona-compone-musica",
+    "text": "¿Cómo se llama la persona que compone música?",
+    "options": [
+      "Escritor",
+      "Bailarín",
+      "Compositor",
+      "Escultor"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "El compositor crea la música y la escribe en una partitura. Bach, Mozart y Beethoven son compositores muy famosos de la música clásica.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ritmo-popularizo-elvis-presley",
+    "text": "¿Qué ritmo popularizó Elvis Presley?",
+    "options": [
+      "Flamenco",
+      "Bolero",
+      "Reguetón",
+      "Rock and roll"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy fácil",
+    "explanation": "Elvis Presley popularizó el rock and roll en los años cincuenta. Mezclaba el rhythm and blues con el country y se convirtió en un ídolo de la juventud.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-elisa",
+    "text": "¿Quién compuso «Para Elisa»?",
+    "options": [
+      "Haydn",
+      "Chopin",
+      "Mozart",
+      "Beethoven"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Para Elisa» es una pieza para piano atribuida a Ludwig van Beethoven. Se publicó después de su muerte y hoy es una de las melodías clásicas más conocidas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-escribio-opera-flauta",
+    "text": "¿Qué compositor escribió la ópera «La flauta mágica»?",
+    "options": [
+      "Puccini",
+      "Verdi",
+      "Mozart",
+      "Rossini"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«La flauta mágica» es una ópera de Wolfgang Amadeus Mozart estrenada en Viena en 1791, el año de su muerte. Está cantada en alemán.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-sinfonia-beethoven-incluye-oda",
+    "text": "¿Qué sinfonía de Beethoven incluye la «Oda a la alegría»?",
+    "options": [
+      "La Tercera",
+      "La Quinta",
+      "La Novena",
+      "La Primera"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "La Novena sinfonía de Beethoven termina con un coro que canta la «Oda a la alegría», de Schiller. Su melodía es hoy el himno de la Unión Europea.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-era-compositor-johann",
+    "text": "¿De qué país era el compositor Johann Sebastian Bach?",
+    "options": [
+      "Alemania",
+      "Italia",
+      "Francia",
+      "Austria"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Johann Sebastian Bach nació en 1685 en Eisenach, en territorio alemán. Fue organista y compositor del Barroco y trabajó toda su vida en ciudades alemanas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-escribio-cuatro-estaciones",
+    "text": "¿Qué compositor escribió «Las cuatro estaciones»?",
+    "options": [
+      "Vivaldi",
+      "Rossini",
+      "Verdi",
+      "Puccini"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Antonio Vivaldi, compositor veneciano del Barroco, escribió «Las cuatro estaciones». Son cuatro conciertos para violín que describen primavera, verano, otoño e invierno.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-tocaba-ringo-starr",
+    "text": "¿Qué instrumento tocaba Ringo Starr en The Beatles?",
+    "options": [
+      "Piano",
+      "Violín",
+      "Trompeta",
+      "Batería"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Ringo Starr fue el batería de The Beatles desde 1962. Su estilo sencillo y muy musical marcó el ritmo de casi todas las grabaciones del grupo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-jailhouse-rock-1957",
+    "text": "¿Quién cantó «Jailhouse Rock» en 1957?",
+    "options": [
+      "Buddy Holly",
+      "Chuck Berry",
+      "Fats Domino",
+      "Elvis Presley"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Jailhouse Rock» es una canción de rock and roll interpretada por Elvis Presley en 1957. También dio título a una película protagonizada por él mismo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-tenia-cantante-mick",
+    "text": "¿Qué grupo tenía como cantante a Mick Jagger?",
+    "options": [
+      "The Doors",
+      "The Animals",
+      "The Kinks",
+      "The Rolling Stones"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Mick Jagger es el cantante de The Rolling Stones, grupo formado en Londres en 1962. Es una de las bandas de rock más longevas e influyentes.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-teclas-piano-acustico-estandar",
+    "text": "¿Cuántas teclas tiene un piano acústico estándar?",
+    "options": [
+      "66",
+      "76",
+      "100",
+      "88"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Un piano acústico estándar tiene 88 teclas: 52 blancas y 36 negras. Abarca algo más de siete octavas, de las notas más graves a las más agudas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-festival-1969-clausuro-jimi",
+    "text": "¿Qué festival de 1969 clausuró Jimi Hendrix?",
+    "options": [
+      "Woodstock",
+      "Coachella",
+      "Glastonbury",
+      "Eurovisión"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Jimi Hendrix cerró el festival de Woodstock en agosto de 1969, ya en la mañana del lunes. Su versión del himno de EE. UU. quedó como un símbolo de la época.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-llaman-cinco-lineas-escribe",
+    "text": "¿Cómo se llaman las cinco líneas donde se escribe la música?",
+    "options": [
+      "Diapasón",
+      "Pentagrama",
+      "Metrónomo",
+      "Solfeo"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "El pentagrama es el conjunto de cinco líneas y cuatro espacios donde se colocan las notas. Según su posición, cada nota indica un sonido distinto.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-ruso-escribio-lago",
+    "text": "¿Qué compositor ruso escribió «El lago de los cisnes»?",
+    "options": [
+      "Músorgski",
+      "Prokófiev",
+      "Stravinski",
+      "Chaikovski"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Piotr Ilich Chaikovski compuso «El lago de los cisnes» a finales del siglo XIX. Es uno de los ballets más famosos y populares del repertorio clásico.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-cuerda-frotada-grande",
+    "text": "¿Cuál es el instrumento de cuerda frotada más grande?",
+    "options": [
+      "Contrabajo",
+      "Violonchelo",
+      "Viola",
+      "Violín"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "El contrabajo es el más grande y grave de la familia del violín. Mide casi dos metros y el músico lo toca de pie o sentado en un taburete alto.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-inglesa-eran-the",
+    "text": "¿De qué ciudad inglesa eran The Beatles?",
+    "options": [
+      "Liverpool",
+      "Birmingham",
+      "Londres",
+      "Manchester"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "The Beatles se formaron en Liverpool, ciudad portuaria del noroeste de Inglaterra. Allí tocaron en locales como The Cavern Club antes de alcanzar la fama.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-like-rolling-stone",
+    "text": "¿Quién cantó «Like a Rolling Stone»?",
+    "options": [
+      "Neil Young",
+      "Bob Dylan",
+      "Paul Simon",
+      "Leonard Cohen"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Like a Rolling Stone» es una canción de Bob Dylan de 1965, incluida en el álbum «Highway 61 Revisited». Cambió para siempre la forma de escribir canciones.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-britanico-grabo-bohemian",
+    "text": "¿Qué grupo británico grabó «Bohemian Rhapsody» en 1975?",
+    "options": [
+      "Wings",
+      "Queen",
+      "Slade",
+      "Genesis"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Bohemian Rhapsody» es una canción de Queen, escrita por Freddie Mercury y publicada en 1975. Mezcla balada, ópera y rock en una sola pieza de seis minutos.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-gano-eurovision-1974",
+    "text": "¿Qué grupo ganó Eurovisión 1974 con «Waterloo»?",
+    "options": [
+      "ABBA",
+      "Roxette",
+      "Europe",
+      "Ace of Base"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "El grupo sueco ABBA ganó Eurovisión en 1974 en Brighton con «Waterloo». Aquella victoria lo lanzó a la fama internacional durante toda la década de 1970.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-famosa-sonata-piano-beethoven",
+    "text": "¿Cuál es una famosa sonata para piano de Beethoven?",
+    "options": [
+      "La Traviata",
+      "El Mesías",
+      "Réquiem",
+      "Claro de luna"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "La «Sonata Claro de luna» es una de las 32 sonatas para piano de Beethoven. Su primer movimiento, lento y misterioso, es muy conocido en todo el mundo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-oratorio-mesias",
+    "text": "¿Quién compuso el oratorio «El Mesías»?",
+    "options": [
+      "Bach",
+      "Händel",
+      "Haydn",
+      "Liszt"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Georg Friedrich Händel compuso «El Mesías» en 1741 y se estrenó en Dublín al año siguiente. Su coro «Aleluya» es una de las piezas corales más célebres.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-cantante-the-doors",
+    "text": "¿Quién fue el cantante de The Doors?",
+    "options": [
+      "Robert Plant",
+      "Jimi Hendrix",
+      "Mick Jagger",
+      "Jim Morrison"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Jim Morrison fue el cantante y letrista de The Doors, banda de Los Ángeles formada en 1965. Murió en París en 1971, con solo veintisiete años.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-estado-ee-uu-celebro",
+    "text": "¿En qué estado de EE. UU. se celebró Woodstock en 1969?",
+    "options": [
+      "Florida",
+      "Texas",
+      "California",
+      "Nueva York"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Woodstock se celebró en agosto de 1969 en una granja de Bethel, en el estado de Nueva York. Tomó el nombre de la cercana localidad de Woodstock.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-grabo-respect-1967",
+    "text": "¿Qué cantante grabó «Respect» en 1967?",
+    "options": [
+      "Tina Turner",
+      "Etta James",
+      "Aretha Franklin",
+      "Diana Ross"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Aretha Franklin convirtió «Respect», canción de Otis Redding, en un himno en 1967. Recibió el apodo de «la Reina del Soul» por su potente voz.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-johnny-goode-pionero",
+    "text": "¿Quién cantó «Johnny B. Goode», pionero del rock?",
+    "options": [
+      "Little Richard",
+      "Chuck Berry",
+      "Ray Charles",
+      "Fats Domino"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Johnny B. Goode», de 1958, fue escrita e interpretada por Chuck Berry. Su guitarra y sus letras sobre la juventud marcaron el sonido del primer rock.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-decada-triunfaron-the-beatles",
+    "text": "¿En qué década triunfaron The Beatles?",
+    "options": [
+      "Años 70",
+      "Años 60",
+      "Años 80",
+      "Años 50"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "The Beatles lograron su gran éxito mundial en los años sesenta, tras conquistar Estados Unidos en 1964. Se separaron en 1970, a comienzos de la década siguiente.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-gran-compositor-quedo-sordo",
+    "text": "¿Qué gran compositor se quedó sordo?",
+    "options": [
+      "Mozart",
+      "Beethoven",
+      "Chopin",
+      "Haydn"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Ludwig van Beethoven fue perdiendo el oído desde joven y quedó casi sordo. Aun así compuso obras maestras, entre ellas la Novena sinfonía, en sus últimos años.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-esta-teatro-opera",
+    "text": "¿En qué ciudad está el teatro de ópera La Scala?",
+    "options": [
+      "Roma",
+      "Nápoles",
+      "Venecia",
+      "Milán"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "El Teatro alla Scala está en Milán, Italia, y se inauguró en 1778. Es uno de los teatros de ópera más prestigiosos del mundo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-familia-instrumentos-pertenece-flauta",
+    "text": "¿A qué familia de instrumentos pertenece la flauta?",
+    "options": [
+      "Viento metal",
+      "Percusión",
+      "Viento madera",
+      "Cuerda"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "La flauta travesera pertenece al viento madera, aunque hoy suele fabricarse en metal. Se clasifica así porque el sonido nace al dividir el aire contra un borde.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-frances-escribio-opera",
+    "text": "¿Qué compositor francés escribió la ópera «Carmen»?",
+    "options": [
+      "Satie",
+      "Ravel",
+      "Debussy",
+      "Bizet"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Georges Bizet compuso «Carmen», estrenada en París en 1875. Transcurre en Sevilla e incluye célebres arias como la «Habanera» y la «Canción del torero».",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-canto-stayin-alive",
+    "text": "¿Qué grupo cantó «Stayin' Alive» en 1977?",
+    "options": [
+      "Boney M",
+      "ABBA",
+      "Chic",
+      "Bee Gees"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Stayin' Alive» es una canción de los Bee Gees para la película «Fiebre del sábado noche», de 1977. Fue un gran éxito de la música disco.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-polaco-famoso-nocturnos",
+    "text": "¿Qué compositor polaco es famoso por sus nocturnos?",
+    "options": [
+      "Schubert",
+      "Chopin",
+      "Brahms",
+      "Liszt"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Frédéric Chopin, nacido en Polonia, escribió 21 nocturnos para piano. Pasó gran parte de su vida en París y casi toda su obra es para ese instrumento.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-publico-album-abbey",
+    "text": "¿Qué grupo publicó el álbum «Abbey Road» en 1969?",
+    "options": [
+      "The Who",
+      "The Beatles",
+      "Cream",
+      "Genesis"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«Abbey Road» es el penúltimo álbum publicado por The Beatles, aunque fue el último que grabaron juntos. Su portada, con el grupo cruzando la calle, es famosísima.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-what-wonderful-world",
+    "text": "¿Quién cantó «What a Wonderful World» en 1967?",
+    "options": [
+      "Ella Fitzgerald",
+      "Frank Sinatra",
+      "Nat King Cole",
+      "Louis Armstrong"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Louis Armstrong, trompetista y cantante de jazz, grabó «What a Wonderful World» en 1967. Su voz rasposa y cálida la convirtió en un clásico universal.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-publico-the-dark",
+    "text": "¿Qué grupo publicó «The Dark Side of the Moon»?",
+    "options": [
+      "Black Sabbath",
+      "Pink Floyd",
+      "Deep Purple",
+      "Genesis"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "«The Dark Side of the Moon» es el octavo álbum de Pink Floyd, publicado en 1973. Es uno de los discos más vendidos y longevos de la historia.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-pais-era-cantante-bob",
+    "text": "¿De qué país era el cantante Bob Marley?",
+    "options": [
+      "Cuba",
+      "Brasil",
+      "Jamaica",
+      "Haití"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Bob Marley nació en Jamaica en 1945. Con su grupo The Wailers llevó el reggae jamaicano a todo el mundo durante la década de 1970.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ritmo-jamaicano-popularizo-bob",
+    "text": "¿Qué ritmo jamaicano popularizó Bob Marley?",
+    "options": [
+      "Reggae",
+      "Tango",
+      "Salsa",
+      "Samba"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Bob Marley popularizó el reggae, un estilo nacido en Jamaica a finales de los años sesenta. Sus letras hablaban de paz, libertad y justicia social.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-espanol-escribio-concierto",
+    "text": "¿Qué compositor español escribió el «Concierto de Aranjuez»?",
+    "options": [
+      "Isaac Albéniz",
+      "Joaquín Rodrigo",
+      "Manuel de Falla",
+      "Enrique Granados"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Joaquín Rodrigo compuso el «Concierto de Aranjuez» para guitarra y orquesta en 1939. Su segundo movimiento, el adagio, es una de las melodías españolas más famosas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-famoso-bolero-1928",
+    "text": "¿Quién compuso el famoso «Bolero» de 1928?",
+    "options": [
+      "Ravel",
+      "Bizet",
+      "Satie",
+      "Debussy"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Maurice Ravel compuso el «Bolero» en 1928 como ballet. La obra repite una misma melodía mientras la orquesta va sumando instrumentos hasta un final explosivo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-era-cantante-led-zeppelin",
+    "text": "¿Quién era el cantante de Led Zeppelin?",
+    "options": [
+      "Ozzy Osbourne",
+      "Jimmy Page",
+      "Robert Plant",
+      "John Bonham"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "Robert Plant fue el cantante de Led Zeppelin, banda británica formada en 1968. Jimmy Page tocaba la guitarra y John Bonham la batería.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-cantante-britanico-grabo-space",
+    "text": "¿Qué cantante británico grabó «Space Oddity» en 1969?",
+    "options": [
+      "Marc Bolan",
+      "David Bowie",
+      "Elton John",
+      "Rod Stewart"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "David Bowie publicó «Space Oddity» en 1969, pocos días antes de la llegada del Apolo 11 a la Luna. Fue su primer gran éxito en el Reino Unido.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ex-beatle-publico-imagine",
+    "text": "¿Qué ex Beatle publicó «Imagine» en 1971?",
+    "options": [
+      "John Lennon",
+      "George Harrison",
+      "Ringo Starr",
+      "Paul McCartney"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "fácil",
+    "explanation": "John Lennon publicó «Imagine» en 1971, ya como solista. La canción es un himno por la paz y es uno de los temas más versionados del siglo XX.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-estreno-novena-sinfonia",
+    "text": "¿En qué año se estrenó la Novena sinfonía de Beethoven?",
+    "options": [
+      "1814",
+      "1804",
+      "1824",
+      "1834"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "La Novena sinfonía se estrenó en Viena el 7 de mayo de 1824. Beethoven ya estaba prácticamente sordo y tuvo que volverse para ver los aplausos del público.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-escribio-conciertos-brandeburgo",
+    "text": "¿Qué compositor escribió los «Conciertos de Brandeburgo»?",
+    "options": [
+      "Vivaldi",
+      "Telemann",
+      "Bach",
+      "Händel"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Johann Sebastian Bach compuso los seis «Conciertos de Brandeburgo» y los dedicó en 1721 al margrave Christian Ludwig de Brandeburgo. Son joyas del Barroco.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-murio-elvis-presley",
+    "text": "¿En qué año murió Elvis Presley?",
+    "options": [
+      "1973",
+      "1980",
+      "1975",
+      "1977"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Elvis Presley murió en su mansión de Graceland, en Memphis, en 1977, con solo 42 años. Su muerte conmocionó a millones de seguidores en todo el mundo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-album-the-beatles-publico",
+    "text": "¿Qué álbum de The Beatles se publicó en 1967?",
+    "options": [
+      "Abbey Road",
+      "Help!",
+      "Revolver",
+      "Sgt. Pepper's"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Sgt. Pepper's Lonely Hearts Club Band» salió en 1967 y es uno de los discos más influyentes del rock. Revolver es de 1966, Help! de 1965 y Abbey Road de 1969.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-sello-fundo-berry-gordy",
+    "text": "¿Qué sello fundó Berry Gordy en Detroit en 1959?",
+    "options": [
+      "Sun",
+      "Stax",
+      "Atlantic",
+      "Motown"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Berry Gordy fundó en Detroit Tamla Records en enero de 1959, que ese año añadió el nombre Motown. Lanzó a Diana Ross, Stevie Wonder y Marvin Gaye.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-great-balls-of",
+    "text": "¿Quién cantó «Great Balls of Fire» en 1957?",
+    "options": [
+      "Ray Charles",
+      "Jerry Lee Lewis",
+      "Little Richard",
+      "Fats Domino"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Jerry Lee Lewis, pianista y cantante apodado «The Killer», grabó «Great Balls of Fire» en 1957. Su estilo salvaje al piano fue clave en el rock and roll.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-gymnopedies-piano",
+    "text": "¿Quién compuso las «Gymnopédies» para piano?",
+    "options": [
+      "Satie",
+      "Fauré",
+      "Debussy",
+      "Ravel"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Erik Satie compuso las tres «Gymnopédies» para piano en 1888. Su estilo sencillo y suave se considera un precedente de la música ambiental.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-actuaron-the-beatles",
+    "text": "¿En qué año actuaron The Beatles en «The Ed Sullivan Show»?",
+    "options": [
+      "1964",
+      "1962",
+      "1968",
+      "1966"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Beatles actuaron en «The Ed Sullivan Show» el 9 de febrero de 1964 ante millones de espectadores. Aquella noche marcó el inicio de la «invasión británica».",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-era-cantante-banda-britanica",
+    "text": "¿Quién era el cantante de la banda británica The Who?",
+    "options": [
+      "Pete Townshend",
+      "Roger Daltrey",
+      "John Entwistle",
+      "Keith Moon"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Roger Daltrey es el cantante de The Who. Pete Townshend tocaba la guitarra, Keith Moon la batería y John Entwistle el bajo en la formación clásica.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-publico-album-what-going",
+    "text": "¿Quién publicó el álbum «What's Going On» en 1971?",
+    "options": [
+      "Marvin Gaye",
+      "Stevie Wonder",
+      "Al Green",
+      "Otis Redding"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Marvin Gaye publicó «What's Going On» en 1971 en el sello Motown. Es un álbum conceptual que trata la guerra, la pobreza y el medio ambiente.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-fundaron-the-rolling",
+    "text": "¿En qué año se fundaron The Rolling Stones?",
+    "options": [
+      "1962",
+      "1966",
+      "1964",
+      "1960"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "The Rolling Stones se formaron en Londres en 1962 en torno a Mick Jagger, Keith Richards y Brian Jones. Debutaron en el club Marquee ese mismo verano.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-sinfonia-nuevo-mundo",
+    "text": "¿Quién compuso la «Sinfonía del Nuevo Mundo»?",
+    "options": [
+      "Smetana",
+      "Janáček",
+      "Dvořák",
+      "Grieg"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Antonín Dvořák, compositor checo, escribió su Sinfonía n.º 9 «Del Nuevo Mundo» en 1893 durante su estancia en Estados Unidos. Incluye temas inspirados en la música local.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dejo-inconcluso-famoso-requiem",
+    "text": "¿Quién dejó inconcluso un famoso «Réquiem» al morir?",
+    "options": [
+      "Brahms",
+      "Verdi",
+      "Mozart",
+      "Fauré"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Mozart murió en 1791 sin terminar su «Réquiem». Lo completó su discípulo Franz Xaver Süssmayr, por encargo de su viuda, Constanze.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-significa-allegro-partitura",
+    "text": "¿Qué significa «allegro» en una partitura?",
+    "options": [
+      "Muy lento",
+      "Muy fuerte",
+      "Rápido y vivo",
+      "Muy suave"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Allegro» es un término italiano de tempo que indica un movimiento rápido y animado. Se usa con frecuencia en el primer movimiento de las sinfonías clásicas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-publico-pet-sounds",
+    "text": "¿Qué grupo publicó «Pet Sounds» en 1966?",
+    "options": [
+      "The Kinks",
+      "The Doors",
+      "The Beach Boys",
+      "The Byrds"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "«Pet Sounds» es un álbum de The Beach Boys de 1966, impulsado por Brian Wilson. Es famoso por sus arreglos y sirvió de inspiración a los Beatles.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-suite-planetas",
+    "text": "¿Quién compuso la suite «Los planetas»?",
+    "options": [
+      "Henry Purcell",
+      "Gustav Holst",
+      "Benjamin Britten",
+      "Edward Elgar"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El compositor inglés Gustav Holst escribió «Los planetas» entre 1914 y 1916. Es una suite orquestal de siete movimientos, uno por cada planeta salvo la Tierra.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-nacio-wolfgang-amadeus",
+    "text": "¿En qué ciudad nació Wolfgang Amadeus Mozart?",
+    "options": [
+      "Múnich",
+      "Salzburgo",
+      "Praga",
+      "Viena"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Mozart nació en Salzburgo, hoy en Austria, el 27 de enero de 1756. Murió en Viena en 1791, con apenas 35 años de edad.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-canto-me-and-bobby",
+    "text": "¿Quién cantó «Me and Bobby McGee» en 1971?",
+    "options": [
+      "Janis Joplin",
+      "Joan Baez",
+      "Grace Slick",
+      "Joni Mitchell"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "Janis Joplin grabó «Me and Bobby McGee» para su álbum «Pearl». Se publicó en 1971, después de su muerte, y llegó al número uno en Estados Unidos.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-tragico-concierto-stones",
+    "text": "¿Dónde fue el trágico concierto de los Stones de 1969?",
+    "options": [
+      "Altamont",
+      "Isle of Wight",
+      "Woodstock",
+      "Monterey"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "El concierto gratuito de Altamont, en California, en diciembre de 1969, acabó con un espectador apuñalado por un miembro de los Hells Angels, contratados como seguridad.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-instrumento-hindu-aprendio-tocar",
+    "text": "¿Qué instrumento hindú aprendió a tocar George Harrison?",
+    "options": [
+      "Ukelele",
+      "Banjo",
+      "Sitar",
+      "Tabla"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "medio",
+    "explanation": "George Harrison aprendió a tocar el sitar con el maestro indio Ravi Shankar. Lo usó en canciones como «Norwegian Wood», de 1965, y popularizó su sonido en Occidente.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-sonatas-piano-compuso-beethoven",
+    "text": "¿Cuántas sonatas para piano compuso Beethoven?",
+    "options": [
+      "24",
+      "36",
+      "32",
+      "28"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Beethoven compuso 32 sonatas para piano a lo largo de su vida, entre 1795 y 1822. Se consideran uno de los grandes ciclos de la historia de la música.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-sigla-identifica-catalogo-obras",
+    "text": "¿Qué sigla identifica el catálogo de obras de Bach?",
+    "options": [
+      "Hob.",
+      "K.",
+      "BWV",
+      "RV"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "BWV significa «Bach-Werke-Verzeichnis», el catálogo temático de Bach. K. es de Mozart, Hob. de Haydn y RV de Vivaldi, cada uno con su propio catálogo.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-grabo-elvis-that",
+    "text": "¿En qué año grabó Elvis «That's All Right» en Sun Records?",
+    "options": [
+      "1954",
+      "1958",
+      "1956",
+      "1952"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Elvis Presley grabó «That's All Right» en los estudios Sun, en Memphis, el 5 de julio de 1954. Fue el comienzo de su carrera discográfica.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-grupo-publico-let-it",
+    "text": "¿Qué grupo publicó «Let It Bleed» en 1969?",
+    "options": [
+      "The Animals",
+      "The Yardbirds",
+      "The Rolling Stones",
+      "The Zombies"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "«Let It Bleed» es el álbum que los Rolling Stones publicaron en diciembre de 1969. Incluye «Gimme Shelter» y «You Can't Always Get What You Want».",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-escribio-something-the-beatles",
+    "text": "¿Quién escribió «Something», de The Beatles?",
+    "options": [
+      "George Harrison",
+      "John Lennon",
+      "Paul McCartney",
+      "Ringo Starr"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "«Something», incluida en «Abbey Road», fue escrita por George Harrison. Frank Sinatra llegó a decir que era la mejor canción de amor jamás escrita.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compositor-escribio-consagracion-primavera",
+    "text": "¿Qué compositor escribió «La consagración de la primavera»?",
+    "options": [
+      "Prokófiev",
+      "Debussy",
+      "Bartók",
+      "Stravinski"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Igor Stravinski compuso este ballet para los Ballets Rusos. Su estreno en París, en 1913, causó un escándalo por su ritmo violento y sus disonancias.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-publico-the-dark",
+    "text": "¿En qué año se publicó «The Dark Side of the Moon»?",
+    "options": [
+      "1975",
+      "1971",
+      "1973",
+      "1977"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Pink Floyd publicó «The Dark Side of the Moon» el 1 de marzo de 1973. El álbum permaneció en la lista Billboard 200 durante casi mil semanas, un récord.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-tema-fue-primer-numero",
+    "text": "¿Qué tema fue el primer número 1 del rock en Billboard?",
+    "options": [
+      "Blue Suede Shoes",
+      "Johnny B. Goode",
+      "Rock Around the Clock",
+      "Heartbreak Hotel"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "«Rock Around the Clock», de Bill Haley y sus Comets, fue la primera canción de rock and roll en liderar la lista de Billboard, en el verano de 1955.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ciudad-estreno-traviata-verdi",
+    "text": "¿En qué ciudad se estrenó «La traviata» de Verdi?",
+    "options": [
+      "Parma",
+      "Venecia",
+      "Roma",
+      "Milán"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "«La traviata» se estrenó el 6 de marzo de 1853 en el Teatro La Fenice, de Venecia. El primer día fue un fracaso, pero después se convirtió en un éxito.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-compuso-cuadros-exposicion",
+    "text": "¿Quién compuso «Cuadros de una exposición»?",
+    "options": [
+      "Borodin",
+      "Músorgski",
+      "Glinka",
+      "Rimski-Kórsakov"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "difícil",
+    "explanation": "Modest Músorgski compuso «Cuadros de una exposición» para piano en 1874. Maurice Ravel realizó en 1922 la versión orquestal, que es la más conocida.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-numero-opus-novena-beethoven",
+    "text": "¿Qué número de opus tiene la Novena de Beethoven?",
+    "options": [
+      "Op. 92",
+      "Op. 67",
+      "Op. 55",
+      "Op. 125"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "La Sinfonía n.º 9 en re menor de Beethoven es la Op. 125. La Quinta es la Op. 67, la Séptima la Op. 92 y la Tercera, «Heroica», la Op. 55.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dirigio-estreno-consagracion-1913",
+    "text": "¿Quién dirigió el estreno de «La consagración…» en 1913?",
+    "options": [
+      "Serge Koussevitzky",
+      "Ernest Ansermet",
+      "Leopold Stokowski",
+      "Pierre Monteux"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Pierre Monteux dirigió el estreno de la obra de Stravinski el 29 de mayo de 1913 en el Théâtre des Champs-Élysées, pese al tumulto del público.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dolares-prestados-fundo-berry",
+    "text": "¿Con cuántos dólares prestados fundó Berry Gordy Motown?",
+    "options": [
+      "800 dólares",
+      "80 dólares",
+      "8.000 dólares",
+      "80.000 dólares"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Berry Gordy fundó Tamla Records, origen de Motown, con un préstamo familiar de 800 dólares. En 1988 vendió la compañía a MCA por 61 millones de dólares.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dia-1969-publico-abbey",
+    "text": "¿Qué día de 1969 se publicó «Abbey Road» en Reino Unido?",
+    "options": [
+      "26 de septiembre",
+      "12 de agosto",
+      "5 de noviembre",
+      "31 de octubre"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "«Abbey Road» salió a la venta en el Reino Unido el 26 de septiembre de 1969. En Estados Unidos se publicó pocos días después, a comienzos de octubre.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dia-1955-llego-rock",
+    "text": "¿Qué día de 1955 llegó al nº 1 «Rock Around the Clock»?",
+    "options": [
+      "23 de junio",
+      "9 de julio",
+      "9 de agosto",
+      "2 de julio"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "«Rock Around the Clock» llegó al número uno en la lista de Billboard fechada el 9 de julio de 1955, y se mantuvo allí ocho semanas seguidas.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-numero-kochel-flauta-magica",
+    "text": "¿Qué número Köchel tiene «La flauta mágica» de Mozart?",
+    "options": [
+      "K. 525",
+      "K. 550",
+      "K. 620",
+      "K. 466"
+    ],
+    "correctIndex": 2,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "«La flauta mágica» figura como K. 620 en el catálogo Köchel. K. 525 es «Una pequeña serenata nocturna», K. 466 un concierto para piano y K. 550 una sinfonía.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-fue-maestro-beethoven-llegar",
+    "text": "¿Quién fue maestro de Beethoven al llegar a Viena en 1792?",
+    "options": [
+      "Clementi",
+      "Haydn",
+      "Czerny",
+      "Cherubini"
+    ],
+    "correctIndex": 1,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Beethoven se trasladó a Viena en 1792 y estudió allí con Joseph Haydn. Czerny, en cambio, fue después alumno suyo, no maestro, y Cherubini y Clementi no lo fueron.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-ano-nacio-johann-sebastian",
+    "text": "¿En qué año nació Johann Sebastian Bach?",
+    "options": [
+      "1685",
+      "1670",
+      "1678",
+      "1693"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Johann Sebastian Bach nació en Eisenach en 1685 y murió en Leipzig en 1750. Perteneció a una amplia dinastía de músicos alemanes durante generaciones.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dia-nacio-mozart-salzburgo",
+    "text": "¿Qué día nació Mozart en Salzburgo?",
+    "options": [
+      "27 de enero",
+      "5 de diciembre",
+      "27 de marzo",
+      "5 de enero"
+    ],
+    "correctIndex": 0,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "Wolfgang Amadeus Mozart nació el 27 de enero de 1756 en Salzburgo. El 5 de diciembre es la fecha de su muerte, en 1791, en Viena.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  },
+  {
+    "id": "mus-dia-1969-comenzo-festival",
+    "text": "¿Qué día de 1969 comenzó el festival de Woodstock?",
+    "options": [
+      "1 de agosto",
+      "15 de julio",
+      "18 de agosto",
+      "15 de agosto"
+    ],
+    "correctIndex": 3,
+    "category": "Música",
+    "difficulty": "muy difícil",
+    "explanation": "El festival de Woodstock empezó el viernes 15 de agosto de 1969 y se prolongó hasta la madrugada del lunes 18, por el mal tiempo y los retrasos.",
+    "source": "musica_clasica_y_musica_de_los_anos_50_60_y_70.json",
+    "createdAt": "2026-11-24T14:57:05Z",
+    "status": "active"
+  }
+]
