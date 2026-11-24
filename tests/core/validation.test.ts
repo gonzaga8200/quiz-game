@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import {
   MAX_OPTION_LENGTH_HINT,
   MAX_TEXT_LENGTH_HINT,
@@ -272,12 +272,18 @@ describe('findQuestionIssues: large banks', () => {
     expect(actual).toEqual(expected)
   })
 
-  it('checks a bank of thousands of questions in a couple of seconds', () => {
-    // The import script and CI validate the whole bank every time: a pairwise check that
-    // normalises both texts for every pair made them take over 20 s on a CI runner.
-    const entries = randomEntries(3000, 6, 11, true)
-    const start = performance.now()
-    findQuestionIssues(entries)
-    expect(performance.now() - start).toBeLessThan(2000)
-  }, 60_000)
+  it('normalises each question once, not once per pair of questions', () => {
+    // The import script and CI validate the whole bank every time. Normalising both texts for
+    // every pair made that take over 20 s on a CI runner. Counting the calls does not depend on
+    // how fast the machine is: comparing 600 questions pair by pair would normalise over 300,000
+    // times, and each question needs only a handful of normalisations of its own.
+    const entries = randomEntries(600, 6, 11, true)
+    const normalize = vi.spyOn(String.prototype, 'normalize')
+    try {
+      findQuestionIssues(entries)
+      expect(normalize.mock.calls.length).toBeLessThan(entries.length * 5)
+    } finally {
+      normalize.mockRestore()
+    }
+  })
 })
