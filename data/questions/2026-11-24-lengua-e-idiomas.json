@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "leng-dice-ingles-hola",
+    "text": "¿Cómo se dice en inglés «hola»?",
+    "options": [
+      "hello",
+      "goodbye",
+      "please",
+      "sorry"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En inglés, «hola» se dice «hello». Es el saludo más habitual en inglés y vale a cualquier hora del día.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-gracias",
+    "text": "¿Cuál es la traducción al alemán de «Gracias»?",
+    "options": [
+      "Bitte",
+      "Tschüss",
+      "Hallo",
+      "Danke"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En alemán, «Gracias» se dice «Danke». «Danke schön» es la versión más enfática. «Bitte» significa «por favor» y también «de nada».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-agua-catalan",
+    "text": "¿Cómo se traduce «agua» al catalán?",
+    "options": [
+      "llet",
+      "vi",
+      "suc",
+      "aigua"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En catalán, «agua» se dice «aigua». En catalán es femenina («l'aigua»). Viene del latín «aqua», igual que la palabra española.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-dog",
+    "text": "¿Qué significa la palabra inglesa «dog»?",
+    "options": [
+      "vaca",
+      "caballo",
+      "gato",
+      "perro"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«dog» significa «perro» en español. Es uno de los primeros animales que se aprenden en inglés. Su plural es «dogs».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-haus",
+    "text": "¿Qué significa la palabra alemana «Haus» en español?",
+    "options": [
+      "puerta",
+      "casa",
+      "coche",
+      "mesa"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Haus» significa «casa» en español. En alemán es una palabra neutra: «das Haus». Su plural es «Häuser».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana",
+    "text": "¿Cómo se traduce al español la palabra catalana «pa»?",
+    "options": [
+      "leche",
+      "pan",
+      "arroz",
+      "queso"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«pa» significa «pan» en español. «Pa amb tomàquet» es un plato típico catalán: pan con tomate. No confundir con «pare», que es «padre».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-rojo-ingles",
+    "text": "¿Cómo se traduce «rojo» al inglés?",
+    "options": [
+      "blue",
+      "white",
+      "green",
+      "red"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En inglés, «rojo» se dice «red». «Red» es uno de los colores básicos que se enseñan primero en inglés.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-uno-aleman",
+    "text": "¿Cómo se dice «uno» en alemán?",
+    "options": [
+      "vier",
+      "zwei",
+      "eins",
+      "drei"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En alemán, «uno» se dice «eins». Al contar se dice «eins». Delante de un sustantivo, el número uno se convierte en «ein» o «eine».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-adios",
+    "text": "¿Cómo se dice en catalán «adiós»?",
+    "options": [
+      "gràcies",
+      "bon dia",
+      "perdó",
+      "adéu"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En catalán, «adiós» se dice «adéu». En catalán también se despide uno con «a reveure» o «fins aviat».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa",
+    "text": "¿Cómo se traduce al español la palabra inglesa «cat»?",
+    "options": [
+      "gato",
+      "perro",
+      "ratón",
+      "pájaro"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«cat» significa «gato» en español. Es un animal doméstico muy común. Su plural inglés es regular: «cats».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-milch-palabra",
+    "text": "¿Qué significa en español «Milch», palabra alemana?",
+    "options": [
+      "leche",
+      "vino",
+      "pan",
+      "agua"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Milch» significa «leche» en español. En alemán es femenina: «die Milch». Se parece al inglés «milk»; ambas lenguas son germánicas.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-lluna",
+    "text": "¿Qué significa la palabra catalana «lluna»?",
+    "options": [
+      "estrella",
+      "sol",
+      "nube",
+      "luna"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«lluna» significa «luna» en español. Se escribe con «ll» inicial, grafía típica del catalán, mientras que el español escribe «l».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-car",
+    "text": "¿Qué significa la palabra inglesa «car» en español?",
+    "options": [
+      "avión",
+      "barco",
+      "tren",
+      "coche"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«car» significa «coche» en español. En español de España se dice «coche»; en buena parte de América también se usa «carro».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-madre",
+    "text": "¿Cuál es la traducción al alemán de «madre»?",
+    "options": [
+      "Mutter",
+      "Schwester",
+      "Vater",
+      "Bruder"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En alemán, «madre» se dice «Mutter». En alemán es femenina: «die Mutter». Se parece al inglés «mother».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-mano-catalan",
+    "text": "¿Cómo se traduce «mano» al catalán?",
+    "options": [
+      "ull",
+      "peu",
+      "mà",
+      "cap"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En catalán, «mano» se dice «mà». En catalán la palabra es corta y lleva acento grave: «mà». Su plural es «mans».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-bird",
+    "text": "¿Qué significa la palabra inglesa «bird»?",
+    "options": [
+      "gato",
+      "vaca",
+      "pájaro",
+      "pez"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«bird» significa «pájaro» en español. En inglés «bird» sirve para cualquier ave. Se pronuncia con una vocal larga, como «berd».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-apfel",
+    "text": "¿Qué significa la palabra alemana «Apfel» en español?",
+    "options": [
+      "manzana",
+      "uva",
+      "pera",
+      "limón"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«Apfel» significa «manzana» en español. En alemán es masculina: «der Apfel». El plural lleva diéresis: «Äpfel».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-2",
+    "text": "¿Cómo se traduce al español la palabra catalana «perdó»?",
+    "options": [
+      "adiós",
+      "hola",
+      "gracias",
+      "perdón"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "«perdó» significa «perdón» en español. Se usa igual que en español, para disculparse o para pedir paso.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-sol-ingles",
+    "text": "¿Cómo se traduce «sol» al inglés?",
+    "options": [
+      "sun",
+      "moon",
+      "sky",
+      "star"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En inglés, «sol» se dice «sun». «Sun» es el astro; la luz del sol es «sunlight». La luna se dice «moon».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-si-aleman",
+    "text": "¿Cómo se dice «sí» en alemán?",
+    "options": [
+      "Nein",
+      "Bitte",
+      "Hallo",
+      "Ja"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy fácil",
+    "explanation": "En alemán, «sí» se dice «Ja». «Ja» significa «sí». El contrario es «Nein», que significa «no».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-pera",
+    "text": "¿Cómo se dice en inglés «pera»?",
+    "options": [
+      "lemon",
+      "grape",
+      "pear",
+      "apple"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En inglés, «pera» se dice «pear». «Pear» se pronuncia igual que «pair» (par): son palabras homófonas.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-verde",
+    "text": "¿Cuál es la traducción al alemán de «verde»?",
+    "options": [
+      "gelb",
+      "grün",
+      "rot",
+      "blau"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En alemán, «verde» se dice «grün». Se parece al inglés «green»; ambas palabras comparten origen germánico.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-raton-catalan",
+    "text": "¿Cómo se traduce «ratón» al catalán?",
+    "options": [
+      "cavall",
+      "ratolí",
+      "gat",
+      "gos"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En catalán, «ratón» se dice «ratolí». En catalán el animal es «ratolí». El de ordenador también se llama «ratolí».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-tree",
+    "text": "¿Qué significa la palabra inglesa «tree»?",
+    "options": [
+      "flor",
+      "árbol",
+      "bosque",
+      "hoja"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«tree» significa «árbol» en español. «Tree» es el árbol. Un bosque se dice «forest» o «wood».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-schule",
+    "text": "¿Qué significa la palabra alemana «Schule» en español?",
+    "options": [
+      "iglesia",
+      "oficina",
+      "tienda",
+      "escuela"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Schule» significa «escuela» en español. En alemán es femenina: «die Schule». Se parece al inglés «school».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-3",
+    "text": "¿Cómo se traduce al español la palabra catalana «llit»?",
+    "options": [
+      "mesa",
+      "puerta",
+      "cama",
+      "silla"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«llit» significa «cama» en español. En catalán la cama es masculina: «el llit». Su plural es «llits».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-amigo-ingles",
+    "text": "¿Cómo se traduce «amigo» al inglés?",
+    "options": [
+      "friend",
+      "neighbour",
+      "brother",
+      "family"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En inglés, «amigo» se dice «friend». En inglés la palabra no cambia con el género: vale para amigo y para amiga.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-pan-aleman",
+    "text": "¿Cómo se dice «pan» en alemán?",
+    "options": [
+      "Brot",
+      "Milch",
+      "Käse",
+      "Wasser"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En alemán, «pan» se dice «Brot». En alemán es neutra: «das Brot». Alemania tiene cientos de variedades de pan.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-libro",
+    "text": "¿Cómo se dice en catalán «libro»?",
+    "options": [
+      "llibre",
+      "diari",
+      "carta",
+      "quadern"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En catalán, «libro» se dice «llibre». En catalán es masculina: «el llibre». Una librería se dice «llibreria».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-2",
+    "text": "¿Cómo se traduce al español la palabra inglesa «table»?",
+    "options": [
+      "silla",
+      "mesa",
+      "cama",
+      "puerta"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«table» significa «mesa» en español. «Table» también significa «tabla» de datos o de multiplicar, según el contexto.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-stuhl-palabra",
+    "text": "¿Qué significa en español «Stuhl», palabra alemana?",
+    "options": [
+      "cama",
+      "sofá",
+      "mesa",
+      "silla"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Stuhl» significa «silla» en español. En alemán es masculina: «der Stuhl». El plural es «Stühle».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-porta",
+    "text": "¿Qué significa la palabra catalana «porta»?",
+    "options": [
+      "techo",
+      "suelo",
+      "puerta",
+      "pared"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«porta» significa «puerta» en español. En catalán se escribe «porta», como en italiano. Viene del latín «porta».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-ventana",
+    "text": "¿Cómo se dice en inglés «ventana»?",
+    "options": [
+      "roof",
+      "wall",
+      "door",
+      "window"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En inglés, «ventana» se dice «window». «Window» viene del nórdico antiguo y significa «ojo del viento».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-cama",
+    "text": "¿Cuál es la traducción al alemán de «cama»?",
+    "options": [
+      "Tisch",
+      "Stuhl",
+      "Bett",
+      "Tür"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En alemán, «cama» se dice «Bett». En alemán es neutra: «das Bett». Se parece al inglés «bed».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-gato-catalan",
+    "text": "¿Cómo se traduce «gato» al catalán?",
+    "options": [
+      "cavall",
+      "gat",
+      "gos",
+      "ratolí"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En catalán, «gato» se dice «gat». En catalán es «gat». La gata se dice «gata».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-brother",
+    "text": "¿Qué significa la palabra inglesa «brother»?",
+    "options": [
+      "abuelo",
+      "tío",
+      "primo",
+      "hermano"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«brother» significa «hermano» en español. Se pronuncia con «th» sonora, como «bráder». La hermana es «sister».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-schwester",
+    "text": "¿Qué significa la palabra alemana «Schwester» en español?",
+    "options": [
+      "hermana",
+      "tía",
+      "madre",
+      "prima"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Schwester» significa «hermana» en español. En alemán es femenina: «die Schwester». Se parece al inglés «sister».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-4",
+    "text": "¿Cómo se traduce al español la palabra catalana «pare»?",
+    "options": [
+      "hijo",
+      "madre",
+      "tío",
+      "padre"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«pare» significa «padre» en español. En catalán se escribe «pare». No confundir con «pa», que significa «pan».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-azul-ingles",
+    "text": "¿Cómo se traduce «azul» al inglés?",
+    "options": [
+      "pink",
+      "brown",
+      "blue",
+      "black"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "En inglés, «azul» se dice «blue». En inglés «blue» también puede significar «triste», como en «feeling blue».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-blume",
+    "text": "¿Qué significa la palabra alemana «Blume»?",
+    "options": [
+      "árbol",
+      "flor",
+      "hoja",
+      "hierba"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "fácil",
+    "explanation": "«Blume» significa «flor» en español. En alemán es femenina: «die Blume». Un ramo de flores es «ein Blumenstrauß».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-tired",
+    "text": "¿Qué significa la palabra inglesa «tired» en español?",
+    "options": [
+      "cansado",
+      "aburrido",
+      "enfadado",
+      "hambriento"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«tired» significa «cansado» en español. Se usa cuando falta energía. «Tired» no significa «tirado», aunque se parezcan.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-3",
+    "text": "¿Cómo se traduce al español la palabra inglesa «tomorrow»?",
+    "options": [
+      "ayer",
+      "mañana",
+      "hoy",
+      "anoche"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«tomorrow» significa «mañana» en español. En inglés «tomorrow» solo significa el día siguiente; la parte del día es «morning».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-angry-palabra",
+    "text": "¿Qué significa en español «angry», palabra inglesa?",
+    "options": [
+      "asustado",
+      "contento",
+      "enfadado",
+      "cansado"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«angry» significa «enfadado» en español. Se usa con «at» o «with»: «angry with me». Es un adjetivo de estado de ánimo.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-actually",
+    "text": "¿Qué significa la palabra inglesa «actually»?",
+    "options": [
+      "además",
+      "finalmente",
+      "actualmente",
+      "en realidad"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«actually» significa «en realidad» en español. Es un falso amigo: «actualmente» en inglés es «currently» o «nowadays».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-sensible",
+    "text": "¿Qué significa la palabra inglesa «sensible» en español?",
+    "options": [
+      "sensato",
+      "sentimental",
+      "sensual",
+      "sensible"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«sensible» significa «sensato» en español. Es un falso amigo: «sensible» en inglés significa juicioso. «Sensible» en español es «sensitive».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-4",
+    "text": "¿Cómo se traduce al español la palabra inglesa «exit»?",
+    "options": [
+      "éxito",
+      "exceso",
+      "entrada",
+      "salida"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«exit» significa «salida» en español. No significa «éxito» (que es «success»). Es el cartel de salida en edificios y autopistas.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-embarrassed-palabra",
+    "text": "¿Qué significa en español «embarrassed», palabra inglesa?",
+    "options": [
+      "enfadado",
+      "embarazada",
+      "cansado",
+      "avergonzado"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«embarrassed» significa «avergonzado» en español. Es un falso amigo clásico: «embarazada» en inglés es «pregnant».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-soap",
+    "text": "¿Qué significa la palabra inglesa «soap»?",
+    "options": [
+      "champú",
+      "sopa",
+      "toalla",
+      "jabón"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«soap» significa «jabón» en español. No confundir con «sopa», que es «soup». Se pronuncia casi como «sop».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-carpet",
+    "text": "¿Qué significa la palabra inglesa «carpet» en español?",
+    "options": [
+      "alfombra",
+      "cortina",
+      "carpeta",
+      "manta"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«carpet» significa «alfombra» en español. Es un falso amigo: «carpeta» (para guardar papeles) en inglés es «folder».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-5",
+    "text": "¿Cómo se traduce al español la palabra inglesa «lend»?",
+    "options": [
+      "prestar",
+      "devolver",
+      "regalar",
+      "vender"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«lend» significa «prestar» en español. «Lend» es dar algo temporalmente. Pedir prestado se dice «borrow».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-journey-palabra",
+    "text": "¿Qué significa en español «journey», palabra inglesa?",
+    "options": [
+      "viaje",
+      "viajero",
+      "jornada",
+      "diario"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«journey» significa «viaje» en español. Es un falso amigo parcial: no es «jornada», aunque comparten origen francés. Sirve para viajes largos.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-kitchen",
+    "text": "¿Qué significa la palabra inglesa «kitchen»?",
+    "options": [
+      "cocinero",
+      "cocina",
+      "baño",
+      "comedor"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«kitchen» significa «cocina» en español. Es la habitación donde se prepara la comida. El cocinero se llama «cook» o «chef».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-pillow",
+    "text": "¿Qué significa la palabra inglesa «pillow» en español?",
+    "options": [
+      "sábana",
+      "almohada",
+      "manta",
+      "colchón"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«pillow» significa «almohada» en español. Se usa en la cama para apoyar la cabeza. Su plural es «pillows».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-grandfather",
+    "text": "¿Qué significa la palabra inglesa «grandfather» en español?",
+    "options": [
+      "nieto",
+      "abuelo",
+      "bisabuelo",
+      "tío"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«grandfather» significa «abuelo» en español. Familiarmente se dice «grandpa». El abuelo es el padre del padre o de la madre.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-queso-ingles",
+    "text": "¿Cómo se traduce «queso» al inglés?",
+    "options": [
+      "milk",
+      "cheese",
+      "bread",
+      "butter"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «queso» se dice «cheese». Se pronuncia aproximadamente «chiis». En fotos se dice «say cheese» para sonreír.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-conejo-ingles",
+    "text": "¿Cómo se dice «conejo» en inglés?",
+    "options": [
+      "hare",
+      "fox",
+      "rabbit",
+      "mouse"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «conejo» se dice «rabbit». Ojo: «hare» es la liebre, un animal distinto. «Rabbit» es el conejo.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-zapato",
+    "text": "¿Cómo se dice en inglés «zapato»?",
+    "options": [
+      "shirt",
+      "hat",
+      "sock",
+      "shoe"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «zapato» se dice «shoe». Un par de zapatos se dice «a pair of shoes». Se pronuncia aproximadamente «shuu».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-oveja",
+    "text": "¿Cuál es la traducción al inglés de «oveja»?",
+    "options": [
+      "cow",
+      "sheep",
+      "pig",
+      "goat"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «oveja» se dice «sheep». Su plural es invariable: «one sheep, two sheep». La carne de oveja es «mutton».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-puente-ingles",
+    "text": "¿Cómo se traduce «puente» al inglés?",
+    "options": [
+      "tunnel",
+      "bridge",
+      "tower",
+      "road"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «puente» se dice «bridge». Se pronuncia con un sonido parecido a «bridch». También es un juego de cartas.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-periodico-ingles",
+    "text": "¿Cómo se dice «periódico» en inglés?",
+    "options": [
+      "newspaper",
+      "notebook",
+      "letter",
+      "magazine"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «periódico» se dice «newspaper». Está formado por «news» (noticias) y «paper» (papel). Una revista es «magazine».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-cuchillo",
+    "text": "¿Cómo se dice en inglés «cuchillo»?",
+    "options": [
+      "fork",
+      "spoon",
+      "plate",
+      "knife"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «cuchillo» se dice «knife». La «k» inicial no se pronuncia: suena «naif». Su plural es «knives».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-desayuno",
+    "text": "¿Cuál es la traducción al inglés de «desayuno»?",
+    "options": [
+      "dinner",
+      "snack",
+      "breakfast",
+      "lunch"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «desayuno» se dice «breakfast». Viene de «romper el ayuno» (break-fast). Se pronuncia aproximadamente «brékfast».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-habitacion-ingles",
+    "text": "¿Cómo se traduce «habitación» al inglés?",
+    "options": [
+      "kitchen",
+      "room",
+      "house",
+      "floor"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «habitación» se dice «room». «Room» también significa «espacio libre»: «There is no room» (no hay sitio).",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-regalo-ingles",
+    "text": "¿Cómo se dice «regalo» en inglés?",
+    "options": [
+      "bill",
+      "gum",
+      "gap",
+      "gift"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «regalo» se dice «gift». «Gift» es regalo. En alemán, «Gift» significa «veneno»: un falso amigo clásico.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-tejado",
+    "text": "¿Cómo se dice en inglés «tejado»?",
+    "options": [
+      "floor",
+      "wall",
+      "roof",
+      "chimney"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «tejado» se dice «roof». Se pronuncia como «ruuf». «Roof» también aparece en «roof terrace» (terraza).",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-pared",
+    "text": "¿Cuál es la traducción al inglés de «pared»?",
+    "options": [
+      "roof",
+      "floor",
+      "wall",
+      "door"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «pared» se dice «wall». «Wall» es la pared interior o exterior. El muro de una ciudad también se dice «wall».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-biblioteca-ingles",
+    "text": "¿Cómo se traduce «biblioteca» al inglés?",
+    "options": [
+      "library",
+      "museum",
+      "bookshop",
+      "school"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En inglés, «biblioteca» se dice «library». Es un falso amigo: «librería» en inglés es «bookshop» o «bookstore».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-bahnhof",
+    "text": "¿Qué significa la palabra alemana «Bahnhof»?",
+    "options": [
+      "aeropuerto",
+      "puerto",
+      "mercado",
+      "estación"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Bahnhof» significa «estación» en español. Se compone de «Bahn» (tren) y «Hof» (patio). «Hauptbahnhof» es la estación central.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-krankenhaus",
+    "text": "¿Qué significa la palabra alemana «Krankenhaus» en español?",
+    "options": [
+      "farmacia",
+      "escuela",
+      "hospital",
+      "hotel"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Krankenhaus» significa «hospital» en español. Se compone de «krank» (enfermo) y «Haus» (casa). Es neutra: «das Krankenhaus».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-alemana",
+    "text": "¿Cómo se traduce al español la palabra alemana «Fahrrad»?",
+    "options": [
+      "moto",
+      "patinete",
+      "bicicleta",
+      "coche"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Fahrrad» significa «bicicleta» en español. Se compone de «fahren» (conducir) y «Rad» (rueda). Es neutra: «das Fahrrad».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-schlussel-palabra",
+    "text": "¿Qué significa en español «Schlüssel», palabra alemana?",
+    "options": [
+      "candado",
+      "cerradura",
+      "llave",
+      "puerta"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Schlüssel» significa «llave» en español. En alemán es masculina: «der Schlüssel». Se escribe con «ü», que se pronuncia como una «u» muy cerrada.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-hose",
+    "text": "¿Qué significa la palabra alemana «Hose»?",
+    "options": [
+      "calcetines",
+      "pantalones",
+      "guantes",
+      "zapatos"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Hose» significa «pantalones» en español. En alemán se usa en singular, «die Hose», aunque en español se diga en plural.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-wolke",
+    "text": "¿Qué significa la palabra alemana «Wolke» en español?",
+    "options": [
+      "nube",
+      "niebla",
+      "viento",
+      "lluvia"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Wolke» significa «nube» en español. En alemán es femenina: «die Wolke». Se parece al inglés «cloud» solo en el sentido.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-alemana-2",
+    "text": "¿Cómo se traduce al español la palabra alemana «Gabel»?",
+    "options": [
+      "tenedor",
+      "cuchara",
+      "cuchillo",
+      "plato"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Gabel» significa «tenedor» en español. En alemán es femenina: «die Gabel». Se parece al inglés «gable».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-lehrer-palabra",
+    "text": "¿Qué significa en español «Lehrer», palabra alemana?",
+    "options": [
+      "abogado",
+      "profesor",
+      "alumno",
+      "médico"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Lehrer» significa «profesor» en español. Es masculino; la forma femenina es «Lehrerin». Se parece al inglés «learner» solo en la forma.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-wald",
+    "text": "¿Qué significa la palabra alemana «Wald»?",
+    "options": [
+      "selva",
+      "campo",
+      "bosque",
+      "jardín"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Wald» significa «bosque» en español. Se parece al inglés «wold». Es masculina: «der Wald». «Schwarzwald» es la Selva Negra.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-rathaus",
+    "text": "¿Qué significa la palabra alemana «Rathaus» en español?",
+    "options": [
+      "ayuntamiento",
+      "mercado",
+      "catedral",
+      "estación"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Rathaus» significa «ayuntamiento» en español. Se compone de «Rat» (consejo) y «Haus» (casa): la casa del consejo municipal.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-alemana-3",
+    "text": "¿Cómo se traduce al español la palabra alemana «Handschuh»?",
+    "options": [
+      "calcetín",
+      "guante",
+      "bufanda",
+      "gorro"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Handschuh» significa «guante» en español. Literalmente es «zapato de mano»: «Hand» (mano) y «Schuh» (zapato).",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-regenschirm-palabra",
+    "text": "¿Qué significa en español «Regenschirm», palabra alemana?",
+    "options": [
+      "sombrero",
+      "bota",
+      "impermeable",
+      "paraguas"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Regenschirm» significa «paraguas» en español. Se compone de «Regen» (lluvia) y «Schirm» (pantalla). Es masculino.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-zahnarzt",
+    "text": "¿Qué significa la palabra alemana «Zahnarzt»?",
+    "options": [
+      "farmacéutico",
+      "médico",
+      "dentista",
+      "enfermero"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Zahnarzt» significa «dentista» en español. Se compone de «Zahn» (diente) y «Arzt» (médico). La forma femenina es «Zahnärztin».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-kirche",
+    "text": "¿Qué significa la palabra alemana «Kirche» en español?",
+    "options": [
+      "castillo",
+      "mercado",
+      "escuela",
+      "iglesia"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«Kirche» significa «iglesia» en español. Es femenina: «die Kirche». Se parece al inglés «church» y al escocés «kirk».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-plato",
+    "text": "¿Cuál es la traducción al alemán de «plato»?",
+    "options": [
+      "Glas",
+      "Löffel",
+      "Tasse",
+      "Teller"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «plato» se dice «Teller». En alemán es masculino: «der Teller». Es la pieza donde se sirve la comida.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-ciudad-aleman",
+    "text": "¿Cómo se traduce «ciudad» al alemán?",
+    "options": [
+      "Straße",
+      "Stadt",
+      "Land",
+      "Dorf"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «ciudad» se dice «Stadt». Es femenina: «die Stadt». Se parece al inglés «stead» (lugar) solo en el origen.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-mercado-aleman",
+    "text": "¿Cómo se dice «mercado» en alemán?",
+    "options": [
+      "Platz",
+      "Laden",
+      "Messe",
+      "Markt"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «mercado» se dice «Markt». Es masculino: «der Markt». Se parece al inglés «market» por su origen latino común.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-aleman-cumpleanos",
+    "text": "¿Cómo se dice en alemán «cumpleaños»?",
+    "options": [
+      "Geburtstag",
+      "Urlaub",
+      "Feiertag",
+      "Hochzeit"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «cumpleaños» se dice «Geburtstag». Significa «día de nacimiento». Se felicita con «Alles Gute zum Geburtstag».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-boda",
+    "text": "¿Cuál es la traducción al alemán de «boda»?",
+    "options": [
+      "Feiertag",
+      "Geburtstag",
+      "Hochzeit",
+      "Urlaub"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «boda» se dice «Hochzeit». Es femenina: «die Hochzeit». Literalmente significa «tiempo alto», un día de fiesta.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-huevo-aleman",
+    "text": "¿Cómo se traduce «huevo» al alemán?",
+    "options": [
+      "Eis",
+      "Erde",
+      "Ei",
+      "Eule"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «huevo» se dice «Ei». El plural es «Eier». Con una letra más, «Eis» significa «helado» o «hielo».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-aeropuerto-aleman",
+    "text": "¿Cómo se dice «aeropuerto» en alemán?",
+    "options": [
+      "Bahnhof",
+      "Flugzeug",
+      "Flughafen",
+      "Hafen"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «aeropuerto» se dice «Flughafen». Es masculino: «der Flughafen». Literalmente significa «puerto de vuelo».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-aleman-tio",
+    "text": "¿Cómo se dice en alemán «tío»?",
+    "options": [
+      "Enkel",
+      "Bruder",
+      "Onkel",
+      "Vater"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «tío» se dice «Onkel». Es masculino: «der Onkel». Se parece al inglés «uncle»; la tía es «Tante».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-primavera",
+    "text": "¿Cuál es la traducción al alemán de «primavera»?",
+    "options": [
+      "Herbst",
+      "Sommer",
+      "Winter",
+      "Frühling"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «primavera» se dice «Frühling». Es masculino: «der Frühling». También se usa «das Frühjahr» como sinónimo.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-semana-aleman",
+    "text": "¿Cómo se traduce «semana» al alemán?",
+    "options": [
+      "Woche",
+      "Tag",
+      "Jahr",
+      "Monat"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «semana» se dice «Woche». Es femenina: «die Woche». Se parece al inglés «week» y al neerlandés «week».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-dinero-aleman",
+    "text": "¿Cómo se dice «dinero» en alemán?",
+    "options": [
+      "Geld",
+      "Kosten",
+      "Preis",
+      "Münze"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «dinero» se dice «Geld». Es neutro: «das Geld». «Bargeld» es «dinero en efectivo».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-aleman-cielo",
+    "text": "¿Cómo se dice en alemán «cielo»?",
+    "options": [
+      "Wolke",
+      "Stern",
+      "Erde",
+      "Himmel"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «cielo» se dice «Himmel». Es masculino: «der Himmel». También significa «paraíso» en sentido religioso.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-montana",
+    "text": "¿Cuál es la traducción al alemán de «montaña»?",
+    "options": [
+      "Berg",
+      "Fluss",
+      "Tal",
+      "See"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En alemán, «montaña» se dice «Berg». Es masculino: «der Berg». Se parece al inglés «iceberg»: «Eisberg» es «montaña de hielo».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-carrer-palabra",
+    "text": "¿Qué significa en español «carrer», palabra catalana?",
+    "options": [
+      "calle",
+      "plaza",
+      "puente",
+      "camino"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«carrer» significa «calle» en español. Es masculino: «el carrer». Viene del latín «carraria», como la palabra «carro».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-placa",
+    "text": "¿Qué significa la palabra catalana «plaça»?",
+    "options": [
+      "mercado",
+      "plaza",
+      "iglesia",
+      "calle"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«plaça» significa «plaza» en español. En catalán se escribe con «ç». «Plaça Catalunya» es la plaza central de Barcelona.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-tovallola",
+    "text": "¿Qué significa la palabra catalana «tovallola» en español?",
+    "options": [
+      "manta",
+      "sábana",
+      "toalla",
+      "servilleta"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«tovallola» significa «toalla» en español. Es femenina: «la tovallola». Se escribe con «ll» doble, como el español «ll».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-5",
+    "text": "¿Cómo se traduce al español la palabra catalana «cullera»?",
+    "options": [
+      "cuchillo",
+      "cuchara",
+      "plato",
+      "tenedor"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«cullera» significa «cuchara» en español. Es femenina: «la cullera». En catalán el tenedor es «forquilla» y el cuchillo «ganivet».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-gener-palabra",
+    "text": "¿Qué significa en español «gener», palabra catalana?",
+    "options": [
+      "julio",
+      "enero",
+      "febrero",
+      "junio"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«gener» significa «enero» en español. Es el primer mes del año. En catalán los meses se escriben con minúscula.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-dijous",
+    "text": "¿Qué significa la palabra catalana «dijous»?",
+    "options": [
+      "miércoles",
+      "martes",
+      "viernes",
+      "jueves"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«dijous» significa «jueves» en español. Los días catalanes acaban en «-s» y vienen del latín: dijous es el día de Júpiter.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-pluja",
+    "text": "¿Qué significa la palabra catalana «pluja» en español?",
+    "options": [
+      "lluvia",
+      "viento",
+      "nube",
+      "nieve"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«pluja» significa «lluvia» en español. Es femenina: «la pluja». «Plou» significa «llueve».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-6",
+    "text": "¿Cómo se traduce al español la palabra catalana «forn»?",
+    "options": [
+      "horno",
+      "nevera",
+      "lavadora",
+      "tostadora"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«forn» significa «horno» en español. Es masculino: «el forn». También es una panadería: «el forn de pa».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-jersei-palabra",
+    "text": "¿Qué significa en español «jersei», palabra catalana?",
+    "options": [
+      "jersey",
+      "camisa",
+      "falda",
+      "abrigo"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«jersei» significa «jersey» en español. Se escribe con «ei» final en catalán. El español adoptó la forma inglesa «jersey».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-samarreta",
+    "text": "¿Qué significa la palabra catalana «samarreta»?",
+    "options": [
+      "camisa",
+      "camiseta",
+      "corbata",
+      "chaqueta"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«samarreta» significa «camiseta» en español. Es femenina: «la samarreta». La «samarreta» del Barça es su camiseta oficial.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-avio",
+    "text": "¿Qué significa la palabra catalana «avió» en español?",
+    "options": [
+      "tren",
+      "barco",
+      "avión",
+      "coche"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«avió» significa «avión» en español. En catalán lleva acento agudo en la «ó»: «avió». Su plural es «avions».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-7",
+    "text": "¿Cómo se traduce al español la palabra catalana «mitjons»?",
+    "options": [
+      "calcetines",
+      "pantalones",
+      "zapatos",
+      "guantes"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«mitjons» significa «calcetines» en español. El singular es «mitjó». Se usa casi siempre en plural, como «calcetines».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-barret-palabra",
+    "text": "¿Qué significa en español «barret», palabra catalana?",
+    "options": [
+      "abrigo",
+      "zapato",
+      "sombrero",
+      "bufanda"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "«barret» significa «sombrero» en español. Es masculino: «el barret». Se usa para cubrir la cabeza, por ejemplo en verano.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-cerdo-catalan",
+    "text": "¿Cómo se dice «cerdo» en catalán?",
+    "options": [
+      "gos",
+      "vaca",
+      "ovella",
+      "porc"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «cerdo» se dice «porc». Es masculino: «el porc». La carne de cerdo también se dice «carn de porc».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-pueblo",
+    "text": "¿Cómo se dice en catalán «pueblo»?",
+    "options": [
+      "ciutat",
+      "poble",
+      "carrer",
+      "plaça"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «pueblo» se dice «poble». En catalán «poble» también significa «gente» o «nación», como en español «pueblo».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-catalan-abuela",
+    "text": "¿Cuál es la traducción al catalán de «abuela»?",
+    "options": [
+      "germana",
+      "neta",
+      "tia",
+      "àvia"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «abuela» se dice «àvia». El abuelo es «avi». En plural, «els avis» son los abuelos.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-hijo-catalan",
+    "text": "¿Cómo se traduce «hijo» al catalán?",
+    "options": [
+      "oncle",
+      "pare",
+      "germà",
+      "fill"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «hijo» se dice «fill». Se escribe con «ll» final. La hija es «filla» y los hijos, «fills».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-febrero-catalan",
+    "text": "¿Cómo se dice «febrero» en catalán?",
+    "options": [
+      "febrer",
+      "gener",
+      "juny",
+      "març"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «febrero» se dice «febrer». Se escribe con la última «r» y sin «o». Tiene 28 o 29 días.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-lunes",
+    "text": "¿Cómo se dice en catalán «lunes»?",
+    "options": [
+      "dimarts",
+      "dilluns",
+      "dijous",
+      "dimecres"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «lunes» se dice «dilluns». Viene del latín «dies lunae», día de la Luna. Es el primer día de la semana laboral.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-catalan-tienda",
+    "text": "¿Cuál es la traducción al catalán de «tienda»?",
+    "options": [
+      "carrer",
+      "mercat",
+      "plaça",
+      "botiga"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «tienda» se dice «botiga». Es femenina: «la botiga». Viene del griego «apothḗkē», como «bodega».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-camino-catalan",
+    "text": "¿Cómo se traduce «camino» al catalán?",
+    "options": [
+      "carrer",
+      "carretera",
+      "camí",
+      "plaça"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «camino» se dice «camí». Es masculino: «el camí». El «Camí de Sant Jaume» es el Camino de Santiago.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-playa-catalan",
+    "text": "¿Cómo se dice «playa» en catalán?",
+    "options": [
+      "riu",
+      "port",
+      "platja",
+      "mar"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «playa» se dice «platja». Es femenina: «la platja». Su plural es «platges».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-gafas",
+    "text": "¿Cómo se dice en catalán «gafas»?",
+    "options": [
+      "guants",
+      "sabates",
+      "ulleres",
+      "mitjons"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «gafas» se dice «ulleres». Es plural: «les ulleres». Viene de «ull», que significa «ojo».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-catalan-ensalada",
+    "text": "¿Cuál es la traducción al catalán de «ensalada»?",
+    "options": [
+      "amanida",
+      "paella",
+      "truita",
+      "sopa"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «ensalada» se dice «amanida». Es femenina: «l'amanida». Una ensalada catalana típica es la «amanida catalana».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-zanahoria-catalan",
+    "text": "¿Cómo se traduce «zanahoria» al catalán?",
+    "options": [
+      "pastanaga",
+      "all",
+      "patata",
+      "ceba"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «zanahoria» se dice «pastanaga». Es femenina: «la pastanaga». Viene del árabe, igual que la palabra española «zanahoria».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-domingo-catalan",
+    "text": "¿Cómo se dice «domingo» en catalán?",
+    "options": [
+      "dissabte",
+      "divendres",
+      "dilluns",
+      "diumenge"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "medio",
+    "explanation": "En catalán, «domingo» se dice «diumenge». Viene del latín «dies dominica», día del Señor. Es el último día de la semana.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-hedgehog",
+    "text": "¿Qué significa la palabra inglesa «hedgehog» en español?",
+    "options": [
+      "tejón",
+      "ardilla",
+      "topo",
+      "erizo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«hedgehog» significa «erizo» en español. Se compone de «hedge» (seto) y «hog» (cerdo): el cerdo de los setos.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-6",
+    "text": "¿Cómo se traduce al español la palabra inglesa «thunder»?",
+    "options": [
+      "trueno",
+      "tormenta",
+      "relámpago",
+      "rayo"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«thunder» significa «trueno» en español. «Lightning» es el relámpago o el rayo. «Thunderstorm» es una tormenta con truenos.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-lawyer-palabra",
+    "text": "¿Qué significa en español «lawyer», palabra inglesa?",
+    "options": [
+      "juez",
+      "fiscal",
+      "notario",
+      "abogado"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«lawyer» significa «abogado» en español. En inglés se usa «lawyer» de forma general; un «solicitor» o un «barrister» son especialistas.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-wrist",
+    "text": "¿Qué significa la palabra inglesa «wrist»?",
+    "options": [
+      "codo",
+      "muñeca",
+      "hombro",
+      "tobillo"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«wrist» significa «muñeca» en español. La «w» inicial no se pronuncia: suena «rist». Una pulsera es «bracelet».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-dishwasher",
+    "text": "¿Qué significa la palabra inglesa «dishwasher» en español?",
+    "options": [
+      "nevera",
+      "horno",
+      "lavadora",
+      "lavavajillas"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«dishwasher» significa «lavavajillas» en español. Se compone de «dish» (plato) y «washer» (lavadora). Una lavadora de ropa es «washing machine».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-7",
+    "text": "¿Cómo se traduce al español la palabra inglesa «seagull»?",
+    "options": [
+      "paloma",
+      "águila",
+      "gaviota",
+      "cigüeña"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«seagull» significa «gaviota» en español. Se compone de «sea» (mar) y «gull» (gaviota). Es un ave marina frecuente en la costa.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-carpenter-palabra",
+    "text": "¿Qué significa en español «carpenter», palabra inglesa?",
+    "options": [
+      "carpintero",
+      "fontanero",
+      "albañil",
+      "electricista"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«carpenter» significa «carpintero» en español. Es un oficio que trabaja la madera. «Carpentry» es la carpintería.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-rinon-ingles",
+    "text": "¿Cómo se dice «riñón» en inglés?",
+    "options": [
+      "liver",
+      "kidney",
+      "heart",
+      "lung"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «riñón» se dice «kidney». «Kidney» también da nombre a la alubia «kidney bean», con forma de riñón.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-faro",
+    "text": "¿Cómo se dice en inglés «faro»?",
+    "options": [
+      "tower",
+      "harbour",
+      "lighthouse",
+      "pier"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «faro» se dice «lighthouse». Se compone de «light» (luz) y «house» (casa). Un faro de coche se dice «headlight».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-marea",
+    "text": "¿Cuál es la traducción al inglés de «marea»?",
+    "options": [
+      "tide",
+      "current",
+      "wave",
+      "shore"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «marea» se dice «tide». «High tide» es pleamar y «low tide» es bajamar. Una marea negra es «oil spill».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-tobillo-ingles",
+    "text": "¿Cómo se traduce «tobillo» al inglés?",
+    "options": [
+      "elbow",
+      "ankle",
+      "knee",
+      "wrist"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «tobillo» se dice «ankle». Es la articulación entre el pie y la pierna. Se pronuncia aproximadamente «ánkl».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-mirlo-ingles",
+    "text": "¿Cómo se dice «mirlo» en inglés?",
+    "options": [
+      "crow",
+      "blackbird",
+      "sparrow",
+      "robin"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «mirlo» se dice «blackbird». Se compone de «black» (negro) y «bird» (pájaro). El macho es negro con pico amarillo.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-pegamento",
+    "text": "¿Cómo se dice en inglés «pegamento»?",
+    "options": [
+      "glue",
+      "paint",
+      "string",
+      "tape"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «pegamento» se dice «glue». «Glue» es el pegamento líquido. La cinta adhesiva se dice «tape».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-huelga",
+    "text": "¿Cuál es la traducción al inglés de «huelga»?",
+    "options": [
+      "strike",
+      "protest",
+      "holiday",
+      "meeting"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En inglés, «huelga» se dice «strike». «Strike» también es «golpear» y «strike» en béisbol. Estar en huelga es «to be on strike».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-schmetterling-palabra",
+    "text": "¿Qué significa en español «Schmetterling», palabra alemana?",
+    "options": [
+      "libélula",
+      "abeja",
+      "mosca",
+      "mariposa"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Schmetterling» significa «mariposa» en español. Viene de «Schmetten» (nata): se creía que las brujas robaban nata convertidas en mariposas.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-burgermeister",
+    "text": "¿Qué significa la palabra alemana «Bürgermeister»?",
+    "options": [
+      "presidente",
+      "juez",
+      "alcalde",
+      "concejal"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Bürgermeister» significa «alcalde» en español. Se compone de «Bürger» (ciudadano) y «Meister» (maestro). Es masculino: «der Bürgermeister».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-staubsauger",
+    "text": "¿Qué significa la palabra alemana «Staubsauger» en español?",
+    "options": [
+      "lavadora",
+      "aspiradora",
+      "batidora",
+      "plancha"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Staubsauger» significa «aspiradora» en español. Se compone de «Staub» (polvo) y «Sauger» (chupador). Es masculino.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-alemana-4",
+    "text": "¿Cómo se traduce al español la palabra alemana «Nachbar»?",
+    "options": [
+      "pariente",
+      "invitado",
+      "vecino",
+      "amigo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Nachbar» significa «vecino» en español. La forma femenina es «Nachbarin». Se parece al inglés «neighbour».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-gewitter-palabra",
+    "text": "¿Qué significa en español «Gewitter», palabra alemana?",
+    "options": [
+      "helada",
+      "huracán",
+      "tormenta",
+      "niebla"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Gewitter» significa «tormenta» en español. Describe una tormenta con rayos y truenos. Es neutro: «das Gewitter».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-hammer",
+    "text": "¿Qué significa la palabra alemana «Hammer»?",
+    "options": [
+      "clavo",
+      "tornillo",
+      "martillo",
+      "sierra"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Hammer» significa «martillo» en español. Es masculino: «der Hammer». Se escribe igual que en inglés, pero se pronuncia con «a» breve.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-handy",
+    "text": "¿Qué significa la palabra alemana «Handy» en español?",
+    "options": [
+      "reloj",
+      "cámara",
+      "móvil",
+      "radio"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«Handy» significa «móvil» en español. Es un seudoanglicismo: en inglés se dice «mobile phone» o «cell phone». Es neutro: «das Handy».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-panuelo",
+    "text": "¿Cuál es la traducción al alemán de «pañuelo»?",
+    "options": [
+      "Schal",
+      "Taschentuch",
+      "Socke",
+      "Handtuch"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En alemán, «pañuelo» se dice «Taschentuch». Literalmente es «paño de bolsillo»: «Tasche» (bolsillo) y «Tuch» (paño). Es neutro.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-buzon-aleman",
+    "text": "¿Cómo se traduce «buzón» al alemán?",
+    "options": [
+      "Briefkasten",
+      "Umschlag",
+      "Paket",
+      "Brief"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En alemán, «buzón» se dice «Briefkasten». Se compone de «Brief» (carta) y «Kasten» (caja). Es masculino: «der Briefkasten».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-fresa-aleman",
+    "text": "¿Cómo se dice «fresa» en alemán?",
+    "options": [
+      "Himbeere",
+      "Erdbeere",
+      "Kirsche",
+      "Brombeere"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En alemán, «fresa» se dice «Erdbeere». Literalmente es «baya de tierra»: «Erde» (tierra) y «Beere» (baya).",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-aleman-cinturon",
+    "text": "¿Cómo se dice en alemán «cinturón»?",
+    "options": [
+      "Schal",
+      "Mütze",
+      "Krawatte",
+      "Gürtel"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En alemán, «cinturón» se dice «Gürtel». Es masculino: «der Gürtel». Se parece al inglés «girdle» (faja).",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-piscina",
+    "text": "¿Cuál es la traducción al alemán de «piscina»?",
+    "options": [
+      "Bahnhof",
+      "Schwimmbad",
+      "Strand",
+      "Sportplatz"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En alemán, «piscina» se dice «Schwimmbad». Literalmente es «baño de nadar». Es neutro: «das Schwimmbad».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-hierro-aleman",
+    "text": "¿Cómo se traduce «hierro» al alemán?",
+    "options": [
+      "Gold",
+      "Silber",
+      "Eisen",
+      "Stahl"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En alemán, «hierro» se dice «Eisen». Es neutro: «das Eisen». Se parece al inglés «iron», con el mismo origen germánico.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-pressec",
+    "text": "¿Qué significa la palabra catalana «préssec»?",
+    "options": [
+      "pera",
+      "cereza",
+      "fresa",
+      "melocotón"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«préssec» significa «melocotón» en español. Es masculino: «el préssec». En catalán se escribe con dos «s» y acento agudo en la «é».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-escombraries-palabra",
+    "text": "¿Qué significa en español «escombraries», palabra catalana?",
+    "options": [
+      "basura",
+      "escalera",
+      "escombros",
+      "escoba"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«escombraries» significa «basura» en español. Se usa siempre en plural. «Escombros» en español se dice «runa» o «enderrocs» en catalán.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-8",
+    "text": "¿Cómo se traduce al español la palabra catalana «cargol»?",
+    "options": [
+      "cangrejo",
+      "tortuga",
+      "caracol",
+      "gusano"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«cargol» significa «caracol» en español. Es masculino: «el cargol». También designa a un plato típico de Lleida.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-anec-palabra",
+    "text": "¿Qué significa en español «ànec», palabra catalana?",
+    "options": [
+      "gallo",
+      "pato",
+      "paloma",
+      "ganso"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«ànec» significa «pato» en español. Se escribe con acento grave en la «à»: «ànec». Su plural es «ànecs».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-formiga",
+    "text": "¿Qué significa la palabra catalana «formiga»?",
+    "options": [
+      "abeja",
+      "mariposa",
+      "hormiga",
+      "mosca"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«formiga» significa «hormiga» en español. Es femenina: «la formiga». Viene del latín «formica», igual que el español «hormiga».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-cervell",
+    "text": "¿Qué significa la palabra catalana «cervell» en español?",
+    "options": [
+      "cabeza",
+      "corazón",
+      "cerebro",
+      "cerveza"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«cervell» significa «cerebro» en español. Es masculino: «el cervell». También se usa para hablar de la inteligencia.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-9",
+    "text": "¿Cómo se traduce al español la palabra catalana «genoll»?",
+    "options": [
+      "codo",
+      "hombro",
+      "tobillo",
+      "rodilla"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "«genoll» significa «rodilla» en español. Es masculino: «el genoll». «De genolls» significa «de rodillas».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-frambuesa-catalan",
+    "text": "¿Cómo se traduce «frambuesa» al catalán?",
+    "options": [
+      "mora",
+      "cirera",
+      "maduixa",
+      "gerd"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En catalán, «frambuesa» se dice «gerd». Es masculino: «el gerd». Su plural es «gerds».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan",
+    "text": "¿Cómo se dice «uña» en catalán?",
+    "options": [
+      "ungla",
+      "pell",
+      "ull",
+      "dent"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En catalán, «uña» se dice «ungla». Es femenina: «la ungla». Su plural es «ungles».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-cuello",
+    "text": "¿Cómo se dice en catalán «cuello»?",
+    "options": [
+      "cap",
+      "coll",
+      "braç",
+      "cama"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En catalán, «cuello» se dice «coll». Es masculino: «el coll». «Coll» también es un paso de montaña, como el «Coll de Nargó».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-catalan-paloma",
+    "text": "¿Cuál es la traducción al catalán de «paloma»?",
+    "options": [
+      "ànec",
+      "gos",
+      "colom",
+      "corb"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En catalán, «paloma» se dice «colom». Es masculino: «el colom». «Colom» es también el apellido de Cristóbal Colón en catalán.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-cangrejo-catalan",
+    "text": "¿Cómo se traduce «cangrejo» al catalán?",
+    "options": [
+      "peix",
+      "musclo",
+      "cranc",
+      "gamba"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En catalán, «cangrejo» se dice «cranc». Es masculino: «el cranc». La gamba es otro crustáceo, distinto del cangrejo.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-calabaza-catalan",
+    "text": "¿Cómo se dice «calabaza» en catalán?",
+    "options": [
+      "albergínia",
+      "carbassa",
+      "meló",
+      "síndria"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "difícil",
+    "explanation": "En catalán, «calabaza» se dice «carbassa». Es femenina: «la carbassa». «Carbassó» es el calabacín, la forma más pequeña.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-nightingale",
+    "text": "¿Qué significa la palabra inglesa «nightingale» en español?",
+    "options": [
+      "golondrina",
+      "jilguero",
+      "ruiseñor",
+      "gorrión"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«nightingale» significa «ruiseñor» en español. Es famoso por su canto nocturno. Florence Nightingale tomó su apellido de esta ave.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-8",
+    "text": "¿Cómo se traduce al español la palabra inglesa «whisk»?",
+    "options": [
+      "colador",
+      "cucharón",
+      "batidor",
+      "rallador"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«whisk» significa «batidor» en español. Sirve para batir huevos o nata. Como verbo, «to whisk» significa batir o montar.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-cuttlefish-palabra",
+    "text": "¿Qué significa en español «cuttlefish», palabra inglesa?",
+    "options": [
+      "calamar",
+      "pulpo",
+      "medusa",
+      "sepia"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«cuttlefish» significa «sepia» en español. En algunos lugares también se llama «choco». «Sepia» también es un color marrón.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-bumblebee",
+    "text": "¿Qué significa la palabra inglesa «bumblebee»?",
+    "options": [
+      "libélula",
+      "mosquito",
+      "avispa",
+      "abejorro"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«bumblebee» significa «abejorro» en español. Es un insecto grande, peludo y zumbador, parecido a una abeja gruesa.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-inglesa-firefly",
+    "text": "¿Qué significa la palabra inglesa «firefly» en español?",
+    "options": [
+      "polilla",
+      "mariposa",
+      "libélula",
+      "luciérnaga"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«firefly» significa «luciérnaga» en español. Se compone de «fire» (fuego) y «fly» (mosca). Emite luz por la noche.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-inglesa-9",
+    "text": "¿Cómo se traduce al español la palabra inglesa «scarecrow»?",
+    "options": [
+      "espantapájaros",
+      "vagabundo",
+      "muñeco",
+      "fantasma"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«scarecrow» significa «espantapájaros» en español. Se compone de «scare» (asustar) y «crow» (cuervo). Se coloca en los campos.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-toad-palabra",
+    "text": "¿Qué significa en español «toad», palabra inglesa?",
+    "options": [
+      "sapo",
+      "lagarto",
+      "rana",
+      "culebra"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«toad» significa «sapo» en español. Se diferencia de la rana, «frog», por su piel rugosa y su vida más terrestre.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-guisante-ingles",
+    "text": "¿Cómo se dice «guisante» en inglés?",
+    "options": [
+      "chickpea",
+      "lentil",
+      "bean",
+      "pea"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «guisante» se dice «pea». «Pea» es la semilla de la planta. «Green peas» son los guisantes verdes.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-moreton",
+    "text": "¿Cómo se dice en inglés «moretón»?",
+    "options": [
+      "scar",
+      "bruise",
+      "wound",
+      "blister"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «moretón» se dice «bruise». Aparece por un golpe bajo la piel. Se pronuncia aproximadamente «bruus».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-libelula",
+    "text": "¿Cuál es la traducción al inglés de «libélula»?",
+    "options": [
+      "dragonfly",
+      "butterfly",
+      "firefly",
+      "bumblebee"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «libélula» se dice «dragonfly». Se compone de «dragon» (dragón) y «fly» (mosca). Tiene cuatro alas transparentes.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-estribo-ingles",
+    "text": "¿Cómo se traduce «estribo» al inglés?",
+    "options": [
+      "saddle",
+      "stirrup",
+      "horseshoe",
+      "bridle"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «estribo» se dice «stirrup». Es la pieza donde se apoya el pie a caballo. Se pronuncia aproximadamente «stirap».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-alicates-ingles",
+    "text": "¿Cómo se dice «alicates» en inglés?",
+    "options": [
+      "wrench",
+      "pliers",
+      "saw",
+      "hammer"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «alicates» se dice «pliers». Es una herramienta para sujetar y cortar. En inglés se usa siempre en plural.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-ingles-ciguena",
+    "text": "¿Cómo se dice en inglés «cigüeña»?",
+    "options": [
+      "stork",
+      "swan",
+      "heron",
+      "crane"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «cigüeña» se dice «stork». En la tradición popular, la cigüeña trae a los bebés. Se pronuncia «stork».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-ingles-hoz",
+    "text": "¿Cuál es la traducción al inglés de «hoz»?",
+    "options": [
+      "scythe",
+      "sickle",
+      "axe",
+      "spade"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En inglés, «hoz» se dice «sickle». Se usa para segar. En inglés «scythe» es la guadaña, una herramienta distinta.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-eichhornchen-palabra",
+    "text": "¿Qué significa en español «Eichhörnchen», palabra alemana?",
+    "options": [
+      "erizo",
+      "marmota",
+      "ardilla",
+      "topo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Eichhörnchen» significa «ardilla» en español. Es famosa entre los estudiantes de alemán por su pronunciación difícil.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-schornstein",
+    "text": "¿Qué significa la palabra alemana «Schornstein»?",
+    "options": [
+      "tejado",
+      "ventana",
+      "chimenea",
+      "escalera"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Schornstein» significa «chimenea» en español. Es masculino: «der Schornstein». Literalmente es «piedra de chimenea».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-kopfsteinpflaster",
+    "text": "¿Qué significa la palabra alemana «Kopfsteinpflaster»?",
+    "options": [
+      "baldosas",
+      "gravilla",
+      "asfalto",
+      "adoquines"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Kopfsteinpflaster» significa «adoquines» en español. Literalmente es «pavimento de piedras de cabeza», por la forma redondeada de las piedras.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-alemana-5",
+    "text": "¿Cómo se traduce al español la palabra alemana «Maulwurf»?",
+    "options": [
+      "conejo",
+      "topo",
+      "erizo",
+      "ratón"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Maulwurf» significa «topo» en español. Es masculino: «der Maulwurf». Larousse lo traduce como «topo» en alemán-español.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-fledermaus-palabra",
+    "text": "¿Qué significa en español «Fledermaus», palabra alemana?",
+    "options": [
+      "lechuza",
+      "murciélago",
+      "polilla",
+      "mariposa"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Fledermaus» significa «murciélago» en español. Literalmente es «ratón aleteador». Es femenina: «die Fledermaus».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-wasserhahn",
+    "text": "¿Qué significa la palabra alemana «Wasserhahn»?",
+    "options": [
+      "grifo",
+      "manguera",
+      "tubería",
+      "fregadero"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Wasserhahn» significa «grifo» en español. Se compone de «Wasser» (agua) y «Hahn» (gallo). El grifo se llama «gallo de agua».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-alemana-heuschrecke",
+    "text": "¿Qué significa la palabra alemana «Heuschrecke» en español?",
+    "options": [
+      "saltamontes",
+      "hormiga",
+      "escarabajo",
+      "grillo"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«Heuschrecke» significa «saltamontes» en español. Es femenina: «die Heuschrecke». «Heu» significa «heno»: el insecto vive en los prados.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-avispa",
+    "text": "¿Cuál es la traducción al alemán de «avispa»?",
+    "options": [
+      "Biene",
+      "Wespe",
+      "Fliege",
+      "Hummel"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En alemán, «avispa» se dice «Wespe». Es femenina: «die Wespe». «Hummel» es el abejorro y «Biene» la abeja.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-escarabajo-aleman",
+    "text": "¿Cómo se traduce «escarabajo» al alemán?",
+    "options": [
+      "Käfer",
+      "Wespe",
+      "Ameise",
+      "Wurm"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En alemán, «escarabajo» se dice «Käfer». Es masculino: «der Käfer». El «VW Käfer» es el Volkswagen Escarabajo.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-golondrina-aleman",
+    "text": "¿Cómo se dice «golondrina» en alemán?",
+    "options": [
+      "Storch",
+      "Schwalbe",
+      "Möwe",
+      "Spatz"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En alemán, «golondrina» se dice «Schwalbe». Es femenina: «die Schwalbe». Se dice que «Eine Schwalbe macht noch keinen Sommer».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-aleman-relampago",
+    "text": "¿Cómo se dice en alemán «relámpago»?",
+    "options": [
+      "Blitz",
+      "Sturm",
+      "Regen",
+      "Donner"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En alemán, «relámpago» se dice «Blitz». Es masculino: «der Blitz». «Donner» es el trueno.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-aleman-mosquito",
+    "text": "¿Cuál es la traducción al alemán de «mosquito»?",
+    "options": [
+      "Fliege",
+      "Ameise",
+      "Mücke",
+      "Wespe"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En alemán, «mosquito» se dice «Mücke». Es femenina: «die Mücke». «Fliege» es la mosca.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-ciervo-aleman",
+    "text": "¿Cómo se traduce «ciervo» al alemán?",
+    "options": [
+      "Reh",
+      "Hirsch",
+      "Hase",
+      "Fuchs"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En alemán, «ciervo» se dice «Hirsch». Es masculino: «der Hirsch». «Reh» es el corzo y «Hase» la liebre.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-estovalles",
+    "text": "¿Qué significa la palabra catalana «estovalles»?",
+    "options": [
+      "mantel",
+      "servilleta",
+      "cortina",
+      "sábana"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«estovalles» significa «mantel» en español. Se usa siempre en plural: «les estovalles». Cubre la mesa.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-falguera",
+    "text": "¿Qué significa la palabra catalana «falguera» en español?",
+    "options": [
+      "seta",
+      "hierba",
+      "helecho",
+      "musgo"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«falguera» significa «helecho» en español. Es femenina: «la falguera». Es una planta de hojas divididas que vive en lugares húmedos.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-10",
+    "text": "¿Cómo se traduce al español la palabra catalana «tisores»?",
+    "options": [
+      "cuchillos",
+      "alicates",
+      "agujas",
+      "tijeras"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«tisores» significa «tijeras» en español. Se usa siempre en plural: «unes tisores», como «tijeras» en español.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-espanol-melic-palabra",
+    "text": "¿Qué significa en español «melic», palabra catalana?",
+    "options": [
+      "codo",
+      "rodilla",
+      "ombligo",
+      "cuello"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«melic» significa «ombligo» en español. Es masculino: «el melic». También significa «centro» de un lugar.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-pebrot",
+    "text": "¿Qué significa la palabra catalana «pebrot»?",
+    "options": [
+      "pimienta",
+      "pepino",
+      "calabaza",
+      "pimiento"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«pebrot» significa «pimiento» en español. Es masculino: «el pebrot». No confundir con «pebre», que es la pimienta.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-significa-palabra-catalana-alberginia",
+    "text": "¿Qué significa la palabra catalana «albergínia» en español?",
+    "options": [
+      "calabacín",
+      "berenjena",
+      "alcachofa",
+      "pepino"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«albergínia» significa «berenjena» en español. Es femenina: «l'albergínia». Es el ingrediente central de la escalivada.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-espanol-palabra-catalana-11",
+    "text": "¿Cómo se traduce al español la palabra catalana «cuc»?",
+    "options": [
+      "hormiga",
+      "gusano",
+      "caracol",
+      "mosca"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "«cuc» significa «gusano» en español. Es masculino: «el cuc». Se aplica a invertebrados de cuerpo blando y alargado.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-cuervo-catalan",
+    "text": "¿Cómo se traduce «cuervo» al catalán?",
+    "options": [
+      "colom",
+      "gavina",
+      "corb",
+      "ànec"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En catalán, «cuervo» se dice «corb». Es masculino: «el corb». Su plural es «corbs».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-alcachofa-catalan",
+    "text": "¿Cómo se dice «alcachofa» en catalán?",
+    "options": [
+      "albergínia",
+      "carxofa",
+      "ceba",
+      "pastanaga"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En catalán, «alcachofa» se dice «carxofa». Es femenina: «la carxofa». Se escribe con «x» y se pronuncia como «sh».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-catalan-mejillon",
+    "text": "¿Cómo se dice en catalán «mejillón»?",
+    "options": [
+      "ostra",
+      "gamba",
+      "cranc",
+      "musclo"
+    ],
+    "correctIndex": 3,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En catalán, «mejillón» se dice «musclo». Es masculino: «el musclo». Se cocina en la «cassola de musclos» y al vapor.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduccion-catalan-ceniza",
+    "text": "¿Cuál es la traducción al catalán de «ceniza»?",
+    "options": [
+      "cendra",
+      "foc",
+      "fum",
+      "sutge"
+    ],
+    "correctIndex": 0,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En catalán, «ceniza» se dice «cendra». Es femenina: «la cendra». Es el residuo gris que deja un fuego.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-traduce-lechuga-catalan",
+    "text": "¿Cómo se traduce «lechuga» al catalán?",
+    "options": [
+      "espinacs",
+      "enciam",
+      "bleda",
+      "col"
+    ],
+    "correctIndex": 1,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En catalán, «lechuga» se dice «enciam». Es masculino: «l'enciam». En Valencia se dice «lletuga».",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  },
+  {
+    "id": "leng-dice-tomillo-catalan",
+    "text": "¿Cómo se dice «tomillo» en catalán?",
+    "options": [
+      "romaní",
+      "orenga",
+      "farigola",
+      "alfàbrega"
+    ],
+    "correctIndex": 2,
+    "category": "Lengua e Idiomas",
+    "difficulty": "muy difícil",
+    "explanation": "En catalán, «tomillo» se dice «farigola». Es femenina: «la farigola». «Romaní» es el romero y «alfàbrega» la albahaca.",
+    "source": "vocabulario_espanol_ingles_aleman_y_catalan.json",
+    "createdAt": "2026-11-24T16:05:14Z",
+    "status": "active"
+  }
+]
