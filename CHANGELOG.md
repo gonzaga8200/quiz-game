@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.29.0](https://github.com/gonzaga8200/quiz-game/compare/v0.28.1...v0.29.0) (2026-11-24)
+
+
+### Features
+
+* **questions:** add 200 Lengua e Idiomas questions on Spanish, English, German and Catalan vocabulary ([#90](https://github.com/gonzaga8200/quiz-game/issues/90)) ([ec85373](https://github.com/gonzaga8200/quiz-game/commit/ec8537315d1be51973c4f2297464163ed4e72543))
+* **questions:** add 99 Música questions on classical music and the rock, pop and soul of the 50s, 60s and 70s ([#88](https://github.com/gonzaga8200/quiz-game/issues/88)) ([727b095](https://github.com/gonzaga8200/quiz-game/commit/727b09540ec22371e234e555afb46703e19e4f3b))
+
 ## [0.28.1](https://github.com/gonzaga8200/quiz-game/compare/v0.28.0...v0.28.1) (2026-11-24)
 
 
