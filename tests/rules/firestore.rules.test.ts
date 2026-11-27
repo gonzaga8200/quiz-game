@@ -343,7 +343,6 @@ describe('rankings: improving a score', () => {
       ),
     )
   })
-
 })
 
 describe('rankings: deleting a score (account deletion)', () => {
