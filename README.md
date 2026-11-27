@@ -81,7 +81,8 @@ game and see the ranking without touching the real project.
 - Anyone can read rankings. A signed-in player can write only their own entry
   (`rankings/<board>/entries/<their uid>`), only with the exact set of fields, in range, with the
   board matching the duration and filter, `createdAt` set by the server, and only to replace a
-  lower score with a higher one. Nobody can delete entries.
+  lower score with a higher one. A signed-in player can delete only their own entries (account
+  deletion, which the App Store requires of apps with sign-in); nobody can delete anyone else's.
 
 ## Environment variables
 
