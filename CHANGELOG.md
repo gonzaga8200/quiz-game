@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.31.0](https://github.com/gonzaga8200/quiz-game/compare/v0.30.0...v0.31.0) (2026-11-27)
+
+
+### Features
+
+* **rules:** let players delete their own ranking entries ([#93](https://github.com/gonzaga8200/quiz-game/issues/93)) ([7ec7f67](https://github.com/gonzaga8200/quiz-game/commit/7ec7f67e3bc218d4ef96cac64bac27b552267bb4))
+
 ## [0.30.0](https://github.com/gonzaga8200/quiz-game/compare/v0.29.0...v0.30.0) (2026-11-24)
 
 
