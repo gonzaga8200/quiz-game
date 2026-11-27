@@ -343,10 +343,30 @@ describe('rankings: improving a score', () => {
       ),
     )
   })
+})
 
-  it('never allows deleting a score', async () => {
+describe('rankings: deleting a score (account deletion)', () => {
+  it('lets a player delete their own entry', async () => {
     await seedEntry('ana', 100)
-    await assertFails(deleteDoc(doc(asUser('ana'), path('ana'))))
+    await seedEntry('ana', 80, '60_medio_ciencias')
+    await assertSucceeds(deleteDoc(doc(asUser('ana'), path('ana'))))
+    await assertSucceeds(deleteDoc(doc(asUser('ana'), path('ana', '60_medio_ciencias'))))
+    const left = await getDoc(doc(anonymous(), path('ana')))
+    expect(left.exists()).toBe(false)
+  })
+
+  it('lets a player delete an entry that does not exist (every board is cleared blindly)', async () => {
+    await assertSucceeds(deleteDoc(doc(asUser('ana'), path('ana', '120_dificil'))))
+  })
+
+  it("rejects deleting someone else's entry", async () => {
+    await seedEntry('ana', 100)
+    await assertFails(deleteDoc(doc(asUser('mallory'), path('ana'))))
+  })
+
+  it('rejects anonymous visitors deleting an entry', async () => {
+    await seedEntry('ana', 100)
+    await assertFails(deleteDoc(doc(anonymous(), path('ana'))))
   })
 })
 

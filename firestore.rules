@@ -9,7 +9,8 @@ rules_version = '2';
 //   part is only there when the game was limited to one category (the entry then carries a
 //   `category` field); games that mix every category keep the original board ids. A signed-in player
 //   can only write their own document, only with valid fields and ranges, and only
-//   to replace a lower score with a higher one.
+//   to replace a lower score with a higher one. A player can delete their own documents
+//   (account deletion, which the App Store requires); nobody can delete anyone else's.
 //
 // Keep the numbers below in sync with core/constants.ts (a test checks this).
 service cloud.firestore {
@@ -25,7 +26,8 @@ service cloud.firestore {
       allow create: if isValidEntry(boardId, uid);
       allow update: if isValidEntry(boardId, uid)
         && request.resource.data.points > resource.data.points;
-      allow delete: if false;
+      // Each player can delete only their own entry (account deletion).
+      allow delete: if request.auth != null && request.auth.uid == uid;
     }
 
     // Anything not listed above is closed.
